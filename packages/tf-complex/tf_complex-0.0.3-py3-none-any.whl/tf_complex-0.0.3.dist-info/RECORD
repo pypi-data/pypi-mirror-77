@@ -1,0 +1,9 @@
+tf_complex/__init__.py,sha256=SJVF2OYnxNqJnryfanLQa16Md4zgsb-6XaYiJR52J9Y,458
+tf_complex/activations.py,sha256=kZdViERMxzqu0saLNTJLtdadOUouLIaZJcy-0ewJ6Jk,5148
+tf_complex/convolutions.py,sha256=9yFjz9upUIm4YPMGFm2R7153F4wWR2zCc9zK4EP9MKc,3753
+tf_complex/dense.py,sha256=qmAzye6Hf5sja_Dl-mVnUUvTj8N5LiIJzaCufcLSuzw,3323
+tf_complex-0.0.3.dist-info/LICENSE,sha256=y_2ojeQ7cpx7syo977vIaoC6VORXDQCZMgyJZugNefQ,1072
+tf_complex-0.0.3.dist-info/METADATA,sha256=wNPLNsC7VSPRRUf9pEaMyk6AFLD2aImOd7m53wBS-TE,1651
+tf_complex-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tf_complex-0.0.3.dist-info/top_level.txt,sha256=1_MjxuNYQAk-jBrSynncxcXm3v78M2elyk_bibS0LbM,11
+tf_complex-0.0.3.dist-info/RECORD,,
