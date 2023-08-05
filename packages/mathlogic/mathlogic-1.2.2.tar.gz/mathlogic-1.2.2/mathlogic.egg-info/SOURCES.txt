@@ -1,0 +1,9 @@
+setup.py
+mathlogic/__init__.py
+mathlogic/leaderboardutils.py
+mathlogic.egg-info/PKG-INFO
+mathlogic.egg-info/SOURCES.txt
+mathlogic.egg-info/dependency_links.txt
+mathlogic.egg-info/not-zip-safe
+mathlogic.egg-info/requires.txt
+mathlogic.egg-info/top_level.txt
