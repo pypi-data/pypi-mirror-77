@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: kurcoder
+Version: 0.0.1
+Summary: Simple encoder & decoder tool
+Home-page: https://github.com/0xkurome/Kurcoder
+Author: 0xkurome
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/0xkurome/Kurcoder/archive/v0.0.1
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3

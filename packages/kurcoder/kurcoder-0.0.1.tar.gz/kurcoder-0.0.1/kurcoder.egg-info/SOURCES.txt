@@ -1,0 +1,7 @@
+README.md
+setup.py
+kurcoder.egg-info/PKG-INFO
+kurcoder.egg-info/SOURCES.txt
+kurcoder.egg-info/dependency_links.txt
+kurcoder.egg-info/requires.txt
+kurcoder.egg-info/top_level.txt
