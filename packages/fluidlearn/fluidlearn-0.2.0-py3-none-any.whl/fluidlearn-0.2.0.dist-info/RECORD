@@ -1,0 +1,10 @@
+fluidlearn/__init__.py,sha256=4BIoX-2W2I0woTQgjJc4JD-3fOvi9TQ-EFiqjBnNbeg,102
+fluidlearn/dataprocess.py,sha256=mXBX9XFxPwxb-dTjgdzIYkHe1nZKV92brt3cr_EyccU,9511
+fluidlearn/fluidlearn.py,sha256=L-sOMatkJf7CrsnUqPzsfIoYJNnZhd-xeFtm55LYdEM,8202
+fluidlearn/fluidmodels.py,sha256=0OOPjPgT-lo__4xugXL4nVytfsmYyzDXj8z3mdYYUdk,11027
+fluidlearn/losses.py,sha256=OoMxtRBirKGdQxxR_UW6bFhxyIeh0FteWPgc60PHPgY,2761
+fluidlearn-0.2.0.dist-info/LICENSE.txt,sha256=9wEX5F_6utwiJkslTB3U2RdLEVCymmgscwRQ3g5PlNo,1059
+fluidlearn-0.2.0.dist-info/METADATA,sha256=22oZ3zjjSvTzlZ_m-OzNita_MjFMhWBUwuvwXcAJ5qs,6660
+fluidlearn-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+fluidlearn-0.2.0.dist-info/top_level.txt,sha256=Ym3N5hMVa5-c49xAFyHlZepTBYgYtG2ra8gRm4_3IQs,11
+fluidlearn-0.2.0.dist-info/RECORD,,
