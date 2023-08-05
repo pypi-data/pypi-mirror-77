@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: django-easy-paginate
+Version: 0.0.4
+Summary: A django package for paginating api responses
+Home-page: https://github.com/ejasmuhamed/django-easy-paginate
+Author: Ejas Muhammed
+Author-email: ejasmuhamed@gmail.com.com
+License: UNKNOWN
+Description: Django Easy Paginator for API Response
+        =====
+        
+        django-easy-paginate is a simple Django app to conduct pagination for api responses. 
+        
+        Detailed documentation is in the "docs" directory.
+        
+        Quick start
+        -----------
+        
+        1. Add "api_paginator" to your INSTALLED_APPS setting like this::
+        
+            INSTALLED_APPS = [
+                ...
+                'api_paginator',
+            ]
+        
+        2. Import paginate from api_paginator.api_paginator in views.py as::
+        
+        		from api_paginator.api_paginator import paginate
+        
+        3. Use paginate as ::
+                    
+                    result = paginate(data_as_array, page_number, per_page_count_integer_value)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
