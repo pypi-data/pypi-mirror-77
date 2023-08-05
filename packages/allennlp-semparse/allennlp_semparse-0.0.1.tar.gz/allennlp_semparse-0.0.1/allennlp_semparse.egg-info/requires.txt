@@ -1,0 +1,7 @@
+parsimonious>=0.8.0
+sqlparse>=0.2.4
+unidecode
+editdistance
+nltk
+flaky
+allennlp==1.0
