@@ -1,0 +1,3 @@
+[console_scripts]
+sedpy = sedpy.__main__:main
+
