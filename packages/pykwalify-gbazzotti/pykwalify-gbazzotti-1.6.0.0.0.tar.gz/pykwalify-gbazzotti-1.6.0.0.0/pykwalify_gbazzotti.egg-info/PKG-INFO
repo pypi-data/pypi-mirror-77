@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: pykwalify-gbazzotti
+Version: 1.6.0.0.0
+Summary: Copy of bfabio.pykwalify
+Home-page: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.4

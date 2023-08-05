@@ -1,0 +1,13 @@
+setup.py
+pykwalify/__init__.py
+pykwalify/cli.py
+pykwalify/compat.py
+pykwalify/core.py
+pykwalify/errors.py
+pykwalify/rule.py
+pykwalify/types.py
+pykwalify_gbazzotti.egg-info/PKG-INFO
+pykwalify_gbazzotti.egg-info/SOURCES.txt
+pykwalify_gbazzotti.egg-info/dependency_links.txt
+pykwalify_gbazzotti.egg-info/requires.txt
+pykwalify_gbazzotti.egg-info/top_level.txt
