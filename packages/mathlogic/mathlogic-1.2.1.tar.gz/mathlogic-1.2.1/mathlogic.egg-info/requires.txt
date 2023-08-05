@@ -1,0 +1,5 @@
+pandas
+jinja2
+numpy
+mysql-connector-python
+Ipython
