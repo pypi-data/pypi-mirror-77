@@ -1,0 +1,6 @@
+pip_example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pip_example/example.py,sha256=3dBRRHN6No441wlb0Xpmlb4QnlKz29YaNLnJ50kvyb4,119
+pip_example-0.0.2.dist-info/METADATA,sha256=qIHzs7PlkwAVBWz8WM9eL7ljcImGkqRL2wauU9NPwQw,546
+pip_example-0.0.2.dist-info/WHEEL,sha256=NvLheO0f8_uAcwoMijaCN7IVIIaldpzEnN1plXS6P6E,97
+pip_example-0.0.2.dist-info/top_level.txt,sha256=pt3fd9OwiTLC0M5FLqR5UH46p6oTrIxCAuaFlbtnRQI,12
+pip_example-0.0.2.dist-info/RECORD,,
