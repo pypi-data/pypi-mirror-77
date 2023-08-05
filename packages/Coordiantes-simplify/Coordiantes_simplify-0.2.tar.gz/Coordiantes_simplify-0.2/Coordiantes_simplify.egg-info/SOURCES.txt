@@ -1,0 +1,8 @@
+setup.py
+Coordiantes_simplify/__init__.py
+Coordiantes_simplify/point.py
+Coordiantes_simplify.egg-info/PKG-INFO
+Coordiantes_simplify.egg-info/SOURCES.txt
+Coordiantes_simplify.egg-info/dependency_links.txt
+Coordiantes_simplify.egg-info/not-zip-safe
+Coordiantes_simplify.egg-info/top_level.txt
