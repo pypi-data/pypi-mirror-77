@@ -1,0 +1,6 @@
+tqdm
+typeguard
+visualdl>=2.0.0b
+opencv-python
+PyYAML
+shapely

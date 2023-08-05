@@ -1,0 +1,6 @@
+recursive-include ppdet/core *
+recursive-include ppdet/data *
+recursive-include ppdet/experimental *
+recursive-include ppdet/ext_op *
+recursive-include ppdet/modeling *
+recursive-include ppdet/utils *
