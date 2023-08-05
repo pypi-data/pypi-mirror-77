@@ -1,0 +1,14 @@
+agralogics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agralogics/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agralogics/models/base.py,sha256=IiVX6njtM9rk5jOKDVRktAncCVhPvsLaqBh1U0q0L-s,2372
+agralogics/models/disease/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agralogics/models/disease/powderymildew.py,sha256=OvgIVnmr4OP8xlpApiZlIXaJ3VqbsanbCDpskBd0DWA,122
+agralogics/models/weather/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agralogics/models/weather/chillhours.py,sha256=z4b8xf9qDoh52OQgRzQvtV7jtJfdNk_q_5xa85LjBZ8,1540
+agralogics/models/weather/growingdegreedays.py,sha256=4wHxAP8wmq6zJ61oumyCZNG_RzNvZDUqAcaugNBQTc8,602
+agralogics/models/weather/leafwetnessduration.py,sha256=nuYrZ8oAyIHOFtD6k592vYljJ_dgZUlQhxgL6nwJASI,1787
+agralogics-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+agralogics-1.0.1.dist-info/METADATA,sha256=MFrBXdfirbDVGe2lZwdD1dsycIM6qhlCBkcV73y2YIA,699
+agralogics-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+agralogics-1.0.1.dist-info/top_level.txt,sha256=4SEjWLspYeGkD9L6bfWPE4sItGnyVTikSCoWJTaxJDg,11
+agralogics-1.0.1.dist-info/RECORD,,
