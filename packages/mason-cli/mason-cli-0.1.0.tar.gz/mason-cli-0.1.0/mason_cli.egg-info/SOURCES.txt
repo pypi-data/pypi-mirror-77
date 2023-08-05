@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.py
+mason_cli.egg-info/PKG-INFO
+mason_cli.egg-info/SOURCES.txt
+mason_cli.egg-info/dependency_links.txt
+mason_cli.egg-info/not-zip-safe
+mason_cli.egg-info/requires.txt
+mason_cli.egg-info/top_level.txt
+mason_dask/__init__.py
+mason_dask/jobs/__init__.py
+mason_dask/jobs/executed.py
+mason_dask/jobs/format.py
