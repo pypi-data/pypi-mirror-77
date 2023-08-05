@@ -1,0 +1,3 @@
+[console_scripts]
+supervisor-console = supervisor_console.__main__:main
+
