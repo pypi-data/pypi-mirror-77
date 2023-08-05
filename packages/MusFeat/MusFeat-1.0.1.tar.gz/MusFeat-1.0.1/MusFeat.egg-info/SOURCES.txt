@@ -1,0 +1,13 @@
+setup.py
+MusFeat.egg-info/PKG-INFO
+MusFeat.egg-info/SOURCES.txt
+MusFeat.egg-info/dependency_links.txt
+MusFeat.egg-info/top_level.txt
+musfeat/__init__.py
+musfeat/musfeat.py
+musfeat/analysis/__init__.py
+musfeat/analysis/audio_analysis.py
+musfeat/helper/__init__.py
+musfeat/helper/settings.py
+musfeat/models/__init__.py
+musfeat/models/audio_models.py
