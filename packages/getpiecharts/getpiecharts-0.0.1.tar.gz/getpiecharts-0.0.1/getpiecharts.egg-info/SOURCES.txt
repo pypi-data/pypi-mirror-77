@@ -1,0 +1,16 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+.idea/misc.xml
+.idea/modules.xml
+.idea/pie1.iml
+.idea/workspace.xml
+.idea/inspectionProfiles/profiles_settings.xml
+getpiecharts/__init__.py
+getpiecharts.egg-info/PKG-INFO
+getpiecharts.egg-info/SOURCES.txt
+getpiecharts.egg-info/dependency_links.txt
+getpiecharts.egg-info/requires.txt
+getpiecharts.egg-info/top_level.txt

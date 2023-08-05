@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: getpiecharts
+Version: 0.0.1
+Summary: data visualisation
+Home-page: UNKNOWN
+Author: Akash Sathe
+Author-email: akashsathe79@gmail.com
+License: MIT
+Description: This library is used to plot pie charts for all columns at a time having data type "objective".
+        we just have to give one parameter which is our "dataframe"
+        for example
+        your csv file name is "train.csv"
+        
+        from getpiecharts import piecharts
+        data=pd.read_csv("train.csv")
+        piecharts(data)
+        
+        we will get all pie charts
+        
+        Change Log
+        ==========
+        
+        0.0.1 (20/08/2020)
+        -------------------
+        - First Release
+Keywords: piecharts
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
