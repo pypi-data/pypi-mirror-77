@@ -1,0 +1,9 @@
+foliant>=1.0.5
+foliantcontrib.utils.combined_options
+foliantcontrib.utils.preprocessor_ext
+foliantcontrib.plantuml
+psycopg2-binary
+cx_Oracle
+pyodbc
+jinja2
+PyYAML
