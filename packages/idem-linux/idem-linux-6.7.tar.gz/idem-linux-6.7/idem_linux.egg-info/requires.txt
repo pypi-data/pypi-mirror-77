@@ -1,0 +1,7 @@
+aiofiles>=0.3.0
+distro>=1.0.4
+grainsv2>=9
+grains-virt==2
+grains-universal
+idem>=7.4
+idem-posix
