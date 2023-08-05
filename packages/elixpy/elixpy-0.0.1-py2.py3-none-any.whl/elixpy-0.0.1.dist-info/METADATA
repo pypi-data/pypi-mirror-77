@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: elixpy
+Version: 0.0.1
+Summary: A set of modules which emulate the standard library of Elixir in Python.
+Home-page: UNKNOWN
+License: UNKNOWN
+Author: Pradhyum Rajasekar
+Author-email: drpradhyum2016@outlook.com
+Classifier: License :: OSI Approved :: MIT License
