@@ -1,0 +1,13 @@
+pdf2emb_nlp/__init__.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+pdf2emb_nlp/arrange_text.py,sha256=sfBSn10S-Moqaa4NTjYylE3RwTH0PRit_VO1VmR9y-Y,2243
+pdf2emb_nlp/embedder.py,sha256=CKY3QprCZdG3-_KwMnfJ4LvCmHbgGSgIg5dHXp9pEoA,12638
+pdf2emb_nlp/json_creator.py,sha256=XiFPbNMvquEcNJn1UvWiEV-tE53lBFcxlptagMzduTc,1799
+pdf2emb_nlp/logging.yaml,sha256=VUVI2cVL4QmDz1yNGZNyILUTM66CX3l7s0H9hvfOqYs,1581
+pdf2emb_nlp/process_user_queries.py,sha256=UJfA-56iGIRwrQbBHAyX6We6EVXQasecPZ-C1R1FNFA,9200
+pdf2emb_nlp/scraper.py,sha256=ZnH3nFM2rH0B5efEJQy1rK5QVxO_jPtJqoIq_MNcMmg,6196
+pdf2emb_nlp/__pycache__/__init__.cpython-38.pyc,sha256=n0KZ_DZrCF9hVFTXm__vIQm3r7Rdoh4YxDLr6wEt77g,177
+pdf2emb_nlp-0.2.0.dist-info/LICENSE,sha256=jOcDTvT5zHibIZeQvjOvMKZTsZitpvSDyHrkn9t78_I,1070
+pdf2emb_nlp-0.2.0.dist-info/METADATA,sha256=tOsB6h9eykorpKsb5zaNhzQEC9NN_RPt6LGCfALPSrw,18229
+pdf2emb_nlp-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pdf2emb_nlp-0.2.0.dist-info/top_level.txt,sha256=0KR9SZK-3fmP28OqsQnD0-rvZARCfpelmwNFRb9SpV0,12
+pdf2emb_nlp-0.2.0.dist-info/RECORD,,
