@@ -1,0 +1,23 @@
+include LICENSE
+include MANIFEST.in
+include README.rst
+include requirements.txt
+include setup.py
+include _setup.py
+include _version.py
+include CMakeLists.txt
+include cmake/*.cmake
+
+include pybind11/CMakeLists.txt
+recursive-include pybind11/include *.h *.hpp
+include pybind11/pybind11/*
+include pybind11/tools/*
+
+recursive-include xsimd/include *.hpp
+
+include _cppsim_mpi.cpp
+include _cppstabsim.cpp
+include _sched_cpp.cpp
+recursive-include src *.h *.hpp *.cpp *.txt
+recursive-include python *.py
+global-exclude *_test.py
