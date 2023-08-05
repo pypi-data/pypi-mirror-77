@@ -1,0 +1,61 @@
+#!python
+"""LICENSE
+Copyright 2017 Hermann Krumrey <hermann@krumreyh.com>
+
+This file is part of ci-scripts.
+
+ci-scripts is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+ci-scripts is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with ci-scripts.  If not, see <http://www.gnu.org/licenses/>.
+LICENSE"""
+
+import os
+import sys
+import shutil
+from ci_scripts.common import process_call
+from ci_scripts.progstats import progstats_transfer
+
+
+def main():
+    """
+    Generates git statistics using git_stats and gitstats and copies them
+    to a progstats data directory
+
+    Also, the gitstats and git_stats programs need to be installed.
+
+    :return: None
+    """
+    project = os.environ["CI_PROJECT_NAME"]
+
+    gitstats_temp_dest = "gitstats_temp_dest"
+    git_stats_temp_dest = "git_stats_temp_dest"
+
+    for path in [gitstats_temp_dest, git_stats_temp_dest]:
+        if not os.path.isdir(path):
+            os.makedirs(path)
+
+    process_call(["gitstats", ".", gitstats_temp_dest])
+    process_call(["git_stats", "generate", "-o", git_stats_temp_dest])
+
+    progstats_transfer(gitstats_temp_dest, "gitstats", project)
+    progstats_transfer(git_stats_temp_dest, "git_stats", project)
+
+    for path in [gitstats_temp_dest, git_stats_temp_dest]:
+        shutil.rmtree(path)
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as e:
+        print(e)
+        sys.exit(1)
