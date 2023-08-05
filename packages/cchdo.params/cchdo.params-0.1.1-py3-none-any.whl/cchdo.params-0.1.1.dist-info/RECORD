@@ -1,0 +1,14 @@
+cchdo.params-0.1.1-py3.8-nspkg.pth,sha256=bkAYrhmpPTV_HY4MvBSIQrHAeNYG9kUD77gWJfdhmhg,534
+build/lib/cchdo/params/__init__.py,sha256=dnvo5Lc-IEji-rSEoytj61Vs-XfyBY-3gTIbx4PPEqw,5742
+build/lib/cchdo/params/_version.py,sha256=vBktGL2hbC8AGYAHDsD3A3D9J2vjsQD8XVX76JfgZuw,31
+build/lib/cchdo/params/models.py,sha256=8j6V2G3wzvl8qKI6HKnpbfpNN2deNJZzNGU69E-rhNE,4784
+cchdo/params/__init__.py,sha256=dnvo5Lc-IEji-rSEoytj61Vs-XfyBY-3gTIbx4PPEqw,5742
+cchdo/params/_version.py,sha256=vBktGL2hbC8AGYAHDsD3A3D9J2vjsQD8XVX76JfgZuw,31
+cchdo/params/models.py,sha256=8j6V2G3wzvl8qKI6HKnpbfpNN2deNJZzNGU69E-rhNE,4784
+cchdo/params/params.sqlite3,sha256=fidT45vLpOiJEluGLxtHcLP4OCpLBDKPW3uKzUnCcrU,4018176
+cchdo.params-0.1.1.dist-info/LICENSE.md,sha256=jkaxltSFqJXSgf9NMalPKpHn70lXIkAJy9v5Bnuigeo,1499
+cchdo.params-0.1.1.dist-info/METADATA,sha256=knBInqwxZA8p7Cs-VcaT9mqYOo-WkixrAjVq0U0Ki9M,3393
+cchdo.params-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cchdo.params-0.1.1.dist-info/namespace_packages.txt,sha256=5tjN1VA6_Pr0JNbfJlRK9xjDa3SEtrFbFpZiZDW_C0Y,6
+cchdo.params-0.1.1.dist-info/top_level.txt,sha256=-jdUqy173bDJr9oylZ9m0Of_HbrFoaqZ-OcmTtTwqpI,12
+cchdo.params-0.1.1.dist-info/RECORD,,
