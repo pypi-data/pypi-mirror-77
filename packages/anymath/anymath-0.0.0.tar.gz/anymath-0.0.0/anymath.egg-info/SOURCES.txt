@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+anymath/_init_.py
+anymath.egg-info/PKG-INFO
+anymath.egg-info/SOURCES.txt
+anymath.egg-info/dependency_links.txt
+anymath.egg-info/not-zip-safe
+anymath.egg-info/top_level.txt
