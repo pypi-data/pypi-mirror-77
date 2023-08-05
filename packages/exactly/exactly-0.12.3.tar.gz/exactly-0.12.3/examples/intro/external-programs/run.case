@@ -1,0 +1,33 @@
+#
+# The "run" instruction can be used in all phases except "act".
+#
+
+[setup]
+
+
+run my-setup-helper-program with arguments
+
+run -python -existing-file my-py-setup-helper.py 'with argument'
+
+run -python -c :> print('This does some setup!')
+
+run -ignore-exit-code % stat non-existing-file
+
+
+[act]
+
+
+system-under-test
+
+
+[assert]
+
+
+#
+# Assertion passes if exit code from the program is 0,
+# unless -ignore-exit-code is given.
+#
+
+run my-assert-helper-program
+
+run -ignore-exit-code % stat non-existing-file
