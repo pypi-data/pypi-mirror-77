@@ -1,0 +1,12 @@
+fate_testsuite/__init__.py,sha256=KFy2mWamhF8bBRQdZpQMkY0KsKKEZA8zdNqNno6w0pI,616
+fate_testsuite/_ascii.py,sha256=l2Qln7JlIVcnLCdnrYCVHqHWKAQHcS1hEzTQwokxI9Q,2814
+fate_testsuite/_client.py,sha256=MrJAYyZqKNVSZa1g5scYiMJrJuMl0VHE7J4aN9X2kKw,3136
+fate_testsuite/_config.py,sha256=k832ynIU1_rK7khggbk17-QIRZU87yVh2QLxtN_FviQ,7083
+fate_testsuite/_flow_client.py,sha256=IVUSBYE2SsrAdnIzpfm2KkAybFD5EEWFqXolq_Szf88,8155
+fate_testsuite/_io.py,sha256=ybMb9d6mVzu8qtndYQvp0O0-aKLuekOoIUaIraG8q3o,1624
+fate_testsuite/_parser.py,sha256=WQQbehcqVcY6wslQ1fyi3EOmMii0VtIW5U2H36jA1tc,7664
+fate_testsuite/cli.py,sha256=LXfXVymLtzaxIEb1-9dZvuTU_bsYZBUJtkopSKcgwQ0,10745
+sage_testsuite-0.1.0a6.dist-info/entry_points.txt,sha256=hQgf_l0niDKRifxvh-n1k9Bszefv6D8YugCwhrwr-bo,57
+sage_testsuite-0.1.0a6.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+sage_testsuite-0.1.0a6.dist-info/METADATA,sha256=IOywwbkOtCgF_eMdSc2fwc3Th9PJdeaJCApZMlcB9fw,4149
+sage_testsuite-0.1.0a6.dist-info/RECORD,,
