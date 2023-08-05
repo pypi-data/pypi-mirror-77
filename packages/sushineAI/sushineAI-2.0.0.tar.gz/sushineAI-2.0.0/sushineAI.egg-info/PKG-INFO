@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sushineAI
+Version: 2.0.0
+Summary: SuShine DataIntelligencePlatform Helper
+Home-page: https://www.sushine.net/pages/web/industrialBrain.html
+Author: Xiang zhang
+Author-email: zhangx@luculent.net
+License: UNKNOWN
+Project-URL: official website, https://www.sushine.net
+Description: sushineAI
+        ===========
+        Description: Simplify the process for developers who develop algorithms on sushine data intelligence platform.
+        
+Keywords: sushine
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
