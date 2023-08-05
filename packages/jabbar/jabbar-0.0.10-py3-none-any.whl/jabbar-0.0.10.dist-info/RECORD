@@ -1,0 +1,10 @@
+jabbar/__init__.py,sha256=hnLnjufT80pNXCwTDlkSaIi2yQdradfncXRAFk3g1kI,109
+jabbar/bar.py,sha256=aLp0vXY5bKdqdnaXnyfJ4vqmB8qJE1MgU9bvBwezqAw,5437
+jabbar/version.py,sha256=BoVJQeMKtuG1fA5EOWzS6B2eSz9v_xrbiC7pizzH_s8,47
+test/__init__.py,sha256=0qpGh1iOiyOl9C7IJhNz4xLQjkjVUx0ty4-QV1zEBg8,24
+test/test_basic.py,sha256=F7Smg0b0G02LmuYXf_6bj1fDA9iPr9owm2fWS9oIPkQ,1602
+jabbar-0.0.10.dist-info/LICENSE,sha256=7Y1S9H1fbDTw6whMv6y5t_B580_GvxPgHahlEg89Ejs,1072
+jabbar-0.0.10.dist-info/METADATA,sha256=KLkCwqAFAvBv1w5w3T84wJCaGTZITupaEkgWQDBSFlU,3062
+jabbar-0.0.10.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+jabbar-0.0.10.dist-info/top_level.txt,sha256=WY5hOp1KfUyhdmXN7cIbhEb7owmIEBm4A0Bi0gMSzOo,12
+jabbar-0.0.10.dist-info/RECORD,,
