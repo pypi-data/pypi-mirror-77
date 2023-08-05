@@ -1,0 +1,15 @@
+html_generators/README.md,sha256=XBAz5K_xI2OOQOq3xJb1OV2rGMnCTjFimPTKQwtLWn8,18
+html_generators/RELEASE_NOTES.md,sha256=9dd1frd_wBC6rITmMzWYetGb0fBW0lqelflniYJo5tw,749
+html_generators/VERSION,sha256=n3cDSx61fSTyGsfetlycyZ9jtyd14xHx8oCrK2wuBqI,5
+html_generators/__init__.py,sha256=3OgKq-z7QSH7wSKhhZB3MhMu8f7mypvs7B9_HTUeH1A,262
+html_generators/base.py,sha256=CSRvqKoIGR0z-pRxgKrJobSv8CsP-Eqi-RrDFkM1Ze8,1135
+html_generators/django.py,sha256=sPxXiztPM5_-Agx_18389CStag8fBjL_ZzuaXeLoTbg,1237
+html_generators/document.py,sha256=_IhNeRDf0cQ16d6Isi_tRKD-rhnxjeRsBcLrCSeFqIk,231
+html_generators/elements.py,sha256=R2GOF_-8okwtSofMR-ODchzA19RdksNsvlky8tMcTBE,6193
+html_generators/fragment.py,sha256=J1cvLytCinZaqKmTEYpPdk3L7KdTi9EuwUk4J7GKRjI,521
+html_generators/mark_safe.py,sha256=JaKsWRjFDaytQUYuoIlZrl8sEZ2DckWXme5B7GeBfJU,157
+html_generators-1.2.0.dist-info/LICENSE,sha256=3zadg6RilfqcoXgQ6j6BXFbJBGZbjlpiAxtVboyrBQk,1072
+html_generators-1.2.0.dist-info/METADATA,sha256=K6377_sZq3y4nsHfWeJCinh96AFvfygRUNRq7ZUD35o,500
+html_generators-1.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+html_generators-1.2.0.dist-info/top_level.txt,sha256=xTmrc6UMfA6D_HE4Oi_rthBydl2byRnRCBSF7PcEpLw,16
+html_generators-1.2.0.dist-info/RECORD,,
