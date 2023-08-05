@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: murdock-ci
+Version: 0.1.0
+Summary: A simple gihub CI server
+License: GPL-2.0-or-later
+Author: Kaspar Schleiser
+Author-email: kaspar@schleiser.de
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: agithub (>=2.2.2,<3.0.0)
