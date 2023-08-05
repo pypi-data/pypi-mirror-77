@@ -1,0 +1,10 @@
+README.md
+setup.py
+elkAnalyzer/DOS.py
+elkAnalyzer/__init__.py
+elkAnalyzer/bands.py
+elkAnalyzer/specialPoints.py
+elkAnalyzer.egg-info/PKG-INFO
+elkAnalyzer.egg-info/SOURCES.txt
+elkAnalyzer.egg-info/dependency_links.txt
+elkAnalyzer.egg-info/top_level.txt
