@@ -1,0 +1,13 @@
+dragotrans/__init__.py,sha256=dHy7JwvWTMS3P2us5KSigxiLS1kx4EOcmbkV6x85gns,230
+dragotrans/client.py,sha256=0BZdbHSjrk8SGugZrG-Q8J8GsLR4O7w7sIk9WtFhQhI,10333
+dragotrans/constants.py,sha256=ZAd_Y8hJJJCLNNnLFi_b6o91S3ki1oFQ8ybttDyCooQ,9055
+dragotrans/gtoken.py,sha256=o_NKEOnZT7jHDdS3sOCcLnHiGZC2YpTnoCEubd5cCd4,6998
+dragotrans/models.py,sha256=GQ_g7iODTr5-rd7uupuXlv9dT7VVx_-4K8UGWnaXhlE,1548
+dragotrans/urls.py,sha256=tKUbbC05UDGqQ8VgM65l1ECLwjolgVD3T5hAWJaqYtM,174
+dragotrans/utils.py,sha256=G4F8JFA1g2G22RE-UiM43y4m5VhGkjk2YcsYYkwRk3c,1945
+dragotrans-3.0.2.data/scripts/translate,sha256=0TiglwJnbFYX1GbIyng_ngMnHXET4gSGtPc4PWGDlNY,1340
+dragotrans-3.0.2.dist-info/LICENSE,sha256=WBM2Ad-P6SHHkQtDIQ1yTaFnUDezNlLZDd4QGp_NoZc,1077
+dragotrans-3.0.2.dist-info/METADATA,sha256=Ack51sVG_87PdWycU1qRcXOqKvYe6838q3MKEPqy5vE,7361
+dragotrans-3.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+dragotrans-3.0.2.dist-info/top_level.txt,sha256=MOeaf6hG6XCaTKCjwTgeDL4UE-JEiOxNxKbA4D1LjWM,11
+dragotrans-3.0.2.dist-info/RECORD,,
