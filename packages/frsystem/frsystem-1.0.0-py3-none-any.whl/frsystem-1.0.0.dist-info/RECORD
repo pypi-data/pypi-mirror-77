@@ -1,0 +1,10 @@
+frsystem/__init__.py,sha256=dSewy1sP3ef2_t_Z9X0BfGrkBWJFvOJ9o_-xtVPIwUA,207
+frsystem/frs.py,sha256=lOE7RR8IfYzpsjLo9bq3xQEi4jEmDiFNpYKmxydbgms,19608
+frsystem/helper.py,sha256=9WqmcQnOgmfr7ABAiFDYWkoR1e3vv72JYL540UYJB0o,1319
+frsystem/models.py,sha256=Kprknj4h9yNqE2Ea7GJ0HfUsj0HXEpQ0XT-kT83ljIY,1463
+frsystem/version.py,sha256=dHuoY6voK7np1A7oRzw1xyBy7CK9_KBAc4FCKW29uRQ,21
+frsystem/vggface.py,sha256=0f-_7gzEDc3m1XKDG-8n7XEErQTni3SjMAGG0KAJvdo,2555
+frsystem-1.0.0.dist-info/METADATA,sha256=lIrsFxyt0eIOk9h_gII6rVSwS59_RfxrJslfE9lmkhY,5726
+frsystem-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+frsystem-1.0.0.dist-info/top_level.txt,sha256=xHEt5yycwJ04d5aIMrQZ-GyPsIHcvwap48pc-uJXTIM,9
+frsystem-1.0.0.dist-info/RECORD,,
