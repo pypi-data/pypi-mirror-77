@@ -1,0 +1,10 @@
+ballet_submit_labextension/__init__.py,sha256=UPml62FKuBU0k5I5RPspriga-CBcQhJRT7MnUPc6pqQ,850
+ballet_submit_labextension/app.py,sha256=NhlgzZu76xf79miVPJmM57oas6C50LOFxQ3qNdn0DVU,14127
+ballet_submit_labextension/handlers.py,sha256=QFoyFa0wbfE6mOxE2DL5JcWPhsSmk5XDX6zC763c7lA,4731
+ballet_submit_labextension-0.7.1.data/data/etc/jupyter/jupyter_notebook_config.d/ballet-submit-labextension.json,sha256=VedsJn0vtEdObkriMBFs0BTNVVJcEDSfQz3MxcTifC8,103
+ballet_submit_labextension-0.7.1.data/data/share/jupyter/lab/extensions/ballet-submit-labextension-0.7.1.tgz,sha256=QJrnjpHQFjNaIKjIWdCDa-T2KqmDTMAq_a_7txR-_vs,6758
+ballet_submit_labextension-0.7.1.dist-info/LICENSE,sha256=8wZnyB4E_uDi2UWzA-RCYMiC1g8gCH4dmLCCoyRaIgE,1097
+ballet_submit_labextension-0.7.1.dist-info/METADATA,sha256=pUaHpALgKSlShuuxFvlcuC3WDYVBG8jNm6Dgr3uS6h4,6705
+ballet_submit_labextension-0.7.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ballet_submit_labextension-0.7.1.dist-info/top_level.txt,sha256=1G4KY-X_d6ScXnGyv8xJ9jFUX6p97J3byKBnGucrvEM,27
+ballet_submit_labextension-0.7.1.dist-info/RECORD,,
