@@ -1,0 +1,6 @@
+README.md
+setup.py
+texttool.egg-info/PKG-INFO
+texttool.egg-info/SOURCES.txt
+texttool.egg-info/dependency_links.txt
+texttool.egg-info/top_level.txt
