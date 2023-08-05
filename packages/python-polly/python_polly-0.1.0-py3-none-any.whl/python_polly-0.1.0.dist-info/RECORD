@@ -1,0 +1,11 @@
+polly/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polly/cli.py,sha256=bLyyE-mzdZi_72b4rR8TK219uCv41qqhsehnXoCO-jg,365
+polly/client.py,sha256=1wC0hWhDduNGmw77I3XL7pG7vM8KeGMG4Q-Uuaq8sls,390
+polly/core.py,sha256=zho1NRxsq7_a_Tduiv6X0oMAxXIYnYT0kf-BYddC_CM,4863
+polly/server.py,sha256=WNoem0YybGKMq2kl69jd15F2mPshHp94KveK3lL65E4,1133
+python_polly-0.1.0.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+python_polly-0.1.0.dist-info/METADATA,sha256=I8cW-G78fJm22fnNmDSemRKlRUFZaGDMdI6S0APALT8,1884
+python_polly-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+python_polly-0.1.0.dist-info/entry_points.txt,sha256=k8cFbIzeq9AAI1vaEe8v-PTJtrpqJRsLrTuE65jVW28,59
+python_polly-0.1.0.dist-info/top_level.txt,sha256=EkSkcwyJzOgYwtAj8vzBlpctLSCNJPlX8ncNfJrYSug,6
+python_polly-0.1.0.dist-info/RECORD,,
