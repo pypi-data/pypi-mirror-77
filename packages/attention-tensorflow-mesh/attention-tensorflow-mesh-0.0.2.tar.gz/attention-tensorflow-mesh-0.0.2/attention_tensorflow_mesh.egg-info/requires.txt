@@ -1,0 +1,2 @@
+mesh-tensorflow
+tensorflow-gpu>=1.15

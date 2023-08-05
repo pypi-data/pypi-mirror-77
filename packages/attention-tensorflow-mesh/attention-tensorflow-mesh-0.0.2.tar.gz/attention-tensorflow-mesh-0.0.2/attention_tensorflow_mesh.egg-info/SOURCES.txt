@@ -1,0 +1,9 @@
+README.md
+setup.py
+attention_tensorflow_mesh/__init__.py
+attention_tensorflow_mesh/attention_tensorflow_mesh.py
+attention_tensorflow_mesh.egg-info/PKG-INFO
+attention_tensorflow_mesh.egg-info/SOURCES.txt
+attention_tensorflow_mesh.egg-info/dependency_links.txt
+attention_tensorflow_mesh.egg-info/requires.txt
+attention_tensorflow_mesh.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: attention-tensorflow-mesh
+Version: 0.0.2
+Summary: A bunch of attention related functions, for constructing transformers in tensorflow mesh
+Home-page: https://github.com/lucidrains/attention-tensorflow-mesh
+Author: Phil Wang
+Author-email: lucidrains@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: transformers,artificial intelligence
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
