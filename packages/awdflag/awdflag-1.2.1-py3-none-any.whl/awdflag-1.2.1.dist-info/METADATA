@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: awdflag
+Version: 1.2.1
+Summary: Test setup
+Home-page: https://04z.net
+Author: Evi1oX
+Author-email: 774299952@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: paramiko
+Requires-Dist: pysmb
+Requires-Dist: pywinrm
+Requires-Dist: pypsrp
+Requires-Dist: impacket
+Requires-Dist: pyasn1 (>=0.2.3)
+Requires-Dist: pycryptodomex
+Requires-Dist: pyOpenSSL (>=0.13.1)
+Requires-Dist: six
+Requires-Dist: ldap3 (!=2.5.0,!=2.5.2,!=2.6,>=2.5)
+Requires-Dist: ldapdomaindump (>=0.9.0)
+Requires-Dist: flask (>=1.0)
+Requires-Dist: cx-Oracle
+Requires-Dist: pandas
+Requires-Dist: pymssql
+
+UNKNOWN
+
+
