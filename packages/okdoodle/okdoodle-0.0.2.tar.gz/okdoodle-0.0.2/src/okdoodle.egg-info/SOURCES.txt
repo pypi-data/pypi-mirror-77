@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/okdoodle.egg-info/PKG-INFO
+src/okdoodle.egg-info/SOURCES.txt
+src/okdoodle.egg-info/dependency_links.txt
+src/okdoodle.egg-info/top_level.txt
