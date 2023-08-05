@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+brainfrick_language.egg-info/PKG-INFO
+brainfrick_language.egg-info/SOURCES.txt
+brainfrick_language.egg-info/dependency_links.txt
+brainfrick_language.egg-info/entry_points.txt
+brainfrick_language.egg-info/requires.txt
+brainfrick_language.egg-info/top_level.txt
+brainfuck/__init__.py
+brainfuck/brainfuck.py
+brainfuck/test/__init__.py
+brainfuck/test/main.py
