@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: snvoter
+Version: 0.0
+Summary: A top up tool to enhance SNV calling from Nanopore sequencing data.
+Home-page: UNKNOWN
+Author: Vahid Akbari
+Author-email: vakbari@bcgsc.ca
+License: UNKNOWN
+Project-URL: GitHub, https://github.com/vahidAK/SNVoter
+Description: SNVoter
+        =======
+        
+        A top up tool to enhance SNV calling from Nanopore sequencing data.
+        
+        ## Installation
+        
+        Using pypi repository
+        
+        ```
+        pip install snvoter
+        ```
+        
+        Using conda
+        
+        ```
+        TBD
+        ```
+        
+        From source
+        
+        ```
+        git clone https://github.com/vahidAK/SNVoter.git
+        cd SNVoter
+        ./snvoter.py
+        ```
+        
+        ## Creation of a dedicated conda environment
+        
+        SNVoter uses several fixed versions of its dependencies. Users are encouraged
+        to use a conda or similar environment to isolate the packages from their
+        default python instance. An environment file is available in the GitHub
+        repository.
+        
+        ```
+        git clone https://github.com/vahidAK/SNVoter.git
+        conda env create -f SNVoter/env/environment.yaml
+        conda activate snvoter
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
