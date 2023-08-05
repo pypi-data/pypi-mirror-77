@@ -1,0 +1,104 @@
+project_name: pytest-plt
+pkg_name: pytest_plt
+repo_name: nengo/pytest-plt
+description: Fixtures for quickly making Matplotlib plots in tests
+
+copyright_start: 2018
+
+license_rst:
+  type: mit
+
+contributing_rst: {}
+
+contributors_rst: {}
+
+manifest_in: {}
+
+setup_py:
+  license: MIT license
+  python_requires: ">=3.5"
+  install_req:
+    - matplotlib
+    - pytest
+  docs_req:
+    - nbsphinx>=0.6.0
+    - nengo_sphinx_theme>1.2.2
+    - numpydoc>=0.9.2
+    - sphinx
+  entry_points:
+    pytest11:
+      - "plt = pytest_plt.plugin"
+  classifiers:
+    - "Development Status :: 5 - Production/Stable"
+    - "Framework :: Pytest"
+    - "License :: OSI Approved :: MIT License"
+    - "Programming Language :: Python :: 3 :: Only"
+    - "Programming Language :: Python :: 3.5"
+    - "Programming Language :: Python :: 3.6"
+    - "Programming Language :: Python :: 3.7"
+
+setup_cfg:
+  pytest:
+    addopts: []
+    filterwarnings:
+      - ignore:testdir.copy_example is an experimental api
+    plt_filename_drop:
+      - "^pytest_plt\\.tests\\."
+    pytester_example_dir: pytest_plt/tests
+    python_files: test_pytest.py
+  pylint:
+    disable:
+      - missing-docstring
+      - wrong-import-position
+
+docs_conf_py:
+  analytics_id: UA-41658423-2
+  nengo_logo: general-square-light.svg
+  one_page: True
+
+travis_yml:
+  python: 3.6
+  global_vars:
+    COV_CORE_SOURCE: pytest_plt
+    COV_CORE_CONFIG: .coveragerc
+    COV_CORE_DATAFILE: .coverage.eager
+  jobs:
+    - script: static
+    - script: test-coverage
+    - script: test
+      python: 3.5
+      cache: false  # disable the cache for one build to make sure that works
+    - script: test
+      python: 3.7
+      dist: xenial  # currently only xenial has python 3.7
+    - script: docs
+  pypi_user: tbekolay
+  deploy_dists:
+    - sdist
+    - bdist_wheel
+  slack_notifications: "HdSBp1MsF1Btg38YM0I3/YJHiJVwKxH2D3VllOc2kSPMesDxXYSKWh7ePoGxcD\
+    0GfX9diRFOEM8assc5gMv6T8ySGpOR5s895mnswv6v6VaZCqjoIxB56D+EC9tt+SpbKuwGJOgSKKki2Bye\
+    5IMVDoEb5HL9+YBOSMCW6jOz95fLyu054OBGFhf/s2Wlw7CBktL3mlxs7tJNvXkr7KIAIFYv++IwzNbVOT\
+    qOxhOrR7h2FlRri1GfkWO2MHDiiwNQy0mfBPHr8jKgHvsGS5yE/LM67WiwSHouBvB/7+iel7HpMmibZwqR\
+    jnh6JPZ+1Y7y9NJHdPcbBTJBLTBvTnN1w06F9qxvoqNOjXAZcmewB0AMXivgkEiVScEyqbT+FwWp7Erl8m\
+    4pai50FRS8Hi5H6khmsYxlDovkM4hoIqCjUmHyO2al4S8EjI7EwUEUT5ufelRuA+oLCJcHFO8KyMYCR4XI\
+    uJJM4g3h5EhPgGCRVNUZzKFotlsCLjT3PbUWCXsWM6fSR/QqlURlAFVRHlVXYEM9EaDBWhFyBJEHriDFOR\
+    zkKmxYndRoRFph5q38UHb9ta7QYsHzHtB7X0Oz10TSmW6opP3bbFac2eLmC1ys5BiM7YZ3d8X46IK1pkUp\
+    Im84eh8sSziatbc57q/qJnT8WGmJ8CthOom2xxzZJhvpALw="
+
+ci_scripts:
+  - template: static
+  - template: test
+  - template: test
+    output_name: test-coverage
+    coverage: true
+  - template: docs
+    pip_install:
+      - "pytest>=4"
+  - template: deploy
+
+codecov_yml: {}
+
+pre_commit_config_yaml: {}
+
+pyproject_toml: {}
