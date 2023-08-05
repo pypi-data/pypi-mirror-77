@@ -1,0 +1,15 @@
+gouda/__init__.py,sha256=54H2hCG759C46Q3WV6DX0JOU3mSHvhD8423m-qdUcPk,799
+gouda/binaryconfusionmatrix.py,sha256=S8edmzSWMhBwthosyZXXe-iY-4VYSQO9avYVJSREKGc,11172
+gouda/confusionmatrix.py,sha256=co-IsAyBDJWAWKE92QIfguQdgswsLVCGjL1yoe020aE,17313
+gouda/data_methods.py,sha256=Ir7pxvO6h1iAHBW2TMt75Q94wIUcNr8AGShOQ-E-Q-4,5252
+gouda/display.py,sha256=2whId358QkUKVhTgQQwW_NcUbRXx9r2WD1QyBkmIWu8,5930
+gouda/file_methods.py,sha256=4Rixz2KgfIFPhNbKxXSYN5W72DygBjcL07nx-QGTDDo,6562
+gouda/goudapath.py,sha256=D7raLpF060AL80kY5MET4XoC5Sa4iW8-rGXrTDVeNbk,8929
+gouda/image.py,sha256=NM_WmtxQf846LEjfbU6FvqrmwGT-SM1IeKqusBfnt9k,16888
+gouda/moving_stats.py,sha256=4a0flCafKlZNDGX4chyY8S-HLLyuwQmtmaBKlbcDlV0,6535
+GOUDA-0.4.0.dist-info/AUTHORS.rst,sha256=2dHZ3wEvEblN1KQ3gZql1ZHqqT3QgAsvDk_I3geHkFw,78
+GOUDA-0.4.0.dist-info/LICENSE.txt,sha256=sWbwR7_MyG54bb6CmGc9lfHHe_ntx4kG8qCZe8EufUY,1078
+GOUDA-0.4.0.dist-info/METADATA,sha256=vcRoA40KD0ZcyHuT9gs_PbTMmzonpNRr0f1SRou1gGk,1048
+GOUDA-0.4.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+GOUDA-0.4.0.dist-info/top_level.txt,sha256=X1ZLbxLpB8GF6igVdQwHOPKchBkDV-X0ytPDd1ZkaPg,6
+GOUDA-0.4.0.dist-info/RECORD,,
