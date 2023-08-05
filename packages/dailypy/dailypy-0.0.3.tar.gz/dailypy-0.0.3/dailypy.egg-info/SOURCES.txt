@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+dailypy/__init__.py
+dailypy.egg-info/PKG-INFO
+dailypy.egg-info/SOURCES.txt
+dailypy.egg-info/dependency_links.txt
+dailypy.egg-info/requires.txt
+dailypy.egg-info/top_level.txt

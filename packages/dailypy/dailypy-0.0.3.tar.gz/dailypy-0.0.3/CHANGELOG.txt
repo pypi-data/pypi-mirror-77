@@ -1,0 +1,13 @@
+Change Log
+============
+0.0.1 (19/08/2020)
+------------------
+- First Release
+
+0.0.2 (19/08/2020)
+------------------
+- Update README for better viwing
+
+0.0.3 (20/08/2020)
+------------------
+- Change src to dailypy
