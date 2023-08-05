@@ -1,0 +1,11 @@
+nemwriter/__init__.py,sha256=ThQaqUQ8rv1_SH-THDdVVqxuUTuUmSemGltJxK7NC94,292
+nemwriter/nem12_writer.py,sha256=nKIL4QoeYbqXhX_Y7Zr_l9Jd8nZO5ahKA0nOxfhA9dg,8118
+nemwriter/nem13_writer.py,sha256=TxSTo3fiIqTyy60SzXKiDRcwH1fhXrIz5t3Iomh1IeQ,4611
+nemwriter/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nemwriter/version.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+nemwriter-0.2.1.dist-info/LICENSE,sha256=7f-NxGSeI9hiN9ukAOCadO9h3H0vm_1dUeIkrkWy6sI,1066
+nemwriter-0.2.1.dist-info/METADATA,sha256=mWZKpbhCMqkxdvzwd3nWBZC_60vEMxtQJ_gedwERI30,2915
+nemwriter-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+nemwriter-0.2.1.dist-info/entry_points.txt,sha256=eoJ4FUGI5gPL7It2DgvClUBjPLGsIfzm-dYid-SWC8k,67
+nemwriter-0.2.1.dist-info/top_level.txt,sha256=AxvGFdoWukms6-vy-FZR1YUpTognS7SpxTGRGA9zy5c,10
+nemwriter-0.2.1.dist-info/RECORD,,
