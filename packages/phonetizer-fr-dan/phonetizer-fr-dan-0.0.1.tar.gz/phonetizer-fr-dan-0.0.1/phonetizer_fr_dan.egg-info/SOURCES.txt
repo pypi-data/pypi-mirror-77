@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+./scripts/phonetizer-test
+./scripts/phonetizer-train-nn
+./scripts/sentence_to_phonem
+phonetizer/__init__.py
+phonetizer/__main__.py
+phonetizer_fr_dan.egg-info/PKG-INFO
+phonetizer_fr_dan.egg-info/SOURCES.txt
+phonetizer_fr_dan.egg-info/dependency_links.txt
+phonetizer_fr_dan.egg-info/requires.txt
+phonetizer_fr_dan.egg-info/top_level.txt
+phonetizer_transformer/__init__.py
+phonetizer_transformer/__main__.py
+phonetizer_transformer/utils.py

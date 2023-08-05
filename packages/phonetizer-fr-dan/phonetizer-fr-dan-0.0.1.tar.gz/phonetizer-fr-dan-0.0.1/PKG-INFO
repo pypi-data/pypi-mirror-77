@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: phonetizer-fr-dan
+Version: 0.0.1
+Summary: Translates French text to phonetics
+Home-page: https://github.com/biggoron/phonetizer
+Author: Dan Ringwald
+Author-email: dan.ringwald12@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/biggoron/phonetizer/archive/0.0.1.tar.gz
+Description: # Phonetizer - French
+        
+        Utils library that converts French word or text into phonems.
+        Provides python functions and CLI.
+        
+        ## Usage
+        
+        Install as pip package, then use command line:
+        ```
+        $ sentence_to_phonem maison
+        -> mEz§
+        ```
+        
+        ## Under the cogs
+        
+        - Cuts sentence into words
+        - Checks if word is in dictionary
+        - If so returns phonemic translation
+        - Else returns WordNotFoundError
+        
+        ## Todo
+        
+        - Lib for nn inference of unknown words is up. Needs to be faster (preload model before inference). Use it to guess new words.
+        - Parse Wiktionaire for more comprehensive dictionary
+        - Create POS-Tagging to resolve non-homophonic homograms 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
