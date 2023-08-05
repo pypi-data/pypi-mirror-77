@@ -1,0 +1,9 @@
+README.md
+setup.py
+sergepdf/__init__.py
+sergepdf/pdf2image.py
+sergepdf/pdf2text.py
+sergepdf.egg-info/PKG-INFO
+sergepdf.egg-info/SOURCES.txt
+sergepdf.egg-info/dependency_links.txt
+sergepdf.egg-info/top_level.txt
