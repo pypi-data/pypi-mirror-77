@@ -1,0 +1,13 @@
+README.md
+setup.py
+pyquatlib.egg-info/PKG-INFO
+pyquatlib.egg-info/SOURCES.txt
+pyquatlib.egg-info/dependency_links.txt
+pyquatlib.egg-info/entry_points.txt
+pyquatlib.egg-info/requires.txt
+pyquatlib.egg-info/top_level.txt
+quaternions/__init__.py
+quaternions/quaternion.py
+quaternions/rotation.py
+quaternions/types.py
+quaternions/utils.py
