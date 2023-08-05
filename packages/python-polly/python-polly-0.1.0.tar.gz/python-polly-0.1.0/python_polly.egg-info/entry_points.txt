@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        polly=polly.cli:cli
+    

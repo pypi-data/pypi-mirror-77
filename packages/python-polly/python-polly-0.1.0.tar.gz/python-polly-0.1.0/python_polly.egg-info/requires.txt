@@ -1,0 +1,11 @@
+requests
+click
+
+[server]
+appdirs
+pyaudio
+nltk
+boto3
+werkzeug
+json-rpc
+pyqt5
