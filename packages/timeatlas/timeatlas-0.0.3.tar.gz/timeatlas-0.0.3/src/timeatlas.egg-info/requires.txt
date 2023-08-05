@@ -1,0 +1,5 @@
+bbdata>=0.4.3
+configobj
+matplotlib
+pandas
+u8darts
