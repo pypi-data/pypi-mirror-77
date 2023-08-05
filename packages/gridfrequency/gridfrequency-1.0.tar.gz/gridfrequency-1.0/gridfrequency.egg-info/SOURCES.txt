@@ -1,0 +1,6 @@
+README.md
+setup.py
+gridfrequency.egg-info/PKG-INFO
+gridfrequency.egg-info/SOURCES.txt
+gridfrequency.egg-info/dependency_links.txt
+gridfrequency.egg-info/top_level.txt
