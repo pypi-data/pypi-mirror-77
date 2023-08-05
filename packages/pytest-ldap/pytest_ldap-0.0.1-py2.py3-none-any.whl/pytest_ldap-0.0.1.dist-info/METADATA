@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pytest-ldap
+Version: 0.0.1
+Summary: python-ldap fixtures for pytest
+Home-page: https://gitlab.com/yaal/pytest-ldap
+Author: Yaal team
+Author-email: contact@yaal.fr
+License: MIT
+Keywords: pytest,ldap
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown
+Requires-Dist: python-ldap
+Requires-Dist: pytest
+
+pytest-ldap
+=============
+
+pytest fixtures for ldap
+
+Install with `pip install pytest-ldap`.
+
+Then you can use the fixtures `slapd_server` and `slapd_connection` in your tests.
+
+
