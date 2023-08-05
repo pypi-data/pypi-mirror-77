@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+yamtof/__init__.py
+yamtof/collocation.py
+yamtof/mocp.py
+yamtof/mocp_nlp_solver.py
+yamtof/mocp_transcriber.py
+yamtof.egg-info/PKG-INFO
+yamtof.egg-info/SOURCES.txt
+yamtof.egg-info/dependency_links.txt
+yamtof.egg-info/requires.txt
+yamtof.egg-info/top_level.txt
+yamtof/examples/__init__.py
+yamtof/examples/brachistochrone.py
+yamtof/examples/falcon9_rtls.py
+yamtof/examples/titan3_ascent.py
