@@ -1,0 +1,3 @@
+boto3
+botocore
+PyGObject>=3.34.0

@@ -1,0 +1,9 @@
+README.md
+setup.py
+gstreamer-rgw-sink/__init__.py
+gstreamer-rgw-sink/gst-rgw-sink.py
+gstreamer_rgw_sink.egg-info/PKG-INFO
+gstreamer_rgw_sink.egg-info/SOURCES.txt
+gstreamer_rgw_sink.egg-info/dependency_links.txt
+gstreamer_rgw_sink.egg-info/requires.txt
+gstreamer_rgw_sink.egg-info/top_level.txt
