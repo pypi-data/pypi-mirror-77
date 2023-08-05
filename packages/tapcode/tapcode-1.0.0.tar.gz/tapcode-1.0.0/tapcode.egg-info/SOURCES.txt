@@ -1,0 +1,10 @@
+README.md
+setup.py
+tapcode/__init__.py
+tapcode/__main__.py
+tapcode/tapcode.py
+tapcode.egg-info/PKG-INFO
+tapcode.egg-info/SOURCES.txt
+tapcode.egg-info/dependency_links.txt
+tapcode.egg-info/entry_points.txt
+tapcode.egg-info/top_level.txt
