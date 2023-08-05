@@ -1,0 +1,289 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>mpl_interactions.interactive_plot &mdash; ipympl-interactions 0.12 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> ipympl-interactions
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../Installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functions.html">Functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Examples.html">Examples</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../examples/interactive_plot-examples.html">Interactive line plots</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/heatmap_slicer.html">Comparing heatmaps</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ipympl-interactions</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>mpl_interactions.interactive_plot</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/autoapi/mpl_interactions.interactive_plot.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast,
+.nboutput.nblast {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast + .nbinput {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+</style>
+<div class="section" id="mpl-interactions-interactive-plot">
+<h1>mpl_interactions.interactive_plot<a class="headerlink" href="#mpl-interactions-interactive-plot" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt id="mpl_interactions.interactive_plot">
+<code class="sig-prename descclassname">mpl_interactions.</code><code class="sig-name descname">interactive_plot</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">f</span></em>, <em class="sig-param"><span class="n">x</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">x_scale</span><span class="o">=</span><span class="default_value">'stretch'</span></em>, <em class="sig-param"><span class="n">y_scale</span><span class="o">=</span><span class="default_value">'stretch'</span></em>, <em class="sig-param"><span class="n">slider_format_string</span><span class="o">=</span><span class="default_value">'{:.1f}'</span></em>, <em class="sig-param"><span class="n">plot_kwargs</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">title</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">figsize</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">display</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#mpl_interactions.interactive_plot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make a plot interactive using sliders. just pass the keyword arguments of the function
+you want to plot to this function like so:</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>x</strong><span class="classifier">arraylike or None</span></dt><dd><p>x values a which to evaluate the function. If None the function(s) f should
+return a list of [x, y]</p>
+</dd>
+<dt><strong>ax</strong><span class="classifier">matplolibt.Axes or None</span></dt><dd><p>axes on which to</p>
+</dd>
+<dt><strong>x_scale</strong><span class="classifier">string or tuple of floats, optional</span></dt><dd><p>If a tuple it will be passed to ax.set_xlim. Other options are:
+‘auto’: rescale the x axis for every redraw
+‘stretch’: only ever expand the xlims.</p>
+</dd>
+<dt><strong>y_scale</strong><span class="classifier">string or tuple of floats, optional</span></dt><dd><p>If a tuple it will be passed to ax.set_ylim. Other options are same
+as x_scale</p>
+</dd>
+<dt><strong>slider_format_string</strong><span class="classifier">string | dictionary</span></dt><dd><p>A valid format string, this will be used to render the current value of the parameter.
+To control on a per slider basis pass a dictionary of format strings with the parameter
+names as the keys.</p>
+</dd>
+<dt><strong>plot_kwargs</strong><span class="classifier">None, dict, or iterable of dicts</span></dt><dd><p>Keyword arguments to pass to plot. If using multiple f’s then plot_kwargs must be either
+None or be iterable.</p>
+</dd>
+<dt><strong>title</strong><span class="classifier">None or string</span></dt><dd><p>If a string then you can have it update automatically using string formatting of the names
+of the parameters. i.e. to include the current value of tau: title=’the value of tau is: {tau}’</p>
+</dd>
+<dt><strong>figsize</strong><span class="classifier">tuple or scalar</span></dt><dd><p>If tuple it will be used as the matplotlib figsize. If a number
+then it will be used to scale the current rcParams figsize</p>
+</dd>
+<dt><strong>display</strong><span class="classifier">boolean</span></dt><dd><p>If True then the output and controls will be automatically displayed</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>fig</strong><span class="classifier">matplotlib figure</span></dt><dd></dd>
+<dt><strong>ax</strong><span class="classifier">matplotlib axis</span></dt><dd></dd>
+<dt><strong>controls</strong><span class="classifier">list of slider widgets</span></dt><dd></dd>
+</dl>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<p>x = np.linspac(0,2*np.pi)
+tau = np.linspace(0, np.pi)
+def f(x, tau):</p>
+<blockquote>
+<div><p>return np.sin(x+tau)</p>
+</div></blockquote>
+<p>interactive_plot(f, x=x, tau=tau)</p>
+<p>x = np.linspac(0,2*np.pi)
+def f(x, tau):</p>
+<blockquote>
+<div><p>return np.sin(x+tau)</p>
+</div></blockquote>
+<p>interactive_plot(f, x=x, tau=(0, np.pi, 1000))</p>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Ian Hunt-Isaak
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

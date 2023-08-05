@@ -1,0 +1,6 @@
+mpl\_interactions.jupyter.interactive\_plot
+===========================================
+
+.. currentmodule:: mpl_interactions.jupyter
+
+.. autofunction:: interactive_plot

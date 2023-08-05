@@ -1,0 +1,310 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Comparison to ipywidgets &mdash; mpl-interactions 0.3.0.-dev documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  <link rel="stylesheet" href="_static/jupyter-sphinx.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="API" href="API.html" />
+    <link rel="prev" title="Matplotlib Backends" href="Backends.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> mpl-interactions
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Installation.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Installation.html#user-install">User install</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Installation.html#jupyterlab-setup">Jupyterlab setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Installation.html#development-installation">Development Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Backends.html">Matplotlib Backends</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Comparison to ipywidgets</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#performance">performance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#convenience">convenience</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="API.html">API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="API.html#jupyter">Jupyter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="API.html#generic">Generic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="API.html#utilities">Utilities</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Examples.html">Examples</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="examples/jupyter-notebooks.html">Control Plots with Sliders</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="examples/jupyter-notebooks.html#simple-example">Simple Example</a></li>
+<li class="toctree-l3"><a class="reference internal" href="examples/jupyter-notebooks.html#other-ways-to-set-parameter-values">Other ways to set parameter values</a></li>
+<li class="toctree-l3"><a class="reference internal" href="examples/jupyter-notebooks.html#multiple-functions">Multiple Functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="examples/jupyter-notebooks.html#styling">Styling</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="examples/jupyter-notebooks.html#slider-precision">Slider Precision</a></li>
+<li class="toctree-l4"><a class="reference internal" href="examples/jupyter-notebooks.html#axis-limits">Axis limits</a></li>
+<li class="toctree-l4"><a class="reference internal" href="examples/jupyter-notebooks.html#reference-parameter-values-in-the-title">Reference parameter values in the Title</a></li>
+<li class="toctree-l4"><a class="reference internal" href="examples/jupyter-notebooks.html#matplolitb-keyword-arguments">Matplolitb keyword arguments</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="examples/heatmap-slicer.html">Compare Slices of 2D Arrays</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="examples/heatmap-slicer.html#options">Options</a></li>
+<li class="toctree-l3"><a class="reference internal" href="examples/heatmap-slicer.html#potential-improvements">Potential Improvements</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Contributing.html">Contributing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Contributing.html#code-improvements">Code Improvements</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Contributing.html#seeing-your-changes">Seeing your changes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Contributing.html#working-with-git">Working with Git</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Contributing.html#documentation">Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Contributing.html#autobuild-the-documentation">Autobuild the documentation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">mpl-interactions</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Comparison to ipywidgets</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/compare-to-ipywidgets.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast,
+.nboutput.nblast {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast + .nbinput {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+</style>
+<div class="section" id="comparison-to-ipywidgets">
+<h1>Comparison to ipywidgets<a class="headerlink" href="#comparison-to-ipywidgets" title="Permalink to this headline">¶</a></h1>
+<p>ipywidgets already provides both <code class="docutils literal notranslate"><span class="pre">interact</span></code> and <code class="docutils literal notranslate"><span class="pre">interactive_output</span></code> functions, so why use this library to connect
+Matplotlib to sliders? There are two reasons, convenience and performance.</p>
+<div class="section" id="performance">
+<h2>performance<a class="headerlink" href="#performance" title="Permalink to this headline">¶</a></h2>
+<p>see <a class="reference external" href="https://github.com/matplotlib/ipympl/issues/36#issuecomment-361234270">https://github.com/matplotlib/ipympl/issues/36#issuecomment-361234270</a> for a discussion of this.</p>
+</div>
+<div class="section" id="convenience">
+<h2>convenience<a class="headerlink" href="#convenience" title="Permalink to this headline">¶</a></h2>
+<p>Provides a different approach than ipywidgets.interact for making sliders that affect a Matplotlib plot. When using interact you are responsible for:</p>
+<ul class="simple">
+<li><p>Defining the function to plot <code class="docutils literal notranslate"><span class="pre">f(x,...)</span> <span class="pre">=&gt;</span> <span class="pre">y</span></code></p></li>
+<li><p>Handling the plotting logic (<code class="docutils literal notranslate"><span class="pre">plt.plot</span></code>, <code class="docutils literal notranslate"><span class="pre">fig.cla</span></code>, <code class="docutils literal notranslate"><span class="pre">ax.set_ylim</span></code>, etc)</p></li>
+</ul>
+<p>In contrast, with mpl-interactions you only need to provide <code class="docutils literal notranslate"><span class="pre">f(x,</span> <span class="pre">...)</span> <span class="pre">=&gt;</span> <span class="pre">y</span></code> and the plotting and updating boilerplate are handled for you.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">beta</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">5</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">beta</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="mi">4</span><span class="o">+</span><span class="n">beta</span><span class="p">)</span>
+<span class="n">interactive_plot</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="n">x</span><span class="p">,</span> <span class="n">beta</span><span class="o">=</span><span class="n">beta</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="API.html" class="btn btn-neutral float-right" title="API" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="Backends.html" class="btn btn-neutral float-left" title="Matplotlib Backends" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Ian Hunt-Isaak
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

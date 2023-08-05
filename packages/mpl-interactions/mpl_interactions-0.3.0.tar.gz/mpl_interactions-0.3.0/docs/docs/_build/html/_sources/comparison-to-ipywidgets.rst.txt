@@ -1,0 +1,16 @@
+========================
+Comparison to IPywidgets
+========================
+
+Provides a different approach than ipywidgets.interact for making sliders that affect a Matplotlib plot. When using interact you are responsible for:
+
+    Defining the function to plot f(x,...) => y
+    Handling the plotting logic (plt.plot, fig.cla, ax.set_ylim, etc)
+
+In contrast, with mpl-interactions you only need to provide f(x, ...) => y and the plotting and updating boilerplate are handled for you.
+
+x = np.linspace(0,6,100)
+beta = np.linspace(0,5*np.pi)
+def f(x, beta):
+    return np.sin(x*4+beta)
+interactive_plot(f, x=x, beta=beta)

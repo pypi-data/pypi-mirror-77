@@ -1,0 +1,309 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Jupyter &mdash; mpl-interactions 0.12 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/jupyter-sphinx.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> mpl-interactions
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../Installation.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Installation.html#user-install">User install</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Installation.html#jupyterlab-setup">Jupyterlab setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Installation.html#development-installation">Development Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../API.html">API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../API.html#jupyter">Jupyter</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../autoapi/mpl_interactions.interactive_plot.html">mpl_interactions.interactive_plot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../autoapi/mpl_interactions.interactive_plot_factory.html">mpl_interactions.interactive_plot_factory</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../API.html#generic">Generic</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../autoapi/mpl_interactions.heatmap_slicer.html">mpl_interactions.heatmap_slicer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../autoapi/mpl_interactions.zoom_factory.html">mpl_interactions.zoom_factory</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../autoapi/mpl_interactions.panhandler.html">mpl_interactions.panhandler</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../API.html#utilities">Utilities</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../autoapi/mpl_interactions.ioff.html">mpl_interactions.ioff</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../autoapi/mpl_interactions.figure.html">mpl_interactions.figure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../autoapi/mpl_interactions.nearest_idx.html">mpl_interactions.nearest_idx</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Examples.html">Examples</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="interactive_plot-examples.html">Interactive line plots</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="interactive_plot-examples.html#Simplest-example">Simplest example</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="interactive_plot-examples.html#Troubleshooting">Troubleshooting</a></li>
+<li class="toctree-l4"><a class="reference internal" href="interactive_plot-examples.html#set-parameters-with-tuples">set parameters with tuples</a></li>
+<li class="toctree-l4"><a class="reference internal" href="interactive_plot-examples.html#Use-sets-for-categorical-values">Use sets for categorical values</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="interactive_plot-examples.html#Using-widgets-for-as-parameters">Using widgets for as parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="interactive_plot-examples.html#With-multiple-functions-+-showcase-automatic-legend">With multiple functions + showcase automatic legend</a></li>
+<li class="toctree-l3"><a class="reference internal" href="interactive_plot-examples.html#Styling-of-plot">Styling of plot</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="interactive_plot-examples.html#Title">Title</a></li>
+<li class="toctree-l4"><a class="reference internal" href="interactive_plot-examples.html#Slider-precision">Slider precision</a></li>
+<li class="toctree-l4"><a class="reference internal" href="interactive_plot-examples.html#fixed-y-scale">fixed y-scale</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="interactive_plot-examples.html#Controlling-layout">Controlling layout</a></li>
+<li class="toctree-l3"><a class="reference internal" href="interactive_plot-examples.html#interactive_plot_factory">interactive_plot_factory</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="heatmap_slicer.html">Comparing heatmaps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="jupyter-notebooks.html">In Jupyter Notebooks</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="jupyter-notebooks.html#simple-example">Simple Example</a></li>
+<li class="toctree-l3"><a class="reference internal" href="jupyter-notebooks.html#other-ways-to-set-parameter-values">Other ways to set parameter values</a></li>
+<li class="toctree-l3"><a class="reference internal" href="jupyter-notebooks.html#multiple-functions">Multiple Functions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Contributing.html">Contributing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Contributing.html#code-improvements">Code Improvements</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Contributing.html#seeing-your-changes">Seeing your changes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Contributing.html#working-with-git">Working with Git</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../Contributing.html#documentation">Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Contributing.html#autobuild-the-documentation">Autobuild the documentation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">mpl-interactions</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Jupyter</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/examples/narrative-example.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast,
+.nboutput.nblast {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast + .nbinput {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+</style>
+<div class="section" id="jupyter">
+<h1>Jupyter<a class="headerlink" href="#jupyter" title="Permalink to this headline">¶</a></h1>
+<p>Provides a different approach than ipywidgets.interact` for making sliders that affect a Matplotlib plot.
+When using <code class="docutils literal notranslate"><span class="pre">ipywidgets.interact</span></code> you are responsible for:</p>
+<ol class="arabic simple">
+<li><p>Defining the function to plot <code class="docutils literal notranslate"><span class="pre">f(x,</span> <span class="pre">...)</span> <span class="pre">=&gt;</span> <span class="pre">y</span></code></p></li>
+<li><p>Handling the plotting logic (<code class="docutils literal notranslate"><span class="pre">plt.plot</span></code>, <code class="docutils literal notranslate"><span class="pre">fig.cla</span></code>, <code class="docutils literal notranslate"><span class="pre">ax.set_ylim</span></code>, etc.)</p></li>
+</ol>
+<p>In contrast, with mpl-interactions, you only need to provide <cite>f(x, …) =&gt; y</cite> to have the plotting and
+updating boilerplate handled for you.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">beta</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">5</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">beta</span><span class="p">):</span>
+   <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="mi">4</span><span class="o">+</span><span class="n">beta</span><span class="p">)</span>
+<span class="n">interactive_plot</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="n">x</span><span class="p">,</span> <span class="n">beta</span><span class="o">=</span><span class="n">beta</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Ian Hunt-Isaak
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
