@@ -1,0 +1,3 @@
+include unimatrix/ext/crypto/VERSION
+include unimatrix/ext/crypto/package.json
+include unimatrix/ext/crypto/lib/pkcs/tests/key.rsa
