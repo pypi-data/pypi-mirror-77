@@ -1,0 +1,9 @@
+README.md
+setup.py
+rfauth0authenticator.egg-info/PKG-INFO
+rfauth0authenticator.egg-info/SOURCES.txt
+rfauth0authenticator.egg-info/dependency_links.txt
+rfauth0authenticator.egg-info/not-zip-safe
+rfauth0authenticator.egg-info/requires.txt
+rfauth0authenticator.egg-info/top_level.txt
+rfoauthenticator/__init__.py
