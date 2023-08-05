@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: docstringer
+Version: 0.1.1
+Summary: Create documentation of your function call stack from their docstrings 
+Home-page: https://github.com/ttamg/docstringer
+Author: Matt Gosden
+Author-email: mdgosden@gmail.com
