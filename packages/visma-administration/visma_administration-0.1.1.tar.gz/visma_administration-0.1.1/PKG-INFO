@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: visma_administration
+Version: 0.1.1
+Summary: API for Visma Administration 200/500/1000/2000
+Home-page: https://github.com/viktor2097/visma-administration
+Author: Viktor Johansson
+Author-email: dpedesigns@hotmail.com
+License: MIT
+Download-URL: https://github.com/viktor2097/visma-administration/archive/0.1.1.tar.gz
+Description: UNKNOWN
+Keywords: visma
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
