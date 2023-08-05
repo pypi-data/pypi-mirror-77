@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: filesizemon
+Version: 0.1.0
+Summary: Script that monitors a folder for filesize changes. Good to determine culprit during server performance analysis.
+Home-page: https://github.com/buanzo/filesize-change-monitor
+Author: Arturo "Buanzo" Busleiman
+Author-email: buanzo@buanzo.com.ar
+License: MIT License
+Description: Script that monitors a folder for filesize changes. Good to determine culprit during server performance analysis.
+        
+Keywords: log,analysis,performance,filesize,monitor
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6

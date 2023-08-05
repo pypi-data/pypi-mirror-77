@@ -1,0 +1,11 @@
+README.txt
+filesizemon.py
+setup.py
+filesizemon.egg-info/PKG-INFO
+filesizemon.egg-info/SOURCES.txt
+filesizemon.egg-info/dependency_links.txt
+filesizemon.egg-info/entry_points.txt
+filesizemon.egg-info/namespace_packages.txt
+filesizemon.egg-info/not-zip-safe
+filesizemon.egg-info/requires.txt
+filesizemon.egg-info/top_level.txt
