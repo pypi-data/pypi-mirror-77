@@ -1,0 +1,59 @@
+Metadata-Version: 1.1
+Name: sphinxcontrib-gravizo
+Version: 0.0.4
+Summary: Embed PlantUML, DOT, etc. diagrams in your documentation using Gravizo.
+Home-page: http://www.sphinx-doc.org/
+Author: MikeSmithEU
+Author-email: dont.mail.me@mikesmith.eu
+License: UNKNOWN
+Description: =====================
+        sphinxcontrib-gravizo
+        =====================
+        
+        .. image:: https://travis-ci.org/MikeSmithEU/sphinxcontrib-gravizo.svg?branch=master
+            :target: https://travis-ci.org/MikeSmithEU/sphinxcontrib-gravizo
+        
+        Embed PlantUML, DOT, etc. diagrams in your documentation using Gravizo.
+        
+        Examples
+        --------
+        
+        Inline graph, show as png::
+        
+            .. gravizo:: png
+                @startuml
+                Alice -> Bob: Authentication Request
+                Bob --> Alice: Authentication Response
+        
+                Alice -> Bob: Another authentication Request
+                Alice <-- Bob: Another authentication Response
+                @enduml
+        
+        Load from a file, show as svg::
+        
+            .. gravizo:: ./path/to/graph.puml svg
+        
+        Links
+        -----
+        
+        - Source: https://github.com/sphinxcontrib/gravizo
+        - Bugs: https://github.com/sphinxcontrib/gravizo/issues
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Utilities

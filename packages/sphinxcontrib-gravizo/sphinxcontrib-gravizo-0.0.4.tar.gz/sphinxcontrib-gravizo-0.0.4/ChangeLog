@@ -1,0 +1,20 @@
+CHANGES
+=======
+
+0.0.4
+-----
+
+* move to sphinxcontrib
+
+0.0.3
+-----
+
+* don't fatal
+* cleanup
+* Fix typo
+* Update README.rst
+
+0.0.2
+-----
+
+* initial
