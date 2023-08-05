@@ -1,0 +1,5 @@
+# Core dependencies
+geojson
+requests
+geopandas
+turfpy>=0.0.3
