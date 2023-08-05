@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/supervisor_console/__init__.py
+src/supervisor_console/__main__.py
+src/supervisor_console/console.py
+src/supervisor_console/events.py
+src/supervisor_console.egg-info/PKG-INFO
+src/supervisor_console.egg-info/SOURCES.txt
+src/supervisor_console.egg-info/dependency_links.txt
+src/supervisor_console.egg-info/entry_points.txt
+src/supervisor_console.egg-info/requires.txt
+src/supervisor_console.egg-info/top_level.txt
