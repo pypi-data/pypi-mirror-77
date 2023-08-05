@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jaspre
+Version: 0.1
+Summary: JAvaScriPtREdis engine
+Home-page: https://treeop.com
+Author: Matthew Sebolt
+Author-email: branch@treeop.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+## Add MD file here.
+
+
