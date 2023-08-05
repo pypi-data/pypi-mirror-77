@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: grappelli-safe
+Version: 1.0.0a1
+Summary: A snapshot of the grappelli_2 branch of django-grappelli, packaged as a dependency for the Mezzanine CMS for Django.
+Home-page: http://github.com/stephenmcd/grappelli-safe
+Author: Patrick Kranzlmueller, Axel Swoboda (vonautomatisch)
+Author-email: werkstaetten@vonautomatisch.at
+Maintainer: Stephen McDonald
+Maintainer-email: stephen.mc@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: <3.9,>=3.6
+Description-Content-Type: text/x-rst
+Provides-Extra: testing
+Requires-Dist: tox (<4,>=3) ; extra == 'testing'
+
+.. image:: https://img.shields.io/pypi/v/grappelli-safe.svg
+.. image:: https://img.shields.io/pypi/pyversions/grappelli-safe.svg
+.. image:: https://github.com/stephenmcd/grappelli-safe/workflows/Test%20and%20release/badge.svg
+
+Overview
+========
+
+grappelli_safe is a permanent fork of
+`Grappelli admin skin <https://code.google.com/p/django-grappelli/>`_ for
+`Django <https://www.djangoproject.com/>`_, to be referenced as a
+dependency for the `Mezzanine CMS for Django <http://mezzanine.jupo.org/>`_.
+
+At the time of grappelli_safe's creation, Grappelli was incorrectly
+packaged on `PyPI <https://pypi.python.org/pypi>`_, and had also dropped
+compatibility with Django 1.1 -- grappelli_safe was therefore created to
+address these specific issues.
+
+For further details, see
+`Why are Grappelli and Filebrowser Forked? <http://mezzanine.jupo.org/docs/frequently-asked-questions.html#grappelli-filebrowser-forks>`_.
+
+Development
+===========
+
+After cloning the repository, install the package with the extra testing requirements and run ``tox``. This will ensure you are running the tests the same way as our CI server:
+
+.. code-block:: bash
+
+    pip install -e ".[testing]"
+    tox # Use the --parallel option to run tests in parallel (faster)
+
+You might get some ``InterpreterNotFound`` errors due to not having all Python versions available in your system. That's okay as long as you're able to successfully run the test suite for at least one Python version.
+
+
