@@ -1,0 +1,13 @@
+README.md
+setup.py
+fastgpu/__init__.py
+fastgpu/_nbdev.py
+fastgpu/cli.py
+fastgpu/core.py
+fastgpu.egg-info/PKG-INFO
+fastgpu.egg-info/SOURCES.txt
+fastgpu.egg-info/dependency_links.txt
+fastgpu.egg-info/entry_points.txt
+fastgpu.egg-info/not-zip-safe
+fastgpu.egg-info/requires.txt
+fastgpu.egg-info/top_level.txt
