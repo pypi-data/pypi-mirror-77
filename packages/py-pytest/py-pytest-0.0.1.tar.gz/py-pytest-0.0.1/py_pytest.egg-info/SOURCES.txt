@@ -1,0 +1,8 @@
+README.md
+setup.py
+py_pytest/__init__.py
+py_pytest.egg-info/PKG-INFO
+py_pytest.egg-info/SOURCES.txt
+py_pytest.egg-info/dependency_links.txt
+py_pytest.egg-info/not-zip-safe
+py_pytest.egg-info/top_level.txt
