@@ -1,0 +1,5 @@
+numpy
+pennylane>=0.11
+pytest
+pytest-cov
+pytest-mock
