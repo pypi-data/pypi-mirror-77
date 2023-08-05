@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+Jupyter_Status.egg-info/PKG-INFO
+Jupyter_Status.egg-info/SOURCES.txt
+Jupyter_Status.egg-info/dependency_links.txt
+Jupyter_Status.egg-info/entry_points.txt
+Jupyter_Status.egg-info/requires.txt
+Jupyter_Status.egg-info/top_level.txt
+jupyter_status/__init__.py
+jupyter_status/jupyter_status.py
