@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Classy-Json
+Version: 1.0.0
+Summary: An emulation of the way json behaves in Javascript, but in Python
+Home-page: https://github.com/Iapetus-11/Classy-Json
+Author: Iapetus-11
+License: UNKNOWN
+Description: # Classy-Json
+        *made by Iapetus-11*
+        ### An attempt at recreating the way json works in JavaScript, but in the Python programming language.
+        
+        ## Setup / Install
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
