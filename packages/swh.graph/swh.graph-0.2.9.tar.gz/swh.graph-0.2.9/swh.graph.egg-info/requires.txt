@@ -1,0 +1,9 @@
+aiohttp
+click
+py4j
+psutil
+swh.core[http]>=0.0.79
+swh.model
+
+[testing]
+pytest
