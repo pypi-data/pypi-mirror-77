@@ -1,0 +1,9 @@
+neuro_extras/__init__.py,sha256=d1LrmtEDxA8Lb5aSyXmSyG6hkU3aQU3DlgtLm3cHHAY,213
+neuro_extras/main.py,sha256=3cH4xLWl8mVjOOz7s9VzpjXkY3KNCNdDM8eQ2biIPvE,19413
+neuro_extras/assets/seldon.package/seldon.Dockerfile,sha256=3cPdAAMMupr9326M_YizAE5sKrRPI9SMP4zscvDkk64,517
+neuro_extras/assets/seldon.package/seldon_model.py,sha256=Y5NqWTAGOftKeloe9CtNKe1-zGWqTABahdqQ40suojA,1193
+neuro_extras-20.8.19.dist-info/METADATA,sha256=EsQf249KZuW7HH1cHrRvef1yw4KWVdkXk1Wyn8GvReo,371
+neuro_extras-20.8.19.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+neuro_extras-20.8.19.dist-info/entry_points.txt,sha256=DhKIX-KzZshgxua0lg6VfzehItT2-Ow21R3fAgIXKkw,106
+neuro_extras-20.8.19.dist-info/top_level.txt,sha256=DzdZtZF1lRpYJgbH5JHa3PKNN1dHkEV-7bEWnGsYBfA,13
+neuro_extras-20.8.19.dist-info/RECORD,,
