@@ -1,0 +1,3 @@
+[console_scripts]
+sgtree = sgtree_final:main
+

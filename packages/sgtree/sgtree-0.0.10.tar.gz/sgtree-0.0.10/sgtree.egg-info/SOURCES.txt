@@ -1,0 +1,10 @@
+README.md
+setup.py
+sgtree/__init__.py
+sgtree/sgtree.py
+sgtree.egg-info/PKG-INFO
+sgtree.egg-info/SOURCES.txt
+sgtree.egg-info/dependency_links.txt
+sgtree.egg-info/entry_points.txt
+sgtree.egg-info/requires.txt
+sgtree.egg-info/top_level.txt
