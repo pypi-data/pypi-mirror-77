@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: teext
+Version: 0.1.0
+Summary: Typing extensions extensions
+Home-page: https://github.com/predictive-analytics-lab/tee
+Author: PAL
+Author-email: info@predictive-analytics-lab.com
+License: GPLv3
+Keywords: typing,python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# tee -- typing extensions extensions
+
+Package which provides useful types.
+
+### [Documentation](https://predictive-analytics-lab.github.io/tee/)
+
+## Examples
+
+### Constraint types without runtime overhead
+
+These types are most useful in conjunction with static type checkers like mypy.
+
+```python
+from tee import PositiveInt
+
+a = PositiveInt(5)  # OK
+
+def f(x: PositiveInt) -> None:
+    print(x)
+
+f(a)  # OK
+f(7)  # works at runtime but mypy gives error
+
+b = PositiveInt(-3)  # AssertionError
+```
+
+
