@@ -1,0 +1,17 @@
+taichi_three/__init__.py,sha256=pokZ9GnpR6slelN5fJUEhh9FggBaQ79_OsqI2T10kmg,248
+taichi_three/common.py,sha256=KW6MgWXaXN8xcqCt417uHLEst3nsCVSs1BUwrU0-jls,212
+taichi_three/geometry.py,sha256=xV9T4VUP1t5Qn5EhxnDPuasqnhg2gAXsHgvLq_Me16E,2898
+taichi_three/light.py,sha256=vsiHuv_QoaDwVFtMXinjfXEntzcViVNUAh7YiMSry34,1379
+taichi_three/loader.py,sha256=9ytZScxcEiLplijzTjwuLEXw7N9pHy9h8VzfIMdd_ME,2068
+taichi_three/meshgen.py,sha256=zS0bPSr7kbh59Ov4ujVxHAMNaTcA7plGrMnYRiN-yNY,2785
+taichi_three/model.py,sha256=Z6bdtO7r5HxjAt5Xjb72yt1u1HJW0XDw1YdKmUHrpqQ,2588
+taichi_three/raycast.py,sha256=ArsVt9ER5MBcd9A2jbJXiGhyo3d27DE8nB6doG7-euM,3738
+taichi_three/scatter.py,sha256=ji7JVDQJ4-5vCxdBSKCgxM4xJ_HnqrELu_ZuvPeX-zA,625
+taichi_three/scene.py,sha256=wzx_Vq5Ue3iijhCyL8BJqmyB3KDPBgAnhUSwz0fqAsg,2010
+taichi_three/shading.py,sha256=rT7xYg-o--KZnwINHlT0k4olPlWMieYshUP-G-zsJE0,1642
+taichi_three/transform.py,sha256=JLkS6Nrwy1KxV4Ufjd6AfkGMpGQNuNzWJZF6Zt46iJk,12000
+taichi_three/version.py,sha256=bbhb3l6_KNeKAgtH6TtszKuD-uIpPOBqbMh4lKArLmc,748
+taichi_three-0.0.3.dist-info/METADATA,sha256=e_XBQSvRVigW3vSF3ihMpnkxIM0iwxho8O7zHUoteHc,718
+taichi_three-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+taichi_three-0.0.3.dist-info/top_level.txt,sha256=VW4yt0zEhsWFkuYWRH5xtxlSWpzDjHq1xcddv8-aYEU,13
+taichi_three-0.0.3.dist-info/RECORD,,
