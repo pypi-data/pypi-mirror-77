@@ -1,0 +1,10 @@
+lls_pkg/CoordinateSystem.py,sha256=6wsImrTzTzRZaWG3k9lTs1XcY_C2ak4ZtZZN3RQtz0g,8346
+lls_pkg/LLS.py,sha256=KK-FkI1awoGShQU9rugJ8kFwR7pE7BLvyRZQyqwYxrg,27050
+lls_pkg/NCR.py,sha256=TGpC6BOeXjdQALNNNWJRJGv-dUjgSKIVHMAmQXz5lpk,1372
+lls_pkg/RadioPropagation.py,sha256=n4NXyzh4FIYZvuCk5cuMjdIi4mNrmsJL9gJZbWPYKDo,1301
+lls_pkg/__init__.py,sha256=SgB-58CTj727m8OIrwhEd1U6s6uNiVHelnhQYGtzrXg,16
+lls_pkg_gotodiela-0.0.1.dist-info/LICENSE,sha256=WI5JtXXhjcqnIcPllDA1ZtuxNnZ515xjElcILo7z28o,1073
+lls_pkg_gotodiela-0.0.1.dist-info/METADATA,sha256=G67I9XUgJNNXi91ekC7rgGzhAzIe3iILNNInVKzw7JU,442
+lls_pkg_gotodiela-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+lls_pkg_gotodiela-0.0.1.dist-info/top_level.txt,sha256=XaepU85rvI45g1GLN41Phoef1Tbxh-NrmrxOr8lr6Ac,8
+lls_pkg_gotodiela-0.0.1.dist-info/RECORD,,
