@@ -1,0 +1,1 @@
+https://github.com/jkgeo/ckanapi.git@f30afe2a788844188656f2eb0ef7f0e0e11186a9#egg=ckanapi
