@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: docker_compose_portenv
+Version: 0.0.2
+Summary: Reveal ports for Docker Compose containers
+Home-page: https://github.com/nvllsvm/docker-compose-portenv
+Author: Andrew Rabert
+Author-email: ar@nullsum.net
+License: UNKNOWN
+Description: # docker-compose-portenv
+        Reveal ports for all Docker Compose containers in a shell sourceable format
+        
+        ## Installation
+        ```
+        pip install docker-compose-portenv
+        ```
+        
+        ## Usage Examples
+        ```
+        $ docker-compose-portenv
+        export APP_TCP_80=34000
+        export DB_TCP_5432=34001
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

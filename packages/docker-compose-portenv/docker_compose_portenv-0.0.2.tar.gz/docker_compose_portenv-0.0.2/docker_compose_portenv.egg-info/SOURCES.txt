@@ -1,0 +1,9 @@
+README.md
+docker_compose_portenv.py
+setup.cfg
+setup.py
+docker_compose_portenv.egg-info/PKG-INFO
+docker_compose_portenv.egg-info/SOURCES.txt
+docker_compose_portenv.egg-info/dependency_links.txt
+docker_compose_portenv.egg-info/entry_points.txt
+docker_compose_portenv.egg-info/top_level.txt
