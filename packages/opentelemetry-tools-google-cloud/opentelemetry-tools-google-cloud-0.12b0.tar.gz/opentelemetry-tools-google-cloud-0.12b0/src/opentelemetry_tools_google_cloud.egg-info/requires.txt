@@ -1,0 +1,6 @@
+google-auth
+opentelemetry-api==0.12b0
+opentelemetry-sdk==0.12b0
+requests
+
+[test]
