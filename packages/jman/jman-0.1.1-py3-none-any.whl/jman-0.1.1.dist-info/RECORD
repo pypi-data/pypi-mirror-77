@@ -1,0 +1,14 @@
+jman/__init__.py,sha256=abtfcQTakd-UUdPR--IhHdf6_Cu_laaztthn9TpeGV0,373
+jman/client.py,sha256=4sY2-zdiM3GlhVYYFlwkyhp9kZ8qlUzoUSc8tViTBhc,2233
+jman/current_job.py,sha256=_w2DUMsicagjEF_tm40c80gQa7dkdzNMbJjtN4f2VEY,2385
+jman/job.py,sha256=vKbaP8oqx3rc3VjU0O6ggSYkwhfN196PFc8shvFubxs,4138
+jman/manager.py,sha256=M_Oe4XzC_ytLc6hU2KJLKbWHYSxRoH0hqWRnLAMJZ0Y,1890
+jman/mod_func_loader.py,sha256=LWwpNIr0klVzLcwycZ3OO4mwoBDnTCGaBFIo75pA028,849
+jman/server.py,sha256=dqXwfuZ_Pd7bbvEnpSZavknyTfj5DMuocvmrkDqsDXk,6782
+jman/serverd.py,sha256=JoMcIg8lnI3x54vh5qujZkbrnja49tbHzUMTOlPxcU8,474
+jman-0.1.1.dist-info/LICENSE,sha256=PFiL2wkEWXKVP3Dh-8IhodWIMtq9p8IdQZ7_IfQs0Tc,1072
+jman-0.1.1.dist-info/METADATA,sha256=28-YefaNbCHgsCmL9PHxPVoPLsYvnk-A44fQ1v__gLY,653
+jman-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+jman-0.1.1.dist-info/entry_points.txt,sha256=8SqFLUrfXtGtJE6vuE3OK-X8EeBs3XdWsCMr4VHChus,53
+jman-0.1.1.dist-info/top_level.txt,sha256=j9lyHj7cQpu3n6nHvnc-UilA0Y466ELftjbIZCWzHac,5
+jman-0.1.1.dist-info/RECORD,,
