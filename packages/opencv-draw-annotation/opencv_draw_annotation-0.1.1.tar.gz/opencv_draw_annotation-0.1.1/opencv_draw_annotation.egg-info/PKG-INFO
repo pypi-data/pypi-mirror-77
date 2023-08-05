@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: opencv-draw-annotation
+Version: 0.1.1
+Summary: A library for formatting and drawing annotations (e.g. bounding boxes) on images using opencv
+Home-page: https://github.com/SethPipho/opencv-draw-annotation
+Author: Seth Pipho
+Author-email: seth.pipho@gmail.com
+License: MIT
+Description: A library for formatting and drawing annotations (e.g. bounding boxes) on images using opencv.
+Platform: UNKNOWN

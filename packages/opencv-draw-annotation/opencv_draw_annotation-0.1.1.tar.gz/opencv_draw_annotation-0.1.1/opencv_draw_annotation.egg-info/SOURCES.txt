@@ -1,0 +1,10 @@
+README.md
+setup.py
+opencv_draw_annotation/__init__.py
+opencv_draw_annotation/colors.py
+opencv_draw_annotation.egg-info/PKG-INFO
+opencv_draw_annotation.egg-info/SOURCES.txt
+opencv_draw_annotation.egg-info/dependency_links.txt
+opencv_draw_annotation.egg-info/requires.txt
+opencv_draw_annotation.egg-info/top_level.txt
+test/test.py
