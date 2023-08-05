@@ -1,0 +1,3 @@
+[console_scripts]
+geomagindices = geomagindices.__main__:cli
+
