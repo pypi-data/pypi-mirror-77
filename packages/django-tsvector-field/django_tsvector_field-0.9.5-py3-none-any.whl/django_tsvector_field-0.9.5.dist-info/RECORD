@@ -1,0 +1,12 @@
+tsvector_field/__init__.py,sha256=36Nb3n6HlMiZ-CVgBMIgyLzMFjswVM2Kxl5hClNTC4Q,232
+tsvector_field/apps.py,sha256=aUOsksGebxe8mGwH2iqec6spZzF7VAjic5Eu7dCIqvw,1343
+tsvector_field/fields.py,sha256=EduQGowEnToGCD5d33A6CFyOBh7SS9T_TMSZ1Mpvqww,5430
+tsvector_field/operations.py,sha256=ldkvDZ12PAiiOo646XjbUoQocKbNXPcmvP-RIjorfQI,1015
+tsvector_field/query.py,sha256=OwDsrODKBlwoqbl58XRxpZKatuvZoFTITimxRSweaL0,493
+tsvector_field/receivers.py,sha256=c4tHVkT-zvpVgJSEhG2OM5ALiZqn_mOwkGFYl_7u_yc,1688
+tsvector_field/schema.py,sha256=Y-hqZH9u2FExrNqwJIVEfC-73W9MQUs1ZvXCblqR9Ds,7479
+django_tsvector_field-0.9.5.dist-info/LICENSE,sha256=hB2zIADWbRmPk-l4FBcKW-XYuDirqqFLrq7V5Btgblc,1502
+django_tsvector_field-0.9.5.dist-info/METADATA,sha256=RAgFeNogUP-NWbXf_-SSBwL0wb4nWIHM0Q2-pFQcNKo,8598
+django_tsvector_field-0.9.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_tsvector_field-0.9.5.dist-info/top_level.txt,sha256=-bS1icKe8rPkgVqidrkJhdpToBBQ_uzyygkRQP8h9y0,15
+django_tsvector_field-0.9.5.dist-info/RECORD,,
