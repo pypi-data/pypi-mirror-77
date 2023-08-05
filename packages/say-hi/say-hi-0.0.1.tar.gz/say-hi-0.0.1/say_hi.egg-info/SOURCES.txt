@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+greet/__init__.py
+say_hi.egg-info/PKG-INFO
+say_hi.egg-info/SOURCES.txt
+say_hi.egg-info/dependency_links.txt
+say_hi.egg-info/top_level.txt
