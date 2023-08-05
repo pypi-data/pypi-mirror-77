@@ -1,0 +1,13 @@
+README.md
+setup.py
+fermata_cli/__init__.py
+fermata_cli/completor.py
+fermata_cli/debugger.py
+fermata_cli/initializer.py
+fermata_cli/util.py
+fermata_cli.egg-info/PKG-INFO
+fermata_cli.egg-info/SOURCES.txt
+fermata_cli.egg-info/dependency_links.txt
+fermata_cli.egg-info/entry_points.txt
+fermata_cli.egg-info/requires.txt
+fermata_cli.egg-info/top_level.txt

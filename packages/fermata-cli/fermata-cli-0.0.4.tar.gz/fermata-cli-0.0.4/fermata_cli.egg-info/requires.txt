@@ -1,0 +1,6 @@
+fermata
+docopt
+werkzeug
+meinheld
+pyyaml
+coloredlogs
