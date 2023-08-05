@@ -1,0 +1,5 @@
+setuptools
+packaging
+wheel
+virtualenv
+urllib3
