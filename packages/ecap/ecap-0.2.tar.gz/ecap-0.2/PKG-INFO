@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: ecap
+Version: 0.2
+Summary: ECAP Procedure in Python
+Home-page: https://github.com/bradleyrava
+Author: Bradley Rava
+Author-email: brava@marshall.usc.edu
+License: GPLv3
+Download-URL: https://github.com/bradleyrava/ecap-python/archive/ecap-0.2.tar.gz
+Description: Implements the Excess Certainty Adjusted Probability adjustment procedure as described in the paper "Irrational Exuberance: Correcting Bias in Probability Estimates" by Gareth James, Peter Radchenko, and Bradley Rava (Journal of the American Statistical Association, 2020; <doi:10.1080/01621459.2020.1787175>). The package includes a function that preforms the ECAP adjustment and a function that estimates the parameters needed for implementing ECAP.
+Keywords: Excess Certainty,Emperical Bayes,probability,calibration,statistics
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.7
