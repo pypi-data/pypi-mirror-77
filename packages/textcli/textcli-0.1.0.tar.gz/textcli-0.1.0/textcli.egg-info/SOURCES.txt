@@ -1,0 +1,14 @@
+setup.cfg
+setup.py
+textcli/__init__.py
+textcli/cli.py
+textcli/spider.py
+textcli/update_content.py
+textcli/utils.py
+textcli/verify.py
+textcli.egg-info/PKG-INFO
+textcli.egg-info/SOURCES.txt
+textcli.egg-info/dependency_links.txt
+textcli.egg-info/entry_points.txt
+textcli.egg-info/requires.txt
+textcli.egg-info/top_level.txt
