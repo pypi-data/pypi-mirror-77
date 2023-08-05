@@ -1,0 +1,10 @@
+setuptools>=38.3.0
+Faker<5,>=1.0.8
+tabledata<2,>=1.1.1
+
+[test]
+Faker>=4.0.3
+pytablewriter>=0.46
+pytest>=6.0.1
+pytest-discord>=0.0.5
+pytest-md-report>=0.1
