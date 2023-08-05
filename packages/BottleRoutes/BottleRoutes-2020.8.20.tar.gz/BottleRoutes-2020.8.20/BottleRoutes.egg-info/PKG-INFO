@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: BottleRoutes
+Version: 2020.8.20
+Summary: Plugin to use OO to create routes in bottle.
+Home-page: https://github.com/afonsomedeiros/BottleRoutes
+Author: Afonso Medeiros
+Author-email: afonso.b.medeiros@gmail.com
+License: MIT
+Description: ## Plugin que implementa criação de rotas com orientação a objetos.
+        
+        > [!NOTE]
+        > Este módulo não é exatamente um Plugin do bottle pois não é implementado como um, trata-se apenas de um "cheatzinho" que criei para simplificar um projeto meu. Para conferir como criar um plugin com bottle siga o link: https://bottlepy.org/docs/dev/plugindev.html
+        
+        Plugin para micro-framework bottle para simplificar a criação de rotas utilizando Orientação a Objetos.
+        
+        Para utilizar este plugin é necessário instalar o bottle. Pode ser o passo a passo da documentação: https://bottlepy.org/docs/0.12/tutorial.html#installation ou apenas com o comando abaixo:
+        
+        ```sh
+        pip install bottle
+        ```
+        
+        Depois pode instalar o plugin com o comando:
+        
+        ```sh
+        pip install BottleRoute
+        ```
+        
+        Esse plugin vai trazer o arquivo RouteExt para o seu `site-package` então você poderá utilizar da seguinte forma:
+        
+        ```py
+        from bottle import Bottle
+        from RouteExt import set_controller_handler, Controllers
+        
+        
+        class TesteController(Controllers):
+            url = "/"
+        
+            def get(self):
+                return f"A url é: {self.url}"
+        
+        app = set_controller_handler(Bottle)
+        
+        app.register(obj=TesteController())
+        
+        app.run()
+        ```
+        
+        Desta forma ele vai adicionar o método `register` a abstração do Bottle e vai poder ser invocado passando um objeto subclasse da classe `Controller` que implemente os verbos HTTP para URL. No exemplo acima são criados os verbos `GET, POST, PUT e DELETE` para a rota `/`, como não foi definido na classe `TesteController()` os métodos `POST, PUT, DELETE`, caso fossem requisitados retornáriam um erro informando `Method not implemented`.
+        
+        Também é possível utilizar rotas dinamicas:
+        
+        ```py
+        from bottle import Bottle
+        from RouteExt import set_controller_handler, Controllers
+        
+        
+        class TesteController(Controllers):
+            url = "/<nome>"
+        
+            def get(self, nome):
+                return f"O parametro na rota é:: {nome}"
+        
+        app = set_controller_handler(Bottle)
+        
+        app.register(obj=TesteController())
+        
+        app.run()
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
