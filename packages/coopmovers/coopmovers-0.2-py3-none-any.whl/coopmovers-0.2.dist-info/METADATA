@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: coopmovers
+Version: 0.2
+Summary: Library for logic around controlling "things that move"
+Home-page: https://github.com/tylertjburns/coopmovers
+Author: tburns
+Author-email: tyler.tj.burns@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >3.5
+Requires-Dist: coopbugger (==0.1)
+Requires-Dist: coopgame (==0.4)
+Requires-Dist: coopgraph (==0.1)
+Requires-Dist: cooplock (==0.1)
+Requires-Dist: coopstructs (==0.5)
+Requires-Dist: pygame (==1.9.6)
+
+# coopmovers
+Library of tools for creating and controlling "entities that move"
+
+
