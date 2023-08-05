@@ -1,0 +1,14 @@
+yaqd_microchip/VERSION,sha256=HmurgXlRHGlXRbUqDWKt60hUX4LJ7ST1nYknLGHFKRQ,10
+yaqd_microchip/__init__.py,sha256=s3-LU98iTbRfluV2puY3rsBGzF-83_NwMwraHq3ugy0,146
+yaqd_microchip/__version__.py,sha256=aIq6BYZ2Vu4z6qhpulwJjQVwfXWBRNlRKwBX_hECB00,493
+yaqd_microchip/_mcp3428.py,sha256=iMJ9JXt6xwxwef69ygZBpSoyn1Ac93EzHD5VyBdgkCs,2551
+yaqd_microchip/_mcp9600.py,sha256=8Og2yO-p6Wz1eYJoZGoPtoPEoAW4GMJPPmBpUmugwQc,1901
+yaqd_microchip/mcp3428.avpr,sha256=vmFWQlxVA2BBNlExArF_QD-WawccYEb9uS1q1hSN1jw,6064
+yaqd_microchip/mcp3428.toml,sha256=gjEbIqFAFq6GO3PNjfh1SyFS9oibD31nYjGt_Nd4920,378
+yaqd_microchip/mcp9600.avpr,sha256=esubMU_vP_AAT60AhYh2X51gojMINGiI0MYztmPWK78,6064
+yaqd_microchip/mcp9600.toml,sha256=9xyfM8bryaN3A1nxrAd_Cndniy1Qg3Nl4jK0ciFUhmE,378
+yaqd_microchip-2020.8.0.dist-info/entry_points.txt,sha256=h1UaWJcTurtcMBA8FXO3NN3gklLaSy364Y_k4jnjSAc,119
+yaqd_microchip-2020.8.0.dist-info/LICENSE,sha256=gQ0onXQnjXJoTSbNwqxcuw8B8tGCEvORxsRGc5mnrdU,7633
+yaqd_microchip-2020.8.0.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+yaqd_microchip-2020.8.0.dist-info/METADATA,sha256=SAwJcBFmseI8LbCNBFFhFIHRjPxIsXskT8IMTNkMOyw,1768
+yaqd_microchip-2020.8.0.dist-info/RECORD,,
