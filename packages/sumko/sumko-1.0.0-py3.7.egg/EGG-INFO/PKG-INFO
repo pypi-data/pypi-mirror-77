@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: sumko
+Version: 1.0.0
+Summary: SumKo is a Python microservices framework that lets service developers concentrate on application logic and encourages testability.
+Home-page: https://github.com/fovegage/sumko
+Author: fovegage
+Author-email: fovegage@gmail.com
+License: UNKNOWN
+Description: <div align="center">
+        
+        ## simplepy
+        
+        **Python Common tools collection.**
+        
+        </div>
+        
+        <br>
+        
+        ### String generation
+        `from simplepy import string`
+        
+        - Signature generation
+        
+        - Random string generation
+        ```
+        String(8) ---> 0xZ2U}`2
+        ```
+        
+        ### File formatting
+        
+        - Csv pretreatment
+        
+        ### Format conversion
+        
+        - yaml
+        - xml to dict
+        - dict to xml
+        
+        ### Date processing
+        
+        - date
+        - datetime
+        
+        ### History
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
