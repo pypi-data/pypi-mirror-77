@@ -1,0 +1,11 @@
+ipython>=4.0.0
+ipywidgets
+jupyter-pip
+matplotlib
+networkx
+numpy
+numpydoc
+pandas
+pysces
+sympy
+widgetsnbextension
