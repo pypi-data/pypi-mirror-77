@@ -1,0 +1,9 @@
+README.md
+setup.py
+py2flowchart/__init__.py
+py2flowchart/core.py
+py2flowchart.egg-info/PKG-INFO
+py2flowchart.egg-info/SOURCES.txt
+py2flowchart.egg-info/dependency_links.txt
+py2flowchart.egg-info/requires.txt
+py2flowchart.egg-info/top_level.txt
