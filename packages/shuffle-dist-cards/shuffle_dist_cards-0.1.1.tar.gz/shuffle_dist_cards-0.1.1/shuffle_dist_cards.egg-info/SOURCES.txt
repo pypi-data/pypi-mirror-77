@@ -1,0 +1,9 @@
+setup.py
+shuffle_dist_cards/__init__.py
+shuffle_dist_cards/how_to_upload_pypi.py
+shuffle_dist_cards/shuffle_dist_cards.py
+shuffle_dist_cards.egg-info/PKG-INFO
+shuffle_dist_cards.egg-info/SOURCES.txt
+shuffle_dist_cards.egg-info/dependency_links.txt
+shuffle_dist_cards.egg-info/not-zip-safe
+shuffle_dist_cards.egg-info/top_level.txt
