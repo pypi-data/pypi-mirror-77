@@ -1,0 +1,8 @@
+README.md
+setup.py
+clearconsole/__init__.py
+clearconsole/clearconsole.py
+clearconsole.egg-info/PKG-INFO
+clearconsole.egg-info/SOURCES.txt
+clearconsole.egg-info/dependency_links.txt
+clearconsole.egg-info/top_level.txt
