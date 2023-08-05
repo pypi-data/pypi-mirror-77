@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: apache-ranger
+Version: 0.0.1
+Summary: Apache Ranger Python client
+Home-page: https://github.com/apache/ranger/tree/master/intg/src/main/python
+Author: Apache Ranger
+Author-email: dev@ranger.apache.org
+License: UNKNOWN
+Description: # Apache Ranger - Python client
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
