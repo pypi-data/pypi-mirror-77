@@ -1,0 +1,10 @@
+rna_count_salmon-1.9.data/scripts/rna-count-salmon.py,sha256=bHJmd1IckcnKF4RU3SjPZMJQUSOmDhkKGZsusn-ySu0,3950
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/common_script_rna_count_salmon.py,sha256=dyuF19Umz1JsZpzcsuOyb36aGFNC6mdOJM7Y-4oY1Tc,12081
+scripts/prepare_config.py,sha256=YRB3bmYoutoQvmV9DbrKHKRByOAu9XH9BEmWuyNHm9w,11749
+scripts/prepare_design.py,sha256=NhWLOsAWFWSALmbHlMyLzCfQ23vITdwKG7w6EdOEJo0,9738
+rna_count_salmon-1.9.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+rna_count_salmon-1.9.dist-info/METADATA,sha256=Iage3Ft6rNlYz4DX2QEosxOLIFl1kMqx2WCI5HtaQoA,1765
+rna_count_salmon-1.9.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+rna_count_salmon-1.9.dist-info/top_level.txt,sha256=rmzd5mewlrJy4sT608KPib7sM7edoY75AeqJeY3SPB4,8
+rna_count_salmon-1.9.dist-info/RECORD,,
