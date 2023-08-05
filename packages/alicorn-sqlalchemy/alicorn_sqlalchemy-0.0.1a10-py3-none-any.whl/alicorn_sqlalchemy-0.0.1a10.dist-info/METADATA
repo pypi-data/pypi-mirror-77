@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: alicorn-sqlalchemy
+Version: 0.0.1a10
+Summary: An SQLAlchemy extension for the alicorn framework
+Home-page: https://gitlab.com/cstranex/alicorn-sqlalchemy
+Author: Chris Stranex
+Author-email: chris@stranex.com
+License: UNKNOWN
+Project-URL: Source Code, https://gitlab.com/cstranex/alicorn-sqlalchemy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: alicorn (>=0.0.1a6)
+Requires-Dist: sqlalchemy (>===1.3.0)
+
+Alicorn-SQLAlchemy
+===
+
+An Alicorn extension for SQLAlchemy
+
+
