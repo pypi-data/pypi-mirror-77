@@ -1,0 +1,15 @@
+cppyy
+numpy
+lyncs-setuptools
+
+[all]
+meson
+pytest-cov
+ninja
+pytest
+
+[test]
+pytest
+pytest-cov
+meson
+ninja
