@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: usefullibs
+Version: 0.0.5
+Summary: a useful package.
+Home-page: UNKNOWN
+Author: Allen Sun
+Author-email: allen.haha@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography (>=3.0)
+Requires-Dist: pyperclip (>=1.8.0)
+
+
+file:
+    usefullibs-|-backupzip-__init.py
+               |
+               |-constants-__init.py
+               |
+               |-cryptography-|
+               |              |-affineCipher-|-affineCipher.py
+               |              |              |-affineHacker.py
+               |              |              |-cryptomath.py
+               |              |
+               |              |-caeserCipher-|-caeserCipher.py
+               |              |              |-caeserHacker.py
+               |              |
+               |              |-publickeycipher-|-cryptomath.py
+               |              |                 |-makePublicPrivateKeys
+               |              |                 |-primeNum
+               |              |                 |-publickeycipher
+               |              |                 |-rabinMiller
+               |              |
+               |              |-subCipher-|-dictionary.txt
+               |              |           |-makeWordPatterns.py
+               |              |           |-simpleSubCipher.py
+               |              |           |-simpleSubDictionaryHacker
+               |              |           |-simpleSubHacker
+               |              |           |wordPatterns.py
+               |              |
+               |              |-transpositionCipher-|-transpositionEncrypt.py
+               |              |                     |-transpositionDecrypt.py
+               |              |                     |-transpositionFileCipher.py
+               |              |                     |-transpositionFileHacker.py
+               |              |                     |-transpositionHacker.py
+               |              |
+               |              |-vigenereCipher-|-detectEnlish.py
+               |              |                |-dictionary.txt
+               |              |                |-freqAnalysis.py
+               |              |                |-vigenereCipher.py
+               |              |                |-vigenereDictionaryHacker.py
+               |              |                |-vigenereHacker.py
+               |
+               |-enviroment_variables-__init__.py*
+               |
+               |-simple_import-__init__.py
+               |
+               |-socket-|-__init__.py
+               |        |-exeptions.py
+               |
+               |-tarfile-__init__.py
+
+(__pycache__ folders not included)
+*: only works for windows
+
+
+
