@@ -1,0 +1,16 @@
+CHANGES.txt
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+guacamole/__init__.py
+guacamole/client.py
+guacamole/connection.py
+guacamole/exceptions.py
+guacamole/instruction.py
+unimatrix.ext.guacamole.egg-info/PKG-INFO
+unimatrix.ext.guacamole.egg-info/SOURCES.txt
+unimatrix.ext.guacamole.egg-info/dependency_links.txt
+unimatrix.ext.guacamole.egg-info/not-zip-safe
+unimatrix.ext.guacamole.egg-info/requires.txt
+unimatrix.ext.guacamole.egg-info/top_level.txt
