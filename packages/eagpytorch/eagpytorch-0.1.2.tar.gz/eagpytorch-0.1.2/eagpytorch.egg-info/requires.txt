@@ -1,0 +1,15 @@
+torch
+gpytorch
+matplotlib
+numpy
+pyro-ppl
+PyYAML
+attrdict
+
+[dev]
+twine
+wheel
+
+[docs]
+sphinx
+sphinx_rtd_theme
