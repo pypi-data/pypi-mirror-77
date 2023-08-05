@@ -1,0 +1,6 @@
+PyGObject
+boto3
+munch
+watchdog
+PyYAML
+paramiko
