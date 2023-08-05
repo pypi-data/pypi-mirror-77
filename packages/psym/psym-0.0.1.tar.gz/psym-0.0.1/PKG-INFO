@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: psym
+Version: 0.0.1
+Summary: Tool for accessing and modifying FBC Platform Inventory database
+Home-page: UNKNOWN
+Author: Facebook Inc.
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
