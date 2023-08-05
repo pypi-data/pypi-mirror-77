@@ -1,0 +1,11 @@
+MutationChecker.py,sha256=HT-5PAtm5lK7GViim2Cc23W1hm4q2X8ckU95B1wtGkw,7843
+MutationChecker/dip.py,sha256=uy_Wq-5PrLY_9ytfhc23Lkvm-DZSPr2PxwFsILhZtz4,787
+MutationChecker/embl.py,sha256=IpA0PHiGEG1FH8HsU3F0gBb0P_nQGum54BTqmzl3dfE,1851
+MutationChecker/mapper.py,sha256=Gvk4o3rIyrPk5zeH_j6JSg8N3uWNHz2ApnBfUR8acjA,2172
+MutationChecker/prosite.py,sha256=i1q-0lm8dxqcDhYRe82XcOImx-LMzFG3neEi8i11kZ4,2382
+MutationChecker/structure.py,sha256=f9ywJMp_HgWc4f5Ud20QEZZ1eozc1-HCuTebRbkNH5c,4501
+MutationChecker-0.1.0.dist-info/LICENCE,sha256=QguxCUHbHVz5w02blEmyPILIY_HiZ7aZ98XI1UD2fqs,1078
+MutationChecker-0.1.0.dist-info/METADATA,sha256=3QGWD_hvhOl1LPSqU4_h7pgy7uUMrJuKXi2OCtmWhWg,6940
+MutationChecker-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+MutationChecker-0.1.0.dist-info/top_level.txt,sha256=EuGoWrA4gi2Pwa7vIvlhPbPTsf6-1xWrfG0DuXwfs_g,16
+MutationChecker-0.1.0.dist-info/RECORD,,

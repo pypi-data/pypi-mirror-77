@@ -1,0 +1,231 @@
+Metadata-Version: 2.1
+Name: MutationChecker
+Version: 0.1.0
+Summary: Package for the computation of distances from a residue to the catalytic active residues.
+Home-page: UNKNOWN
+Author: RMolina
+Author-email: ruben.molina-fernandez@upf.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+# Mutation_Checker
+
+Python package for checking the distance of a mutation from an active center of a protein.
+
+## Installation
+
+Run the following to install:
+
+```python
+pip install MutationChecker
+```
+
+## Usage
+
+This package consists of several modules: MAPPER, EMBL, PROSITE and STRUCTURE. Each one has it's own methods.
+
+## MAPPER MODULE
+
+The mapper module consist of 3 functions. GeneToUniprot, GeneToPDB and GeneToFasta. These functions are
+used for converting identifiers between main databases.
+
+### GeneToUniprot
+This function takes the name of a gene and maps it into a Uniprot Reviewed ID. By default uses the human
+specie. 
+
+@ input - gene (str) Name of Gene
+@ input - specie (str) Name of the Specie. Default: Human
+@ output - Uniprot ID (str) - Uniprot ID Code
+
+Example: Generate info for EIF2B5 gene
+
+```python
+from MutationChecker.mapper import GeneToUniprot
+GeneToUniprot("EIF2B5")
+```
+
+### GeneToPDB
+
+This function takes the name of a gene and maps it into a list of PDB id's
+By default uses the human specie. 
+
+@ input - gene (str) Name of Gene
+@ input - specie (str) Name of the Specie. Default: Human
+@ output - PDB ID (list of str) - PDB ID Codes
+
+Example: Generate PDB Code for EIF2B5 gene
+
+```python
+from MutationChecker.mapper import GeneToPDBMapper
+GeneToPDB("EIF2B5")
+```
+
+### GeneToFasta
+
+This function takes the name of a gene, and extract its sequence from Uniprot.
+
+@ input - gene (str) Name of Gene
+@ input - specie (str) Name of the Specie. Default: Human
+@ output - Uniprot Fasta (str)
+
+Example: Generate Fasta for EIF2B5 gene
+
+```python
+from MutationChecker.mapper import GeneToFasta
+GeneToFasta("EIF2B5")
+```
+
+## STRUCTURE MODULE
+
+This module contains methods related to computations of the PDB structure file of a protein. 
+
+### DownloadPDB
+
+This function takes a list of str (or one str) of PDB Codes and downloads the file into the working folder.
+It accepts a list of PDB to download the longest PDB structure.. 
+
+@ input - List of Strings (or standalone str) - Code of PDBs
+@ output - PDB ID (str) - Path of the downloaded file.
+
+Example: Download 1UBQ
+
+```python
+from MutationChecker.structure import DownloadPDB
+DownloadPDB("1UBQ")
+```
+
+### PDBtoSequence
+
+This function takes a PDB file and extracts the sequence of the structure.
+
+@ input - PDB File path (str)
+@ output - Fasta Sequence (str) - Sequence of the structure.
+
+Example: Get sequence for 1UBQ file
+
+```python
+from MutationChecker.structure import PDBtoSequence
+ExtractPDBSequence("./1UBQ")
+```
+
+### MapUniprotToPDB
+
+This function takes a sequence of uniprot, a sequence of PDB (of the same protein) and a uniprot residue number, and
+returns you the residue number on the structure. 
+
+@ input - Uniprot Fasta (str), can be obtained with the method GeneToFasta
+@ input - PDB Fasta (str), can be obtained with the method PDBtoSequence
+@ input - uniprot residue number (int)
+@ output - PDB residue number that match the uniprot residue number given (int)
+
+```python
+from MutationChecker.structure import MapUniprotToPDB
+MapUniprotToPDB(GeneToFasta("EIF2B5"), PDBtoSequence("3JUI"), 45)
+```
+
+### CheckDistances
+
+This function takes a residue number , a list of another residue numbers, and a PDB structure file, and compute
+the physical distance between the first residue to the residues on the list
+
+@ input - PDB residue number (int)
+@ input - List of PDB residue numbers (list)
+@ output - List of distances between the first input residue, to the ones in the list (float)
+
+```python
+from MutationChecker.structure import CheckDistances
+CheckDistances(1, [5, 6, 7], "./pdb3jui.ent")
+```
+
+## PROSITE MODULE
+
+This module has methods to search and parse the prosite database.
+
+### PrositeRequest
+
+This function takes an uniprot id, and returns a JSON with information about the domains and motifs of the protein.
+
+@ input - Uniprot ID (str)
+@ output - Information about protein domains (json)
+
+```python
+from MutationChecker.prosite import PrositeRequest
+PrositeRequest("Q13144")
+```
+
+### CheckMutationProsite
+
+This function takes a number of the residue in the sequence according to uniprot, and a uniprot ID of the protein.
+It search the Prosite database to extract the motifs, and checks if the mutation falls in place.
+
+@ input - num_residue (int) - Number of the residue to check in the sequence
+        uniprot_id (str) - String of the uniprot identifier of the protein to check.
+
+@ output - Bool - The "num_residue" falls into the domain found by Prosite
+
+```python
+from MutationChecker.prosite import CheckMutationProsite
+CheckMutationProsite(45, "Q13144")
+```
+
+### RetrieveDomain
+
+This function takes a number of the residue in the sequence according to uniprot, and a uniprot ID of the protein.
+It search the Prosite database to extract the motifs, and checks if the mutation falls in place.
+
+@ input - num_residue (int) - Number of the residue to check in the sequence
+          uniprot_id (str) - String of the uniprot identifier of the protein to check.
+
+@ output - tupple of str - Tupple with the parameters (Name of the domain found at num_residue, Accession code of Prosite of the domain.)
+
+```python
+from MutationChecker.prosite import RetrieveDomain
+RetrieveDomain(45, "Q13144")
+```
+
+## EMBL MODULE
+
+This module has function related to the parse of the active site described on EMBL
+
+### ObtainActiveCenterResidues
+
+This function takes the Uniprot ID of a protein, and returns a list of
+residue numbers that conforms the active site based on EMBL-EBI
+
+@ input - gene (str) Name of Gene
+@ output - List of Strings - Active Site residue numbers.
+
+If the protein has not an active site mapped on EMBL-EBI it returns None.
+
+Example: Get Active Site residues for LTA4H
+
+```python
+from MutationChecker.embl import ObtainActiveCenterResidues
+from MutationChecker.mapper import GeneToUniprot, GeneToFasta
+
+UniprotID = GeneToUniprot("LTA4H")
+ObtainActiveCenterResidues(UniprotID)
+```
+
+### CheckDistanceToActiveSite
+
+This function takes a name of the Gene, and a residue number, and
+computes the physical distance in amstrongs between the residue number and the
+active site residues.
+
+@ input - gene (str) Name of the gene
+@ input - residue number (int) - Number of residue to check
+@ output - List of tupples (Name of active site residue, number)
+
+Example: Get distances to the Active site from ASN488 in LTA4H
+
+```python
+from MutationChecker.embl import CheckDistanceToActiveSite
+CheckDistanceToActiveSite("LTA4H")
+```
+
