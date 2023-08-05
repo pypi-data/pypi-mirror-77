@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: catfact
+Version: 0.0.1
+Summary: Tools for working with pandas categoricals
+Home-page: https://github.com/machow/catfact
+Author: Michael Chow
+Author-email: mc_al_github@fastmail.com
+License: UNKNOWN
+Description: forcats (in python)
+        ===================
+        
+        This is a port of the popular R package forcats to python.
+        
+        **NOTE:** I am in the process of moving the forcats module from [machow/siuba](https://github.com/machow/siuba) to here.
+        In the meantime, you can install and use it from there.
+        
+        First, install siuba:
+        
+        ```
+        pip install siuba
+        ```
+        
+        Then, you can import forcats using...
+        
+        ```
+        from siuba.dply.forcats import fct_lump, fct_reorder          # etc..
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

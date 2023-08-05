@@ -1,0 +1,8 @@
+README.md
+catfact.py
+setup.py
+catfact.egg-info/PKG-INFO
+catfact.egg-info/SOURCES.txt
+catfact.egg-info/dependency_links.txt
+catfact.egg-info/requires.txt
+catfact.egg-info/top_level.txt
