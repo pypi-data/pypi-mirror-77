@@ -1,0 +1,4 @@
+exclude semanticscholar/Author.py
+exclude semanticscholar/Citation.py
+exclude semanticscholar/Paper.py
+exclude semanticscholar/Topic.py
