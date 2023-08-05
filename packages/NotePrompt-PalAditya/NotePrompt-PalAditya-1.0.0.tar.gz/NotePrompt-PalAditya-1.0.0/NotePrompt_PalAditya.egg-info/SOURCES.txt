@@ -1,0 +1,5 @@
+setup.py
+NotePrompt_PalAditya.egg-info/PKG-INFO
+NotePrompt_PalAditya.egg-info/SOURCES.txt
+NotePrompt_PalAditya.egg-info/dependency_links.txt
+NotePrompt_PalAditya.egg-info/top_level.txt
