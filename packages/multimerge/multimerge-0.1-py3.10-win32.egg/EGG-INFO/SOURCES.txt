@@ -1,0 +1,7 @@
+README.md
+multimergemodule.c
+setup.py
+multimerge.egg-info/PKG-INFO
+multimerge.egg-info/SOURCES.txt
+multimerge.egg-info/dependency_links.txt
+multimerge.egg-info/top_level.txt
