@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pydockerize
+Version: 0.1.1
+Summary: Easily create dockerized python projects
+Home-page: https://github.com/robdmc/pydockerize
+Author: Rob deCarvalho
+Author-email: unlisted@unlisted.net
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: click
+Requires-Dist: pyyaml
+Provides-Extra: dev
+
+Easily create dockerized python projects
+
+
