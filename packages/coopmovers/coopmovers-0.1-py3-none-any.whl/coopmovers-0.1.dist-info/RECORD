@@ -1,0 +1,12 @@
+coopmovers/IAgentStatusStruct.py,sha256=ozmWeYb_6onJMn6Kz2OSRbbPaoysTjVTM2E6ple-ORU,157
+coopmovers/IAgentTracker.py,sha256=Ij_DliBLQUtEEPENuGj31-DtSGWC0ZEznCHFDw-nd-k,1002
+coopmovers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coopmovers/movers.py,sha256=OgQsQytUb4jvs-S97sLWY8Akil8lj1yw-cm2FKsj6gM,5448
+coopmovers/segment.py,sha256=BnMonCPC2My0D5jVkL5lspUCfkw4nWBkCAF8frr24wI,1407
+coopmovers/segmentfollower.py,sha256=xl7Vzx_AXhp55kHMWbQArDxXXV2gbDTE98NejrR_qWA,2450
+coopmovers/segmentfollowerhub.py,sha256=VrDhPdnFR9we2Y8ixgMMAZ_V1j02PmecSR3hxz9Yrc4,12976
+coopmovers-0.1.dist-info/LICENSE,sha256=P85ArvodXCoe1lImPpa-DTemhyuL3fHweaD0DlzsNns,1069
+coopmovers-0.1.dist-info/METADATA,sha256=BhZN0d7TCdcWkFEi3bYrhhdFHdCDG3KuNhz3jG9cLCE,969
+coopmovers-0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+coopmovers-0.1.dist-info/top_level.txt,sha256=VJYEGjfO50Q0iBPhj8LOruwaud-v4q5jPhPGNp5x0yk,11
+coopmovers-0.1.dist-info/RECORD,,
