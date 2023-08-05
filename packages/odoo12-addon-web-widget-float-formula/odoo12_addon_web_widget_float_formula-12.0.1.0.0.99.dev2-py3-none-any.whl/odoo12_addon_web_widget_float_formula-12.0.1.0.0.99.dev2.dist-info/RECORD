@@ -1,0 +1,16 @@
+odoo/addons/web_widget_float_formula/README.rst,sha256=bGe1Fh7DGpvbuUMDouhlRA9jpuRREK3OxXiwtN6MfIY,3078
+odoo/addons/web_widget_float_formula/__init__.py,sha256=IDAgTYGxyXVze4qvgVlencHk1h8lpHz9LRfCRzOSr3g,70
+odoo/addons/web_widget_float_formula/__manifest__.py,sha256=fONFUIpLsaONMOe75_GHPWqe3yCUs5CMjo6qN7aAPVs,637
+odoo/addons/web_widget_float_formula/i18n/web_widget_float_formula.pot,sha256=2T_62s-OoonWUW5mCPeLA8WOQV-FszQcdurSAtvuYmA,344
+odoo/addons/web_widget_float_formula/readme/CONTRIBUTORS.rst,sha256=2VNEoh4drhp82MtaSIzlamuRUDHFyPaseo8YLnxRj2k,137
+odoo/addons/web_widget_float_formula/readme/DESCRIPTION.rst,sha256=V46a8vKjBk5EkrQfCrNX66fY85BU6XOCqzdrk5mOA34,249
+odoo/addons/web_widget_float_formula/readme/ROADMAP.rst,sha256=tfTj-70Qv5uMCst5fvxCpBOITeoL5DOiGVjR6QVLCaE,77
+odoo/addons/web_widget_float_formula/static/description/icon.png,sha256=mvr8Qrzkyo6X8Rhn4hKAsbQNwBUhVTESDsp4F6ynoo8,3110
+odoo/addons/web_widget_float_formula/static/description/index.html,sha256=9Vb0Y1J5OVcCOpCEJdxTnQT_hnvdmpRILmS6wUcrt_8,12882
+odoo/addons/web_widget_float_formula/static/src/js/web_widget_float_formula.js,sha256=fdG_6HNYhSpool6nUsaAJcAwbNbGu4YIm7XQgY4M8D4,5731
+odoo/addons/web_widget_float_formula/static/tests/js/test_web_widget_float_formula.js,sha256=TCY5XuuFueCwHxEYLuVMGBe0t6qUrZCDsOLmopTzlOo,6264
+odoo/addons/web_widget_float_formula/templates/assets.xml,sha256=LHcFitfhbGLdIPYe4q6co6dhLfU02EK4RqnT8Efba0U,883
+odoo12_addon_web_widget_float_formula-12.0.1.0.0.99.dev2.dist-info/METADATA,sha256=5eMDhbwXQXMkiPwHDKn5dAW9k-1B4ZSb-uCrlFgSUKU,3626
+odoo12_addon_web_widget_float_formula-12.0.1.0.0.99.dev2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+odoo12_addon_web_widget_float_formula-12.0.1.0.0.99.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_web_widget_float_formula-12.0.1.0.0.99.dev2.dist-info/RECORD,,
