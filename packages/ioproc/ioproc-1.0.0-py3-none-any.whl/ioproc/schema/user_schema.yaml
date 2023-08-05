@@ -1,0 +1,14 @@
+actionFolder:
+    type: string
+
+debug:
+  type: dict
+  schema:
+    timeit:
+      type: boolean
+
+fromCheckPoint:
+  type: string
+
+workflow:
+  type: list
