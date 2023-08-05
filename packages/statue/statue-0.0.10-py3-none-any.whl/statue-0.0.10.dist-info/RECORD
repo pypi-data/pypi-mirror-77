@@ -1,0 +1,15 @@
+statue/__init__.py,sha256=Q9vdFdYE3DN0HeXuJLj_3RyIctfLlujXdFrXNRqK-A4,80
+statue/__main__.py,sha256=wMh1TLIDcGTvKbgRgXCpMCXfTJCkHOf_DQ3myQErUZk,6432
+statue/command.py,sha256=_022WpsRNJJJn3IjE8qrC_NXqUhAzfXXfi4G1xu_l7o,2160
+statue/commands_map.py,sha256=CIFhV0ZmvLsP-xiYa8hLINI42xz_-bSkEhcQFZzou8c,3023
+statue/commands_reader.py,sha256=25XX_zw3Bw-7fVhwz18XmObI8tvb7-p49j9aC2kii1Y,2623
+statue/configuration.py,sha256=5LIt9ZSdGES16r_KSvHfLp6j7w-KA08loFhU2iFxZts,939
+statue/constants.py,sha256=2RlzGJcwyD_oOYxi3RTqjLvzkNYQmEsGK6LAy1G4NHk,341
+statue/verbosity.py,sha256=ByDiK4lEU5Ql1oOd_aLEW8mjt4ZrHoAWJnyq1nYpE9E,605
+statue/resources/commands.toml,sha256=FX7cfK2lP3k6OOwwEgq0v1UtrQFnsWaemr2SaHyuyUk,2167
+statue-0.0.10.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+statue-0.0.10.dist-info/METADATA,sha256=UVmx1Pfh0Gw7jRNDyIRF6mwgwy5UbYtitTYJ9iHzHrA,880
+statue-0.0.10.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+statue-0.0.10.dist-info/entry_points.txt,sha256=px_MxGXODDlwGJ52gM3c9kjuNtm2Q74S08GHGmrYToo,51
+statue-0.0.10.dist-info/top_level.txt,sha256=GyuqPoH_OBdW4eMJ50td1s2MztpCCEhWUCPf6EI24E4,7
+statue-0.0.10.dist-info/RECORD,,
