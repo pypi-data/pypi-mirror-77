@@ -1,0 +1,11 @@
+ipyvtk_simple/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipyvtk_simple/_version.py,sha256=-bn-7yJkoO4FzHjLbCFgiPEWodCeEiIBPMbFx5KRuCc,161
+ipyvtk_simple/constants.py,sha256=Z3V15GaswY-g6BXlJDpqqcCPasNfP8DR6K1BwtiSgxY,804
+ipyvtk_simple/throttler.py,sha256=3zYXcE9G-xMRcI03gf5iW8lwGQOlNoZxc503_yWm8sY,1290
+ipyvtk_simple/utilities.py,sha256=IhDTtb-fTQYfKBJxZV6eqrjLcEC_UtjRGnRPJs-qxPY,898
+ipyvtk_simple/viewer.py,sha256=S4ERjiSnE8wtGHT_6wD9y0y5nfbeyr4KqnDaUvsRRGg,9968
+ipyvtk_simple-0.0.2.dist-info/LICENSE,sha256=EB3c5myZpr_IQhFGZDFsVal_Kp47m--86-RBC3_73ZQ,1498
+ipyvtk_simple-0.0.2.dist-info/METADATA,sha256=pVs8SBOMkSUFIA8xTzn_Kn0okOD0uEE5wzBWx5rQkLQ,4924
+ipyvtk_simple-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+ipyvtk_simple-0.0.2.dist-info/top_level.txt,sha256=Ud4v52MfmnKxV5Ne4MgMKlI4UxMnYqVlwly79BjCMrQ,14
+ipyvtk_simple-0.0.2.dist-info/RECORD,,
