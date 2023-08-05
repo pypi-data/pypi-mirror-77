@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: Akram-Hssaini
+Version: 0.0.1
+Summary: A decision tree algorithm
+Home-page: UNKNOWN
+Author: Akram Hssaini
+Author-email: iakram240904@gmail.com
+License: UNKNOWN
+Description: This is a very simple Decision_Tree algo
+        
+        Change Log
+        ==========
+        
+        0.0.1 (19/08/2020)
+        ------------------
+        - First Release
+Keywords: ml,ai,decision tree
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
