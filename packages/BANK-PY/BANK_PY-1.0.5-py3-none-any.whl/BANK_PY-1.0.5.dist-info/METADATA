@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: BANK-PY
+Version: 1.0.5
+Summary: Armazene Seu Dados Sem Perde nada :)
+Home-page: https://starcomicstar.weebly.com/
+Author: José Alexsandro
+Author-email: eujosealexsandro@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+
+# BankPy Armazen de Dados Versatil
+## Muito Simples De Usa
+
+## Armzene Os Dados Da Sua AplicaÃ§Ã£o de Uma Forma Muito Simples VocÃª Pode Fazer a ComunincaÃ§Ã£o Da Sua AplicaÃ§Ã£o Com A Outra AplicaÃ§Ã£o De Dados De Uma Forma Simples
+# Exemplo:
+
+```
+import  Nome Do Modulo Ou Script
+
+lembrando Que VocÃª Deve Importa O Modulo/Script Criado Pela Sua AplicaÃ§Ã£o
+```
+
+**VocÃª Pode Cria Um Armazen de Dados Para Sua AplicaÃ§Ã£ Como SÃ© Fosse Um Banco de Dados...**
+
+**Esse Dados SerÃ£o Armazenado Em Um Arquivo Python Onde Ã© Possivel Fazer a ComicaÃ§Ã£o do Sua AplicaÃ§Ã£o Com Arquivo Python de Uma Forma Simples Ã© Util**
+
+* NÃ£o Reque Nada Especial 
+* Utiliza Apena Modulo OS
+
+```
+from BankPy import *
+
+Criando o Path
+Create.Path.Pop('testando')
+Esta FunÃ§Ã£o Cria Uma Pasta Com um __init__.py
+Este Dados Ficaram Salvo Nesse __init__.py
+
+Conectando O Path Criado
+var = Connect.Path.Pop('testando')
+
+Armazenando Um Dado Na Variavel 
+Write.Variable.Str.Pop(var'Nome_Da_Variavel''Conteudo da Variavel')
+
+```
+
+__Criado Por JosÃ© Alexsandro__
+
+
+
+
+[Desenvolvido Pela Star Comics](https://starcomicstar.weebly.com/)
+
+[Portifolio_Do_Autor](https://alexsandrodev.netlify.app/)
+
+
+
+
+
+
