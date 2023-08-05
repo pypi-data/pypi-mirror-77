@@ -1,0 +1,17 @@
+phylodm/__init__.py,sha256=_Or9uSxe8MfDiujDFMie8S3trXCAhnRsit4tMDVkyDw,1545
+phylodm/__main__.py,sha256=sJR0uxuO6WQ2xuUNrADdYUhC4LQj4GUkmaOPRP9dTIA,2956
+phylodm/common.py,sha256=HScpB8WYBFUKVuYMxt27j3bW3z7ahIiXzA4kI8BxSfY,2287
+phylodm/exceptions.py,sha256=meQZRHCz5COpdUHpkaAx8j6mb2LDL7nOX4u9Foav4og,1656
+phylodm/indices.py,sha256=uROdd9SNEcnjd0Pgl_MuaWYYVWxLLxuihW6oEU8T9Qs,3236
+phylodm/pdm.py,sha256=te-rZHyFRHaQsj-nvcKIaJUWKyu0PjX4noDVoJA9v7w,8405
+phylodm/pdm_c.cpython-36m-darwin.so,sha256=9vl_w3SVax5fBKNw58Wl85ca6UxSOqrG_l17LTG8hXM,195656
+phylodm/pdm_c.pyx,sha256=c6I1vd0ONg_746sC0VUhXBwZHKqC9LwVJN1ml0DKcfU,1970
+phylodm/pipeline.py,sha256=gqRbZjF-WsuLndH7B7NFV6wxOmRsuRc33MqAORNDmhY,247
+phylodm/symmat.py,sha256=-wW2i-iEiodWuRD6F2n3UA04OBXxWlhY_mYw6NsJZ0M,6727
+phylodm-1.2.0.data/data/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+phylodm-1.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+phylodm-1.2.0.dist-info/METADATA,sha256=u2C-g1s_cWSTJllLgoN4aiaj__9RqcUbLi3iWCiknXE,4665
+phylodm-1.2.0.dist-info/WHEEL,sha256=lSU0w45QqfDJHTuhFZouPsIyI-GSJHfRV-2E-9aUKe4,110
+phylodm-1.2.0.dist-info/entry_points.txt,sha256=tgAhAL_NBv-pA4LCvx5t5BpaD_oMnn-KvM73ajW_qZ8,51
+phylodm-1.2.0.dist-info/top_level.txt,sha256=hDLVIUVIMAlOIjnSyvm-yrCbmoskMd4LPaJhbPC5YVI,8
+phylodm-1.2.0.dist-info/RECORD,,
