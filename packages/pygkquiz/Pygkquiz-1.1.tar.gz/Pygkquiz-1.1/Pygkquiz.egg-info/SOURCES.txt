@@ -1,0 +1,8 @@
+README.md
+setup.py
+Pygkquiz/IQuiz.py
+Pygkquiz/__init__.py
+Pygkquiz.egg-info/PKG-INFO
+Pygkquiz.egg-info/SOURCES.txt
+Pygkquiz.egg-info/dependency_links.txt
+Pygkquiz.egg-info/top_level.txt
