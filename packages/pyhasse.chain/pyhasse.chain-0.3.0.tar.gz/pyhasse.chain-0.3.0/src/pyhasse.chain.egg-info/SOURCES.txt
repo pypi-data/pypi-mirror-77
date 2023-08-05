@@ -1,0 +1,17 @@
+AUTHORS.rst
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+src/pyhasse.chain.egg-info/PKG-INFO
+src/pyhasse.chain.egg-info/SOURCES.txt
+src/pyhasse.chain.egg-info/dependency_links.txt
+src/pyhasse.chain.egg-info/namespace_packages.txt
+src/pyhasse.chain.egg-info/not-zip-safe
+src/pyhasse.chain.egg-info/requires.txt
+src/pyhasse.chain.egg-info/top_level.txt
+src/pyhasse/chain/__init__.py
+src/pyhasse/chain/calc.py
