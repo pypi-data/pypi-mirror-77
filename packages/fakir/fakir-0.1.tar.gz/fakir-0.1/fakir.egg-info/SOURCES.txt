@@ -1,0 +1,9 @@
+README.md
+setup.py
+fakir/__init__.py
+fakir/py.typed
+fakir.egg-info/PKG-INFO
+fakir.egg-info/SOURCES.txt
+fakir.egg-info/dependency_links.txt
+fakir.egg-info/not-zip-safe
+fakir.egg-info/top_level.txt
