@@ -1,0 +1,6 @@
+include README.md
+include CONTRIBUTORS.txt
+include LICENSE
+prune */tests
+graft pydockerize/default_build_files
+graft pydockerize/default_project_files
