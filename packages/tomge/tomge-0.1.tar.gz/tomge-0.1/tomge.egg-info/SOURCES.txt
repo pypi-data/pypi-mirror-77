@@ -1,0 +1,10 @@
+setup.py
+tomge/Binomialdistribution.py
+tomge/Gaussiandistribution.py
+tomge/Generaldistribution.py
+tomge/__init__.py
+tomge.egg-info/PKG-INFO
+tomge.egg-info/SOURCES.txt
+tomge.egg-info/dependency_links.txt
+tomge.egg-info/not-zip-safe
+tomge.egg-info/top_level.txt
