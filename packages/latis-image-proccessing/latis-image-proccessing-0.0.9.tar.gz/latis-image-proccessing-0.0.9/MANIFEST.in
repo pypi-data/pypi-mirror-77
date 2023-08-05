@@ -1,0 +1,4 @@
+include latis/gdsm/bin/*.pyd
+include latis/gdsm/bin/*.py
+include latis/gdsm/bin/*.exe
+include latis/gdsm/bin/*.dll
