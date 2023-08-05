@@ -1,0 +1,16 @@
+mishtar/__init__.py,sha256=xgt-1Hf62hJ0gQFBs4mbTW0j7Zu-MPZBsYHMD2Q9wGU,227
+mishtar/chunked.py,sha256=-algoGzo4C5-tjWXco_-ZhKbTjpADt6Txleqf_RleEk,11002
+mishtar/mynamed.py,sha256=lINMqD4Y5YVKF4hqrP_gatt6_w6XtQCwIkT8PsXJO4k,8149
+mishtar/mynumber.py,sha256=wAmE4DYO8BokxtTYQfeHExjYIPr5wvgGCHWRC0fVRF4,14397
+mishtar/myplace.py,sha256=Duz_GhdPDqayqgD_UUzF7pBE_SAAgDnaaxE26PshsqU,4475
+mishtar/mytemped.old.2.py,sha256=1M-mp9mtuXfPKOl73l2qUIJsH-xrLEz8jMKl7dYtEAU,17928
+mishtar/mytemped.old.py,sha256=ZbCl8DMIlVY21W28_QvLXpNHlxB_ibWqD9HsViy430U,13120
+mishtar/mytemped.py,sha256=Ckdp1XusBY5WNjLz5JoVqowAzY2ej1ZPbRrALDU0YtA,21721
+mishtar/mytemped_const.old.2.py,sha256=KvAwZSpyGVbGGQnSLVvQpVcjZqAh5exFmIgxdzsEHSs,8105
+mishtar/mytemped_const.old.py,sha256=mWlmWuefj52Lt0PBX6zu4NLI_owXZB35M1Cg_VcfR_U,4217
+mishtar/mytemped_const.py,sha256=-uluFCA47fT00453s14uQS7g2DaTXLAMx36wzGgtq34,8740
+mishtar/place_const.py,sha256=Eat7aowSW_lg-GUWl_GBwSNgwuFRb0tAjG8nsEM7Fns,358
+mishtar-0.1.dist-info/METADATA,sha256=To3DovCOLV545-fcT7PAmxUeZ30lsfyd2m7Gu9wCNvc,7097
+mishtar-0.1.dist-info/RECORD,,
+mishtar-0.1.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+mishtar-0.1.dist-info/top_level.txt,sha256=eyqj7NcEKLkSywE5rFcZp0JSrpwI11nsMAPefKU-GZI,8
