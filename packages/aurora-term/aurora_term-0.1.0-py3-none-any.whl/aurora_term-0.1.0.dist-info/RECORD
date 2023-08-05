@@ -1,0 +1,10 @@
+aurora_term/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+aurora_term/__main__.py,sha256=ZRJBaFkHyZJh8QD1MX1gcSeZP3cmDMbSoryIJWAIyKg,795
+aurora_term/aurora.py,sha256=AIZNC3LsjJnk9oCsdtPeTTbogtOX2hDUDabORiQUSFI,1205
+aurora_term/config.py,sha256=rTlAzf1ATYpMskN82riSufc1VyNvU2sdGDFWE2UhbVw,277
+aurora_term/terminal.py,sha256=1q9gcKq-Fq0jbNg7sbr0XbZvX4ix8eaICA9Ia_fldGA,2488
+aurora_term-0.1.0.dist-info/entry_points.txt,sha256=Q7BPUFha4Uh8ddlPIXkRTF67C-L1gkZy7WOGfcdbFQs,57
+aurora_term-0.1.0.dist-info/LICENSE,sha256=UXJ7wa8Ss7WqhcekIoIwseRtm5yUCulYkZ8aCtaNMAg,1074
+aurora_term-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+aurora_term-0.1.0.dist-info/METADATA,sha256=kuyJiULAhSw1r4cpWr200X8IY80cMd990rXFv2q_SOs,3058
+aurora_term-0.1.0.dist-info/RECORD,,
