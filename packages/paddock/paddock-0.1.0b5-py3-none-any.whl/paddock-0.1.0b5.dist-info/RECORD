@@ -1,0 +1,9 @@
+paddock/__init__.py,sha256=ACydAoVuOsx0Fl2VziDrNbdg2AZK5C4jJ6MlKuMjKHM,461
+paddock/__version__.py,sha256=IGUbbyvxcc5i3sBNFe-nbaV3tTTyfyQbf5zKeVDS6NI,465
+paddock/client.py,sha256=miWP906kHPgfa20ORVTN7L-wMlmy1cKyv3nBpe8m22w,22071
+paddock/constants.py,sha256=9A3LVB3eDSapGROAZ1xEV1FQgMR0m58Tqyg2IStXQRo,9990
+paddock/util.py,sha256=dE0B1LQeDCQOf4vK7V8gVH46jmfdDdqygpoKmwMDsa0,244
+paddock-0.1.0b5.dist-info/METADATA,sha256=Lu_FEk2-vwYYSrUGB35N-vk7_z4DpPcNubJeJTgAUew,499
+paddock-0.1.0b5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+paddock-0.1.0b5.dist-info/top_level.txt,sha256=59UMpF3NEwZvJjlhGN6Q2V9eFB30MF-2wU7n1c49LHg,8
+paddock-0.1.0b5.dist-info/RECORD,,
