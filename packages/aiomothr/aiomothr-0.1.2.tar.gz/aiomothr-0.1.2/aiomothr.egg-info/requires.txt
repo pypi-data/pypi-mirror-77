@@ -1,0 +1,10 @@
+aioredis
+gql==3.0.0a1
+mothrpy>=0.1.0
+
+[dev]
+asynctest
+pytest
+pytest-asyncio
+pytest-cov
+pytest-mypy
