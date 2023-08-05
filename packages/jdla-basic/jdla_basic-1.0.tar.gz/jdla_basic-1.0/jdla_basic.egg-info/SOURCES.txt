@@ -1,0 +1,8 @@
+README.md
+setup.py
+jdla_basic/__init__.py
+jdla_basic/basic_opeartions.py
+jdla_basic.egg-info/PKG-INFO
+jdla_basic.egg-info/SOURCES.txt
+jdla_basic.egg-info/dependency_links.txt
+jdla_basic.egg-info/top_level.txt
