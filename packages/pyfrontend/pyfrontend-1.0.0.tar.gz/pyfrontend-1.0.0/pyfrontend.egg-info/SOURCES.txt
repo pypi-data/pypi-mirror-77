@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+pyfrontend/__init__.py
+pyfrontend.egg-info/PKG-INFO
+pyfrontend.egg-info/SOURCES.txt
+pyfrontend.egg-info/dependency_links.txt
+pyfrontend.egg-info/top_level.txt
