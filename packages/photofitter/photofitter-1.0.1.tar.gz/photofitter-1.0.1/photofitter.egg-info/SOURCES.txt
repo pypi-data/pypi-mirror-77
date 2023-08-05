@@ -1,0 +1,8 @@
+README.md
+setup.py
+photofitter.egg-info/PKG-INFO
+photofitter.egg-info/SOURCES.txt
+photofitter.egg-info/dependency_links.txt
+photofitter.egg-info/entry_points.txt
+photofitter.egg-info/requires.txt
+photofitter.egg-info/top_level.txt
