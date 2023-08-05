@@ -1,0 +1,7 @@
+README.md
+setup.py
+p8.egg-info/PKG-INFO
+p8.egg-info/SOURCES.txt
+p8.egg-info/dependency_links.txt
+p8.egg-info/entry_points.txt
+p8.egg-info/top_level.txt
