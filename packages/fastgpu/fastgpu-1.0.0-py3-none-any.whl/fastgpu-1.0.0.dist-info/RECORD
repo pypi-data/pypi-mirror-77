@@ -1,0 +1,10 @@
+fastgpu/__init__.py,sha256=PFG7amrxTTQ_ZfUyB2yY5550Dmz6PNH_OZklhzrI2yk,42
+fastgpu/_nbdev.py,sha256=66G6uGnypSdyMlDi6JY2FaO45uw2znEY_ogxHkBaarw,529
+fastgpu/cli.py,sha256=5PoSdkpGro4FCjAp4QZ_x8yR2QNjJQxxwpKmwXGSk8g,389
+fastgpu/core.py,sha256=riV1k2Hpe0T4r6Vh9iloknUB_D4VBGQ0vn1qq8yQC40,5867
+fastgpu-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fastgpu-1.0.0.dist-info/METADATA,sha256=MWfPYJyaz4jF5n2leVRF-gDVjOuxYYj07TsFHlZrCNU,3012
+fastgpu-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fastgpu-1.0.0.dist-info/entry_points.txt,sha256=vsr70KtOmGHjMRoSVnjXYbHwA_xUGL-cINpPLAEK0aM,59
+fastgpu-1.0.0.dist-info/top_level.txt,sha256=k3O0Nfx-7mK5xILCBP2w0aG5fzrjBre4p3kqOwjPQes,8
+fastgpu-1.0.0.dist-info/RECORD,,

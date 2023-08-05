@@ -1,0 +1,3 @@
+[console_scripts]
+fastgpu_poll = fastgpu.cli:fastgpu_poll
+
