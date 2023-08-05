@@ -1,0 +1,10 @@
+pyreadstat-1.0.1.dist-info/WHEEL,sha256=0wGQBSV-BlYX9ESMZyEiLMpXIYwrZGj6McPYyDp_RjA,108
+pyreadstat-1.0.1.dist-info/RECORD,,
+pyreadstat-1.0.1.dist-info/LICENSE,sha256=Tjohfl1RlkuDoTF5ctnLvkGnr8TU27PEy7PhOHjRz5c,12903
+pyreadstat-1.0.1.dist-info/top_level.txt,sha256=7LlluhR4SADp00dJTEVpKMet_Jki7JHA6abJ-wu831E,11
+pyreadstat-1.0.1.dist-info/METADATA,sha256=N6vq_3xQms0I2OrpH3k5YGXWWlu7fImj1dIVsAzHqqw,1028
+pyreadstat.libs/libz-a147dcb0.so.1.2.3,sha256=_HZ_XiOuVypJhy7VEy7Pv-QM6RxKmNtmQG2swxTNcvE,87848
+pyreadstat/__init__.py,sha256=MZ_mxm1FsbMMn8i2SL7GxvzKP2JJ70rUaujBzAGTdwg,1096
+pyreadstat/pyreadstat.cpython-38-x86_64-linux-gnu.so,sha256=jrpH7WtMS7-lrAEMxiPO1hTOBDrx4rNIYVPOtrqZH8Y,1934376
+pyreadstat/_readstat_parser.cpython-38-x86_64-linux-gnu.so,sha256=QCqV8vcl4UcpNdZ2r3JQ-7DExTU68yX7QK6BZad0C5g,2008136
+pyreadstat/_readstat_writer.cpython-38-x86_64-linux-gnu.so,sha256=ZO7PedVpjDEfzUZ325XyjSO61Ts-Gkt8BhwYbX6C5Cc,3568568
