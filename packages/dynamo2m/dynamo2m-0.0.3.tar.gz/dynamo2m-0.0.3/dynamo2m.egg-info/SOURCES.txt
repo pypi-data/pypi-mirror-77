@@ -1,0 +1,16 @@
+README.md
+setup.py
+dynamo2m/__init__.py
+dynamo2m/dynamo2warp.py
+dynamo2m/m2dynamo.py
+dynamo2m/m2warp.py
+dynamo2m/starfile_rescale.py
+dynamo2m/utils.py
+dynamo2m/version.py
+dynamo2m/warp2dynamo.py
+dynamo2m.egg-info/PKG-INFO
+dynamo2m.egg-info/SOURCES.txt
+dynamo2m.egg-info/dependency_links.txt
+dynamo2m.egg-info/entry_points.txt
+dynamo2m.egg-info/requires.txt
+dynamo2m.egg-info/top_level.txt
