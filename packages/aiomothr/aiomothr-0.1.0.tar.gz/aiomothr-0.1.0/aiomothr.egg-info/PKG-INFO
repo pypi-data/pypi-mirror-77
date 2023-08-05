@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aiomothr
+Version: 0.1.0
+Summary: Asynchronous client library for interacting with MOTHR
+Home-page: UNKNOWN
+Author: James Arnold
+Author-email: james@rs21.io
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Provides-Extra: dev
