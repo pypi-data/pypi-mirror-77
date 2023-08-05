@@ -1,0 +1,8 @@
+README.md
+setup.py
+tac/__init__.py
+tac/date_cleaner.py
+tidy_archive_catalogues.egg-info/PKG-INFO
+tidy_archive_catalogues.egg-info/SOURCES.txt
+tidy_archive_catalogues.egg-info/dependency_links.txt
+tidy_archive_catalogues.egg-info/top_level.txt
