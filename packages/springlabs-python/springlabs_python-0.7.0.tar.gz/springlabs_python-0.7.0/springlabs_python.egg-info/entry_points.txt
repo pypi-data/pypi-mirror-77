@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        springlabs_python=springlabs_pypi.scripts.springlabs_python:cli
+    
