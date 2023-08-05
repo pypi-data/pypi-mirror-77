@@ -1,0 +1,3 @@
+[console_scripts]
+ifem-to-vt = ifem_to_vt.__main__:convert
+
