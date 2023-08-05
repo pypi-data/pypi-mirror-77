@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: PyLensing
+Version: 0.1
+Summary: A tool for generating lensing images based on PyAutoLens simulations
+Home-page: https://github.com/DeepLense-Unsupervised/PyLensing
+Author: K Pranath Reddy
+Author-email: pranath.mail@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: Gravitational Lensing,Simulation,Dark Matter
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
