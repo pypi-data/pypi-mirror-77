@@ -1,0 +1,482 @@
+description: A YAML, Markdown, reveal.js based Flask application.
+author: Yuan Chang
+watermark: img/watermark.png
+watermark-size: 25%
+footer:
+  src: img/icon.png
+  width: 50pt
+  label: 機器與機電設計實驗室
+  link: http://mmd-lab.herokuapp.com/
+nav:
+  - title: Reveal.yaml Documentation
+    doc: |
+      *Author: [Yuan Chang](https://github.com/KmolYuan)*
+
+      Required Python 3.7+
+
+      + <https://github.com/KmolYuan/reveal-yaml>
+      + <https://github.com/hakimel/reveal.js>
+
+      Scroll right → to see the tutorial.
+
+      Scroll down ↓ to see an auto-generated outline.
+
+  - title: Quick Start
+    doc: |
+      Install from PyPI:
+
+      ```bash
+      pip install reveal-yaml
+      ```
+
+      Create a project by Reveal.yaml Manager (RYM):
+
+      ```bash
+      mkdir myproject
+      cd myproject
+      rym init .
+      ```
+
+      This App will read the YAML file `reveal.yaml` or `reveal.yml` in the root directory.
+      Startup a local server to preview the slides.
+
+      ```bash
+      rym serve
+      ```
+
+      Scroll down ↓ to see what should do next.
+    sub:
+      - doc: |
+          ## JSON Schema
+
+          If your IDE supports [JSON Schema](https://json-schema.org/understanding-json-schema/index.html),
+          you can use the installed or remote files to validate your Reveal.yaml project.
+
+          + [schema.json](https://raw.githubusercontent.com/KmolYuan/reveal-yaml/gh-pages/schema.json)
+          + [schema.yaml](https://raw.githubusercontent.com/KmolYuan/reveal-yaml/master/reveal_yaml/schema.yaml)
+
+          ## Deployment
+
+          Release the webpage to "build" directory:
+
+          ```bash
+          rym pack
+          ```
+
+          ## Certification
+
+          Generate a key by Open SSL to create "https" protocol:
+
+          ```bash
+          openssl genrsa 2048 > localhost.key
+          chmod 400 localhost.key
+          openssl req -new -x509 -nodes -sha256 -days 365 -key localhost.key -out localhost.crt
+          ```
+
+      - title: From Repository
+        doc: |
+          Install requirements:
+
+          ```bash
+          pip install -r requirements.txt
+          ```
+
+          Fetch Reveal.js repository and get the required files:
+
+          ```bash
+          git submodule update --init
+          python sync.py
+          # Directly use (same as "rym --help")
+          python entry.py --help
+          # Install
+          python setup.py install
+          ```
+
+      - title: GH Pages
+        doc: |
+          The Github actions can deploy "build" to gh-pages automatically.
+          Disable it by:
+
+          ```bash
+          rym init --no-workflow
+          ```
+
+          You can refer the [config](https://github.com/KmolYuan/reveal-yaml/blob/master/.github/workflows/deploy.yml) of this repo.
+
+          At the first time, create an [access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
+          value named `ACCESS_TOKEN` under your repository "Secrets".
+          At last, each commit will enable auto deployment on "gh-pages" branch.
+
+          Powered by [JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action).
+
+  - title: Reveal.js Slides
+    doc: |
+      The slides are 2D arrary-like.
+
+      Scroll down ↓ to learn the rules.
+
+      ```yaml
+      nav:
+        - title: ...
+          doc: ...
+          img:
+            src: ...
+      ```
+    sub:
+      - title: Slides in HTML
+        doc: |
+          In Reveal.js, the HTML structure shown as following:
+
+          ```html
+          <section> <!-- Horizontal slide 1 -->
+          <section>...</section> <!-- Vertical slide 1 -->
+          <section>...</section> <!-- Vertical slide 2 -->
+          ...
+          </section>
+          <section> <!-- Horizontal slide 2 -->
+          ...
+          </section>
+          ```
+
+      - title: Slides in YAML
+        doc: |
+          The **horizontal** slides are as list in the `nav` node.
+          And a slide can work with at least **one** attribute structure:
+
+          ```yaml
+          nav:
+            - {}  # Not work
+            - title: ...  # Work!
+            - doc: ...  # Work!
+            - img: ...  # Work!
+          ```
+
+          The **vertical** slides work under the `sub` node of first slide.
+          Their attributes are same as horizontal slides.
+          Or just use `sub` at first slide without other attributes.
+
+          ```yaml
+          nav:
+            - title: Horizontal slide 1
+              sub:
+                - title: Vertical slide 1
+                - title: Vertical slide 2
+            - title: Horizontal slide 2
+          ```
+
+      - doc: |
+          YAML Flow style and anchors is also valid in this project.
+
+          Please see the [official documentation](https://yaml.org/) for more information.
+
+          ```yaml
+          a:
+            - B
+            - C
+          a: [B, C]  # Flow style
+          1:
+            2: 3
+            4: 5
+          1: {2: 3, 4: 5}  # Flow style
+          ```
+
+          ```yaml
+          - &my-title-page  # Create anchor
+            title: Title 1
+            doc: Hello!
+          - <<: *my-title-page  # Extend from anchor
+            title: Hello Again
+          ```
+
+      - title: Sized Attributes
+        doc: |
+          Some options are support resize. Based on HTML.
+
+          So their attributes are defined as:
+
+          ```yaml
+          sized: &sized
+            src: # Source path: str (required)
+            width: # Source width: int / str ("")
+            height: # Source height: int / str ("")
+          ```
+
+          And they will be interpreted as:
+
+          ```html
+          <tag src="..." width="..." height="..."></tag>
+          ```
+
+          The "sized" block in the following sections will represented as YAML references.
+
+          ```yaml
+          <<: *sized
+          ...: # other options
+          ```
+
+  - title: Project Options
+    doc: |
+      | Key | Description | Type |
+      |:---:|:------------|:----:|
+      | lang | Page language, default is "en" | `str` |
+      | title | Page title, default is same as first page | `str` |
+      | description | Page description | `str` |
+      | author | Page author | `str` |
+      | watermark | Watermark source | `str` |
+      | watermark-size | Source width | `int` / `str` |
+      | outline | Outline page under first column with depth | `int` {0, 1, 2} |
+      | theme | Reveal.js theme, "serif" by default | `str` |
+      | code-theme | Highlight theme, "zenburn" by default | `str` |
+      | icon | Icon path, "img/icon.png" by default | `str` |
+    sub:
+      - doc: |
+          | Key | Description | Type |
+          |:---:|:------------|:----:|
+          | default-style | Use default style, enabled by default | `bool` |
+          | extra-style | Extra CSS style path in "templates" | `str` |
+          | nav-mode | Reveal [navigation mode](https://revealjs.com/vertical-slides/#navigation-mode) option | `str` |
+          | show-arrows | Show control arrows, enabled by default | `bool` |
+          | center | Auto center the "doc", enabled by default | `bool` |
+          | loop | Loop the slides, disabled by default | `bool` |
+          | history | Enable page history, enabled by default | `bool` |
+          | slide-num | Slide number style, "c/t" by default | `bool` / `str` |
+          | progress | Show progress bar, enabled by default | `bool` |
+          | mouse-wheel | Allow wheel control, disabled by default | `bool` |
+      - doc: |
+          | Key | Description | Type |
+          |:---:|:------------|:----:|
+          | preview-links | Open a preview window for links, disabled by default | `bool` |
+          | transition | Transition mode, "slide" by default | `str` |
+          | [footer](#/3/3) | Footer option | `Footer` |
+          | nav | Horizontal slides | `List[HSlide]` |
+
+      - title: Footer
+        doc: |
+          The footer is at left buttom side.
+
+          Its height is adjusted by its logo size and text height.
+
+          Pixel unit `pt` is recommended for fixed size in any screen.
+
+          ```yaml
+          footer:
+            <<: *sized
+            label: # A caption at the right of logo: str ("")
+            link: # A URL link for the footer: str ("")
+          ```
+
+          The example of this slide is:
+
+          ```yaml
+          footer:
+            src: img/footer-icon.png
+            width: 50pt
+            label: 機器與機電設計實驗室
+            link: http://mmd-lab.herokuapp.com/
+          ```
+
+  - title: Slide Attributes
+    doc: |
+      All attributes are default to disable.
+
+      | Key | Description | Type |
+      |:---:|:------------|:----:|
+      | id | Custom section id | `str` |
+      | title | Single line Markdown level 2 title | `str` |
+      | [doc](#/4/2) | Multiline Markdown pargraph | `str` |
+      | include | Include a Markdown file name from "templates", append after "doc" key | `str` |
+      | math | Latex math without "$$" brackets | `str` |
+      | [img](#/4/3) | A list of image source | `Img` / `List[Img]` |
+      | youtube / embed | YouTube or external resource like PDF | `Sized` |
+    sub:
+      - doc: |
+          | Key | Description | Type |
+          |:---:|:------------|:----:|
+          | [fragment](#/4/4) | Fragment option | `Fragment` |
+          | sub | Vertical slides, for horizontal slides only | `List[Slide]` |
+
+      - title: Markdown Article
+        doc: |
+          Paragarphs are written in [Markdown](https://daringfireball.net/projects/markdown/syntax).
+          HTML is also supported.
+
+          All of special characters will be auto escaped from HTML like `&gt;`.
+
+          Slide & element attributes are allowed.
+
+          ```html
+          &lt;!-- .slide: data-background="red" -->
+          &lt;!-- .element: class="fragment" data-fragment-index="1" -->
+          ```
+
+          Notes are allowed in Markdown format. Press "S" to see this:
+
+          ```markdown
+          note&colon;
+          Shows in speaker view!
+          ```
+
+          note:
+          Shows in speaker view!
+
+      - title: Image Attributes
+        doc: |
+          Must have at least `src` attribute to become a valid image.
+          Each group will map to a picture.
+
+          ```yaml
+          - <<: *sized
+            label: # Image caption: str ("")
+          ```
+
+          They will interpreted like:
+
+          ```html
+          <figure>
+          <img src="fig1"/>
+          <figcaption>...</figcaption>
+          </figure><figure>
+          <img src="fig2"/>
+          <figcaption>...</figcaption>
+          </figure> ...
+          ```
+
+          If there has only one image, the options can under `img` key directly
+          without to list them.
+
+      - title: Fragment Elements
+        doc: |
+          Each slide can be added [Fragment option](https://revealjs.com/fragments).
+          Supports:
+
+          + math
+          + img (one by one)
+          + youtube
+          + embed
+
+          ```yaml
+          fragment: {img: grow}
+          ```
+
+  - title: Examples
+    doc: |
+      You can found [the source](https://github.com/KmolYuan/reveal-yaml/blob/master/reveal.yaml)
+      of this doc to see those example.
+
+      Scroll down ↓ to see the examples.
+    sub:
+      - doc: |
+          ## Markdown
+
+          ```yaml
+          doc: |
+            *Something* **important**.
+
+            | item 1 | item 2 |
+            |:------:|:------:|
+            | A | B |
+
+            + Item 1 &lt;!-- .element: class="fragment" data-fragment-index="2" -->
+            + Item 2 &lt;!-- .element: class="fragment" data-fragment-index="1" -->
+          ```
+
+          *Something* **important**.
+
+          | item 1 | item 2 |
+          |:------:|:------:|
+          | A | B |
+
+          + Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
+          + Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
+
+      - doc: |
+          ## Code block
+
+          ```markdown
+          doc: |
+            &#96;&#96;&#96;python [1-2]
+            import sys
+            print(sys.path)
+            for i in range(10):
+                print("Hello World!")
+            &#96;&#96;&#96;
+          ```
+
+          ```python [1-2]
+          import sys
+          print(sys.path)
+          for i in range(10):
+              print("Hello World!")
+          ```
+
+      - doc: |
+          ## Images
+
+          ```yaml
+          img:
+          - label: Ubuntu Logo
+            src: https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo-ubuntu_cof-orange-hex.svg
+            width: 50%
+          - label: Google Logo
+            src: https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
+          fragment:
+            img: fade-in-then-out
+          ```
+        img:
+          - label: Ubuntu Logo
+            src: https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo-ubuntu_cof-orange-hex.svg
+            width: 50%
+          - label: Google Logo
+            src: https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
+        fragment:
+          img: fade-in-then-out
+
+      - doc: |
+          ## Maths
+
+          ```yaml
+          math: |
+            \small\begin{aligned}
+            \min_{x_1, x_2}&f(x)
+            \\
+            \text{s.t. } &b(x) \le 0
+            \\
+            &c(x) = 0
+            \end{aligned}
+          fragment:
+            math: highlight-blue
+          ```
+        math: |
+          \small\begin{aligned}
+          \min_{x_1, x_2}&f(x)
+          \\
+          \text{s.t. } &b(x) \le 0
+          \\
+          &c(x) = 0
+          \end{aligned}
+        fragment:
+          math: highlight-blue
+
+      - doc: |
+          ## Embedded YouTube Video
+
+          ```yaml
+          youtube:
+            src: https://www.youtube.com/embed/LcuvxJNIgfE
+            width: 800pt
+            height: 500pt
+          ```
+        youtube:
+          src: https://www.youtube.com/embed/LcuvxJNIgfE
+          width: 600pt
+          height: 400pt
+
+      - doc: |
+          ## Embedded PDF
+
+          ```yaml
+          embed:
+            src: https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
+          ```
+        embed:
+          src: https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
