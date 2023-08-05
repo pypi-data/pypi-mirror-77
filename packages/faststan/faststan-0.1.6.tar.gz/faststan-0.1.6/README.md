@@ -1,0 +1,130 @@
+# FastSTAN
+
+<a href="https://gitlab.com/faststan/faststan/-/commits/next"><img alt="Pipeline status" src="https://gitlab.com/faststan/faststan/badges/next/pipeline.svg"></a>
+<a href="https://gitlab.com/faststan/faststan/-/commits/next"><img alt="Coverage report" src="https://gitlab.com/faststan/faststan/badges/next/coverage.svg"></a>
+<a href="https://python-poetry.org/docs/"><img alt="Packaging: poetry" src="https://img.shields.io/badge/packaging-poetry-blueviolet"></a>
+<a href="https://flake8.pycqa.org/en/latest/"><img alt="Style: flake8" src="https://img.shields.io/badge/style-flake8-ff69b4"></a>
+<a href="https://black.readthedocs.io/en/stable/"><img alt="Format: black" src="https://img.shields.io/badge/format-black-black"></a>
+<a href="https://docs.pytest.org/en/stable/"><img alt="Packaging: pytest" src="https://img.shields.io/badge/tests-pytest-yellowgreen"></a>
+<a href="https://pypi.org/project/faststan/"><img alt="PyPI" src="https://img.shields.io/pypi/v/faststan"></a>
+<a href="https://faststan.gitlab.io/faststan/"><img alt="Documentation" src="https://img.shields.io/badge/docs-mkdocs-blue"></a>
+<a href="https://opensource.org/licenses/MIT"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+
+Easily deploy NATS Streaming subscribers using Python.
+
+## Features
+
+- Define subscribers using sync and async python functions
+- Automatic data parsing and validation using type annotations and pydantic
+- Support custom validation using any function
+- Allow several subscribers on same channel
+- Support all subscription configuration available in stan.py
+- Healthcheck available using HTTP GET request to monitor the applications
+- (TODO) Metrics available using HTTP GET requests to monitor subsriptions status
+- All of FastAPI features
+
+## Quick start
+
+- Install the package from pypi:
+
+```bash
+pip install faststan
+```
+
+- Create your first subscriber. Create a file named `app.py` and write the following lines:
+
+```python
+from faststan import FastSTAN
+
+app = FastSTAN()
+
+@app.stan.subscribe("demo")
+def on_event(message: str):
+    print(f"INFO :: Received new message: {message}")
+```
+
+- Start your subscriber:
+
+```shell
+uvicorn app:app
+```
+
+- Or if you are in a jupyter notebook environment, start the subscriptions:
+
+```python
+await app.stan.run()
+```
+
+## Advanced features
+
+### Using error callbacks
+
+```python
+from faststan import FastSTAN
+
+
+app = FastSTAN()
+
+
+def handle_error(error):
+    print("ERROR: {error}")
+
+
+@app.stan.subscribe("demo", error_cb=handle_error)
+def on_event(message: str):
+    print(f"INFO :: Received new message: {message}")
+```
+
+### Using pydantic models
+
+You can use pydantic models in order to automatically parse incoming messages:
+
+```python
+from pydantic import BaseModel
+from faststan import FastSTAN
+
+
+class Event(BaseModel):
+    timestamp: int
+    temperature: float
+    humidity: float
+
+
+app = FastSTAN()
+
+
+@app.stan.subscribe("event")
+def on_event(event):
+    msg = f"INFO :: {event.timestamp} :: Temperature: {event.temperature} | Humidity: {event.humidity}"
+    print(msg)
+```
+
+### Using pydantic models with numpy or pandas
+
+```python
+import numpy as np
+from pydantic import BaseModel
+from faststan import FastSTAN
+
+
+class NumpyEvent(BaseModel):
+    values: np.ndarray
+    timestamp: int
+
+    @validator("temperature", pre=True)
+    def validate_array(cls, value):
+        return np.array(value, dtype=np.float32)
+
+    @validator("humidity", pre=True)
+    def validate_array(cls, value):
+        return np.array(value, dtype=np.float32)
+
+    class Config:
+        arbitrary_types_allowed = True
+
+@app.stan.subscribe("event")
+def on_event(event: NumpyEvent):
+    print(
+        f"INFO :: {event.timestamp} :: Temperature values: {event.values[0]} | Humidity values: {event.values[1]}"
+    )
+```
