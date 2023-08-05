@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+criaenvio/__init__.py
+criaenvio/cliente.py
+criaenvio/contato.py
+criaenvio/envio.py
+criaenvio/lista.py
+pycriaenvio.egg-info/PKG-INFO
+pycriaenvio.egg-info/SOURCES.txt
+pycriaenvio.egg-info/dependency_links.txt
+pycriaenvio.egg-info/not-zip-safe
+pycriaenvio.egg-info/requires.txt
+pycriaenvio.egg-info/top_level.txt
