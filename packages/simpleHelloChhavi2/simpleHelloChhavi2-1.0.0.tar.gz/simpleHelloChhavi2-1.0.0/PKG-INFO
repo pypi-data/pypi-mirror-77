@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: simpleHelloChhavi2
+Version: 1.0.0
+Summary: A Python package to simply desplay hello world bot in lower case and upper case as per user's need.
+Home-page: UNKNOWN
+Author: Chhavi Trivedi
+Author-email: chhavi7320@gmail.com
+License: MIT
+Description: A Python package to simply desplay hello world bot in lower case and upper case as per user's need.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

@@ -1,0 +1,6 @@
+README.md
+setup.py
+simpleHelloChhavi2.egg-info/PKG-INFO
+simpleHelloChhavi2.egg-info/SOURCES.txt
+simpleHelloChhavi2.egg-info/dependency_links.txt
+simpleHelloChhavi2.egg-info/top_level.txt
