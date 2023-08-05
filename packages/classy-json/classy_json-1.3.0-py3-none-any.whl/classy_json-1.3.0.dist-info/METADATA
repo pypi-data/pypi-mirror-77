@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: classy-json
+Version: 1.3.0
+Summary: An attempt to recreate the way json behaves in Javascript, but in Python
+Home-page: https://github.com/Iapetus-11/Classy-Json
+Author: Iapetus-11
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Classy-Json ![PYPI Downloads](https://img.shields.io/pypi/dw/classy-json?color=64b594)
+### An attempt at recreating the way json works in JavaScript, but in the Python programming language.
+
+## Setup / Install
+### Using pip:
+```
+python3 -m pip install Classy-Json
+```
+### Manually:
+* Clone the repository
+```
+git clone https://github.com/Iapetus-11/Classy-Json.git
+```
+* cd into the directory
+```
+cd Classy-Json
+```
+* Run setup.py
+```
+python3 setup.py build install
+```
+
+## Contribution
+* Fork the repository
+* Make any changes
+* Submit a pull request
+
+
