@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: present
+Version: 0.2.0
+Summary: A terminal-based presentation tool.
+Home-page: https://github.com/vinayak-mehta/present
+Author: Vinayak Mehta
+Author-email: vmehta94@gmail.com
+License: Apache 2.0
+Description: <p align="center">
+           <img src="https://raw.githubusercontent.com/vinayak-mehta/present/master/docs/_static/present.png" width="200">
+        </p>
+        
+        # present
+        
+        A terminal-based presentation tool.
+        
+        <p align="center">
+           <img src="https://raw.githubusercontent.com/vinayak-mehta/present/master/docs/_static/demo.gif" width="800">
+        </p>
+        
+        ## Installation
+        
+        You can simply use pip to install `present`:
+        
+        ```bash
+        $ pip install present
+        ```
+        
+        ## Usage
+        
+        ```bash
+        $ present sample.md
+        ```
+        
+        ## Versioning
+        
+        `present` uses [Semantic Versioning](https://semver.org/). For the available versions, see the tags on the GitHub repository.
+        
+        ## License
+        
+        This project is licensed under the Apache License, see the [LICENSE](https://github.com/vinayak-mehta/present/blob/master/LICENSE) file for details.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
