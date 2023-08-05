@@ -1,0 +1,8 @@
+README.md
+setup.py
+pitches/__init__.py
+pitches/pitches.py
+pitches.egg-info/PKG-INFO
+pitches.egg-info/SOURCES.txt
+pitches.egg-info/dependency_links.txt
+pitches.egg-info/top_level.txt

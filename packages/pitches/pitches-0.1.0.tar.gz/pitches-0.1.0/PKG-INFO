@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: pitches
+Version: 0.1.0
+Summary: Convert between scientific pitch notation and frequency
+Home-page: https://github.com/kapteynpeter/pitches
+Author: Peter Kapteyn
+Author-email: kapteynpeter@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
