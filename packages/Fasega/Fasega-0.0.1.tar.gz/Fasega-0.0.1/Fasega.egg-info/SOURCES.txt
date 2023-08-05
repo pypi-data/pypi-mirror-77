@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+Fasega.egg-info/PKG-INFO
+Fasega.egg-info/SOURCES.txt
+Fasega.egg-info/dependency_links.txt
+Fasega.egg-info/entry_points.txt
+Fasega.egg-info/requires.txt
+Fasega.egg-info/top_level.txt
+fasega/__init__.py
+fasega/bible.py
+fasega/birthdayAnimation.py
+fasega/data/__init__.py
+fasega/data/affirmations.txt
