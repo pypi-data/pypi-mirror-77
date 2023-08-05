@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        up2ynab=up2ynab:cli
+    
