@@ -1,0 +1,52 @@
+{% extends 'fleet/base.html' %}
+{% load i18n %}
+{% load humanize %}
+
+{% block page_title %}{% trans "Create fleet" %}{% endblock %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/multi-select/0.9.12/css/multi-select.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.26.0/slimselect.min.css">
+{% endblock %}
+
+{% block fleet_block %}
+    <div class="container col-sm-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Fleet invitation
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <form class="form-signin" role="form" action="" method="POST">
+                            {% csrf_token %}
+                            </br>
+                            <label for="character_ids">Select the characters to invite</label>
+                            <select class="multiselect-ui" multiple="multiple" name="character_ids" id="character_ids">
+                             {% for character in characters %}
+                                <option value="{{character.character_id}}" >{{character.character_name}}</option>
+                             {% endfor %}
+                            </select>
+                            </br>
+                            <button class="btn btn-primary btn-block" style="margin-top: 10px;"type="submit">Send fleet invites</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block extra_javascript %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.26.0/slimselect.min.js"></script>
+{% endblock %}
+
+
+{% block extra_script %}
+
+new SlimSelect({
+    select: "#character_ids",
+    hideSelectedOption: true
+});
+
+{% endblock %}
