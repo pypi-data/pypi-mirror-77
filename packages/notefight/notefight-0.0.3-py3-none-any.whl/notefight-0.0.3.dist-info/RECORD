@@ -1,0 +1,10 @@
+notefight/__init__.py,sha256=jOT4vKmnPPmu75cx4goV22ZLaT1GsYfsLx3Ce2fjSsU,163
+notefight/tianchi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notefight/tianchi/t531800/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notefight/tianchi/t531800/ai_flow_master.py,sha256=wfgq6WTgpqlBZwprLpeWZe3mGU5vrQyEqXGGalXYsMI,191
+notefight/tianchi/t531800/kafka-source.py,sha256=RjO3JvgEk186d2Clf_gNelf7BTWYy_O-6HAGIIkVK04,4261
+notefight/tianchi/t531800/step1.py,sha256=eok91NyATvxseel38UdtZNBD_nlpDTNxtLqKs7wPEMc,913
+notefight-0.0.3.dist-info/METADATA,sha256=EjjZgrLm22kIQC4M5Q_flQ_N8Dw0VYFh6JomGfsYZ1M,278
+notefight-0.0.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+notefight-0.0.3.dist-info/top_level.txt,sha256=-giCnfWPAQf19obfm-6P8HDRo26zSw075-AmV2fphxQ,10
+notefight-0.0.3.dist-info/RECORD,,
