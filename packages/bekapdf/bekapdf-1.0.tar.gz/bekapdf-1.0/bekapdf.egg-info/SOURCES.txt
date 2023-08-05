@@ -1,0 +1,9 @@
+README.md
+setup.py
+bekapdf/__init__.py
+bekapdf/pdf2image.py
+bekapdf/pdf2text.py
+bekapdf.egg-info/PKG-INFO
+bekapdf.egg-info/SOURCES.txt
+bekapdf.egg-info/dependency_links.txt
+bekapdf.egg-info/top_level.txt
