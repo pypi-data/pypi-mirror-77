@@ -1,0 +1,39 @@
+UVB:
+  # AMOUNT RAW-FRAMES NEED ROTATED BEFORE REDUCTION
+  clockwise-rotation: 180
+  science-pixels: 
+    # NAXIS1 == x-axis
+    columns:
+      start: 0
+      end: 2048
+    # NAXIS2 == y-axis
+    rows:
+      start: 0
+      end: 3000
+
+VIS:
+  # AMOUNT RAW-FRAMES NEED ROTATED BEFORE REDUCTION
+  clockwise-rotation: 0
+  science-pixels:
+    # NAXIS1 == x-axis
+    columns:
+      start: 0
+      end: 2048
+    # NAXIS2 == y-axis
+    rows:
+      start: 0
+      end: 4000
+
+NIR:
+  # AMOUNT RAW-FRAMES NEED ROTATED BEFORE REDUCTION
+  clockwise-rotation: 90
+  science-pixels: 
+    # NAXIS1 == x-axis
+    columns:
+      start: 0
+      end: 1056
+    # NAXIS2 == y-axis
+    rows:
+      start: 0
+      end: 2040
+
