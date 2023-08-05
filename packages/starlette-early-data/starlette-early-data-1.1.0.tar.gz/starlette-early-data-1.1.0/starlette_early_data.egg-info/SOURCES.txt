@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+starlette_early_data.py
+starlette_early_data.egg-info/PKG-INFO
+starlette_early_data.egg-info/SOURCES.txt
+starlette_early_data.egg-info/dependency_links.txt
+starlette_early_data.egg-info/requires.txt
+starlette_early_data.egg-info/top_level.txt
