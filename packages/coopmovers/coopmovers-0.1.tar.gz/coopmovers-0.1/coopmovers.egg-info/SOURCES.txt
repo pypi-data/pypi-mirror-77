@@ -1,0 +1,15 @@
+README.md
+setup.py
+coopmovers/IAgentStatusStruct.py
+coopmovers/IAgentTracker.py
+coopmovers/__init__.py
+coopmovers/movers.py
+coopmovers/segment.py
+coopmovers/segmentfollower.py
+coopmovers/segmentfollowerhub.py
+coopmovers.egg-info/PKG-INFO
+coopmovers.egg-info/SOURCES.txt
+coopmovers.egg-info/dependency_links.txt
+coopmovers.egg-info/not-zip-safe
+coopmovers.egg-info/requires.txt
+coopmovers.egg-info/top_level.txt
