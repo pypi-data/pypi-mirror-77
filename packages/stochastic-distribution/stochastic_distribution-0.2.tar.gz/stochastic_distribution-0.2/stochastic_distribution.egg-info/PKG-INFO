@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: stochastic-distribution
+Version: 0.2
+Summary: Gaussian and Binomial distributions
+Home-page: UNKNOWN
+Author: Robert Csillag
+Author-email: csillagrobert95@gmail.com
+License: UNKNOWN
+Description: # stochastic-distribution
+        
+        A python package for calculating mean and standard deviation
+        for Gaussian and Binomial distributions.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
