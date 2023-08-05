@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pythonsum
+Version: 0.0.1
+Summary: A package to get sum of given numbers
+Home-page: https://github.com/rajeshberwal/pythonsum
+Author: Rajesh Berwal
+Author-email: irajeshberwal@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# pythonsum
+
+## Installation
+
+```shell
+pip install pythonsum
+```
+
+## Usage
+
+```python
+from pythonsum import pysum
+pysum(1, 2, 3, 4)
+```
+
+[Package Distribution Tut](https://packaging.python.org/tutorials/packaging-projects/)
+
+
