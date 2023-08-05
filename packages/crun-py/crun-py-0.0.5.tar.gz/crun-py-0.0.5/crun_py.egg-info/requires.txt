@@ -1,0 +1,4 @@
+tqdm
+
+[:platform_system == "Windows"]
+windows-curses>=2.0
