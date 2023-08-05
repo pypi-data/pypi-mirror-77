@@ -1,0 +1,4 @@
+[console_scripts]
+auto-fill-in-envs = autofill.cli:show_auto_fill_in_envs
+form-auto-fill-in = autofill.cli:form_auto_fill_in
+
