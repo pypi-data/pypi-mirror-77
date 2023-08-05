@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: py-iqoption-api
+Version: 1.1.4
+Summary: Best IQ Option API for python
+Home-page: https://github.com/deibsoncarvalho/py-iqoption-api
+Author: Deibson Carvalho
+Author-email: deibsoncarvalho@gmail.com
+License: GPLv3+
+Download-URL: https://github.com/deibsoncarvalho/py-iqoption-api/archive/1.1.200.tar.gz
+Description: Extra Oficial API for IQ Option Trade Binary and Digital Options, Candles, Currencies.
+Keywords: IQ Option,IQOption,API IQ Option,IQOption API
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License 
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Investment 
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
