@@ -1,0 +1,16 @@
+biip/__init__.py,sha256=V5ZdEfGrKUNKlE3NiVEZNXhZ4QNE2ToIY75NR-hoTik,1353
+biip/_exceptions.py,sha256=1XCcX8HunCjQNEt4302Xptk3AvtOqpae9WomVuR_XTc,405
+biip/_parser.py,sha256=Lxq8XkCQhB59vsnV983b8TbjXvG-fp3tuTN7zwPyC2M,1544
+biip/gs1/__init__.py,sha256=PsRBMnHomX-bsceRNcggXJh8fb1BpArjAoToOND7cXM,2239
+biip/gs1/_application_identifiers.json,sha256=qwceCqs2lfckJ_ygG5MRoq2fIRXIOt3lcul7ayTTKWA,108117
+biip/gs1/_application_identifiers.py,sha256=oegVNua9KEexxTihjpCIL_EskKk2r3UOOrQLW4r-r2k,2995
+biip/gs1/_element_strings.py,sha256=xBJ5-WDWKXbcrM-dneCtnNHlBl9uacdSA5Iq_VgWu08,5819
+biip/gs1/_messages.py,sha256=-LxBRFF00Rz7csTFJsTevE6w14wqFOVxcOyxcrL1xZI,2551
+biip/gs1/_prefix_ranges.json,sha256=5_YtChxowb6du4KNIE8AvzG9TL1P0hMP5i9JWWk71MU,13547
+biip/gs1/_prefixes.py,sha256=TLuStS4NQg-uAUIHSVm0TFWwE6vw0c0YA1X6qyAWdXA,1957
+biip/gs1/checksums.py,sha256=nTlf7rpqueaRkWVEwLo0v9QApMRqRSI-3a-Q7t1iSrg,3375
+biip/gtin.py,sha256=SN8UGFzK7ZKjxwVWgdKQrOkR5GtbpsaFiZ2NlGcRVr8,5790
+biip-0.2.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+biip-0.2.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+biip-0.2.0.dist-info/METADATA,sha256=1bmWlD4OJBaFdHuZ40Fv8LxfEnYpPHfkBaJm8h-ofJ8,4258
+biip-0.2.0.dist-info/RECORD,,
