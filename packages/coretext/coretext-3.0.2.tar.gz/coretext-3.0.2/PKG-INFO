@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: coretext
+Version: 3.0.2
+Summary: Heuristic based boilerplate removal tool
+Home-page: http://corpus.tools/wiki/Justext
+Author: Sitdhibong Laokok
+Author-email: sitdhibong@gmail.com
+License: BSD
+Description: jusText is a tool for removing boilerplate content,
+            such as navigation links, headers, and footers from HTML pages. It is
+            designed to preserve mainly text containing full sentences and it is
+            therefore well suited for creating linguistic resources such as Web
+            corpora.
+Platform: UNKNOWN
+Requires: lxml (>=4.1)
