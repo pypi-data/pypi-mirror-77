@@ -1,0 +1,7 @@
+Click
+numpy
+scipy
+numba
+matplotlib
+fdint
+numpyencoder
