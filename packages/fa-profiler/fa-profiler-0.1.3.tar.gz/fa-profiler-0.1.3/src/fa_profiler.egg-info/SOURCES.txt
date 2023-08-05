@@ -1,0 +1,16 @@
+README.md
+setup.py
+src/FormulatedAutomation/__init__.py
+src/FormulatedAutomation/version.py
+src/FormulatedAutomation/Profiler/DebugKeywords.py
+src/FormulatedAutomation/Profiler/__init__.py
+src/FormulatedAutomation/Profiler/system_base.py
+src/FormulatedAutomation/Profiler/system_darwin.py
+src/FormulatedAutomation/Profiler/system_linux.py
+src/FormulatedAutomation/Profiler/system_win.py
+src/FormulatedAutomation/Profiler/utils.py
+src/fa_profiler.egg-info/PKG-INFO
+src/fa_profiler.egg-info/SOURCES.txt
+src/fa_profiler.egg-info/dependency_links.txt
+src/fa_profiler.egg-info/requires.txt
+src/fa_profiler.egg-info/top_level.txt
