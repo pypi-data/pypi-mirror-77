@@ -1,0 +1,10 @@
+b3bovespa/__init__.py,sha256=dNHSu-qFrYITqDiypw2qr8qgLCmMzNYas2Xt4QOZKdM,65
+b3bovespa/scrapper.py,sha256=ZYC2l3IbHOvqnJ-BQvWPCXOD9MTw7V5Cq1UeVc6yVq8,7138
+b3bovespa/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+b3bovespa/utils/constants.py,sha256=oYLJbweMXrBmh49qL38noX0wf3WEw7ijJfZ_PRvVW1k,335
+b3bovespa/utils/utils.py,sha256=ds4HJdaLUE6QjpYt87ovXak35Evq6Svy7TcoWlav9KI,1370
+B3Bovespa-0.1.dist-info/LICENSE.txt,sha256=b9rwZfIDhyktcrQ2TT-Z-V5-09eH3wZHXCa95bXQTSo,1051
+B3Bovespa-0.1.dist-info/METADATA,sha256=tS-93ZbgxNImHZXKTY6PaSrC-C1Lnok_7JCUOFphuK0,2956
+B3Bovespa-0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+B3Bovespa-0.1.dist-info/top_level.txt,sha256=757e-fPb1mVYAbXtPa1BmTwdGd9_jN9e917HMW_Qxi0,10
+B3Bovespa-0.1.dist-info/RECORD,,
