@@ -1,0 +1,6 @@
+setup.py
+pgzero_stub/__init__.py
+pgzero_stub.egg-info/PKG-INFO
+pgzero_stub.egg-info/SOURCES.txt
+pgzero_stub.egg-info/dependency_links.txt
+pgzero_stub.egg-info/top_level.txt
