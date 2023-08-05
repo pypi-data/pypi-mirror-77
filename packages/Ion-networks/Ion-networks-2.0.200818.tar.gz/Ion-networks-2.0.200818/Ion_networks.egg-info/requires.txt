@@ -1,0 +1,16 @@
+numpy
+numexpr
+matplotlib
+PySimpleGUI
+pandas
+click
+scipy
+scikit-learn
+h5py
+pyteomics
+numba
+pyqt5-sip
+pyqtwebengine
+
+[ms2pip]
+ms2pip
