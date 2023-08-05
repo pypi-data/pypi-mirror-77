@@ -1,0 +1,13 @@
+aksquare/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aksquare/data.py,sha256=ndl1FwizXzLfZ0Co_hPikcgqg13npLFJ5XhQSCG48cg,1012
+aksquare/layers.py,sha256=2WG0lPA_ZYhYErDi94qk4Hxxa9yyIF869w6F00THIGQ,2625
+aksquare/loss.py,sha256=QMGXNmJ8i6aMSTpDIaOzwj4eEzVFfruL3Hax3WnBWs4,726
+aksquare/nn.py,sha256=7VXE7nng9b0vi_2-u6EdEP2v_tgYM1XZlX34yrdFBe8,883
+aksquare/optim.py,sha256=uAhJ1Vn8CBS75p0tl1fEtmy9iC7ZpalehbnGH9KnWhQ,480
+aksquare/tensor.py,sha256=Mutz9fXaHRlmF16K3penDaIxoa6Q7WP5CkPFsg4XI-Q,83
+aksquare/train.py,sha256=Cyw40IOJLcuQIxX44vBg0_ts5TAdE16jdjqKJmYWWm8,874
+aksquare-0.0.1.dist-info/LICENSE,sha256=o_HHfrMecNZOovrNdhD8RM2bIMCLK9moCURlI2TRqp0,1066
+aksquare-0.0.1.dist-info/METADATA,sha256=yrs8cu8dcDvuAlMgf56dAq60RkqpfGZURWrDgALpDlU,344
+aksquare-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aksquare-0.0.1.dist-info/top_level.txt,sha256=TopXb2vWjbiW2pWkTCZNHP5-HEI9wEQdge5HWQGifQc,9
+aksquare-0.0.1.dist-info/RECORD,,
