@@ -1,0 +1,13 @@
+pyiges/__init__.py,sha256=F-tyHt9r2XlJ0ZDuLkBbIXlGMksV7yTLHQHbuy3qVKE,35
+pyiges/_version.py,sha256=VYw0ol0-XwXWUntF9jOTemi8AGKNd-Wl64eak4fQ5IU,154
+pyiges/constants.py,sha256=67hQvcdQ0ZyY2xMFyhiBlERqd09QNQN1LaOKL2V49As,160
+pyiges/entity.py,sha256=iqJRadj8wxBfFIIa9gL-djLwEc9AvhhNChUepji4xLU,1556
+pyiges/faces.py,sha256=TVXQu2Y5gTQGaNuqbfNKFBAhUz4VUDSnpU0zXsM7eDE,472
+pyiges/geometry.py,sha256=oPfSUAPfU2XQGJpdF3NOmI98qBAabFUA5yy_JE-lKPc,18022
+pyiges/iges.py,sha256=Q8Hp3tFvRbh2ArwLN9hBd19ESca_2y5h8t6HjrdSoTA,13440
+pyiges/reader.py,sha256=BCfNeBTmAa0vTkTslOxAdKmiF2obI5_YN7Bg8LYIYrg,122
+pyiges-0.1.2.dist-info/LICENSE,sha256=SFAKJj62TqU4yNAxDXSknly-J5DIwPq6MtlqFr8RcK0,1088
+pyiges-0.1.2.dist-info/METADATA,sha256=8ndJffq2On5ndHivcfHeLUYMTW5ksGYr2aKw-Os5T6Q,3090
+pyiges-0.1.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyiges-0.1.2.dist-info/top_level.txt,sha256=_i0SMv1sLVFqkUHtxEi-hqIwNR0iY52u0p9PXUqAEQA,7
+pyiges-0.1.2.dist-info/RECORD,,
