@@ -1,0 +1,9 @@
+README.md
+setup.py
+tinysets/__init__.py
+tinysets/utils.py
+tinysets.egg-info/PKG-INFO
+tinysets.egg-info/SOURCES.txt
+tinysets.egg-info/dependency_links.txt
+tinysets.egg-info/requires.txt
+tinysets.egg-info/top_level.txt
