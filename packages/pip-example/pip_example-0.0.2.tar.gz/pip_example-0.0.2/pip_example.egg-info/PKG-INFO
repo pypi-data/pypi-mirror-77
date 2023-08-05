@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: pip-example
+Version: 0.0.2
+Summary: 实现加法，练习将自己的项目打包成pip
+Home-page: UNKNOWN
+Author: pengbin
+Author-email: 2972768451@qq.com
+Maintainer: pengbin
+License: Type license() to see the full license text
+Description: 实现加法，练习将自己的项目打包成pip
+Platform: windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5.2
