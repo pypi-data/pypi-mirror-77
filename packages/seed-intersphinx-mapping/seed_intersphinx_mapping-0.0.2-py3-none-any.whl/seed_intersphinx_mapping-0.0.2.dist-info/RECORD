@@ -1,0 +1,12 @@
+seed_intersphinx_mapping/__init__.py,sha256=KGMYPxK6R_ekWNj8wkVSt1jpl3HwOglsuHRiZ0eTa5s,1685
+seed_intersphinx_mapping/cache.py,sha256=J_Wxw6JjG83mIHNl72mQECk1c7CP5qNzRaGFfZZ74RY,4662
+seed_intersphinx_mapping/core.py,sha256=Md_a8uKsppNFiJLU2YPNqdiuIWXNms3Fm_6S3v2rNdo,4932
+seed_intersphinx_mapping/extension.py,sha256=VY7tL5h-CwJUCRuB0j7ThsA_xScueKR5aj63u_9x1SI,3407
+seed_intersphinx_mapping/fallback_mapping.json,sha256=6cihT_4VQO9o78xHfSQ528rZum_MsJnp_t4RE_6H_nE,116
+seed_intersphinx_mapping/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seed_intersphinx_mapping/requirements_parsers.py,sha256=DnEwYNnOouSRWYO7euF7EsItS73bigajXeBF4CeUBIU,1993
+seed_intersphinx_mapping-0.0.2.dist-info/LICENSE,sha256=BigaIaJbg4wCjk6MjLC_5kuevxdEotWApzfvN8Y9LMM,1064
+seed_intersphinx_mapping-0.0.2.dist-info/METADATA,sha256=r6Y6JnjzeRQuEtVrtWzvtlV4qUb_xRo0mnOqP-vxvIQ,6021
+seed_intersphinx_mapping-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+seed_intersphinx_mapping-0.0.2.dist-info/top_level.txt,sha256=rU2GtNwaU_kOU5Quigls92jpTQNl6tOSCYsgyNH-9tg,25
+seed_intersphinx_mapping-0.0.2.dist-info/RECORD,,
