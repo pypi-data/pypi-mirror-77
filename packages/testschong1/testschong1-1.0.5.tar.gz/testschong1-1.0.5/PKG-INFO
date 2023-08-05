@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: testschong1
+Version: 1.0.5
+Summary: It contains functions drawing Manhattan plot and QQ plot using plink assoc output.
+Home-page: https://github.com/satchellhong/test
+Author: chol hong
+Author-email: shulkhorn@gmail.com
+License: MIT
+Description: ![Install with pypi or anaconda](https://img.shields.io/badge/version-v1.0.0-green)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,1 @@
+![Install with pypi or anaconda](https://img.shields.io/badge/version-v1.0.0-green)
