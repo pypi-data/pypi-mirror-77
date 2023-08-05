@@ -1,0 +1,11 @@
+mypy_boto3_kinesis_video_archived_media/__init__.py,sha256=cy7MBPwubT_kXiuwKc-GJCO8-N1yeABf4lZUdUWH1sM,888
+mypy_boto3_kinesis_video_archived_media/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_kinesis_video_archived_media/client.py,sha256=mf7HgVHl1TGfNxAT7AVfW7kmgIPK5ErT8S7JV--BAzE,5943
+mypy_boto3_kinesis_video_archived_media/paginator.py,sha256=HmcGo4337RhSziX1jrkcH4Uk9wKxa66JFXB8pZLHgvE,1614
+mypy_boto3_kinesis_video_archived_media/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_kinesis_video_archived_media/type_defs.py,sha256=DAvddKwiVCwOA-4rVQTokE45uKaCjxv2ppXlkfWNh1w,3688
+mypy_boto3_kinesis_video_archived_media/version.py,sha256=-i5krKqKNhGUv249zQgk2lKo9n_HlMyn5W1fgPdXhmk,57
+mypy_boto3_kinesis_video_archived_media-1.14.47.0.dist-info/METADATA,sha256=eaIxD8kE1L9xYuTyQZW50i-Jlv_uLQuzYzk-inzCSd8,5319
+mypy_boto3_kinesis_video_archived_media-1.14.47.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mypy_boto3_kinesis_video_archived_media-1.14.47.0.dist-info/top_level.txt,sha256=VD-FiV9tO9Njx7etYxkuJEHz6do3IusZYcFEt7eel4s,40
+mypy_boto3_kinesis_video_archived_media-1.14.47.0.dist-info/RECORD,,
