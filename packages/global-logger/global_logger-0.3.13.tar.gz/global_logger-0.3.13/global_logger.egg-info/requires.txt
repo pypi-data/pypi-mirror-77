@@ -1,0 +1,9 @@
+pendulum>=2.1.2
+pathlib
+colorama
+colorlog
+future
+win-unicode-console
+
+[:python_version < "3"]
+enum
