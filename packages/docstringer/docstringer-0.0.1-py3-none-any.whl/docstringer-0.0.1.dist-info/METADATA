@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: docstringer
+Version: 0.0.1
+Summary: Create documentation of your function call stack from their docstrings 
+Home-page: https://pypi.com
+License: UNKNOWN
+Author: Matt Gosden
+Author-email: mdgosden@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+
+# docstringer
+A simple decorator to create documentation of your function calls from their docstrings
+
