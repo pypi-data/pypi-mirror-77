@@ -1,0 +1,13 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_constructor.py,sha256=80CBZV7EjxPE88N0rGNHW7tiR8E3OGA7CPhTef5pUd0,874
+tests/test_plot.py,sha256=_wqGdnp5ZVPDUZ3geEPMpgzQr1cKJWthJNhCpOltEV8,189
+tests/test_trees.py,sha256=5AwbAqTYbxRwggsmekkOCFbcShlVfAzSILaZYtvWdgI,2528
+tests/test_util.py,sha256=yeu3uDV2q3X1RE8pv5kNm3CBCrk8namJwQVMzmb5u8k,516
+wkskel/__init__.py,sha256=K3xyWiTmuwC22fDS1nThcj7amRYHX60OTri4WbcdcVM,68
+wkskel/skeleton.py,sha256=HzZYg7Z3espJivWGdhcyhPlbT97s1ctWqFtBVVO9X6w,35566
+wkskel/types.py,sha256=ohFq_tzkyMUcLNfMVvT4nwHlICRJX1P2aI6ldnr-wFM,5735
+wkskel-0.0.1.dist-info/LICENSE,sha256=JrDQ8I74G2X_5Ovgv_HiaocGq-HPRzKnCPIjAX8mRyQ,1077
+wkskel-0.0.1.dist-info/METADATA,sha256=S_iKX30Lqg7QaNKn9xIbGkhqAC-dG3nwwuiTNC5Qe6c,527
+wkskel-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+wkskel-0.0.1.dist-info/top_level.txt,sha256=mQre0eArCTL2YEalVv4D_IUACr2x9FaBAn9qqpRjdBI,13
+wkskel-0.0.1.dist-info/RECORD,,
