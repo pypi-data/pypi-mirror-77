@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+simple_fuzzy_equal/__init__.py
+simple_fuzzy_equal/__sequence_matcher.py
+simple_fuzzy_equal.egg-info/PKG-INFO
+simple_fuzzy_equal.egg-info/SOURCES.txt
+simple_fuzzy_equal.egg-info/dependency_links.txt
+simple_fuzzy_equal.egg-info/not-zip-safe
+simple_fuzzy_equal.egg-info/top_level.txt
