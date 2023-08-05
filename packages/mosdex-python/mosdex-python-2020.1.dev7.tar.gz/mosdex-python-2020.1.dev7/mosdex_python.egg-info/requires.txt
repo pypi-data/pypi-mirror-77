@@ -1,0 +1,17 @@
+SQLAlchemy==1.3.16
+tablib==1.1.0
+openpyxl==2.4.11
+docopt==0.6.2
+records==0.5.3
+pandas==1.1.0
+jsonschema
+
+[redshift]
+sqlalchemy-redshift
+psycopg2
+
+[pandas]
+tablib[pandas]
+
+[pg]
+psycopg2
