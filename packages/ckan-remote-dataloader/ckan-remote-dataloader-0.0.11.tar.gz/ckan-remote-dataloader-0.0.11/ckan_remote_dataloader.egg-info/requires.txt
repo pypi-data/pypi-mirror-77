@@ -1,0 +1,4 @@
+click
+simplejson
+messytables
+python-magic-bin
