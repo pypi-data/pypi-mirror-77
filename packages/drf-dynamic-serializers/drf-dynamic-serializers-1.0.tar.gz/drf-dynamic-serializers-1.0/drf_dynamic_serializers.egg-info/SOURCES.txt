@@ -1,0 +1,16 @@
+README.rst
+setup.cfg
+setup.py
+drf_dynamic_serializers/__init__.py
+drf_dynamic_serializers/apps.py
+drf_dynamic_serializers/conf.py
+drf_dynamic_serializers/exceptions.py
+drf_dynamic_serializers/mixins.py
+drf_dynamic_serializers/serializers.py
+drf_dynamic_serializers/views.py
+drf_dynamic_serializers.egg-info/PKG-INFO
+drf_dynamic_serializers.egg-info/SOURCES.txt
+drf_dynamic_serializers.egg-info/dependency_links.txt
+drf_dynamic_serializers.egg-info/not-zip-safe
+drf_dynamic_serializers.egg-info/requires.txt
+drf_dynamic_serializers.egg-info/top_level.txt
