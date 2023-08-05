@@ -1,0 +1,11 @@
+kfp==0.5.1
+tabulate==0.8.7
+click==7.1.2
+pyyaml
+pytest==5.3.5
+pandas==1.1.0
+jinja2
+
+[dev]
+setuptools
+wheel

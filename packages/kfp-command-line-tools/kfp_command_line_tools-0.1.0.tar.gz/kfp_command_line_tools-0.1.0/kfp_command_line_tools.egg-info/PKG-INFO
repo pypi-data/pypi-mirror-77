@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: kfp-command-line-tools
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Time IA-Front
+Author-email: ia.front@b2wdigital.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: dev
