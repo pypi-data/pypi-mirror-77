@@ -1,0 +1,12 @@
+.DS_Store
+.gitignore
+MANIFEST.in
+README.md
+setup.py
+lumfunc/kmeans_radec.py
+lumfunc/lumfunc.py
+lumfunc.egg-info/PKG-INFO
+lumfunc.egg-info/SOURCES.txt
+lumfunc.egg-info/dependency_links.txt
+lumfunc.egg-info/requires.txt
+lumfunc.egg-info/top_level.txt
