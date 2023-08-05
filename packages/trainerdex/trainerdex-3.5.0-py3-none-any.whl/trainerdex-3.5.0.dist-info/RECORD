@@ -1,0 +1,17 @@
+trainerdex/__init__.py,sha256=PMblVTRHTR0denZWOyo7u1CKdhLQvftwjPDvOZlt4AY,613
+trainerdex/abc.py,sha256=NENrADKjpClew5mCePRbhEt_iePVIZlzoWsiviCkqRM,397
+trainerdex/client.py,sha256=eK_pNCHalb13SdriVRgHgUq0JLfRuAoHgmoe29RL2Ko,4195
+trainerdex/faction.py,sha256=xJHqzVbwmhxUPoV650yhVnYncMmilB8XYRPz1aFFvMg,918
+trainerdex/http.py,sha256=hB50QKxT-_pAqNITXn4DmjSDxIqlXmKXewr5auHp38g,12587
+trainerdex/leaderboard.py,sha256=xt2Z-Y7c_PlgVA0bL0pRPBbVctaixs8sAQFWU5wqGQc,5053
+trainerdex/socialconnection.py,sha256=_7bye6Sf7m8C2WdmLPcCIULUmhKBTUgMM3WMrNViqg8,2604
+trainerdex/trainer.py,sha256=bIq_c5bJ0Uqbqf_ej-UprpXo8xX6el2r7aI5-ojsXfM,4766
+trainerdex/update.py,sha256=q4CsKjTcb3F_hI4jVA0XqJsXyTpQspm3Mme3OUydzHQ,7978
+trainerdex/user.py,sha256=Okdj5LBf4dckh_icQWqVPHoQGI3BJGKgO_tI1bsTWSM,1556
+trainerdex/utils.py,sha256=ByEl_L0qDhBIJGhdQHuQaWh_ktcIGt1f90As0xL6QJs,996
+trainerdex-3.5.0.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+trainerdex-3.5.0.dist-info/METADATA,sha256=1Iug0C0Johri69imI_4G8BDoYVeVa9PukJcb_A3OyOQ,898
+trainerdex-3.5.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+trainerdex-3.5.0.dist-info/top_level.txt,sha256=cD8I8F0PUh_DCrmQk-9PXDXA_BPA62989OvRc1s_adI,11
+trainerdex-3.5.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+trainerdex-3.5.0.dist-info/RECORD,,
