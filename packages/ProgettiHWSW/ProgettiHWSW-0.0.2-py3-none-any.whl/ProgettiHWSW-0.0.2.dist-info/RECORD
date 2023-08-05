@@ -1,0 +1,16 @@
+ProgettiHWSW/ProgettiHWSWAPI.py,sha256=S2wVS_w1ZIhUa6OhEsZdJiXqh5e6k-bWP0jf7ugIx7o,680
+ProgettiHWSW/__init__.py,sha256=hIU-STuO0sO8V4TOEneVr0KN9ZY2Z9gU5dyuWSADwxU,60
+ProgettiHWSW/api.py,sha256=yyxYWxhDOHFSScL-ZY7nnRh2Y0wj2vtWo-baqvVNjhw,728
+ProgettiHWSW/const.py,sha256=2DLss77q2q4Nw1dCpi_rR5tLo8Rccc1o_tzGSGJYCKM,172
+ProgettiHWSW/input.py,sha256=EYk-8teg1bFFVl9wDW-Or0jvpBsda_Xd26vuGeUuNDI,817
+ProgettiHWSW/relay.py,sha256=l2b3n9NFk7c2e0n1HB153iopjMdc9plprmY6AK3KNYQ,1287
+ProgettiHWSW-0.0.2.dist-info/DESCRIPTION.rst,sha256=2qIKmO7QD_Z9heyf-a8AN1J3-T7GD0DKMEMM3ZLU-38,190
+ProgettiHWSW-0.0.2.dist-info/METADATA,sha256=VOjzQM8lyc-8WnscthgAg5GlcKM2qrm0l_TGdrN8FFM,954
+ProgettiHWSW-0.0.2.dist-info/RECORD,,
+ProgettiHWSW-0.0.2.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+ProgettiHWSW-0.0.2.dist-info/metadata.json,sha256=doAWh0AmQrw1i1CGih7OUweeozWiKDtzJGlk0VGi2Pk,936
+ProgettiHWSW-0.0.2.dist-info/top_level.txt,sha256=ZlrRIEbTlLK8j3Fn7YurY4AUMTXsNynP-6g8dR-SehQ,26
+progettihwsw/__init__.py,sha256=qB2dcOR6-st6B-og_ZhmOyjOpDFp5x877CodIjNUDSU,538
+progettihwsw/binary_sensor.py,sha256=JHBRi4Ftkq9MEYriNqymjggFLjrth2ZMl5r9ejNNh7s,2028
+progettihwsw/const.py,sha256=RDk2uSwb2f7LkNoxZ8J5udqymlfHb5kN82zP5fHHf50,1036
+progettihwsw/switch.py,sha256=EKFvQWHJpKl2m-rH2A8qPLVzyBgErbdUQqnXseQaJrk,2496
