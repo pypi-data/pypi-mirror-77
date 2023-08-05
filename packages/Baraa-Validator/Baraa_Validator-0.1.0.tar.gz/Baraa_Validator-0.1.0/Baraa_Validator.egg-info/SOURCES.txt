@@ -1,0 +1,13 @@
+README.md
+setup.py
+BaraaValidator/__init__.py
+BaraaValidator/transactionValidators.py
+BaraaValidator/gRPC/__init__.py
+BaraaValidator/gRPC/__transactionValidator_pb2.py
+BaraaValidator/gRPC/__transactionValidator_pb2_grpc.py
+BaraaValidator/gRPC/validator_client.py
+BaraaValidator/gRPC/validator_server.py
+Baraa_Validator.egg-info/PKG-INFO
+Baraa_Validator.egg-info/SOURCES.txt
+Baraa_Validator.egg-info/dependency_links.txt
+Baraa_Validator.egg-info/top_level.txt
