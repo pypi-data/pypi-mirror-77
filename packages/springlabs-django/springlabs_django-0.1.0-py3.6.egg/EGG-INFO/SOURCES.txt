@@ -1,0 +1,13 @@
+README.md
+setup.py
+springlabs_django.egg-info/PKG-INFO
+springlabs_django.egg-info/SOURCES.txt
+springlabs_django.egg-info/dependency_links.txt
+springlabs_django.egg-info/entry_points.txt
+springlabs_django.egg-info/requires.txt
+springlabs_django.egg-info/top_level.txt
+springlabs_pypi/__init__.py
+springlabs_pypi/main.py
+springlabs_pypi/utils.py
+springlabs_pypi/scripts/__init__.py
+springlabs_pypi/scripts/springlabs_django.py
