@@ -1,0 +1,16 @@
+cython
+numpy
+scipy
+sympy 
+xlrd 
+nlopt
+pathos
+cma
+dill
+matplotlib
+ipython
+jupyter
+nbconvert
+pandas
+dynesty
+emcee
