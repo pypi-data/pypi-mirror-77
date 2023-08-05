@@ -1,0 +1,6 @@
+setup.py
+genevpkg.egg-info/PKG-INFO
+genevpkg.egg-info/SOURCES.txt
+genevpkg.egg-info/dependency_links.txt
+genevpkg.egg-info/requires.txt
+genevpkg.egg-info/top_level.txt
