@@ -1,0 +1,16 @@
+name: pygeoutils
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - setuptools
+  - pip
+  - netCDF4
+  - xarray
+  - geopandas
+  - rasterio
+  - shapely
+  - orjson
+  - pip:
+    - git+https://github.com/cheginit/pygeoogc.git
+
