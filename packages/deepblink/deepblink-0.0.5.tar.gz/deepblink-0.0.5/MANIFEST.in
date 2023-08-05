@@ -1,0 +1,14 @@
+prune bin
+prune ci
+prune docs
+prune images
+prune tests
+
+exclude .*
+exclude tox.ini
+global-exclude *.py[cod] __pycache__/* *.so *.dylib
+
+include LICENSE
+include README.rst
+include *.md
+include requirements.txt environment.yml
