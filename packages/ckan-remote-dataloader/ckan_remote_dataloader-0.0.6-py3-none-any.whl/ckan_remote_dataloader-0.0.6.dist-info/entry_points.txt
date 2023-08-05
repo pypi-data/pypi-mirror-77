@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        ckanloader=ckanloader.__init__:main
+    

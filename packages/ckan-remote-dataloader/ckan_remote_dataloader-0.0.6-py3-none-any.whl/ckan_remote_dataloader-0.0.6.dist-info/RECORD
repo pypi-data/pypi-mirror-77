@@ -1,0 +1,9 @@
+ckanloader/__init__.py,sha256=m1-P7BSEjpd5mHOvGlJstcrR_r87bqNzjCytwGflwRs,2847
+ckanloader/loader.py,sha256=0oyXb8XMNkUqhb4TkQ987tkSrEXMrHk3GN1uC3iCpdA,3659
+ckan_remote_dataloader-0.0.6.dist-info/LICENSE,sha256=fpY-GeimUzmRB55D7YWDqWWeDbgjU9qEYARBlOnRd-E,1070
+ckan_remote_dataloader-0.0.6.dist-info/METADATA,sha256=QWM6_iyP3H6cGQMacMma3nPyXurWZGh1YpS7EwO5oeo,585
+ckan_remote_dataloader-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ckan_remote_dataloader-0.0.6.dist-info/dependency_links.txt,sha256=VXKW7R_iLQ3Cuf90ukTfxVhZshktzZQ7sQnFlQk6Z9A,19
+ckan_remote_dataloader-0.0.6.dist-info/entry_points.txt,sha256=mNFst7QUVuDU8xWJtN1qmSm5Zql96y0XDTdI3vQDSGw,75
+ckan_remote_dataloader-0.0.6.dist-info/top_level.txt,sha256=RQdJ9Xu995bRCvOqc9olCh3TPCWOydKANYIy3S33ciw,11
+ckan_remote_dataloader-0.0.6.dist-info/RECORD,,
