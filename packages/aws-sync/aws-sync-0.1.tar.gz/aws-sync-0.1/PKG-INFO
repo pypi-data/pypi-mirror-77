@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: aws-sync
+Version: 0.1
+Summary: Sync AWS secrets across multiple accounts
+Home-page: https://github.com/UdhavPawar/aws-sync
+Author: Udhav Pawar
+Author-email: upawar78@gmail.com
+License: MIT
+Description: This python package allows user to easily sync or replicate specifc or all secrets between multiple AWS accounts.
+Keywords: aws,secrets,aws-secrets-manager,aws-sync,replicate,credentials,automation
+Platform: UNKNOWN
