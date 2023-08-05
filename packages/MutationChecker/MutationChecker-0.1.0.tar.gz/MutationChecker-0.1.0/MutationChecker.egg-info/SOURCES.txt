@@ -1,0 +1,11 @@
+README.md
+setup.py
+MutationChecker/dip.py
+MutationChecker/embl.py
+MutationChecker/mapper.py
+MutationChecker/prosite.py
+MutationChecker/structure.py
+MutationChecker.egg-info/PKG-INFO
+MutationChecker.egg-info/SOURCES.txt
+MutationChecker.egg-info/dependency_links.txt
+MutationChecker.egg-info/top_level.txt
