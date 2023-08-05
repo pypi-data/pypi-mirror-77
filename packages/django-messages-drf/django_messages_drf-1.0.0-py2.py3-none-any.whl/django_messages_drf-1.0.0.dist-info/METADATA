@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: django-messages-drf
+Version: 1.0.0
+Summary: a reusable private user messages application for Django with Django Rest Framework
+Home-page: https://github.com/tiagoarasilva/django-messages-drf
+Author: Tiago A. Silva
+Author-email: tiago.arasilva@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: django-appconf (>=1.0.2)
+Requires-Dist: django (>=2.2)
+Requires-Dist: djangorestframework (>=3.11.1)
+
+
+---
+# Django Messages DRF
+---
+
+`django-messages-drf` is an alternative of `pinax-messages` using django rest framework.
+
+Supported Django and Python Versions
+------------------------------------
+
++-----------------+-----+-----+-----+
+| Django / Python | 3.6 | 3.7 | 3.8 |
++=================+=====+=====+=====+
+|  2.2            |  *  |  *  |  *  |
++-----------------+-----+-----+-----+
+|  3.0            |  *  |  *  |  *  |
++-----------------+-----+-----+-----+
+|  3.1            |  *  |  *  |  *  |
++-----------------+-----+-----+-----+
+
+
