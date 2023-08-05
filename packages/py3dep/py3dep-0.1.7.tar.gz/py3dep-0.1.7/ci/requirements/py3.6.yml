@@ -1,0 +1,15 @@
+name: py3dep
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pip
+  - setuptools
+  - xarray
+  - scipy
+  - rasterio
+  - shapely
+  - dataclasses
+  - pip:
+    - git+https://github.com/cheginit/pygeoogc.git
+    - git+https://github.com/cheginit/pygeoutils.git
