@@ -1,0 +1,9 @@
+wkmake/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wkmake/clitools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wkmake/clitools/cli.py,sha256=bikk_MgnWgSKxWBm_ZEXOa_jau0DJrL1RLZgsCIRoJY,21
+wkmake-0.0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+wkmake-0.0.0.1.dist-info/METADATA,sha256=xMlGdsqe9ZKpqYfyaNePWRplVV2e33xF2evmMML41jI,540
+wkmake-0.0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wkmake-0.0.0.1.dist-info/entry_points.txt,sha256=f8r6z1VHkcdFC70HlkoMwMeR8S4D35u_YRlaKmFlXZs,53
+wkmake-0.0.0.1.dist-info/top_level.txt,sha256=5igcYFRkSwmIqxn5uu38N_51fPKk_y_d85Yq-cii4FQ,7
+wkmake-0.0.0.1.dist-info/RECORD,,
