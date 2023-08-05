@@ -1,0 +1,11 @@
+gql==3.0.0a1
+redis
+
+[dev]
+mock
+pytest
+pytest-cov
+pytest-mypy
+
+[listener]
+gevent
