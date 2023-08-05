@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sentence-spliter
+Version: 1.0.0
+Summary: This is a sentence cutting tool that supports long sentence segmentation and short sentence merging.
+Home-page: UNKNOWN
+Author: Li Wang
+Author-email: wangli6@yy.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: attrdict (>=2.0.1)
+
+UNKNOWN
+
+
