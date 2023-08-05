@@ -1,0 +1,12 @@
+tests/.ipynb_checkpoints/*
+*.pyc
+data/*.csv
+timeseries/.ipynb_checkpoints/*
+data/.ipynb_checkpoints/*
+.gitignore
+bench/
+*.ipynb
+build/
+dist/
+*.egg-info/
+$HOME/.pypirc
