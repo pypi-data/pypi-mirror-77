@@ -1,0 +1,10 @@
+mpl_interactions/__init__.py,sha256=i-yiNeIliglycO308ACuTd4xBu8JwmaoG5EFkaPUkCA,114
+mpl_interactions/_version.py,sha256=y94gYF_sT1tjBbLdmysqVa7lKFKjku5VanmoDPAaGHE,72
+mpl_interactions/generic.py,sha256=UgGxRPFipKdSczhvs-JB-5schYGZuFC0LLqcTP244dE,9480
+mpl_interactions/jupyter.py,sha256=Px2r7u-bdCrwt-Q41Hm7pMhBTOYfuPu9slThrvPFmp8,13793
+mpl_interactions/utils.py,sha256=SrKGtcbNDnXFaJLoMwgNtPmlKeQkCZEnCJhoFCEAaxU,2138
+mpl_interactions-0.4.0.dist-info/LICENSE.txt,sha256=BNPCgMdgFMcLnfrGkXy8q-lwlXX1CisrDacI7ZSNXrs,1498
+mpl_interactions-0.4.0.dist-info/METADATA,sha256=vD-Rp6lvlM4g6zGQjaRFbM-cg_IMpIS6ny_7SiQ6_kQ,7554
+mpl_interactions-0.4.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mpl_interactions-0.4.0.dist-info/top_level.txt,sha256=4cdv5bLjoHH5dai65BRxKKjPv0OwV0_ZBE_xKn0LToA,17
+mpl_interactions-0.4.0.dist-info/RECORD,,
