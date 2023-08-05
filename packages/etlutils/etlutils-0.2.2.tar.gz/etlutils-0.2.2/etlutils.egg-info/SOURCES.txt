@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+etlutils/__init__.py
+etlutils/datafiles.py
+etlutils/date.py
+etlutils.egg-info/PKG-INFO
+etlutils.egg-info/SOURCES.txt
+etlutils.egg-info/dependency_links.txt
+etlutils.egg-info/requires.txt
+etlutils.egg-info/top_level.txt
