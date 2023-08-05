@@ -1,0 +1,3 @@
+include LICENSE
+graft mailtrap/templates
+graft mailtrap/static
