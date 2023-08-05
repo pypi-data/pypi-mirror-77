@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pdf_utils/__init__.py
+pdf_utils/__version__.py
+pdf_utils/annotated_pdf.py
+pdf_utils/annotation.py
+pdf_utils/converter.py
+pdf_utils/ocr.py
+pdf_utils/pdf_handler.py
+pdf_utils/rectangle.py
+pdf_utils.egg-info/PKG-INFO
+pdf_utils.egg-info/SOURCES.txt
+pdf_utils.egg-info/dependency_links.txt
+pdf_utils.egg-info/requires.txt
+pdf_utils.egg-info/top_level.txt
