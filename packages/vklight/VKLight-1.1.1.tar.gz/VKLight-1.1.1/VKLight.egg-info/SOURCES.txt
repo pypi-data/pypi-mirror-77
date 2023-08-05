@@ -1,0 +1,9 @@
+README.md
+setup.py
+VKLight/__init__.py
+VKLight/core.py
+VKLight.egg-info/PKG-INFO
+VKLight.egg-info/SOURCES.txt
+VKLight.egg-info/dependency_links.txt
+VKLight.egg-info/requires.txt
+VKLight.egg-info/top_level.txt
