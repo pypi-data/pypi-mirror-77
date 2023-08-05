@@ -1,0 +1,6 @@
+README.md
+setup.py
+treenodedefinition.egg-info/PKG-INFO
+treenodedefinition.egg-info/SOURCES.txt
+treenodedefinition.egg-info/dependency_links.txt
+treenodedefinition.egg-info/top_level.txt
