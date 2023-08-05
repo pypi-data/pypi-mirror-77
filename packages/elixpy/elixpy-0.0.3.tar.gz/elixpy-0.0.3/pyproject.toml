@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "elixpy"
+author = "Pradhyum Rajasekar"
+author-email = "drpradhyum2016@outlook.com"
+home-page = "https://techieji.github.io/elixpy/"
+classifiers = ["License :: OSI Approved :: MIT License"]
+
