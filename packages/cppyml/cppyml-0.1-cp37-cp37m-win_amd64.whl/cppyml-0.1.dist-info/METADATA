@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cppyml
+Version: 0.1
+Summary: Efficient implementations of selected ML algorithms for Python.
+Home-page: https://github.com/romanwerpachowski/ML
+Author: Roman Werpachowski
+Author-email: roman.werpachowski@gmail.com
+License: GPL-3.0
+Keywords: machine-learning ML extension algorithms numerical optimised
+Platform: UNKNOWN
+
+UNKNOWN
+
+
