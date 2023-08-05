@@ -1,0 +1,11 @@
+bokeh<3,>=2
+kubernetes<12,>=11
+maproxy<1,>=0.0.12
+pyvo<2,>=1
+nbreport<1.0,>=0.7
+requests<3.0,>=2.22
+jupyterhub<2,>=1
+jupyterlab<3.0,>=2.2
+semver<3,>=2
+rubin_jupyter_utils.helpers<1.0,>=0.30.1
+rubin_jupyter_utils.config<1.0,>=0.30.1
