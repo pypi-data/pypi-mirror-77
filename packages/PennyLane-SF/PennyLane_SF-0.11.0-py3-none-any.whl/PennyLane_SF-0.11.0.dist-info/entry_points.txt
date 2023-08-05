@@ -1,0 +1,5 @@
+[pennylane.plugins]
+strawberryfields.fock = pennylane_sf:StrawberryFieldsFock
+strawberryfields.gaussian = pennylane_sf:StrawberryFieldsGaussian
+strawberryfields.remote = pennylane_sf:StrawberryFieldsRemote
+
