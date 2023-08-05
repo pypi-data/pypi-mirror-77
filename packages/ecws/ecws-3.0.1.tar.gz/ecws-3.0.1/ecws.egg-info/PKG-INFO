@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: ecws
+Version: 3.0.1
+Summary: 一种面向电力领域的中文分词工具
+Home-page: http://github.com/rises-tech/ecws
+Author: alxor
+Author-email: alxor@live.cn
+License: MIT
+Description: README.md
+Keywords: ecws,3.0.1
+Platform: any
+Requires-Python: >=3.6
