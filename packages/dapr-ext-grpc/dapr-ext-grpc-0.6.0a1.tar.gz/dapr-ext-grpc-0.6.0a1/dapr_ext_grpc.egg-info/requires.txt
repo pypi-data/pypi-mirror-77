@@ -1,0 +1,2 @@
+dapr>=0.6.0a1
+cloudevents>=0.3.0
