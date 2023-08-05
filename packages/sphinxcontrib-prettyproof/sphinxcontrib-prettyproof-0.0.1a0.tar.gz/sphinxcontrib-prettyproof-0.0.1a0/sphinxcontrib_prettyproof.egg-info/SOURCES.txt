@@ -1,0 +1,14 @@
+README.md
+setup.py
+sphinxcontrib/__init__.py
+sphinxcontrib/prettyproof/__init__.py
+sphinxcontrib/prettyproof/directive.py
+sphinxcontrib/prettyproof/domain.py
+sphinxcontrib/prettyproof/nodes.py
+sphinxcontrib/prettyproof/proof_type.py
+sphinxcontrib_prettyproof.egg-info/PKG-INFO
+sphinxcontrib_prettyproof.egg-info/SOURCES.txt
+sphinxcontrib_prettyproof.egg-info/dependency_links.txt
+sphinxcontrib_prettyproof.egg-info/namespace_packages.txt
+sphinxcontrib_prettyproof.egg-info/requires.txt
+sphinxcontrib_prettyproof.egg-info/top_level.txt
