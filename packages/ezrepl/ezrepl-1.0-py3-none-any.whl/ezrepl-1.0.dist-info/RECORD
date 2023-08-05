@@ -1,0 +1,10 @@
+ezrepl/Completer.py,sha256=EYf9cZp4BFiQioQA3s_0aJ5J9fXNmrueIlvP6NjXYVM,284
+ezrepl/HelpMenu.py,sha256=Dnf_cqVwVl2uPhMTtzWnq4CPJZfaLhTWWH7OR-EZpAw,1461
+ezrepl/Repl.py,sha256=B-A1S3LprvAYHvBmLpBnDoPRMIUfsDRwQ3BOFZG7H0I,2524
+ezrepl/__init__.py,sha256=ed_i3vSZ5XmI4ZXcMcF7kQfAr5M95bK9wFdmGgxip8o,129
+ezrepl/errors/__init__.py,sha256=KB-jQ4otusWmM4LaUGmNSng93zxSuj_KxpDUbu0HJxI,100
+ezrepl-1.0.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+ezrepl-1.0.dist-info/METADATA,sha256=rtoTAq25B8APwJUMtsOz8ZA9TN-_1FyW5ug8wHuNfy4,1024
+ezrepl-1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+ezrepl-1.0.dist-info/top_level.txt,sha256=EpauJXHJQ_5KhkrJ2Nogb8oCHN7kx56oSnR1zmgF2tw,7
+ezrepl-1.0.dist-info/RECORD,,
