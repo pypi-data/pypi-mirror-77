@@ -1,0 +1,10 @@
+fermata_cli/__init__.py,sha256=7ZD4ABTZoUcB3nWQyZJk0aegnxTq-uarMkeIEZNWTxE,585
+fermata_cli/completor.py,sha256=9WBdB8k7LwaJ5voM00vNn5rPQnOtP9tV-rFFs3GMUsc,5708
+fermata_cli/debugger.py,sha256=KAoVHDmaeOfwBSd_I0HpUZnaM0KztNKXyg2AgB6-a4s,601
+fermata_cli/initializer.py,sha256=TEJKHEpC_JBQMbZvEx-98lieNrZ2SPPb3FS8O1kFinY,1352
+fermata_cli/util.py,sha256=sRfVWVYdTGDidXZDYVbQGYwX3ypPh8qtrqwGK4P7YV4,448
+fermata_cli-0.0.3.dist-info/METADATA,sha256=qj4zXvm8Z_FljY70ly1H4YL0bT84wTB0b0wOKNuKyp0,417
+fermata_cli-0.0.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+fermata_cli-0.0.3.dist-info/entry_points.txt,sha256=aYIHTsBHi7Q_FXyW0K6__OoErS3o6cAbRkgFJzMWDV4,46
+fermata_cli-0.0.3.dist-info/top_level.txt,sha256=pOmO7m95Eop76kA4I_0oyoNQx_v_X8PmuLzUkUzz4Os,12
+fermata_cli-0.0.3.dist-info/RECORD,,
