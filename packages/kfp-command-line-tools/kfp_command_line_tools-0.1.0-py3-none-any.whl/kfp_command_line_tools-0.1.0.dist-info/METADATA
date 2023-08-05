@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: kfp-command-line-tools
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Time IA-Front
+Author-email: ia.front@b2wdigital.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: dev
+Requires-Dist: kfp (==0.5.1)
+Requires-Dist: tabulate (==0.8.7)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: pyyaml
+Requires-Dist: pytest (==5.3.5)
+Requires-Dist: pandas (==1.1.0)
+Requires-Dist: jinja2
+Provides-Extra: dev
+Requires-Dist: setuptools; extra == 'dev'
+Requires-Dist: wheel; extra == 'dev'
+
+UNKNOWN
+
+
