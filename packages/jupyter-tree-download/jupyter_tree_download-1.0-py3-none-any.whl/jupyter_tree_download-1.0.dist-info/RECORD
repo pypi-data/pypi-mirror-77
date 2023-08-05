@@ -1,0 +1,13 @@
+jupyter_tree_download/__init__.py,sha256=cmwL4KRVYTmRFq8bbb0LukH5eOq_jXqU-XKKvMkxvgs,667
+jupyter_tree_download/handlers.py,sha256=vSZFTmdsambn84Qys8vkmrpDrd6jDTlAXn4Ctww-X5Y,2927
+jupyter_tree_download/etc/nbconfig/jupyter-tree-download.json,sha256=bpFSyOSJFNX4Gwlj2XaB9euhQCteMf_Ezsj7cqZnxqw,71
+jupyter_tree_download/etc/serverextension/jupyter-tree-download.json,sha256=w55ihRddGInrhv2VAw4-eUwxNYft6ctErDlmhMf0OF8,98
+jupyter_tree_download/static/tree.js,sha256=FlAyvu-HiJIHIrrw8X-dS5cPnfSsSsIuMZHEbAUcFPE,941
+jupyter_tree_download-1.0.data/data/etc/jupyter/jupyter_notebook_config.d/jupyter-tree-download.json,sha256=w55ihRddGInrhv2VAw4-eUwxNYft6ctErDlmhMf0OF8,98
+jupyter_tree_download-1.0.data/data/etc/jupyter/nbconfig/tree.d/jupyter-tree-download.json,sha256=bpFSyOSJFNX4Gwlj2XaB9euhQCteMf_Ezsj7cqZnxqw,71
+jupyter_tree_download-1.0.data/data/share/jupyter/nbextensions/jupyter_tree_download/tree.js,sha256=FlAyvu-HiJIHIrrw8X-dS5cPnfSsSsIuMZHEbAUcFPE,941
+jupyter_tree_download-1.0.dist-info/LICENSE,sha256=nqOMX4p6yEjgc9WqU4JpTWsYyM-168ZmTet_VJgU0ko,1511
+jupyter_tree_download-1.0.dist-info/METADATA,sha256=YePUsnhgvUi5iecsdTtjL9N5COf2UnSjaIhTpcLaq14,574
+jupyter_tree_download-1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+jupyter_tree_download-1.0.dist-info/top_level.txt,sha256=Lft5bPViM2U5eoOMjZ6_XgPTcB_Xr751tT6lxclnigI,22
+jupyter_tree_download-1.0.dist-info/RECORD,,
