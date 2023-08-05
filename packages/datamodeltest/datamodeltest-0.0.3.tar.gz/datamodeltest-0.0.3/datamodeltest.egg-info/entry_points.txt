@@ -1,0 +1,3 @@
+[console_scripts]
+data-models = tests_pkg.cli:entry_point
+

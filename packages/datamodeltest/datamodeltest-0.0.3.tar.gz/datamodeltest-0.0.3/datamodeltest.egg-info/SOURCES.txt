@@ -1,0 +1,10 @@
+README.md
+setup.py
+datamodeltest.egg-info/PKG-INFO
+datamodeltest.egg-info/SOURCES.txt
+datamodeltest.egg-info/dependency_links.txt
+datamodeltest.egg-info/entry_points.txt
+datamodeltest.egg-info/top_level.txt
+tests_pkg/__init__.py
+tests_pkg/cli.py
+tests_pkg/models.py
