@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: twodo
+Version: 1
+Summary: Yet another simple todo cli in Python
+Home-page: https://github.com/realamirali/twodo
+Author: Amirali Esfandiari
+Author-email: amiralinull@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3
