@@ -1,0 +1,12 @@
+wappdriver/__init__.py,sha256=06FSa0PI9pr14SijmxANWzh_yKrCShud0EdLOFMyJfU,109
+wappdriver/driver.py,sha256=YshMxQUldEVM1J4czqbwjy9e9HlhzSI-MFdsczFFCxs,4098
+wappdriver/update.py,sha256=OJgJSO-BV3syJ-kEJKv6sk00hsVqvDunEg6LLEHIo4I,1147
+wappdriver/util.py,sha256=_XQLPcO446VKueCdAnoMIRk2FJcbjeOV5_Jhy1ZfQDI,625
+wappdriver/data/chrome_driver_path.txt,sha256=ciWyfs4hJ9VffC2hDvtrhzwwLQCCCXSWtVoAiWwCzA8,114
+wappdriver/data/var.yml,sha256=6qmZaI-GiDqZjD1Khvwvhq7qDB8zYfI0DLzbZUgqi0o,57
+wappdriver/data/varVer.txt,sha256=FHuBg5PJhRjvKqZt1g5xjLo-2u0GdKR3-q4lGsHjjgw,126
+wappdriver-0.1.0.dist-info/LICENSE,sha256=QoZGyiA-h0QoadE7teULo3yKx7uRzYdZbSCkoMgcRLA,1067
+wappdriver-0.1.0.dist-info/METADATA,sha256=pAqG4jbrO-baaoCWSF8e8AVeYq2wDyawaQLuGGBucL0,1413
+wappdriver-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+wappdriver-0.1.0.dist-info/top_level.txt,sha256=aWmohwxU1F3snYGZjzXB7Xxz-hPSahmX0VX9S1hp0Uc,11
+wappdriver-0.1.0.dist-info/RECORD,,
