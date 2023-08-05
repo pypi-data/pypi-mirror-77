@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: strmscience
+Version: 0.1.1
+Summary: STRM base python package
+License: GPL-3.0-or-later
+Author: OPSXCQ
+Author-email: opsxcq@strm.sh
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pulp (>=2.3,<3.0)
+Description-Content-Type: text/markdown
+
+
