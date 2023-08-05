@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fermata-cli
+Version: 0.0.2
+Summary: Command Line Interface of Fermata
+Home-page: https://fenda.io/ff/fermata-cli
+Author: rejown
+Author-email: rejown@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: fermata
+Requires-Dist: docopt
+Requires-Dist: werkzeug
+Requires-Dist: meinheld
+
+just for test
+
+
