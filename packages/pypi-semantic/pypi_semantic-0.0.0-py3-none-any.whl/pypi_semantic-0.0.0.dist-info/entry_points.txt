@@ -1,0 +1,3 @@
+[console_scripts]
+mtest = pypi_semantic.app:main
+
