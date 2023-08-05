@@ -1,0 +1,9 @@
+README.md
+setup.py
+timeandplace/__init__.py
+timeandplace/__main__.py
+timeandplace.egg-info/PKG-INFO
+timeandplace.egg-info/SOURCES.txt
+timeandplace.egg-info/dependency_links.txt
+timeandplace.egg-info/requires.txt
+timeandplace.egg-info/top_level.txt
