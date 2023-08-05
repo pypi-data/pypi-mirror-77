@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: pybiology
+Version: 0.0.2
+Summary: A small example package
+Home-page: https://github.com/GAUTAMMISTRY/pybiology
+Author: GAUTAM PARMAR
+Author-email: gautammistry48@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: License :: Freely Distributable
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# pybbiology
+
+```
+Freely available tools for Analsis of DNA
+The Biopython Project is an international association of developers
+of freely available Python tools for computational molecular biology.
+```
+
+## List of functions and usage
+-  seq_percent(dna_sequence,*char)
+-  has_stop_codon(dna,frame=0)
+
+## 1. compute DNA sequence 
+```
+def seq_percent(dna_sequence,*char):
+        sum=0
+        listed=[]
+        dna_length=len(dna_sequence)
+        for arg in char:
+            if listed.count(arg)==0:
+                sum= sum + dna_sequence.count(arg)
+                listed.append(arg)
+        return (sum)*100.0/dna_length
+```
+## 2. This function checks if given DNA has in frame stop codons.
+
+```
+def has_stop_codon(dna,frame=0):
+    stop_codon_found=False
+    stop_codons=['tga','tag','taa']
+    for i in range(frame,len(dna),3):
+        codon=dna[i:i+3].lower()
+        if codon in stop_codons:
+            stop_codon_found=True
+            break
+    return stop_codon_found
+```
+
