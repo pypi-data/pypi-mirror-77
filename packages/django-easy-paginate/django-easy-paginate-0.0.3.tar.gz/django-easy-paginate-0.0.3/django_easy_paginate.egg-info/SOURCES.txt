@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+api_paginator/__init__.py
+api_paginator/admin.py
+api_paginator/api_paginator.py
+api_paginator/apps.py
+api_paginator/models.py
+api_paginator/tests.py
+api_paginator/views.py
+api_paginator/migrations/__init__.py
+django_easy_paginate.egg-info/PKG-INFO
+django_easy_paginate.egg-info/SOURCES.txt
+django_easy_paginate.egg-info/dependency_links.txt
+django_easy_paginate.egg-info/top_level.txt
