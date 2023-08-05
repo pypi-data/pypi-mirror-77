@@ -1,0 +1,5 @@
+wheel
+mdfreader==3.3
+numpy==1.17.4
+PyQt5==5.13.2
+pyqtgraph==0.10.0
