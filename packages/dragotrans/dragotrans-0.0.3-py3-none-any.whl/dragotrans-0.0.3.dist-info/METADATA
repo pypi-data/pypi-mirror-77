@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dragotrans
+Version: 0.0.3
+Summary: Dragotrans is a free and unlimited python library that will recognize and translate language from the text.Compatible with Python 3.6+.
+Requires-Dist: httpx (==0.13.3)
+
+Features
+==>Fast and reliable 
+==>Auto language detection
+==>Bulk translations
+==>Customizable service URL
+==>HTTP/2 support
+Home-page: https://github.com/sumitkhamar22/dragotrans
+Author: Emerger
+Author-email: sumitkhamar22@gmail.com
+License: MIT
+Download-URL: https://github.com/sumitkhamar22/dragotrans/archive/0.0.3.tar.gz
+Description: UNKNOWN
+Keywords: google translate translator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Freeware
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Education
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
