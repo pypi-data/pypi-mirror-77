@@ -1,0 +1,188 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2020-08-17 10:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.contact.plonegroup\n"
+
+#: ../browser/tables.py:262
+msgid "Actions"
+msgstr ""
+
+#: ../browser/settings.py:171
+msgid "Choose multiple organization levels for which you want to create a plone group."
+msgstr ""
+
+#: ../browser/tables.py:224
+msgid "Details"
+msgstr ""
+
+#: ../browser/settings.py:178
+msgid "Each defined function will suffix each organization plone group."
+msgstr ""
+
+#: ../browser/settings.py:78
+msgid "Enabled?"
+msgstr ""
+
+#: ../browser/settings.py:180
+msgid "Function"
+msgstr ""
+
+#: ../browser/settings.py:177
+msgid "Function list"
+msgstr ""
+
+#: ../browser/tables.py:209
+msgid "Groups and users"
+msgstr ""
+
+#: ../configure.zcml:28
+msgid "Installs the collective.contact.plonegroup add-on."
+msgstr ""
+
+#: ../browser/templates/display_group_users.pt:21
+msgid "No user was found in this group."
+msgstr ""
+
+#: ../browser/settings.py:54
+msgid "Organization id"
+msgstr ""
+
+#: ../browser/settings.py:55
+msgid "Organization title"
+msgstr ""
+
+#: ../browser/settings.py:72
+msgid "Plone group organizations description"
+msgstr ""
+
+#: ../browser/settings.py:64
+msgid "Plone group suffix description"
+msgstr ""
+
+#: ../browser/settings.py:63
+msgid "Plone group suffix id"
+msgstr ""
+
+#: ../browser/settings.py:71
+msgid "Plone group suffix organizations"
+msgstr ""
+
+#: ../browser/settings.py:67
+msgid "Plone group suffix title"
+msgstr ""
+
+#: ../browser/settings.py:68
+msgid "Plone group title description"
+msgstr ""
+
+#: ../browser/tables.py:240
+msgid "Selected in plonegroup"
+msgstr ""
+
+#: ../browser/settings.py:170
+msgid "Selected organizations"
+msgstr ""
+
+#: ../testing.zcml:16
+msgid "Steps to ease tests of collective.contact.plonegroup"
+msgstr ""
+
+#: ../subscribers.py:147
+msgid "This contact is selected in configuration"
+msgstr ""
+
+#: ../subscribers.py:153
+msgid "This contact is used in following content: ${items}"
+msgstr ""
+
+#: ../browser/settings.py:456
+msgid "This organization or a contained organization is used in plonegroup configuration ! Remove it first from the configuration !"
+msgstr ""
+
+#: ../browser/tables.py:174
+msgid "View Plone group"
+msgstr ""
+
+#: ../browser/tables.py:172
+msgid "View Plone user"
+msgstr ""
+
+#: ../browser/templates/display_group_users.pt:13
+msgid "View linked Plone groups"
+msgstr ""
+
+#: ../subscribers.py:159
+msgid "You cannot deactivate this item !"
+msgstr ""
+
+#: ../subscribers.py:199
+msgid "You cannot delete the group '${group}', linked to used organization '${orga}'."
+msgstr ""
+
+#: ../browser/settings.py:455
+msgid "You cannot delete this item !"
+msgstr ""
+
+#: ../browser/settings.py:188
+msgid "You must choose at least one organization !"
+msgstr ""
+
+#: ../browser/settings.py:190
+msgid "You must correct the organization error first !"
+msgstr ""
+
+#: ../browser/settings.py:192
+msgid "You must define at least one function !"
+msgstr ""
+
+#: ../browser/settings.py:125
+msgid "You must define one '${root_portal_type}' with id '${pgo}' !"
+msgstr ""
+
+#: ../browser/settings.py:131
+msgid "You must have only one '${root_portal_type}' with id '${pgo}' !"
+msgstr ""
+
+#: ../browser/settings.py:244
+msgid "can_not_disable_suffix_plone_groups_not_empty"
+msgstr ""
+
+#: ../browser/settings.py:206
+msgid "can_not_remove_function_every_plone_groups_not_empty"
+msgstr ""
+
+#: ../browser/settings.py:233
+msgid "can_not_select_function_orgs_every_other_plone_groups_not_empty"
+msgstr ""
+
+#: ../configure.zcml:28
+msgid "collective.contact.plonegroup"
+msgstr ""
+
+#: ../testing.zcml:16
+msgid "collective.contact.plonegroup tests"
+msgstr ""
+
+#. Default: "There is no organizations in this organization."
+#: ../browser/templates/suborganizations.pt:18
+msgid "help_organizations_no_suborgs"
+msgstr ""
+
+#. Default: "For convenience, organizations are listed alphabetically. Order is defined in the ${plonegroup_config_url}."
+#: ../browser/templates/suborganizations.pt:11
+msgid "help_organizations_sorted_alphabetically"
+msgstr ""
