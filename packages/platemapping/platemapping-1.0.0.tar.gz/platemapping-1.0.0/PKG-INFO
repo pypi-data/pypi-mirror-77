@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: platemapping
+Version: 1.0.0
+Summary: Plate map uploading, processing & visualisaion
+Home-page: https://github.com/lawrencecollins/platemapping
+Author: Stuart Warriner, Lawrence Collins
+Author-email: s.l.warriner@leeds.ac.uk, lawrencejordancollins@gmail.com
+License: UNKNOWN
+Description: # Plate Map #
+        
+        Plate map uploading, processing & visualisaion.
+        
+        empty_map() generates an empty well plate map according to a defined size:
+        6:(2, 3), 12:(3, 4), 24:(4, 6), 48:(6, 8), 96:(8, 12), 384:(16, 24)
+        
+        plate_map() generates a full plate map from a 'long hand' table.
+        
+        short_map() generates a full plate map from a 'short hand' table.
+        
+        visualise() generates an image of the plate map described from the above functions.
+        
+        readandmap() generates dataframes of the assay data associated with a plate map. 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
