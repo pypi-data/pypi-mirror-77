@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: timeandplace
+Version: 1.0.0
+Summary: Python API for interacting with a TimeAndPlace server
+Home-page: https://github.com/Ewpratten/timeandplace-api
+Author: Evan Pratten
+Author-email: ewpratten@gmail.com
+License: GPLv3
+Download-URL: https://github.com/Ewpratten/timeandplace-api
+Description: # timeandplace-api
+        Python API for TimeAndPlace
+        
+Keywords: school-management,api
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
