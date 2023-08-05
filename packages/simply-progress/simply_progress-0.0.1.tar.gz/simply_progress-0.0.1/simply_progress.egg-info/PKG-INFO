@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: simply-progress
+Version: 0.0.1
+Summary: A light and easy to use progress bar for python
+Home-page: https://github.com/Meschdog18/simply-progress
+Author: Jordan Mesches
+Author-email: jordanmesches@gmail.com
+License: MIT Licenses
+Description: # simply-progress
+        A light and easy to use progress bar for python
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
