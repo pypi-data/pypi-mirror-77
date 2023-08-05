@@ -1,0 +1,16 @@
+pytools>=2020.2
+pymbolic>=2019.2
+genpy>=2016.1.2
+cgen>=2016.1
+islpy>=2019.1
+six>=1.8.0
+codepy>=2017.1
+colorama
+Mako
+
+[fortran]
+f2py>=0.3.1
+ply>=3.6
+
+[pyopencl]
+pyopencl>=2020.2
