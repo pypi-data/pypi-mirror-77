@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mosdex-python
+Version: 2020.1.dev6
+Summary: Package for running demo of MOSDEX modular optimization problem data standard
+Home-page: https://github.com/coin-modeling-dev/mosdex-python/tree/2020.1.dev6
+Author: Alan King
+Author-email: kingaj@us.ibm.com
+License: UNKNOWN
+Description: # mosdex-python
+        
+        To install the mosdex package: `python setup.py install`
+        
+        A sailco example is in the `samples` directory. To run sailco: `cd samples; python -m sailco`
+        
+        The experimental version of MOSDEX Schema and some example files are in `mosdex-python/data`
+        
+        PDFs of the output are in `mosdex-python/data`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: pg
+Provides-Extra: pandas
+Provides-Extra: redshift
