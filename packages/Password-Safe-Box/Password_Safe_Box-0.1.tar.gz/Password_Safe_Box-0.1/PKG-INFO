@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: Password_Safe_Box
+Version: 0.1
+Summary: Store any string you want with the most secure way
+Home-page: https://github.com/Vbrawl/Password_Safe_Box
+Author: Jim
+Author-email: TheDarkProgrammers@gmail.com
+License: MIT
+Download-URL: https://github.com/Vbrawl/Password_Safe_Box/archive/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: Hash,Security,Passwords
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
