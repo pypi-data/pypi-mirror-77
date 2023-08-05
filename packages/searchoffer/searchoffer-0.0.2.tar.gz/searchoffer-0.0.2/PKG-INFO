@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: searchoffer
+Version: 0.0.2
+Summary: Python library suggestqueries google api
+Home-page: https://github.com/mahekan/searchoffer
+Author: ayaz abdi
+Author-email: mayazabdi@gmail.com
+License: UNKNOWN
+Description: # searchoffer
+        
+        searchoffer is a Python library for suggestqueries google api.
+        
+        ## Installation
+        
+        Use the package manager [pip](https://pypi.org/project/searchoffer/) to install searchoffer.
+        
+        ```bash
+        pip install searchoffer
+        ```
+        
+        ## Usage
+        
+        ```python
+        from searchoffer import SearchOffer
+        
+        keyword = "ماهکان"
+        language = "fa"
+        SearchOffer(keyword,language).offer() # Default offer
+        SearchOffer(keyword,language).google() # Offer from Google
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
