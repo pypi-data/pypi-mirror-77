@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: blandfeed
+Version: 0.1.2
+Summary: Push feed for your device, easy to setup, mediocre to use
+Author: rendaw
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: aiohttp (>=3.6.2,<4.0.0)
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: dbus-python (>=1.2.16,<2.0.0)
+Requires-Dist: pygobject (>=3.36.1,<4.0.0)
+Requires-Dist: pynacl (>=1.4.0,<2.0.0)
