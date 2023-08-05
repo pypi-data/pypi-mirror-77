@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: mlserving
+Version: 0.1.0
+Summary: A framework for developing a realtime model-inference service.
+Home-page: https://github.com/orlevii/mlserving
+Author: Or Levi
+Author-email: orlevi128@gmail.com
+License: MIT
+Description: # ML Serving
+        Serving ML Models
+        
+        A framework for developing a realtime model-inference service.
+        
+        Allows you to set up an inference-endpoint for you ML Model easily.
+        
+        Docs can found here:
+        https://orlevii.github.io/mlserving/
+        
+        ## Motivation
+        Data Scientists usually struggle with integrating their ML-models to production.
+        
+        `mlserving` is here to make the development of model-servers easy for everyone.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
