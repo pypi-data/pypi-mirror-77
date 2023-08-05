@@ -1,0 +1,5 @@
+setup.py
+healthos.egg-info/PKG-INFO
+healthos.egg-info/SOURCES.txt
+healthos.egg-info/dependency_links.txt
+healthos.egg-info/top_level.txt
