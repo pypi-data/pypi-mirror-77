@@ -1,0 +1,12 @@
+drf_dynamic_serializers/__init__.py,sha256=5y8nskYz1sEy57_QCK0EJ4RDvp3oGsoHs6TNek1Qym4,80
+drf_dynamic_serializers/apps.py,sha256=JehN0Ccc_WejZVM7TXF4T5aT23Jso5mIfp-f8RTup30,248
+drf_dynamic_serializers/conf.py,sha256=H2Y20weEnaMjJhlRxLczTrnQsc_QZErkxRRoI04znkw,1487
+drf_dynamic_serializers/exceptions.py,sha256=ajQlb2rsCKVjcbXBmfDPRz9DybcD7UeCVYQPZ24YnOQ,422
+drf_dynamic_serializers/mixins.py,sha256=t-HwU4CIbkzf2-SDxm9mnaxvViTYslnV9xNOu9iyqYA,11324
+drf_dynamic_serializers/serializers.py,sha256=vOMHtthU_dXmTEcjJbVtEVLQfrQyEhTiGLjnWi8ZsTQ,499
+drf_dynamic_serializers/views.py,sha256=9J24Ro20c664UQMtm3PFNpBOjSBwpCMyUkVOmaFzEqY,267
+drf_dynamic_serializers-1.0.dist-info/LICENSE,sha256=uauXjtzdsU27vxEzjGb4CZY6a8dwPwbcDcRMWTeVyIw,1074
+drf_dynamic_serializers-1.0.dist-info/METADATA,sha256=ObKDKYweLg78DPQ4YhCo6-ZzIG2ZKKeXMzwpfBX9MJE,3611
+drf_dynamic_serializers-1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+drf_dynamic_serializers-1.0.dist-info/top_level.txt,sha256=NQTFItrFJj22Rf_fqFHneCywRTtajiz9bAKJqLoCMIQ,24
+drf_dynamic_serializers-1.0.dist-info/RECORD,,
