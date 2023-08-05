@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+sss_beneficiarios_hospitales/__init__.py
+sss_beneficiarios_hospitales/data.py
+sss_beneficiarios_hospitales/parser.py
+sss_beneficiarios_hospitales.egg-info/PKG-INFO
+sss_beneficiarios_hospitales.egg-info/SOURCES.txt
+sss_beneficiarios_hospitales.egg-info/dependency_links.txt
+sss_beneficiarios_hospitales.egg-info/requires.txt
+sss_beneficiarios_hospitales.egg-info/top_level.txt
+sss_beneficiarios_hospitales/html-samples/full-afiliado-con-empleador.html
+sss_beneficiarios_hospitales/html-samples/full-afiliado.html
+sss_beneficiarios_hospitales/html-samples/full-sin-datos.html
