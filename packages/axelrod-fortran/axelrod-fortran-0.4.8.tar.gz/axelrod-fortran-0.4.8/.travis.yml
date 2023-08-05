@@ -1,0 +1,24 @@
+language: python
+python:
+  - 3.6
+  - 3.7
+dist: xenial
+sudo: required
+services:
+  - xvfb
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install gfortran
+  - git clone https://github.com/Axelrod-Python/TourExec.git /tmp/TourExec
+  - cd /tmp/TourExec
+  - sudo make install
+  - echo "/usr/lib/libstrategies.so" | sudo tee /etc/ld.so.conf.d/strategies-lib.conf
+  - sudo ldconfig
+  - ldconfig -p | grep libstrategies.so
+  - cd $TRAVIS_BUILD_DIR
+install:
+  - pip install -r requirements.txt
+  - pip install pytest
+  - python setup.py install
+script:
+    - pytest tests/
