@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+distance.py
+setup.py
+speed.py
+time.py
+speedtimedistance.egg-info/PKG-INFO
+speedtimedistance.egg-info/SOURCES.txt
+speedtimedistance.egg-info/dependency_links.txt
+speedtimedistance.egg-info/top_level.txt
