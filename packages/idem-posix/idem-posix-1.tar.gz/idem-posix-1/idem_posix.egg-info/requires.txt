@@ -1,0 +1,7 @@
+aiofiles>=0.3.0
+dict-toolbox>=1.8
+dnspython>=1.14.0
+grainsv2>=9
+grains-virt==2
+grains-universal
+idem>=7.4
