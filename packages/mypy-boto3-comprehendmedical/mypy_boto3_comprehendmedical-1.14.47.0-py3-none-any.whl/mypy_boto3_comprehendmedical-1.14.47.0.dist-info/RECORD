@@ -1,0 +1,10 @@
+mypy_boto3_comprehendmedical/__init__.py,sha256=9iayp_GEjjduzKmkDHQkMyUm7LCgvEkw5-68LEdU8VE,547
+mypy_boto3_comprehendmedical/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_comprehendmedical/client.py,sha256=S2ZDeLDtj0ui2O1czvJ0sogb4sMXSDf2dglwAHusyNg,11553
+mypy_boto3_comprehendmedical/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_comprehendmedical/type_defs.py,sha256=QkbhhbPe85VQJDcfzb_Krr54NI9SHeaY5llmBfVcEq8,15329
+mypy_boto3_comprehendmedical/version.py,sha256=-i5krKqKNhGUv249zQgk2lKo9n_HlMyn5W1fgPdXhmk,57
+mypy_boto3_comprehendmedical-1.14.47.0.dist-info/METADATA,sha256=fYh-B5au7pA6WTOmvtanNGWVw-51GC74RA_Ij7z1n0A,4471
+mypy_boto3_comprehendmedical-1.14.47.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mypy_boto3_comprehendmedical-1.14.47.0.dist-info/top_level.txt,sha256=_4uiMNtYrIJRbETLDAihP2-_Axm5WLoaRq5GbNpeqBk,29
+mypy_boto3_comprehendmedical-1.14.47.0.dist-info/RECORD,,
