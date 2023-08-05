@@ -1,0 +1,8 @@
+README.md
+setup.py
+platemapping/__init__.py
+platemapping/plate_map.py
+platemapping.egg-info/PKG-INFO
+platemapping.egg-info/SOURCES.txt
+platemapping.egg-info/dependency_links.txt
+platemapping.egg-info/top_level.txt
