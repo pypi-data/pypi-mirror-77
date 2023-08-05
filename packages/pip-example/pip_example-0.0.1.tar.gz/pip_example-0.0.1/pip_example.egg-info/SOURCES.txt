@@ -1,0 +1,9 @@
+README
+setup.py
+pip_example/__init__.py
+pip_example/example.py
+pip_example.egg-info/PKG-INFO
+pip_example.egg-info/SOURCES.txt
+pip_example.egg-info/dependency_links.txt
+pip_example.egg-info/requires.txt
+pip_example.egg-info/top_level.txt
