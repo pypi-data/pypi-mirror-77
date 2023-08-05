@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+emotionpyy/__init__.py
+emotionpyy.egg-info/PKG-INFO
+emotionpyy.egg-info/SOURCES.txt
+emotionpyy.egg-info/dependency_links.txt
+emotionpyy.egg-info/requires.txt
+emotionpyy.egg-info/top_level.txt
