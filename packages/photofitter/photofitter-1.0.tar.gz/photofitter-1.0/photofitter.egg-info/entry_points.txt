@@ -1,0 +1,4 @@
+
+            [console_scripts]
+            photofitter=photofitter.__main__:main
+        
