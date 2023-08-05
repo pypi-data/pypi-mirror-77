@@ -1,0 +1,2 @@
+napari_brainreg_standard
+tests
