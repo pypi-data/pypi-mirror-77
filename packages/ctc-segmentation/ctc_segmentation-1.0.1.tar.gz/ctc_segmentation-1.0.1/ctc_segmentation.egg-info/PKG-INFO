@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: ctc-segmentation
+Version: 1.0.1
+Summary: Prvovides CTC segmentation to align utterances within large audio files.
+Home-page: https://github.com/lumaku/ctc-segmentation
+Author: Ludwig Kuerzinger <ludwig.kuerzinger@tum.de>, Dominik Winkelbauer <dominik.winkelbauer@tum.de>
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
