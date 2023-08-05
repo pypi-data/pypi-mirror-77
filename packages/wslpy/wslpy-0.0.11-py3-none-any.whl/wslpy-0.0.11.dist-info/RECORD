@@ -1,0 +1,10 @@
+wslpy/__init__.py,sha256=u6-SKq1AzXFmXqmq69lfgXmVfL3RtugL0_fqWV7Sk48,273
+wslpy/convert.py,sha256=ZnBfVcje8hoyqQKoxWXKzU-7HgnKXMeCvoXFCxj2c-I,4000
+wslpy/exec.py,sha256=Bll0M25ZE22w95XAc5oJngxPpdTSk_i1ZN8BWjwVcrM,945
+wslpy/system.py,sha256=SvklL281-tmbsxbcffjMvPA2a8YHju6ydEjNirWWkLs,6978
+wslpy/win.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wslpy-0.0.11.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+wslpy-0.0.11.dist-info/METADATA,sha256=wwkweqRnxXKoHfUXvAwyWva2JSjy5gm1XTkzsgXCw_0,1697
+wslpy-0.0.11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wslpy-0.0.11.dist-info/top_level.txt,sha256=_DdbtKUNwl-BefXI2w5j_1klY2NCUUY8aTJGRP0G9p0,6
+wslpy-0.0.11.dist-info/RECORD,,
