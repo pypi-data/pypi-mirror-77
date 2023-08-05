@@ -1,0 +1,12 @@
+moocxing/__init__.py,sha256=--ae7m59Bnq84bf5mb16BuEWptdokXUJNmbUiMGdrAg,31
+moocxing/moocxing.py,sha256=iMTA0UiNwoaJLaO5_qNgCFOmCYfKP6jonafngwx_dAQ,739
+moocxing/package/MXMedia.py,sha256=X-SBjBGUMbc_0VqgaCzMzqJ8oFKmDQuYxGSJMQ9QVCA,1882
+moocxing/package/MXMqtt.py,sha256=sUx6bk_vcjuH8kwjrxRm1SNUCF2CChlLui59nRuozy4,1036
+moocxing/package/MXNLP.py,sha256=N5iUD0CN2ngGfaN9uj8Si59AWAXE1t8n9WU1N-Dg6E4,2164
+moocxing/package/MXSerial.py,sha256=OVnFHWv00IZ8rm1sK-aXWTRqnBuipiQ3n-P1nc1eqjc,850
+moocxing/package/MXSpeech.py,sha256=dD5LwT6T9BpsHJm3OCbN9v0iF1_mDDjAQLXnRq5rAUw,871
+moocxing/package/__init__.py,sha256=YgP5WQl_ffGHee5o5Sj0Y2utoCt10QbP28bvVa8sN_o,347
+moocxing-0.0.3.dist-info/METADATA,sha256=k0xaj2ewNE2luoJ4oeVfvZapStVNxCcqAVac4EYFPkI,493
+moocxing-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+moocxing-0.0.3.dist-info/top_level.txt,sha256=fy4dAXKnhSRjlAO0kMWPRQ6l9wN8WzgixD4NZAVRFGU,9
+moocxing-0.0.3.dist-info/RECORD,,
