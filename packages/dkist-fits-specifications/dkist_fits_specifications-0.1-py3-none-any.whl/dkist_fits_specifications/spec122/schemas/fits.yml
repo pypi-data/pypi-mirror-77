@@ -1,0 +1,90 @@
+spec122:
+  section: fits
+---
+SIMPLE:
+  required: false
+  type: bool
+  values:
+    - T
+BITPIX:
+  required: true
+  type: int
+  values: 
+    - 8
+    - 16
+    - 32
+    - 64
+    - -32
+    - -64
+NAXIS:
+  required: true
+  type: int
+  values: 
+    - 3
+NAXISn:
+  required: true
+  type: int
+BUNIT:
+  required: false
+  type: str
+BZERO:
+  required: false
+  type: float
+BSCALE:
+  required: false
+  type: float
+BLANK:
+  required: false
+  type: int
+DATE:
+  required: false
+  type: str
+  format: isot
+DATE-OBS:
+  required: true
+  type: str
+  format: isot
+DATE-BGN:
+  required: false
+  type: str
+  format: isot
+DATE-END:
+  required: false
+  type: str
+  format: isot
+ORIGIN:
+  required: false
+  type: str
+TELESCOP:
+  required: false
+  type: str
+OBSERVAT:
+  required: false
+  type: str
+NETWORK:
+  required: false
+  type: str
+INSTRUME:
+  required: true
+  type: str
+WAVELNTH:
+  required: true
+  type: float
+OBSERVER:
+  required: false
+  type: str
+OBJECT:
+  required: false
+  type: str
+CHECKSUM:
+  required: true
+  type: str
+DATASUM:
+  required: false
+  type: str
+COMMENT:
+  required: false
+  type: str
+END:
+  required: false
+  type: str
