@@ -1,0 +1,11 @@
+semanticscholar/Author.py,sha256=ivFw0KajnRl-CH4Yun-u_ia-ebhvBK9-nummJHiCQF0,1156
+semanticscholar/Citation.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semanticscholar/Paper.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semanticscholar/Topic.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semanticscholar/__init__.py,sha256=oFXOpqXDfwUK5nr8C4XlqHpus8xusqoQajDAR2DeUco,34
+semanticscholar/restful.py,sha256=BlejgXcwEB6TjCbxhycZefaHwPFMNhEftZ-g5G-b1-Q,1915
+semanticscholar-0.1.5.dist-info/LICENSE,sha256=1q50wc_-ajqtm35usdvRq5U_IZSVf4QQ_Q0RHklVD68,1090
+semanticscholar-0.1.5.dist-info/METADATA,sha256=SjAFNwvPmyBhWdVFntcf4sm5aLuBe2IjZCJmuWzZWnE,2015
+semanticscholar-0.1.5.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+semanticscholar-0.1.5.dist-info/top_level.txt,sha256=XsVsgortHHsNE_x2C-slCFqMzuLzmqo-P8Q9iz5Jp7s,16
+semanticscholar-0.1.5.dist-info/RECORD,,
