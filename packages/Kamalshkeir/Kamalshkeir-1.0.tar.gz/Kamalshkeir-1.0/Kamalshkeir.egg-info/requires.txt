@@ -1,0 +1,5 @@
+six
+cryptography
+pyotp
+qrcode
+twilio

@@ -1,0 +1,6 @@
+#include non python file
+
+include requirements.txt
+
+#to include templates folder with all files inside
+#use "recursive-include templates/ *" 

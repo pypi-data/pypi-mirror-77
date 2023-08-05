@@ -1,0 +1,10 @@
+MANIFEST.in
+requirements.txt
+setup.py
+Kamalshkeir.egg-info/PKG-INFO
+Kamalshkeir.egg-info/SOURCES.txt
+Kamalshkeir.egg-info/dependency_links.txt
+Kamalshkeir.egg-info/requires.txt
+Kamalshkeir.egg-info/top_level.txt
+kamal/__init__.py
+kamal/outils.py
