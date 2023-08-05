@@ -1,0 +1,9 @@
+pandas
+numpy
+requests
+pyyaml
+teradatasql
+matplotlib
+seaborn
+python-pptx
+pydantic
