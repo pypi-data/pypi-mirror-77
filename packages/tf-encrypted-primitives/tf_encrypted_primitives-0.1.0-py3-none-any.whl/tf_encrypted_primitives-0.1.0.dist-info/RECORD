@@ -1,0 +1,13 @@
+tf_encrypted/primitives/__init__.py,sha256=WtvoLEDlYtVO36H--JYuwXShR0ACSoGeCSaTzCAlbBI,89
+tf_encrypted/primitives/paillier/__init__.py,sha256=wRFj1fj0DZOIM0G3RH1iMtJFwLAYwuoy-hTEwUkcdiA,574
+tf_encrypted/primitives/paillier/primitives.py,sha256=onwzKoekrvHdy6qvJR-2olIdwX246HHHL9Cz2lZumAQ,4259
+tf_encrypted/primitives/sodium/__init__.py,sha256=NuBl39_LSK6kJpI6JkOJISG0sGmZKoeRprrtC0ZssIM,60
+tf_encrypted/primitives/sodium/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tf_encrypted/primitives/sodium/python/_sodium_module.so,sha256=89p7MIkdZxth4oOywAmDD1L2zeHynx6o8JtY_eAssFE,645816
+tf_encrypted/primitives/sodium/python/easy_box.py,sha256=QwNO8zPeXRHSm-1hv03W6LN29ll2cRjqrZIvleLO0O0,1844
+tf_encrypted/test/__init__.py,sha256=LZwxqNWbATfs_wRO_LaUH7WQMuLZd6qsE210iqUZIwM,95
+tf_encrypted/test/execution_context.py,sha256=72TpE3sH7nEtjmD5b9EQlGh9Zq-iiF5LmMzxBcEajz8,902
+tf_encrypted_primitives-0.1.0.dist-info/METADATA,sha256=w5zPF8X85hUj1DipPQq0SsSrSaB7T8fjt51H3kbZyLI,798
+tf_encrypted_primitives-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tf_encrypted_primitives-0.1.0.dist-info/top_level.txt,sha256=3ClIjcX6iaXhlidyAPDHqIgii9qNM6qy7pVIw-K4Ki8,13
+tf_encrypted_primitives-0.1.0.dist-info/RECORD,,

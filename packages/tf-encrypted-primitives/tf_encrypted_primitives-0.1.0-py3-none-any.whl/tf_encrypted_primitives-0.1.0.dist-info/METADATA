@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: tf-encrypted-primitives
+Version: 0.1.0
+Summary: A Framework for Machine Learning on Encrypted Data.
+Home-page: https://github.com/tf-encrypted/tf-encrypted
+Author: The TF Encrypted Authors
+Author-email: contact@tf-encrypted.io
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Security :: Cryptography
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.14.0)
+Requires-Dist: tensorflow (>=2.2.0)
+Requires-Dist: tf-big (>=0.2.1)
+
+UNKNOWN
+
+
