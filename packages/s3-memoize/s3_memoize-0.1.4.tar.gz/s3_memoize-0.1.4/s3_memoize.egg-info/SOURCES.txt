@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+README.rst
+requirements.txt
+setup.py
+test-requirements.txt
+s3_memoize/__init__.py
+s3_memoize/s3_memoize.py
+s3_memoize.egg-info/PKG-INFO
+s3_memoize.egg-info/SOURCES.txt
+s3_memoize.egg-info/dependency_links.txt
+s3_memoize.egg-info/requires.txt
+s3_memoize.egg-info/top_level.txt
