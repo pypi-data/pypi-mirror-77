@@ -1,0 +1,3 @@
+[console_scripts]
+simple-capture = simple_capture.__main__:main
+
