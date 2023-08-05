@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: aifeynman
+Version: 2.0.0
+Summary: AI Feynman: a Physics-Inspired Method for Symbolic Regression
+Home-page: https://github.com/SJ001/aifeynman
+Author: Silviu-Marian Udrescu
+Author-email: sudrescu@mit.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >3.6
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: seaborn
+Requires-Dist: sklearn
+Requires-Dist: sortedcontainers
+Requires-Dist: sympy (>=1.4)
+Requires-Dist: torch (>=1.4.0)
+Requires-Dist: torchvision
+
+UNKNOWN
+
+
