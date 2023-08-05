@@ -1,0 +1,16 @@
+babachi/BADEstimation.py,sha256=vgyQEDaPCF02dtoB7Ja3jCHmNmwKRpaTv-9IQknEMlI,31818
+babachi/__init__.py,sha256=FIG-1ugMF2n_TSQgZP2Jjgan22E7xBZz6GmezL5IDbQ,42
+babachi/helpers.py,sha256=V4fATQq9kz5cS9rCedwUxxW7VlkDXwuRhmdw5dBllkc,1813
+babachi/version.py,sha256=tP8c5-8yPCRUk61qFQy1AQFkbfy99N-tga3OUiJT1MA,21
+babachi/visualize_segmentation.py,sha256=UD4YpHhsmPWSqS0HUh_USIa-ATQTeJ_f-qmV5xBrnx8,6044
+babachi/tests/test.tsv,sha256=ogb8P94Pvmdcfs_RgMbgWUU42knttjfPuBi4a01TaHg,1076991
+package/BADEstimation.py,sha256=dA8RFS71twegR4lV0NIrjegkvC1pmeHbyAcIPkFFnPg,31973
+package/__init__.py,sha256=SvzWsP202oECke6RQEmC9hP5eeI9W11GnVKLnCdboe4,42
+package/helpers.py,sha256=V4fATQq9kz5cS9rCedwUxxW7VlkDXwuRhmdw5dBllkc,1813
+package/visualize_segmentation.py,sha256=gES2U6TIq5FaPjdqC05Yp20VDEW5WOiKa1GkV73IEuE,6040
+package/tests/test.tsv,sha256=ogb8P94Pvmdcfs_RgMbgWUU42knttjfPuBi4a01TaHg,1076991
+babachi-1.3.0.dist-info/METADATA,sha256=uyw0bPdpnFeg1I8ZuSo4xJaqaN-gepJsoNC5dmFqg4Q,1823
+babachi-1.3.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+babachi-1.3.0.dist-info/entry_points.txt,sha256=sAjF_kvMfP69N59XL8CVNcsfKaQah9ykjGOJsA8gJr0,70
+babachi-1.3.0.dist-info/top_level.txt,sha256=UCuPxWOr4R7_8Qi_81WGVD5x0u0D5DEfWH6xg5MlAjo,8
+babachi-1.3.0.dist-info/RECORD,,
