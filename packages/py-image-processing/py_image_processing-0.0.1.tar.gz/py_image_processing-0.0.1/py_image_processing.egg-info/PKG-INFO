@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: py-image-processing
+Version: 0.0.1
+Summary: Pacote para processamento de imagens
+Home-page: https://github.com/lucasbrowser/pack_processing_image_python
+Author: Lucas de Souza Oliveira
+Author-email: lucasdicasmt@gmail.com
+License: UNKNOWN
+Description: # py_image_processing
+        
+        Description.
+        The package py_image_processing is used to:
+            Processing:
+                - Histogram matching
+                - Structural similarity
+                - Resize Image
+            Utils:
+                - Read image
+                - Save image
+                - Plot image
+                - Plot result
+                - Plot histogram
+        
+        
+        ## Installation
+        
+        Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+        
+        ```bash
+        pip install py_image_processing
+        ```
+        
+        
+        ## Author
+        Lucas de Souza Oliveira
+        
+        ## License
+        [MIT](https://choosealicense.com/licenses/mit/)
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
