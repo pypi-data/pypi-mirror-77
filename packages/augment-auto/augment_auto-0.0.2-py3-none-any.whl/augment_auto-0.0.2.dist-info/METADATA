@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: augment-auto
+Version: 0.0.2
+Summary: Image augmentation library
+Home-page: https://github.com/keshavoct98/image-augmentation
+Author: keshav sharma
+Author-email: keshavoct98@gmail.com
+License: UNKNOWN
+Keywords: augment,augmentation,image,object,sampling
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python (>=4.1.1)
+Requires-Dist: numpy (>=1.19.0)
+
+An image augmentation library for object detection and image classification tasks.
+
+
