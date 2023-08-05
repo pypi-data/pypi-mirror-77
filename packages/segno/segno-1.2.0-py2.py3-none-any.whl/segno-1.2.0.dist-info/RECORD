@@ -1,0 +1,14 @@
+segno/__init__.py,sha256=KBdUKxjV2L6AMts8tTpisr1uRPMZIhMi2g-aVuqWfl0,45545
+segno/cli.py,sha256=_52f16r8ZFBAB0bNQLu6w8b5_s1UNR6vJqL8Ufey1QE,14989
+segno/consts.py,sha256=jhP4Fi1WHTjFbiqp958q7UXR-5cTF5uFbX27EUPrOZE,28727
+segno/encoder.py,sha256=f8l3NauU6TyRxmCpFvoZzqF_8oC4DWYDpcIrOYoZcec,66283
+segno/helpers.py,sha256=ljQ7xmb_bjW-IaOyOivA5xdXn4AcGzA2oOdMPsNDJTU,26889
+segno/utils.py,sha256=d51sQiwJxTNdWEeI2mg5WlHGEGChQvFi8U5jF9dD_48,8975
+segno/writers.py,sha256=kR6-o14XszBtxXrXr4yP3s-eafb-3LEvF3beZu1m_Cw,68721
+segno-1.2.0.data/data/share/man/man1/segno.1,sha256=8c53bxtt_Jn8L-3OnTijjbRXI3gBifhh_uPMQfHk-oU,9571
+segno-1.2.0.dist-info/LICENSE,sha256=ddhB1R6J5yosPDL5rCW6Cx2Qh81xaQUjnlKfy0CXYXk,1503
+segno-1.2.0.dist-info/METADATA,sha256=26GPS9huABZXQ12MHM_f2H2lBUufSyCJZ_d7xlP6ZF0,7201
+segno-1.2.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+segno-1.2.0.dist-info/entry_points.txt,sha256=x6ukE-knkpjGHj-WR4fIABHkLas_qR7KomM4MR6G83o,42
+segno-1.2.0.dist-info/top_level.txt,sha256=IGWNnN4AkWRjwVbFF-9oU_bm_NDRKLzGHGtN0I_kbws,6
+segno-1.2.0.dist-info/RECORD,,
