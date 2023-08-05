@@ -1,0 +1,16 @@
+AlgebraicNumber/AlgebraicNumber.py,sha256=EXrF3MRSD2gGeK3ubBKQU34lK95GFjyRwW0aHrMsVvQ,5742
+AlgebraicNumber/QMatrix.py,sha256=8JLHCzYpSZXTpimGJNjZ5LqJ4VQWBL5fHGtgj5BTn5k,12914
+AlgebraicNumber/QPolynomial.py,sha256=hiX8rmPw4lvZHk0tWVlH6M4JjAfJrdoMUeziVDYVeGQ,22086
+AlgebraicNumber/__init__.py,sha256=R-Y-KNfXiS8x3p7Vkzj8lRwqExm0AfZW4YQ5LgI_Ov8,1184
+AlgebraicNumber/inria_utils.py,sha256=LcpI1NRSx5KhS3iCfg7Fk1Sk6ogy9Stqy5agGzVmqY8,1114
+AlgebraicNumber/utils.py,sha256=JLAubmAnxwtcJNkbyKahDi5M9suZpnKW58FDPgmH2pM,2321
+tests/TestBase.py,sha256=0uo2roVQbiVu64G2-QDvlJmqGmhb-8zC_H-kURhBmE0,1382
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_inria.py,sha256=bjUmIBmGkbKCku7XI0wmyicSl5zHPNji1Ud4sCZBRrg,1920
+tests/test_ops.py,sha256=MR4BYbJEYd22Dui5dZZmjEflwvdg4iY3qjC15Dl-VNc,2690
+AlgebraicNumber-2.0.0.dist-info/AUTHORS.rst,sha256=kbgCsMK1voiGl8NMfodABeb_Hdr-aETH7EtqEBTZ-b0,155
+AlgebraicNumber-2.0.0.dist-info/LICENSE,sha256=I73GjGwF_NdPvZngmBobfY9lJVucUi7ipKrF5BzMMEI,1070
+AlgebraicNumber-2.0.0.dist-info/METADATA,sha256=J15heOEnTKLxSHDFNpM3L5NrAwrkdgCY-MSca9Jz3mA,3470
+AlgebraicNumber-2.0.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+AlgebraicNumber-2.0.0.dist-info/top_level.txt,sha256=fvwwwssF9YfyTs7lGJ1LC-BM9qlJoUmLwOHbXDG42hk,22
+AlgebraicNumber-2.0.0.dist-info/RECORD,,
