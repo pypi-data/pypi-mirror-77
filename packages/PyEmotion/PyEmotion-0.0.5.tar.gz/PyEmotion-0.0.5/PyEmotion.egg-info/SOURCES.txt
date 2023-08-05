@@ -1,0 +1,10 @@
+README.md
+setup.py
+PyEmotion/__init__.py
+PyEmotion/main.py
+PyEmotion/networks.py
+PyEmotion.egg-info/PKG-INFO
+PyEmotion.egg-info/SOURCES.txt
+PyEmotion.egg-info/dependency_links.txt
+PyEmotion.egg-info/requires.txt
+PyEmotion.egg-info/top_level.txt
