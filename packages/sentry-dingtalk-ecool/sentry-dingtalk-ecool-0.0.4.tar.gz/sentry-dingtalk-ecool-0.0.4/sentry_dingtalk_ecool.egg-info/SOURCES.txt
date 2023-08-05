@@ -1,0 +1,11 @@
+README.md
+setup.py
+sentry_dingtalk_ecool/__init__.py
+sentry_dingtalk_ecool/plugin.py
+sentry_dingtalk_ecool.egg-info/PKG-INFO
+sentry_dingtalk_ecool.egg-info/SOURCES.txt
+sentry_dingtalk_ecool.egg-info/dependency_links.txt
+sentry_dingtalk_ecool.egg-info/entry_points.txt
+sentry_dingtalk_ecool.egg-info/not-zip-safe
+sentry_dingtalk_ecool.egg-info/requires.txt
+sentry_dingtalk_ecool.egg-info/top_level.txt
