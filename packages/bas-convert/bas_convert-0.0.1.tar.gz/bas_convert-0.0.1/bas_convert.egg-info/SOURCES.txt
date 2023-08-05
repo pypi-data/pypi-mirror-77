@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+bas_convert/__init__.py
+bas_convert/__main__.py
+bas_convert/convert.py
+bas_convert.egg-info/PKG-INFO
+bas_convert.egg-info/SOURCES.txt
+bas_convert.egg-info/dependency_links.txt
+bas_convert.egg-info/entry_points.txt
+bas_convert.egg-info/requires.txt
+bas_convert.egg-info/top_level.txt
+bas_convert/data/lookups.json
