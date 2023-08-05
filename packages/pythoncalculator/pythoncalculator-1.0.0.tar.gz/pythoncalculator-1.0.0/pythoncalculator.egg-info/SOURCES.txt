@@ -1,0 +1,16 @@
+README.md
+setup.py
+pythoncalculator.egg-info/PKG-INFO
+pythoncalculator.egg-info/SOURCES.txt
+pythoncalculator.egg-info/dependency_links.txt
+pythoncalculator.egg-info/entry_points.txt
+pythoncalculator.egg-info/not-zip-safe
+pythoncalculator.egg-info/requires.txt
+pythoncalculator.egg-info/top_level.txt
+src/__init__.py
+src/cli.py
+src/infix_parser_test.py
+src/lexer.py
+src/lexer_test.py
+src/parser.py
+src/parser_test.py

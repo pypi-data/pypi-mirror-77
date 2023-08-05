@@ -1,0 +1,3 @@
+[console_scripts]
+calc = src.cli:main
+

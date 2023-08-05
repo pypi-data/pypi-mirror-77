@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pythoncalculator
+Version: 1.0.0
+Summary: Command line calculator using python
+Home-page: https://github.com/cestella/software_engineering_curriculum/tree/master/calculator
+Author: William Stella
+Author-email: william.a.stella@gmail.com
+License: APACHE
+Description: A simple command line utility calculator.
+Keywords: calculator python package williamstella
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
