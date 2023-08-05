@@ -1,0 +1,9 @@
+torch>=1.4
+torchvision>=0.5
+opencv-python>=4.1
+torchnet>=0.0.4
+
+[tests]
+pytest
+catalyst>=20.8.2
+black==19.3b0
