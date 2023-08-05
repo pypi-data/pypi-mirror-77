@@ -1,0 +1,3 @@
+[console_scripts]
+ion_networks = ion_networks.ion_networks:main
+
