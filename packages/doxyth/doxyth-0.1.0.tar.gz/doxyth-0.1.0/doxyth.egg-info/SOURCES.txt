@@ -1,0 +1,14 @@
+README.md
+setup.py
+doxyth/__init__.py
+doxyth/__main__.py
+doxyth/doxyth.py
+doxyth/gendoc.py
+doxyth/utils.py
+doxyth/verify.py
+doxyth/version.py
+doxyth.egg-info/PKG-INFO
+doxyth.egg-info/SOURCES.txt
+doxyth.egg-info/dependency_links.txt
+doxyth.egg-info/not-zip-safe
+doxyth.egg-info/top_level.txt
