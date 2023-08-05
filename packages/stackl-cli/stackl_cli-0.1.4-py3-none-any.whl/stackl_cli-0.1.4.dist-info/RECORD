@@ -1,0 +1,16 @@
+context.py,sha256=DtXcbl6Aay0vA1r4vnT9qfszraS29EF-lsWXIvPcdRk,1271
+stackl.py,sha256=QU7y9ovuMuEXCT7YtdUYuaFHSa9zRwYLL9wW9tB1rlQ,557
+commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+commands/apply.py,sha256=HY9GOUjr0iYKfceUBp60ZGK-kuM5er9aCiu5VI1x1AY,4573
+commands/connect.py,sha256=t4Inwx42pk5E77jkrcPr0dgeya_6CuQxG3MNd7QFsiQ,591
+commands/create.py,sha256=09Xp_baBrLYds4XIrhG7WSE7jp0jby0pkJp2vK19jNc,1782
+commands/delete.py,sha256=zuWRuMR-QFNdKHVAmLy3JQRoR1usZb8Xrm-WWoqYv3U,388
+commands/edit.py,sha256=uxSFhh2haUG8d3nFG_QzXREo9G0Uf5HnmwTQ69ZeMKw,2875
+commands/get.py,sha256=Qf4hQyR5CJ6fN0GeOTlGni2MBZNjkBIj57FTaq0FPxs,5864
+commands/info.py,sha256=00ef9nTO3M6DAPSOTIf2Ew2-iQJSO2BBwx8wKxZctE8,259
+commands/update.py,sha256=h5bhMbYKLsbuLewuuLVTs0yqyxRJf_aviYqWki6IgYE,813
+stackl_cli-0.1.4.dist-info/METADATA,sha256=Mv97NFW_LBQJdZwnNNVv0CpK4XWZNKTSfljuloHW2gw,373
+stackl_cli-0.1.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+stackl_cli-0.1.4.dist-info/entry_points.txt,sha256=LVfqgjMtSiEG0mtMKFcVHfXlfGnIxkq1JnOrEfEvHjA,57
+stackl_cli-0.1.4.dist-info/top_level.txt,sha256=vWQ8MuLx8XkDO97CBOyp6ZxM83ZUSFYF3iy0EZLw4lk,24
+stackl_cli-0.1.4.dist-info/RECORD,,
