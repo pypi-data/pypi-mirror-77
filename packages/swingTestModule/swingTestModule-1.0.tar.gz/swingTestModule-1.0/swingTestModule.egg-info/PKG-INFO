@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: swingTestModule
+Version: 1.0
+Summary: this is a test package for testing.
+Home-page: UNKNOWN
+Author: user
+Author-email: user@user.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

@@ -1,0 +1,6 @@
+README.md
+setup.py
+swingTestModule.egg-info/PKG-INFO
+swingTestModule.egg-info/SOURCES.txt
+swingTestModule.egg-info/dependency_links.txt
+swingTestModule.egg-info/top_level.txt
