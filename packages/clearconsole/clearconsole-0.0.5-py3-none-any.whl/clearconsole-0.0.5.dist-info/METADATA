@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: clearconsole
+Version: 0.0.5
+Summary: Can be used to clear the screen.
+Home-page: https://github.com/mathstar13/clear
+Author: greatusername
+Author-email: alexander.destefano@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.1
+Description-Content-Type: text/markdown
+
+Clear can be used to clear the screen in the python console.
+To use:
+First:
+```
+pip install clearconsole
+```
+Next:
+```python
+from clearconsole import clear
+import time
+print('Example')
+time.sleep(2)
+clear()
+```
+or:
+```python
+from clearconsole import cls
+import time
+print('Example')
+time.sleep(2)
+cls()
+```
+It does not matter what system you're on.
+
+
