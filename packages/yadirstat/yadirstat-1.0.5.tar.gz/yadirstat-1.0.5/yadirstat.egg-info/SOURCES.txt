@@ -1,0 +1,8 @@
+README.md
+setup.py
+yadirstat/__init__.py
+yadirstat/yadirstat.py
+yadirstat.egg-info/PKG-INFO
+yadirstat.egg-info/SOURCES.txt
+yadirstat.egg-info/dependency_links.txt
+yadirstat.egg-info/top_level.txt
