@@ -1,0 +1,12 @@
+numpy
+scooby
+pandas
+typing
+shapely
+matplotlib
+scikit-image
+xmltodict
+pyvista
+mplstereonet
+owslib
+requests
