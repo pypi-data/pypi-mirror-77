@@ -1,0 +1,53 @@
+spec214:
+  section_122: null
+  copy: false
+  required: true
+  units: null
+---
+DSETID:
+  description: "Unique ID of the dataset to which the frame belongs."
+  type: str
+FRAMEVOL:
+  description: "Size of the frame on disk."
+  type: float
+  units: MB
+AVALABLE:
+  description: "Availability status of the frame:
+                Available, Degraded, Lost, Removed"
+  type: str
+  values:
+    - Available
+    - Degraded
+    - Lost
+    - Removed
+PROCTYPE:
+  description: "Controlled value list representing the degree of processing the frame has undergone since receipt at the DKIST data center."
+  type: str
+RRUNID:
+  description: "Unique ID of the Recipe Run that produced the frame"
+  type: int
+RECIPEID:
+  description: "Foreign key reference to the recipe specification that created the dataset"
+  type: int
+RINSTID:
+  description: "Foreign key reference to the recipe instance that created the dataset"
+  type: int
+HISTORY:
+  description: "The processing provenance of the data, including code modules, libraries, and associated versions. Any number of HISTORY fields may appear in the header."
+  type: str
+  required: false
+AVG_INT:
+  description: "Average intensity value when instrument is in spectroscopic mode, or just for Stokes I when instrument is in polarimetric mode."
+  type: float
+  required: false
+  units: ADU
+RMS_INT:
+  description: "RMS of intensity value when instrument is in spectroscopic mode, or just for Stokes I when instrument is in polarimetric mode."
+  type: float
+  required: false
+  units: ADU
+NOISE:
+  description: "Noise value of a calibrated image frame normalized by exposure time when instrument is in spectroscopic mode."
+  type: float
+  required: false
+  units: ADU
