@@ -1,0 +1,4 @@
+
+        [buildbot.www]
+        tags_section_plugin = buildbot_tags_section_plugin:ep
+    

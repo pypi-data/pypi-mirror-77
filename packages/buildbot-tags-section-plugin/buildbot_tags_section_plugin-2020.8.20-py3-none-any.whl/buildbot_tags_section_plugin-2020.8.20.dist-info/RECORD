@@ -1,0 +1,11 @@
+buildbot_tags_section_plugin/VERSION,sha256=AvHY4WCtwKLnoB78ezY4c0TldF_frgba8NCt54WH2JY,9
+buildbot_tags_section_plugin/__init__.py,sha256=kkfqiw7DBRqZRlTJB11oe_EzdDetLSKIw7l1KdYdUE4,172
+buildbot_tags_section_plugin/static/scripts.js,sha256=p6tcFL86kyEP550X79c8jr5B0qmVAMQfo0cg6bR8hRo,2114
+buildbot_tags_section_plugin/static/scripts.js.map,sha256=QH8QyZ9FNdVjsVVFRKt1wbgkBXhuUgnG8p52EWS6T_4,8548
+buildbot_tags_section_plugin/static/styles.css,sha256=tGRKyZmy5VQHAKOZn0htsANGufXUhBw8WgaT1uF6JJg,39
+buildbot_tags_section_plugin/static/styles.css.map,sha256=cRNHMEqgooqmuMur1a7k1NR71cOw_lrEe_Lqi8FdzNo,107
+buildbot_tags_section_plugin-2020.8.20.dist-info/METADATA,sha256=MGKxFuA_um83go99T7iCX0YTjGCwWZsgFpGkMBP_7C4,1987
+buildbot_tags_section_plugin-2020.8.20.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+buildbot_tags_section_plugin-2020.8.20.dist-info/entry_points.txt,sha256=4iZ8Hbe15p1122z1O-Frsw_w-Vs6sdFlwhZCcMsKrdo,90
+buildbot_tags_section_plugin-2020.8.20.dist-info/top_level.txt,sha256=QG4o4fHQuHUCWN73RcZbIP-A76Kga7AFFKxCr2DA1lE,29
+buildbot_tags_section_plugin-2020.8.20.dist-info/RECORD,,
