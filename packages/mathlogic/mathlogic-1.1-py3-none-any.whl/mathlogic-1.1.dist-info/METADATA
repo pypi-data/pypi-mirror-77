@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: mathlogic
+Version: 1.1
+Summary: Python Utilities from MathLogic
+Home-page: https://github.com/vermanurag/mathlogic-mathlogic
+Author: Anurag Verma
+Author-email: anurag.verma@fnmathlogic.com
+License: All Rights Reserved
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: jinja2
+Requires-Dist: numpy
+Requires-Dist: mysql-python
+Requires-Dist: Ipython
+
+UNKNOWN
+
+
