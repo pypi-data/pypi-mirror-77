@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: kubeflow-utils
+Version: 0.0.1
+Summary: Kubeflow utils package helping to speed up building ML model.
+Home-page: https://github.com/GalaxyIT/kubeflow-utils
+Author: Chao Tzu-Hsien
+Author-email: danny900714@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Kubeflow Utils
+
+This is a simple Kubeflow utils package helping to speed up building ML model.
+
+Features included:
+- generate .docker/config.json for Kubeflow Fairing
+- generate .kaggle/kaggle.json for Kaggle API
+- download dataset through Kaggle API
+
+
