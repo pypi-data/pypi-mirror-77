@@ -1,0 +1,10 @@
+pycryptodomex
+lazy
+oauthlib
+bleach
+xblock-utils
+pyjwkest
+django
+lxml
+mako
+XBlock
