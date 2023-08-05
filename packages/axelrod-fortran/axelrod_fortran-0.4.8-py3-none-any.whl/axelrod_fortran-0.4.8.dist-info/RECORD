@@ -1,0 +1,9 @@
+axelrod_fortran/__init__.py,sha256=ROfvTA0hkUdRog_0073F4lYlBmMv65Zzl1LdUCIxCsc,163
+axelrod_fortran/player.py,sha256=AbYNykcowW_Em3UOSoJlZrctgVJxOTs8gx7tmpVd1Fc,5271
+axelrod_fortran/shared_library_manager.py,sha256=-JEYBvRYXnV26W13gvKV5HsdjaD1HYsnPWJuTb8fGrc,4642
+axelrod_fortran/strategies.py,sha256=vHHc474uesxeGe9TSeOsVnhJT7IzbNOCjOselun9enU,10911
+axelrod_fortran-0.4.8.dist-info/LICENSE,sha256=U0-FHGH3W7_WTXaNB7pC_53i1dCQPofG7OhRDuXMAU0,1168
+axelrod_fortran-0.4.8.dist-info/METADATA,sha256=vnFFpzaW5hPSb9m9Zno2P1Bw_5yR0zYyTTh81esMQM0,4037
+axelrod_fortran-0.4.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+axelrod_fortran-0.4.8.dist-info/top_level.txt,sha256=3VcFVPoZ2RoAQkG1IbJBYRnwR88-8myoaYxxGnBz4WE,16
+axelrod_fortran-0.4.8.dist-info/RECORD,,
