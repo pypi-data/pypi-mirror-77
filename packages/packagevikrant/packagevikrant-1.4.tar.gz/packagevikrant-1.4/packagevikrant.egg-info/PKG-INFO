@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: packagevikrant
+Version: 1.4
+Summary: This code is written by Vikrant Singh.
+Home-page: UNKNOWN
+Author: Vikrant Singh
+License: MIT
+Description: 
+        # Use
+        This package can be used for getting an output audio for the given text input.
+        
+        # Syntax
+        
+        import packagevikrant as pv
+        
+        pv.speak("Hello World")
+        
+        # Attributes
+        speak() -> Convert the input text into audio.
+        
+        add()   -> Addition of two Numbers.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
