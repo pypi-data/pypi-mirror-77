@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+libpythonpro1994/__init__.py
+libpythonpro1994/github_api.py
+libpythonpro1994.egg-info/PKG-INFO
+libpythonpro1994.egg-info/SOURCES.txt
+libpythonpro1994.egg-info/dependency_links.txt
+libpythonpro1994.egg-info/not-zip-safe
+libpythonpro1994.egg-info/requires.txt
+libpythonpro1994.egg-info/top_level.txt
