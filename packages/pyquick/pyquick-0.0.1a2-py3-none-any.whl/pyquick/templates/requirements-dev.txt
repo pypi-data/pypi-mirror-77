@@ -1,0 +1,11 @@
+-r requirements.txt
+
+pytest
+pytest-cov
+coverage
+rope
+twine
+setuptools
+wheel
+autopep8
+ptpython
