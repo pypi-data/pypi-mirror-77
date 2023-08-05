@@ -1,0 +1,5 @@
+qtpy
+
+[dev]
+black
+pre-commit
