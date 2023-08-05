@@ -1,0 +1,10 @@
+setup.py
+gb47-distributions/Binomialdistribution.py
+gb47-distributions/Gaussiandistribution.py
+gb47-distributions/Generaldistribution.py
+gb47-distributions/__init__.py
+gb47_distributions.egg-info/PKG-INFO
+gb47_distributions.egg-info/SOURCES.txt
+gb47_distributions.egg-info/dependency_links.txt
+gb47_distributions.egg-info/not-zip-safe
+gb47_distributions.egg-info/top_level.txt
