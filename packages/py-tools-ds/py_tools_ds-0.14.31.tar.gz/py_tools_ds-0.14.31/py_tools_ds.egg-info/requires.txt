@@ -1,0 +1,12 @@
+gdal>=2.1.0
+numpy
+shapely
+six
+pandas
+scikit-image
+geopandas
+pyproj
+spectral
+
+[rio_reproject]
+rasterio
