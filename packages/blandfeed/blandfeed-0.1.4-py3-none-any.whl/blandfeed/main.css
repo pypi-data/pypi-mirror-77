@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+body > div {
+  margin: 4mm;
+  width: 10cm;
+  max-width: calc(100% - 4mm);
+  box-sizing: border-box;
+}
+.message {
+  border: 1.5px solid #88aaff;
+  border-radius: 2mm;
+  padding: 2mm;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-bottom: 0;
+}
+.message.created {
+  transition: border-color 600s;
+  border-color: #aaaaaa;
+  animation: shake 0.32s both;
+}
+@keyframes shake {
+  0% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  30% {
+    transform: translate3d(4px, 0, 0);
+  }
+  60% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  90% {
+    transform: translate3d(4px, 0, 0);
+  }
+  99% {
+    transform: translate3d(0px, 0, 0);
+  }
+}
+.message div {
+  margin: 1mm;
+  margin-top: 0;
+}
+.message .date {
+  grid-column: 1;
+  color: #aaaaaa;
+  font-size: 0.9em;
+}
+.message .name {
+  grid-column: 2;
+  text-align: right;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.message .summary {
+  grid-column: 1 / span 2;
+  whitespace: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.9em;
+  color: #888888;
+  max-width: 100%;
+}
+.message .body {
+  grid-column: 1 / span 2;
+  word-break: break-word;
+}
