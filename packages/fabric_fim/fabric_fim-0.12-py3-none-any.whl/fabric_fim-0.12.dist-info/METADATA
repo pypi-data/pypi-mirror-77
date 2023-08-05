@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: fabric-fim
+Version: 0.12
+Summary: FABRIC Information Model Library
+Home-page: https://github.com/fabric-testbed/InformationModel
+Author: Ilya Baldin, Komal Thareja
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/plain
+Requires-Dist: astroid (==2.4.2)
+Requires-Dist: decorator (==4.4.2)
+Requires-Dist: isort (==4.3.21)
+Requires-Dist: lazy-object-proxy (==1.4.3)
+Requires-Dist: mccabe (==0.6.1)
+Requires-Dist: neo4j (==4.1.0)
+Requires-Dist: networkx (==2.4)
+Requires-Dist: pep8 (==1.7.1)
+Requires-Dist: pycodestyle (==2.6.0)
+Requires-Dist: pylint (==2.5.3)
+Requires-Dist: pytz (==2020.1)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: toml (==0.10.1)
+Requires-Dist: typed-ast (==1.4.1)
+Requires-Dist: wrapt (==1.12.1)
+
+FABRIC Information Model Library
+
+
