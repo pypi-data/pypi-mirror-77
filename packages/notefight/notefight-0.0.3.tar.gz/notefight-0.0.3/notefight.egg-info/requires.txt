@@ -1,0 +1,3 @@
+notetool
+notedata
+notedrive
