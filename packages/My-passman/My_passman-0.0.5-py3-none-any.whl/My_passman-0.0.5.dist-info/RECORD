@@ -1,0 +1,12 @@
+My_passman-0.0.5.data/scripts/Pass_man.py,sha256=wxiJ7LtiloBJhm5j1ziq0tcvhmd5qEIVo9uT4T1fm50,9594
+scripts/AES256.py,sha256=H9p1JCB-d-WOIMw_51z_H8BfypD_8ejQxK2TpG2HM7o,906
+scripts/Authhandler.py,sha256=B-O-hiisUrtXX-oL8aKO027oAGzH9PEjmy3VA3vi93Q,810
+scripts/Pass_man.py,sha256=wxiJ7LtiloBJhm5j1ziq0tcvhmd5qEIVo9uT4T1fm50,9594
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/hash.py,sha256=IiQcgBFmzwYufVDAKHoA8AOomYbCcgwuVXoyCeH3Qbo,329
+My_passman-0.0.5.dist-info/LICENCE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+My_passman-0.0.5.dist-info/METADATA,sha256=J5CIBxBKAEA1e-xVN4GBoA7VBG9_v-0wvqA5LDddBl0,702
+My_passman-0.0.5.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+My_passman-0.0.5.dist-info/entry_points.txt,sha256=F6stZQhATvQ5wGEBxDvNSybNHwna3ULPzY0oucdROmo,51
+My_passman-0.0.5.dist-info/top_level.txt,sha256=rmzd5mewlrJy4sT608KPib7sM7edoY75AeqJeY3SPB4,8
+My_passman-0.0.5.dist-info/RECORD,,

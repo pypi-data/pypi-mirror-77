@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: My-passman
+Version: 0.0.5
+Summary: command line password manager
+Home-page: https://github.com/SampathHN/Pypass
+Author: Sampath HN
+Author-email: sampathhn3333@gmail.com
+License: MIT
+Keywords: password manager
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: cmd2 (==1.3.3)
+Requires-Dist: tabulate (==0.8.7)
+Requires-Dist: pandas (==1.0.5)
+Requires-Dist: passlib (==1.7.2)
+Requires-Dist: pyfiglet (==0.8.post1)
+Requires-Dist: pycryptodome (==3.9.8)
+
+Pypass a simple cli password manager with encryption
+
+
