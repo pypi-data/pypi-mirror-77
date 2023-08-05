@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mothrpy
+Version: 0.1.0
+Summary: Client library for interacting with MOTHR
+Home-page: UNKNOWN
+Author: James Arnold
+Author-email: james@rs21.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: gql (==3.0.0a1)
+Requires-Dist: redis
+Provides-Extra: dev
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-mypy ; extra == 'dev'
+Provides-Extra: listener
+Requires-Dist: gevent ; extra == 'listener'
+
+UNKNOWN
+
+
