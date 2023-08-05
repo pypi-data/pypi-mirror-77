@@ -1,0 +1,11 @@
+hyperfoil/__init__.py,sha256=ZgIBwFQMmbLAvYyS-hxv5zdcL6VLaunNUAAn8i6bf-U,59
+hyperfoil/client.py,sha256=ZKGBn-bDuUTfpM-retTlkTS7DOe7Y_M-VhqGgkTpB_4,2476
+hyperfoil/clients.py,sha256=qT7ONlLUv09EphSIj1aQW7gVLpnTdWZOS4ZyAw7Xgx4,5189
+hyperfoil/defaults.py,sha256=szNqiVjsfQwPjSI9QW9cFX6by3F1u06vRAUoxc7oi0I,2903
+hyperfoil/errors.py,sha256=WeoKDVu2UxHVybfWgc07Tj8i7rJ5041tc_6OB4BIHHg,191
+hyperfoil/resources.py,sha256=BuyqLZUDzGrYHVB-N2yHU_rqnAygrQWElN8-BKfp9tQ,1801
+hyperfoil/utils.py,sha256=t3GtGVLXcGZSgGA0bCY5nJYLJLB4nT1IfhxXRp3oCzM,263
+hyperfoil_client-0.0.1.dist-info/METADATA,sha256=Zah1l6PKD01T6Evy-1TFLALVia3zG1EbNF19wWedrCc,1734
+hyperfoil_client-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+hyperfoil_client-0.0.1.dist-info/top_level.txt,sha256=uGEZv2-66cxIDD4vfmoJVstz9CnVSnSX46nKYMrWT3E,10
+hyperfoil_client-0.0.1.dist-info/RECORD,,
