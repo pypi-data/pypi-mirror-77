@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tf-pose
+Version: 0.4.0
+Summary: Deep Pose Estimation implemented using Tensorflow with Custom Architectures for fast inference.
+Home-page: https://github.com/ildoonet/tf-pose-estimation/
+Author: Ildoo Kim
+Author-email: ildoo@ildoo.net
+License: Apache License 2.0
+Description: This is a fork of the origninal https://github.com/ildoonet/tf-pose-estimation. Main change is restrict to tensorflow 1.X. There are some incompatibility issue with tensorflow 2+ we haven't sort out
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
