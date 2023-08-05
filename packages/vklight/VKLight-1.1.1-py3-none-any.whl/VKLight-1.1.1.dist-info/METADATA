@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: VKLight
+Version: 1.1.1
+Summary: Light wrapper for VK's API
+Home-page: https://github.com/keyzt/VKLight
+Author: Ivan
+Author-email: example@gmail.com
+License: MIT License
+Download-URL: https://github.com/keyzt/VKLight/archive/master.zip
+Keywords: vk.com vk api
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: requests
+
+UNKNOWN
+
+
