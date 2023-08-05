@@ -1,0 +1,11 @@
+quaternions/__init__.py,sha256=fX_7XHld4Ne7UbTHG_lHkFzNnoE5JNTNjjQCrZj5McU,147
+quaternions/quaternion.py,sha256=5y-HeJw67CwJkMoHz-BIItYlKqn85_z9MTcl3GhREfA,24425
+quaternions/rotation.py,sha256=J_5x1DUREEtjsVXa0sm-tYo_0cUU6J4IsRVcq5HIsaw,5404
+quaternions/types.py,sha256=Xihmk41sp1W1mzW__en538G_OTBzysDM9W03O9PaRJ8,500
+quaternions/utils.py,sha256=mAIwU8rstEL7QtHwaktifp_i5LHJ0N1yE4zvF_TfDAM,4529
+pyquatlib-1.0.0.dist-info/LICENSE,sha256=ysKQODQJk0VPCOWTWCjzCQL1v1vyCxsj_3rD-Qt67vE,1070
+pyquatlib-1.0.0.dist-info/METADATA,sha256=UiDkWRholE0bDakPjGvF59sgn_5molvw2WCR2K75FfM,3895
+pyquatlib-1.0.0.dist-info/WHEEL,sha256=YNlcxLoRZfMqjEfLMA4_N5GPCL0Yw1E8c7zrDjEU0Bk,92
+pyquatlib-1.0.0.dist-info/entry_points.txt,sha256=mDtq5fbYTdTDXA-CdbL8J4uUGDm5_js9Ys2qp_8k3q4,53
+pyquatlib-1.0.0.dist-info/top_level.txt,sha256=b5tC_046_9E8Jv6YBzCuAK-y0eBM-KXpAAwr5FgnPWs,12
+pyquatlib-1.0.0.dist-info/RECORD,,
