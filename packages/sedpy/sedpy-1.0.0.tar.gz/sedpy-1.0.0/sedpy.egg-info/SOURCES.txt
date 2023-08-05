@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+sedpy/__init__.py
+sedpy/__main__.py
+sedpy/sedpy.py
+sedpy.egg-info/PKG-INFO
+sedpy.egg-info/SOURCES.txt
+sedpy.egg-info/dependency_links.txt
+sedpy.egg-info/entry_points.txt
+sedpy.egg-info/top_level.txt
