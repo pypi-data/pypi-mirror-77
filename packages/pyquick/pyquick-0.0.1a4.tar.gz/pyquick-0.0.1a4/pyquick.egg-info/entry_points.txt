@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        pyquick = pyquick.main:main
+    
