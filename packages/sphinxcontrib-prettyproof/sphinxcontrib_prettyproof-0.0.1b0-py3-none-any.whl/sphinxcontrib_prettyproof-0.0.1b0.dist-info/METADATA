@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib-prettyproof
+Version: 0.0.1b0
+Summary: A Sphinx extension for producing proofs, theorems, lemmas, definitions, remarks, corollaries, conjectures and algorithms.
+Home-page: https://github.com/najuzilu/sphinxcontrib-prettyproof
+Author: QuantEcon
+Author-email: admin@quantecon.org
+License: BSD
+Download-URL: https://github.com/najuzilu/sphinxcontrib-prettyproof/archive/v0.0.1b.tar.gz
+Project-URL: Source, https://github.com/najuzilu/sphinxcontrib-prettyproof
+Project-URL: Tracker, https://github.com/najuzilu/sphinxcontrib-prettyproof/issues
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: docutils (>=0.15)
+Requires-Dist: sphinx
+Requires-Dist: sphinx-book-theme
+Provides-Extra: code_style
+Requires-Dist: flake8 (<3.8.0,>=3.7.0) ; extra == 'code_style'
+Requires-Dist: black ; extra == 'code_style'
+Requires-Dist: pre-commit (==1.17.0) ; extra == 'code_style'
+Provides-Extra: testing
+Requires-Dist: coverage ; extra == 'testing'
+Requires-Dist: pytest (<4,>=3.6) ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-regressions ; extra == 'testing'
+
+
+This package contains a [Sphinx](http://www.sphinx-doc.org/en/master/) extension
+for producing proof, theorem, lemma, definition, remark, conjecture, corollary and
+algorithm directives.
+
+This project is maintained and supported by [najuzilu](https://github.com/najuzilu).
+
+

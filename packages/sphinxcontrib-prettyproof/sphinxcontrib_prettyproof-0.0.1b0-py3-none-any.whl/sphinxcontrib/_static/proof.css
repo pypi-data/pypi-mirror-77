@@ -1,0 +1,160 @@
+/*********************************************
+* Variables *
+*********************************************/
+:root {
+  --note-title-color: rgba(68,138,255,.1);
+  --note-border-color: #007bff;
+  --warning-title-color: rgba(220,53,69,.1);
+  --warning-border-color: #dc3545;
+  --hint-title-color: rgba(255,193,7,.2);
+  --hint-border-color: #ffc107;
+  --caution-title-color: rgba(253,126,20,.1);
+  --caution-border-color: #fd7e14;
+  --grey-title-color: rgba(204,204,204,.2);
+  --grey-border-color: #ccc;
+}
+
+/*********************************************
+* Main body *
+*********************************************/
+div.proof {
+	padding-left: 0rem !important;
+	padding-right: 0rem !important;
+}
+
+div.proof-title, div#proof-content {
+	padding: .6rem .8rem;
+}
+
+div.proof-title {
+	font-weight: 900;
+}
+
+/*********************************************
+* Proof *
+*********************************************/
+div#proof{
+	padding: .6rem .8rem !important;
+	border-left: .2rem solid var(--warning-border-color);
+	background-color: var(--warning-title-color);
+}
+
+/*********************************************
+* Theorem *
+*********************************************/
+div.theorem {
+	border-left: .2rem solid var(--note-border-color);
+	background-color: var(--note-title-color);
+}
+
+div.theorem-title {
+	background-color: var(--note-title-color);
+}
+
+/*********************************************
+* Axiom *
+*********************************************/
+div.axiom {
+	border-left: .2rem solid var(--hint-border-color);
+	background-color: var(--hint-title-color);
+}
+
+div.axiom-title {
+	background-color: var(--hint-title-color);
+}
+
+/*********************************************
+* Criteria *
+*********************************************/
+div.criteria {
+	border-left: .2rem solid var(--caution-border-color);
+	background-color: var(--caution-title-color);
+}
+
+div.criteria-title {
+	background-color: var(--caution-title-color);
+}
+
+/*********************************************
+* Exercise *
+*********************************************/
+div.exercise {
+	border-left: .2rem solid var(--note-border-color);
+	background-color: var(--note-title-color);
+}
+
+div.exercise-title {
+	background-color: var(--note-title-color);
+}
+
+/*********************************************
+* Lemma *
+*********************************************/
+div.lemma {
+	border-left: .2rem solid var(--hint-border-color);
+	background-color: var(--hint-title-color);
+}
+
+div.lemma-title {
+	background-color: var(--hint-title-color);
+}
+
+/*********************************************
+* Definition *
+*********************************************/
+div.definition {
+	border-left: .2rem solid var(--note-border-color);
+	background-color: var(--note-title-color);
+}
+
+div.definition-title {
+	background-color: var(--note-title-color);
+}
+
+/*********************************************
+* Remark *
+*********************************************/
+div.remark {
+	border-left: .2rem solid var(--warning-border-color);
+	background-color: var(--warning-title-color);
+}
+
+div.remark-title {
+	background-color: var(--warning-title-color);
+}
+
+/*********************************************
+* Conjecture *
+*********************************************/
+div.conjecture {
+	border-left: .2rem solid var(--hint-border-color);
+	background-color: var(--hint-title-color);
+}
+
+div.conjecture-title {
+	background-color: var(--hint-title-color);
+}
+
+/*********************************************
+* Corollary *
+*********************************************/
+div.corollary {
+	border-left: .2rem solid var(--caution-border-color);
+	background-color: var(--caution-title-color);
+}
+
+div.corollary-title {
+	background-color: var(--caution-title-color);
+}
+
+/*********************************************
+* Algorithm *
+*********************************************/
+div.algorithm {
+	border-left: .2rem solid var(--grey-border-color);
+	background-color: var(--grey-title-color);
+}
+
+div.algorithm-title {
+	background-color: var(--grey-title-color);
+}
