@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: writeas-view-extractor
+Version: 1.0.1
+Summary: Extracts users posts from write.as
+Author: Mikko Uuksulainen
+Author-email: mikko.uuksulainen@uuksu.fi
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: writeasapi (>=0.1.9,<0.2.0)
