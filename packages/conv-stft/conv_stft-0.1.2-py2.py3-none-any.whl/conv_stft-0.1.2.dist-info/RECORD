@@ -1,0 +1,7 @@
+conv_stft/__init__.py,sha256=u8YKGvJE6Pn4Ug14nSBt5Io--XG3KNDeDzQlDS8RclA,27
+conv_stft/conv_stft.py,sha256=8ISEzv-9NGVl8raL_J3gBX_CByzqx4Q17mFOunaj3d4,7669
+conv_stft-0.1.2.dist-info/LICENSE,sha256=4uG7i3S8dh7NHJaUBEo2vBM3Qc9yBtv5XyqqT1sQblk,1088
+conv_stft-0.1.2.dist-info/METADATA,sha256=XKverVAdB5B_XtX8QTgne-qd4Me0t6_fvC4CwEDQejk,2408
+conv_stft-0.1.2.dist-info/WHEEL,sha256=gxPaqcqKPLUXaSAKwmfHO7_iAOlVvmp33DewnUluBB8,116
+conv_stft-0.1.2.dist-info/top_level.txt,sha256=_iojRymOpLV8dcr7JmZK7_D1P0QXTNVETZOFV59dWxs,10
+conv_stft-0.1.2.dist-info/RECORD,,
