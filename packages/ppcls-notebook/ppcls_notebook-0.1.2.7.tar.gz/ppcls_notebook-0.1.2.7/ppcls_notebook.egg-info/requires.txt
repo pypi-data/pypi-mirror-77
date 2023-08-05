@@ -1,0 +1,8 @@
+tqdm
+pillow
+opencv-python
+PyYAML
+ujson
+
+[:python_version >= "3.4"]
+visualdl>=2.0.0b
