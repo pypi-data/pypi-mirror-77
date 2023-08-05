@@ -1,0 +1,67 @@
+syntax = "proto3";
+
+package calixa.domain.salesforce;
+
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+
+
+import "id.proto";
+
+option java_package = "io.calixa.domain.salesforce";
+option java_multiple_files = true;
+option optimize_for = SPEED;
+
+message Account {
+    string account_id = 1;
+    string name = 2;
+    string parent_id = 3;
+    string master_record_id = 4;
+    string account_number = 5;
+    string domain = 6;
+    string salesforce_owner_id = 7;
+    string created_by_user_id = 8;
+    string billing_address_id = 9;
+    string shipping_address_id = 10;
+    string phone = 11;
+    string fax = 12;
+
+    google.protobuf.Timestamp external_created_at = 500;
+    google.protobuf.Timestamp external_updated_at = 501;
+
+    // Calixa concepts
+    string organization_id = 600;
+    string canonical_id = 601;
+    repeated calixa.domain.id.EntityAssociation associations = 602;
+    google.protobuf.Timestamp created_at = 603;
+    google.protobuf.Timestamp updated_at = 604;
+}
+
+message Contact {
+    string contact_id = 1;
+    string master_record_id = 2;
+    string account_id = 3;
+    string last_name = 4;
+    string first_name = 5;
+    string mailing_address_id = 6;
+    string alternate_address_id = 7;
+    string phone = 8;
+    string mobile_phone = 9;
+    string home_phone = 10;
+    string alternate_phone = 11;
+    string assistant_phone = 12;
+    string fax = 13;
+    string email = 14;
+    string salesforce_owner_id = 15;
+    string created_by_user_id = 16;
+
+    google.protobuf.Timestamp external_created_at = 500;
+    google.protobuf.Timestamp external_updated_at = 501;
+
+    // Calixa concepts
+    string organization_id = 600;
+    string canonical_id = 601;
+    repeated calixa.domain.id.EntityAssociation associations = 602;
+    google.protobuf.Timestamp created_at = 603;
+    google.protobuf.Timestamp updated_at = 604;
+}
