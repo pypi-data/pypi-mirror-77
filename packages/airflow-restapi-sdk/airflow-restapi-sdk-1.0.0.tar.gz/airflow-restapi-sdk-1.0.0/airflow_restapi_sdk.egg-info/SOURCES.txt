@@ -1,0 +1,13 @@
+README.md
+setup.py
+airflow_restapi_sdk/__init__.py
+airflow_restapi_sdk/exceptions.py
+airflow_restapi_sdk/http.py
+airflow_restapi_sdk.egg-info/PKG-INFO
+airflow_restapi_sdk.egg-info/SOURCES.txt
+airflow_restapi_sdk.egg-info/dependency_links.txt
+airflow_restapi_sdk.egg-info/requires.txt
+airflow_restapi_sdk.egg-info/top_level.txt
+airflow_restapi_sdk/client/__init__.py
+airflow_restapi_sdk/client/dag.py
+airflow_restapi_sdk/client/pool.py
