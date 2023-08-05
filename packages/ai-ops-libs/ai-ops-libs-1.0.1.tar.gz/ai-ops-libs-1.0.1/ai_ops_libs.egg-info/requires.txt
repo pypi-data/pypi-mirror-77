@@ -1,0 +1,15 @@
+azureml-sdk
+torch
+PyYAML
+torchvision
+azure-storage-blob
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+nltk
+Keras
+bert
+tensorflow-hub
+joblib
+azureml-dataprep[fuse,pandas]>=1.1.14
