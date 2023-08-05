@@ -1,0 +1,9 @@
+texstrip/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+texstrip/__main__.py,sha256=-Jp8k2QkWIojkcyJx05bF47b2zdFmOmxpep2Q6wJlf4,3669
+texstrip/strip_comments.py,sha256=P1yNtYeXilTTMqriM0P0riFaG97BjygID8PxEBm8Pk4,4647
+texstrip-0.1.0.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+texstrip-0.1.0.dist-info/METADATA,sha256=sOlptSwrMactPOBW4Q6hhTZQ3AmqLLeGkoXhFASYF9c,1590
+texstrip-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+texstrip-0.1.0.dist-info/entry_points.txt,sha256=ln_9dEKc38dHJjg848Ozz6Rj53XXMOT2Ov9_D-cEk6M,53
+texstrip-0.1.0.dist-info/top_level.txt,sha256=KGJu8DWB1tUrhAWz8Pk2kgV0sbKZpkxBenSQ4uGzl_8,9
+texstrip-0.1.0.dist-info/RECORD,,
