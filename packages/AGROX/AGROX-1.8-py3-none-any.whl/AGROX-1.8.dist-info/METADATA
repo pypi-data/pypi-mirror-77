@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: AGROX
+Version: 1.8
+Summary: A scriptable web enum tool.
+Home-page: https://github.com/ScRiPt1337/argox
+Author: script1337
+Author-email: anon42237@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: asyncio
+Requires-Dist: beautifulsoup4
+Requires-Dist: clint
+Requires-Dist: cprint
+Requires-Dist: datetime
+Requires-Dist: dnspython
+Requires-Dist: wad
+
+# agrox
+a web enum python module
+
+### fuzzing Example 
+```python
+from argox.argo import Argo
+
+argo = Argo("https://github.com/PUFF")
+data = argo.fuzzer()
+print(data)
+
+```
+
+### Dns Enum Example 
+```python
+from argox.argo import Argo
+
+argo = Argo(url)
+print(argo.DnsEnum())
+```
+
+### portscan Example 
+```python
+from argox.argo import Argo
+
+def scan(host):
+    argo = Argo(url)
+    return argo.scanport(host,debug=False)
+
+host = input("Enter host ip")
+print(scan(host))
+
+```
+
+
