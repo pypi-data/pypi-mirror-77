@@ -1,0 +1,3 @@
+kazoo==2.8.0
+robotframework
+robotframework-jsonvalidator
