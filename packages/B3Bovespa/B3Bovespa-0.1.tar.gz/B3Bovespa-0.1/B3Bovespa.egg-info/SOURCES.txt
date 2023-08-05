@@ -1,0 +1,12 @@
+README.md
+setup.py
+B3Bovespa.egg-info/PKG-INFO
+B3Bovespa.egg-info/SOURCES.txt
+B3Bovespa.egg-info/dependency_links.txt
+B3Bovespa.egg-info/requires.txt
+B3Bovespa.egg-info/top_level.txt
+b3bovespa/__init__.py
+b3bovespa/scrapper.py
+b3bovespa/utils/__init__.py
+b3bovespa/utils/constants.py
+b3bovespa/utils/utils.py
