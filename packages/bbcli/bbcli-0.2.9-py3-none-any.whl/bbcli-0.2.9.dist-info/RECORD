@@ -1,0 +1,9 @@
+bbcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bbcli/bbcapi.py,sha256=uO3trrboh-ajVSoLrXC3jAfNb1rsSfAI6ynLAORdAuU,3588
+bbcli/core.py,sha256=B1GwkkCv7EHHz3fvf3e8kqaaIwtCHqRKIpFzScafzwE,11102
+bbcli-0.2.9.dist-info/LICENSE,sha256=v36JSSzpjfsRObP2EhwIuQxFbbNk7drT1hFWsIyEAbM,1113
+bbcli-0.2.9.dist-info/METADATA,sha256=NxTZdfghMu-3sqifgJdX4pYxM2S9kPi1TkdexURBd-o,1524
+bbcli-0.2.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bbcli-0.2.9.dist-info/entry_points.txt,sha256=YTQD2sPvKBVNohHjX-3st9yVkLbT8CLKa4rO8GGUrrY,43
+bbcli-0.2.9.dist-info/top_level.txt,sha256=4SzjhBdo2wgtbJztz6loefEM1eYHb033dwqrMa2Err0,6
+bbcli-0.2.9.dist-info/RECORD,,
