@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: test_packaging
+Version: 0.1.4
+Summary: Test of packaging.
+Home-page: http://github.com/hector-mao-net/test_packaging
+Author: Hector Mao
+Author-email: hectormao1025@gmail.com
+License: MIT
+Description: Test of packaging math, etc.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Text Processing :: General
