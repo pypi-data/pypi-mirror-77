@@ -1,0 +1,220 @@
+
+************************
+RST Parser Specification
+************************
+
+The Nodes are universal, thus the same for each markup type.
+Each node has a list of node parts ordered as they appear in the rst source.
+The parts are also linked in slots corresponding to their node_name.
+
+	indent
+	name_start, name, name_end
+	id_start, id, id_end
+	head
+	attr
+	body_start, body, body_end
+
+
+Node Part Naming
+================
+
+BLOCK
+
+document:
+
+	{body}
+
+
+trans:
+
+	-------------- {name_start}
+
+
+sect:
+
+	-------------- {name_start, optional}
+	{name}
+	-------------- {name_end}
+
+
+text:
+
+	{body}
+
+
+block-quote:
+
+		{body}
+
+
+doctest:
+
+	>>> {body}
+
+
+Definition list:
+
+	def-list
+		def
+		{head}
+				{body}
+
+
+Lists:
+
+	bullet-list
+		 bullet
+			- {name_start} {body}
+
+	enum-list
+		enum
+			( {name_start, optional} {name} ) {name_end} {body}
+
+
+Line Block:
+
+	line-list
+		 line
+			| {name_start} {body}
+
+
+Field Block:
+
+	field-list
+		field
+			: {name} : {body}
+
+
+Option list:
+
+	option-list
+		option
+			- {name} ␣␣ {body}
+
+
+Explicit Block:
+
+	.. {name_start}
+
+		substdef
+			| {id} | {name} :: {name_end} {head}
+
+		footref
+			[ {id} ] {head}
+
+		citref
+			[ {id} ] {head}
+
+		target
+			_ {+ name_start} ` {id_start, optional} {id} ` {id_end, optional} : {name_end} {head, only}
+
+			anonymous target
+				__ {+ name_start} : {name_end, optional} {head, only}
+
+		dir
+			{name} :: {head}
+
+			default
+				:: {name_end} {head}
+
+		comment
+			{body, only}
+
+	field-list {attr}
+
+	{body}
+
+
+INLINE
+
+literal, strong, emphasis, int-target, hyperlink, foot, cit, standalone
+
+	`` {body} ``
+
+role
+	: {name} : ` {body} `
+	` {body} ` : {name} :
+
+	default
+		` {body} `
+
+
+subst
+
+	| {id} |
+
+
+INTERPRETED
+
+hyperlink/ role ref, doc, any, download, numref
+
+	` {head} < {id} > `
+	` {id} `
+
+role term
+
+	` {head} < {id} > `
+	` {head} `
+
+role abbr
+	` {head} ( {id} ) `
+	` {head} `
+
+
+Notes:
+------
+
+Block:
+An empty head/body will have a newline [it will not be added to the last markup].
+
+Inline:
+Markup at start or end of an text node will be preceded/followed by an empty text node.
+
+
+RST Specification Deviation:
+============================
+
+Naming
+------
+
+Paragraph: text. Block/inline are not differentiated.
+Literal Block: dir with name None (aka default directive). Indented/quoted are not differentiated.
+Interpreted Text: role with name None (aka default role)
+
+
+General
+-------
+
+Only ASCII "reference" names.
+No isolated/ adjacent rules for punctuation in "reference" names.
+
+
+Body
+----
+
+Unsupported: tables
+No Recognition: Def. list: term: classifier, bibliographic fields and RCS keywords, block-quote attributions
+
+Lists at block start only.
+Default directive requires a blank line between start and body.
+Default directive no multi line head.
+Options lists option name itself and aliases are not split.
+Options lists args limited allowed chars.
+
+Inline
+------
+
+No inline elements over two paragraphs.
+No other escape than backslash or spaces on both sides.
+Standalone link on a single line only.
+Standalone limited number of recognized protocols.
+Standalone no allowed-char checks, but mails without mailto must contain a dot after the at sign.
+
+
+Enviroment
+==========
+
+In general all code documentation related are unsupported like role mod or dir index.
+
+Content: include, toctree
+Numbers: section, figure, math, toctree, enum, ...
