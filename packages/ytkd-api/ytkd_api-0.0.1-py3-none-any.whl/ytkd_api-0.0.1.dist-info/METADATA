@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ytkd-api
+Version: 0.0.1
+Summary: A Python wrapper for YouTube Key word detection API. 
+Home-page: https://github.com/
+Author: Ali Haider
+Author-email: alinisarhaider@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# YTKD
+
+## Introduction
+A YouTube key word detection API that takes in video URL and key words and outputs each key word along with its time of occurrence in the video.
+
+## Instructions
+Instructions and working examples will be added soon.
+
