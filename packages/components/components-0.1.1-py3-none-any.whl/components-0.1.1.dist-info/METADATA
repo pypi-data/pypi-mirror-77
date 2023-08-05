@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: components
+Version: 0.1.1
+Summary: Python library to facilitate modular components that can be combined through dependency injection.
+Home-page: https://github.com/JoeyDP/Components
+Author: JoeyDP
+Author-email: joeydepauw@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Components
+Python library to facilitate modular components that can be combined through dependency injection. 
+
+
