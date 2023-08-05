@@ -1,0 +1,8 @@
+[console_scripts]
+moneytoring = moneytoring.commandline:report_budget
+moneytoring-help = moneytoring.commandline:help_cmd
+setup-csv = moneytoring.csv:setup_csv
+summary = moneytoring.commandline:summary
+summary-filter = moneytoring.commandline:filter_dest
+summary-year = moneytoring.commandline:yearly_summary
+
