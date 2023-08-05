@@ -1,0 +1,3 @@
+[console_scripts]
+mischief-managed = mischief_managed.__main__:main
+
