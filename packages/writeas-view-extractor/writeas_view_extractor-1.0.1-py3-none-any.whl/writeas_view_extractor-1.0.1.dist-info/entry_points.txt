@@ -1,0 +1,3 @@
+[console_scripts]
+writeas_view_extractor=writeas_view_extractor.main:main
+
