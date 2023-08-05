@@ -1,0 +1,16 @@
+mathlogic/__init__.py,sha256=PT9bSW5st3hv9R11McOJHFY9_AJeJKzUhVKUvHdlyAk,32
+mathlogic/credentials.py,sha256=MeQNMs3EFZdozGIp9ibPo2HZG3deGKNBNLuol8U2cvE,109
+mathlogic/csvutils.py,sha256=rY-d9Ovef7W4Lcb1jI1Zc8wBlTYziVl-wxnufGBbtmc,457
+mathlogic/evalfiles.py,sha256=g3WZWRH25N-iYUGhYeogBLdVcvmez2tsQUgxCnyeTW4,359
+mathlogic/evalutils.py,sha256=1m_6UDPVW10aUXr2aK_zxEPwWCqwxQ8Uf9Qza_Cqn9Q,1293
+mathlogic/imgutils.py,sha256=mQnBQLCXIF46ApMdZ3Rush3B26BWspZEiI6WPxJMEJQ,3406
+mathlogic/leaderboardutils.py,sha256=zTuVWBTWP9jR2ixBntqY6noNerTJVzfrcehulit3FZQ,13819
+mathlogic/videoutils.py,sha256=xP38IgG6vHFB57_PaI29M15BDL_OUMmh6sG-Q8RLQd0,1460
+mathlogic-1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+mathlogic-1.0.dist-info/METADATA,sha256=pY2OswbWW61-8pNOS60P7egJWepzoM2BSYsgDBJ5Nnc,384
+mathlogic-1.0.dist-info/RECORD,,
+mathlogic-1.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+mathlogic-1.0.dist-info/metadata.json,sha256=LXk5iIi1nq0vlqyCl7TgE8-gdjQ9nuBPSvK5hUk7oGE,548
+mathlogic-1.0.dist-info/top_level.txt,sha256=Yr1dIe11Jjg1_eShUnoZoM2wNcunjcIZovEzTEu-SR4,10
+mathlogicadmin/__init__.py,sha256=YxnLOXikN4VmOvXrEZu40LKAnJZeXK_nlwkbpFKJ8Fo,26
+mathlogicadmin/adminutils.py,sha256=Gft9a4h0rv5hf4jEtj6ysjGx2K9JRYM-_xOZQxIbHRQ,1355
