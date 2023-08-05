@@ -1,0 +1,9 @@
+camphr_allennlp/VERSION.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+camphr_allennlp/__init__.py,sha256=_AuLRNwboG0e_Lc-0W755F1l_Ifv1iLLP9_2UMTr-uU,124
+camphr_allennlp/allennlp_base.py,sha256=rWtkisT3DfmxrbOr_ZUUU8C_MpzW_O3Iao4dTCAhHrI,2897
+camphr_allennlp/elmo.py,sha256=fI1QYX8ngUMfQKqBZPZvjV9XycaMcUj5V0ErO4rrENU,3100
+camphr_allennlp/udify.py,sha256=pAdei1vcwm-Tc5fzu7SEyhcv86-8GnpfmAavN9CFf7U,3572
+camphr_allennlp-0.1.0.dist-info/entry_points.txt,sha256=WIJS9Rp5J-XYDi5MBVPkF45rQP1AfjmwXApjBxcUSGw,91
+camphr_allennlp-0.1.0.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+camphr_allennlp-0.1.0.dist-info/METADATA,sha256=YLQ_71JS9SxV2mdVezxlpO9fH6C6_uLtHd_prXlsT64,834
+camphr_allennlp-0.1.0.dist-info/RECORD,,
