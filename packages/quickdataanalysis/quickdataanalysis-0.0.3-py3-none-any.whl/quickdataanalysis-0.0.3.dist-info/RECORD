@@ -1,0 +1,9 @@
+quickdataanalysis/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+quickdataanalysis/data_analysis.py,sha256=uV38bcvN2caWGk7hUcW-P6Ip5vO4Nr1yA63db1tg1uw,1344
+quickdataanalysis/exception/__init__.py,sha256=pmMwHOIBlaWsJ1rnrDpoDO0F_VpUQFOiHLFWFHo5U_A,86
+quickdataanalysis/exception/quickdataanalysis_exception.py,sha256=sk48m3Li-APTK1wC25Aks7o4aO3ND0pg3z6UKPb1OvM,351
+quickdataanalysis-0.0.3.dist-info/LICENSE,sha256=OLT5OmGswbRjqnHXl0fgiRmPHhgFlqR5VXPjAo6hTs0,1073
+quickdataanalysis-0.0.3.dist-info/METADATA,sha256=2S5o4s6D0-gMT6SuIrUlAd01DzkEuNGroZQgaY6Slns,2051
+quickdataanalysis-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+quickdataanalysis-0.0.3.dist-info/top_level.txt,sha256=GAPSoulg9WoZ1k48ic2JrrJt1wv0xKJiiE0MeS_nzb4,18
+quickdataanalysis-0.0.3.dist-info/RECORD,,
