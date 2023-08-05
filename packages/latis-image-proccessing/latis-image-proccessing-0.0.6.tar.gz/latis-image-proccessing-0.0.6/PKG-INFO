@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: latis-image-proccessing
+Version: 0.0.6
+Summary: latis image proccessing utilities for python
+Home-page: http://www.latis-eniso.org/
+Author: Mohamed Amine
+Author-email: hiddentn@outlook.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: ==3.7
