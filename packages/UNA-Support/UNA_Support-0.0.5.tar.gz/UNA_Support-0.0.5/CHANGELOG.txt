@@ -1,0 +1,6 @@
+Change Log
+==========
+
+0.0.5 (18/08/2020)
+-------------------
+- Sa adaugat in modulul Utility functia "dll_import"
