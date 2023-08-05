@@ -1,0 +1,2 @@
+easy_binary_file>=1.0.4
+quick_queue>=1.0.5
