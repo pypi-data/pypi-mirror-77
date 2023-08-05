@@ -1,0 +1,10 @@
+mvs_ctcdecoder/__init__.py,sha256=zMYSzLkW_M3ay0hFd7WMaESjdlzJEKux3ARNfq0b_GY,7246
+mvs_ctcdecoder/_swigwrapper.cpython-36m-x86_64-linux-gnu.so,sha256=bdyeeqTC2Xn-C_cL4xwf3nB9JSPxzZWrUWMGND-UNxw,7212304
+mvs_ctcdecoder/swigwrapper.py,sha256=OLLnvY5oyT_8NS6rol8JxcSi2JWxHvenDJtnR0UxiN0,24579
+mvs_ctcdecoder-0.9.0a7.dist-info/COPYING,sha256=isrDXFkSVDyKtDpTuGa7KqZJr2ZTQyEd9NwOn9v0RlU,402
+mvs_ctcdecoder-0.9.0a7.dist-info/LICENSE.paddlepaddle,sha256=4gg7gGIkh71vzcj8eB3Df3_2My1qgq8dpmBkpU4NwaU,11380
+mvs_ctcdecoder-0.9.0a7.dist-info/LICENSE.parlance,sha256=C3BUrZ9M16KR9EBQ0haxRrXji9Y6HgmJwInKemkPxLw,1112
+mvs_ctcdecoder-0.9.0a7.dist-info/METADATA,sha256=E7_YKx3yUdhc-QTL4ZF4fmFspRvEEykA1p0DbNAAlUo,208
+mvs_ctcdecoder-0.9.0a7.dist-info/WHEEL,sha256=AKoo51LvHJJJz3_DqlQwz4MB2e4xQub2c35_Bx40pVs,109
+mvs_ctcdecoder-0.9.0a7.dist-info/top_level.txt,sha256=_kxGlo4tDPl-VIbp4JwDeUAPvUdUwtDTnfomOspP0Yc,15
+mvs_ctcdecoder-0.9.0a7.dist-info/RECORD,,
