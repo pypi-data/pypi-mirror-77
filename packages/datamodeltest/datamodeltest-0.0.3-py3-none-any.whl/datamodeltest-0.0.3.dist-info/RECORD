@@ -1,0 +1,10 @@
+tests_pkg/__init__.py,sha256=_OXcqn6lqDi28aKmKLgt8SGPeN7GL1mk-2GIsN6hUQw,17
+tests_pkg/chck_log.py,sha256=YHDAUz5cOy5JecjQbb6hFXKcKUsqa6ZWXY9Mxl4_0Vs,1245
+tests_pkg/cli.py,sha256=UIZLvK2Rm4BEhFrvegDONS74Ni1siIHzLiAifToKwCM,706
+tests_pkg/models.py,sha256=gQra1bo9QGP56-MwZGao7QlOhPq1Gl3Uo0tItharpH0,87
+datamodeltest-0.0.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+datamodeltest-0.0.3.dist-info/METADATA,sha256=YorCe7g42H68o2T4yfMT_gTvQwzYzkDdOP7LGvxOimQ,348
+datamodeltest-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+datamodeltest-0.0.3.dist-info/entry_points.txt,sha256=xz07331Lc3xwujQwl2eNSSL3iP1XbeOoqa76GfX5XRI,59
+datamodeltest-0.0.3.dist-info/top_level.txt,sha256=qvhft9LxKnODnUwcbHCpNDGEmNnA_jelTNxnjEeI3U8,10
+datamodeltest-0.0.3.dist-info/RECORD,,
