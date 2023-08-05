@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ui_map_parser/__init__.py
+ui_map_parser/ui_map_parser.py
+ui_map_parser.egg-info/PKG-INFO
+ui_map_parser.egg-info/SOURCES.txt
+ui_map_parser.egg-info/dependency_links.txt
+ui_map_parser.egg-info/not-zip-safe
+ui_map_parser.egg-info/top_level.txt
+ui_map_parser/__pycache__/__init__.cpython-37.pyc
+ui_map_parser/__pycache__/ui_map_parser.cpython-37.pyc
