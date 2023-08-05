@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pomodorobot
+Version: 1.0.0
+Summary: This is a very simple CLI pomodoro timer for focusing
+Home-page: https://github.com/brynphillips/pomodorobot
+Author: Bryn Phillips
+Author-email: brynphillips1@gmail.com
+License: MIT
+Description: This is a really simple pomodoro app for personal use.
+        
+        It's a super simple design to help me focus while I learn
+        to code!
+        
+        If you want to use it as well just know that right now it's linux only!
+        
+        
+        After pip installing `pomodorobot-cli` to start.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown

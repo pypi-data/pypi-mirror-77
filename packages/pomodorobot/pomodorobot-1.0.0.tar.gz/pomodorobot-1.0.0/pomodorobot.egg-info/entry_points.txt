@@ -1,0 +1,3 @@
+[console_scripts]
+pomodorobot-cli = pomodoro.pomodoro:main
+
