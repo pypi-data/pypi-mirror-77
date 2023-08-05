@@ -1,0 +1,12 @@
+debug_toolbar_line_profiler/__init__.py,sha256=nYe6Zg3H82cI5ATcuolV8E53OTs8OUUw594_C80pGpg,137
+debug_toolbar_line_profiler/panel.py,sha256=FHVF1sq6kGZNFFqJG3-1dOkxbUbQsnC_GSuwygSNaSs,9972
+debug_toolbar_line_profiler/signals.py,sha256=g_5hkZRrsGf4uYRuzgpUEloSZXGEvRmom5AqRMHv-Po,134
+debug_toolbar_line_profiler/templates/debug_toolbar_line_profiler/panels/profiling.html,sha256=SR7D3Dn0JAYSTeVPUDfI_LYx8Lms488zJ67dmQ2yl-g,1567
+debug_toolbar_line_profiling/__init__.py,sha256=nYe6Zg3H82cI5ATcuolV8E53OTs8OUUw594_C80pGpg,137
+debug_toolbar_line_profiling/panel.py,sha256=rcqWUjHWbqI8-D9Lnn27PbT6UFordbP8RalDk9Fe-Eg,10006
+debug_toolbar_line_profiling/signals.py,sha256=g_5hkZRrsGf4uYRuzgpUEloSZXGEvRmom5AqRMHv-Po,134
+django_debug_toolbar_line_profiling-0.7.1.dist-info/LICENSE,sha256=w820EmcjKSPw0JOkZFL2w_rrg_7s_WtpxkHRIGU6Znk,1541
+django_debug_toolbar_line_profiling-0.7.1.dist-info/METADATA,sha256=XBl1XXBuEChbivNUoC9IN7KrgjhtxSjDDY0SDuIzCHY,4205
+django_debug_toolbar_line_profiling-0.7.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_debug_toolbar_line_profiling-0.7.1.dist-info/top_level.txt,sha256=wyQs8OMO0V5ayY3H5-l9B--fdkJLVUfDndPK4vHLbOI,28
+django_debug_toolbar_line_profiling-0.7.1.dist-info/RECORD,,
