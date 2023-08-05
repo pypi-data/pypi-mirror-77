@@ -1,0 +1,10 @@
+LICENSE
+PKG-INFO
+README.md
+setup.cfg
+setup.py
+newts/__init__.py
+newts.egg-info/PKG-INFO
+newts.egg-info/SOURCES.txt
+newts.egg-info/dependency_links.txt
+newts.egg-info/top_level.txt
