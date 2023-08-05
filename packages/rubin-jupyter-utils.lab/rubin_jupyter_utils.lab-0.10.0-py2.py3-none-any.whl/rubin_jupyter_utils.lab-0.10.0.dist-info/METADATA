@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: rubin-jupyter-utils.lab
+Version: 0.10.0
+Summary: UNKNOWN
+Home-page: https://github.com/sqre-lsst/rubin-jupyter-lab
+Author: Adam Thornton
+Author-email: athornton@lsst.org
+License: MIT
+Keywords: lsst
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: bokeh (<3,>=2)
+Requires-Dist: kubernetes (<12,>=11)
+Requires-Dist: maproxy (<1,>=0.0.12)
+Requires-Dist: pyvo (<2,>=1)
+Requires-Dist: nbreport (<1.0,>=0.7)
+Requires-Dist: requests (<3.0,>=2.22)
+Requires-Dist: jupyterhub (<2,>=1)
+Requires-Dist: jupyterlab (<3.0,>=2.2)
+Requires-Dist: semver (<3,>=2)
+Requires-Dist: rubin-jupyter-utils.helpers (<1.0,>=0.30.1)
+Requires-Dist: rubin-jupyter-utils.config (<1.0,>=0.30.1)
+
+# Utilities for Rubin Science Platform notebook aspect (user pod side)
+
+
