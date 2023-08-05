@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: textcli
+Version: 0.1.2
+Summary: Textvn quick save text CLI
+Home-page: https://github.com/lesongvi/textcli
+Author: Le Song Vi
+Author-email: lesongvi@gmail.com
+License: GPLv3+
+Description: Textvn quick save text CLI, save your text quickly
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
