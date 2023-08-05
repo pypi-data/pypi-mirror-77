@@ -1,0 +1,8 @@
+README.md
+setup.py
+pydoclite/__init__.py
+pydoclite/doclite.py
+pydoclite.egg-info/PKG-INFO
+pydoclite.egg-info/SOURCES.txt
+pydoclite.egg-info/dependency_links.txt
+pydoclite.egg-info/top_level.txt
