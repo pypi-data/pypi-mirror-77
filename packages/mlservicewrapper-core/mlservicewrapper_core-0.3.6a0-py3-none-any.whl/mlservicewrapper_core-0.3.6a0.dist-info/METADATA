@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mlservicewrapper-core
+Version: 0.3.6a0
+Summary: Configure a Python service for repeated execution
+Home-page: UNKNOWN
+Author: Matthew Haugen
+Author-email: mhaugen@haugenapplications.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas
+
+UNKNOWN
+
+
