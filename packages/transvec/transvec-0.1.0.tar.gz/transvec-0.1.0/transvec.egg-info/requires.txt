@@ -1,0 +1,7 @@
+nltk>=3.5
+numpy
+scikit-learn
+
+[dev]
+
+[test]
