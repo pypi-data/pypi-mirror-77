@@ -1,0 +1,8 @@
+piquipe/__init__.py,sha256=nO9bf7lGjY-OKJkk1XYwoLtJr1wVMsnC-48GsGb6FmE,1234
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_pipe.py,sha256=_bSC3esnQw3wemyBceneMeYeMDPAZ7a4_xU8JeFMVsM,731
+piquipe-0.0.0.dist-info/LICENSE,sha256=SdXW0fBXOktONgy6f-W8OyUSuUPQDGPWy2lojG3Elac,1514
+piquipe-0.0.0.dist-info/METADATA,sha256=P6pQQ4eDdArQzVdZNOI2rxwgZpoXWZhRMxGsAzc4y-U,453
+piquipe-0.0.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+piquipe-0.0.0.dist-info/top_level.txt,sha256=TQJ5AxEtiSm1y1AMJ9uhYvvAnTIX9ubnb2k59PUz20k,14
+piquipe-0.0.0.dist-info/RECORD,,
