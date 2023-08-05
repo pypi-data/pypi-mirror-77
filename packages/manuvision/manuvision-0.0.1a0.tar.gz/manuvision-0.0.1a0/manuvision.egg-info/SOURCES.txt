@@ -1,0 +1,7 @@
+README.md
+setup.py
+manuvision/__init__.py
+manuvision.egg-info/PKG-INFO
+manuvision.egg-info/SOURCES.txt
+manuvision.egg-info/dependency_links.txt
+manuvision.egg-info/top_level.txt
