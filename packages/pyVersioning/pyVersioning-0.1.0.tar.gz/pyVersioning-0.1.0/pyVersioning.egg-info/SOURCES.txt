@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyVersioning/__init__.py
+pyVersioning.egg-info/PKG-INFO
+pyVersioning.egg-info/SOURCES.txt
+pyVersioning.egg-info/dependency_links.txt
+pyVersioning.egg-info/requires.txt
+pyVersioning.egg-info/top_level.txt
