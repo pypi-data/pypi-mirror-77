@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: bigflow
+Version: 1.0.dev2
+Summary: BigQuery client wrapper with clean API
+Home-page: https://github.com/allegro/bigflow
+Author: Chi
+Author-email: chibox-team@allegrogroup.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools (==45.2.0)
+Requires-Dist: dill (==0.3.0)
+Requires-Dist: pandas (==0.25.3)
+Requires-Dist: mock (==2.0.0)
+Requires-Dist: pydata-google-auth (==0.2.1)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: pyconfighelper (>=0.0.7)
+Requires-Dist: google-cloud-core (==1.2)
+Requires-Dist: google-cloud-bigtable (==1.2.1)
+Requires-Dist: google-cloud-bigquery (==1.24.0)
+Requires-Dist: google-cloud-spanner (==1.14.0)
+Requires-Dist: google-cloud-storage (==1.26.0)
+Requires-Dist: google-cloud-logging (==1.14.0)
+Requires-Dist: google-auth (==1.20.1)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: responses (==0.10.15)
+Requires-Dist: better-setuptools-git-version (==1.0.5)
+Requires-Dist: unittest-xml-reporting (==3.0.2)
+Provides-Extra: stackdriver
+Requires-Dist: google-api-python-client (==1.7.11) ; extra == 'stackdriver'
+
+# BigFlow
+
+## Documentation
+
+1. [What is BigFlow?](#what-is-bigflow)
+1. [Getting started](#getting-started)
+1. [Help me](#help-me)
+1. [CLI](./docs/cli.md)
+    1. run
+    1. build
+    1. deploy
+    1. start-project
+1. [Configuration](./docs/configuration.md)
+1. Build
+1. Deployment
+    1. Cloud Composer
+    1. Kubernetes
+    1. Vault
+1. [Workflow & Job](./docs/workflow-and-job.md)
+1. Starter
+1. Utils
+    1. BigQuery
+    1. Apache Beam
+    1. Dataproc
+    1. Job monitoring
+1. Roadmap
+
+## What is BigFlow?
+TODO
+
+## Getting started
+TODO
+
+## Help me
+TODO
+
