@@ -1,0 +1,8 @@
+wqrfproxy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wqrfproxy/mitm_catch.py,sha256=6_UPyXQ279Xr3287_Zhvi_f-xHFeaZ2owCQ9_uMEVyA,459
+wqrfproxy/test.py,sha256=aTuOipnqikdYXBiJyiNw-X4Ql3h50YaA-4BscVeq674,660
+wqrfproxy/wqrfproxy.py,sha256=5s_X9A0AadTjBmQghyqlX4-_p0buSdLqiEtmvJvyk1Q,4823
+wqrfproxy-0.6.dist-info/METADATA,sha256=NJxrUTJmBqyz31aujqduC8wvj6c8-zd-JYbFvdS-UlE,292
+wqrfproxy-0.6.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+wqrfproxy-0.6.dist-info/top_level.txt,sha256=nMBZoszh7DX6cWaALmMQNq8raT7FiDSGOt5_0hXCkGw,10
+wqrfproxy-0.6.dist-info/RECORD,,
