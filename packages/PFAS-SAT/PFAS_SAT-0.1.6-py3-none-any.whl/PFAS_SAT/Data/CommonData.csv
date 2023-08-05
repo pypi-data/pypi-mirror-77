@@ -1,0 +1,10 @@
+Category,Dictonary_Name,Parameter,Name,amount,unit,uncertainty_type,loc,scale,shape,minimum,maximum,Reference,Comment
+Log partition coefficient,LogPartCoef,PFAS,Log partition coefficient,2.11,log L/gm OC,,,,,,,,
+Log partition coefficient,LogPartCoef,PFOA,Log partition coefficient,2.11,log L/gm OC,,,,,,,,
+Log partition coefficient,LogPartCoef,PFNA,Log partition coefficient,2.5,log L/gm OC,,,,,,,,
+Log partition coefficient,LogPartCoef,PFDA,Log partition coefficient,2.92,log L/gm OC,,,,,,,,
+Log partition coefficient,LogPartCoef,PFUnA,Log partition coefficient,3.47,log L/gm OC,,,,,,,,
+Log partition coefficient,LogPartCoef,PFOS,Log partition coefficient,2.68,log L/gm OC,,,,,,,,
+Log partition coefficient,LogPartCoef,PFDS,Log partition coefficient,3.66,log L/gm OC,,,,,,,,
+Log partition coefficient,LogPartCoef,N_MeFOSAA,Log partition coefficient,3.35,log L/gm OC,,,,,,,,
+Log partition coefficient,LogPartCoef,N_EtFOSAA,Log partition coefficient,3.49,log L/gm OC,,,,,,,,
