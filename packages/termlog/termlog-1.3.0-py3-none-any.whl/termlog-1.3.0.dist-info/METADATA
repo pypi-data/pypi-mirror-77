@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: termlog
+Version: 1.3.0
+Summary: A Terminal logging library
+License: MIT
+Author: Brian Bruggeman
+Author-email: Brian.M.Bruggeman@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pygments (>=2.6.1,<3.0.0)
