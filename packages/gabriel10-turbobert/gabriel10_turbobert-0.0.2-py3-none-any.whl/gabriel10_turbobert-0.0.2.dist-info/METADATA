@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gabriel10-turbobert
+Version: 0.0.2
+Summary: Very Simple PDF TypeWriter
+Home-page: https://github.com/turbobert/gabriel10
+Author: Robert Degen
+Author-email: os@turbobert.de
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: reportlab
+Requires-Dist: tabulate
+
+# Gabriel10
+
+A very simple and stupid PDF generator.
+
+  * only 1 font and 1 fontsize
+  * a typewriter
+  * pages
+  * no floating/wrapping - explicit positioning
+  * images
+  * page numbers
+
+See `gabriel10/examples`.
+
+
