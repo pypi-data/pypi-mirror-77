@@ -1,0 +1,8 @@
+README.md
+setup.py
+srvmsdk/__init__.py
+srvmsdk.egg-info/PKG-INFO
+srvmsdk.egg-info/SOURCES.txt
+srvmsdk.egg-info/dependency_links.txt
+srvmsdk.egg-info/top_level.txt
+srvmsdk/common/__init__.py
