@@ -1,0 +1,3 @@
+[console_scripts]
+grains = run:start
+
