@@ -1,0 +1,12 @@
+LICENSE,sha256=44sxaZ4llr4AS_6pk6fzxz5LqZ9S8vaJlbsVXEJKLNw,1064
+dataray/__init__.py,sha256=BjxwnaJ5-xDG4rk6oa_y6kr8qRy9Qul2C-agmxCuNE4,99
+dataray/_version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+dataray/dataray.py,sha256=aqXYLbwvFQB_BxCtcwPQ94uPJgmoGP9R5QCPz_q4-ac,337
+dataray/helper/__init__.py,sha256=lbj2snagpuVmzISxIzdcd4dA4Fzegr15nD0PszESBSE,57
+dataray/helper/helper_func.py,sha256=UdEMyEj1eBaTQ76UrAREiOFluf6SuPEFr8qZO9RKr_k,1105
+dataray/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataray/tests/test_helper_func.py,sha256=rJC0VjuYx_RewWPAdkXhRUFTtw3KOlmdruWqvPenDtg,985
+dataray-0.1.1.dist-info/LICENSE,sha256=44sxaZ4llr4AS_6pk6fzxz5LqZ9S8vaJlbsVXEJKLNw,1064
+dataray-0.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+dataray-0.1.1.dist-info/METADATA,sha256=KvlAS_aqgQJvxInUN0mPtAsbVoFvRON-wEeTjoNyvSw,1469
+dataray-0.1.1.dist-info/RECORD,,
