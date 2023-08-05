@@ -1,0 +1,68 @@
+Metadata-Version: 1.2
+Name: sourcy
+Version: 0.2.0
+Summary: A library for Natural Language Processing style preprocessing for source code in different languages
+Home-page: https://github.com/SasCezar/sourcy
+Author: Cezar Sas
+Author-email: cezar.sas@gmail.com
+License: GNU General Public License v3
+Description: ======
+        sourCy
+        ======
+        
+        
+        .. image:: https://img.shields.io/pypi/v/sourcy.svg
+                :target: https://pypi.python.org/pypi/sourcy
+        
+        .. image:: https://img.shields.io/travis/SasCezar/sourcy.svg
+                :target: https://travis-ci.com/SasCezar/sourcy
+        
+        .. image:: https://readthedocs.org/projects/sourcy/badge/?version=latest
+                :target: https://sourcy.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        A library for NLP like preprocessing for source code in different programming languages.
+        The architecture follows the one of `spaCy`_.
+        
+        
+        * Free software: GNU General Public License v3
+        * Documentation: https://sourcy.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * **Grammar based parsing**
+        * **Multilanguage Support**
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        .. _`spaCy`: https://github.com/explosion/spaCy
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2020-08-11)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: sourcy
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
