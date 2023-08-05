@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: dailypy
+Version: 0.0.1
+Summary: A useful library used everyday
+Home-page: UNKNOWN
+Author: Jack Huang
+Author-email: jackhuang.wz@gmail.com
+License: MIT
+Description: # dailypy
+        
+        Useful Python Functions used almost everyday.
+        
+        
+        
+        
+        Change Log
+        ============
+        0.0.1 (19/08/2020)
+        ------------------
+        - First Release
+        
+        
+Keywords: Tools
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
