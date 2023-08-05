@@ -1,0 +1,14 @@
+README.rst
+setup.py
+PennyLane_AQT.egg-info/PKG-INFO
+PennyLane_AQT.egg-info/SOURCES.txt
+PennyLane_AQT.egg-info/dependency_links.txt
+PennyLane_AQT.egg-info/entry_points.txt
+PennyLane_AQT.egg-info/requires.txt
+PennyLane_AQT.egg-info/top_level.txt
+pennylane_aqt/__init__.py
+pennylane_aqt/_version.py
+pennylane_aqt/api_client.py
+pennylane_aqt/device.py
+pennylane_aqt/ops.py
+pennylane_aqt/simulator.py
