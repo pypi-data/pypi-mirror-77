@@ -1,0 +1,8 @@
+README.md
+setup.py
+qdill/__init__.py
+qdill.egg-info/PKG-INFO
+qdill.egg-info/SOURCES.txt
+qdill.egg-info/dependency_links.txt
+qdill.egg-info/requires.txt
+qdill.egg-info/top_level.txt
