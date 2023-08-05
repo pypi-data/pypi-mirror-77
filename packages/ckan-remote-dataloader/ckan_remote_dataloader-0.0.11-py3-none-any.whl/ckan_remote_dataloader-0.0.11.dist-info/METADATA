@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ckan-remote-dataloader
+Version: 0.0.11
+Summary: A simple commandline app for uploading tables to a remote CKAN datastore
+Home-page: https://github.com/jkgeo/ckan-remote-dataloader
+Author: John Keniston
+Author-email: jfkeniston@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: simplejson
+Requires-Dist: messytables
+Requires-Dist: python-magic-bin
+
+# ckan-remote-dataloader
+
+
