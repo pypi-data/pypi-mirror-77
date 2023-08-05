@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: polidoro-cli
+Version: 0.2.0
+Summary: Generic CLI.
+Home-page: https://github.com/heitorpolidoro/cli
+Author: Heitor Polidoro
+License: unlicense
+Description: # Custom CLI
+        ### To install
+        
+        `pip install polidoro_cli`
+        
+        ### To use:
+        `cli --help`
+        
+        ### Tips:
+        Create alias:
+        
+        `alias dk='cli docker'`
+        
+        Then
+        
+        `dk exec bash`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
