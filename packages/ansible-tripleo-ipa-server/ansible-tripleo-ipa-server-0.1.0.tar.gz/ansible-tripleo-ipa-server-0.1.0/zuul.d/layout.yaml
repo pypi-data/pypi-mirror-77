@@ -1,0 +1,12 @@
+---
+- project:
+    templates:
+      - check-requirements
+      - publish-to-pypi
+    check:
+      jobs:
+      - openstack-tox-linters: &tripleo-linters
+          nodeset: centos-8
+    gate:
+      jobs:
+      - openstack-tox-linters: *tripleo-linters
