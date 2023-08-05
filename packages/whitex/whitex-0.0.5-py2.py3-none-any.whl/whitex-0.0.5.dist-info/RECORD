@@ -1,0 +1,11 @@
+whitex/__init__.py,sha256=oJVkWMuYvOOxY_EjwCj7zUR3gGwVqK3FOq2H4LFSJVo,129
+whitex/cli.py,sha256=3EbrKZrkyrGsn1T2A7bJrZal0jF6DzXxiaQJjgoAj_k,1444
+whitex/commands.py,sha256=k5pWj3ynrgmLOj8A1hXyptvhnyMtXQAqTia0vS_blwU,15940
+whitex/whitex.py,sha256=6tOZSkLMDCUCanXMcljDFH7-fOhqVqoI7Wj7b1WVbJ4,200
+whitex-0.0.5.dist-info/AUTHORS.rst,sha256=R6MmKKAYAc_rOvAwGyBsbcfGwOGhbqqLdX1gXPil-tQ,169
+whitex-0.0.5.dist-info/LICENSE,sha256=z5AojwV8dH4d7ZQ89tjmRnDgT-mnYoFOfUx2WAl-kGU,1584
+whitex-0.0.5.dist-info/METADATA,sha256=3ZslkFL53UnT-x9jpoJ9AnFvtFmy6LNNcuF8j3mhhNg,2307
+whitex-0.0.5.dist-info/WHEEL,sha256=JZXtYepZFsf4IoivNpnSgKIc4qTHan08DRd56koo_DM,116
+whitex-0.0.5.dist-info/entry_points.txt,sha256=cYziq-1dx8-W_7N0hHfs2MTNY-DRINeCc9tHPPgKH6w,44
+whitex-0.0.5.dist-info/top_level.txt,sha256=Fc5rWYKraEy1anKIfHk_rDJZQkMZeeQErDaeJ8sEBtU,7
+whitex-0.0.5.dist-info/RECORD,,
