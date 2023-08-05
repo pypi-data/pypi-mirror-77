@@ -1,0 +1,34 @@
+Changes
+=======
+
+0.5 (2020-03-30)
+----------------
+
+* Moved to python 3.6+ only.
+* Added requirements.txt for pip installation.
+
+
+0.4
+----
+
+* Reduced the dependencies by removing the unnecessary call of `zope.component`
+  in the adaptation of the factory.
+
+
+0.3 (2011-06-13)
+----------------
+
+* Added behavior to the collection allowing the override or ignore of the
+  components.
+
+
+0.2 (2011-04-14)
+----------------
+
+* Updated components names for entry points.
+
+
+0.1 (2011-04-13)
+----------------
+
+* Initial release.

@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: dolmen.collection
+Version: 0.5
+Summary: Collection of named entities
+Home-page: http://pypi.python.org/pypi/dolmen.collection
+Author: Dolmen Team
+Author-email: dolmen@list.dolmen-project.org
+License: BSD
+Description: =================
+        dolmen.collection
+        =================
+        
+        Dolmen collection offers a collection implementation which permits to 
+        manipulate named elements: arrange order, extract part of the collection,
+        enforce a type of component and add new ones easily.
+        
+        It originated from zeam.form where it was used to implement forms as 
+        collections of fields, actions and widgets.
+        
+        
+        Changes
+        =======
+        
+        0.5 (2020-03-30)
+        ----------------
+        
+        * Moved to python 3.6+ only.
+        * Added requirements.txt for pip installation.
+        
+        
+        0.4
+        ----
+        
+        * Reduced the dependencies by removing the unnecessary call of `zope.component`
+          in the adaptation of the factory.
+        
+        
+        0.3 (2011-06-13)
+        ----------------
+        
+        * Added behavior to the collection allowing the override or ignore of the
+          components.
+        
+        
+        0.2 (2011-04-14)
+        ----------------
+        
+        * Updated components names for entry points.
+        
+        
+        0.1 (2011-04-13)
+        ----------------
+        
+        * Initial release.
+        
+Keywords: collection library
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: test
