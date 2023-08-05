@@ -1,0 +1,22 @@
+
+
+# explicit excludes
+exclude .travis.yml
+exclude appveyor.yml
+exclude codecov.yml
+exclude readthedocs.yml
+
+# directory includes
+graft ipybbycell
+graft jupyter-config
+
+recursive-include jupyter-config *.json
+recursive-include ipybbycell/static *.js
+
+# Patterns to exclude from any directory
+global-exclude *~
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude .git
+global-exclude .ipynb_checkpoints
+global-exclude .DS_Store
