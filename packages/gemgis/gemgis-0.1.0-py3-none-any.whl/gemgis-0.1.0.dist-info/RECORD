@@ -1,0 +1,15 @@
+gemgis/__init__.py,sha256=DUp__Kiy5R7CN3hSq86GxxsHutghC2-a_gsIstvRbqU,2743
+gemgis/gemgis.py,sha256=6SEHFA1lsyGHYN7BwGe3JxecTyQ2bad903U3Is22nNA,19483
+gemgis/postprocessing.py,sha256=64Gly_a5nFi0QeZaTwSewcX9VP3825XNX0XvriNTHXI,9059
+gemgis/raster.py,sha256=d_pofBKoowCxlFxVxGZgNvPSuRSJw79CwErgdOp_eFY,33096
+gemgis/utils.py,sha256=QTo5aWxIb-ITHeyij9F3ZpoquvUDYfU8SVrEwHoXdWM,30622
+gemgis/vector.py,sha256=SKDX5SR-OWd7dsSbR1Xo1HeD8g9ymWHTHObFvV3whu4,16138
+gemgis/visualization.py,sha256=DbQnDgVmLnTFjBlxFbcqAWgaJTINU8n7GbXNWM1PYdM,13666
+gemgis/wms.py,sha256=C1P94_0AyfanpmOalBVQVWzjW1UCAUBuV4x2utTmyVs,9198
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_gemgis.py,sha256=pUoC8rZhGL9JI5vGcpjb4ettmQSt_yxfmOOi8PTcULU,143754
+gemgis-0.1.0.dist-info/LICENSE.md,sha256=LPNKwDiu5awG-TPd0dqYJuC7k4PBPY4LCI_O0LSpW1s,7814
+gemgis-0.1.0.dist-info/METADATA,sha256=ADIdSKDc8AOGQ_DOpfWDeLDL9x5Er46G0PJbM_Evx5Y,1007
+gemgis-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+gemgis-0.1.0.dist-info/top_level.txt,sha256=9n205g-QuziazH11DlerCFrpwXXuSJ3RuDbMaTcTo3s,13
+gemgis-0.1.0.dist-info/RECORD,,
