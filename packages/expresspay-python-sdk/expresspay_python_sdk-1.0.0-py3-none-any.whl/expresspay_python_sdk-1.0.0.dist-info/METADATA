@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: expresspay-python-sdk
+Version: 1.0.0
+Summary: Expresspay Python SDK
+Home-page: https://github.com/expresspaygh/expresspay-python-sdk
+Author: Jeffery Osei
+Author-email: jefferyosei@expresspaygh.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7.3
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <img src="https://expresspaygh.com/images/logo.png" />
+</p>
+<br/>
+
+# Expresspay Python SDK
+
+A simple library for Python integrators, kindly visit the url below to learn more.
+
+[Expresspaygh Python GitHub Repo](https://github.com/expresspaygh/expresspay-python-sdk)
+
