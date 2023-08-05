@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Jupyter-Status
+Version: 0.1
+Summary: A quick, tabular summary of running Jupyter servers and kernels
+Home-page: https://github.com/bagrow/jupyter-status
+Author: Jim Bagrow
+Author-email: bagrowjp@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: tabulate
+
+# Jupyter Status
+Get a quick tabular summary of running Jupyter servers and kernels.
+
+
