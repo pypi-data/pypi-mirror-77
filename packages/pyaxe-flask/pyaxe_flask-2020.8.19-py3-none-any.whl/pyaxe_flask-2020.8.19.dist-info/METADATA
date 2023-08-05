@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyaxe-flask
+Version: 2020.8.19
+Summary: 对Flask进行封装，更简单方便使用
+Home-page: https://github.com/pyaxe/pyaxe-flask
+Author: Jtyoui
+Author-email: jtyoui@qq.com
+License: MIT Licence
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# pyaxe-flask
+对Flask进行封装，更简单方便使用
+
+
