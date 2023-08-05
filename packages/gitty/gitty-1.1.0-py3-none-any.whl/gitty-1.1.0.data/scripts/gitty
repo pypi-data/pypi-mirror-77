@@ -1,0 +1,5 @@
+#!python
+
+from gitty import *
+
+exit(command_handler(setup({})))
