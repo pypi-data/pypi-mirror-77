@@ -1,0 +1,3 @@
+[console_scripts]
+translit = prereform2modern.translit_from_string:main
+
