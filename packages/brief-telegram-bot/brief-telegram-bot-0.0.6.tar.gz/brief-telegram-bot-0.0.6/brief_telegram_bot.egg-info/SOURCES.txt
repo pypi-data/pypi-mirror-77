@@ -1,0 +1,9 @@
+README.md
+setup.py
+brief_telegram_bot.egg-info/PKG-INFO
+brief_telegram_bot.egg-info/SOURCES.txt
+brief_telegram_bot.egg-info/dependency_links.txt
+brief_telegram_bot.egg-info/requires.txt
+brief_telegram_bot.egg-info/top_level.txt
+brieftgbot/__init__.py
+brieftgbot/brieftgbot.py
