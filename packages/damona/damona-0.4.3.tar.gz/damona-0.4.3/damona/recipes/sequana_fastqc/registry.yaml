@@ -1,0 +1,6 @@
+Singularity.sequana_fastqc_1.0.0:
+    version: 1.0.0
+    class: exe
+    download: library://cokelaer/damona/sequana_fastqc:1.0.0
+    binaries:
+        - sequana_fastqc: sequana_fastqc

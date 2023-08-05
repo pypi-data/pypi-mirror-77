@@ -1,0 +1,5 @@
+Singularity.sequana_0.9.1:
+    version: 0.9.1
+    class: env
+    download: library://cokelaer/damona/sequana:0.9.1
+

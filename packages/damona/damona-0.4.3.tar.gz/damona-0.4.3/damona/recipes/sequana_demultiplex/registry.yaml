@@ -1,0 +1,7 @@
+Singularity.sequana_demultiplex_1.0.1:
+    version: 1.0.1
+    class: exe
+    download: library://cokelaer/damona/sequana_demultiplex:1.0.1
+    binaries:
+        - sequana_demultiplex: sequana_demultiplex
+
