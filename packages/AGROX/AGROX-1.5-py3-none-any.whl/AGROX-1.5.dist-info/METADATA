@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: AGROX
+Version: 1.5
+Summary: A scriptable web enum tool.
+Home-page: https://github.com/ScRiPt1337/ARGO
+Author: script1337
+Author-email: anon42237@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: asyncio
+Requires-Dist: beautifulsoup4
+Requires-Dist: clint
+Requires-Dist: cprint
+Requires-Dist: datetime
+Requires-Dist: dnspython
+Requires-Dist: wad
+
+# ARGO
+a scriptable web enum tool
+
+
+> currently most of the stuff dont work its still in dev 
+
