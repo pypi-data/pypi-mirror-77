@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: django-newsfeed
+Version: 0.0.1
+Summary: A news curator and newsletter subscription app for django
+Home-page: https://github.com/saadmk11/django-newsfeed
+Author: Maksudul Haque
+Author-email: saad.mk112@gmail.com
+License: MIT
+Keywords: django-newsfeed news curator newsletter subscription
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: Django (>=3.0)
+
+UNKNOWN
+
+
