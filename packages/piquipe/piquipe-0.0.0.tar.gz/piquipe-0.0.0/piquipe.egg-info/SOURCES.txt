@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+piquipe/__init__.py
+piquipe.egg-info/PKG-INFO
+piquipe.egg-info/SOURCES.txt
+piquipe.egg-info/dependency_links.txt
+piquipe.egg-info/top_level.txt
+tests/__init__.py
+tests/test_pipe.py
