@@ -1,0 +1,10 @@
+README.md
+setup.py
+aimrobot/Model.py
+aimrobot/Reader.py
+aimrobot/__init__.py
+aimrobot/main.py
+aimrobot.egg-info/PKG-INFO
+aimrobot.egg-info/SOURCES.txt
+aimrobot.egg-info/dependency_links.txt
+aimrobot.egg-info/top_level.txt
