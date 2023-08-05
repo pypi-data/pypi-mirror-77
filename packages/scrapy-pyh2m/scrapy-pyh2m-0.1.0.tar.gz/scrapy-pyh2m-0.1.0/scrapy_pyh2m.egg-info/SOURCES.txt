@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+scrapy_pyh2m.egg-info/PKG-INFO
+scrapy_pyh2m.egg-info/SOURCES.txt
+scrapy_pyh2m.egg-info/dependency_links.txt
+scrapy_pyh2m.egg-info/not-zip-safe
+scrapy_pyh2m.egg-info/requires.txt
+scrapy_pyh2m.egg-info/top_level.txt

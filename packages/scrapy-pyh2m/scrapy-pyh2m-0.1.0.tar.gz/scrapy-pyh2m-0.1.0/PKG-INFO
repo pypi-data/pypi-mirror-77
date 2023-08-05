@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: scrapy-pyh2m
+Version: 0.1.0
+Summary: simple and flexible html to markdown python converter pipeline with scrapy
+Home-page: https://github.com/goooice/scrapy-pyh2m
+Author: goooice
+Author-email: devel0per1991@outlook.com
+License: MIT license
+Description: # Pyh2m for Scrapy Pipeline
+        
+        ------------
+        settings.py:
+        
+        ```python
+        ...
+        # pyh2m settings for crawler project
+        RAW_TEXT = True  # raw text or markdown text
+        HTML_DICT_NAME = "html"        # item["html"]
+        MARK_DICT_NAME = "markdown"    # item["markdown"]
+        ...
+        ```
+        
+        # History
+        
+        ### 0.1.0
+        
+        * can use it work with scrapy
+Keywords: h2m scrapy
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
