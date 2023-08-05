@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gasprice-blocklytics
+Version: 0.0.1
+Summary: predict ethereum gas price
+Home-page: https://github.com/blocklytics/gasprice
+Author: blocklytics
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: sanic
+Requires-Dist: pandas
+Requires-Dist: web3 (>=4.0.0b4)
+Requires-Dist: click
+Requires-Dist: retry
+
+UNKNOWN
+
+
