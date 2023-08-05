@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "strmscience"
+version = "0.1.2"
+description = "STRM base python package"
+authors = ["OPSXCQ <opsxcq@strm.sh>"]
+readme = "README.md"
+license = "GPL-3.0-or-later"
+
+packages = [
+    { include = "strmscience" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pulp = "^2.3"
+pandas = "^1.1.0"
+seaborn = "^0.10.1"
+fbprophet = "^0.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
