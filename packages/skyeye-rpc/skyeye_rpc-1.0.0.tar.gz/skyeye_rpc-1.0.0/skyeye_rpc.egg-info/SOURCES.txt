@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+skyeye_rpc.egg-info/PKG-INFO
+skyeye_rpc.egg-info/SOURCES.txt
+skyeye_rpc.egg-info/dependency_links.txt
+skyeye_rpc.egg-info/requires.txt
+skyeye_rpc.egg-info/top_level.txt

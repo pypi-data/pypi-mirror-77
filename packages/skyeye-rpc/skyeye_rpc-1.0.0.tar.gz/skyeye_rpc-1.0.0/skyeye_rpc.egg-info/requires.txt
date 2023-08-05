@@ -1,0 +1,7 @@
+msgpack
+
+[grpc]
+grpcio
+
+[redis]
+redis
