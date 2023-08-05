@@ -1,0 +1,9 @@
+astropy
+numpy
+pyyamlscipy
+
+[lal]
+lalsuite
+
+[plot]
+matplotlib
