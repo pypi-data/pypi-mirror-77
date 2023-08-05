@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: pyaxe-pandas
+Version: 2020.8.18
+Summary: 对pandas进行配置文件操作，用yml文件对pandas进行操作，无须写一行代码即可分析数据。
+Home-page: https://github.com/pyaxe/pyaxe-pandas
+Author: Jtyoui
+Author-email: jtyoui@qq.com
+License: MIT Licence
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml
+
+# **pyaxe-pandas** [![](https://gitee.com/tyoui/logo/raw/master/logo/photolog.png)][1]
+
+## 对pandas进行配置文件操作，用yml文件对pandas进行操作，无须写一行代码即可分析数据。
+[![](https://img.shields.io/badge/Python-3.8-green.svg)](https://pypi.org/project/pyaxe-pandas/)
+
+## 安装
+    pip install pyaxe-pandas
+
+## 执行
+```python
+from pyaxe_pandas import YamlPandas
+import pandas as pd
+df=pd.DataFrame()
+
+yp = YamlPandas(df=df, yml='yaml配置文件地址')
+result = yp.resolve_config(yp.read_yaml())
+for data in result:
+    print(data)
+```
+
+
+## 语法文档
+[语法文档](./docs.md)
+
+## 生成初始化数据
+```python
+import pandas as pd
+import random
+
+random.seed(100)
+df=pd.DataFrame({'age':[random.randint(10,100) for i in range(2000)],'sex':['男' if random.randint(10,100)%2==0 else '女' for i in range(2000)]})
+'''
+age	sex
+0	28	女
+1	68	女
+2	68	女
+3	32	女
+4	100	男
+...	...	...
+1995	14	女
+1996	33	女
+1997	23	男
+1998	92	女
+1999	76	女
+2000 rows × 2 columns
+'''
+```
+
+### [一系列过滤操作](./tests/age.yml)
+```yaml
+# df
+#   age	sex
+#0	28	女
+#1	68	女
+#2	68	女
+#3	32	女
+#4	100	男
+#...	...	...
+#1995	14	女
+#1996	33	女
+#1997	23	男
+#1998	92	女
+#1999	76	女
+#2000 rows × 2 columns
+
+# 1、 大于50岁的人
+version: 1.1.0
+operations:
+  - operation:
+      name: query
+      exe: age > 60 and sex =="男"
+---
+
+# 2、 大于60岁的男人
+version: 1.1.0
+operations:
+  - operation:
+      name: query
+      exe: age > 60 and sex =="男"
+---
+
+# 3、 大于30岁的男人或者小于70岁的女人
+version: 1.1.0
+operations:
+  - operation:
+      name: query
+      exe: (age > 60 and sex =="男") or (age < 70 and sex=="女")
+---
+
+# 4、 大于平均年龄的女人
+version: 1.1.0
+operations:
+  - operation:
+      name: query
+      exe: age > age.mean() and sex =="女"
+```
+
+### [条件过滤](./tests/flag.yml)
+```yaml
+version: 1.1.0
+operations:
+  - operation:
+      name: query
+      switch:
+        - regex: 大于50岁 # 大于50岁的人
+          arg: text # 匹配的参数
+          exe: age > 50
+          stop: true
+
+        - regex: 大于60岁.+男 # 大于60岁的男人
+          arg: text
+          exe: age > 60 and sex =="男"
+          stop: true
+
+        - regex: .+30岁的男人或者小于70岁的女人 # 大于30岁的男人或者小于70岁的女人
+          arg: text
+          exe: (age > 60 and sex =="男") or (age < 70 and sex=="女")
+          stop: true
+
+        - regex: 平均年龄.+女人 # 大于平均年龄的女人
+          arg: text
+          exe: age > age.mean() and sex =="女"
+          stop: true
+```
+
+***
+[1]: https://blog.jtyoui.com
+
