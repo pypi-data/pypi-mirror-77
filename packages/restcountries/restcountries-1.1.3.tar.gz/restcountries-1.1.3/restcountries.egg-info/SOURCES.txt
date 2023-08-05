@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+restcountries/__init__.py
+restcountries/api.py
+restcountries/client.py
+restcountries/country.py
+restcountries/expections.py
+restcountries/models.py
+restcountries.egg-info/PKG-INFO
+restcountries.egg-info/SOURCES.txt
+restcountries.egg-info/dependency_links.txt
+restcountries.egg-info/requires.txt
+restcountries.egg-info/top_level.txt
+restcountries.egg-info/zip-safe
