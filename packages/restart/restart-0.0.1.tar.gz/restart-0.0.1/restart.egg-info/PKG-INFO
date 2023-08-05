@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: restart
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/restartus/covid-projection
+Author: Restart Partners
+Author-email: admin@restart.us
+License: UNKNOWN
+Description: # Restart
+        
+        For now this is just a dummy package until we push the real thing
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
