@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: pyhasse.chain
+Version: 0.3.0
+Summary: pyhasse.chain: TODO
+Home-page: https://pyhasse.org
+Author: Rainer Bruggemann
+Author-email: rainer.bruggemann@pyhasse.org
+License: MIT license
+Download-URL: https://gitlab.com/pyhasse/chain/
+Keywords: chain
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: setuptools
+Requires-Dist: pyhasse.core
+
+=====================
+Module: pyhasse.chain
+=====================
+
+* Free software: MIT license
+* Documentation: https://pyhasse.org
+
+
+Features
+--------
+
+Calculate:
+
+- Identify the set of mutually comparable objects: a chain
+- Typical results: list of objects of a chain, the length and...
+- ...number of chains between a starting and an end point
+
+
+=======
+History
+=======
+
+0.3.0 (2019-08-16)
+------------------
+
+- improved testing
+- improved doc strings
+- renamed some variables
+
+0.2.7 (2019-03-27)
+------------------
+
+- improved desecription for better search results with "pip search pyhasse"
+
+0.2.6 (2019-03-24)
+------------------
+
+- URL for repository added
+
+0.2.5 (2019-03-21)
+------------------
+
+- classifier added
+- wrong pointer corrected
+
+
+0.2.4 (2018-03-05)
+------------------
+
+- set long_description_content_type to text/x-rst
+
+
+0.1.0 (2018-06-10)
+------------------
+
+* First version
+
+
