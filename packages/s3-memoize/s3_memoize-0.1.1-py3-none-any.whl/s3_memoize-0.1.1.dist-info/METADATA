@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: s3-memoize
+Version: 0.1.1
+Summary: Memoization function decorators using Amazon S3 for Python
+Home-page: https://github.com/susumuota/s3_memoize
+Author: Susumu OTA
+Author-email: ota.s.research@example.com
+License: Apache License 2.0
+Keywords: memoize,memoization,S3,lru_cache
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: boto3
+
+s3_memoize
+==========
+
+Memoization function decorators using Amazon S3 for Python
+
+
