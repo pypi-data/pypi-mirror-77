@@ -1,0 +1,179 @@
+{% extends "bootstrap/base.html" %}
+
+{% block head %}
+{{ super() }}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
+    <script src="//bernii.github.io/gauge.js/dist/gauge.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="static/dash.css" />
+
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function () {
+        var trigger = $('.hamburger'),
+            overlay = $('.overlay'),
+           isClosed = false;
+
+          trigger.click(function () {
+            hamburger_cross();
+          });
+
+          function hamburger_cross() {
+
+            if (isClosed == true) {
+              overlay.hide();
+              trigger.removeClass('is-open');
+              trigger.addClass('is-closed');
+              isClosed = false;
+            } else {
+              overlay.show();
+              trigger.removeClass('is-closed');
+              trigger.addClass('is-open');
+              isClosed = true;
+            }
+        }
+
+        $('[data-toggle="offcanvas"]').click(function () {
+              $('#wrapper').toggleClass('toggled');
+        });
+      });
+    </script>
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function(){
+          var socket = io.connect('http://' + document.domain + ':' + location.port + '/');
+          var start_time;
+          window.setInterval(function() {
+              start_time = (new Date).getTime();
+              socket.emit('refresh');
+          }, 2000);
+          var gauges = {}
+          $('form#settings').submit(function(event) {
+              socket.emit(
+                'save settings',
+                {
+                  settings: {
+                    gravity_offset: $('#gravity_offset').val(),
+                    gravity_meas: $('#gravity_meas').val(),
+                    temp_meas: $('#temp_meas').val(),
+                  }
+                }
+              );
+              window.location = "/";
+              return false;
+          });
+          function convertSg(value, scale) {
+            if (scale == undefined) {
+              return value;
+            }
+            offsetValue = value + {{ gravity_offset }}
+            if (scale.toLowerCase() == "brix") {
+              brix = (((182.4601 * offsetValue -775.6821) * offsetValue +1262.7794) * offsetValue -669.5622)
+              return Math.round(brix * 10)/10;
+            }
+            if (scale.toLowerCase() == "plato") {
+              plato = (-1 * 616.868) + (1111.14 * offsetValue) - (630.272 * offsetValue * offsetValue) + (135.997 * offsetValue * offsetValue * offsetValue)
+              return Math.round(plato * 10)/10;
+            }
+
+            return Math.round(offsetValue * 1000)/1000;
+          }
+          function convertTemp(value, scale) {
+            if (scale == undefined) {
+              return value;
+            }
+            if (scale.toLowerCase() == "celsius") {
+              return Math.round((( value - 32) * 5 / 9) * 10) / 10;
+            }
+            return value;
+          }
+          socket.on('refresh', function(msg) {
+            for (data in msg.data) {
+              var gaugeData = [
+                `<div id="${msg.data[data].mac}" class="canvas">`,
+                `	<canvas id="${msg.data[data].mac}-canvas-preview"></canvas>`,
+                `	<div id="${msg.data[data].mac}-preview-textfield" class="preview-textfield"></div>`,
+                `	<div id="${msg.data[data].mac}-preview-datafield" class="preview-datafield"></div>`,
+                '</div>',
+              ].join("\n");
+              if(
+                $('#container').find(`[id*="${msg.data[data].mac}"]`).length == 0
+              ) {
+                $('#container').append(gaugeData);
+                var target = document.getElementById(`${msg.data[data].mac}-canvas-preview`);
+                var gauge = new Gauge(target).setOptions({
+                  angle: 0, // The span of the gauge arc
+                  lineWidth: 0.34, // The line thickness
+                  radiusScale: 1, // Relative radius
+                  pointer: { //disable
+                    length: 0,
+                    strokeWidth: 0,
+                  },
+                  colorStart: msg.data[data].color,
+                  highDpiSupport: true,
+                });
+                gauge.maxValue = 1.08; // set max gauge value
+                gauge.setMinValue(1.00);  // Prefer setter over gauge.minValue = 0
+                gauges[msg.data[data].mac] = gauge
+              }
+
+              gauges[msg.data[data].mac].set(msg.data[data].gravity, '{{ gravity_meas }}');
+              document.getElementById(`${msg.data[data].mac}-preview-textfield`).innerHTML = msg.data[data].color + '(' + msg.data[data].mac + ')';
+              document.getElementById(`${msg.data[data].mac}-preview-datafield`).innerHTML = convertSg(msg.data[data].gravity, '{{ gravity_meas }}') + '(' + convertTemp(msg.data[data].temp, '{{ temp_meas }}') + '&deg;)';
+            };
+          });
+      });
+    </script>
+{% endblock %}
+
+{% block body %}
+
+<a class="github-fork-ribbon" href="https://github.com/myoung34/tilty-dashboard" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+
+<div class="row">
+  <div class="col-md-12">
+  <h1>
+  	Tilty-Dashboard
+  </h1>
+
+
+  <div id="wrapper">
+      <div class="overlay"></div>
+
+      <!-- Sidebar -->
+      <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+          <ul class="nav sidebar-nav">
+              <li class="sidebar-brand">
+                <a href="#"><img src="static/logo_50_50.png" /></a>
+              </li>
+              <li>
+                  <a href="/">Home</a>
+              </li>
+              <li>
+                  <a href="/settings">Settings</a>
+              </li>
+              <li>
+                  <a href="https://marcyoung.us">About</a>
+              </li>
+          </ul>
+      </nav>
+      <!-- /#sidebar-wrapper -->
+
+      <!-- Page Content -->
+      <div id="page-content-wrapper">
+          <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+              <span class="hamb-top"></span>
+  			      <span class="hamb-middle"></span>
+  		        <span class="hamb-bottom"></span>
+          </button>
+      {% block content %}
+      {% endblock %}
+        </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+	<p>Copyright 2020&#169; <a href="https://marcyoung.us">Marc Young</a></p>
+</div>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block content %}
+        <div class="container" id="settings">
+          <h2>Settings</h2>
+          <form id="settings" method="POST" action='#'>
+            <div class="form-group form-inline">
+              <label for="gravity-offset">Gravity Offset</label>
+              <input type="gravity-offset" class="form-control" id="gravity_offset" placeholder="ex: +0.001 or -0.010" value="{{ gravity_offset }}">
+            </div>
+            <div class="form-group form-inline">
+              <label for="gravity-meas">Gravity Scale</label>
+              <select class="form-control" id="gravity_meas">
+                <option>SG</option>
+                <option>Brix</option>
+                <option>Plato</option>
+              </select>
+            </div>
+            <div class="form-group form-inline">
+              <label for="temp-meas">Temperature Scale</label>
+              <select class="form-control" id="temp_meas">
+                <option>Fahrenheit</option>
+                <option>Celsius</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-default" value="save">Save</button>
+          </form>
+        </div>
+{% endblock %}
