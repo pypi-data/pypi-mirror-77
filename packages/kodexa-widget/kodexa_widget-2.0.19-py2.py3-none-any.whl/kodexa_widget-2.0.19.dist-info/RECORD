@@ -1,0 +1,14 @@
+kodexa_widget/__init__.py,sha256=jHnkxFzyxPqHkFAU59kcc3_qvO29G6bOFvtqyRFx4gU,1022
+kodexa_widget/_version.py,sha256=m4hQJTI0cBGoZ9N0l_2TAmM6g_bIF0yXwGh8jrQgUkM,23
+kodexa_widget/kodexa.py,sha256=Sc5plyzbehjfxoNS1A18DcbdWQldir110xEo3JSKR7M,3242
+kodexa_widget/static/extension.js,sha256=oYaItdy1XRzVGpnhQqPLabk0fAkrl8sekvGwnaES_pA,1212
+kodexa_widget/static/index.js,sha256=REpZ0zvS9-BbUDNk3wv60VJOF4jBKzwgMnUkE3CZPLQ,1108764
+kodexa_widget/static/index.js.map,sha256=znvsrvqVCTelTarePaPk5G8syRZGAPmszo-8fI5INTw,4636149
+kodexa_widget-2.0.19.data/data/etc/jupyter/nbconfig/notebook.d/kodexa-widget.json,sha256=fjGOblWRTwKnzdmWSWu09qj6sTjWZpx9T-XKptQ52-M,67
+kodexa_widget-2.0.19.data/data/share/jupyter/nbextensions/kodexa-widget/extension.js,sha256=oYaItdy1XRzVGpnhQqPLabk0fAkrl8sekvGwnaES_pA,1212
+kodexa_widget-2.0.19.data/data/share/jupyter/nbextensions/kodexa-widget/index.js,sha256=REpZ0zvS9-BbUDNk3wv60VJOF4jBKzwgMnUkE3CZPLQ,1108764
+kodexa_widget-2.0.19.data/data/share/jupyter/nbextensions/kodexa-widget/index.js.map,sha256=znvsrvqVCTelTarePaPk5G8syRZGAPmszo-8fI5INTw,4636149
+kodexa_widget-2.0.19.dist-info/METADATA,sha256=RIchRN0T3LojGsMb1Bv3uhN2g1-iuhJAF29rWX0Kepo,671
+kodexa_widget-2.0.19.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+kodexa_widget-2.0.19.dist-info/top_level.txt,sha256=rsyFOzYiV1HWziHb5K1y33Cii5N2eN6bpUTvuJX92CE,14
+kodexa_widget-2.0.19.dist-info/RECORD,,
