@@ -1,0 +1,9 @@
+bas_convert/__init__.py,sha256=MLVe-L4TLfd21znkfTm90P_fmMFTP0gqpYlIzRUQ_hE,261
+bas_convert/__main__.py,sha256=wYvYBQJDGLULMvdi_rF_M-rnQ5hkMwXqHuwdZwNfIwQ,2337
+bas_convert/convert.py,sha256=_oB9lZRU_ISVTQkTzDt2iHG7qFDDcpyuObc_fKVVsKA,608
+bas_convert/data/lookups.json,sha256=zZp0ktOChmCX__5Ow8fBXJfMl8l8mpzIYNfpvJZivIU,6858
+bas_convert-0.0.1.dist-info/METADATA,sha256=2qLszcCabqJanMSe-TzGnjRxwsc8HE6DUd5obLfCu7s,2566
+bas_convert-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+bas_convert-0.0.1.dist-info/entry_points.txt,sha256=gsL75Wg4KF8gvCjyyjoMTWyEDcuJYM40-N7j7m400JA,59
+bas_convert-0.0.1.dist-info/top_level.txt,sha256=6oJ_21iIs29kAnXE80_t51ePIvZuJ1blFRDgqql0sHc,12
+bas_convert-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+bas_convert = bas_convert.__main__:main
+
