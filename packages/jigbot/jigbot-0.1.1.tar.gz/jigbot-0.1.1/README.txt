@@ -1,0 +1,1 @@
+Get necessary libraries, useful functions and functions for sentiment analysis.
