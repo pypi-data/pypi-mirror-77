@@ -1,0 +1,79 @@
+# python-package-template
+
+![header](https://github.com/iwasakishuto/Auto-Fill-In/blob/master/image/header.png?raw=true)
+[![PyPI version](https://badge.fury.io/py/Auto-Fill-In.svg)](https://pypi.org/project/Auto-Fill-In/)
+[![GitHub version](https://badge.fury.io/gh/iwasakishuto%2FAuto-Fill-In.svg)](https://github.com/iwasakishuto/Auto-Fill-In)
+![Python package](https://github.com/iwasakishuto/Auto-Fill-In/workflows/Python%20package/badge.svg)
+![Upload Python Package](https://github.com/iwasakishuto/Auto-Fill-In/workflows/Upload%20Python%20Package/badge.svg)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/iwasakishuto/Auto-Fill-In/blob/master/LICENSE)
+
+Auto fill in your form using your saved information (or answer on the spot).
+
+## Installation
+
+1. Install **Auto-Fill-In** (There are two ways to install):
+    - **Install from PyPI (recommended):**
+        ```sh
+        $ sudo pip install Auto-Fill-In
+        ```
+   - **Alternatively: install PyGuitar from the GitHub source:**
+       ```sh
+       $ git clone https://github.com/iwasakishuto/Auto-Fill-In.git
+       $ cd Auto-Fill-In
+       $ sudo python setup.py install
+       ```
+2. Install **driver** for `selenium`:
+**`Selenium`** requires a driver to interface with the chosen browser, so please visit the [documentation](https://selenium-python.readthedocs.io/installation.html#drivers) to install it.
+    ```sh
+    # Example: Chrome
+    # visit "chrome://settings/help" to check your chrome version.
+    # visit "https://chromedriver.chromium.org/downloads" to check <Suitable.Driver.Version> for your chrome.
+    $ wget https://chromedriver.storage.googleapis.com/<Suitable.Driver.Version>/chromedriver_mac64.zip
+    $ unzip chromedriver_mac64.zip
+    $ mv chromedriver /usr/local/bin/chromedriver
+    $ chmod +x /usr/local/bin/chromedriver
+    ```
+
+## Quick example
+
+- **[example notebooks](https://nbviewer.jupyter.org/github/iwasakishuto/Auto-Fill-In/blob/master/examples/)**
+- **Check Environment Files**:
+    - **Python Module:**
+    ```python
+    >>> from autofill.utils import show_envfiles
+    >>> show_envfiles()
+    * PATH: /Users/iwasakishuto/.autofill/_sample.json
+            - name      : SAMPLE FORMS
+            - URL       : https://forms.office.com/Pages/ResponsePage.aspx?id=XXX
+            - last_date : 2020-08-18@22.08.45
+            - other keys: ['form', 'login', 'answer']
+    ```
+    - **Command line:**
+    ```sh
+    $ auto-fill-in-envs
+    [success] local driver can be built.
+    [failure] remote driver can't be built.
+    DRIVER_TYPE: local
+    * PATH: /Users/iwasakishuto/.autofill/_sample.json
+            - name      : SAMPLE FORMS
+            - URL       : https://forms.office.com/Pages/ResponsePage.aspx?id=XXX
+            - last_date : 2020-08-18@22.08.45
+            - other keys: ['form', 'login', 'answer']
+    ```
+- **Form Auto Fill In**:
+    - **Python Module:**
+    ```python
+    >>> from autofill import forms
+    >>> form = forms.get("office", path="PATH")
+    DRIVER_TYPE: local
+    >>> form.run()
+    :
+    ```
+    - **Command line:**
+    ```sh
+    $ form-auto-fill-in "PATH"
+    [success] local driver can be built.
+    [failure] remote driver can't be built.
+    DRIVER_TYPE: local
+    :
+    ```
