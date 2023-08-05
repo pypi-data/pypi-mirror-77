@@ -1,0 +1,3 @@
+include LICENCE
+include requirements.txt
+include version.txt

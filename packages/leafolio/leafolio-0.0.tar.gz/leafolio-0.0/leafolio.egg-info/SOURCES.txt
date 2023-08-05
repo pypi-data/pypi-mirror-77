@@ -1,0 +1,13 @@
+.gitattributes
+.gitignore
+LICENCE
+MANIFEST.in
+requirements.txt
+setup.py
+version.txt
+leafolio/__init__.py
+leafolio.egg-info/PKG-INFO
+leafolio.egg-info/SOURCES.txt
+leafolio.egg-info/dependency_links.txt
+leafolio.egg-info/requires.txt
+leafolio.egg-info/top_level.txt
