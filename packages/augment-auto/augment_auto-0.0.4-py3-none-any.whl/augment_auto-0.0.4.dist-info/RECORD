@@ -1,0 +1,9 @@
+augment/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+augment/geometric.py,sha256=X1G9C87OIPIO1G6rqsGPaGHTFWTVzTS5r7SYl3FlJnY,10658
+augment/kernel_based.py,sha256=eak92-AUz5QR2AeIdT1Bpcx11T3EjTjX7IVA5BWvNvA,4606
+augment/photometric.py,sha256=T9mtR1IzLNTS6aJoeMwx8Pv3HwXehoMQtcyE0NgggZw,3637
+augment_auto-0.0.4.dist-info/LICENSE,sha256=CFPlcTo8uHmoM1iCyhq5yBGgLPr3SVUVZlgQH6xKXrQ,1091
+augment_auto-0.0.4.dist-info/METADATA,sha256=O9KdjOGlnhNrygiWjs279wKILwGS_lVAM0FHtn3d0-8,665
+augment_auto-0.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+augment_auto-0.0.4.dist-info/top_level.txt,sha256=unN6mVmq0jhis9QuvxXClpL3VqI-GVZPD2I9Yc2PYEQ,8
+augment_auto-0.0.4.dist-info/RECORD,,
