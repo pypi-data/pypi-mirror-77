@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: geo-tool
+Version: 1.0.8
+Summary: 地理位置工具类
+Home-page: UNKNOWN
+Author: cc
+Author-email: abcdef123456chen@sohu.com
+Maintainer: cc
+Maintainer-email: abcdef123456chen@sohu.com
+License: MIT License
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: requests (>=2.22.0)
+Requires-Dist: geocoder (>=1.38.1)
+Requires-Dist: googlemaps (>=4.4.1)
+Requires-Dist: loguru (>=0.3.2)
+
+geo_tool
+
+
