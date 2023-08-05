@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+apriorib/__init__.py
+apriorib/__main__.py
+apriorib/apriorib.py
+apriorib.egg-info/PKG-INFO
+apriorib.egg-info/SOURCES.txt
+apriorib.egg-info/dependency_links.txt
+apriorib.egg-info/requires.txt
+apriorib.egg-info/top_level.txt
