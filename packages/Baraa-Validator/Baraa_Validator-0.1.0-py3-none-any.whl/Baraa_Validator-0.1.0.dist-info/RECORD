@@ -1,0 +1,13 @@
+BaraaValidator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BaraaValidator/transactionValidators.py,sha256=5n-oIwKBcjSp9NkaEhU4NkG1VxYuHsSvjD1Q1wAnzO8,4135
+BaraaValidator/gRPC/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BaraaValidator/gRPC/__transactionValidator_pb2.py,sha256=swGISqrlQuETpYAuewa35K1nU41atsvzdYVzICNGfmw,4132
+BaraaValidator/gRPC/__transactionValidator_pb2_grpc.py,sha256=cqYwPB-eZ5_sCpmYrK2cND6qA2AfmdJoScVH0G5qkVs,2691
+BaraaValidator/gRPC/validator_client.py,sha256=1D2IFKdbh5P8kWuj6CaJmzVqWAt34Y9N0bY4lkkF-0g,787
+BaraaValidator/gRPC/validator_server.py,sha256=gV5eBd6AHZ-LBsxSpHKUi1irB80FrlZdkK0GT715u8s,855
+Baraa_Validator-0.1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+Baraa_Validator-0.1.0.dist-info/METADATA,sha256=xZ-zKmA0cQUmdI5IVci8Do-njlDCvy9zZj96N76M9GA,241
+Baraa_Validator-0.1.0.dist-info/RECORD,,
+Baraa_Validator-0.1.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+Baraa_Validator-0.1.0.dist-info/metadata.json,sha256=sNK3alZkSJk8aZZMCiq-kltP9Sy5LYmYqpJrOc4IefM,415
+Baraa_Validator-0.1.0.dist-info/top_level.txt,sha256=BNieOXdnU1hs5pRNdNYnyk-obhJMaKhKnGDWEpK8zR8,15
