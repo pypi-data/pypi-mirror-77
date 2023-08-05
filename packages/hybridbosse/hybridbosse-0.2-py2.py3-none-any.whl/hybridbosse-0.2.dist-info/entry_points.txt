@@ -1,0 +1,3 @@
+[console_scripts]
+hybrids_shared_infrastructure = hybrids_shared_infrastructure.cli:main
+
