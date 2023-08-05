@@ -1,0 +1,9 @@
+README.md
+setup.py
+BellaCiao/BellaCiao.py
+BellaCiao/__init__.py
+BellaCiao/bellaml.py
+Bella_Ciao.egg-info/PKG-INFO
+Bella_Ciao.egg-info/SOURCES.txt
+Bella_Ciao.egg-info/dependency_links.txt
+Bella_Ciao.egg-info/top_level.txt
