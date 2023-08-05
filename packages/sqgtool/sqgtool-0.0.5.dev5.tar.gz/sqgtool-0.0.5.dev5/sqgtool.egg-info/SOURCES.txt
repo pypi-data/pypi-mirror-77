@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+sqgtool/DR1_creating_new_tables.py
+sqgtool/__init__.py
+sqgtool.egg-info/PKG-INFO
+sqgtool.egg-info/SOURCES.txt
+sqgtool.egg-info/dependency_links.txt
+sqgtool.egg-info/not-zip-safe
+sqgtool.egg-info/requires.txt
+sqgtool.egg-info/top_level.txt
+sqgtool/model/__init__.py
+sqgtool/model/fit.py
+sqgtool/model/predict.py
