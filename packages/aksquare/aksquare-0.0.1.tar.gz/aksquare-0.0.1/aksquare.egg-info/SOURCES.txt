@@ -1,0 +1,15 @@
+README.md
+setup.py
+aksquare/__init__.py
+aksquare/data.py
+aksquare/layers.py
+aksquare/loss.py
+aksquare/nn.py
+aksquare/optim.py
+aksquare/tensor.py
+aksquare/train.py
+aksquare.egg-info/PKG-INFO
+aksquare.egg-info/SOURCES.txt
+aksquare.egg-info/dependency_links.txt
+aksquare.egg-info/requires.txt
+aksquare.egg-info/top_level.txt
