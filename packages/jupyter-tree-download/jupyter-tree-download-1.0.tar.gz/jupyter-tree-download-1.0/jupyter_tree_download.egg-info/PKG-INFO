@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: jupyter-tree-download
+Version: 1.0
+Summary: Compresses and downloads all files in any of the user's directories.
+Home-page: https://github.com/ryanlovett/jupyter-tree-download
+Author: Ryan Lovett
+Author-email: rylo@berkeley.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Framework :: Jupyter
