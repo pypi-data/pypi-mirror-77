@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+dist/okdoodle-0.0.4-py3-none-any.whl
+dist/okdoodle-0.0.4.tar.gz
+src/okdoodle.py
+src/test_okdoodle.py
+src/okdoodle.egg-info/PKG-INFO
+src/okdoodle.egg-info/SOURCES.txt
+src/okdoodle.egg-info/dependency_links.txt
+src/okdoodle.egg-info/top_level.txt
