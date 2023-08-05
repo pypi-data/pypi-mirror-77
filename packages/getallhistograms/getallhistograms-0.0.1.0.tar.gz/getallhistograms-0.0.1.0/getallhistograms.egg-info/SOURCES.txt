@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+getallhistograms/__init__.py
+getallhistograms.egg-info/PKG-INFO
+getallhistograms.egg-info/SOURCES.txt
+getallhistograms.egg-info/dependency_links.txt
+getallhistograms.egg-info/requires.txt
+getallhistograms.egg-info/top_level.txt

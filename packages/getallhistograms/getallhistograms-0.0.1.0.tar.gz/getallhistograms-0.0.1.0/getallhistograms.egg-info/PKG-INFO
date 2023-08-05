@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: getallhistograms
+Version: 0.0.1.0
+Summary: data visualisation
+Home-page: UNKNOWN
+Author: Akash Sathe
+Author-email: akashsathe79@gmail.com
+License: MIT
+Description: This library is used to plot histograms for all columns at a time.
+        we just have to give one parameter which is our "dataframe"
+        for example,
+        your csv file name is "train.csv" ||
+        then your code will be ||
+        from getallhistograms import histograms ||
+        data=pd.read_csv("train.csv") ||
+        histograms(data) ||
+        we will get all histograms
+        
+        Change Log
+        ==========
+        
+        0.0.2 (21/08/2020)
+        -------------------
+        - First Release
+Keywords: histograms
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
