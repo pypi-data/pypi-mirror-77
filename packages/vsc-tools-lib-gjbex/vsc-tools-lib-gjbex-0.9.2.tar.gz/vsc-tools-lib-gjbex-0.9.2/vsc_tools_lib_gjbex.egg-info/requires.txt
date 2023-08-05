@@ -1,0 +1,2 @@
+fuzzywuzzy
+validate_email
