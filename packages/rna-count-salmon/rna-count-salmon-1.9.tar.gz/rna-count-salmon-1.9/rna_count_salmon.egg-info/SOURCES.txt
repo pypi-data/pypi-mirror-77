@@ -1,0 +1,13 @@
+README.md
+rna-count-salmon.py
+setup.py
+rna_count_salmon.egg-info/PKG-INFO
+rna_count_salmon.egg-info/SOURCES.txt
+rna_count_salmon.egg-info/dependency_links.txt
+rna_count_salmon.egg-info/not-zip-safe
+rna_count_salmon.egg-info/requires.txt
+rna_count_salmon.egg-info/top_level.txt
+scripts/__init__.py
+scripts/common_script_rna_count_salmon.py
+scripts/prepare_config.py
+scripts/prepare_design.py

@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: rna-count-salmon
+Version: 1.9
+Summary: rna-count-salmon is a pipeline written with  Snakemake that quantifies your RNA-Seq reads with Salmon, controls input quality with FastQC, and gathers qualities with MultiQC.
+Home-page: https://github.com/tdayris-perso/rna-count-salmon/wiki
+Author: Thibault Dayris
+Author-email: thibault.dayris@gustaveroussy.fr
+License: GPLv3
+Description: [![GitHub actions status](https://github.com/tdayris-perso/rna-count-salmon/workflows/CI/badge.svg?branch=master)](https://github.com/tdayris-perso/rna-count-salmon/actions?query=branch%3Amaster+workflow%3ACI)
+        
+        # Snakemake workflow: rna-count-salmon
+        
+        This is the [Snakemake](https://academic.oup.com/bioinformatics/article/28/19/2520/290322) workflow for RNA-Seq read count, powered by [Salmon](https://salmon.readthedocs.io/en/latest/). Optional quality controls are performed by [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) and aggregated by [MultiQC](https://academic.oup.com/bioinformatics/article/32/19/3047/2196507)
+        
+        Each tool belong to their respective authors.
+        
+        See [wiki](https://github.com/tdayris-perso/rna-count-salmon/wiki) for more information.
+        
+        ## Rule graph:
+        
+        ![Workflow](workflow.png)
+        
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
