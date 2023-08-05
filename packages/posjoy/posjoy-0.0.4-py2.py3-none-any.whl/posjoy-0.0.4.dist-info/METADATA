@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: posjoy
+Version: 0.0.4
+Summary: 量化研究常用函数
+Home-page: UNKNOWN
+Author: shangguanpeng
+Author-email: m15850599945@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: statsmodels
+Requires-Dist: scipy
+Requires-Dist: tables
+Requires-Dist: python-dateutil
+
+目录
+画图函数
+数据读取函数
+数据预处理函数
+模型函数
+量化指标计算
+因子测试框架
+
