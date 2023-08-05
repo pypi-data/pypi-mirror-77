@@ -1,0 +1,17 @@
+LICENCE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_potato_test.egg-info/PKG-INFO
+django_potato_test.egg-info/SOURCES.txt
+django_potato_test.egg-info/dependency_links.txt
+django_potato_test.egg-info/top_level.txt
+potato/__init__.py
+potato/admin.py
+potato/apps.py
+potato/models.py
+potato/tests.py
+potato/views.py
+potato/migrations/0001_initial.py
+potato/migrations/__init__.py
