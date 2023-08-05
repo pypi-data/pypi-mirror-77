@@ -1,0 +1,12 @@
+iobes/__init__.py,sha256=kVruOSUSUldoOPH0QrRAUgDRQZxLyybd_Ssh-0jCkt0,10662
+iobes/convert.py,sha256=mQak3G5CLoGbWYYOjjJtFJ27Gy5PF9Djo2OSEJWafWI,12634
+iobes/parse.py,sha256=-1JlUCkFcg2AfiLeA-BKLk4ctH1XtVIYbcjyTEyhcGs,19248
+iobes/transition.py,sha256=lW8qj5I7GOmiYrZLmfV55wy1zfVf-noF76My4_QM9TY,18432
+iobes/utils.py,sha256=69MGE8fvPQl2uYFkClE6U6XzLV2fHkKIgYM-7MUOPsY,1785
+iobes/write.py,sha256=aFp025S_XWG_MVDP2iVFIyqDaxommV9zEpnTRTUdMZ4,5279
+iobes-1.4.2.dist-info/LICENSE.txt,sha256=2SodeEmpbOh3XbpfFenAnNSqncHVc9KdFcgHLcwcL4U,1052
+iobes-1.4.2.dist-info/METADATA,sha256=fmnTEg6sTxcRwhWECQeWWtwaKWLVJeT4u6TsielKP2A,1338
+iobes-1.4.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+iobes-1.4.2.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+iobes-1.4.2.dist-info/top_level.txt,sha256=IJvXC4aQ3UGVsC3K0H8GFCMMDOEK64xgwrwXmZbr3bo,6
+iobes-1.4.2.dist-info/RECORD,,
