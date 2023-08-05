@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: tl4sm
+Version: 0.22
+Summary: This library performs transfer learning for time series classification between different data time series using a ConvLSTM2D auto-encoder architecture. Two transfer learning types are provided as options - fine-tuning a given number of layers, or re-using the pre-trained model weights as initialisation step. The output returns the f_score, accuracy, and training time.
+Home-page: https://github.com/nakessien/tl4sm
+Author: Aniekan Essien & Cinzia Giannetti
+Author-email: nakessien@outlook.com
+License: MIT
+Download-URL: https://github.com/nakessien/tl4sm/archive/0.22.tar.gz
+Description: UNKNOWN
+Keywords: Transfer Learning,Time Series Classification,ConvLSTM2D,Smart Manufacturing,Industry 4.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
