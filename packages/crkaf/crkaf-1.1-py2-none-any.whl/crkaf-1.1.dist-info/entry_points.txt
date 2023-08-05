@@ -1,0 +1,3 @@
+[console_scripts]
+crkaf = crkaf.__init__:haxxx
+
