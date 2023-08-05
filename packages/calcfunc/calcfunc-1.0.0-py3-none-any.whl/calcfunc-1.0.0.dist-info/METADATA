@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: calcfunc
+Version: 1.0.0
+Summary: simple calculate method
+Home-page: http://git.mom.comac.int
+Author: Way Yan
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpyscipyrequestjson
+
+long_description
+
+
