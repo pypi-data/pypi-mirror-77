@@ -1,0 +1,4 @@
+[console_scripts]
+jupyter-labhub = rubin_jupyter_utils.lab.rubinlapapp.labhubapp:main
+jupyter-rubinlab = rubin_jupyter_utils.lab.rubinlabapp.rubinlabapp:main
+

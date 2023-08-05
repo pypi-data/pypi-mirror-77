@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: rubin-jupyter-utils.lab
+Version: 0.10.0
+Summary: UNKNOWN
+Home-page: https://github.com/sqre-lsst/rubin-jupyter-lab
+Author: Adam Thornton
+Author-email: athornton@lsst.org
+License: MIT
+Description: # Utilities for Rubin Science Platform notebook aspect (user pod side)
+        
+Keywords: lsst
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
