@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: calciumflexanalysis
+Version: 1.0.0
+Summary: Processing and analysis of calcium flex assays
+Home-page: https://github.com/lawrencecollins/calciumflexanalysis
+Author: Lawrence Collins, Stuart Warriner
+Author-email: s.l.warriner@leeds.ac.uk, lawrencejordancollins@gmail.com
+License: UNKNOWN
+Description: # Calcium Flex Analysis #
+        
+        Read and interpret Calcium Flex assay data from well plates. 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
