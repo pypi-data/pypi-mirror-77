@@ -1,0 +1,7 @@
+README.rst
+setup.py
+is_computer_on/__init__.py
+is_computer_on.egg-info/PKG-INFO
+is_computer_on.egg-info/SOURCES.txt
+is_computer_on.egg-info/dependency_links.txt
+is_computer_on.egg-info/top_level.txt
