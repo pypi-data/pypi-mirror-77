@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rmops
+Version: 0.1.0
+Summary: Rmops Library
+Home-page: UNKNOWN
+Author: Allan Chepkoy, Cho, Clinton
+Author-email: allan.chepkoy@rakuten.com
+License: proprietary
+Platform: UNKNOWN
+Requires-Dist: pytest
+
+UNKNOWN
+
+
