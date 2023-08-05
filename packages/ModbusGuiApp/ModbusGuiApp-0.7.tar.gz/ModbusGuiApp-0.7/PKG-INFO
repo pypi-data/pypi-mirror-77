@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: ModbusGuiApp
+Version: 0.7
+Summary: ModbusGuiApplication.
+Home-page: UNKNOWN
+Author: Ivan Cindric
+Author-email: ivan.cindric95@example.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
