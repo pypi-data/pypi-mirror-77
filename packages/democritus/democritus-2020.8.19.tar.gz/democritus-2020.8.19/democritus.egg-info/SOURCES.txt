@@ -1,0 +1,16 @@
+CONTRIBUTING.rst
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+democritus/__init__.py
+democritus/democritus.py
+democritus.egg-info/PKG-INFO
+democritus.egg-info/SOURCES.txt
+democritus.egg-info/dependency_links.txt
+democritus.egg-info/top_level.txt
+democritus.egg-info/zip-safe
+tests/__init__.py
+tests/test_democritus.py
