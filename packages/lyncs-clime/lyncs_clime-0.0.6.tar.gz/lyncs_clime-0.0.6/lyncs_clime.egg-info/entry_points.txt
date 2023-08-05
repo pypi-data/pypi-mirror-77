@@ -1,0 +1,3 @@
+[console_scripts]
+lyncs_lime_content = lyncs_clime:reader.main
+
