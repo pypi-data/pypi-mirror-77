@@ -1,0 +1,5 @@
+pytz==2016.7
+signxml==2.8.0
+chardet==3.0.4
+tzlocal==2.1
+endesive==1.5.11
