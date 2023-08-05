@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: apoor
+Version: 0.0.1
+Summary: A small personal package written in Python with reusable code
+Home-page: https://github.com/a-poor/apoor
+Author: Austin Poor
+Author-email: a-poor@users.noreply.github.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# apoor
+
+_created by Austin Poor_
+
+A small personal package written in Python with reusable code. 
+
+
+
+
