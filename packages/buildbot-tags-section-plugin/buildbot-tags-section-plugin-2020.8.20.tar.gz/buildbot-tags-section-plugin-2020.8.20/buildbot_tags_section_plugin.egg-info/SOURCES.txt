@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+buildbot_tags_section_plugin/VERSION
+buildbot_tags_section_plugin/__init__.py
+buildbot_tags_section_plugin.egg-info/PKG-INFO
+buildbot_tags_section_plugin.egg-info/SOURCES.txt
+buildbot_tags_section_plugin.egg-info/dependency_links.txt
+buildbot_tags_section_plugin.egg-info/entry_points.txt
+buildbot_tags_section_plugin.egg-info/top_level.txt
+buildbot_tags_section_plugin/static/scripts.js
+buildbot_tags_section_plugin/static/scripts.js.map
+buildbot_tags_section_plugin/static/styles.css
+buildbot_tags_section_plugin/static/styles.css.map
