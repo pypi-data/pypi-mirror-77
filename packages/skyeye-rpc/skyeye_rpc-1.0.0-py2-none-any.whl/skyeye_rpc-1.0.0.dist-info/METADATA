@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: skyeye-rpc
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: msgpack
+Provides-Extra: grpc
+Requires-Dist: grpcio ; extra == 'grpc'
+Provides-Extra: redis
+Requires-Dist: redis ; extra == 'redis'
+
+UNKNOWN
+
+
