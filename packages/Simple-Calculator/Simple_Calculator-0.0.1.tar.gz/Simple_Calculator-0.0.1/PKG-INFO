@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: Simple_Calculator
+Version: 0.0.1
+Summary: A basic calculator which add, subtracts, multiplies and divides
+Home-page: UNKNOWN
+Author: Punyashlok
+Author-email: itsmathsmagic18@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
