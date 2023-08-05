@@ -1,0 +1,6 @@
+include pypiREADME.md
+include requirements.txt
+include osr2mp4app/options_config.json
+include osr2mp4app/ppoptions_config.json
+recursive-include osr2mp4app/res *
+recursive-include osr2mp4app/langs *

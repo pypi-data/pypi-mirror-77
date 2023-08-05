@@ -1,0 +1,6 @@
+autologging
+PyQt5
+psutil
+configparser
+osrparse
+osr2mp4>=0.0.4.a5
