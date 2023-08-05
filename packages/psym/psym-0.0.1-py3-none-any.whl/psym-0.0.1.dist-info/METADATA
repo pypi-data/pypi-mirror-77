@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: psym
+Version: 0.0.1
+Summary: Tool for accessing and modifying FBC Platform Inventory database
+Home-page: UNKNOWN
+Author: Facebook Inc.
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: graphql-core-next (>=1.0.0)
+Requires-Dist: tqdm (>=4.32.2)
+Requires-Dist: rx (==1.6.1)
+Requires-Dist: unicodecsv (>=0.14.1)
+Requires-Dist: requests (>=2.22.0)
+Requires-Dist: filetype (>=1.0.5)
+Requires-Dist: jsonschema
+Requires-Dist: pandas (>=0.24.2)
+Requires-Dist: xlsxwriter (>=1.1.8)
+Requires-Dist: xlrd (>=1.2.0)
+Requires-Dist: dataclasses (==0.6)
+Requires-Dist: dataclasses-json (==0.3.2)
+Requires-Dist: dacite (>=1.0.2)
+Requires-Dist: sphinx (>=3.1.2)
+Requires-Dist: sphinxcontrib-napoleon
+Requires-Dist: colorama (>=0.4.1)
+Requires-Dist: unittest-xml-reporting (>=2.5.2)
+Requires-Dist: grpcio (>=1.27.2)
+Requires-Dist: grpcio-tools (>=1.27.2)
+Requires-Dist: websocket-client (>=0.56.0)
+Requires-Dist: mypy
+Requires-Dist: black
+Requires-Dist: flake8
+
+UNKNOWN
+
+
