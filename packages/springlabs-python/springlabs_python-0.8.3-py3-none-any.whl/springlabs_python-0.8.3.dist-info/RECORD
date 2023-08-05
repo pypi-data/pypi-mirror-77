@@ -1,0 +1,11 @@
+springlabs_pypi/__init__.py,sha256=otnwfmvJLUamPajTPUaIekiO9mA-2HPi-_h_E0N-uOQ,22
+springlabs_pypi/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+springlabs_pypi/utils.py,sha256=leJI3URSVa9z__M8EB5YTSlWoE8XvRNh4OsvXRjL6Os,23729
+springlabs_pypi/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+springlabs_pypi/scripts/springlabs_python.py,sha256=5O-INtAP4-1HAJB0eWtvZFdcBwHMYQLvW5BuVhHZKXk,4677
+springlabs_python-0.8.3.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+springlabs_python-0.8.3.dist-info/METADATA,sha256=SgWI9g-1qoC5KuB9s3kGOCgW27VDAmnICkiexOL3KLk,5406
+springlabs_python-0.8.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+springlabs_python-0.8.3.dist-info/entry_points.txt,sha256=NkjrJ9BHT5ah1NR7ZMVQiDKmiZ1MH4xSaKpnOCBDvaQ,103
+springlabs_python-0.8.3.dist-info/top_level.txt,sha256=zNYk7PLp6RnwQrhUIjyIUY6LBB-zJObkIlqh4QA8QC0,16
+springlabs_python-0.8.3.dist-info/RECORD,,
