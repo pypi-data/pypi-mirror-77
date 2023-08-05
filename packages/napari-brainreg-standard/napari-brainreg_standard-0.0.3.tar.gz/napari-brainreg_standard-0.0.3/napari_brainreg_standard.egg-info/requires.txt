@@ -1,0 +1,2 @@
+napari-plugin-engine>=0.1.4
+tifffile>=2020.8.13

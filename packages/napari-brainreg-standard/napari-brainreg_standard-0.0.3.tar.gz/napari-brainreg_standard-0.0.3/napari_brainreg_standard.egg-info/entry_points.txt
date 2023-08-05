@@ -1,0 +1,3 @@
+[napari.plugin]
+brainreg_standard = napari_brainreg_standard
+
