@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: brainfrick-language
+Version: 0.1
+Summary: An Interpreter for the BrainFuck language.
+Home-page: UNKNOWN
+Author: Chris Oliver
+Author-email: chrisoliver345@gmail.com
+License: UNKNOWN
+Keywords: brainfuck,pypi,package,brainfrick,interpreter
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: pytest (==2.9.2)
+Requires-Dist: ply (==3.11)
+
+UNKNOWN
+
+
