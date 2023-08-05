@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: datrics
+Version: 0.0.1
+Summary: CLI for datrics.ai platform that allows you to create and manage custom bricks
+Home-page: https://github.com/datrics-ai/datrics-cli
+Author: Roman Malkevych
+Author-email: rm@datrics.ai
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==v2.24.0)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: cookiecutter (==1.7.2)
+
+# CLI help
+datrics --help
+
+# Authentication on Datrics user account
+datrics login
+
+# Projects on Datrics user account
+datrics projects
+
+# Create template brick
+datrics init
+
+# Create or update brick on Datrics user account
+datrics push
+
