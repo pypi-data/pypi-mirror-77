@@ -1,0 +1,11 @@
+setup.py
+paddock/__init__.py
+paddock/__version__.py
+paddock/client.py
+paddock/constants.py
+paddock/util.py
+paddock.egg-info/PKG-INFO
+paddock.egg-info/SOURCES.txt
+paddock.egg-info/dependency_links.txt
+paddock.egg-info/requires.txt
+paddock.egg-info/top_level.txt
