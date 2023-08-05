@@ -1,0 +1,29 @@
+# Output files
+*.pdf
+*.png
+*.xml
+
+# Build output
+*.egg-info/
+*.eggs/
+*build/
+.fuse_*
+/dist/
+
+# Python temporary files
+*.pyc
+.coverage
+.coverage.*
+.eggs/
+.ipynb_checkpoints/
+.mypy*/
+.pytest_cache/
+.tox/
+__pycache__/
+htmlcov/
+
+# Virtual environments
+/*venv/
+
+# Visual Studio Code
+**.code-workspace
