@@ -1,0 +1,12 @@
+aiopypixel/__init__.py,sha256=JAZHVTP4bITTyzin_3WCL7cQz_s8UjMkMCAFlXyFnnI,1169
+aiopypixel/client.py,sha256=zXwHHCvP3-S25D_PHkN08u2ykqP_B5sNI30hpCm2yGE,8259
+aiopypixel/exceptions/__init__.py,sha256=pdLdJqm8xxlO0dWJpmPc5xolKc2lUGfUHmaBx7LUKy4,1101
+aiopypixel/exceptions/exceptions.py,sha256=NrxXzXAVBJCawSknSLbOiWt_FP5Pl9EujYrmLBfaQB0,2230
+aiopypixel/models/__init__.py,sha256=pdLdJqm8xxlO0dWJpmPc5xolKc2lUGfUHmaBx7LUKy4,1101
+aiopypixel/models/guild.py,sha256=sT3_PY4gNsxlBPdhPo3iGawJR_kdE8KEJtWUrArCeEs,451
+aiopypixel/models/player.py,sha256=4G3ck8uZ_CJiO-xHuNADW-uxuPRfuVtqh7mFR6YLmGY,968
+aiopypixel-1.8.2.dist-info/LICENSE.txt,sha256=5W3wVK3RQ7EG15yTd1M365FIkRm30v0ZVkwYCP8Kw4A,1091
+aiopypixel-1.8.2.dist-info/METADATA,sha256=zOtCRqHK-rj2vTLiXKolqcw7lb4F-7MCSMPY_1MaK60,734
+aiopypixel-1.8.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+aiopypixel-1.8.2.dist-info/top_level.txt,sha256=tLVruJX000StMLmv7x4xGd1NUZFKynQlwtolSgqQyN0,11
+aiopypixel-1.8.2.dist-info/RECORD,,
