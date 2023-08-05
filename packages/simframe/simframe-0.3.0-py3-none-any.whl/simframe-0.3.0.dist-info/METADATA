@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: simframe
+Version: 0.3.0
+Summary: Framework for scientific simulations
+Home-page: https://github.com/stammler/simframe
+Author: Sebastian Stammler, Til Birnstiel
+Author-email: stammler@usm.lmu.de, til.birnstiel@lmu.de
+License: GPLv3
+Keywords: numerical,simulation,integration
+Platform: UNKNOWN
+Requires-Dist: dill
+Requires-Dist: h5py
+Requires-Dist: numpy
+Requires-Dist: pytest
+Requires-Dist: scipy
+
+UNKNOWN
+
+
