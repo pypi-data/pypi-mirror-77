@@ -1,0 +1,5 @@
+pandas>=0.22.0
+numpy>=1.18.2
+zarr
+xarray>=0.13.0
+pandas-market-calendars>=1.4.2
