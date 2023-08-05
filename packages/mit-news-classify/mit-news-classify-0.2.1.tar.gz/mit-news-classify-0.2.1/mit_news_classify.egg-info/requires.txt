@@ -1,0 +1,6 @@
+tensorflow
+sklearn
+gensim
+transformers
+torch
+numpy
