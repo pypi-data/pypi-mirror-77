@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: quickdataanalysis
+Version: 0.0.1
+Summary: Kick start your data analysis with these functions
+Home-page: https://github.com/Santhoshkumard11/quickdataanalysis
+Author: Santhoshkumard11
+Author-email: santhoshkdhana@gmail.com
+Maintainer: Santhoshkumard11
+License: MIT
+Description: # quick data analysis
+        This packages allows you to kick start your data analysis and make faster insights of the data.
+        
+        # Requirements
+        * pandas >=1.0.1
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown

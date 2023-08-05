@@ -1,0 +1,7 @@
+README.md
+setup.py
+quickdataanalysis.egg-info/PKG-INFO
+quickdataanalysis.egg-info/SOURCES.txt
+quickdataanalysis.egg-info/dependency_links.txt
+quickdataanalysis.egg-info/requires.txt
+quickdataanalysis.egg-info/top_level.txt
