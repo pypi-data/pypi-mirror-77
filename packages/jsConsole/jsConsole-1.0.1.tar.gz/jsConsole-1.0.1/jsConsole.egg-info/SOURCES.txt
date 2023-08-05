@@ -1,0 +1,8 @@
+README.md
+setup.py
+jsConsole/__init__.py
+jsConsole.egg-info/PKG-INFO
+jsConsole.egg-info/SOURCES.txt
+jsConsole.egg-info/dependency_links.txt
+jsConsole.egg-info/requires.txt
+jsConsole.egg-info/top_level.txt
