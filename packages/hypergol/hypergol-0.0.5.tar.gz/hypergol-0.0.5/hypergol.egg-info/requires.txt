@@ -1,0 +1,6 @@
+fire
+Jinja2
+GitPython
+numpy
+tensorflow
+tqdm
