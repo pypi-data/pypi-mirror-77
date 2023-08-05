@@ -1,0 +1,11 @@
+feedgenerator>=1.9
+jinja2>=2.11
+pygments
+docutils>=0.15
+pytz>=0a
+blinker
+unidecode
+python-dateutil
+
+[Markdown]
+markdown~=3.1.1
