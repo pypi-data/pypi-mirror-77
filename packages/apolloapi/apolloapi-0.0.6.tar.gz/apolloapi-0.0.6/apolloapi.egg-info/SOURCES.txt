@@ -1,0 +1,8 @@
+README.md
+setup.py
+apolloapi/ApolloClass.py
+apolloapi/config.py
+apolloapi.egg-info/PKG-INFO
+apolloapi.egg-info/SOURCES.txt
+apolloapi.egg-info/dependency_links.txt
+apolloapi.egg-info/top_level.txt
