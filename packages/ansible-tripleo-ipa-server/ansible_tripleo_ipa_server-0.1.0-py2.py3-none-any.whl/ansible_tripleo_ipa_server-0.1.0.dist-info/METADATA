@@ -1,0 +1,37 @@
+Metadata-Version: 2.0
+Name: ansible-tripleo-ipa-server
+Version: 0.1.0
+Summary: Ansible assets for configuring the FreeIPA server for TripleO.
+Home-page: https://opendev.org/x/ansible-tripleo-ipa-server
+Author: RedHat
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Utilities
+
+===========
+tripleo-ipa
+===========
+
+This repository contains Ansible for configuring the FreeIPA server for TripleO.
+
+Installation
+============
+
+.. code-block:: bash
+
+   $ pip install --prefix=/usr ansible-tripleo-ipa-server
+
+Or, if you are installing from source, in the project directory:
+
+.. code-block:: bash
+
+   $ python setup.py install --prefix=/usr
+
+
+

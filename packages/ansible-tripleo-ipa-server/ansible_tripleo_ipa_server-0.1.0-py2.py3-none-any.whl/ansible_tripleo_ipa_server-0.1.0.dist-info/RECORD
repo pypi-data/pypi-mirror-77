@@ -1,0 +1,11 @@
+ansible_tripleo_ipa_server-0.1.0.data/data/share/ansible/tripleo-playbooks/README.md,sha256=lL5c7NXYWJCJC_lDCsF3emem5QvDO587rikgwfBrE0s,2979
+ansible_tripleo_ipa_server-0.1.0.data/data/share/ansible/tripleo-playbooks/ipa-server-create-principal.yaml,sha256=SVM5w2vhOBYJgocutuoNQUzy4XrzUaNFaWqPVTA8e0I,2631
+ansible_tripleo_ipa_server-0.1.0.data/data/share/ansible/tripleo-playbooks/ipa-server-create-role.yaml,sha256=nTkxZg2chO1B9TKRgWiZhINPfRmVyYgmMK5AQ_lML1E,4714
+ansible_tripleo_ipa_server-0.1.0.data/data/share/ansible/tripleo-playbooks/ipa-server-register-undercloud.yaml,sha256=T2ki1NRVR5fT49Ib1vBYS4jvAhR-DEV3eWI-HgO1vtQ,2949
+ansible_tripleo_ipa_server-0.1.0.dist-info/DESCRIPTION.rst,sha256=KVcAiJRr_z9nzOAu61FnNOwRhqIF3DmbOPXe0T1FOFM,361
+ansible_tripleo_ipa_server-0.1.0.dist-info/METADATA,sha256=wgURZcuk6Lc-OdLk1lMac3o8qm6cfBEWCpuuh2JdJwU,928
+ansible_tripleo_ipa_server-0.1.0.dist-info/RECORD,,
+ansible_tripleo_ipa_server-0.1.0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+ansible_tripleo_ipa_server-0.1.0.dist-info/metadata.json,sha256=MBwOENPiDm5x7ndW_8tmq5Mqq2EPWNJRgj9QXs2Fn0k,799
+ansible_tripleo_ipa_server-0.1.0.dist-info/pbr.json,sha256=C_tk7Xk_gghIEMMMsYXiV234dgSoefjuUz6Jo_c0TNU,46
+ansible_tripleo_ipa_server-0.1.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
