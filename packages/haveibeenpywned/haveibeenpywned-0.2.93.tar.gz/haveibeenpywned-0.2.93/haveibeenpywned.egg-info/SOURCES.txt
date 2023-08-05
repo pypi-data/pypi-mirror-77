@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+haveibeenpywned/__init__.py
+haveibeenpywned/haveibeenpywned.py
+haveibeenpywned.egg-info/PKG-INFO
+haveibeenpywned.egg-info/SOURCES.txt
+haveibeenpywned.egg-info/dependency_links.txt
+haveibeenpywned.egg-info/requires.txt
+haveibeenpywned.egg-info/top_level.txt
