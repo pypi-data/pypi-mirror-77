@@ -1,0 +1,14 @@
+README.rst
+setup.cfg
+setup.py
+json2pyclass/__init__.py
+json2pyclass/json_pyclass_config.py
+json2pyclass/json_schema_parse.py
+json2pyclass/mainapp.py
+json2pyclass/types_writer.py
+json2pyclass.egg-info/PKG-INFO
+json2pyclass.egg-info/SOURCES.txt
+json2pyclass.egg-info/dependency_links.txt
+json2pyclass.egg-info/entry_points.txt
+json2pyclass.egg-info/requires.txt
+json2pyclass.egg-info/top_level.txt

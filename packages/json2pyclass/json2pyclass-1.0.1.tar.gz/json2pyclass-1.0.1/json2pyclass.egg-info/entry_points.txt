@@ -1,0 +1,3 @@
+[console_scripts]
+json2pyclass = json2pyclass.mainapp:main
+
