@@ -1,0 +1,3 @@
+[group]
+modbus_gui = modbus_gui_app.main
+
