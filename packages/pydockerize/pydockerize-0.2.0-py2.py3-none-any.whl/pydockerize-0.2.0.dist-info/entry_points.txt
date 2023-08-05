@@ -1,0 +1,4 @@
+[console_scripts]
+pd.docker_image_builder = pydockerize.build:main
+pd.initialize = pydockerize.initialize:main
+
