@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+randomouse/__init__.py
+randomouse/randomouse.py
+randomouse.egg-info/PKG-INFO
+randomouse.egg-info/SOURCES.txt
+randomouse.egg-info/dependency_links.txt
+randomouse.egg-info/requires.txt
+randomouse.egg-info/top_level.txt
