@@ -1,0 +1,9 @@
+graft src/collective
+graft docs
+include *.rst
+global-exclude *.pyc
+exclude .gitlab-ci.yml
+exclude .gitlint
+exclude .pre-commit-config.yaml
+include LICENSE.GPL
+include requirements.txt

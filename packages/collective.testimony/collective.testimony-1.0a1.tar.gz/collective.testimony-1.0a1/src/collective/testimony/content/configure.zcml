@@ -1,0 +1,24 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.testimony">
+
+  <browser:page
+    for=".testimony.ITestimony"
+    name="view"
+    class=".testimony.TestimonyView"
+    template="templates/testimony.pt"
+    permission="zope2.View"
+    layer="..interfaces.ICollectiveTestimonyLayer"
+    />
+
+  <adapter name="is_video" factory=".testimony.testimony_url" />
+
+  <adapter name="is_text" factory=".testimony.testimony_textual_testimony" />
+
+  <adapter name="SearchableText" factory=".testimony.searchabletext_testimony"/>
+
+</configure>

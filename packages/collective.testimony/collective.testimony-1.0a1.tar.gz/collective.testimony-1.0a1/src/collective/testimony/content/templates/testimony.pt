@@ -1,0 +1,38 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="collective.testimony">
+    <body>
+        <metal:main fill-slot="main">
+        <div class="content-block">
+            <div class="content-block-container">
+                <div class="content-block-container-background">
+                    <div class="content-block-body"
+                         tal:define="title context/title;
+                         textual context/textual_testimony;
+                         video_transcript context/video_transcript">
+                        <h1 tal:content="title"></h1>
+                        <div class="textual-testimony" tal:condition="textual">
+                            <div class="textual-testimony-text" tal:content="structure textual/output"></div>
+                            <div class="textual-testimony-infos">
+                                <span tal:content="context/first_name"></span><span tal:condition="context/age">, <span tal:content="context/age"></span> ans</span>
+                            </div>
+                            <div class="textual-testimony-function"
+                               tal:condition="context/displayed_function"
+                               tal:content="context/displayed_function"></div>
+                        </div>
+                        <div class="video" tal:replace="structure view/get_embed_link"></div>
+                        <div class="video-transcript" tal:condition="video_transcript">
+                            <h2>Retranscription de la vidéo</h2>
+                            <div tal:content="structure video_transcript/output"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </metal:main>
+    </body>
+</html>

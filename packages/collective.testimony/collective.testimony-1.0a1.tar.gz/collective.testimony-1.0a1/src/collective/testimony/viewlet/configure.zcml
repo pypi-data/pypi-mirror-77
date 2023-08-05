@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:i18n="http://namespaces.zope.org/i18n">
+
+<!--    <browser:viewlet-->
+<!--        name="testimonyviewlet"-->
+<!--        manager="plone.app.layout.viewlets.interfaces.IBelowContent"-->
+<!--        class=".testimony.TestimonyViewlet"-->
+<!--        permission="zope.Public"-->
+<!--        layer="collective.testimony.interfaces.ICollectiveTestimonyLayer"-->
+<!--        />-->
+
+</configure>

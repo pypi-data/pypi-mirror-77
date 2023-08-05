@@ -1,0 +1,30 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xml:lang="en"
+      lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      i18n:domain="plone">
+      <body>
+       <tal:block condition="view/available">
+        <div tal:define="data view/get_value;
+                         video_url data/video_url;
+                         function data/function;
+                         video_description data/video_description;"
+             class="video-testimony">
+            <div class="video-testimony-content">
+                <div class="video-testimony-video">
+                    <div tal:replace="structure python: view.get_embed_link(video_url)"></div>
+                </div>
+                <div class="video-testimony-text">
+                    <h2>Témoignages</h2>
+                    <ul>
+                        <li tal:content="function"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="video-testimony-transcript"
+                 tal:condition="video_description"
+                 tal:content="structure video_description/output"></div>
+        </div>
+       </tal:block>
+      </body>
+</html>

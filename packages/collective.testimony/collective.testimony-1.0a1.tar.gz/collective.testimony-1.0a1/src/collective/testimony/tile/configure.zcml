@@ -1,0 +1,32 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="apef.bilan.core">
+
+  <plone:tile
+    name="plone.app.standardtiles.testimony_video"
+    title="Testimony_Video"
+    template="templates/videotile.pt"
+    class=".testimonytile.VideoTile"
+    add_permission = 'cmf.ModifyPortalContent'
+    permission="zope2.View"
+    for="*"
+    layer="..interfaces.ICollectiveTestimonyMosaicLayer"
+  />
+
+  <plone:tile
+    name="plone.app.standardtiles.testimony_textual"
+    title="Testimony_Text"
+    template="templates/textualtile.pt"
+    class=".testimonytile.TextualTile"
+    add_permission = 'cmf.ModifyPortalContent'
+    permission="zope2.View"
+    for="*"
+    layer="..interfaces.ICollectiveTestimonyMosaicLayer"
+  />
+
+
+
+</configure>

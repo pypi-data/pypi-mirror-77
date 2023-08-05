@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<registry>
+<!-- -*- extra stuff goes here -*- -->
+
+  <records prefix="plone.app.mosaic.app_tiles.textual_tile"
+           interface="plone.app.mosaic.interfaces.ITile">
+    <value key="name">plone.app.standardtiles.testimony_textual</value>
+    <value key="label">Testimony Textual</value>
+    <value key="category">advanced</value>
+    <value key="tile_type">app</value>
+    <value key="default_value"></value>
+    <value key="read_only">false</value>
+    <value key="settings">true</value>
+    <value key="favorite">false</value>
+    <value key="rich_text">false</value>
+    <value key="weight">100</value>
+  </records>
+
+  <records prefix="plone.app.mosaic.app_tiles.video_tile"
+           interface="plone.app.mosaic.interfaces.ITile">
+    <value key="name">plone.app.standardtiles.testimony_video</value>
+    <value key="label">Testimony Video</value>
+    <value key="category">advanced</value>
+    <value key="tile_type">app</value>
+    <value key="default_value"></value>
+    <value key="read_only">false</value>
+    <value key="settings">true</value>
+    <value key="favorite">false</value>
+    <value key="rich_text">false</value>
+    <value key="weight">100</value>
+  </records>
+
+</registry>
