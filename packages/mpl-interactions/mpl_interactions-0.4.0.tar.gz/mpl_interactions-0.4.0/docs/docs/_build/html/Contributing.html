@@ -1,0 +1,330 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Contributing &mdash; mpl-interactions 0.3.0.-dev documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  <link rel="stylesheet" href="_static/jupyter-sphinx.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Compare Slices of 2D Arrays" href="examples/heatmap-slicer.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> mpl-interactions
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Installation.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Installation.html#user-install">User install</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Installation.html#jupyterlab-setup">Jupyterlab setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Installation.html#development-installation">Development Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Backends.html">Matplotlib Backends</a></li>
+<li class="toctree-l1"><a class="reference internal" href="API.html">API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="API.html#jupyter">Jupyter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="API.html#generic">Generic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="API.html#utilities">Utilities</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Examples.html">Examples</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="examples/jupyter-notebooks.html">Control Plots with Sliders</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="examples/jupyter-notebooks.html#simple-example">Simple Example</a></li>
+<li class="toctree-l3"><a class="reference internal" href="examples/jupyter-notebooks.html#other-ways-to-set-parameter-values">Other ways to set parameter values</a></li>
+<li class="toctree-l3"><a class="reference internal" href="examples/jupyter-notebooks.html#multiple-functions">Multiple Functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="examples/jupyter-notebooks.html#styling">Styling</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="examples/jupyter-notebooks.html#slider-precision">Slider Precision</a></li>
+<li class="toctree-l4"><a class="reference internal" href="examples/jupyter-notebooks.html#axis-limits">Axis limits</a></li>
+<li class="toctree-l4"><a class="reference internal" href="examples/jupyter-notebooks.html#reference-parameter-values-in-the-title">Reference parameter values in the Title</a></li>
+<li class="toctree-l4"><a class="reference internal" href="examples/jupyter-notebooks.html#matplolitb-keyword-arguments">Matplolitb keyword arguments</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="examples/heatmap-slicer.html">Compare Slices of 2D Arrays</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="examples/heatmap-slicer.html#options">Options</a></li>
+<li class="toctree-l3"><a class="reference internal" href="examples/heatmap-slicer.html#potential-improvements">Potential Improvements</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Contributing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#code-improvements">Code Improvements</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#seeing-your-changes">Seeing your changes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#working-with-git">Working with Git</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#documentation">Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#autobuild-the-documentation">Autobuild the documentation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">mpl-interactions</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Contributing</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/Contributing.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast,
+.nboutput.nblast {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast + .nbinput {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+</style>
+<div class="section" id="contributing">
+<h1>Contributing<a class="headerlink" href="#contributing" title="Permalink to this headline">¶</a></h1>
+<p>Thanks for thinking of a way to help improve this library! Remember that contributions come in all
+shapes and sizes beyond writing bug fixes. Contributing documentation or opening new <a class="reference external" href="https://github.com/ianhi/mpl-interactions/issues">issues</a> for bugs, clarification on things you
+found unclear, and requesting new features are all super valuable contributions.</p>
+<div class="section" id="code-improvements">
+<h2>Code Improvements<a class="headerlink" href="#code-improvements" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="seeing-your-changes">
+<h3>Seeing your changes<a class="headerlink" href="#seeing-your-changes" title="Permalink to this headline">¶</a></h3>
+<p>If you are working in a Jupyter notebook then in order to be able to see your code changes you will either need to restart
+the Kernel every time you make a change to the code. Or you make the function be reloaded from the source file every time you run it
+using <a class="reference external" href="https://ipython.readthedocs.io/en/stable/config/extensions/autoreload.html">autoreload</a>.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="n">load_ext</span> <span class="n">autoreload</span>
+<span class="o">%</span><span class="n">autoreload</span> <span class="mi">2</span>
+
+<span class="kn">from</span> <span class="nn">mpl_interactions</span> <span class="kn">import</span> <span class="o">....</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="working-with-git">
+<h3>Working with Git<a class="headerlink" href="#working-with-git" title="Permalink to this headline">¶</a></h3>
+<p>Using Git/Github can confusing (<a class="reference external" href="https://xkcd.com/1597/">https://xkcd.com/1597/</a>) so if you’re new to Git you may find
+it helpful to use a program like <a class="reference external" href="desktop.github.com">Github Desktop</a> as well as to follow
+a <a class="reference external" href="https://github.com/firstcontributions/first-contributions#first-contributions">guide</a>.</p>
+<p>Also feel free to ask for help/advice on the relevant Github <a class="reference external" href="https://github.com/ianhi/mpl-interactions/issues">issue</a>.</p>
+</div>
+</div>
+<div class="section" id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
+<p>Building the documentation:</p>
+<p>First make sure you have installed the requirements for building the documentation</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install -e.<span class="o">[</span>docs<span class="o">]</span>
+</pre></div>
+</div>
+<p>Then run the following commands</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span> docs
+make html
+</pre></div>
+</div>
+<p>If you open the <code class="docutils literal notranslate"><span class="pre">index.html</span></code> file in your browser then you should now be able to see the rendered documentation.</p>
+<div class="section" id="autobuild-the-documentation">
+<h3>Autobuild the documentation<a class="headerlink" href="#autobuild-the-documentation" title="Permalink to this headline">¶</a></h3>
+<p>You can also use <a class="reference external" href="https://github.com/GaretJax/sphinx-autobuild">sphinx-autobuild</a> to continuously watch the documentation for changes and rebuild it for you.
+sphinx-autobuild will be installed automatically by the above <code class="docutils literal notranslate"><span class="pre">pip</span></code> command so all you need to do is:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span> docs
+sphinx-autobuild . _build/html -B
+</pre></div>
+</div>
+<p>and then in a few seconds your webbrowser should open up the documentation. Then whenever you save a file
+the documentation will automatically regenerate and the webpage should even refresh for you!</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="examples/heatmap-slicer.html" class="btn btn-neutral float-left" title="Compare Slices of 2D Arrays" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Ian Hunt-Isaak
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
