@@ -1,0 +1,13 @@
+sphinx<4,>=2
+pygments
+
+[code_style]
+pre-commit==2.6
+
+[testing]
+coverage
+pytest<4,>=3.6
+pytest-cov
+pygments
+lxml
+sphinx_testing
