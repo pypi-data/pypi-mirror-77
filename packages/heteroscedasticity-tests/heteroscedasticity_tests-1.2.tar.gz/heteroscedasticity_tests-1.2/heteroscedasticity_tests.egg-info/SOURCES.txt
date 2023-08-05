@@ -1,0 +1,9 @@
+setup.py
+heteroscedasticity_tests/Glejser_test.py
+heteroscedasticity_tests/Heteroscedasticity_test_general.py
+heteroscedasticity_tests/Park_test.py
+heteroscedasticity_tests/__init__.py
+heteroscedasticity_tests.egg-info/PKG-INFO
+heteroscedasticity_tests.egg-info/SOURCES.txt
+heteroscedasticity_tests.egg-info/dependency_links.txt
+heteroscedasticity_tests.egg-info/top_level.txt
