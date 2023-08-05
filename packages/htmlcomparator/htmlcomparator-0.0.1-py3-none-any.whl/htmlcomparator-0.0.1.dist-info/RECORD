@@ -1,0 +1,8 @@
+htmlcomparator/__init__.py,sha256=CiWd2oLHsUMxLwLrIW6jRQ0nPKRgzqzAT7VquxIcKMQ,31
+htmlcomparator/html_comparator.py,sha256=O4vepudoaJBRZTlEXOexYIB1uYPwEBHJHoAc7HyDzPA,7376
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_parse.py,sha256=RM15CBQEe0EIOcX5W-hE-DrrtjXeqOe766FGb_hA_oA,6269
+htmlcomparator-0.0.1.dist-info/METADATA,sha256=Gu7nWfidrAKiGYotnCBYSVlvCnDmZBq8eSUCZUM6Uo8,1605
+htmlcomparator-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+htmlcomparator-0.0.1.dist-info/top_level.txt,sha256=Mb39wnGR4eQg7bVT9BlhZ3X5ypJjevVrsOHSmhkIE5E,21
+htmlcomparator-0.0.1.dist-info/RECORD,,
