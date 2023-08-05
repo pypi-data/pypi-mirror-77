@@ -1,0 +1,11 @@
+README.md
+setup.py
+pycodesync/__init__.py
+pycodesync/__main__.py
+pycodesync/core.py
+pycodesync.egg-info/PKG-INFO
+pycodesync.egg-info/SOURCES.txt
+pycodesync.egg-info/dependency_links.txt
+pycodesync.egg-info/entry_points.txt
+pycodesync.egg-info/requires.txt
+pycodesync.egg-info/top_level.txt
