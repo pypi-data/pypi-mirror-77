@@ -1,0 +1,8 @@
+tqdm
+opencv-python
+PyYAML
+shapely
+
+[:python_version >= "3.4"]
+typeguard
+visualdl>=2.0.0b
