@@ -1,0 +1,8 @@
+datasette_graphql/__init__.py,sha256=iRAF3KdLFkXBMt00jyfRrfcMdx9PKBxkLGSMBDRHerc,4349
+datasette_graphql/utils.py,sha256=m_YxeHlVERvKhMcQ9gae3yrHeETK24kndAZFmFwxqiQ,19434
+datasette_graphql/templates/graphiql.html,sha256=-5eGCISCq8apnTuOZYh_AxbrZ12OTw-ICghXKYOS0bA,3132
+datasette_graphql-0.13.dist-info/METADATA,sha256=T0a5XtB0S-TF4BxGfxE13jvxMvYB_IioYP_fqSMo_Hk,10726
+datasette_graphql-0.13.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+datasette_graphql-0.13.dist-info/entry_points.txt,sha256=yInu_in9yPlaJLt8nX-uvtZB0N1Ucn0IJkmpmH018oQ,41
+datasette_graphql-0.13.dist-info/top_level.txt,sha256=DWVSOb1HtfJf2UW340dYC8WrUGZTbwpIqvfOahnsTz4,18
+datasette_graphql-0.13.dist-info/RECORD,,
