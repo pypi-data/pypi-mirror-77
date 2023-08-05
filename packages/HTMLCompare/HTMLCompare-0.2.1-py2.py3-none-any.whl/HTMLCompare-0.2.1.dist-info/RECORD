@@ -1,0 +1,13 @@
+htmlcompare/__init__.py,sha256=CY9awR-jYWbdife2nAD36Jjwdtpe8bTehtEL_jYr7eU,50
+htmlcompare/compare.py,sha256=BLPCLHJOowdk76-0ihtxTsXjOBYSI72kfSHab5KyKno,3486
+htmlcompare/testutils.py,sha256=6yScfgAmXPYwqDMJ7wAa5CG9AUAndVM_Z0u57jCmo0I,1540
+htmlcompare/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+htmlcompare/tests/basic_test.py,sha256=IBvNQ6XuHwpNvT1-GYHdvW3oGDYy7Qbx134kAlTmMjk,2083
+htmlcompare/tests/comments_test.py,sha256=yyixYvzZDTW347szMdJFmB3gqyQNo1fDMWAf6M_FbFg,767
+htmlcompare/tests/html_test.py,sha256=rHbOJZl6m9dlyGK_8wDrL1etLLfD_-sNGDBCfMw4IGg,777
+HTMLCompare-0.2.1.dist-info/LICENSE.txt,sha256=548oOCrCNqQty8Fsqqry522lXdxnBTqLyzqr38ct-cw,1040
+HTMLCompare-0.2.1.dist-info/METADATA,sha256=jupj0vFPtib6WzqZ2NNWGcQykwAxf6d-bewcjJLHfKE,3343
+HTMLCompare-0.2.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+HTMLCompare-0.2.1.dist-info/top_level.txt,sha256=bJ7_jQtfL2vA5OQanx6QGB_exQ16gcj5VfEu22INw_U,12
+HTMLCompare-0.2.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+HTMLCompare-0.2.1.dist-info/RECORD,,
