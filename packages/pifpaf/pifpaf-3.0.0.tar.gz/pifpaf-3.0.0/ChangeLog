@@ -1,0 +1,155 @@
+CHANGES
+=======
+
+3.0.0
+-----
+
+* Add Python 3.7 and 3.8 to classifier
+* Fix import ordering
+* Remove Python 2.x support and six
+* Fix zookeeper driver
+* Disable aodh for py27 too
+* Tidy up tox.ini and update kafka
+* Fix tests and add recent Python releases
+
+2.6.0
+-----
+
+* Try to fix PEP8 again
+* Various fixes
+* Add a driver for httpbin
+* Update README.rst : Fix typo access
+* fix: log info, not error when command is ready
+
+2.5.0
+-----
+
+* Fixes flake8 warning and adds missing comma
+* Apply suggestions from code review
+* Add TLS params to memcached
+* Add ceph-manager support
+* Add Ceph config options for small disks
+
+2.4.0
+-----
+
+* Ensure everything is terminated before exiting
+
+2.3.0
+-----
+
+* qdrouterd: fix connector host address
+* new kafka URL
+
+2.2.2
+-----
+
+* postgresql: fix encoding of pgctl path
+
+2.2.1
+-----
+
+* stdin expecting bytes instead of str
+
+2.2.0
+-----
+
+* Implements apache qpid-dispatch-router driver
+* tests: switch to kafka 1.0.2
+* postgresql: add a --sync/--no-sync option
+* Update to Mergify v2
+* gnocchi: fix escape sequence
+* Remove Python 3.5 support
+* pep8: disable W503 and W504
+* Implements apache artemis driver
+
+2.1.2
+-----
+
+* Setup 2 partitions per topic
+* pep8: enable flake8-logging-format
+* fix py3 flake8 error
+* gnocchi: Don't install outdated version
+* tests: Remove s3srv testing
+* ceph: Allow to delete pool
+* Add .mergify.yml
+
+2.1.1
+-----
+
+* Remove print statement
+
+2.1.0
+-----
+
+* ceph: allow to run luminuous
+
+2.0.7
+-----
+
+* Fix pep8 in test\_cli
+* Fix command not found error in Python 3
+
+2.0.6
+-----
+
+* make gnocchi use given port
+
+2.0.5
+-----
+
+* Fix s3rver for latest version
+
+2.0.4
+-----
+
+* Revert "wait the pifpaf process termination in fork mode"
+
+2.0.3
+-----
+
+* Use last ceph lts
+* gnocchi: use gnocchi-api binary when possible
+* wait the pifpaf process termination in fork mode
+
+2.0.2
+-----
+
+* Fix exception handling
+* swift: use all needed workers
+
+2.0.1
+-----
+
+* Fix exit code not being propagated
+
+2.0.0
+-----
+
+* Replace cliff by click
+
+1.12.1
+------
+
+* Set the Cliff namespace
+
+1.12.0
+------
+
+* Wait logging thread and close the fd
+* Use psutil to cleanup process
+* Fix travis CI
+
+1.11.4
+------
+
+* swift: use 127.0.0.1 instead of localhost for memcached
+
+1.11.3
+------
+
+* gnocchi: run 4 api processes
+
+1.11.2
+------
+
