@@ -1,0 +1,11 @@
+name: pydaymet
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - setuptools
+  - pip
+  - lxml
+  - pip:
+    - git+https://github.com/cheginit/py3dep.git
+
