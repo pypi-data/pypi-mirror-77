@@ -1,0 +1,8 @@
+dehyphen/__init__.py,sha256=Ms2wVzntGaCZ1JNkysHNSNj3kcNWNfEsHhiNlEpFebw,169
+dehyphen/dehyphen.py,sha256=h3MsxZl6MlmtF_PLp-ba4JXYim-SMZhhNjexWb2nByc,3601
+dehyphen/format.py,sha256=nAyuDu3zzurO1CaAy3dZQmxiDeabOUq0r3abxXZ0P_4,1318
+dehyphen/scorer.py,sha256=psB_-MIzh5bwcKzz5ZZQHq0-GOHwcaK-QSOgXOHbY7Q,1310
+dehyphen-0.3.0.dist-info/LICENSE,sha256=tJcYF1YSD-_FyFg65CVgiSXhfDmo0rIS3NRPnfUBLw8,35077
+dehyphen-0.3.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+dehyphen-0.3.0.dist-info/METADATA,sha256=bp9LKrtjJyezmTQSn7P2nVn70weBIzqV7I22SzQh_CM,7847
+dehyphen-0.3.0.dist-info/RECORD,,
