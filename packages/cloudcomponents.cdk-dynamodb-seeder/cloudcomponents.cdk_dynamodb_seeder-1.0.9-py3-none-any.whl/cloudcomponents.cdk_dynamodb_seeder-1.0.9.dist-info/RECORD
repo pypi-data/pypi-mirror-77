@@ -1,0 +1,8 @@
+cloudcomponents/cdk_dynamodb_seeder/__init__.py,sha256=Qhj7H5cSDxWzxVQNsqpcyxJwcpWcxmyGit7jF9S1CFU,18704
+cloudcomponents/cdk_dynamodb_seeder/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cloudcomponents/cdk_dynamodb_seeder/_jsii/__init__.py,sha256=AqRDL2I0_3RKCBJPoQ-f6PQLdyM6xDqOPVBYd2SIbBw,526
+cloudcomponents/cdk_dynamodb_seeder/_jsii/cdk-dynamodb-seeder@1.0.9.jsii.tgz,sha256=KEYAKp0gbi9Dm4Zv96YaxWkJ8T2fx7u30uvdmPGlmfQ,25359
+cloudcomponents.cdk_dynamodb_seeder-1.0.9.dist-info/METADATA,sha256=5IUhBTbVgKpIY_TVdSYRCH2TWLcwgdXyEu2-CSOlpI0,4043
+cloudcomponents.cdk_dynamodb_seeder-1.0.9.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cloudcomponents.cdk_dynamodb_seeder-1.0.9.dist-info/top_level.txt,sha256=B4EWas985OPzDPLZgw2jcOsscXpuQJyowJnB5pl9rpQ,16
+cloudcomponents.cdk_dynamodb_seeder-1.0.9.dist-info/RECORD,,
