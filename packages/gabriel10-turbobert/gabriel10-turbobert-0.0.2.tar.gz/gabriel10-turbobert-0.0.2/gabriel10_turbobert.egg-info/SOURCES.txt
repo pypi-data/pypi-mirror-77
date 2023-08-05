@@ -1,0 +1,8 @@
+README.md
+setup.py
+gabriel10/__init__.py
+gabriel10_turbobert.egg-info/PKG-INFO
+gabriel10_turbobert.egg-info/SOURCES.txt
+gabriel10_turbobert.egg-info/dependency_links.txt
+gabriel10_turbobert.egg-info/requires.txt
+gabriel10_turbobert.egg-info/top_level.txt
