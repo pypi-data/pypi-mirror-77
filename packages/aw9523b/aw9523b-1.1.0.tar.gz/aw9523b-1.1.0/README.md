@@ -1,0 +1,65 @@
+# Example
+
+### Input
+
+```
+from AW9523B import EX_GPIO,Port0,Port1
+
+fiveWaySwitch = [Port1.PIN7, Port1.PIN6, Port1.PIN5, Port1.PIN4,
+                 Port0.PIN7, Port1.PIN0, Port1.PIN1, Port1.PIN2, Port1.PIN3, Port0.PIN0]
+key = ["A2", "B2", "C2", "OK2", "D2", "A1", "OK1", "B1", "C1", "D1"]
+
+for pin in fiveWaySwitch:
+    EX_GPIO.setup(pin, EX_GPIO.INPUT)
+
+if __name__ == "__main__":
+    import time
+    import RPi.GPIO as GPIO
+
+    def my_callback(channel):
+        pin = EX_GPIO.readInput()
+        if pin:
+            # print("my_callback",pin)
+            for x in range(len(fiveWaySwitch)):
+                if fiveWaySwitch[x] is pin:
+                    print("key:", key[x])
+                    break
+
+    aw9523Int = 27
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(aw9523Int, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+    GPIO.add_event_detect(aw9523Int, GPIO.FALLING, callback=my_callback)
+    EX_GPIO.readInput()
+    while 1:
+        try:
+            time.sleep(1)
+        except KeyboardInterrupt as e:
+            GPIO.cleanup()
+            break
+
+```
+
+### OUTPUT
+
+```
+from AW9523B import EX_GPIO,Port0
+import time
+
+led1 = Port0.PIN5
+led2 = Port0.PIN6
+
+EX_GPIO.setup(led1, EX_GPIO.OUTPUT)
+EX_GPIO.setup(led2, EX_GPIO.OUTPUT)
+
+
+
+if __name__ == "__main__":
+    while 1:
+        time.sleep(5)
+        EX_GPIO.output(led1,EX_GPIO.HIGH)
+        EX_GPIO.output(led2,EX_GPIO.LOW)
+        time.sleep(5)
+        EX_GPIO.output(led1,EX_GPIO.LOW)
+        EX_GPIO.output(led2,EX_GPIO.HIGH)
+
+```
