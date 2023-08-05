@@ -1,0 +1,14 @@
+wcf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wcf/packages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wcf/packages/resnet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wcf/packages/resnet/dataset.py,sha256=dcKJhR09mo1HoxSmogrjrUTc1A4KSDJF1WUiVoFdUAo,3432
+wcf/packages/resnet/network.py,sha256=UzG4xXkqD-Xi4kz84on8HHXXECL5UdP9kr9vm0mboeo,822
+wcf/packages/resnet/predict.py,sha256=CdLZsC3gxFbQMSRW63nyr7iVRCWZWBlVQ_V7jiD8CEw,2163
+wcf/packages/resnet/resnets.py,sha256=UMRxBTQla_bHiw9sOPSQduhQPsJhiVepiKEJnBze3Y0,13574
+wcf/packages/resnet/training.py,sha256=j5-cj45RZdZSW1JHHCweRYgVkO3XuEPcdcCeB1b1Ovc,8723
+wk_classify-0.0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+wk_classify-0.0.0.1.dist-info/METADATA,sha256=NvXG6Qu7X6aZv1cxF2286UHaWzqPT0X6-RyVjqCiI7Y,2032
+wk_classify-0.0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wk_classify-0.0.0.1.dist-info/entry_points.txt,sha256=fT4tQcpfu-h44xgMbMb7Ieg-9hh8n2Cou5wqIwFZ9cs,47
+wk_classify-0.0.0.1.dist-info/top_level.txt,sha256=ligcaJoFfmwzgdgiNIY98Aieos204BbiHEeyZ4-ZiMI,4
+wk_classify-0.0.0.1.dist-info/RECORD,,
