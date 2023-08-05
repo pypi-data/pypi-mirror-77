@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+ipybbycell.egg-info/PKG-INFO
+ipybbycell.egg-info/SOURCES.txt
+ipybbycell.egg-info/dependency_links.txt
+ipybbycell.egg-info/not-zip-safe
+ipybbycell.egg-info/top_level.txt
+ipybbycell/static/main.js
+jupyter-config/jupyter_notebook_config.d/ipybbycell.json
