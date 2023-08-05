@@ -1,0 +1,3 @@
+[console_scripts]
+p8 = p8.cli:main
+
