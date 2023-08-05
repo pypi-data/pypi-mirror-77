@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: amundsen-databuilder
+Version: 3.0.1rc2
+Summary: Amundsen Data builder
+Home-page: https://www.github.com/lyft/amundsendatabuilder
+Maintainer: Lyft
+Maintainer-email: amundsen-dev@lyft.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*
+Provides-Extra: glue
+Provides-Extra: cassandra
+Provides-Extra: kafka
+Provides-Extra: snowflake
+Provides-Extra: jsonpath
+Provides-Extra: bigquery
+Provides-Extra: all
+Provides-Extra: druid
+Provides-Extra: db2
+Provides-Extra: athena
