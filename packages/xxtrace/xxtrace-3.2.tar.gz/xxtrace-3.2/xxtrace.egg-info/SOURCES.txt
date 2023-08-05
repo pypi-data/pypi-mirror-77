@@ -1,0 +1,7 @@
+setup.py
+xxtrace/__init__.py
+xxtrace.egg-info/PKG-INFO
+xxtrace.egg-info/SOURCES.txt
+xxtrace.egg-info/dependency_links.txt
+xxtrace.egg-info/not-zip-safe
+xxtrace.egg-info/top_level.txt
