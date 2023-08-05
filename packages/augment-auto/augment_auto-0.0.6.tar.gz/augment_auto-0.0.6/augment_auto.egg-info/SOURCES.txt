@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+augment/__init__.py
+augment/geometric.py
+augment/kernel_based.py
+augment/photometric.py
+augment_auto.egg-info/PKG-INFO
+augment_auto.egg-info/SOURCES.txt
+augment_auto.egg-info/dependency_links.txt
+augment_auto.egg-info/requires.txt
+augment_auto.egg-info/top_level.txt
