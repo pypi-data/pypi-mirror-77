@@ -1,0 +1,11 @@
+README.md
+setup.py
+PyBetterGitUp/__init__.py
+PyBetterGitUp/__main__.py
+PyBetterGitUp/bgitup.py
+PyBetterGitUp.egg-info/PKG-INFO
+PyBetterGitUp.egg-info/SOURCES.txt
+PyBetterGitUp.egg-info/dependency_links.txt
+PyBetterGitUp.egg-info/entry_points.txt
+PyBetterGitUp.egg-info/requires.txt
+PyBetterGitUp.egg-info/top_level.txt
