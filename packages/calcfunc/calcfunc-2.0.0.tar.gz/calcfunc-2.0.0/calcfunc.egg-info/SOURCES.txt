@@ -1,0 +1,7 @@
+setup.py
+calcfunc/Func.py
+calcfunc/__init__.py
+calcfunc.egg-info/PKG-INFO
+calcfunc.egg-info/SOURCES.txt
+calcfunc.egg-info/dependency_links.txt
+calcfunc.egg-info/top_level.txt
