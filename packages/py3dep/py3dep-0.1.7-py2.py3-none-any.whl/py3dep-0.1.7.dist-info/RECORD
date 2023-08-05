@@ -1,0 +1,10 @@
+py3dep/__init__.py,sha256=zxjtCqvPIWzfAINtwBLqFjq3uZwCscVZpE-CYSEf704,400
+py3dep/exceptions.py,sha256=2V-y5eSB56L_Wz4THjw3TFeXsZJkwE9fLshR4CQPjRM,760
+py3dep/print_versions.py,sha256=Phd_r1_qkHqnM-5x7PkjuB3h17mFh6vr7LeN3GlpLWM,5063
+py3dep/py3dep.py,sha256=v7xcvhT8__uP-IfG_z8ssccr4sDLOyGxDQABKKADeCM,8144
+py3dep-0.1.7.dist-info/AUTHORS.rst,sha256=FAneYiHTTZuEAtX7AvBFFp5_QesoMSH0cUAt3tirVYQ,157
+py3dep-0.1.7.dist-info/LICENSE,sha256=EM87NgYgabO0a_E-z2nmbsrxomXdI5BDCgmomVDvLsE,1096
+py3dep-0.1.7.dist-info/METADATA,sha256=h8da6y3e3mDuaZTytGKZr7n8W4j19wnvCgz7ZGcYQtE,8004
+py3dep-0.1.7.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+py3dep-0.1.7.dist-info/top_level.txt,sha256=TzPuiZkru8g045R2tihSvKGhPa8fn-5QKh_t4EgUCN4,7
+py3dep-0.1.7.dist-info/RECORD,,
