@@ -1,0 +1,78 @@
+
+Upload to Nexus, Upload files to hooks, Modify version number, Sync to GitLab type repository
+
+Installation
+============
+You can download and install the latest version of this software from the Python package index (PyPI) as follows::
+
+    pip install --upgrade artify
+
+Usage
+=====
+    python -m artify --help=
+
+    python -m artify --command <command> [Options]
+or
+    python -m artify -c <command> [Options]
+
+
+Params
+
+    command     nexus, syncrepo, deploy, deltav
+
+Upload to Nexus
+===============
+
+    python -m artify -c nexus -f <format> -n <artifact_name> -h <nexus_repository_base_url>
+
+Params
+    format &nbsp; &nbsp; &nbsp; &nbsp; Nexus upload format. Types supported: raw, npm, maven
+
+Deploy App using custom AWX host
+================================
+
+    python -m artify -c deploy -f <manifest_file.yml> -h <awx_host>
+
+Change Package version
+======================
+
+Artify uses semantic version 2.0.
+
+`python -m artify -c deltav -t patch -a npm`
+
+**Params**
+-a, --archtype &nbsp; &nbsp; &nbsp; &nbsp; npm, gradle, flutter
+
+-t, --type &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; major, minor, patch
+
+Push changes to GitLab repository
+=================================
+## Recommendation: You can create a feature branch, then perform your code changes before pushing changes to remote
+    python -m artify -c syncrepo -m <message> -b 
+
+**Params**
+ -c, --message &nbsp; &nbsp; &nbsp; &nbsp; Commit message
+ -b, --branch &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Optional, by default, it will push to 'develop' branch
+
+## Environment variables need
+**PRIVATE_TOKEN**, popularly known as personal access token is needed to perform the push. This can be created by following this guide:
+[Creating a personal access token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)
+
+N.B A commit is performed automatically followed by a push
+
+Generate Template files
+=======================
+
+## Generate template .gitlab-ci.yml file
+`python -m artify -c create -f gitlabci` 
+
+## Geneate template manifest.yml file
+`python -m artify -c create -f manifest`
+
+**Params**
+-f, --file &nbsp; &nbsp; &nbsp; &nbsp; File template to generate
+
+**Supported files**
+- .gitlab-ci.yml
+- manifest.yml
+
