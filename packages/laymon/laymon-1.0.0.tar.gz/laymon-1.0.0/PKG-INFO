@@ -1,0 +1,80 @@
+Metadata-Version: 1.2
+Name: laymon
+Version: 1.0.0
+Summary: A python based package used to visualize the feature maps/ layers of a neural network
+Home-page: https://github.com/shubham3121/laymon
+Author: Shubham Gupta
+Author-email: shubhamgupta3121@gmail.com
+License: MIT license
+Description: ========
+        PyLaymon
+        ========
+        
+        
+        .. image:: https://img.shields.io/pypi/v/laymon.svg
+                :target: https://pypi.python.org/pypi/laymon
+        
+        .. image:: https://readthedocs.org/projects/laymon/badge/?version=latest
+                :target: https://laymon.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        A package for monitoring and visualizing the layers of a neural network. The motivation behind the project was to provide a tool that can help developers provide a better insight into the different layers of a neural network during the training process. Currently, the package provides the functionality to observe and envision the feature maps of a neural network. For more information refer to the documentation.
+        
+        Requirements
+        ------------
+        
+        * pytorch
+        * matplotlib
+        
+        Installation
+        ------------
+        
+        * Installation: ``pip install laymon``
+        
+        For more details on installation, usage and contribution refer to the documentation.
+        
+        * Documentation: https://laymon.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * Visualizing feature maps
+        
+        .. image:: art/FeatureMapMonitoring.gif
+        
+        
+        Credits
+        -------
+        
+        The boilerplate for this package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        1.0.0 (2020-08-21)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: laymon
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
