@@ -1,0 +1,9 @@
+asciimatics>=1.11.0
+Click>=7.0
+pyfiglet==0.8.post1
+
+[dev]
+Sphinx>=2.2.1
+asciimatics>=1.11.0
+Click>=7.0
+pyfiglet==0.8.post1
