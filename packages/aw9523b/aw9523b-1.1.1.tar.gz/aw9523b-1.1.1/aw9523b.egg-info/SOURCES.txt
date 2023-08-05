@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+AW9523B/AW9523B.py
+AW9523B/__init__.py
+aw9523b.egg-info/PKG-INFO
+aw9523b.egg-info/SOURCES.txt
+aw9523b.egg-info/dependency_links.txt
+aw9523b.egg-info/requires.txt
+aw9523b.egg-info/top_level.txt
+tests/test_input.py
+tests/test_output.py
