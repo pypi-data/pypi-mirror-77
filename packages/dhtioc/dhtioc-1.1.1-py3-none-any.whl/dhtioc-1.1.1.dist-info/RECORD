@@ -1,0 +1,15 @@
+dhtioc/StatsReg.py,sha256=9vzRjmITZrvNQfFE8FspmsaO3j0LuNqTMcd5vSvg4OI,12538
+dhtioc/__init__.py,sha256=lFEh8P1cN_nqQ0HYT2rIIWbeXi-3L4lZnjA71M6QWV4,2455
+dhtioc/_requirements.py,sha256=DwKlz3LfSGpXIf4o-7yjbgz0CsXa99p1vllKOAkSKB4,1206
+dhtioc/_version.py,sha256=_yrdH4EbRfutslukEHAGfGZ6o6s8EIKlgTvT-49MK0M,497
+dhtioc/datalogger.py,sha256=nWP12JkuUcUZAxlMa9ZKukliQ06m5RaVhBV0vo2jQVA,3766
+dhtioc/ioc.py,sha256=dYIeXrXGLEu9yMmyPT5zLvWHMkT-373IkCkurR-HJgk,6910
+dhtioc/reader.py,sha256=mQfj59LpfZODfFy8z9KMleNgEiWwY4-l24PJFPPIrt4,2769
+dhtioc/trend_analysis.py,sha256=pLdus5n2cIhFUy0hF-IhXXq0Rw99NjKlW9DrMxGA0hY,1829
+dhtioc/utils.py,sha256=D1YROO0UMQDG38lZcXlK-5Z0bZnNp1IOLE5Olxw4AIU,987
+dhtioc-1.1.1.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+dhtioc-1.1.1.dist-info/METADATA,sha256=PYMU_X1ZSeRobjqYr0XAl5hre-x-m8uHNddukJvTg80,1641
+dhtioc-1.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dhtioc-1.1.1.dist-info/entry_points.txt,sha256=Dfu3taeLeMZJ2d6IwmVfVI5CHkhzBUEA4XBJoklLL8o,44
+dhtioc-1.1.1.dist-info/top_level.txt,sha256=7Fr32tdPs-bblwCdmlXQJ39kvO1xZO3BlMeZTz7TsTY,7
+dhtioc-1.1.1.dist-info/RECORD,,
