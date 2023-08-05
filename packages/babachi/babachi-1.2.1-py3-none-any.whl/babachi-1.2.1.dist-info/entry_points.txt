@@ -1,0 +1,3 @@
+[console_scripts]
+babachi = package.BADEstimation:segmentation_start
+

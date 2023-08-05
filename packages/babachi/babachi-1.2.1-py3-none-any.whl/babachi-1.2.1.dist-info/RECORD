@@ -1,0 +1,11 @@
+package/BADEstimation.py,sha256=QmwmyPCXHHj2RPBao1cjtdOxmH6cg87fEdc1C3A9S8I,31969
+package/__init__.py,sha256=SvzWsP202oECke6RQEmC9hP5eeI9W11GnVKLnCdboe4,42
+package/helpers.py,sha256=V4fATQq9kz5cS9rCedwUxxW7VlkDXwuRhmdw5dBllkc,1813
+package/visualize_segmentation.py,sha256=zRjjC0eKQxNI_qT52oJF_u9LgThnpzEtxjwfRE85pnw,6044
+package/tests/test.tsv,sha256=ogb8P94Pvmdcfs_RgMbgWUU42knttjfPuBi4a01TaHg,1076991
+babachi-1.2.1.dist-info/LICENSE.txt,sha256=jFJegHvqQe5BvQOJuHK7iCyPq5TZnId6mS5ouakwDJY,1682
+babachi-1.2.1.dist-info/METADATA,sha256=OFuFnH3QPMChwTOTdOmmOCLhKCvSavpWdzx-Nnof14o,1680
+babachi-1.2.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+babachi-1.2.1.dist-info/entry_points.txt,sha256=WHvAYotAFfWh-7HKezq3y_4H6I5fA6vFMCnDtDKNHHE,70
+babachi-1.2.1.dist-info/top_level.txt,sha256=TpQW7893uEAT8mPh-QCMZWhhKYvlqryC9Fjm5Hxg2f8,8
+babachi-1.2.1.dist-info/RECORD,,
