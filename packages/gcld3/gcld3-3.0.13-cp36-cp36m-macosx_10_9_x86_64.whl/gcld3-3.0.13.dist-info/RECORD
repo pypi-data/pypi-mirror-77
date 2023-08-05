@@ -1,0 +1,8 @@
+gcld3/__init__.py,sha256=9DDt8m8ER4viCJAfv69O87Q4vZZUnyrTghY1ENenS0g,26
+gcld3/pybind_ext.cpython-36m-darwin.so,sha256=mBA0QTL-QMN0WPq4lF2aKcWxgbryUoe_SAPvaHgOx8I,1065516
+gcld3/.dylibs/libprotobuf.23.dylib,sha256=sLtmBq_K_XS5fAu1jtsdfB4GsOLe8RwIkZzDV1vl7l8,2351192
+gcld3-3.0.13.dist-info/RECORD,,
+gcld3-3.0.13.dist-info/LICENSE,sha256=wtE-w7QxYXvrMUcFwPQtF8pXnu0AAy7YoT280j_JvdU,11392
+gcld3-3.0.13.dist-info/WHEEL,sha256=lSU0w45QqfDJHTuhFZouPsIyI-GSJHfRV-2E-9aUKe4,110
+gcld3-3.0.13.dist-info/top_level.txt,sha256=xZsuxAdOYf-mPtMmkUJpnatxSN-YzYz8RgrvaYvKDVc,6
+gcld3-3.0.13.dist-info/METADATA,sha256=jW0rhjRlZh2WHz-7fHqEdxprAUQjIWu2qfCgFL6F8_4,427
