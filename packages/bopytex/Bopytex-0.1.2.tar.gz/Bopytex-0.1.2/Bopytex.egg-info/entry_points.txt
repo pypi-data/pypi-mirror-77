@@ -1,0 +1,3 @@
+[console_scripts]
+bopytex = bopytex.script:new
+

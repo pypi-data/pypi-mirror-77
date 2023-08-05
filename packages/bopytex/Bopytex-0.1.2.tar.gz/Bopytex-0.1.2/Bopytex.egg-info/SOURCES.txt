@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+Bopytex.egg-info/PKG-INFO
+Bopytex.egg-info/SOURCES.txt
+Bopytex.egg-info/dependency_links.txt
+Bopytex.egg-info/entry_points.txt
+Bopytex.egg-info/requires.txt
+Bopytex.egg-info/top_level.txt
+bopytex/__init__.py
+bopytex/bopytex.py
+bopytex/filters.py
+bopytex/script.py
+documentation/source/index.rst
+documentation/source/snippets.rst
+documentation/source/tutorial.rst
+test/test_bopytex.py
