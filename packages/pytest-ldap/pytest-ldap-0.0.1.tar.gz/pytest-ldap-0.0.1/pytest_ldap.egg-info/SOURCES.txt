@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+pytest_ldap/__init__.py
+pytest_ldap.egg-info/PKG-INFO
+pytest_ldap.egg-info/SOURCES.txt
+pytest_ldap.egg-info/dependency_links.txt
+pytest_ldap.egg-info/entry_points.txt
+pytest_ldap.egg-info/not-zip-safe
+pytest_ldap.egg-info/requires.txt
+pytest_ldap.egg-info/top_level.txt
