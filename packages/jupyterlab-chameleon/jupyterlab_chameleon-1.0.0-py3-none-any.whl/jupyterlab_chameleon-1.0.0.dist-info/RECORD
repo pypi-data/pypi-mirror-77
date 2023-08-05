@@ -1,0 +1,17 @@
+hydra_kernel/__init__.py,sha256=ZvWm3yi2AM--3Y0wWgjSEUSaPhcyK7b6hH71O4F0xmg,45
+hydra_kernel/__main__.py,sha256=5TC5qvOxqXj69LRNEilkFlHH58oWbyhDo8BzR1u0r6Y,132
+hydra_kernel/binding.py,sha256=Az8UXS3Sdg5Cv7ByVcZPRGpsSEFVQI5u3Sw6etpRU5E,779
+hydra_kernel/install.py,sha256=-e0Trimivb4QXqzal6b0fU0jbe6KSkYWzSYP3QrwAEQ,1879
+hydra_kernel/kernel.py,sha256=UBTU8UOVpvOs-DC_Eml1BWb2D5KSXDF6t5XlY09ud7U,6543
+hydra_kernel/magics.py,sha256=Hx9aatkzVwaCePSUJifyDorG7ouKmo4B-whpWXeI9s4,539
+jupyterlab_chameleon/__init__.py,sha256=eAYFVL6FLcj-hnO-TfDsvZy4CzJKkIeDQ_YcS5ygi60,897
+jupyterlab_chameleon/exception.py,sha256=FtnOwRrUjBbd1MvMRe8__Q_vWQlhnsnUQ19cfuRoNKM,47
+jupyterlab_chameleon/package_artifact.py,sha256=H8g7IthxleLCTjVgTccSD64t5dp4Q8ygWxSW8LxBVPg,6843
+jupyterlab_chameleon/util.py,sha256=-jNQR_eljHUgD5UgVw_mjm9MQWkvzXiIyLwuOQL-Xpc,1174
+jupyterlab_chameleon/extensions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyterlab_chameleon/extensions/bash_kernel.py,sha256=XEzaHOuAXB3yyoN22DeeUuHCQdc8joQAiPdqs-0X1q8,381
+jupyterlab_chameleon-1.0.0.dist-info/METADATA,sha256=yAqIoKO-7Aq0bKKcEzGqJ-qMWrySyzVLWe4-zyokN4M,913
+jupyterlab_chameleon-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+jupyterlab_chameleon-1.0.0.dist-info/entry_points.txt,sha256=MpiDMu6rlQubaFCUxY7GzvE0hWbF0CYikegwQHbYvFE,114
+jupyterlab_chameleon-1.0.0.dist-info/top_level.txt,sha256=eiNCtVmaFPuoell9eiNR1PVvQGPLxHXAlLzmxQ4qFCQ,34
+jupyterlab_chameleon-1.0.0.dist-info/RECORD,,
