@@ -1,0 +1,5 @@
+pdfrw==0.4
+defusedxml==0.6.0
+beautifulsoup4==4.9.1
+wkhtmltopdf==0.2
+pdfkit==0.6.1
