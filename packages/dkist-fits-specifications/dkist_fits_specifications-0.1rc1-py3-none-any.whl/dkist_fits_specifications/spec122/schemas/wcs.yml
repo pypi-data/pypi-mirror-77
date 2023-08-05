@@ -1,0 +1,105 @@
+spec122:
+  section: wcs
+---
+WCSAXES:
+  required: false
+  type: int
+WCSAXESA:
+  required: false
+  type: int
+WCSNAME:
+  required: false
+  type: str
+WCSNAMEA:
+  required: false
+  type: str
+CRPIXn:
+  required: false
+  type: float
+CRPIXnA:
+  required: false
+  type: float
+CRDATEn:
+  required: false
+  type: str
+  format: isot
+CRDATEnA:
+  required: false
+  type: str
+  format: isot
+CRVALn:
+  required: false
+  type: float
+CRVALnA:
+  required: false
+  type: float
+CDELTn:
+  required: false
+  type: float
+CDELTnA:
+  required: false
+  type: float
+CUNITn:
+  required: false
+  type: str
+CUNITnA:
+  required: false
+  type: str
+CTYPEn:
+  required: false
+  type: str
+CTYPEnA:
+  required: false
+  type: str
+PCi_j:
+  required: false
+  type: float
+PCi_jA:
+  required: false
+  type: float
+LONPOLE:
+  required: false
+  type: float
+LONPOLEA:
+  required: false
+  type: float
+LATPOLE:
+  required: false
+  type: float
+LATPOLEA:
+  required: false
+  type: float
+TAZIMUTH:
+  required: false
+  type: float
+TELEVATN:
+  required: false
+  type: float
+TELTRACK:
+  required: false
+  type: str
+  values:
+    - "None"
+    - "Fixed Solar Rotation Tracking"
+    - "Standard Differential Rotation Tracking"
+    - "Custom Differential Rotation Tracking"
+TELSCAN:
+  required: false
+  type: str
+  values:
+    - "None"
+    - "Random"
+    - "Raster"
+    - "Spiral"
+TTBLANGL:
+  required: false
+  type: float
+TTBLTRCK:
+  required: false
+  type: str
+  values:
+    - "stepped parallactic"
+    - "parallactic"
+    - "fixed angle on Sun"
+    - "fixed difference angle"
+    - "fixed coude table angle"
