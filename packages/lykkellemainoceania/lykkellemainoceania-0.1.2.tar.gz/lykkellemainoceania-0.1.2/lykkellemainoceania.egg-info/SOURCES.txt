@@ -1,0 +1,10 @@
+README.md
+setup.py
+lykkellemainoceania/__init__.py
+lykkellemainoceania/healthcheckasia1.py
+lykkellemainoceania/maincalculationprogeodasia1.py
+lykkellemainoceania/mainmasterprogeodasia1.py
+lykkellemainoceania.egg-info/PKG-INFO
+lykkellemainoceania.egg-info/SOURCES.txt
+lykkellemainoceania.egg-info/dependency_links.txt
+lykkellemainoceania.egg-info/top_level.txt
