@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: heteroscedasticity_tests
+Version: 1.0
+Summary: Tests for heteroscedasticity, Park and Glejser
+Home-page: UNKNOWN
+Author: Inga Kuznetsova
+Author-email: kuzn137@gmail.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description:  Tests for heteroscedasticity, Park and Glejser
+Platform: UNKNOWN
