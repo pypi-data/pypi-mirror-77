@@ -1,0 +1,15 @@
+safire/__init__.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+safire/creds/.gitignore,sha256=Wf_sIPWppHrkBiH24ogDa2y0ymZMRP-cKPMqSPTOTiQ,73
+safire/creds/.keep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+safire/data/.gitignore,sha256=Wf_sIPWppHrkBiH24ogDa2y0ymZMRP-cKPMqSPTOTiQ,73
+safire/data/.keep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+safire/default_config.py,sha256=_vmueU1owYQS2Bbo3VTf11t07fXAUsNybJQoY7hmAxk,2162
+safire/safire.py,sha256=aZA-yHkGs0gmtoBDYIrUx50hRWy9FoYbOyWyCr8tdtU,28380
+safire/safire_ip.py,sha256=TCrKCLUZ7rlUDqUbl9heEsML-5tC9bk3Z1VNlvGNOHo,43799
+safire/svcaccts/.gitignore,sha256=Wf_sIPWppHrkBiH24ogDa2y0ymZMRP-cKPMqSPTOTiQ,73
+safire/svcaccts/.keep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+safire/utils.py,sha256=LU30jZOmPwm8cM87MkBtcE4YfTG41romOjiPqu1XMis,7311
+safire-0.2.1.dist-info/entry_points.txt,sha256=FmM6bGLl9agMXglCCzcDZCUlH4fYUBu5TKfmfTQJ4jQ,45
+safire-0.2.1.dist-info/WHEEL,sha256=jM75OLmO0bF2QZxXmlw3A-IE58epFjnoGYhyw7ywvsc,85
+safire-0.2.1.dist-info/METADATA,sha256=tUHXFsa3-suSCU42HB6VW_neOafQWUb5mZ2MhZ00l7w,13285
+safire-0.2.1.dist-info/RECORD,,
