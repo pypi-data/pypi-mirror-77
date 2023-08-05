@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: qnq
+Version: 0.1.2
+Summary: qnq's not quantization
+Home-page: https://git.zwdong.com/zhiwei.dong/techart-quantize-toolkit.git
+Author: Zhiwei Dong
+Author-email: dongz666@outlook.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: tqdm
+Requires-Dist: numpy
+
+
+# QNQ -- qnq's not quantization
+
+- Program:
+  - This tool is for TecArt algorithm team to quantize their custom neural network's pre-trained model.
+- License:
+  - GPL v3
+- Operator supported
+  - Convolution Layers
+    - Conv1d, Conv2d, Conv3d
+  - Pooling Layers
+    - MaxPool
+
+
