@@ -1,0 +1,11 @@
+QATRADER/__init__.py,sha256=a4EAjXCqjGaoUuyLJ4nvxfidOiIbFnlEo6J638Ats6Q,1142
+QATRADER/setting.py,sha256=UQk-P4TVa2ODeAwg1spsLH1dm-14JGc9noLn_bDFsmI,1321
+QATRADER/trader.py,sha256=HJ9ehACaVka59hoc9Rfmn9itNyx33k5Ktzj67t8w7BI,18433
+QATRADER/util.py,sha256=kH0mBCaUNrWjRkXO8JudhdEdbiopTgPI0GaQMxWuNhU,1648
+QATRADER/webhandler.py,sha256=n5CU8QWRKCv5mef28PAfZ7lXSpUNrzMSipmo7gLN_So,21869
+QATRADER-1.5.dist-info/METADATA,sha256=BKmMQ_kGX7rsF83_yy72QjigLvPQywsNJxMGvUsj0f0,642
+QATRADER-1.5.dist-info/RECORD,,
+QATRADER-1.5.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+QATRADER-1.5.dist-info/entry_points.txt,sha256=pQ92p_ZSqUWvOT_rhg5sGEl_u4fNIcPwAVZPE-sFTmw,108
+QATRADER-1.5.dist-info/top_level.txt,sha256=UwLfiu9q3CKAbNxUj1cM--PEVtMF9I8Fm6R2ST1K-Wg,9
+QATRADER-1.5.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
