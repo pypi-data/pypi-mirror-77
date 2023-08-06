@@ -1,0 +1,8 @@
+README.md
+setup.py
+hamidpdf/__init__.py
+hamidpdf/pdf2text.py
+hamidpdf.egg-info/PKG-INFO
+hamidpdf.egg-info/SOURCES.txt
+hamidpdf.egg-info/dependency_links.txt
+hamidpdf.egg-info/top_level.txt
