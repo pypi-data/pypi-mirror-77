@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: typedsch
+Version: 0.0.0
+Summary: 
+Author: iyanging
+Author-email: iyanging@163.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
