@@ -1,0 +1,9 @@
+License.txt
+MANIFEST.in
+Readme.txt
+setup.py
+is_even_aast/_init__.py
+iseven_aast.egg-info/PKG-INFO
+iseven_aast.egg-info/SOURCES.txt
+iseven_aast.egg-info/dependency_links.txt
+iseven_aast.egg-info/top_level.txt
