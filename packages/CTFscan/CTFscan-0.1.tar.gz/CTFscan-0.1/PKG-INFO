@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: CTFscan
+Version: 0.1
+Summary: web scan for ctfer.
+Home-page: https://github.com/p7e4/CTFscan
+Author: p7e4
+Author-email: p7e4@qq.com
+License: Apache 2.0
+Description: # CTFscan
+        web scan for ctfer.
+        
+        ## install
+        `pip install ctfscan`  
+          
+        ## use
+        `ctfscan http://www.baidu.com`
+          
+          
+          
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
