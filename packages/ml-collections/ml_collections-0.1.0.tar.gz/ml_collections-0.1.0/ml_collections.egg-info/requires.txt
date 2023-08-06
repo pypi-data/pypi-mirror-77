@@ -1,0 +1,7 @@
+absl-py
+PyYAML
+six
+contextlib2
+
+[:python_version < "3.5"]
+typing
