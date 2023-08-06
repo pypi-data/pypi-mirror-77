@@ -1,0 +1,15 @@
+annotateonline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+annotateonline/__main__.py,sha256=QMnW-iebzQZONCzoMGWEj8q1xXP7PYtyn8CxQ3k-tzU,1660
+annotateonline/image_upload/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+annotateonline/image_upload/start.py,sha256=w_UmAjPhM9fzzYDpHzOPtYcZ2dlNRWv4wPEfIpdVT9w,3171
+annotateonline/pre_annotation_upload/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+annotateonline/pre_annotation_upload/coco_convert.py,sha256=koYc66OE1CECREqrA81__QMhthJjBH9BUxaNwJATXbM,3234
+annotateonline/pre_annotation_upload/pixel_convert.py,sha256=IAbLy-03DHTxGX5IaNk3VbhU6aS0Fc3arlSRAG7wtsI,4289
+annotateonline/pre_annotation_upload/start.py,sha256=Q8TSj9EsiEFmtOD7KrwP3aYH92-lLlvGLAXom3if4tg,4694
+annotateonline-0.1.17.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+annotateonline-0.1.17.dist-info/METADATA,sha256=NWzpQ30zslh0-ZHVwRTRweJm3AO3dSPM0oCU3RaqTaU,400
+annotateonline-0.1.17.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+annotateonline-0.1.17.dist-info/dependency_links.txt,sha256=RiHMnaQMa_JdV9Rzq6lL-J8jg8TO1SQyhDMRUb1xGog,47
+annotateonline-0.1.17.dist-info/entry_points.txt,sha256=2SL2GkWpSYzh9_SYkR0_otQJ1eqATGFimk5qeqLBnUE,65
+annotateonline-0.1.17.dist-info/top_level.txt,sha256=UIMKtAiv9vRQ7VvJfc4eEu3PZWdRStelbzwhBxPZ8VY,15
+annotateonline-0.1.17.dist-info/RECORD,,
