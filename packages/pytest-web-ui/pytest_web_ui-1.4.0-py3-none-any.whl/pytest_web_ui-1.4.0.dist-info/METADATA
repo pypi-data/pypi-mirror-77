@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pytest-web-ui
+Version: 1.4.0
+Summary: An interactive web UI test runner for PyTest
+Home-page: https://github.com/ryanc414/pytest_web_ui
+Author: Ryan Collingham
+Author-email: ryanc118@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 7 - Inactive
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pytest-commander
+
+PyTest Web UI
+-------------
+
+# DEPRECATED
+
+Please migrate to the pytest_commander project which obsoletes pytest_web_ui:
+
+```
+pip uninstall pytest-web-ui
+pip install pytest-commander
+```
+
+See: https://pypi.org/project/pytest-commander/
+
+
