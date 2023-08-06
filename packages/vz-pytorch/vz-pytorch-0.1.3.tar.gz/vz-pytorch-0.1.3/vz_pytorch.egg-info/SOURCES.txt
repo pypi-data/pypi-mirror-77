@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+vz_pytorch.egg-info/PKG-INFO
+vz_pytorch.egg-info/SOURCES.txt
+vz_pytorch.egg-info/dependency_links.txt
+vz_pytorch.egg-info/not-zip-safe
+vz_pytorch.egg-info/requires.txt
+vz_pytorch.egg-info/top_level.txt
+vzpytorch/__init__.py
+vzpytorch/graph.py
+vzpytorch/special_functions.py
