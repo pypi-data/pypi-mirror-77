@@ -1,0 +1,7 @@
+flask_softdeletes/__init__.py,sha256=u8n10XQ28NvTlYVmN72KsWB6Rp3zkBqecRerdwRL1_o,156
+flask_softdeletes/model.py,sha256=PdeWnpI_pqjpNwyqRnfP2xpdK7HfGsF9BsnMgujc1NY,565
+flask_softdeletes/query.py,sha256=cjMDqIm_8C2DP87O1ud7mXEMLv4AgUc81PaXvYUSHkA,1052
+Flask_SoftDeletes-1.0.0.dist-info/METADATA,sha256=ge7G78mH1ypqdA0mVZKZ93Z_Ih8bP1Ufj7mroJGjRxQ,669
+Flask_SoftDeletes-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+Flask_SoftDeletes-1.0.0.dist-info/top_level.txt,sha256=A1ArcPwWDp1oZeJg0nShx8WyBgQTr9GSSO5WBAoZ-wk,18
+Flask_SoftDeletes-1.0.0.dist-info/RECORD,,
