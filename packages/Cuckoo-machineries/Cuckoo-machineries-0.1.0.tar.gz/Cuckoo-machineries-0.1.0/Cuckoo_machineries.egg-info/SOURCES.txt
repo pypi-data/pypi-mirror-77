@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+Cuckoo_machineries.egg-info/PKG-INFO
+Cuckoo_machineries.egg-info/SOURCES.txt
+Cuckoo_machineries.egg-info/dependency_links.txt
+Cuckoo_machineries.egg-info/not-zip-safe
+Cuckoo_machineries.egg-info/requires.txt
+Cuckoo_machineries.egg-info/top_level.txt
+cuckoo/machineries/__init__.py
+cuckoo/machineries/modules/__init__.py
