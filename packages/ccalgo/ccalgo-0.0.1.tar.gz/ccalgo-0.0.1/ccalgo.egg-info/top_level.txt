@@ -1,0 +1,7 @@
+Backtracking
+Dynamic Programming
+Graph
+Greedy
+Stack
+String
+Tree
