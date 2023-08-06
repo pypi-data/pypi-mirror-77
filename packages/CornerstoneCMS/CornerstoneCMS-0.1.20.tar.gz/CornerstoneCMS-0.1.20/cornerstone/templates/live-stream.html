@@ -1,0 +1,64 @@
+{% extends theme('base.html') %}
+{% block content %}
+<style>
+.video-container {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+}
+.video-container iframe,
+.video-container video,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+<article class="container live-stream">
+    <div class="row clearfix">
+        <div class="col-md-12">
+            <p>{{stream_general|safe}}</p>
+            {% if current_stream %}
+            <h3>Current Live Stream</h3>
+            <div class="mb-3 text-right">
+                <a href="https://www.youtube.com/watch?v={{current_stream.video_id}}" class="btn btn-primary"><i class="fab fa-youtube"></i> Watch on YouTube</a>
+            </div>
+            <div class="video-container clearfix">
+                <iframe width="540" height="315" src="https://www.youtube.com/embed/{{current_stream.video_id}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            {% elif next_stream %}
+            <h3>Next Live Stream</h3>
+            <p>{{stream_before|safe}}</p>
+            <div class="mb-3 text-right">
+                <a href="https://www.youtube.com/watch?v={{next_stream.video_id}}" class="btn btn-primary"><i class="fab fa-youtube"></i> Watch on YouTube</a>
+            </div>
+            <div class="video-container clearfix">
+                <iframe width="540" height="315" src="https://www.youtube.com/embed/{{next_stream.video_id}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            {% else %}
+            <p>No live streams currently scheduled.</p>
+            {% endif %}
+        </div>
+    </div>
+    {% if prev_streams %}
+    <div class="row mt-5">
+        <div class="col-md-12">
+            <h2>Previous Live Streams</h2>
+        </div>
+    </div>
+    <div class="row mt-2">
+        {% for stream in prev_streams %}
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="video-container">
+                <iframe width="540" height="315" src="https://www.youtube.com/embed/{{stream.video_id}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+</article>
+{% endblock %}
