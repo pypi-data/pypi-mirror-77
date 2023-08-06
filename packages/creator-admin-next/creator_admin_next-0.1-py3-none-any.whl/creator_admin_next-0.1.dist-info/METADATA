@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: creator-admin-next
+Version: 0.1
+Summary: A Creator package to get all of your modules
+Home-page: https://github.com/victorsilvanext/creator
+Author: Victor Silva
+Author-email: victor@nextdesign-e.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# creator
+
+Install creator on your project:
+
+pip install creator
+
+
+
