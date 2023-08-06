@@ -1,0 +1,3 @@
+[console_scripts]
+waste_uploader = waste_storage.__main__:main
+
