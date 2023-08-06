@@ -1,0 +1,7 @@
+tpDcc-core==0.0.18
+
+[dev]
+wheel
+
+[test]
+pytest
