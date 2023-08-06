@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: sirius-sdk
+Version: 1.0.4
+Summary: SDK for developing Smart-Contracts in Self-sovereign-identity world.
+Home-page: https://github.com/Sirius-social/sirius-sdk-python
+Author: Networks Synergy
+Author-email: support@socialsirius.com
+Maintainer: Pavel Minenkov <minikspb@gmail.com>
+License: Apache License
+Description: # sirius-sdk-python
+        Sirius SDK for developing SSI smart-contracts
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
