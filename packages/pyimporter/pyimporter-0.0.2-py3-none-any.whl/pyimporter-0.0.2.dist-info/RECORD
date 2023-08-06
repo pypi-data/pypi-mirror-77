@@ -1,0 +1,12 @@
+pyimporter/__init__.py,sha256=0UlQ7R11zEiIkTQqn7WlvWAUz8S8e2faZ8Whxe3M6MY,232
+pyimporter/common.py,sha256=p80LDeeGYobG8Foaw9W08eG3R78QG8lC3cWBU6h_ICE,666
+pyimporter/finder.py,sha256=M32kAijn7s2b0aVzpui0rxW52A7UO2yoV7dTFsgM9is,405
+pyimporter/importer.py,sha256=eMPwpV9qyR_iUv3wXn9VePFk1tcDBbehmScO9sD_IuY,3031
+pyimporter/loader.py,sha256=rQkT_mrwxIMC-MsSMpuxwqMySvKBfrgDTwc0u7a376s,946
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=v4lLlJ7_TpGbD_9mkzS9x74iBSZy9Uh7oB1ivN_3LMY,2453
+tests/test_url_import.py,sha256=PZWnRSqPUYurtVEtDLdGSskXhDOefT9ZW1t7IQzAb7c,749
+pyimporter-0.0.2.dist-info/METADATA,sha256=Yh8o92PZoljeK3jn0WsUN5oTIgobfkSxsJ7aspC1_RA,1763
+pyimporter-0.0.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pyimporter-0.0.2.dist-info/top_level.txt,sha256=2Ed4a56S5_Pc8kNbK58_lxGcVva85vOigpvSKQPsHUw,17
+pyimporter-0.0.2.dist-info/RECORD,,
