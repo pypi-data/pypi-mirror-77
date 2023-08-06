@@ -1,0 +1,8 @@
+dnspython>=1.14.0
+grains-universal>=2.1
+grains-virt>=3
+idem>=7.4
+
+[:sys_platform == "win32"]
+pywin32>=223
+wmi>=1.4.8
