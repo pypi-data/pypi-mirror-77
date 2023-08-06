@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: pytinydiffsim
+Version: 0.0.3
+Summary: Tiny Differentiable Physics Library for Robotics Simulation and Reinforcement Learning
+Home-page: https://github.com/bulletphysics/bullet3
+Author: Eric Heiden, Erwin Coumans
+Author-email: erwincoumans@google.com
+License: zlib
+Description: tbd
+Keywords: game development,virtual reality,physics simulation,robotics,collision detection,opengl
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: zlib/libpng License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Games/Entertainment :: Simulation
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Framework :: Robot Framework
