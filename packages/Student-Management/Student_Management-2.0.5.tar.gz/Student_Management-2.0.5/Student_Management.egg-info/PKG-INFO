@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: Student-Management
+Version: 2.0.5
+Summary: test
+Home-page: https://github.com/jesvinvijesh/Student_Management
+Author: Jesvin Vijesh S
+Author-email: nikhilksingh97@gmail.com
+License: MIT
+Description: # MSJ Royal Cashews:
+        																		
+        ## Run the following commands in the terminal:			
+        `pip install django            `     
+        `pip install bootstrap-admin`                                                                             
+        and add the following to your installed apps
+        
+        	`		installed apps = [                                    
+        			...
+        			'students',
+        			'bootstrap_admin 
+        			]
+        `python manage.py createsuperuser (and create the user)          `                                                 
+        
+        ` python manage.py runserver  `
+          
+        * Go to http://127.0.0.1:8000/admin and login with the credentials you have set
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
