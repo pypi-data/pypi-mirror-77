@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: vsutillib-pyqt
+Version: 1.6.1
+Summary: vsutillib.pyqt sub package part of vsutillib
+Home-page: https://pypi.org/project/vsutillib-pyqt/
+Author: Efrain Vergara
+Author-email: akai10tsuki@gmail.com
+License: MIT
+Description: vsutillib.pyqt sub package part of vsutillib
+Platform: UNKNOWN
+Requires-Python: >=3.8.1, <3.9
