@@ -1,0 +1,7 @@
+README.rst
+setup.py
+bpfaas/__init__.py
+bpfaas.egg-info/PKG-INFO
+bpfaas.egg-info/SOURCES.txt
+bpfaas.egg-info/dependency_links.txt
+bpfaas.egg-info/top_level.txt
