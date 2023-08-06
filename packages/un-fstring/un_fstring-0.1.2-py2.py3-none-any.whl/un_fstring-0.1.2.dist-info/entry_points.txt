@@ -1,0 +1,3 @@
+[console_scripts]
+un-fstring = un_fstring:cli
+
