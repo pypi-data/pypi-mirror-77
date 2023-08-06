@@ -1,0 +1,9 @@
+elasticsearch
+requests
+certifi
+loguru
+pendulum
+pandas
+boto3
+ray
+python-dotenv
