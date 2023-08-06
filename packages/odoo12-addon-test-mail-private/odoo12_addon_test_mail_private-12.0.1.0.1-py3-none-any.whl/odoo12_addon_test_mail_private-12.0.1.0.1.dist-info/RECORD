@@ -1,0 +1,14 @@
+odoo/addons/test_mail_private/README.rst,sha256=1FibhWIXQxHe6qopezd_DUzktCrSW0VUbXxgvQREJTQ,2614
+odoo/addons/test_mail_private/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/test_mail_private/__manifest__.py,sha256=T7CwSaao6DwL7TWisGsOTUU1u4DAuiqNimQ84Qg3fIo,460
+odoo/addons/test_mail_private/i18n/test_mail_private.pot,sha256=2T_62s-OoonWUW5mCPeLA8WOQV-FszQcdurSAtvuYmA,344
+odoo/addons/test_mail_private/readme/CONTRIBUTORS.rst,sha256=C_D0Fs2pybpQmJN6MBKad6yvz3G2nBNx5DxqaF-XwPg,85
+odoo/addons/test_mail_private/readme/DESCRIPTION.rst,sha256=kRThp4Aakfo1zJQtjY46gnagAGNvVnkV5qR4FtbF9Jw,43
+odoo/addons/test_mail_private/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/test_mail_private/static/description/index.html,sha256=T8Rgi6ggwJV-kYlD-T1atIMOZK1CZl-yNnszpd74fi0,11833
+odoo/addons/test_mail_private/tests/__init__.py,sha256=cuETLtEcwKQItjq6-8_gjCd6cwSr3lyC1qcLuFEjapA,32
+odoo/addons/test_mail_private/tests/test_mail_private.py,sha256=ol4mUQVPdQ2FJTUUeohw-Rq3DiGaf8MsGCXs606MpEI,11195
+odoo12_addon_test_mail_private-12.0.1.0.1.dist-info/METADATA,sha256=n4B7mw60MBc6IDm_nm1En4KYrfcuh5Ctf2PcvWZy2Dg,3149
+odoo12_addon_test_mail_private-12.0.1.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+odoo12_addon_test_mail_private-12.0.1.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_test_mail_private-12.0.1.0.1.dist-info/RECORD,,
