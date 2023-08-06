@@ -1,0 +1,22 @@
+{
+    "About": 
+        {
+            "version": "2020-07-06-1",
+            "organization": "FUAS"
+        },
+    "DEFAULT":
+        {
+            "site": "TEST",
+            "area": "test-area",
+            "cell": "test-cell",
+            "device": "test-device",
+            "broker": "localhost"
+        },     
+    "Site":
+        {
+            "broker": "localhost",
+            "site": "FUAS",
+            "area": "area-1",
+            "database": "site.db"
+        }
+}
