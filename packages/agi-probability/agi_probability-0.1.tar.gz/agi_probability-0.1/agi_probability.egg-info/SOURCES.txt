@@ -1,0 +1,10 @@
+setup.py
+agi_probability/Binomialdistribution.py
+agi_probability/Gaussiandistribution.py
+agi_probability/Generaldistribution.py
+agi_probability/__init__.py
+agi_probability.egg-info/PKG-INFO
+agi_probability.egg-info/SOURCES.txt
+agi_probability.egg-info/dependency_links.txt
+agi_probability.egg-info/not-zip-safe
+agi_probability.egg-info/top_level.txt
