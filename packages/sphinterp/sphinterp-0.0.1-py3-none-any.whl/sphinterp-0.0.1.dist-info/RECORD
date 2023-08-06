@@ -1,0 +1,10 @@
+sphinterp/__init__.py,sha256=Xah5sQK1cQfVD_Vi_pDTcwugkRPOk0yKVp7cYBUEmSE,574
+sphinterp/_coordinates.py,sha256=ABolQ2tJIKMU5N7k8VXOAFdl9-X1CEElHio1fZ7O4q0,5337
+sphinterp/_cross_section.py,sha256=XvAYFgbPvjPObeey8yNVjDNtuNaRtruzHjog_mLDlyE,10389
+sphinterp/_kernels.py,sha256=J48G5L2jBJ8jGVHSOslCqj1EeV63-SRMJ4OM3IWnXUs,2187
+sphinterp/_projection.py,sha256=qnNz60iLNa1dHzPcmZtNiCESor8cWV4A8LZaCPgdrto,12103
+sphinterp-0.0.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+sphinterp-0.0.1.dist-info/METADATA,sha256=C7Xv2Wd0gPxOh5FMrEf8djIstdMTZRtFVDb4tM7CPd4,2211
+sphinterp-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sphinterp-0.0.1.dist-info/top_level.txt,sha256=Zw6_T6sfPde4Fb34wIZwA401qgzNXnhxSCrWRJmS4d4,10
+sphinterp-0.0.1.dist-info/RECORD,,
