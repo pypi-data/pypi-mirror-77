@@ -1,0 +1,9 @@
+photoscript/__init__.py,sha256=l7lhxBY8umXrQlWfMAVUxUf_E3kvdtOFgmmgudottdk,54
+photoscript/_version.py,sha256=BJmhgVmUiTNty8iMrXJ7OfjbfyjQVL526cEy4N21wGw,43
+photoscript/photoscript.py,sha256=K8QuSWrSjnnQniG4tH2ty1Xh9NZ95UJyddOeD-BnIxo,13105
+photoscript/script_loader.py,sha256=ZgksMpqCtxHo3edPbI_kMiOf6kxCzfo_2mtY8PxYwuI,551
+photoscript-0.0.4.dist-info/LICENSE,sha256=BErJzcJjyzF1vsEVjmPeg9XKFHv_zFJM5BPnEP7K-f8,1070
+photoscript-0.0.4.dist-info/METADATA,sha256=FsWFOFsWYbT1nZTq6NEVBEUMeiI5uchXlN9kMvkBQxs,2224
+photoscript-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+photoscript-0.0.4.dist-info/top_level.txt,sha256=PoiF2fbAAl1lNRrs2O93uKWP3u8gLK8wP0q_gnGaMv8,12
+photoscript-0.0.4.dist-info/RECORD,,
