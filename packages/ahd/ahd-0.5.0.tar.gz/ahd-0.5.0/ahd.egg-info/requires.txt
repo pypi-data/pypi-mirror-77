@@ -1,0 +1,9 @@
+docopt
+colored
+pyyaml
+
+[dev]
+nox
+pytest
+mkdocs
+pdoc3
