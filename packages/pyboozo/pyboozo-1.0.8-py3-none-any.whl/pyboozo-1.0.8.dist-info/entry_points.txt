@@ -1,0 +1,6 @@
+[console_scripts]
+boozo = boozo.__main__:main
+
+[gui_scripts]
+
+
