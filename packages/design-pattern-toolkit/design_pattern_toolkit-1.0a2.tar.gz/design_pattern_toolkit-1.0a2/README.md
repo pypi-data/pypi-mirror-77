@@ -1,0 +1,106 @@
+# Design Pattern Tool Kit
+**A collection of design patterns implemented in Python programming language**
+
+The design pattern tool kit is aimed at achieving quick and efficient application on tested design patterns. 
+Furthermore, the tool kit will enable development with a minimal need for refactoring code base 
+
+## Project status: 
+Prototype
+
+## Installation
+The application can be installed by cloning the repository: 
+[https://gitlab.com/frier17/toolkit](https://gitlab.com/frier17/toolkit). Future development may be made available
+ through the PiPy directory.
+
+## Usage
+Use the toolkit to build application with features fitting the design pattern as described below.
+
+1. Command: This pattern is useful for managing request of classes in a manner in which commands are passed as
+ standalone objects. These object can be stored in structures such as list or dictionary. Furthermore, commands can
+  be prioritized or called when certain conditions are satisfied.
+  
+    Use the command pattern when:
+    + an application or system needs to pass method calls as objects. In Python this can be easily implementing the
+     `__call__` function or passing functions as parameters
+    + you want to implement commands that can be stored and later called or are reversible. Example executing an
+     "undo" command.
+    + a robust execution model is required, that is, method invocation can be treated as objects and more organized
+     in execution
+
+2. Mediator: This pattern is used where a collection of components or classes working together are not closely
+ coupled and do not directly communicate with each other. This pattern is best used where:
+
+    + classes working together should not be tightly coupled
+    + classes are to be reused but cannot be adapted without the need to create subclasses in order to customise them
+     for target system
+    + where so many subclasses will be needed to simply use basic features but cannot because of tight coupling
+
+3. Mementos: The mementos pattern is suitable for capturing the state of object or system (as snapshots) in a manner
+ in which the state can be restored without associated classes being aware of the internal structure of the object
+ . The stored state can only be accessed by clearly defined interfaces. The captured state can only be modified
+ , viewed and accessed by the source class (originator) which was captured.
+
+4. Observer: The observer pattern is suitable where multiple classes may need to update their state or perform a
+ function when a given event or object is changed. 
+
+5. Chain of Responsibility: The chain of responsibility resembles the State and Strategy pattern. 
+All three design patterns are focused on changing the behaviour of the object but differ in the manner in which they
+ achieve their goal. 
+The State pattern changes behaviour by delegating to a state object which can change the observed object's state at
+ will and have knowledge of the approved system state transition or sibling states. The strategy pattern is also
+  achieved via composition. Desired behaviours are delegated to concrete strategy objects which cannot change the
+   object state or may not be aware of other sibling strategies. The CoR is also based on composition. 
+In this scenario, a task is accomplished by passing it along a linked number of handlers. 
+Each handler may handle the given task, component of the task, or simply pass the task to the next handler till the
+ entire task is accomplished.
+
+6. State: The state design pattern is useful where an object needs to change its behaviour based on its current state
+. The state can be measured by some set values or external object.
+Implementing a state pattern requires abstracting the behaviour of the class when a given state is reached into
+ concrete object which implements a state interface. A context class is then used to retain other attributes and
+  behaviour of the desired class. This context object will have accessor/mutator to the state object enabling the
+   class to change its states through a defined protocol. In most practical cases, transition in state is well
+    defined and each state object may be implemented in a manner in which they can determine the allowable state(s
+    ) they can be changed to. Considering Python a programming language which has functions as first class objects
+    , alternative mechanism can be adopted to reach similar goal. For instance, behaviour can be captured as
+     functions or methods. The required context information can be passed as parameters to these functions. Also
+     , since functions can be passed as parameters, various states can be mapped to respective functions thereby
+      making it possible to simply have a context class and respective state behaviours which can be called directly
+       within the context without need for extra state interface or concrete implementation
+
+7. Singleton: The singleton pattern is a creation pattern. This pattern is suitable where only one copy or instance
+ of a given class is needed. In Python this can be achieved using metaclasses.
+
+8. Factory, AbstractFactory, Prototype Design Pattern: The three creation pattern while different in their approach
+ share a common factor: they are tailored to creating objects while delegating the detail implementation to children
+  classes or composite class with sole responsibility of making copies or creating instances. From this view point
+  , and considering the nature of the Python language, the following deductions can be reached:
+    + Factory, AbstractFactory, and Builder design pattern delegate creation to subclasses. The concrete implementation
+     then
+     relies on the class constructor to create/instantiate a class. Python uses a different approach from a number of
+      OOP languages. All objects in Python are subclasses of `type`. Furthermore, the `type` class is a callable (can
+       be called as a function) hence objects can be created not only through their concrete class implementation but
+        also through a general/central mechanism via `type`. The need for having pletheora of subclassses is then
+         removed. Added to this, the `__new__` and `__init__` functions work together to create any object when using
+          the
+          conventional class call: that is, `a = ClassA()`. The instance created in `__new__` is passed to the `__init__`
+           function for initialization. Both function behaviour is fully captured when using `type` as members and
+            parent classes can be passed to the `type`. The major drawback with using `type` is that dynamic
+             attribute access cannot be restricted as in the case where `__slots__` may be used in a class or
+              descriptors are defined. However, this is a negligible trade off. Based on this, wrapping calls to
+               `type` within a Factory class method makes for more efficient and pythonic means of generating various
+                types of objects. 
+    + Prototype design pattern uses the approach of making copies or clones of objects which can then be modified
+     without affecting the original object. This approach is attained naturally in Python through the copy or pickle
+      mechanism. Python provides the native `copy` function which relies on the metaclass function or dunder methods
+      : `__copy__` and `__deepcopy__`. Depending on one's goals, either the shallow copy (`__copy__`) or the deep
+       copy(`__deepcopy__`) can be implemented in the source class which is used to make prototypes. Copies or clones
+        can then simply be made by calling the function, example: `b = copy(object_a)` or through the `copy.deepcopy
+        ` and `copy.copy` modules. Either ways, by simply wrapping the copying methods, prototypes can be made
+         without the overhead of creating a prototyping class or mechanism. 
+   The design approach adopted in toolkit package is to have all four creation pattern embedded in a base Factory
+    class. This class will provide access to producing objects using class methods. For efficiency, already created
+     classes can be registered in a cache-like dictionary object of factory. This will enable creating copies of
+      created classes rather than re-creating them. Also, since the goal of the factory patterns is tailored at
+       producing objects not defining classes, the `type` function is used to create objects through the 
+       `Factory.produce(*,bases=(), specification={})` class method. 
