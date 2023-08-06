@@ -1,0 +1,74 @@
+# Configuration for Plot Twist Project
+
+# Defines the Artella project type (indie or enterprise)
+project_type: "enterprise"
+
+# Defines the Artella project URL in Artella
+artella_url: "https://creators.artella.com/project/3wvyd4uvw7sf7qbalzkptb56wy/files/p"
+
+# Defines Artella project ID number
+id_number: "9"
+
+# Defines the Artella Project ID
+id:
+  indie: "973a70a7-1494-422b-b8c1-696587030e59"
+  enterprise: "project__3wvyd4uvw7sf7qbalzkptb56wy"
+
+# Defines the URL of the project
+url: "http://www.plottwist-film.com/"
+
+# Defines the list of emails to notify when a tool is broken
+emails:
+  - tpovedatd@gmail.com
+
+# Defines the URL where project tools documentations is located
+documentation_url: "https://plot-twist-short-film.github.io/plottwist-docs/pipeline/"
+
+extensions:
+  - ma
+  - abc
+
+default_extension: ma
+
+# Defines list of departments
+departments:
+  - Modeling
+  - Shading
+  - FX
+  - Lighting
+  - Compo
+  - Grooming
+  - Rigging
+  - Layout
+
+# Define configuration variables for project progress bar
+progress_bar:
+  color0: "58, 92, 84"
+  color1: "213, 173, 0"
+
+# Defines available libs
+libs:
+  - artella
+  - naming
+  - kitsu
+  - pyblish
+  - alembic
+  - arnold
+  - usd
+
+# Defines available tools
+tools:
+  - changelog
+  - bugtracker
+  - artellamanager
+  - artellauploader
+  - assetsmanager
+  - shadersmanager
+  - lightrigsmanager
+  - assetslibrary
+  - namemanager
+  - modelchecker
+  - dependenciesmanager
+  - renamer
+  - outliner
+  - playblastmanager
