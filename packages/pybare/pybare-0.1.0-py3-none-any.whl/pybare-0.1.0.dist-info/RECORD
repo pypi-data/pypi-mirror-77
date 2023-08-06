@@ -1,0 +1,9 @@
+bare/__init__.py,sha256=tKRx_RqE8g5LUz41lOS2LJsZy4z4hTSuRuUteOtMekY,588
+bare/encoder.py,sha256=c_ZK67vYLMI0ZcJnIA3ZNpO8O5zo7OrodIf41v7P6CI,21848
+bare/test_encoder.py,sha256=faHF3WY5Wz5ngN9IojfqDA2Dq3TycZOT3JHW4Rhl9TA,7791
+bare/types.py,sha256=Nvv9OQM9dEgGuB-TMV5CNygGOZCxZ8XqCrDuUF7TEX8,10824
+pybare-0.1.0.dist-info/LICENSE,sha256=oT8VIVHEfBdCdpwnkubDEsT8x64WbW4GvYXh_j6iE7U,1053
+pybare-0.1.0.dist-info/METADATA,sha256=-Dnp47gzvcqPPdJ0dZUdaZX_lKQTkgegpUbuYwz2Ht0,3944
+pybare-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pybare-0.1.0.dist-info/top_level.txt,sha256=8-XSK_6kKH4JnVImbi6C1jjoGmEMvxBJB2-wsMpwY6o,5
+pybare-0.1.0.dist-info/RECORD,,
