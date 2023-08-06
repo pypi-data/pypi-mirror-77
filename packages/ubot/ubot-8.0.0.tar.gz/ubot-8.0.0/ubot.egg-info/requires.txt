@@ -1,0 +1,10 @@
+
+[dev]
+black
+
+[doc]
+sphinx
+sphinx_rtd_theme
+
+[test]
+telegen-definitions
