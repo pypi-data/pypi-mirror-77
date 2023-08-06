@@ -1,0 +1,11 @@
+shp2postgis/Data2Sql.py,sha256=dBtHT4q-U-1w361UdemiVdEw_QVY2Vo7oLNfMbpaA4c,3510
+shp2postgis/ShapeFileReader.py,sha256=-tvUX2TnVwHH8xwXRg0piAesYywYjjibgHe6iX69g90,1285
+shp2postgis/Shp2Postgis.py,sha256=3yujNAeWVF2vmxhoT-zrpYiGrf6Hw1vEuJdTelQmC9M,1933
+shp2postgis/Util.py,sha256=Dv-z46XuiOjN2fMyDJgUkClhZ-6v3D3eqDrEz2hDKXc,1706
+shp2postgis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shp2postgis/__main__.py,sha256=3fti3p9ig-DLN_gzUTTpT565ed2H0Nr00AkUW9tAC1U,4706
+shp2postgis-0.1.0.dist-info/LICENSE.txt,sha256=4itPu_1FJMWefKQGEkTxJvvJA2b91vg674z1VDUVQc4,1098
+shp2postgis-0.1.0.dist-info/METADATA,sha256=Qdqo76hdUaHfqnoUwZ2GomyA9KFz9DG1KPtcNT7T0Gc,1573
+shp2postgis-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+shp2postgis-0.1.0.dist-info/top_level.txt,sha256=TaBM4t9DYH7BRXFiY73rm8W2yBE-g8dqXM2rOjTNehc,12
+shp2postgis-0.1.0.dist-info/RECORD,,
