@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: winsystem
+Version: 1.0.8
+Summary: Control Windows volume,use Windows TTS,make link on Windows，调用tts，创建快捷方式，控制音量
+Home-page: https://pypi.org/project/winsystem
+Author: Wei Bo 韦博
+Author-email: weibo19801379165@yeah.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: Free For Home Use
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 7
+Classifier: Programming Language :: Python :: 3 
+Classifier: Topic :: System :: Systems Administration
+Requires: pywin32
+
+
+from winsystem import Volume,Speaker
+Volume.Volume_control().SetVolUp(100)
+Speaker.TTStalk("你好! hello ! ")
+
+
