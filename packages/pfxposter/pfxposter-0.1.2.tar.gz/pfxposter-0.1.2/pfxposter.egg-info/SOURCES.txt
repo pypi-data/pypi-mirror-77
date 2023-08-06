@@ -1,0 +1,12 @@
+README.md
+setup.py
+data/config.toml
+pfxposter/__init__.py
+pfxposter/pfxposter.py
+pfxposter.egg-info/PKG-INFO
+pfxposter.egg-info/SOURCES.txt
+pfxposter.egg-info/dependency_links.txt
+pfxposter.egg-info/entry_points.txt
+pfxposter.egg-info/not-zip-safe
+pfxposter.egg-info/requires.txt
+pfxposter.egg-info/top_level.txt
