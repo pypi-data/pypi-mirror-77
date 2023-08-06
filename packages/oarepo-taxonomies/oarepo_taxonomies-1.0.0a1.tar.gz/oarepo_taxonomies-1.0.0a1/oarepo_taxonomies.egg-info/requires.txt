@@ -1,0 +1,12 @@
+flask-taxonomies>=7.0.0a13
+flatten_json<1.0.0,>=0.1.7
+openpyxl<4.0.0,>=3.0.4
+
+[devel]
+oarepo[deploy-es7]>=3.2.1.2
+pytest
+pytest-cov
+
+[tests]
+pytest
+pytest-cov

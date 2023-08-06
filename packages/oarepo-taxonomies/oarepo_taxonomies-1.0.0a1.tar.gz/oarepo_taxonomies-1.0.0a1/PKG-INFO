@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: oarepo_taxonomies
+Version: 1.0.0a1
+Summary: oarepo OAI-PMH converter.
+Home-page: https://github.com/oarepo/oarepo-taxonomies
+Author: Daniel Kopecký
+Author-email: Daniel.Kopecky@techlib.cz
+License: MIT
+Description: UNKNOWN
+Keywords: oarepo taxonomies
+Platform: any
+Provides-Extra: devel
+Provides-Extra: tests
