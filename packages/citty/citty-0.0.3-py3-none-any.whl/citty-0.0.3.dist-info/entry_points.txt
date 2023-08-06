@@ -1,0 +1,6 @@
+[citty_test_funcs]
+make_test=citty:make_test
+
+[console_scripts]
+citty=citty:main
+
