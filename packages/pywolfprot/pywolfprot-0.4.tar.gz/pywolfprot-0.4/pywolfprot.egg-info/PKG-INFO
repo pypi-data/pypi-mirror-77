@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pywolfprot
+Version: 0.4
+Summary: send and receive wolfvision wolfprot commands
+Home-page: https://github.com/stefanu21/pywolfprot
+Author: Stefan Ursella
+Author-email: stefan.ursella@wolfvision.net
+License: GPLv2
+Project-URL: Bug Reports, https://github.com/stefanu21/pywolfprot
+Project-URL: Source, https://github.com/stefanu21/pywolfprot
+Description: # PyWolfprot
+        
+        It's a library to communicate with the WolfVision Cynap product family over socket or websocket
+        
+        ```Python
+        
+        # examples
+        import wolfprot
+        
+        #change box name
+        #wolfprot.json needed 
+        host = '192.168.100.45'
+        boxname = {'Name of box' : 'cynap-stefan'}
+        cb1 = wolfprot.cynap.Cynap(host, 1)
+        req = cb1.send_package('Device', 'Boxname', 0, boxname, 'GET', True)
+        print(req)
+        
+        #firmware update
+        
+        host = '192.168.100.45'
+        cb1 = wolfprot.cynap.Cynap(host, 1)
+        cb1.set_firmware_update('cb1.wgz')
+        
+        ```
+        
+Keywords: Wolfvision wolfprot cynap
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
