@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: IDEAL-NPU
+Version: 0.4.3
+Summary: A Python module for machine learning
+Home-page: https://github.com/ShenfeiPei/IDEAL_NPU
+Author: Shenfei Pei
+Author-email: shenfeipei@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.16.5)
+Requires-Dist: scipy (>=1.3.1)
+Requires-Dist: pandas (>=0.25.1)
+Requires-Dist: scikit-learn (>=0.21.3)
+
+# IDEAL_NPU ![Version][version-badge]
+
+## A Python module for machine learning
+
+### install
+```
+$ pip install IDEAL_NPU
+```
+
+## FCDMF: Fast Clustering with co-clustering via Discrete non-negative Matrix Factorization,
+A Python implementation of ["Fast Clustering With Co-Clustering Via Discrete Non-Negative Matrix Factorization for Image Identification".](https://ieeexplore.ieee.org/abstract/document/9053820)
+
+### usage: see demo/demo_FCDMF please
+
+## PCN: A Portable clustering algorithm based on Compact Neighbors
+A Python implementation of "A Portable Clustering Algorithm Based on Compact Neighbors
+for Face Tagging".
+### usage: see demo/demo_PCN please
+
+## EDG: An Efficient Density-based clustering incorporated with Graph partitioning
+A Python implementation of "An Efficient Density-based Clustering Algorithm for Face Identification".
+### usage: see demo/demo_EDG please
+
+### Contact
+If you have any inquiries, please email me directly (shenfeipei@gmail.com).
+
+### License
+[MIT](https://github.com/ShenfeiPei/IDEAL/blob/master/LICENSE)
+
+
+[version-badge]: https://img.shields.io/badge/release-0.4.3-brightgreen.svg
+
+
