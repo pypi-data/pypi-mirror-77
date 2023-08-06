@@ -1,0 +1,7 @@
+pelican/plugins/neighbors/__init__.py,sha256=jEEPyL6vyrdssF1etdcXS71G5UEaCcYjKAmPSHfvy7Y,33
+pelican/plugins/neighbors/neighbors.py,sha256=1zMBaMkabfSL6Rm5i-BFRYZO1ojwCZKmmLGXkyPs5R8,2001
+pelican/plugins/neighbors/test_data/article.md,sha256=lAbw21WXNCvkk3cFYts1CmPOkbsmUdqE46RdbARIIZk,290
+pelican/plugins/neighbors/test_neighbors.py,sha256=ZDp9DGjDdV1DfUsCCncm7TJ0buIHreP243Zd2fDIesQ,1288
+pelican_neighbors-1.1.0.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+pelican_neighbors-1.1.0.dist-info/METADATA,sha256=YFEV9UaPkarFnKqtkTwUsian1pqk_YsRE8_m6sl1sF8,5495
+pelican_neighbors-1.1.0.dist-info/RECORD,,
