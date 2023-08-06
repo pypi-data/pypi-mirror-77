@@ -1,0 +1,107 @@
+# Django UI 
+
+Dynamic fields and settings theme color admin
+
+**Conditional fields show/hidden**
+
+- Show or hidden fields
+- Changed color theme admin app
+
+
+###### Version Python: `^3`
+###### Version django: `^3`
+
+## Installation
+- `pip install django_ui`
+- Required of `django-colorfield`
+- Add of first `django_ui` to your installed apps
+- Added app `django-colorfield` to your apps
+
+
+## Usage
+
+**Conditional choice**
+- Add the class `{name_choice} j__{key_choice}` to the trigger element
+
+**Conditional Checkbox**
+- Add the class `j__{name_bolean}` to the trigger element
+
+
+To use, create the forms.py file and add the class created in ModelAdmin
+
+#### Example choice: `{name_choice} j__{key_choice}`
+
+forms.py
+
+```python
+from django import forms
+
+class ModelExampleForm(forms.ModelForm):
+    occupation = forms.ChoiceField(choices=[
+            ('study', 'Study'),
+            ('work', 'Work')
+        ], )
+    study = forms.CharField(label='Name Institution', required=False,
+                            widget=forms.TextInput(attrs={'class': "occupation j__study"}))
+    semester = forms.CharField(label='Semester', required=False,
+                               widget=forms.TextInput(attrs={'class': "occupation j__study"}))
+    company = forms.CharField(required=False,
+                              widget=forms.TextInput(attrs={'class': "occupation j__work"}))
+    position = forms.CharField(required=False,
+                               widget=forms.TextInput(attrs={'class': "occupation j__work"}))
+```
+
+
+admin.py
+
+```python
+from django.contrib import admin
+
+from your_app.forms import ModelExampleForm
+from your_app.models import ModelExample
+
+class ModelExampleAdmin(admin.ModelAdmin):
+    model = ModelExample
+    form = ModelExampleForm
+``` 
+
+\
+### Example checkbox:  `j__{name_bolean}`
+
+```python
+from django import forms
+
+class ModelExampleForm(forms.ModelForm):
+    ...
+    photo = forms.BooleanField(required=False, label='Add photo?', help_text='Select if you want to add a photo',
+                               widget=forms.CheckboxInput())
+    image = forms.ImageField(required=False, widget=forms.FileInput(attrs={'class': "j__photo"}))
+
+```
+\
+**NOTE:** In the form just add the fields you want to be dynamic
+
+
+\
+Preview
+
+![Screenshot](./media/django_ui.gif)
+
+
+\
+By default app hidden:
+
+- Show model example: 
+   
+    In settings create var `SHOW_APP_EXAMPLE_UI = True`
+   
+   
+   
+- Use model theme:
+
+    In settings create var `USE_APP_THEME_UI_ADMIN = True`   
+
+
+
+
+Made with ♥ by [Jose Florez](www.joseflorez.co)
