@@ -1,0 +1,11 @@
+
+[tests]
+oarepo[tests]~=3.2.0
+uuid
+
+[tests-es7]
+oarepo[tests-es7]~=3.2.0
+uuid
+
+[validate]
+oarepo-validate>=1.1.0
