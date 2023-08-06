@@ -1,0 +1,12 @@
+skbs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skbs/_internal_click_monkey_patches.py,sha256=Q4GNoorIL2VAJZJt4cJmq5ZarOXm_p7XQGShrnp263c,1876
+skbs/backend.py,sha256=uZXXSQnN9DZgGCt_QALfqDh_N_7eWv-ewZsh-5dRBBg,22162
+skbs/cli.py,sha256=nEDUuGPI50aO0iqVlQy_y5770tWiyemeHg3q4CXcfsU,4337
+skbs/configutils.py,sha256=1NgL8o4T8nKD4jPkO5qBEYZzFH5crpNJTbOOO7uRXWI,519
+skbs/pluginutils.py,sha256=dVw-3rUk9t5la28NRFg2Ywh8rCW9-QQ7gDc97VExfXI,3291
+skbs-1.0.1.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+skbs-1.0.1.dist-info/METADATA,sha256=ZLZ3waXY7IFCqtf1DXc2cK0u5cYTqycwG2rVQBQR0aI,27992
+skbs-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+skbs-1.0.1.dist-info/entry_points.txt,sha256=XBLfK9mKGoyBIw-IdkcEIuCuly7vnqIm1wuET4H12E0,40
+skbs-1.0.1.dist-info/top_level.txt,sha256=iqryTkdf8oHoizMLLL7NrVqvCYN5iiosl2MN6taSq14,5
+skbs-1.0.1.dist-info/RECORD,,
