@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: A4Shape
+Version: 1.0.2
+Summary: Shapes And Animations For Linux Python Tools..
+Home-page: https://github.com/Black7unter-X/A4Shape
+Author: Programmer
+Author-email: Anonymousfromthedigitalworld@gmail.com
+License: UNKNOWN
+Description: # Shape
+        Creating shapes and animations in Python tools.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown

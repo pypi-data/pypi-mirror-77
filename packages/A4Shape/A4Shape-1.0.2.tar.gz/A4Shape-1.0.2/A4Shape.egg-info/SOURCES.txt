@@ -1,0 +1,8 @@
+README.md
+setup.py
+A4Shape/Shape.py
+A4Shape/__init__.py
+A4Shape.egg-info/PKG-INFO
+A4Shape.egg-info/SOURCES.txt
+A4Shape.egg-info/dependency_links.txt
+A4Shape.egg-info/top_level.txt
