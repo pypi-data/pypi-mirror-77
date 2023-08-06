@@ -1,0 +1,3 @@
+[console_scripts]
+hypermodern-python=hypermodern_python_cli99.console:main
+
