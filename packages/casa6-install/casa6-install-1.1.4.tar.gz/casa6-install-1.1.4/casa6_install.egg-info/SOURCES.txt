@@ -1,0 +1,16 @@
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+casa6_install/__init__.py
+casa6_install/casa6_install.py
+casa6_install.egg-info/PKG-INFO
+casa6_install.egg-info/SOURCES.txt
+casa6_install.egg-info/dependency_links.txt
+casa6_install.egg-info/entry_points.txt
+casa6_install.egg-info/not-zip-safe
+casa6_install.egg-info/requires.txt
+casa6_install.egg-info/top_level.txt

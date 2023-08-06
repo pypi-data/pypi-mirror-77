@@ -1,0 +1,20 @@
+include HISTORY.rst
+include LICENSE
+include README.rst
+
+exclude Dockerfile
+exclude Dockerfile.base
+exclude requirements_casa6pip36.txt
+exclude requirements_dev.txt
+exclude .dockerignore
+exclude .gitignore
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude docs *
+recursive-exclude examples *
+recursive-exclude .github *
+
+
+
+
