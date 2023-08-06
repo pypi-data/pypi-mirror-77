@@ -1,0 +1,13 @@
+http2py/__init__.py,sha256=_NSzdLFeaNuxEUuNfqSxnSsqxntU95BWPyL3IkkHwNw,31
+http2py/client.py,sha256=1HcMSdJB-MTU_A-aNSxy3vpyImgSm_c-KlxJMalhibg,5077
+http2py/decorators.py,sha256=ZUK7KdDqwwMiXUAVfabf4HN2xlJU1tr9aksoskMZL-s,871
+http2py/default_configs.py,sha256=xz1NP9tn9G3QUY-rzP1ppCdKDz6BLUKU6WOvJkmTrPY,119
+http2py/http2py.py,sha256=ifeksZInWJvkcqN2OU7pzKi1f9ghoMc2wWUjxPnhDCg,452
+http2py/py2request.py,sha256=CQegEqL3HO2ajcRWWTwJXbm460J37OziPTihNL4Bm_s,25498
+http2py/testing_utils.py,sha256=lVLt9wgWcjUcREmtO6BIE_6xWvpZnaIeJN6uDiledVU,445
+http2py/util.py,sha256=f-Hi1OPzRD7F1lG_cy36YyR1g34a2hcmMRLzspfa34o,1167
+http2py-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+http2py-0.0.1.dist-info/METADATA,sha256=O5qP22cOxxk9sfr-b5E1-HlPhiAkQpijqjEtvOGHcnI,4110
+http2py-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+http2py-0.0.1.dist-info/top_level.txt,sha256=ejBo2PcPlO5sK_zkPZ9BrY_lkOa59FWUptz4yS4SOss,8
+http2py-0.0.1.dist-info/RECORD,,
