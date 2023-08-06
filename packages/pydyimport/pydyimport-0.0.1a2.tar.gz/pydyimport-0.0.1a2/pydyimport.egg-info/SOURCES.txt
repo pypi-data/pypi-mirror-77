@@ -1,0 +1,9 @@
+README.md
+setup.py
+pydyimport/__init__.py
+pydyimport/injector.py
+pydyimport/pydyimport.py
+pydyimport.egg-info/PKG-INFO
+pydyimport.egg-info/SOURCES.txt
+pydyimport.egg-info/dependency_links.txt
+pydyimport.egg-info/top_level.txt
