@@ -1,0 +1,9 @@
+README.md
+setup.py
+deejaypdf/__init__.py
+deejaypdf/pdf2image.py
+deejaypdf/pdf2text.py
+deejaypdf.egg-info/PKG-INFO
+deejaypdf.egg-info/SOURCES.txt
+deejaypdf.egg-info/dependency_links.txt
+deejaypdf.egg-info/top_level.txt
