@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+lind/__init__.py
+lind/_version.py
+lind.egg-info/PKG-INFO
+lind.egg-info/SOURCES.txt
+lind.egg-info/dependency_links.txt
+lind.egg-info/requires.txt
+lind.egg-info/top_level.txt
