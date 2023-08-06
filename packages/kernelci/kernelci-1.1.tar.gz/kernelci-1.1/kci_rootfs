@@ -1,0 +1,129 @@
+#!/usr/bin/env python3
+#
+# Copyright (C) 2019 Collabora Limited
+# Author: Michal Galka <michal.galka@collabora.com>
+#
+# This module is free software; you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation; either version 2.1 of the License, or (at your option)
+# any later version.
+#
+# This library is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this library; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+
+import sys
+
+from kernelci.cli import Args, Command, parse_args
+import kernelci.rootfs
+import kernelci.config.rootfs
+
+
+# -----------------------------------------------------------------------------
+# Commands
+#
+
+class cmd_validate(Command):
+    help = "Validate the YAML configuration"
+    opt_args = [Args.verbose]
+
+    def __call__(self, config_data, args, **kwargs):
+        # ToDo: Use jsonschema
+        if args.verbose:
+            rootfs_configs = config_data['rootfs_configs']
+            for config_name, config in rootfs_configs.items():
+                print(config_name)
+                print('\trootfs_type: {}'.format(config.rootfs_type))
+                print('\tarch_list: {}'.format(config.arch_list))
+                print('\tdebian_release: {}'.format(config.debian_release))
+                print('\textra_packages: {}'.format(config.extra_packages))
+                print('\textra_packages_remove: {}'.format(
+                    config.extra_packages_remove))
+                print('\textra_files_remove: {}'.format(
+                    config.extra_files_remove))
+                print('\tscript: {}'.format(config.script))
+                print('\ttest_overlay: {}'.format(config.test_overlay))
+                print('\tcrush_image_options: {}'.format(
+                    config.crush_image_options))
+                print('\tdebian_mirror: {}'.format(config.debian_mirror))
+                print('\tkeyring_package: {}'.format(config.keyring_package))
+                print('\tkeyring_file: {}'.format(config.keyring_file))
+        return True
+
+
+class cmd_list_configs(Command):
+    help = "List all rootfs config names"
+
+    def __call__(self, config_data, *args, **kwargs):
+        rootfs_configs = config_data['rootfs_configs']
+        for config_name in rootfs_configs:
+            print(config_name)
+        return True
+
+
+class cmd_list_variants(Command):
+    help = "List all rootfs variants"
+    opt_args = [Args.rootfs_config, Args.arch]
+
+    def __call__(self, config_data, args, **kwargs):
+        rootfs_configs = config_data['rootfs_configs']
+        config_name = args.rootfs_config
+        arch = args.arch
+
+        if config_name and config_name not in rootfs_configs:
+            print("{} : invalid config entry".format(config_name))
+            return False
+
+        if arch and config_name and \
+           arch not in rootfs_configs[config_name].arch_list:
+            print("{} : invalid arch entry".format(arch))
+            return False
+
+        configs = (config for config in rootfs_configs
+                   if config == config_name or config_name is None)
+        for config in configs:
+            for arch_type in rootfs_configs[config].arch_list:
+                if arch_type == arch or arch is None:
+                    print(' '.join([config, arch_type]))
+        return True
+
+
+class cmd_build(Command):
+    help = "Build a rootfs image"
+    args = [Args.rootfs_config, Args.data_path, Args.arch]
+
+    def __call__(self, config_data, args, **kwargs):
+        config_name = args.rootfs_config
+        config = config_data['rootfs_configs'].get(config_name)
+        if not config:
+            print("{} invalid. Check 'kci_rootfs list_configs' for valid \
+                    entries".format(config_name))
+            return False
+        return kernelci.rootfs.build(config_name, config,
+                                     args.data_path, args.arch)
+
+
+class cmd_upload(Command):
+    help = "Upload a rootfs image"
+    args = [Args.rootfs_dir, Args.upload_path, Args.api, Args.db_token]
+
+    def __call__(self, config_data, args):
+        kernelci.rootfs.upload(args.api, args.db_token, args.upload_path,
+                               args.rootfs_dir)
+        return True
+
+
+# -----------------------------------------------------------------------------
+# Main
+#
+
+if __name__ == '__main__':
+    args = parse_args("kci_rootfs", "rootfs-configs.yaml", globals())
+    configs = kernelci.config.rootfs.from_yaml(args.yaml_configs)
+    status = args.func(configs, args)
+    sys.exit(0 if status is True else 1)
