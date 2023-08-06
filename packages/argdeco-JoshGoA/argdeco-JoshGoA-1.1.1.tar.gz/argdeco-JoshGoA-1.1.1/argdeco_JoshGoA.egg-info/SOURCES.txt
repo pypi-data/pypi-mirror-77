@@ -1,0 +1,8 @@
+README.md
+argdeco.py
+setup.py
+argdeco_JoshGoA.egg-info/PKG-INFO
+argdeco_JoshGoA.egg-info/SOURCES.txt
+argdeco_JoshGoA.egg-info/dependency_links.txt
+argdeco_JoshGoA.egg-info/requires.txt
+argdeco_JoshGoA.egg-info/top_level.txt
