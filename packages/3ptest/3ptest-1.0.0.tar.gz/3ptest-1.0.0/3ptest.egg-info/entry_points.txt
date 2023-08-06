@@ -1,0 +1,3 @@
+[console_scripts]
+3ptest = 3ptest.__main__:main
+

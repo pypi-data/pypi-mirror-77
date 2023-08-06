@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+3ptest/3ptest.py
+3ptest/__init__.py
+3ptest/__main__.py
+3ptest.egg-info/PKG-INFO
+3ptest.egg-info/SOURCES.txt
+3ptest.egg-info/dependency_links.txt
+3ptest.egg-info/entry_points.txt
+3ptest.egg-info/top_level.txt
