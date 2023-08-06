@@ -1,0 +1,4 @@
+mlservicewrapper-core
+starlette==0.13.7
+uvicorn
+gunicorn
