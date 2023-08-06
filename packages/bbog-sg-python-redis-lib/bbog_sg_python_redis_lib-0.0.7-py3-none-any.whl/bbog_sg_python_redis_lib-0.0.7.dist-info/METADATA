@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: bbog-sg-python-redis-lib
+Version: 0.0.7
+Summary: Python library to handle Redis Api
+Home-page: UNKNOWN
+Author: otacha
+Author-email: otacha@bancodebogota.com.co
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: Pygments (==2.6.1)
+Requires-Dist: SecretStorage (==3.1.2)
+Requires-Dist: astroid (==2.4.2)
+Requires-Dist: attrs (==19.3.0)
+Requires-Dist: bleach (==3.1.5)
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: cffi (==1.14.2)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: colorama (==0.4.3)
+Requires-Dist: coverage (==5.2.1)
+Requires-Dist: cryptography (==3.0)
+Requires-Dist: docutils (==0.16)
+Requires-Dist: idna (==2.10)
+Requires-Dist: importlib-metadata (==1.7.0)
+Requires-Dist: iniconfig (==1.0.1)
+Requires-Dist: isort (==4.3.21)
+Requires-Dist: jeepney (==0.4.3)
+Requires-Dist: keyring (==21.3.0)
+Requires-Dist: lazy-object-proxy (==1.4.3)
+Requires-Dist: mccabe (==0.6.1)
+Requires-Dist: more-itertools (==8.4.0)
+Requires-Dist: packaging (==20.4)
+Requires-Dist: pkg-resources (==0.0.0)
+Requires-Dist: pkginfo (==1.5.0.1)
+Requires-Dist: pluggy (==0.13.1)
+Requires-Dist: py (==1.9.0)
+Requires-Dist: pycparser (==2.20)
+Requires-Dist: pylint (==2.5.3)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: pytest-cov (==2.10.1)
+Requires-Dist: pytest-runner (==5.2)
+Requires-Dist: pytest (==6.0.1)
+Requires-Dist: readme-renderer (==26.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: rfc3986 (==1.4.0)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: toml (==0.10.1)
+Requires-Dist: tqdm (==4.48.2)
+Requires-Dist: twine (==3.2.0)
+Requires-Dist: typed-ast (==1.4.1)
+Requires-Dist: urllib3 (==1.25.10)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: wrapt (==1.12.1)
+Requires-Dist: zipp (==3.1.0)
+
+UNKNOWN
+
+
