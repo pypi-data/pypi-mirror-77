@@ -1,0 +1,7 @@
+README.md
+setup.py
+mouse_cheater.egg-info/PKG-INFO
+mouse_cheater.egg-info/SOURCES.txt
+mouse_cheater.egg-info/dependency_links.txt
+mouse_cheater.egg-info/entry_points.txt
+mouse_cheater.egg-info/top_level.txt
