@@ -1,0 +1,11 @@
+README.md
+setup.py
+django_segno_qr.egg-info/PKG-INFO
+django_segno_qr.egg-info/SOURCES.txt
+django_segno_qr.egg-info/dependency_links.txt
+django_segno_qr.egg-info/requires.txt
+django_segno_qr.egg-info/top_level.txt
+segno_qr/__init__.py
+segno_qr/apps.py
+segno_qr/templatetags/__init__.py
+segno_qr/templatetags/segno_qr.py

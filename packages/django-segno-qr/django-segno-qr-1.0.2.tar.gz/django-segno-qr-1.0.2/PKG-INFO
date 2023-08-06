@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: django-segno-qr
+Version: 1.0.2
+Summary: Django template tag for generating QR codes using segno
+Home-page: https://github.com/ideler/django-segno-qr
+Author: Ideler IT-Service GmbH
+Author-email: hosting@ideler.de
+License: UNKNOWN
+Description: # Django template tag for generating QR codes using [segno](https://github.com/heuer/segno/)
+        ## Usage
+        ```
+        {% load segno_qr %}
+        {% segno_qr "Your content goes here" %}
+        ```
+        
+        Parameters: See [segno.make Documentation](https://segno.readthedocs.io/en/stable/api.html#segno.make) for available parameters.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django :: 3.0
+Requires-Python: >=3
+Description-Content-Type: text/markdown
