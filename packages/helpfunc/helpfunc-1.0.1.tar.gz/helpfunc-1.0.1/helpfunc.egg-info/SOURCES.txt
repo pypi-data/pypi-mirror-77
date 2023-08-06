@@ -1,0 +1,8 @@
+README.md
+helpfunc.py
+setup.py
+helpfunc.egg-info/PKG-INFO
+helpfunc.egg-info/SOURCES.txt
+helpfunc.egg-info/dependency_links.txt
+helpfunc.egg-info/not-zip-safe
+helpfunc.egg-info/top_level.txt
