@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: originlab
+Version: 0.0.2
+Summary: Originlab Utilities
+Home-page: https://www.originlab.com
+Author: OriginLab
+Author-email: folger@originlab.com.cn
+License: BSD
+Keywords: Origin,Originlab
+Platform: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.8
+
+## originlab
+
+This package does not currently contain usuable code but is reserved for potential future use by OriginLab Corp.
+
