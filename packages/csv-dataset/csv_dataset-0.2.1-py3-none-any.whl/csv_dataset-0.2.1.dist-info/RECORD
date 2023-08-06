@@ -1,0 +1,10 @@
+csv_dataset/__init__.py,sha256=43Dxts-ziXyq1Io8WLwVMa50zMOoFZ0ihUVBNzRTwxY,184
+csv_dataset/common.py,sha256=EE8rwq-hMbDI7UiWOUAAvgPNurN7NfoaFUeEdvgtvVA,1159
+csv_dataset/dataset.py,sha256=ZULhMr5ifhGYZ7swFaF9xh-uGRi_DkCdUkd6UH7_Kuk,4010
+csv_dataset/normalizer.py,sha256=8zAVCWuA0UCnUYXszWyPFT0_f99g0KnMnvURd0CkMsA,614
+csv_dataset/reader.py,sha256=pSYtS0rRCZO6od45_6RgeF9lU-d40n58T0bbjsQWgvM,2614
+csv_dataset-0.2.1.dist-info/LICENSE,sha256=4Q5iGL1tQVVoeVxiwC7YF2jEsUU_YdlXSSwTnlB93lQ,1070
+csv_dataset-0.2.1.dist-info/METADATA,sha256=qSzwt3mpay8gzFVBA37OT7PqarrcwxmxO5ojYN7_h2M,3929
+csv_dataset-0.2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+csv_dataset-0.2.1.dist-info/top_level.txt,sha256=RyVLLtDdng-J5mkfp_9TfEA6urUHjbb3SSzEULofcHU,12
+csv_dataset-0.2.1.dist-info/RECORD,,
