@@ -1,0 +1,10 @@
+Click~=7.0
+numpy
+gql==3.0.0a1
+typing_extensions~=3.7
+
+[agent]
+psutil~=5.7
+aiodocker~=0.19.0
+Jinja2~=2.10
+PyYAML~=5.0
