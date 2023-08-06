@@ -1,0 +1,4 @@
+psycopg2>=2.8.5
+pandas
+pytz
+python-dotenv
