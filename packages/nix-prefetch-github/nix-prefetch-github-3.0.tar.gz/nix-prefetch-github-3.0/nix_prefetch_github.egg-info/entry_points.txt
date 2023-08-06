@@ -1,0 +1,4 @@
+[console_scripts]
+nix-prefetch-github = nix_prefetch_github.__main__:_main
+nix-prefetch-github-directory = nix_prefetch_github.fetch_directory:main
+
