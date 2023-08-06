@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: SpotMux
+Version: 1.0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: David Martin-Gutierrez
+Author-email: dmargutierrez@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: spotipy
+Requires-Dist: coloredlogs
+Requires-Dist: pycountry-convert
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pymongo
+Requires-Dist: pymusixmatch
+
+UNKNOWN
+
+
