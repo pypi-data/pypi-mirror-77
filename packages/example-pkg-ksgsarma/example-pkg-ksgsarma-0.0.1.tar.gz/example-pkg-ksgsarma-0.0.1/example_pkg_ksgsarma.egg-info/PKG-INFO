@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: example-pkg-ksgsarma
+Version: 0.0.1
+Summary: A small housie ticket generation package
+Home-page: https://github.com/ksgsarma/Housie_PyPi.git
+Author: ksgsarma
+Author-email: ksgsarma5@gmail.com
+License: UNKNOWN
+Description: # generateticket
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
