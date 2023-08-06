@@ -1,0 +1,13 @@
+.gitignore
+README.md
+install.sh
+setup.py
+hss/__init__.py
+hss/__main__.py
+hss/__pycache__/__init__.cpython-37.pyc
+hss/__pycache__/__main__.cpython-37.pyc
+hss_brunorosilva.egg-info/PKG-INFO
+hss_brunorosilva.egg-info/SOURCES.txt
+hss_brunorosilva.egg-info/dependency_links.txt
+hss_brunorosilva.egg-info/entry_points.txt
+hss_brunorosilva.egg-info/top_level.txt
