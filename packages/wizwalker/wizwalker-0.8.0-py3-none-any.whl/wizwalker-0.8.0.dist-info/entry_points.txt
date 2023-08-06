@@ -1,0 +1,4 @@
+[console_scripts]
+wiz=wizwalker.utils:quick_launch
+wizwalker=wizwalker.__main__:sync_main
+
