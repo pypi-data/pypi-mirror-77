@@ -1,0 +1,9 @@
+MANIFEST.in
+license.txt
+readme.txt
+setup.py
+is_palindrome_aka/__init__.py
+is_palindrome_aka.egg-info/PKG-INFO
+is_palindrome_aka.egg-info/SOURCES.txt
+is_palindrome_aka.egg-info/dependency_links.txt
+is_palindrome_aka.egg-info/top_level.txt

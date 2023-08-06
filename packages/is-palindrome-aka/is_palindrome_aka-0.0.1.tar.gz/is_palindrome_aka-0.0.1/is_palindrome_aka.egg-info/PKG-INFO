@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: is-palindrome-aka
+Version: 0.0.1
+Summary: My first python package for checking pallindrome
+Home-page: UNKNOWN
+Author: Akash Mane
+Author-email: UNKNOWN
+License: MIT
+Description: This package is used to check a pallindrome
+Keywords: python palindrome package,palindrome
+Platform: UNKNOWN
