@@ -1,0 +1,11 @@
+README.md
+setup.py
+solvusoft.egg-info/PKG-INFO
+solvusoft.egg-info/SOURCES.txt
+solvusoft.egg-info/dependency_links.txt
+solvusoft.egg-info/requires.txt
+solvusoft.egg-info/top_level.txt
+solvusoftlib/__init__.py
+solvusoftlib/application.py
+solvusoftlib/company.py
+solvusoftlib/extensions.py
