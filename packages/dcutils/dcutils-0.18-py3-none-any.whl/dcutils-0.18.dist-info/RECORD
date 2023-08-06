@@ -1,0 +1,8 @@
+dcutils/__init__.py,sha256=0EWSpuwzKUNSNeDysoqceZ6TWcYKItkYziAdR1JXPus,32
+dcutils/copy_batch.py,sha256=hHZzyPPk-ElzQfDj-B-ejyQV169BL5iDxHasJG865gY,3446
+dcutils/triggers.py,sha256=1Nxey06V781uiIpGyLlZ2CrVu0_O-Rrfr7KRofHIb5M,1282
+dcutils-0.18.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+dcutils-0.18.dist-info/METADATA,sha256=v14yHZ02vazvO6UYTRxFJ5tgkpRjn5NMwSWPocNhwsg,554
+dcutils-0.18.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dcutils-0.18.dist-info/top_level.txt,sha256=3Rs4PbLxH3X4FQId8pmhRxHMZHCwP84GHQQptoECZIo,8
+dcutils-0.18.dist-info/RECORD,,
