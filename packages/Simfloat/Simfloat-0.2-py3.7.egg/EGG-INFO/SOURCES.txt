@@ -1,0 +1,10 @@
+README.md
+setup.py
+Simfloat.egg-info/PKG-INFO
+Simfloat.egg-info/SOURCES.txt
+Simfloat.egg-info/dependency_links.txt
+Simfloat.egg-info/requires.txt
+Simfloat.egg-info/top_level.txt
+simfloat/__init__.py
+simfloat/core.py
+simfloat/test_simfloat.py
