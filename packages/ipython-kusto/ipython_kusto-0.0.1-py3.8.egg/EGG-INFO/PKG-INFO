@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ipython-kusto
+Version: 0.0.1
+Summary: Microsoft Kusto access via IPython
+Home-page: https://pypi.python.org/pypi/ipython-kusto
+Author: Graham Wheeler
+Author-email: graham@grahamwheeler.com
+License: MIT
+Description: # ipython-kusto - Run Microsoft Kusto queries in IPython notebooks
+        
+        This extension borrows extensively from Catherine Devlin's ipython-sql extension.
+        https://github.com/catherinedevlin/ipython-sql
+        
+        
+        
+        
+        
+Keywords: database ipython kusto
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/x-rst
