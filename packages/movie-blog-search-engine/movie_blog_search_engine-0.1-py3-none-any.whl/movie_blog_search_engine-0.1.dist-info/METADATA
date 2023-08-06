@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: movie-blog-search-engine
+Version: 0.1
+Summary: Search on movie-blog for download links
+Home-page: https://github.com/C0D3D3V/movie-blog-search-engine/
+Author: C0D3D3V
+License: GPL-3.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Communications :: File Sharing
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Topic :: Multimedia :: Video
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: xmltodict
+Requires-Dist: pyquery
+Requires-Dist: requests
+
+# Movie-Blog search engine
+
+Search on movie-blog for download links.
+
+
+## Installation
+
+    pip install movie-blog-search-engine
+
+
+
