@@ -1,0 +1,3 @@
+[console_scripts]
+imgavg=imgavg.cli:main
+
