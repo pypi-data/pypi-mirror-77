@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: gpt3quote
+Version: 0.2
+Summary: GPT-3 generated quote library for python
+Home-page: https://github.com/ethandgoodhart/GPT3-Quote
+Author: Ethan Goodhart
+Author-email: edg.programmer@gmail.com
+License: MIT
+Download-URL: https://github.com/ethandgoodhart/GPT3-Quote/archive/v_02.tar.gz
+Description: UNKNOWN
+Keywords: generation,quote,gpt3,random
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
