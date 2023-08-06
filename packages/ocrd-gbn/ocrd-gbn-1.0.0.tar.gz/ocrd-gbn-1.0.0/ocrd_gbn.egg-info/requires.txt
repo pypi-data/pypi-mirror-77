@@ -1,0 +1,10 @@
+opencv-python-headless
+matplotlib
+seaborn
+tqdm
+keras==2.3.*
+shapely
+scikit-learn
+tensorflow-gpu~=1.15.2
+scipy
+ocrd>=2.0.0
