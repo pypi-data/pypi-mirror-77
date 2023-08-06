@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: bottle-cors-plugin
+Version: 0.1.3
+Summary: The easiest way to use cors on bottle
+Home-page: UNKNOWN
+Author: Alfonso Villalobos
+Author-email: alfonso@codepeat.com
+License: MIT
+Description: # bottle-cors-plugin
+        
+        The most easy way to implement cors on your bottle py web application
+        
+        ## Installing the plugin
+        
+            pip install bottle-cors-plugin
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
