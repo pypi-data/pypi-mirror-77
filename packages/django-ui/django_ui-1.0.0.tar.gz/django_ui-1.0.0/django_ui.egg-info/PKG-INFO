@@ -1,0 +1,137 @@
+Metadata-Version: 2.1
+Name: django-ui
+Version: 1.0.0
+Summary: Dynamic fields and settings theme color admin
+Home-page: https://github.com/florezjose/django_ui
+Author: Jose Flórez (@rojosefo)
+Author-email: florezjoserdolfo@gmail.com
+License: MIT
+Download-URL: https://github.com/florezjose/django_ui/archive/1.0.0.tar.gz
+Description: # Django UI 
+        
+        Dynamic fields and settings theme color admin
+        
+        **Conditional fields show/hidden**
+        
+        - Show or hidden fields
+        - Changed color theme admin app
+        
+        
+        ###### Version Python: `^3`
+        ###### Version django: `^3`
+        
+        ## Installation
+        - `pip install django_ui`
+        - Required of `django-colorfield`
+        - Add of first `django_ui` to your installed apps
+        
+        
+        ## Usage
+        
+        **Conditional choice**
+        - Add the class `{name_choice} j__{key_choice}` to the trigger element
+        
+        **Conditional Checkbox**
+        - Add the class `j__{name_bolean}` to the trigger element
+        
+        
+        To use, create the forms.py file and add the class created in ModelAdmin
+        
+        #### Example choice: `{name_choice} j__{key_choice}`
+        
+        forms.py
+        
+        ```python
+        from django import forms
+        
+        class ModelExampleForm(forms.ModelForm):
+            occupation = forms.ChoiceField(choices=[
+                    ('study', 'Study'),
+                    ('work', 'Work')
+                ], )
+            study = forms.CharField(label='Name Institution', required=False,
+                                    widget=forms.TextInput(attrs={'class': "occupation j__study"}))
+            semester = forms.CharField(label='Semester', required=False,
+                                       widget=forms.TextInput(attrs={'class': "occupation j__study"}))
+            company = forms.CharField(required=False,
+                                      widget=forms.TextInput(attrs={'class': "occupation j__work"}))
+            position = forms.CharField(required=False,
+                                       widget=forms.TextInput(attrs={'class': "occupation j__work"}))
+        ```
+        
+        **NOTE:** In the form just add the fields you want to be dynamic
+        
+        
+        admin.py
+        
+        ```python
+        from django.contrib import admin
+        
+        from your_app.forms import ModelExampleForm
+        from your_app.models import ModelExample
+        
+        class ModelExampleAdmin(admin.ModelAdmin):
+            model = ModelExample
+            form = ModelExampleForm
+        ``` 
+        \
+        \
+        
+        
+        
+        ### Example checkbox:  `j__{name_bolean}`
+        
+        ```python
+        from django import forms
+        
+        class ModelExampleForm(forms.ModelForm):
+            ...
+            photo = forms.BooleanField(required=False, label='Add photo?', help_text='Select if you want to add a photo',
+                                       widget=forms.CheckboxInput())
+            image = forms.ImageField(required=False, widget=forms.FileInput(attrs={'class': "j__photo"}))
+        
+        ```
+        
+        
+        Preview
+        
+        ![Screenshot](./media/django_ui.gif)
+        
+        
+        
+        By default app hidden:
+        
+        - Show model example: 
+           
+            In settings create var `SHOW_APP_EXAMPLE_UI = True`
+           
+           
+           
+        - Use model theme:
+        
+            In settings create var `USE_APP_THEME_UI_ADMIN = True`   
+        
+        
+        
+        
+        Made with â™¥ by [Jose Florez](www.joseflorez.co)
+Keywords: django,fields,dynamic,theme,color,checkbox,boolean,choices,chooser,admin,python
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Build Tools
+Requires: django(>=3.0)
+Description-Content-Type: text/markdown
