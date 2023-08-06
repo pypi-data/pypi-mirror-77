@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+ipytv/__init__.py
+ipytv/db.py
+ipytv.egg-info/PKG-INFO
+ipytv.egg-info/SOURCES.txt
+ipytv.egg-info/dependency_links.txt
+ipytv.egg-info/requires.txt
+ipytv.egg-info/top_level.txt
+ipytv/__pycache__/__init__.cpython-38.pyc
+ipytv/__pycache__/db.cpython-38.pyc
+ipytv/res/channels.jsondb
