@@ -1,0 +1,3 @@
+[console_scripts]
+labs = labs.cli:main
+

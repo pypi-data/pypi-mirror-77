@@ -1,0 +1,10 @@
+labs/__init__.py,sha256=SAMpdERgDiFX3ok2D80OY_mEZOk2l5xHU100JMAcpP4,15334
+labs/cli.py,sha256=xKUCATqtakO2LXDznzczbaBAuL_8MgSVnrdUn_ump3c,672
+labs/cmake.py,sha256=Kr0wcS8fOP04aYFVxXgUMWWtw3KfNLXJsH9tpNwkhcs,864
+labs/ninja.py,sha256=xY5YlA88V5htaAk_VK5iyoknlQN8QlMNpbGUd51Vz28,7539
+labs_build-0.1.dev0.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+labs_build-0.1.dev0.dist-info/METADATA,sha256=66wiqnN028xjou6jjSE3Q9wsxcArAUoIycj7B8GtekU,3570
+labs_build-0.1.dev0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+labs_build-0.1.dev0.dist-info/entry_points.txt,sha256=dkwIF2ViE3_EuL13dLbG_h3kc25cYS7199L55L1475o,40
+labs_build-0.1.dev0.dist-info/top_level.txt,sha256=AKVY_gc51KzuBFwaQJQIUgYwU9wS1rgOMbLVc1dIYiM,5
+labs_build-0.1.dev0.dist-info/RECORD,,
