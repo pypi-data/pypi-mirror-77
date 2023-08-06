@@ -1,0 +1,17 @@
+TimePlotGui/__init__.py,sha256=8EeOxKw2c1dlpcKSobo7NnPHrJivl3RoIcfglZQ-za8,497
+TimePlotGui/double_time_plot_window.py,sha256=oSm47w7JgHtQPxhYqHIgFDcPA_joizwPafqu47FyNQA,4697
+TimePlotGui/hardware_controller.py,sha256=JgW-_Tt1_XAJNSoFGtgS2SfZc6pfwTgrDREM1BckHcw,4809
+TimePlotGui/main.py,sha256=kNxtJ2z6aFSxPVUDkoJ6XGbhqhK2vU5esGi15bgmZ7Y,1501
+TimePlotGui/multi_panel_gui.py,sha256=mVcHAaBx5oXnw9ofuSX0OBZ0uBCx3OMxO_H90hM9uF0,7128
+TimePlotGui/plot_item_settings.py,sha256=2tXIrKsHlvlsfzwQ0NviKjRa9fBfyM2uNRzGnOTn8Ns,6262
+TimePlotGui/time_axis_item.py,sha256=U3TlQi_3yLHS3Lwf6yyZRluxWKQ4JSb70yLMe1mBDzc,1185
+TimePlotGui/time_plot_data_item.py,sha256=byThXGUK3CiVUNZGy6-kyB_2c7DunrngqlEWi65rA8s,10010
+TimePlotGui/time_plot_gui.py,sha256=fzdtPCFCUDncPyaHUTUHLlI_r6-k8ymfJBabpnWbYVc,46704
+TimePlotGui/time_plot_worker.py,sha256=QI5YVBI-ulvA6HUQL-KyT454_jkrG0i7KqM1WPgUxgA,3010
+TimePlotGui/value_label_gui.py,sha256=8uiPjVGAgeBomk2fm2f0wxHN_rqF6siSfbtM_ol3ayk,7332
+TimePlotGui/viewboxv2.py,sha256=3wK28d5W8lNJNqjRNL-PvtIWkoS7FnRJgGMc_VFJboU,4586
+TimePlotGui-0.0.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+TimePlotGui-0.0.7.dist-info/METADATA,sha256=ICiU9UGxAvbEHLPPJkmVjSmd5d2slZEwkHeiJ_QUyI4,553
+TimePlotGui-0.0.7.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+TimePlotGui-0.0.7.dist-info/top_level.txt,sha256=UHZ54OXxMD-jM6MQVLbxgk6pIGBxoCP2TMyEk3F167E,12
+TimePlotGui-0.0.7.dist-info/RECORD,,
