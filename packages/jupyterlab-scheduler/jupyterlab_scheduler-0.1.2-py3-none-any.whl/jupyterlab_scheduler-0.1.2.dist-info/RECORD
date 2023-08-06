@@ -1,0 +1,14 @@
+jupyterlab_scheduler/__init__.py,sha256=AGt_LeaQ5DNC8njOUrB8SrUlbBQsy7NRzLOzlyyzskY,570
+jupyterlab_scheduler/_version.py,sha256=K6xT8WWrPzE2EIWUA8Cr8bNkwSbS4Nh7sRoXC6K-hQc,71
+jupyterlab_scheduler/handlers.py,sha256=hmiOCZ_PT6-7y7atbi5pD6P3fG-PiZP2ZEYkPrZxvKg,6151
+jupyterlab_scheduler/labextension/jupyterlab_scheduler-0.0.1.tgz,sha256=HHwo_KZBPqkYXmTqgSnP65mTbrY6s-qRUIRb6qBdeyk,149298
+jupyterlab_scheduler/labextension/jupyterlab_scheduler-0.1.1.tgz,sha256=IgatuiQzxuGMk0YHT5UJv5LnVFhf_jbKytjted6PHH4,149296
+jupyterlab_scheduler/labextension/jupyterlab_scheduler-0.1.2.tgz,sha256=xuDNtt_dgY82dWmwV1B6czCYk06h1iUXgNjeI2FQmxw,149296
+jupyterlab_scheduler-0.1.2.data/data/etc/jupyter/jupyter_notebook_config.d/jupyterlab_scheduler.json,sha256=8l8hTPG7XbsxA9u-0j-_GCUUK-lFmhDIOkNKen2Zouw,108
+jupyterlab_scheduler-0.1.2.data/data/share/jupyter/lab/extensions/jupyterlab_scheduler-0.0.1.tgz,sha256=HHwo_KZBPqkYXmTqgSnP65mTbrY6s-qRUIRb6qBdeyk,149298
+jupyterlab_scheduler-0.1.2.data/data/share/jupyter/lab/extensions/jupyterlab_scheduler-0.1.1.tgz,sha256=IgatuiQzxuGMk0YHT5UJv5LnVFhf_jbKytjted6PHH4,149296
+jupyterlab_scheduler-0.1.2.data/data/share/jupyter/lab/extensions/jupyterlab_scheduler-0.1.2.tgz,sha256=xuDNtt_dgY82dWmwV1B6czCYk06h1iUXgNjeI2FQmxw,149296
+jupyterlab_scheduler-0.1.2.dist-info/METADATA,sha256=Rd-9k-xaAwhluXpbiRuBZiJLA067X7HU9kzWC2omPRc,3216
+jupyterlab_scheduler-0.1.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+jupyterlab_scheduler-0.1.2.dist-info/top_level.txt,sha256=Mui_1t6MWYlMPiLNeNBoBso_3HAINwrhDtRfrFHJ3gU,21
+jupyterlab_scheduler-0.1.2.dist-info/RECORD,,
