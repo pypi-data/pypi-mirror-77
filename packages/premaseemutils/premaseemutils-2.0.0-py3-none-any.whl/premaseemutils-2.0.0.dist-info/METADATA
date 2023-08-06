@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: premaseemutils
+Version: 2.0.0
+Summary: A utils package by prem aseem jain
+Home-page: https://github.com/pypa/premaseemutils
+Author: Aseem Jain
+Author-email: premaseem.webmaster@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/pypa/premaseemutils/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Say Thanks!, https://saythanks.io/to/premaseem.webmaster%40gmail.com
+Project-URL: Source, https://github.com/premaseem/premaseem-pyutils
+Keywords: sample,setuptools,development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
+Requires-Dist: peppercorn
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+# Utils package by Premaseem
+
+![Python Logo](https://www.python.org/static/community_logos/python-logo.png "premaseemutils")
+
+commendations for version control, documentation, or testing.
+
+[The source for this project is available here][https://github.com/premaseem/premaseem-pyutils].
+
+Most of the configuration for a Python project is done in the `setup.py` file,
+an example of which is included in this project. You should edit this file
+accordingly to adapt this sample project to your needs.
+
+
+
+
+
