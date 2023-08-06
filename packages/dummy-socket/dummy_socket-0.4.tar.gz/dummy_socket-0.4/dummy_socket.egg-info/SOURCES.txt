@@ -1,0 +1,10 @@
+dummy_socket_setup.py
+dummy_socket/__init__.py
+dummy_socket/exceptions.py
+dummy_socket/ip_address.py
+dummy_socket.egg-info/PKG-INFO
+dummy_socket.egg-info/SOURCES.txt
+dummy_socket.egg-info/dependency_links.txt
+dummy_socket.egg-info/requires.txt
+dummy_socket.egg-info/top_level.txt
+dummy_socket/whois/__init__.py
