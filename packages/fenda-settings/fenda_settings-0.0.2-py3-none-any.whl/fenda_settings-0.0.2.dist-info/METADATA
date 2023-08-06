@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fenda-settings
+Version: 0.0.2
+Summary: Fenda Settings
+Home-page: https://fenda.io/ff/settings
+Author: rejown
+Author-email: rejown@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml
+
+fenda settings
+
+
