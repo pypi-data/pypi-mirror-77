@@ -1,0 +1,8 @@
+README.md
+setup.py
+easyrl/__init__.py
+easyrl.egg-info/PKG-INFO
+easyrl.egg-info/SOURCES.txt
+easyrl.egg-info/dependency_links.txt
+easyrl.egg-info/requires.txt
+easyrl.egg-info/top_level.txt
