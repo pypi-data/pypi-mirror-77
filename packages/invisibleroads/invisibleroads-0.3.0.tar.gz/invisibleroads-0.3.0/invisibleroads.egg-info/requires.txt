@@ -1,0 +1,2 @@
+invisibleroads-macros-log>=1.0.3
+stevedore
