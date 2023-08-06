@@ -1,0 +1,9 @@
+README.md
+setup.py
+ppdir/__init__.py
+ppdir.egg-info/PKG-INFO
+ppdir.egg-info/SOURCES.txt
+ppdir.egg-info/dependency_links.txt
+ppdir.egg-info/entry_points.txt
+ppdir.egg-info/requires.txt
+ppdir.egg-info/top_level.txt
