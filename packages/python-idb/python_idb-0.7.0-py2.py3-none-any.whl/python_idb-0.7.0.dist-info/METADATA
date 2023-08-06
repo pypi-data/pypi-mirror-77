@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: python-idb
+Version: 0.7.0
+Summary: Pure Python parser for IDA Pro databases (.idb files)
+Home-page: https://github.com/williballenthin/python-idb
+Author: Willi Ballenthin
+Author-email: willi.ballenthin@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Disassemblers
+Requires-Dist: six
+Requires-Dist: hexdump
+Requires-Dist: vivisect-vstruct-wb (>=1.0.3)
+Requires-Dist: cached-property
+Provides-Extra: disassembly
+Requires-Dist: capstone ; extra == 'disassembly'
+
+UNKNOWN
+
+
