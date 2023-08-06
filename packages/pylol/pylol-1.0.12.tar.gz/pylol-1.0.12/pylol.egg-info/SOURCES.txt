@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Pylol/osfuncs.py
+Pylol/randfuncs.py
+Pylol/timefuncs.py
+pylol.egg-info/PKG-INFO
+pylol.egg-info/SOURCES.txt
+pylol.egg-info/dependency_links.txt
+pylol.egg-info/not-zip-safe
+pylol.egg-info/top_level.txt
