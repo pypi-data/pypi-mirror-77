@@ -1,0 +1,6 @@
+pandas
+xmltodict
+openpyxl
+xlrd
+csv
+json
