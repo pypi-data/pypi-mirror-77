@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: toolsbyerazhan
+Version: 0.1.1
+Summary: tools tutorial
+Home-page: https://github.com/erazhan/CommonTools
+Author: erazhan
+Author-email: erazhan@163.com
+License: MIT Licence
+Description: python tools tutorial
+Keywords: toolsbyerazhan,timetools,gpu4tftools
+Platform: any
