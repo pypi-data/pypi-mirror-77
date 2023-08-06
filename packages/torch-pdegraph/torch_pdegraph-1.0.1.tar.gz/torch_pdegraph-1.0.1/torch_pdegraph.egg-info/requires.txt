@@ -1,0 +1,11 @@
+matplotlib
+mnist
+numpy
+open3d-python
+opencv-python
+scikit-build
+scikit-image
+scikit-learn
+scipy
+torch
+tqdm
