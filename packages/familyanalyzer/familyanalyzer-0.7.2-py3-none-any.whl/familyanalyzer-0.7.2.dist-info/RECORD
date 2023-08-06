@@ -1,0 +1,12 @@
+familyanalyzer/__init__.py,sha256=L2aTgvtcuJS8lKay4A-9Xa3A-qg_AD205uGNTrtsIKw,296
+familyanalyzer/familyanalyzer.py,sha256=iaoP_rZbOucdlYohfGwBZhhxELs4nTE5ehikVkyk4IA,41670
+familyanalyzer/genetree.py,sha256=epgj2pdhLFfOEk2bYlwKCJvvoO15cbxrtYwbOU-JiRU,10432
+familyanalyzer/newick.py,sha256=mULzaSyN9OPdGPsX1ga8xPwT39yyO4QnVoyNmpHgWK0,8338
+familyanalyzer/orthoxmlquery.py,sha256=ldn4bC8boa2sH3itFxTYuIGCGI21qoH__TflvcxIBVM,5166
+familyanalyzer/taxonomy.py,sha256=CLV-Mbgfuq8VzpSDqsc9Y6rLefZhpO9rS-w7Mt9NPBA,25641
+familyanalyzer/tools.py,sha256=x1135LcSJ-kIOpoENyBndlTZlsBMySWgQ2pQoX_xdNw,2828
+familyanalyzer-0.7.2.data/scripts/familyanalyzer,sha256=BNy5x8rW1bDxxuCCAIC_0zDUZlwomQfKuSyuvKf0QXc,8581
+familyanalyzer-0.7.2.dist-info/METADATA,sha256=sUtehOTt9KeA3wppPQ5kW6bOZ6OD6scg2zXBc9XVZPo,6872
+familyanalyzer-0.7.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+familyanalyzer-0.7.2.dist-info/top_level.txt,sha256=5dtoJVAfF5zM77w4dycNIwpmrc5C5A0mDgh5iS5zIik,15
+familyanalyzer-0.7.2.dist-info/RECORD,,
