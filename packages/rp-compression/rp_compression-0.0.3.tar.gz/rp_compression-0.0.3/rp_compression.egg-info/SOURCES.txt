@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+requirements.txt
+setup.cfg
+setup.py
+rp_compression/__init__.py
+rp_compression/rp_compression.py
+rp_compression.egg-info/PKG-INFO
+rp_compression.egg-info/SOURCES.txt
+rp_compression.egg-info/dependency_links.txt
+rp_compression.egg-info/not-zip-safe
+rp_compression.egg-info/requires.txt
+rp_compression.egg-info/top_level.txt
+tests/__init__.py
+tests/test.py
