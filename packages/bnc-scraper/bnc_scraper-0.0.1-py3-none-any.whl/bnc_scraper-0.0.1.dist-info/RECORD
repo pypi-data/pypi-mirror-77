@@ -1,0 +1,12 @@
+bnc_scraper/__init__.py,sha256=Qp2oMJRs44ld0Btys8rgFIgG9gt0GjFLuVqc2Fy_q7w,430
+bnc_scraper/downloader.py,sha256=LNWqsXkHmOVAjjAY0TaWhX5iv1pvzUM0_U64JQU05lg,1520
+bnc_scraper/scraper.py,sha256=r0HuHS8lNuySWIDTYNIszZ5Bmr7iOy1zddB8SEUXiR8,4564
+bnc_scraper/types.py,sha256=E6YDkg1001vmr99JFG_K319ehrhgztsbI-E22q6snlM,38
+bnc_scraper/utils.py,sha256=yTjv85Eqzr6NNxnHw1ZpJEqS7Be-jSBhwMPVi-dNN6E,445
+test/__init__.py,sha256=CvY7t1llh9RFFd-O2v8c8VvEEZy9X5jE29Thbt-k0cE,118
+test/test_downloader.py,sha256=p7i2TGgdRyThhqDrvWczLr-rKO2umB71UDxnZpfjKuY,703
+bnc_scraper-0.0.1.dist-info/LICENSE,sha256=lzAsy2o7R-p570ji5wLLiCHoPS4ejQvY8a1PoWpayBE,1074
+bnc_scraper-0.0.1.dist-info/METADATA,sha256=TIllNBZZxXp8d7DzeS7iDgnfqohTsqMqjcVRfqfb_Dg,975
+bnc_scraper-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+bnc_scraper-0.0.1.dist-info/top_level.txt,sha256=_0kASnzPm6SzZNf3ko8gZpqUYrZqC52FX1wjMktB0gk,17
+bnc_scraper-0.0.1.dist-info/RECORD,,
