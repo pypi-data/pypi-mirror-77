@@ -1,0 +1,3 @@
+packaging
+future
+numpy<1.19.0
