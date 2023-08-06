@@ -1,0 +1,16 @@
+invisibleroads>=0.3.0
+invisibleroads-posts>=0.7.10
+pyramid
+alembic
+pyramid-retry
+pyramid-tm
+sqlalchemy
+transaction
+zope.sqlalchemy
+pytest
+invisibleroads-macros-configuration>=1.0.6
+invisibleroads-macros-log>=1.0.3
+invisibleroads-macros-security>=1.0.1
+
+[test]
+pytest-cov
