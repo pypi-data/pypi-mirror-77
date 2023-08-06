@@ -1,0 +1,3 @@
+[console_scripts]
+zotero_sync=zotero_sync.__main__:cli
+
