@@ -1,0 +1,14 @@
+Change Log
+===========
+
+0.0.1 (8/26/2020)
+-----------------
+- First Release
+
+
+
+0.0.2 (8/26/2020)
+-----------------
+- Bug Fix
+- Updated the module name so that you can import the module by running: 
+- "import lts".
