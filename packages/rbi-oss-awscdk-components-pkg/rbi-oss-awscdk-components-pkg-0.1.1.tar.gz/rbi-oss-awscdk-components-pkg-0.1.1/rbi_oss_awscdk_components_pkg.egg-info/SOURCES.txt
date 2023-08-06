@@ -1,0 +1,7 @@
+README.md
+setup.py
+rbi_oss_awscdk_components_pkg.egg-info/PKG-INFO
+rbi_oss_awscdk_components_pkg.egg-info/SOURCES.txt
+rbi_oss_awscdk_components_pkg.egg-info/dependency_links.txt
+rbi_oss_awscdk_components_pkg.egg-info/requires.txt
+rbi_oss_awscdk_components_pkg.egg-info/top_level.txt
