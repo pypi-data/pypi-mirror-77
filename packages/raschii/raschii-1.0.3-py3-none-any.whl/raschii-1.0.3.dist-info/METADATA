@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: raschii
+Version: 1.0.3
+Summary: A Python implementation of nonlinear regular wave theories (Stokes 2nd to 5th order and Fenton stream function waves).
+Home-page: https://bitbucket.org/trlandet/raschii
+Author: Tormod Landet
+Author-email: tormod@landet.net
+License: Apache 2.0
+Requires-Dist: numpy
+
+Raschii
+
+
