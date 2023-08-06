@@ -1,0 +1,4 @@
+PyGLM==1.1.8
+arcade==2.4.1
+click==7.1.1
+pymunk==5.6.0
