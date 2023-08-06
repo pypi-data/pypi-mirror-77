@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: autohooks-plugin-pdoc
+Version: 0.1.1
+Summary: An autohooks plugin for python documentation via pdoc
+Home-page: https://github.com/HughZurname/autohooks-plugin-pdoc
+License: GPL-3.0-or-later
+Keywords: git,documentation,hooks,pdoc
+Author: Craig de Gouveia
+Author-email: craig.degouveia@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: autohooks (>=1.1)
+Requires-Dist: pdoc (>=0.3.2,<0.4.0)
+Project-URL: Repository, https://github.com/HughZurname/autohooks-plugin-pdoc
+Description-Content-Type: text/markdown
+
+
