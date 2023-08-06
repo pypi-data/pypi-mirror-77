@@ -1,0 +1,3 @@
+biopython==1.72
+fastools==1.0.2
+requests==2.19.1
