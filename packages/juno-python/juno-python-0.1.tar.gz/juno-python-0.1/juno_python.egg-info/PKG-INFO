@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: juno-python
+Version: 0.1
+Summary: Juno Python
+Home-page: https://github.com/mjr/juno-python
+Author: Manaia Junior
+Author-email: manaiajr.23@gmail.com
+License: MIT
+Description: Python library for Juno API
+Keywords: Payment,Juno
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
