@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: turbaszek-airflow-cncf-testcncf-kubernetes
+Version: 0.0.0
+Summary: Back-ported airflow.providers.cncf.kubernetes.* package for Airflow 1.10.*
+Home-page: UNKNOWN
+Author: Apache Airflow PMC
+Author-email: dev@airflow.apache.org
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: System :: Monitoring
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: apache-airflow (~=1.10)
+Requires-Dist: cryptography (>=2.0.0)
+Requires-Dist: kubernetes (>=3.0.0)
+
+UNKNOWN
+
+
