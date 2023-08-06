@@ -1,0 +1,10 @@
+setup.py
+eman_distributions/Binomialdistribution.py
+eman_distributions/Gaussiandistribution.py
+eman_distributions/Generaldistribution.py
+eman_distributions/__init__.py
+eman_distributions.egg-info/PKG-INFO
+eman_distributions.egg-info/SOURCES.txt
+eman_distributions.egg-info/dependency_links.txt
+eman_distributions.egg-info/not-zip-safe
+eman_distributions.egg-info/top_level.txt
