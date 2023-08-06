@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyd-tpl
+Version: 0.1
+Summary: pyd generate tools
+Home-page: https://github.com/yafeile/pyd_tpl
+Author: Cat
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: pyd generate,pyd templates
+Platform: any
+Requires-Dist: Jinja2 (>=2.11.2)
+
+UNKNOWN
+
+
