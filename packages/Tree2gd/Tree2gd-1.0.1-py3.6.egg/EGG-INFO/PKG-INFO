@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: Tree2gd
+Version: 1.0.1
+Summary: Tree2gd
+Home-page: https://github.com/Dee-chen/Fa2gd
+Author: Duoyuan chen
+Author-email: 371761145@qq.com
+License: GPL
+Description: # Fa2gd
+        cdy
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
