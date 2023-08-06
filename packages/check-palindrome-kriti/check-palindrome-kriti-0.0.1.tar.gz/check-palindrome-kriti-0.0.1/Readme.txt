@@ -1,0 +1,1 @@
+easy to find the palindrome of a string

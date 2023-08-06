@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: check-palindrome-kriti
+Version: 0.0.1
+Summary: This is a palindrome checking function
+Home-page: https://github.com/Kriti-Swaroop
+Author: Kriti Swaroop
+Author-email: UNKNOWN
+License: MIT
+Description: easy to find the palindrome of a string
+Keywords: palindrome checker,python palindrome
+Platform: UNKNOWN
