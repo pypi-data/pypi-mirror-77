@@ -1,0 +1,9 @@
+README.md
+setup.py
+KnowYourPlates.egg-info/PKG-INFO
+KnowYourPlates.egg-info/SOURCES.txt
+KnowYourPlates.egg-info/dependency_links.txt
+KnowYourPlates.egg-info/top_level.txt
+knowyourplates/__init__.py
+knowyourplates/alpr.py
+knowyourplates/utils.py
