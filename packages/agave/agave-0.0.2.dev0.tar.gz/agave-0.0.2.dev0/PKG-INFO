@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: agave
+Version: 0.0.2.dev0
+Summary: test-dev
+Home-page: https://github.com/cuenca-mx/agave
+Author: Cuenca
+Author-email: dev@cuenca.com
+License: UNKNOWN
+Description: # agave
+        [![test](https://github.com/cuenca-mx/agave/workflows/test/badge.svg)](https://github.com/cuenca-mx/agave/actions?query=workflow%3Atest)
+        [![codecov](https://codecov.io/gh/cuenca-mx/agave/branch/main/graph/badge.svg)](https://codecov.io/gh/cuenca-mx/agave)
+        [![PyPI](https://img.shields.io/pypi/v/agave.svg)](https://pypi.org/project/agave/)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
