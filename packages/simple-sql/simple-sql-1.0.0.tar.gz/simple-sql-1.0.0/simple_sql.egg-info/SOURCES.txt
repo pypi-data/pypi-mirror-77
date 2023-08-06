@@ -1,0 +1,8 @@
+README.md
+setup.py
+simple_sql.egg-info/PKG-INFO
+simple_sql.egg-info/SOURCES.txt
+simple_sql.egg-info/dependency_links.txt
+simple_sql.egg-info/not-zip-safe
+simple_sql.egg-info/requires.txt
+simple_sql.egg-info/top_level.txt
