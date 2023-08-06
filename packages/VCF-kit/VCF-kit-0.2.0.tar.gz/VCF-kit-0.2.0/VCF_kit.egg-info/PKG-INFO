@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: VCF-kit
+Version: 0.2.0
+Summary: "Assorted utilities for the variant call format"
+Home-page: https://www.github.com/andersenlab/vcf-kit
+Author: Daniel E. Cook
+Author-email: danielecook@gmail.com
+License: MIT
+Project-URL: Documentation, https://vcf-kit.readthedocs.io/en/latest/?badge=latest
+Project-URL: Code, https://www.github.com/andersenlab/vcf-kit
+Project-URL: Issue tracker, https://www.github.com/andersenlab/vcf-kit/issues
+Description: UNKNOWN
+Keywords: VCF,variant,caller,format,snps,genetic,variation,genetics
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
