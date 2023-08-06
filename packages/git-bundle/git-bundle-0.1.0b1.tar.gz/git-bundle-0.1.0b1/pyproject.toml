@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "git-bundle"
+version = "0.1.0b1"
+description = "Provides GIT focused parameters and classes"
+readme = "README.md"
+repository = "https://github.com/pyfony/git-bundle"
+
+license = "MIT"
+
+authors = [
+    "Jiri Koutny <jiri.koutny@datasentics.com>"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+packages = [
+    { include = "gitbundle", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "~3.7.3"
+pygit2 = "0.28.*"
+pyfony-bundles = "0.2.*"
+
+[tool.poetry.dev-dependencies]
+pylint = "2.4.*"
+pytest = "5.2.*"
+pyfony = "0.6.*"
