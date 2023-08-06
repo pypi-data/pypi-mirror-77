@@ -1,0 +1,10 @@
+setup.py
+ataiat_probability/Binomialdistribution.py
+ataiat_probability/Gaussiandistribution.py
+ataiat_probability/Generaldistribution.py
+ataiat_probability/__init__.py
+ataiat_probability.egg-info/PKG-INFO
+ataiat_probability.egg-info/SOURCES.txt
+ataiat_probability.egg-info/dependency_links.txt
+ataiat_probability.egg-info/not-zip-safe
+ataiat_probability.egg-info/top_level.txt
