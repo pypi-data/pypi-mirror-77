@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: impact_factor
+Version: 1.0.3
+Summary: Impact Factor Toolkits for Pubmed
+Home-page: https://github.com/suqingdong/impact_factor
+Author: suqingdong
+Author-email: suqingdong@novogene.com
+License: BSD License
+Project-URL: Documentation, https://impact-factor.readthedocs.io
+Project-URL: Tracker, https://github.com/suqingdong/impact_factor/issues
+Description: # Impact Factor Toolkits
+        
+        ## Installation
+        ```
+        pip install impact_factor
+        ```
+        
+        ## Documents
+        https://impact-factor.readthedocs.io
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
