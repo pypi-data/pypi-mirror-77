@@ -1,0 +1,7 @@
+exclude_until_coverage_plugin/__init__.py,sha256=UTDYF8329m0nIE70GELp4giNtW5e3-unrxxrXt2ldNY,250
+exclude_until_coverage_plugin/exclude_until.py,sha256=_MM0KEvMbG65CzU28QmZ233Tm79PkiYlRRU_qKoV-FA,2502
+exclude_until_coverage_plugin-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+exclude_until_coverage_plugin-0.3.0.dist-info/METADATA,sha256=SKPlYciz5-gOfLa5Hgo41zaPFjXDDyomAMxSA124knw,2141
+exclude_until_coverage_plugin-0.3.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+exclude_until_coverage_plugin-0.3.0.dist-info/top_level.txt,sha256=gyra4Z_WMfd2nbOA11DkKw_nGayLahlVmwFFJ_EnXUU,30
+exclude_until_coverage_plugin-0.3.0.dist-info/RECORD,,
