@@ -1,0 +1,10 @@
+myutils/__init__.py,sha256=aRcmpKQfaqf2K-JUSaXJ2IwxsBCiSf3X8EW_1dyyLiI,607
+myutils/geo.py,sha256=wIniTLNeEx5ZDgD5amabXDtRCNPLW3hP6DwUAtLvkS0,2226
+myutils/graph.py,sha256=KJdHRfwNm-JyzCKpYGzJcoJj7xbfh8vAkUola0dsy9g,1260
+myutils/plot.py,sha256=MU1vdNnmD0yoobJ21mDetzhWcarGQ8M5ACmGkbb3gFw,1776
+myutils/xnet.py,sha256=Kzr2xzehhbKqAtjhLExEPRpr9-3IXaeIhj7QTJtssL8,11473
+erikunicamp_myutils-0.0.11.dist-info/LICENSE,sha256=xB7lguHrRpApYatBpQLCtNo7B22EqpPOVvQf2ljceyI,1071
+erikunicamp_myutils-0.0.11.dist-info/METADATA,sha256=ILIDWdDiuVT9lp1QSHZQbeFG0dHvof_ngCnr0bpBM18,463
+erikunicamp_myutils-0.0.11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+erikunicamp_myutils-0.0.11.dist-info/top_level.txt,sha256=tpfkIXHAJq_DB1s6KTMC2q50M5vTIRcGcfCvdVKRXHA,8
+erikunicamp_myutils-0.0.11.dist-info/RECORD,,
