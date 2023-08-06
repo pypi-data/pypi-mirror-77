@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: kubextract
+Version: 1.0.1
+Summary: cli framework generator for developing ML on kubeflow
+Home-page: UNKNOWN
+Author: Bentar Dwika
+Author-email: bentar@warungpintar.co
+License: UNKNOWN
+Description: # Kubextract: ML Kubeflow Framework Generator
+        Kubextract is a framework generator for end-to-end machine learning development and automate kubeflow job deployment.
+        
+        ### How to use
+        - install pip3 or anaconda
+        - if you use pip3 ```pip3 install kubextract --upgrade``` or anaconda ```pip install kubextract --upgrade```
+        - run ```kubextract --location <your-path>```
+        - run ```kubextract --help``` for usage information
+        
+        ### Documentation
+        - see config documentation on ```docs/config```
+        - see architecture decision record on ```docs/adr```
+        - see example project on ```examples/```
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
