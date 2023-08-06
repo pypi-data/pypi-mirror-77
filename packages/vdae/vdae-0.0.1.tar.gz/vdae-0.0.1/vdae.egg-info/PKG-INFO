@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: vdae
+Version: 0.0.1
+Summary: python package for variational diffusion autoencoders
+Home-page: https://github.com/lihenryhfl/SpectralVAEGAN
+Author: Henry,Ofir
+Author-email: henry.li@yale.edu
+License: UNKNOWN
+Description: Python package for
+        Variational Diffusion Autoencoders with Random Walk Sampling. See https://arxiv.org/abs/1905.12724.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
