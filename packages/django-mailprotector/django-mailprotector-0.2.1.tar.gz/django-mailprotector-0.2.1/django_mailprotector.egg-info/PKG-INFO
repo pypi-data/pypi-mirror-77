@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: django-mailprotector
+Version: 0.2.1
+Summary: A reusable Django app that protects email addresses and phone numbers, in various ways.
+
+Home-page: https://github.com/bnzk/django-mailprotector
+Author: Ben Stähli
+Author-email: bnzk@bnzk.ch
+License: MIT License
+Description: .. image:: https://travis-ci.org/bnzk/django-mailprotector.svg :target: https://travis-ci.org/bnzk/django-mailprotector/
+        
+        .. image:: https://img.shields.io/pypi/v/django-mailprotector.svg :target: https://pypi.python.org/pypi/django-mailprotector/
+        
+        .. image:: https://img.shields.io/pypi/l/django-mailprotector.svg :target: https://pypi.python.org/pypi/django-mailprotector/
+        
+        Development and Docs on `<https://github.com/bnzk/django-mailprotector/>`_
+        
+Keywords: django,email,obfuscate
+Platform: OS Independent
+Provides-Extra: dev
