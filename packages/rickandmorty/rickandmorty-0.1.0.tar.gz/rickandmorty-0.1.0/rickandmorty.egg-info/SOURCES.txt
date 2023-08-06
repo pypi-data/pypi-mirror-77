@@ -1,0 +1,12 @@
+README.md
+setup.py
+rickandmorty/__init__.py
+rickandmorty/base.py
+rickandmorty/character_client.py
+rickandmorty/episode_client.py
+rickandmorty/location_client.py
+rickandmorty.egg-info/PKG-INFO
+rickandmorty.egg-info/SOURCES.txt
+rickandmorty.egg-info/dependency_links.txt
+rickandmorty.egg-info/requires.txt
+rickandmorty.egg-info/top_level.txt
