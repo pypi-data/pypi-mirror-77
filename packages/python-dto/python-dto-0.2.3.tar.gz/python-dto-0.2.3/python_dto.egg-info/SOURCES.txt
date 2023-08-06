@@ -1,0 +1,9 @@
+README.md
+setup.py
+PyDto/__init__.py
+PyDto/pydto.py
+python_dto.egg-info/PKG-INFO
+python_dto.egg-info/SOURCES.txt
+python_dto.egg-info/dependency_links.txt
+python_dto.egg-info/top_level.txt
+test/test_example.py
