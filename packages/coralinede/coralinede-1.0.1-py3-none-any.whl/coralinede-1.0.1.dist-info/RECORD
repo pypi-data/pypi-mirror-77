@@ -1,0 +1,9 @@
+coralinede/__init__.py,sha256=N0GzzFRGWdFuOEQ_BFE6OAx4QKCFgFEFOP6_vhjScPg,135
+coralinede/auto_detect_df/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coralinede/auto_detect_df/detect_datatype.py,sha256=ID6pH7bi9Il8dKSV6RSuuGMJfbTTs1fYtcbdSweP4C4,4832
+coralinede/auto_detect_df/pyingest_util.py,sha256=Ve54AjxeoJTkxrlMmrxIxg6gL4I_27CsmSZ5Imt8OPE,1299
+coralinede-1.0.1.dist-info/LICENSE,sha256=QKulWsT3mPU6rO3tXgwU0wzXbFzAeZ7w90TYygcDH-o,1070
+coralinede-1.0.1.dist-info/METADATA,sha256=4RD4B44IHnBxbIabf_hX9hP_DIO4xSLxb0J0hbMBE9Q,769
+coralinede-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+coralinede-1.0.1.dist-info/top_level.txt,sha256=wa-xjCRvYcBgNyXtcYl90P7RQenFeYdoOeb8IP-4KRE,11
+coralinede-1.0.1.dist-info/RECORD,,
