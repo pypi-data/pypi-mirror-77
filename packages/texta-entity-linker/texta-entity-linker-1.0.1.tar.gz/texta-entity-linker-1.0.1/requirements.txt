@@ -1,0 +1,3 @@
+numpy==1.19.*
+regex==2020.7.*
+pytest
