@@ -1,0 +1,9 @@
+kerasncp/__init__.py,sha256=C1eGgYI4vZbymJWPz89ChVur3H-sreLn2AJCSHJPVLM,806
+kerasncp/ltc_cell.py,sha256=2FEbJoKDss1Sw1PJIe3tLkNqVq74ASAGObW9BLcANyc,15256
+kerasncp/ncp.py,sha256=wSll65XTdmHAj3tdq9OkStOuoHfhgW0lsrRpvJFiy-M,13574
+kerasncp/utils.py,sha256=AnKknCfOfVEXkFHaBHb9A_m7lTZehbRhigWaNmzvlag,1313
+keras_ncp-1.0rc4.dist-info/LICENSE,sha256=rt_3LGoZnRRPNCXJLicnKSeFYJQy0kM0e1rKygRQ_zE,11355
+keras_ncp-1.0rc4.dist-info/METADATA,sha256=7v6ojioz9vdZXtjo6am5hHSILXbJIdyihm5bNNHr7RU,725
+keras_ncp-1.0rc4.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+keras_ncp-1.0rc4.dist-info/top_level.txt,sha256=Hq3PnDCwr54nVii2N2271791WIVPxhK9W9NoFg4l0NU,9
+keras_ncp-1.0rc4.dist-info/RECORD,,
