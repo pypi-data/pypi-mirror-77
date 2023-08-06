@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: snet.sdk
+Version: 0.2.2
+Summary: SingularityNET Python SDK
+Home-page: https://github.com/singnet/snet-cli/tree/master/snet_sdk
+Author: SingularityNET Foundation
+Author-email: info@singularitynet.io
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: snet.snet-cli
+
+UNKNOWN
+
+
