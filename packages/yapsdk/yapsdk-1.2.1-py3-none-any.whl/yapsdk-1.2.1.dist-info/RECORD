@@ -1,0 +1,17 @@
+examples/__init__.py,sha256=hpYD8aSebAsZSAjWjE65F7UeroQ_chHS0AQFPyOS_as,606
+examples/compare_faces.py,sha256=BcdSqlu7RqqV41Lw2dy92S7_K4kx6DvmvVCxlqOsqoQ,2379
+examples/detect_faces.py,sha256=NfTRO2HLtlBirAT5zOA_TY9qdXOAVqo0nUludnxqIJg,2047
+examples/dominant_language.py,sha256=Uvblu_cdJYiffRebOMXwCh-KIt7g6o5uitKo9B8Gz8c,1239
+examples/entities.py,sha256=5EEFPrdJIW_PQN7PkcGm3eBVjLxDqrvUWPY02Wbxkfc,1470
+examples/line.py,sha256=cZVOzkIwcK-pDId9tMnegspJNhUtqRKpqSED-ED3SJk,1884
+examples/table.py,sha256=tHCR-uYFkrcEtW0JRuDhQtbuaw9ELBzDMQwV6LNoBaI,2013
+examples/text.py,sha256=2tAhGLNYzfjX3qDNX-dmWcrxsBovpL0HVMSCF0wbTxE,1475
+yapsdk/Yap.py,sha256=iH8D3lP7vp6MOxuzvTosSpYDaYdNIEShqdNM3booGi8,4904
+yapsdk/__init__.py,sha256=qS9744Y7xkPNQZg3ZTxV0JA6BkLut9-FhRHFqANDZ3w,629
+yapsdk/utils.py,sha256=T6FzAXz3-l6iy0ozXGO4Jr6fJGGLHpEiddQlg8oCX7o,751
+yapsdk/version.py,sha256=kmfHpHo2YhSrigutlRQs8qXIR8nEm-D-c8lScQQN64M,22
+yapsdk-1.2.1.dist-info/LICENSE,sha256=VJeq2t7iE76t7OEdk8-3L4_yT3ka9S5eIzMR5KKhBD0,1075
+yapsdk-1.2.1.dist-info/METADATA,sha256=0QI2urmsMUWnuUR2wtn8JZfiX1omWoX05zK2jd90O1Q,5222
+yapsdk-1.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+yapsdk-1.2.1.dist-info/top_level.txt,sha256=vV41W5Ipa0uzRaJs4EeMKsf9GbLkooeqnW0IpH2FkPU,16
+yapsdk-1.2.1.dist-info/RECORD,,
