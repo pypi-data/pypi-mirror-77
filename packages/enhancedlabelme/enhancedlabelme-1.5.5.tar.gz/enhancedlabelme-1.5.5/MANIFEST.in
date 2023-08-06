@@ -1,0 +1,3 @@
+include README.md
+include enhancedlabelme/README.md
+include enhancedlabelme/ui/*.ui
