@@ -1,0 +1,8 @@
+README.md
+setup.py
+dubeolsik_automata/__init__.py
+dubeolsik_automata/dubeolsik_automata.py
+dubeolsik_automata.egg-info/PKG-INFO
+dubeolsik_automata.egg-info/SOURCES.txt
+dubeolsik_automata.egg-info/dependency_links.txt
+dubeolsik_automata.egg-info/top_level.txt
