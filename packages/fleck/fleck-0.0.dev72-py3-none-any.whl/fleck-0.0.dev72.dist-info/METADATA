@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: fleck
+Version: 0.0.dev72
+Summary: Fast starspot rotational modulation light curves
+Home-page: https://github.com/bmorris3/fleck
+Author: Brett M. Morris
+Author-email: morrisbrettm@gmail.com
+License: Other
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: astropy
+Requires-Dist: scipy
+Requires-Dist: shapely
+Requires-Dist: matplotlib
+
+Fast starspot rotational modulation light curves in Python
+
+
