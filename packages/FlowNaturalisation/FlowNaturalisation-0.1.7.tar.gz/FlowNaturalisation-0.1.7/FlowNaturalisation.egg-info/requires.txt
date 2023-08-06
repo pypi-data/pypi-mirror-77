@@ -1,0 +1,6 @@
+pdsql
+gistools
+requests
+ecanallousagetools
+hydrolm
+pyyaml
