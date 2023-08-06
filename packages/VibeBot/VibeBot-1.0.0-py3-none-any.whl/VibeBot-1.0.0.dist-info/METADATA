@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: VibeBot
+Version: 1.0.0
+Summary: Ensures all members of a Groupme chat are vibin.
+Home-page: https://github.com/dgisolfi/VibeBot
+Author: Daniel Nicolas Gisolfi
+Author-email: Daniel.Gisolfi1@marist.edu
+License: WTFPL
+Project-URL: Bugs, https://github.com/dgisolfi/VibeBot/issues/
+Project-URL: Documentation, https://github.com/dgisolfi/VibeBot/
+Project-URL: Source Code, https://github.com/dgisolfi/VibeBot
+Keywords: Package
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: flask (==1.1.2)
+Requires-Dist: markdown (==3.2.2)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: importlib-metadata (==1.7.0) ; python_version < "3.8"
+Requires-Dist: idna (==2.10) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: itsdangerous (==1.1.0) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: markupsafe (==1.1.1) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: click (==7.1.2) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4"
+Requires-Dist: jinja2 (==2.11.2) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4"
+Requires-Dist: werkzeug (==1.0.1) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4"
+Requires-Dist: urllib3 (==1.25.10) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4" and python_version < "4"
+Requires-Dist: zipp (==3.1.0) ; python_version >= "3.6"
+
+# pyTemplate <a href="http://www.wtfpl.net/"><img src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png" width="80" height="15" alt="WTFPL" /></a>  [![Package Pypi](https://img.shields.io/pypi/v/FILL_THIS_IN.svg)](https://pypi.org/project/FILL_THIS_IN)
+
+My defacto python package - quick and clean. Used to create a new general python package.
+
+## Install
+
+### PyPi (Preferred Method)
+
+Run the following to install the latest version
+```
+python3 -m pip install pytemplate
+```
+
+If the repo is cloned to the host, run:
+```
+make nexus3-install
+```
+
+### From Source
+
+Clone the repository and run:
+
+```
+make install
+```
+
+## Usage
+
+```python
+python3 -m pytemplate
+```
+
+## Test
+
+### Install Dependencies
+
+```
+pipenv shell
+```
+
+*note: for dev dependencies add `--dev`*
+
+### Run the Tests
+
+```
+make test
+```
+
+## Found a bug?
+
+Please let us know! Submit an issue [here](https://github.com/dgisolfi/pyTemplate/issues).
+
+
+
+
