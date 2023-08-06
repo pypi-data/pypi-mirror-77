@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: prometheus-build-info
+Version: 1.0.0
+Summary: Utility project for recording build information and exposing it as a prometheus metric
+Home-page: UNKNOWN
+Author: Niels Albers
+Author-email: nralbers@gmail.com
+License: MIT
+Keywords: metrics,prometheus,build
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Intended Audience :: Developers
+Requires-Python: ~=3.5
+Description-Content-Type: text/markdown; charset=UTF-8
+Requires-Dist: click
+Requires-Dist: prometheus-client
+
+# Prometheus BuildInfo
+Python library for adding a buildinfo metric to your Prometheus-enabled applications.
+
+## Usage
+### Installation
+
+    pip install prometheus_build_info
+
+### make-build-info utility
+
+The make-build-info utility can be used during building or packaging to create a build_info.json file that stores the
+relevant build information that this library publishes. 
+
+    make-build-info --help
+    Usage: make-build-info [OPTIONS] APPNAME BRANCH REVISION VERSION
+
+    Options:
+      --help  Show this message and exit.
+
+Alternatively, running the utility when environment variables exist with the same name as the arguments listed above will
+have the same effect.
+
+### Manual creation of build_info.json
+
+If this suits your build process better, you can manually create build_info.json during the build. It has the following 
+format:
+
+    {
+    "appname": "test_app",
+    "branch": "master",
+    "revision": "abcdef",
+    "version": "1.0.1"
+    }
+
+### Adding the metric to your app
+
+Ensure that build_info.json is in your application working directory. Import ```prometheus_build_info.info``` into a code file that will be run during or after application initialisation.
+

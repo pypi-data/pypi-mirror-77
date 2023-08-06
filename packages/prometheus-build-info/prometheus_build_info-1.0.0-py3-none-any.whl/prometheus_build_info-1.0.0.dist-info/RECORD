@@ -1,0 +1,9 @@
+prometheus_build_info/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prometheus_build_info/builder.py,sha256=H-UbUJWD3eG89Heh9FFUhBUzt0Z0Zg5QHnrWwbx7Lbk,584
+prometheus_build_info/info.py,sha256=nshaZaNbEhPYp87GbycTwhsycqLWHnQCNW1K2cluFec,823
+prometheus_build_info-1.0.0.dist-info/LICENSE,sha256=ZSGbuNwYORVNUBf_vO_8VRktgLWuWoLVAl640tzHSj0,1069
+prometheus_build_info-1.0.0.dist-info/METADATA,sha256=H2GA85_6rKwk4ii5W9XZhcCjQoScroSTaWwAICyLI9w,2405
+prometheus_build_info-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+prometheus_build_info-1.0.0.dist-info/entry_points.txt,sha256=lypj4Vf19218HTSSVzM3IUzCbIpTxjPIwm89G01pd7Y,101
+prometheus_build_info-1.0.0.dist-info/top_level.txt,sha256=Xd4wjtwoG7cB3Chs1wVxAVy4pMunFxHYAVwRq0ITiIo,22
+prometheus_build_info-1.0.0.dist-info/RECORD,,
