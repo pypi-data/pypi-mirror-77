@@ -1,0 +1,16 @@
+kickbox/__init__.py,sha256=MF64bwUCd4sm3dvcxZnkb4ujHtxT_KeuXdD0nVieEt4,27
+kickbox/client.py,sha256=2kU3M9gjwhvFy1OJDsI7R6_CgnVnxoER9fO3niOE_bk,312
+kickbox/api/__init__.py,sha256=KLpnIeyp6B594oXa2UEjYgJCr_sHsbEZrGRO3eqqTs8,63
+kickbox/api/kickbox.py,sha256=UHTJNAo9ZKxViyRmJdjoLCdzaI4YbH-5nv9sxLw_9aQ,629
+kickbox/error/__init__.py,sha256=Xtlbzghr0offVJwk7_J8C94ybZ3miPPaGnix2lNkFDU,38
+kickbox/error/client_error.py,sha256=CVXmj5krolctVtoEgPGxIz6Z9AVByrpazJ0rUvvgkqM,231
+kickbox/http_client/__init__.py,sha256=mw8Y1gSW_kBThoq4QZGuxWHgGwZ5WrV3skv4ghGNj7U,3963
+kickbox/http_client/auth_handler.py,sha256=Gg4tm4sTaNYMqaTGLwU8htykfMOSRMkM5TUb4nAVNIY,1011
+kickbox/http_client/error_handler.py,sha256=O9ND76cxM0msZr99PSc5g5ZQ-rzDXsVWb4bIpqJK4cQ,1215
+kickbox/http_client/request_handler.py,sha256=04ckQtSXB6dXqecJqhEYLwY3CfBwOTCl5TPpQbRlTO8,1312
+kickbox/http_client/response.py,sha256=9sF7zxRj42_A35OEOzgcSPvYeX7lRVtev53idFBtnsU,223
+kickbox/http_client/response_handler.py,sha256=mW-uquDtgQctGHZNHxrCn4drKWRjTnQ5NbJjnPmwNMY,372
+kickbox-2.0.4.dist-info/METADATA,sha256=U5qWZ2Qp1EuiTRYzectZm1QEs_BhDQhTTz0GVwxE2cU,840
+kickbox-2.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+kickbox-2.0.4.dist-info/top_level.txt,sha256=WXkomzX5TR3EtmDKSqGVwEoIgoH69cachIpYY9v89WY,8
+kickbox-2.0.4.dist-info/RECORD,,
