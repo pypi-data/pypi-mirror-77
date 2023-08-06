@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pdf-rules
+Version: 1.0.0
+Summary: Tools to turn a PDF into a CSV, pythonically
+Home-page: https://gitlab.com/sean-c/pdftools
+Author: Sean Clouston
+Author-email: clouston@protonmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
