@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pcmiler
+Version: 0.0.0
+Summary: pcmiler wrapper python package
+Home-page: https://github.com/nfi-engineering/pcmiler
+Author: Chris Pryer
+Author-email: chris.pryer@nfiindustries.com
+License: PUBLIC
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# pcmiler
+
+pcmiler wrapper python package
+
+
