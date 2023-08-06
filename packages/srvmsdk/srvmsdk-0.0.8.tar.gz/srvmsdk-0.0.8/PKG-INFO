@@ -1,0 +1,26 @@
+Metadata-Version: 1.0
+Name: srvmsdk
+Version: 0.0.8
+Summary: UNKNOWN
+Home-page: https://github.com/encircles/srvmsdk
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: # Test
+        
+        # install
+        ```
+        python3 -m pip install --upgrade setuptools wheel
+        python3 -m pip install twine
+        ```
+        
+        # setup
+        ```
+        python3 setup.py sdist bdist_wheel
+        ```
+        
+        # upload pypi
+        ```
+        twine upload dist/*
+        ```
+Platform: UNKNOWN
