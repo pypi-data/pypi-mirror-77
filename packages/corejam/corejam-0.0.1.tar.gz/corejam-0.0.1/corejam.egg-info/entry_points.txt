@@ -1,0 +1,3 @@
+[console_scripts]
+corejam = corejam.__main__:main
+
