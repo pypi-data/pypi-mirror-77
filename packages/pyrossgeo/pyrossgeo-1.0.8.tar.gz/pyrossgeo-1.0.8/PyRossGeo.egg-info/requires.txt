@@ -1,0 +1,7 @@
+cython
+numpy
+scipy
+matplotlib
+pandas
+zarr
+geopandas
