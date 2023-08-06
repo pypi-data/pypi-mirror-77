@@ -1,0 +1,13 @@
+README.md
+setup.py
+sweref99/__init__.py
+sweref99/ellipsoid.py
+sweref99/ellipsoids.py
+sweref99/projections.py
+sweref99/transverse_mercator.py
+sweref99.egg-info/PKG-INFO
+sweref99.egg-info/SOURCES.txt
+sweref99.egg-info/dependency_links.txt
+sweref99.egg-info/top_level.txt
+sweref99/tests/__init__.py
+sweref99/tests/test_main.py
