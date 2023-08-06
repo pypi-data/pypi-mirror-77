@@ -1,0 +1,10 @@
+simplevcf/__init__.py,sha256=DqpGS_-9nNhVd6MQoAW3bd8achZxL8Y-OEiL2XOQWSw,6211
+simplevcf/snpeff.py,sha256=xnsk3ykgxJEXUDs6_Mf2oVRfNBll5JFs1hVj6rnnf9k,785
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_reader.py,sha256=LkSSQEMKuSc9JVb4zpIK6t1_F3ruIivU9m7Q5X46Nj8,5363
+tests/test_snpeff.py,sha256=XoMjId2uIhNM72QD5aVf70nliOyaDmc9bQH3oozHeMg,2901
+simplevcf-0.1.0.dist-info/LICENSE,sha256=Pd-b5cKP4n2tFDpdx27qJSIq0d1ok0oEcGTlbtL6QMU,11560
+simplevcf-0.1.0.dist-info/METADATA,sha256=fsnIGFBFXixyUMNLBHix3Q8eK_6QQ4Tbymlx02KHNWY,1455
+simplevcf-0.1.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+simplevcf-0.1.0.dist-info/top_level.txt,sha256=PlHKSoHMfRJf5lUugMMT4rUcOqqaKww1N6ArS2uXnzg,16
+simplevcf-0.1.0.dist-info/RECORD,,
