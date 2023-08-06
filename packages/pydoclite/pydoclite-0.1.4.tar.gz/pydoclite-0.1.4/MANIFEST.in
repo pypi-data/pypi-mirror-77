@@ -1,0 +1,4 @@
+include LICENSE
+recursive-include  .lib lib/*
+recursive-include ./darwin  darwin/*
+recursive-include ./darwin  linux/*
