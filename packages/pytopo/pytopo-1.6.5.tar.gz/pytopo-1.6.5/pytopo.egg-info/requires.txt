@@ -1,0 +1,8 @@
+PyGObject
+numpy
+pycairo
+requests-futures
+simplejson
+
+[elliplots]
+matplotlib
