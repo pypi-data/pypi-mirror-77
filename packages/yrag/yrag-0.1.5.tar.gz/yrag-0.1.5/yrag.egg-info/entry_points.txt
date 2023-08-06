@@ -1,0 +1,3 @@
+[console_scripts]
+yrag = yrag.yrag_cli:main
+
