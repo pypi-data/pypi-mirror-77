@@ -1,0 +1,3 @@
+listify
+python-poppler
+pdftotext
