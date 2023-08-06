@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pthflops
+Version: 0.3.1
+Summary: Estimate FLOPs of neural networks
+Home-page: https://github.com/1adrianb/pytorch-estimate-flops
+Author: Adrian Bulat
+Author-email: adrian@adrianbulat.com
+License: BSD
+Requires-Dist: torch
+
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)  [![Build Status](https://travis-ci.com/1adrianb/pytorch-estimate-flops.svg?branch=master)](https://travis-ci.com/1adrianb/pytorch-estimate-flops)
+
+
