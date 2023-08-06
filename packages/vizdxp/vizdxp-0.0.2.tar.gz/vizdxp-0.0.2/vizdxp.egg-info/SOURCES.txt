@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+vizdxp/__init__.py
+vizdxp/__main__.py
+vizdxp/graphs.py
+vizdxp.egg-info/PKG-INFO
+vizdxp.egg-info/SOURCES.txt
+vizdxp.egg-info/dependency_links.txt
+vizdxp.egg-info/entry_points.txt
+vizdxp.egg-info/requires.txt
+vizdxp.egg-info/top_level.txt
