@@ -1,0 +1,6 @@
+README.md
+setup.py
+poo_poo.egg-info/PKG-INFO
+poo_poo.egg-info/SOURCES.txt
+poo_poo.egg-info/dependency_links.txt
+poo_poo.egg-info/top_level.txt
