@@ -1,0 +1,9 @@
+palmerpenguins/__init__.py,sha256=GyDr0k_xf662Uae-kB76sts-IN2hr2QppG-X3VoUtfU,145
+palmerpenguins/_base.py,sha256=QA6C0_qIVty7YM3bEVyeK61x-Xd1KAhJw1K7nNCvDgM,1179
+palmerpenguins/penguins.py,sha256=KBK3KOK-92mRHB1xIQRWcKgeMIfFwzzYG3pLWqjvDls,6597
+palmerpenguins/data/penguins-raw.csv,sha256=FE9iMUPJNg_XcyKk-GrLBtwZiBTb0maXJMY-ZFe5B70,53098
+palmerpenguins/data/penguins.csv,sha256=8gTbLHU7CTfKrDyzUlhWLBTwc-S7x2viS0xRziJ2epM,15241
+palmerpenguins-0.1.3.dist-info/METADATA,sha256=9yBdtbRCSfI72qdwGERyAnHCmo1AiqQbzxwsHwuezUI,2027
+palmerpenguins-0.1.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+palmerpenguins-0.1.3.dist-info/top_level.txt,sha256=GSdofX-y0tdSz0ppK_meeCVybPnFTBGwbs0Jub5arbc,15
+palmerpenguins-0.1.3.dist-info/RECORD,,
