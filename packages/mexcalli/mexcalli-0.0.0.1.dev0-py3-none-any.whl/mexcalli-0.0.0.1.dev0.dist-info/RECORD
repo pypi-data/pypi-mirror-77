@@ -1,0 +1,16 @@
+mezcal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mezcal/config.py,sha256=3-gN8-x2e1xhB02aegp5rceaepWiju9xZDZwig9Njdw,362
+mezcal/version.py,sha256=DRwivSSkrz3motnqu4yfvicjM5GuVfZmlgr52qSrdg4,28
+mezcal/blueprints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mezcal/blueprints/rest_api.py,sha256=nLayF_2QAnYMymj7cqnwsJPcAhybtW35DcRfIN2emks,7673
+mezcal/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mezcal/models/helpers.py,sha256=_gzTKayvk7lYkeUMJgk_nQIvEywl3omDMu4yLUGmEWc,4376
+mezcal/resource/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mezcal/resource/helpers.py,sha256=D9fqoN1DYs25NieOE42_Bl8uQOVW4NhxwHvafN4vLjg,622
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/resources/test_helpers.py,sha256=Iy_uIZIkDTLWL-IU8kUdohuKrep6mokHoZZlK_T34go,608
+mexcalli-0.0.0.1.dev0.dist-info/METADATA,sha256=JqRBd139sLZjcA04aDk_kA6hMqBMFEslvrFVXnVnTKw,967
+mexcalli-0.0.0.1.dev0.dist-info/WHEEL,sha256=YNlcxLoRZfMqjEfLMA4_N5GPCL0Yw1E8c7zrDjEU0Bk,92
+mexcalli-0.0.0.1.dev0.dist-info/top_level.txt,sha256=f5xA0RJ4XnwCPTiAFLck7Ff2wcfCes8clV3G9Cai4YU,13
+mexcalli-0.0.0.1.dev0.dist-info/RECORD,,
