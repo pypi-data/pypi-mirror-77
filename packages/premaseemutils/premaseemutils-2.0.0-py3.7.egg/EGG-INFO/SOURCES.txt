@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/calculator/__init__.py
+src/calculator/square.py
+src/premaseemutils.egg-info/PKG-INFO
+src/premaseemutils.egg-info/SOURCES.txt
+src/premaseemutils.egg-info/dependency_links.txt
+src/premaseemutils.egg-info/entry_points.txt
+src/premaseemutils.egg-info/requires.txt
+src/premaseemutils.egg-info/top_level.txt
