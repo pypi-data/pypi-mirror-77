@@ -1,0 +1,10 @@
+ffdb.py,sha256=ML3EYFAUzhDJPX0mpADSaNoJxhrCyTAOX5XYbk9IUF4,32722
+ffdb-2.5.3.data/scripts/extractor.py,sha256=bSLmJiAuwYTQ500oARsQn_NTmoyv-rVvOkyCWsiG_0U,94224
+ffdb-2.5.3.data/scripts/indexer.py,sha256=kr8AI0Gt_DR5imbHcwXVGxBf-9a_opnVbSKGx-e0Gvg,25732
+ffdb-2.5.3.data/scripts/merger.py,sha256=IS5rSC-NrPcOGyqcvrTAF4FeW2AhCTRuqP8ER3mV8Bc,12274
+ffdb-2.5.3.data/scripts/remover.py,sha256=DnKESqxMVGD9cGFK0PF7KPk8wupS7Dq0Y0viikI12dg,22428
+ffdb-2.5.3.dist-info/LICENSE,sha256=jVa0BUaKrRH4erV2P5AeJ24I2WRv9chIGxditreJ6e0,34524
+ffdb-2.5.3.dist-info/METADATA,sha256=IVu-REjHFN5yRBSc6a8k1mU7-SacpHMN9Nq7ckrevRo,5096
+ffdb-2.5.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ffdb-2.5.3.dist-info/top_level.txt,sha256=LqR9OSNAjKNMVk6C2M89NH-LQNil7st24e3c1reyfoU,5
+ffdb-2.5.3.dist-info/RECORD,,
