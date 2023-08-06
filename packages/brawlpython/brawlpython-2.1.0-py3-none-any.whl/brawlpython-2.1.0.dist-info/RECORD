@@ -1,0 +1,15 @@
+brawlpython/__init__.py,sha256=Q6yQJBsm2acoKyrAj35bRitr99yRzs1vFytN_EXSlnc,185
+brawlpython/api_toolkit.py,sha256=MeYnAxHUSdxPBpO8lgWEzgDVg80Opn5IidtuY5sc6F4,4656
+brawlpython/async_init.py,sha256=IbrVszyXqs5btEZstLKEnjZgdZxNBWibdajjvzHGgRg,629
+brawlpython/base_classes.py,sha256=LlNmUjZ7c0Dv4MzVOEFyryA_XKCPt11N-2-75_nKzEo,2150
+brawlpython/cache_utils.py,sha256=yUy1RKaSkqgdiOJGGwRLgsBM3Su69GKg4KZOWpWCsQI,3961
+brawlpython/clients.py,sha256=H22cOAzx9R_fkBm-LFYBKNHqqvAaUdOOeRZN-EDPnUc,2256
+brawlpython/exceptions.py,sha256=bZqQPWVSHe89ETNBQwdes084zE-2R6zOEhRyGcNytgo,1947
+brawlpython/experiments.py,sha256=nVy2iP3T-tdD437YtKwCEswFzMUEkPzYnQJhfd93Ptg,2582
+brawlpython/sessions.py,sha256=ogRIxZXW2IuqeCmRkE7a_yG3-FbIY2VKzgXNUds8cWY,8272
+brawlpython/typedefs.py,sha256=_KyJ0uxzl2-0ffr-XJOq-955eV5VeURSeP1Y9xzoQD0,465
+brawlpython-2.1.0.dist-info/LICENSE,sha256=NsIfyEUIXdzqrZ4i_KKyz6lmEPr__q0rSBy6aboOwtQ,1067
+brawlpython-2.1.0.dist-info/METADATA,sha256=C047xrJ7A8iDgCU0vpf1ThuSuaY7GFhGWBMAl1InCLA,2704
+brawlpython-2.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+brawlpython-2.1.0.dist-info/top_level.txt,sha256=6HLof9_3r8LHAz8YC8P60bVpql87pktOO3XcM26uipI,12
+brawlpython-2.1.0.dist-info/RECORD,,
