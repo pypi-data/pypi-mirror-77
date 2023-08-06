@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: rescupy
+Version: 0.1.0
+Summary: RESCUPy is a Python interface for the Fortran-2008 version of RESCU.
+Home-page: https://github.com/vincentmr/rescupy
+Author: Vincent Michaud-Rioux
+Author-email: vincentm@nanoacademic.com
+License: Proprietary
+Download-URL: https://github.com/vincentmr/rescupy/archive/v0.1.0.tar.gz
+Description: UNKNOWN
+Keywords: RESCU,RESCUF08,RESCUPy,DFT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
