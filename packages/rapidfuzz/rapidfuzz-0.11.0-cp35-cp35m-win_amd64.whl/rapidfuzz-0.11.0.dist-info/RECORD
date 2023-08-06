@@ -1,0 +1,10 @@
+rapidfuzz/__init__.py,sha256=NT29oMkI0BRfb3YE4xxLnDJ0lcGKVAFNdtAEkijdbKg,96
+rapidfuzz/fuzz.cp35-win_amd64.pyd,sha256=2WJnsGOGdP2x98zT9n9_802Af8M-4hiPa1_WgNt21cc,310272
+rapidfuzz/levenshtein.cp35-win_amd64.pyd,sha256=I6HkiK6g_7SNRj_oSqh5MI-0BHEGqIc16_Y7pd0e4Q8,72704
+rapidfuzz/process.py,sha256=dTqprsPH04U6Ru1q1YbeM6sUjoNx36GrwMyQ6TFa1bw,7733
+rapidfuzz/utils.cp35-win_amd64.pyd,sha256=-AvG1ktVlj71nHaXvmyJxqCgGzSXqUSol8U_KGw_qZ8,16896
+rapidfuzz-0.11.0.dist-info/LICENSE,sha256=UZLgcFzb_G2cBTxv8lxLs-mCG06VPshbwdvBkgWotIo,1102
+rapidfuzz-0.11.0.dist-info/METADATA,sha256=Jc9dngPJtXGzpkaJeDiBUZAMvUqBg-X_DgvOAXb0El4,5116
+rapidfuzz-0.11.0.dist-info/WHEEL,sha256=lAhx1E7vuMdfB15XOB_cxzoqY_rMvOvDnKwTbnMf6lo,106
+rapidfuzz-0.11.0.dist-info/top_level.txt,sha256=Oxm3Kk-v28hdkOkW3AVE1EMl8Ml5FPFl32w6V65shvg,10
+rapidfuzz-0.11.0.dist-info/RECORD,,
