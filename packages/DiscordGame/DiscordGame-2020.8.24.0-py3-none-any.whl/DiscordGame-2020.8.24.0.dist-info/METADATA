@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: DiscordGame
+Version: 2020.8.24.0
+Summary: A Python Discord Library for developing games in Discord Servers.
+Home-page: https://github.com/GrandMoff100/Discordgame
+Author: Pixymon
+Author-email: nlarsen23.student@gmail.com
+License: GNU License
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# DiscordGame
+A Python Framework for Making Text and Reaction Button Based Games in Discord.
+
+
