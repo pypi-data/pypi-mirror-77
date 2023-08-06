@@ -1,0 +1,3 @@
+[console_scripts]
+mbizmomo = mbizmomo.cli:main
+

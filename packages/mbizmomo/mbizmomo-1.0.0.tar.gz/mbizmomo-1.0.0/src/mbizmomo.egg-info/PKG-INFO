@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: mbizmomo
+Version: 1.0.0
+Summary: Python wrapper for the MTN MoMo API.
+Home-page: https://github.com/amonak/mbizmomo
+Author: Amonak
+Author-email: amonak@alphamonak.com
+License: MIT
+Description: MTN MoMo API Python Client
+        ==========================
+        
+        Installation
+        ------------
+        
+        Install by running the command::
+        
+          $ pip install mbizmomo
+        
+Keywords: MoMo API,MoMo API Python Wrapper,MoMo API Python
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.4
+Provides-Extra: test
+Provides-Extra: dev
