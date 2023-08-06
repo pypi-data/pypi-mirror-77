@@ -1,0 +1,9 @@
+gqlgen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gqlgen/generator.py,sha256=FjiEKNtQ-KnrTtiOMXC2cXZrTA_TiDmURvBhp1_lFVs,7716
+gqlgen/main.py,sha256=2jgMaiiozVn6ezNkmiaiYUHNoBBywgZp6J_w4hU5Kro,8424
+gqlgen/utils.py,sha256=5fVwp0mk--df_mrpuor9QKguHScGLTSOmEshhQctwLw,235
+gqlgen-0.0.3.dist-info/entry_points.txt,sha256=KJUU9vqfOkcrjiEsHLXYso1hcIsGsC3rtdTgFluSXPY,43
+gqlgen-0.0.3.dist-info/LICENSE,sha256=-2kU7AiBZZWHQREWNJjjZTQDMa-3yOv8t5ffhekSX-k,1061
+gqlgen-0.0.3.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+gqlgen-0.0.3.dist-info/METADATA,sha256=vE7ziklTPWXRf6ZcYoMmMJ_FFdxaYtJJlmISmnyGAKc,425
+gqlgen-0.0.3.dist-info/RECORD,,
