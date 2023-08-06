@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: visym-collector
+Version: 0.0.1
+Summary: Visym Collector
+Home-page: https://github.com/visym/pycollector
+Author: Visym Labs
+Author-email: info@visym.com
+License: UNKNOWN
+Download-URL: https://github.com/visym/pycollector/archive/0.0.1.tar.gz
+Description: Visym Collector
+Keywords: vision,learning,ML,CV
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown

@@ -1,0 +1,7 @@
+README.md
+setup.py
+visym_collector.egg-info/PKG-INFO
+visym_collector.egg-info/SOURCES.txt
+visym_collector.egg-info/dependency_links.txt
+visym_collector.egg-info/requires.txt
+visym_collector.egg-info/top_level.txt
