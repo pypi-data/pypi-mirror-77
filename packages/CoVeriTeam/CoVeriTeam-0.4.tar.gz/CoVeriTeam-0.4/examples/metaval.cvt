@@ -1,0 +1,32 @@
+// This file is part of CoVeriTeam, a tool for on-demand composition of cooperative verification systems:
+// https://gitlab.com/sosy-lab/software/coveriteam
+//
+// SPDX-FileCopyrightText: 2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// Validating Verifier
+
+// First stage: instrumentation of witness and program.
+ins = ActorFactory.create(WitnessInstrumentor, "../config/cpa-witnesses-instrumentor.yml");
+
+// Second stage: select an appropriate verifier backend.
+verifier_selector = ActorFactory.create(AlgorithmSelector, "../config/algo-selector-metaval.yml");
+// Third stage: use the verifier backend.
+verifier = ActorFactory.create(ProgramVerifier);
+
+metaval = SEQUENCE(ins, SEQUENCE(verifier_selector, verifier));
+
+// Print type information about the composition (for illustration)
+print(metaval);
+
+// Prepare inputs.
+witness = ArtifactFactory.create(ReachabilityWitness, witness_path);
+prog = ArtifactFactory.create(CProgram, prog_path);
+spec = ArtifactFactory.create(BehaviorSpecification, spec_path);
+ip = {'program':prog, 'spec':spec, 'witness':witness};
+
+// Execute metaval on the inputs.
+res = execute(metaval, ip);
+print("The following artifacts were produced by the execution:");
+print(res);
