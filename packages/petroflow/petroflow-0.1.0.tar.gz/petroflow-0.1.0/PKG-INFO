@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: petroflow
+Version: 0.1.0
+Summary: A framework for well data processing
+Home-page: https://github.com/gazprom-neft/petroflow
+Author: Gazprom Neft DS team
+Author-email: rhudor@gmail.com
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Provides-Extra: tensorflow
+Provides-Extra: tensorflow-gpu
+Provides-Extra: torch
