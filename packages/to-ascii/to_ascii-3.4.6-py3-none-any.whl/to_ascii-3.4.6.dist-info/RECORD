@@ -1,0 +1,15 @@
+to_ascii-3.4.6.data/data/LICENSE,sha256=Doy04yAPj8t9FDevgd2QhzRmbW4-nJ2fDsF43pwF1xM,1091
+toascii/ABC.py,sha256=BSrZdAD_mlDzhziDyv494a1CiGmL4g6giki7nGZwaAs,736
+toascii/CLI.py,sha256=wySDhAjjg_n72_tok9YL7RxBn8_y5t8VHvYBLwKsPv0,2246
+toascii/Constants.py,sha256=32eLi4yyZze-BsaPMDP86hkQVxMeGAme3eaEJCzdkbs,150
+toascii/Exceptions.py,sha256=xOmex80ndvJxC4sa6SSE0m63lU_qlh0aiAc-BWW0BdE,276
+toascii/Image.py,sha256=a5hynX63su56jC488cHcP4IlRtM-xzx65lkpPPlYQMw,2419
+toascii/Live.py,sha256=gkNEglj2c7pCusMgyvXPkft1-H1shzNLPxYj1zCrad0,2848
+toascii/Video.py,sha256=5tc3qaXRncR3AcZQ2HbYrP7-wfx4wFtQw5XjzIEN6VA,4408
+toascii/__init__.py,sha256=FFg62BGYYhTRDocRq_8heQ2ekZMUobzAPnwo--Sr9Mc,78
+to_ascii-3.4.6.dist-info/LICENSE,sha256=Doy04yAPj8t9FDevgd2QhzRmbW4-nJ2fDsF43pwF1xM,1091
+to_ascii-3.4.6.dist-info/METADATA,sha256=1-lcH8i8L45hFvG8mYslAHcCniu1OfLQTW11vAlozSg,7181
+to_ascii-3.4.6.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+to_ascii-3.4.6.dist-info/entry_points.txt,sha256=AWgvBET74_FDpXuuIGYpHWO0QCqBywFAglMksUVMxtY,47
+to_ascii-3.4.6.dist-info/top_level.txt,sha256=QgjqkjECM-VpV1VrclvZrO3H_kgftKBSIrIxCcoR2i8,8
+to_ascii-3.4.6.dist-info/RECORD,,
