@@ -1,0 +1,16 @@
+zillion/__init__.py,sha256=WbJo57rMrKgg5ABomhQA8Q2qpU5Yw86PJocD-WxsIbc,507
+zillion/configs.py,sha256=P2mq7COhWW-QhN4SY-nKusPom7iRJHF1Wox8_geqlo4,41032
+zillion/core.py,sha256=SxGVlrjkGh9bSM6saPYGLeaF4_EyJjQjF4O9xPqZzmI,7037
+zillion/datasource.py,sha256=4H3LNtjuzCyPbc7CgYW2Wl5-gd9-k7Mu2sN_B9m6nO0,60727
+zillion/field.py,sha256=Ld1QQIGc27OzakSgyQempDu7Byc7oY2DWZhQ4ZFc8gU,45116
+zillion/model.py,sha256=FAmC1tH9YphVU_cJ_kH1gboAki79GZawcl6dyG6Gobk,926
+zillion/report.py,sha256=J2OxZeelBx6VyXiDGVA1U-47bvwVJix-WeopIgwvgSE,71208
+zillion/sql_utils.py,sha256=mxlJBVHAz4NukFWasHOa1yMj39g8jtKyfMdPJ9i1aL0,15889
+zillion/version.py,sha256=UVo8ZObUMqBc-_GNHvK4q4LxZ1B_a5OAtCoPZdH_RIQ,44
+zillion/warehouse.py,sha256=1llkJ2bCrvNz4agCR5YpZLaSpVh_z6jm-iA5vfQWSns,36345
+zillion-0.4.2.dist-info/AUTHORS.md,sha256=KuvmuPxushXZzHqF27tkTYfUEZUkyXpwo377pzom4S4,297
+zillion-0.4.2.dist-info/LICENSE,sha256=7ktodXSckwtykjXPKbnDm05gB0GMjMIsSJ3VQ4OHgmE,1077
+zillion-0.4.2.dist-info/METADATA,sha256=T1RnsdtIK6eoDugKTV2cnL6HyDQeGXYOoMcRx6x7WSU,25683
+zillion-0.4.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+zillion-0.4.2.dist-info/top_level.txt,sha256=pP7-2_VDsSQfkW6ZPLb6JRBCfjgmW_zAuyaJbPIutQ8,8
+zillion-0.4.2.dist-info/RECORD,,
