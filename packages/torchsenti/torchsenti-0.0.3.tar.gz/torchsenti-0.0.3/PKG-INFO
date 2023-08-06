@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: torchsenti
+Version: 0.0.3
+Summary: A Sentiment Analysis Library for Research on top of PyTorch
+Home-page: https://github.com/jakartaresearch/pytorch-sentiment
+Author: Ruben Stefanus, Andreas Chandra, and Andhika Setia Pratama
+Author-email: researchjair@gmail.com
+License: MIT
+Description: # TorchSenti
+        
+        Sentiment Analysis Library for Research with PyTorch
+        
+        TorchSenti provides sentiment analysis datasets from a simple one (positive/negative labels) to fine-grained one (aspect-based). TorchSenti is compatible with PyTorch to develop model and use pre-trained model to benchmark your work with other researchers.
+        
+        #### Features
+            - Text Cleansing e.g removing hyperlinks
+            - WordPiece Tokenization with tagging for aspect extraction
+            - Entity metrics for aspect detection
+        
+        #### Dataset Available
+            - **Sentiment Analysis**
+                - IMDB Movie Reviews
+                - Pros and Cons
+                - Movie Review
+                - Trip Advisor
+                - City Search Data
+                - Yelp Review
+            - **Aspect-based Sentiment Analysis**
+                - SemEval 2014 Task 4 (ToDo)
+                - SemEval 2015 Task 12 (ToDo)
+                - SemEval 2016 Task 5 (ToDo)
+        
+        ## Installation
+        You can install TorchSenti using pip
+        
+        ```
+            pip install torchsenti
+        ```
+        
+        from source
+        
+        ```
+            git clone https://github.com/jakartaresearch/pytorch-sentiment.git
+            cd pytorch-sentiment
+            python setup.py install
+        ```
+        
+        ## Getting Started
+        
+        
+        ## Contributors
+        
+        
+Keywords: sentiment-analysis,pytorch,deep-learning,machine-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

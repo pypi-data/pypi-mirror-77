@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+torchsenti.egg-info/PKG-INFO
+torchsenti.egg-info/SOURCES.txt
+torchsenti.egg-info/dependency_links.txt
+torchsenti.egg-info/requires.txt
+torchsenti.egg-info/top_level.txt
