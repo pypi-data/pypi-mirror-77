@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+airflowdaggenerator/__init__.py
+airflowdaggenerator/__main__.py
+airflowdaggenerator/airflowdaggenerator.py
+airflowdaggenerator.egg-info/PKG-INFO
+airflowdaggenerator.egg-info/SOURCES.txt
+airflowdaggenerator.egg-info/dependency_links.txt
+airflowdaggenerator.egg-info/entry_points.txt
+airflowdaggenerator.egg-info/not-zip-safe
+airflowdaggenerator.egg-info/requires.txt
+airflowdaggenerator.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+apache-airflow
+psycopg2
+PyYAML
+jinja2<2.11.0,>=2.10.1
