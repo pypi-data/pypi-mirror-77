@@ -1,0 +1,5 @@
+pylisten
+sonopy
+numpy
+prettyparse>=1.0.0
+logzero
