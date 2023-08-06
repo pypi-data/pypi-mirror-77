@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pykir
+Version: 0.1.1
+Summary: 
+Author: Kiran PS
+Author-email: kiran.ps@shuttl.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
