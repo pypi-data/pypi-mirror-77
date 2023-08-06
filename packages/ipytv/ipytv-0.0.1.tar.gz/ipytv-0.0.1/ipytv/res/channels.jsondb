@@ -1,0 +1,3691 @@
+{
+    "channels": [
+        {
+            "name": "a&e",
+            "aliases": [
+                "a&e"
+            ],
+            "streams": [
+                "http://ustvgo.tv/ae-networks-live-streaming-free/"
+            ],
+            "lang": "en-us",
+            "logo": "a&e.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "abc",
+            "aliases": [
+                "abc"
+            ],
+            "streams": [
+                "http://ustvgo.tv/abc-live-streaming-free/"
+            ],
+            "lang": "en-us",
+            "logo": "abc.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "amc",
+            "aliases": [
+                "amc"
+            ],
+            "streams": [
+                "http://ustvgo.tv/amc-live/"
+            ],
+            "lang": "en-us",
+            "logo": "amc.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "animal planet",
+            "aliases": [
+                "animal planet"
+            ],
+            "streams": [
+                "http://ustvgo.tv/animal-planet-live/"
+            ],
+            "lang": "en-us",
+            "logo": "animal planet.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "bbc america",
+            "aliases": [
+                "bbc america"
+            ],
+            "streams": [
+                "http://ustvgo.tv/bbc-america-live/"
+            ],
+            "lang": "en-us",
+            "logo": "bbc america.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "bet",
+            "aliases": [
+                "bet"
+            ],
+            "streams": [
+                "http://ustvgo.tv/bet/"
+            ],
+            "lang": "en-us",
+            "logo": "bet.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "boomerang",
+            "aliases": [
+                "boomerang"
+            ],
+            "streams": [
+                "http://ustvgo.tv/boomerang/"
+            ],
+            "lang": "en-us",
+            "logo": "boomerang.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "bravo",
+            "aliases": [
+                "bravo"
+            ],
+            "streams": [
+                "http://ustvgo.tv/bravo-channel-live-free/"
+            ],
+            "lang": "en-us",
+            "logo": "bravo.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "cartoon network",
+            "aliases": [
+                "cartoon network"
+            ],
+            "streams": [
+                "http://ustvgo.tv/cartoon-network-live-streaming-free/"
+            ],
+            "lang": "en-us",
+            "logo": "cartoon network.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "cbs",
+            "aliases": [
+                "cbs"
+            ],
+            "streams": [
+                "http://ustvgo.tv/cbs-live-streaming-free/"
+            ],
+            "lang": "en-us",
+            "logo": "cbs.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "cmt",
+            "aliases": [
+                "cmt"
+            ],
+            "streams": [
+                "http://ustvgo.tv/cmt/"
+            ],
+            "lang": "en-us",
+            "logo": "cmt.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "cnbc",
+            "aliases": [
+                "cnbc"
+            ],
+            "streams": [
+                "http://ustvgo.tv/cnbc-live-streaming-free/"
+            ],
+            "lang": "en-us",
+            "logo": "cnbc.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "cnn",
+            "aliases": [
+                "cnn"
+            ],
+            "streams": [
+                "http://ustvgo.tv/cnn-live-streaming-free/"
+            ],
+            "lang": "en-us",
+            "logo": "cnn.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "comedy central",
+            "aliases": [
+                "comedy central"
+            ],
+            "streams": [
+                "http://ustvgo.tv/comedy-central-live-free/"
+            ],
+            "lang": "en-us",
+            "logo": "comedy central.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "destination america",
+            "aliases": [
+                "destination america"
+            ],
+            "streams": [
+                "http://ustvgo.tv/destination-america/"
+            ],
+            "lang": "en-us",
+            "logo": "destination america.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "discovery channel",
+            "aliases": [
+                "discovery channel"
+            ],
+            "streams": [
+                "http://ustvgo.tv/discovery-channel-live/"
+            ],
+            "lang": "en-us",
+            "logo": "discovery channel.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "disney channel",
+            "aliases": [
+                "disney channel"
+            ],
+            "streams": [
+                "http://ustvgo.tv/disney-channel-live-streaming-free/"
+            ],
+            "lang": "en-us",
+            "logo": "disney channel.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "disneyjr",
+            "aliases": [
+                "disneyjr"
+            ],
+            "streams": [
+                "http://ustvgo.tv/disneyjr/"
+            ],
+            "lang": "en-us",
+            "logo": "disneyjr.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "disneyxd",
+            "aliases": [
+                "disneyxd"
+            ],
+            "streams": [
+                "http://ustvgo.tv/disneyxd/"
+            ],
+            "lang": "en-us",
+            "logo": "disneyxd.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "diy",
+            "aliases": [
+                "diy"
+            ],
+            "streams": [
+                "http://ustvgo.tv/diy/"
+            ],
+            "lang": "en-us",
+            "logo": "diy.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "e!",
+            "aliases": [
+                "e!"
+            ],
+            "streams": [
+                "http://ustvgo.tv/e/"
+            ],
+            "lang": "en-us",
+            "logo": "e!.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "espn",
+            "aliases": [
+                "espn"
+            ],
+            "streams": [
+                "http://ustvgo.tv/espn-live/"
+            ],
+            "lang": "en-us",
+            "logo": "espn.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "espn2",
+            "aliases": [
+                "espn2"
+            ],
+            "streams": [
+                "http://ustvgo.tv/espn2/"
+            ],
+            "lang": "en-us",
+            "logo": "espn2.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "food network",
+            "aliases": [
+                "food network"
+            ],
+            "streams": [
+                "http://ustvgo.tv/food-network-live-free/"
+            ],
+            "lang": "en-us",
+            "logo": "food network.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "fox",
+            "aliases": [
+                "fox"
+            ],
+            "streams": [
+                "http://ustvgo.tv/fox-hd-live-streaming/"
+            ],
+            "lang": "en-us",
+            "logo": "fox.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "fox business",
+            "aliases": [
+                "fox business"
+            ],
+            "streams": [
+                "http://ustvgo.tv/fox-business-live-streaming-free/"
+            ],
+            "lang": "en-us",
+            "logo": "fox business.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "fox news",
+            "aliases": [
+                "fox news"
+            ],
+            "streams": [
+                "http://ustvgo.tv/fox-news-live-streaming-free/"
+            ],
+            "lang": "en-us",
+            "logo": "fox news.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "fox sports 1",
+            "aliases": [
+                "fox sports 1"
+            ],
+            "streams": [
+                "http://ustvgo.tv/fox-sports-1/"
+            ],
+            "lang": "en-us",
+            "logo": "fox sports 1.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "fox sports 2",
+            "aliases": [
+                "fox sports 2"
+            ],
+            "streams": [
+                "http://ustvgo.tv/fox-sports-2/"
+            ],
+            "lang": "en-us",
+            "logo": "fox sports 2.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "freeform",
+            "aliases": [
+                "freeform"
+            ],
+            "streams": [
+                "http://ustvgo.tv/freeform-channel-live-free/"
+            ],
+            "lang": "en-us",
+            "logo": "freeform.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "fx",
+            "aliases": [
+                "fx"
+            ],
+            "streams": [
+                "http://ustvgo.tv/fx-channel-live/"
+            ],
+            "lang": "en-us",
+            "logo": "fx.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "fxm",
+            "aliases": [
+                "fxm"
+            ],
+            "streams": [
+                "http://ustvgo.tv/fxm/"
+            ],
+            "lang": "en-us",
+            "logo": "fxm.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "fxx",
+            "aliases": [
+                "fxx"
+            ],
+            "streams": [
+                "http://ustvgo.tv/fxx/"
+            ],
+            "lang": "en-us",
+            "logo": "fxx.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "golf channel",
+            "aliases": [
+                "golf channel"
+            ],
+            "streams": [
+                "http://ustvgo.tv/golf-channel-live-free/"
+            ],
+            "lang": "en-us",
+            "logo": "golf channel.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "gsn",
+            "aliases": [
+                "gsn"
+            ],
+            "streams": [
+                "http://ustvgo.tv/gsn/"
+            ],
+            "lang": "en-us",
+            "logo": "gsn.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "hallmark channel",
+            "aliases": [
+                "hallmark channel"
+            ],
+            "streams": [
+                "http://ustvgo.tv/hallmark-channel-live-streaming-free/"
+            ],
+            "lang": "en-us",
+            "logo": "hallmark channel.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "hallmark movies & mysteries",
+            "aliases": [
+                "hallmark movies & mysteries"
+            ],
+            "streams": [
+                "http://ustvgo.tv/hallmark-movies-mysteries-live-streaming-free/"
+            ],
+            "lang": "en-us",
+            "logo": "hallmark movies & mysteries.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "hbo",
+            "aliases": [
+                "hbo"
+            ],
+            "streams": [
+                "http://ustvgo.tv/hbo/"
+            ],
+            "lang": "en-us",
+            "logo": "hbo.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "hgtv",
+            "aliases": [
+                "hgtv"
+            ],
+            "streams": [
+                "http://ustvgo.tv/hgtv-live-streaming-free/"
+            ],
+            "lang": "en-us",
+            "logo": "hgtv.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "history channel",
+            "aliases": [
+                "history channel"
+            ],
+            "streams": [
+                "http://ustvgo.tv/history-channel-live/"
+            ],
+            "lang": "en-us",
+            "logo": "history channel.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "hln",
+            "aliases": [
+                "hln"
+            ],
+            "streams": [
+                "http://ustvgo.tv/hln/"
+            ],
+            "lang": "en-us",
+            "logo": "hln.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "investigation discovery",
+            "aliases": [
+                "investigation discovery"
+            ],
+            "streams": [
+                "http://ustvgo.tv/investigation-discovery-live-streaming-free/"
+            ],
+            "lang": "en-us",
+            "logo": "investigation discovery.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "lifetime",
+            "aliases": [
+                "lifetime"
+            ],
+            "streams": [
+                "http://ustvgo.tv/lifetime-channel-live/"
+            ],
+            "lang": "en-us",
+            "logo": "lifetime.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "lifetime movies",
+            "aliases": [
+                "lifetime movies"
+            ],
+            "streams": [
+                "http://ustvgo.tv/lifetime-movies/"
+            ],
+            "lang": "en-us",
+            "logo": "lifetime movies.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "mlb network",
+            "aliases": [
+                "mlb network"
+            ],
+            "streams": [
+                "http://ustvgo.tv/mlb-network/"
+            ],
+            "lang": "en-us",
+            "logo": "mlb network.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "motortrend",
+            "aliases": [
+                "motortrend"
+            ],
+            "streams": [
+                "http://ustvgo.tv/motortrend/"
+            ],
+            "lang": "en-us",
+            "logo": "motortrend.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "msnbc live streaming free",
+            "aliases": [
+                "msnbc live streaming free"
+            ],
+            "streams": [
+                "http://ustvgo.tv/msnbc-live-streaming-free/"
+            ],
+            "lang": "en-us",
+            "logo": "msnbc live streaming free.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "mtv",
+            "aliases": [
+                "mtv"
+            ],
+            "streams": [
+                "http://ustvgo.tv/mtv/"
+            ],
+            "lang": "en-us",
+            "logo": "mtv.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "nat geo wild",
+            "aliases": [
+                "nat geo wild"
+            ],
+            "streams": [
+                "http://ustvgo.tv/nat-geo-wild-live/"
+            ],
+            "lang": "en-us",
+            "logo": "nat geo wild.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "national geographic",
+            "aliases": [
+                "national geographic"
+            ],
+            "streams": [
+                "http://ustvgo.tv/national-geographic-live/"
+            ],
+            "lang": "en-us",
+            "logo": "national geographic.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "nba tv",
+            "aliases": [
+                "nba tv"
+            ],
+            "streams": [
+                "http://ustvgo.tv/nba-tv/"
+            ],
+            "lang": "en-us",
+            "logo": "nba tv.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "nbc",
+            "aliases": [
+                "nbc"
+            ],
+            "streams": [
+                "http://ustvgo.tv/nbc/"
+            ],
+            "lang": "en-us",
+            "logo": "nbc.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "nbc sports",
+            "aliases": [
+                "nbc sports"
+            ],
+            "streams": [
+                "http://ustvgo.tv/nbc-sports/"
+            ],
+            "lang": "en-us",
+            "logo": "nbc sports.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "nfl network",
+            "aliases": [
+                "nfl network"
+            ],
+            "streams": [
+                "http://ustvgo.tv/nfl-network-live-free/"
+            ],
+            "lang": "en-us",
+            "logo": "nfl network.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "nickelodeon",
+            "aliases": [
+                "nickelodeon"
+            ],
+            "streams": [
+                "http://ustvgo.tv/nickelodeon-live-streaming-free/"
+            ],
+            "lang": "en-us",
+            "logo": "nickelodeon.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "nicktoons",
+            "aliases": [
+                "nicktoons"
+            ],
+            "streams": [
+                "http://ustvgo.tv/nicktoons/"
+            ],
+            "lang": "en-us",
+            "logo": "nicktoons.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "own",
+            "aliases": [
+                "own"
+            ],
+            "streams": [
+                "http://ustvgo.tv/own/"
+            ],
+            "lang": "en-us",
+            "logo": "own.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "oxygen",
+            "aliases": [
+                "oxygen"
+            ],
+            "streams": [
+                "http://ustvgo.tv/oxygen/"
+            ],
+            "lang": "en-us",
+            "logo": "oxygen.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "paramount network",
+            "aliases": [
+                "paramount network"
+            ],
+            "streams": [
+                "http://ustvgo.tv/paramount-network/"
+            ],
+            "lang": "en-us",
+            "logo": "paramount network.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "pbs",
+            "aliases": [
+                "pbs"
+            ],
+            "streams": [
+                "http://ustvgo.tv/pbs-live/"
+            ],
+            "lang": "en-us",
+            "logo": "pbs.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "pop",
+            "aliases": [
+                "pop"
+            ],
+            "streams": [
+                "http://ustvgo.tv/pop/"
+            ],
+            "lang": "en-us",
+            "logo": "pop.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "science",
+            "aliases": [
+                "science"
+            ],
+            "streams": [
+                "http://ustvgo.tv/science/"
+            ],
+            "lang": "en-us",
+            "logo": "science.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "showtime",
+            "aliases": [
+                "showtime"
+            ],
+            "streams": [
+                "http://ustvgo.tv/showtime/"
+            ],
+            "lang": "en-us",
+            "logo": "showtime.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "starz",
+            "aliases": [
+                "starz"
+            ],
+            "streams": [
+                "http://ustvgo.tv/starz-channel-live/"
+            ],
+            "lang": "en-us",
+            "logo": "starz.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "sundance tv",
+            "aliases": [
+                "sundance tv"
+            ],
+            "streams": [
+                "http://ustvgo.tv/sundance-tv/"
+            ],
+            "lang": "en-us",
+            "logo": "sundance tv.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "syfy",
+            "aliases": [
+                "syfy"
+            ],
+            "streams": [
+                "http://ustvgo.tv/syfy-channel-live/"
+            ],
+            "lang": "en-us",
+            "logo": "syfy.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "tbs",
+            "aliases": [
+                "tbs"
+            ],
+            "streams": [
+                "http://ustvgo.tv/tbs-channel-live-free/"
+            ],
+            "lang": "en-us",
+            "logo": "tbs.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "tcm",
+            "aliases": [
+                "tcm"
+            ],
+            "streams": [
+                "http://ustvgo.tv/tcm/"
+            ],
+            "lang": "en-us",
+            "logo": "tcm.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "telemundo",
+            "aliases": [
+                "telemundo"
+            ],
+            "streams": [
+                "http://ustvgo.tv/telemundo/"
+            ],
+            "lang": "en-us",
+            "logo": "telemundo.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "tennis channel",
+            "aliases": [
+                "tennis channel"
+            ],
+            "streams": [
+                "http://ustvgo.tv/tennis-channel-live-free/"
+            ],
+            "lang": "en-us",
+            "logo": "tennis channel.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "the cw",
+            "aliases": [
+                "the cw"
+            ],
+            "streams": [
+                "http://ustvgo.tv/the-cw-live-streaming-free/"
+            ],
+            "lang": "en-us",
+            "logo": "the cw.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "the weather channel",
+            "aliases": [
+                "the weather channel"
+            ],
+            "streams": [
+                "http://ustvgo.tv/the-weather-channel-live-streaming-free/"
+            ],
+            "lang": "en-us",
+            "logo": "the weather channel.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "tlc",
+            "aliases": [
+                "tlc"
+            ],
+            "streams": [
+                "http://ustvgo.tv/tlc-live-free/"
+            ],
+            "lang": "en-us",
+            "logo": "tlc.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "tnt",
+            "aliases": [
+                "tnt"
+            ],
+            "streams": [
+                "http://ustvgo.tv/tnt/"
+            ],
+            "lang": "en-us",
+            "logo": "tnt.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "travel",
+            "aliases": [
+                "travel"
+            ],
+            "streams": [
+                "http://ustvgo.tv/travel-channel-live-free/"
+            ],
+            "lang": "en-us",
+            "logo": "travel.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "trutv",
+            "aliases": [
+                "trutv"
+            ],
+            "streams": [
+                "http://ustvgo.tv/trutv/"
+            ],
+            "lang": "en-us",
+            "logo": "trutv.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "tv land",
+            "aliases": [
+                "tv land"
+            ],
+            "streams": [
+                "http://ustvgo.tv/tv-land-live-free/"
+            ],
+            "lang": "en-us",
+            "logo": "tv land.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "univision",
+            "aliases": [
+                "univision"
+            ],
+            "streams": [
+                "http://ustvgo.tv/univision/"
+            ],
+            "lang": "en-us",
+            "logo": "univision.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "usa network",
+            "aliases": [
+                "usa network"
+            ],
+            "streams": [
+                "http://ustvgo.tv/usa-network-live/"
+            ],
+            "lang": "en-us",
+            "logo": "usa network.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "vh1",
+            "aliases": [
+                "vh1"
+            ],
+            "streams": [
+                "http://ustvgo.tv/vh1/"
+            ],
+            "lang": "en-us",
+            "logo": "vh1.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "we tv",
+            "aliases": [
+                "we tv"
+            ],
+            "streams": [
+                "http://ustvgo.tv/we-tv/"
+            ],
+            "lang": "en-us",
+            "logo": "we tv.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "wwe network",
+            "aliases": [
+                "wwe network"
+            ],
+            "streams": [
+                "http://ustvgo.tv/wwe-network/"
+            ],
+            "lang": "en-us",
+            "logo": "wwe network.png",
+            "tags": [
+                "English",
+                "American",
+                "USA",
+                "United States",
+                "America",
+                "America",
+                "United States"
+            ],
+            "region": [
+                "America",
+                "United States"
+            ],
+            "country": "United States"
+        },
+        {
+            "name": "sky news",
+            "aliases": [
+                "sky news",
+                "skynews",
+                "sky_news"
+            ],
+            "streams": [
+                "http://skynews-go-hls.ak-cdn.skydvn.com/skynews/1404/latest.m3u8"
+            ],
+            "lang": "en",
+            "logo": "skyn.png",
+            "tags": [
+                "News",
+                "English"
+            ]
+        },
+        {
+            "name": "Bloomberg",
+            "aliases": [
+                "Bloomberg"
+            ],
+            "streams": [
+                "http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8"
+            ],
+            "lang": "en",
+            "logo": "bloom.png",
+            "tags": [
+                "News",
+                "English"
+            ]
+        },
+        {
+            "name": "france 24",
+            "aliases": [
+                "france 24"
+            ],
+            "streams": [
+                "http://static.france24.com/live/F24_EN_HI_HLS/live_tv.m3u8"
+            ],
+            "lang": "en",
+            "logo": "france24.png",
+            "tags": [
+                "News",
+                "English",
+                "Europe",
+                "European Union",
+                "France"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "France"
+            ],
+            "country": "France"
+        },
+        {
+            "name": "Deutsche welle",
+            "aliases": [
+                "Deutsche Welle",
+                "dw",
+                "d w",
+                "English Deutsche Welle",
+                "English dw",
+                "English d w",
+                "Deutsche Welle English",
+                "dw English",
+                "d w English",
+                "Deutsche_welle",
+                "Deutsche welle"
+            ],
+            "streams": [
+                "http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8",
+                "http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/index_1_av-b.m3u8"
+            ],
+            "lang": "en",
+            "logo": "dw.png",
+            "tags": [
+                "News",
+                "English",
+                "Europe",
+                "European Union",
+                "Germany"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "Germany"
+            ],
+            "country": "Germany"
+        },
+        {
+            "name": "euronews",
+            "aliases": [
+                "euronews english",
+                "euronews en",
+                "euro news english",
+                "euro news",
+                "euronews",
+                "euro news en"
+            ],
+            "streams": [
+                "https://www.youtube.com/watch?v=LXbCPcrJkn0",
+                "http://euronews-en-p11-cdn.hexaglobe.net/09906815e50d3edf69335752ed034aeb/5f4802b3/euronews/euronews-euronews-website-web-responsive-2/ewnsabren_eng.smil/playlist.m3u8"
+            ],
+            "lang": "en",
+            "logo": "Euronews.png",
+            "tags": [
+                "Europe",
+                "News",
+                "English",
+                "European Union"
+            ],
+            "region": [
+                "European Union",
+                "Europe"
+            ]
+        },
+        {
+            "name": "Russia Today",
+            "aliases": [
+                "Russia Today"
+            ],
+            "streams": [
+                "http://rt-news.secure.footprint.net/1103.m3u8",
+                "https://rt-news.secure.footprint.net/1103_2500Kb.m3u8"
+            ],
+            "lang": "en",
+            "logo": "RT.png",
+            "tags": [
+                "News",
+                "English",
+                "Russia"
+            ],
+            "region": [
+                "Russia"
+            ],
+            "country": "Russia"
+        },
+        {
+            "name": "CGTN",
+            "aliases": [
+                "CGTN"
+            ],
+            "streams": [
+                "https://live.cgtn.com/1000/prog_index.m3u8",
+                "http://news.cgtn.com/resource/live/english/cgtn-news.m3u8"
+            ],
+            "lang": "en",
+            "logo": "CGTN.png",
+            "tags": [
+                "News",
+                "English",
+                "China"
+            ],
+            "region": [
+                "China"
+            ],
+            "country": "China"
+        },
+        {
+            "name": "NHK World",
+            "aliases": [
+                "NHK World"
+            ],
+            "streams": [
+                "http://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/2003458/live.m3u8"
+            ],
+            "lang": "en",
+            "logo": "NHKW.png",
+            "tags": [
+                "News",
+                "English",
+                "Japan"
+            ],
+            "region": [
+                "Japan"
+            ],
+            "country": "Japan"
+        },
+        {
+            "name": "Al Jazeera",
+            "aliases": [
+                "Al Jazeera"
+            ],
+            "streams": [
+                "http://live-hls-web-aje.getaj.net/AJE/index.m3u8"
+            ],
+            "lang": "en",
+            "logo": "ALZA.png",
+            "tags": [
+                "News",
+                "English"
+            ]
+        },
+        {
+            "name": "euronews",
+            "aliases": [
+                "euronews portuguese",
+                "euronews portugal",
+                "euro news",
+                "euro news pt",
+                "euronews",
+                "euronews pt",
+                "euro news portugal",
+                "euro news portuguese"
+            ],
+            "streams": [
+                "https://www.youtube.com/watch?v=LITSGYymJuU",
+                "http://euronews-pt-p13-cdn.hexaglobe.net/b49b4101bc4cf4fc882abd5cd7039d6b/5f4802b2/euronews/euronews-euronews-website-web-responsive-2/ewnsabrpt_por.smil/playlist.m3u8"
+            ],
+            "lang": "pt-pt",
+            "logo": "Euronews.png",
+            "tags": [
+                "Portuguese",
+                "News",
+                "Europe",
+                "European Union"
+            ],
+            "region": [
+                "European Union",
+                "Europe"
+            ]
+        },
+        {
+            "name": "euronews",
+            "aliases": [
+                "spanish euro news",
+                "euro news spanish",
+                "euronews spanish",
+                "euronews es",
+                "spanish euronews",
+                "euro news",
+                "euronews",
+                "euro news es"
+            ],
+            "streams": [
+                "http://euronews-es-p-cdn.hexaglobe.net/4adbd8ba4e23661db4f21d01b61e241f/5f4802b2/euronews/euronews-euronews-website-web-responsive-2/ewnsabres_spa.smil/playlist.m3u8",
+                "https://www.youtube.com/watch?v=tOHDYq94CZ8"
+            ],
+            "lang": "es",
+            "logo": "Euronews.png",
+            "tags": [
+                "European Union",
+                "News",
+                "Europe",
+                "Spanish"
+            ],
+            "region": [
+                "European Union",
+                "Europe"
+            ]
+        },
+        {
+            "name": "Deutsche welle",
+            "aliases": [
+                "Deutsche Welle",
+                "dw",
+                "d w",
+                "Deutsche Welle es",
+                "dw es",
+                "d w es",
+                "Spanish Deutsche Welle",
+                "Spanish dw",
+                "Spanish d w",
+                "Deutsche Welle Spanish",
+                "dw spanish",
+                "d w spanish",
+                "Deutsche_welle",
+                "Deutsche welle"
+            ],
+            "streams": [
+                "http://dwstream3-lh.akamaihd.net/i/dwstream3_live@124409/index_1_av-p.m3u8"
+            ],
+            "lang": "es",
+            "logo": "dw.png",
+            "tags": [
+                "News",
+                "Spanish",
+                "Europe",
+                "European Union",
+                "Germany"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "Germany"
+            ],
+            "country": "Germany"
+        },
+        {
+            "name": "France 24",
+            "aliases": [
+                "France 24"
+            ],
+            "streams": [
+                "http://static.france24.com/live/F24_FR_HI_HLS/live_tv.m3u8"
+            ],
+            "lang": "fr",
+            "logo": "fr24f.png",
+            "tags": [
+                "News",
+                "French",
+                "Europe",
+                "European Union",
+                "France"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "France"
+            ],
+            "country": "France"
+        },
+        {
+            "name": "euronews",
+            "aliases": [
+                "euronews French",
+                "euro news fr",
+                "euro news",
+                "French euro news",
+                "euronews",
+                "euro news French",
+                "euronews fr",
+                "French euronews"
+            ],
+            "streams": [
+                "https://www.youtube.com/watch?v=ENMlzJayYAY",
+                "http://euronews-fr-p-cdn.hexaglobe.net/bf433b9fd9b468fe2586077eef9927e5/5f4802b3/euronews/euronews-euronews-website-web-responsive-2/ewnsabrfr_fre.smil/playlist.m3u8"
+            ],
+            "lang": "fr",
+            "logo": "Euronews.png",
+            "tags": [
+                "French",
+                "News",
+                "Europe",
+                "European Union"
+            ],
+            "region": [
+                "European Union",
+                "Europe"
+            ]
+        },
+        {
+            "name": "Deutsche welle",
+            "aliases": [
+                "Deutsche Welle",
+                "dw",
+                "d w",
+                "Spanish Deutsche Welle",
+                "german dw",
+                "german d w",
+                "Deutsche Welle german",
+                "dw german",
+                "d w german",
+                "Deutsche_welle",
+                "Deutsche welle"
+            ],
+            "streams": [
+                "http://dwstream6-lh.akamaihd.net/i/dwstream6_live@123962/index_1_av-p.m3u8"
+            ],
+            "lang": "de",
+            "logo": "dw.png",
+            "tags": [
+                "News",
+                "German",
+                "Europe",
+                "European Union",
+                "German",
+                "Germany"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "German",
+                "Germany"
+            ],
+            "country": "Germany"
+        },
+        {
+            "name": "euronews",
+            "aliases": [
+                "euronews de",
+                "euro news german",
+                "german euro news",
+                "euro news",
+                "german euronews",
+                "euronews",
+                "euro news de",
+                "euronews german"
+            ],
+            "streams": [
+                "https://www.youtube.com/watch?v=jzBtWWeN7DM",
+                "http://euronews-de-p-cdn.hexaglobe.net/931cda82b709d39c858947017f53710a/5f4802b3/euronews/euronews-euronews-website-web-responsive-2/ewnsabrde_ger.smil/playlist.m3u8"
+            ],
+            "lang": "de",
+            "logo": "Euronews.png",
+            "tags": [
+                "German",
+                "News",
+                "Europe",
+                "European Union"
+            ],
+            "region": [
+                "European Union",
+                "Europe"
+            ]
+        },
+        {
+            "name": "rainews",
+            "aliases": [
+                "rainews",
+                "rai news"
+            ],
+            "streams": [
+                "http://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews1/playlist.m3u8"
+            ],
+            "lang": "it",
+            "logo": "RAINEWS.png",
+            "tags": [
+                "News",
+                "Italian",
+                "Europe",
+                "European Union",
+                "Italy"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "Italy"
+            ]
+        },
+        {
+            "name": "euronews",
+            "aliases": [
+                "euronews italian",
+                "euronews it",
+                "italian euronews",
+                "euro news it",
+                "italian euro news",
+                "euro news",
+                "euronews",
+                "euro news italian"
+            ],
+            "streams": [
+                "https://www.youtube.com/watch?v=1o_qTUH1Wp8",
+                "http://euronews-it-p-cdn.hexaglobe.net/7372c7f1cf6d5411d2850998bd28b6da/5f4802b4/euronews/euronews-euronews-website-web-responsive-2/ewnsabrit_ita.smil/playlist.m3u8"
+            ],
+            "lang": "it",
+            "logo": "Euronews.png",
+            "tags": [
+                "Europe",
+                "News",
+                "Italian",
+                "European Union"
+            ],
+            "region": [
+                "European Union",
+                "Europe"
+            ]
+        },
+        {
+            "name": "AR TV",
+            "aliases": [
+                "canal parlamento",
+                "assembleia da republica",
+                "assembleia da republica tv",
+                "AR TV",
+                "parlamento"
+            ],
+            "streams": [
+                "https://5e4fc274d9d46.streamlock.net/livenlin4/2liveartvpub/playlist.m3u8"
+            ],
+            "lang": "pt-pt",
+            "logo": "AR TV.png",
+            "tags": [
+                "Parliament",
+                "Portuguese",
+                "European",
+                "European Portuguese",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "country": "Portugal"
+        },
+        {
+            "name": "RTP1",
+            "aliases": [
+                "RTP 1",
+                "Radio Televisão Portuguesa 1",
+                "RTP1"
+            ],
+            "streams": [
+                "https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/chunklist_b2540000_slpor.m3u8"
+            ],
+            "lang": "pt-pt",
+            "logo": "RTP1.png",
+            "tags": [
+                "Entertainment",
+                "Portuguese",
+                "European",
+                "European Portuguese",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "country": "Portugal"
+        },
+        {
+            "name": "RTP2",
+            "aliases": [
+                "RTP 2",
+                "Radio Televisão Portuguesa 2",
+                "RTP2"
+            ],
+            "streams": [
+                "https://streaming-live.rtp.pt/liverepeater/smil:rtp2.smil/chunklist_b1290000_slpt.m3u8"
+            ],
+            "lang": "pt-pt",
+            "logo": "RTP2.png",
+            "tags": [
+                "Entertainment",
+                "Portuguese",
+                "European",
+                "European Portuguese",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "country": "Portugal"
+        },
+        {
+            "name": "RTP3",
+            "aliases": [
+                "RTP 3",
+                "Radio Televisão Portuguesa 3",
+                "RTP3"
+            ],
+            "streams": [
+                "https://streaming-live.rtp.pt/livetvhlsDVR/rtpndvr.smil/chunklist_b1290000_DVR_slpt.m3u8"
+            ],
+            "lang": "pt-pt",
+            "logo": "RTP3.png",
+            "tags": [
+                "Entertainment",
+                "Portuguese",
+                "European",
+                "European Portuguese",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "country": "Portugal"
+        },
+        {
+            "name": "RTP Internacional",
+            "aliases": [
+                "RTP Internacional",
+                "RTP I",
+                "Radio Televisão Portuguesa Internacional"
+            ],
+            "streams": [
+                "https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/chunklist_b1290000_slpt.m3u8"
+            ],
+            "lang": "pt-pt",
+            "logo": "RTP Internacional.png",
+            "tags": [
+                "Entertainment",
+                "Portuguese",
+                "European",
+                "European Portuguese",
+                "World",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "region": [
+                "World",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "country": "Portugal"
+        },
+        {
+            "name": "RTP Memoria",
+            "aliases": [
+                "RTP Memoria",
+                "Radio Televisão Portuguesa Memoria"
+            ],
+            "streams": [
+                "https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/chunklist_b1290000_slpt.m3u8"
+            ],
+            "lang": "pt-pt",
+            "logo": "RTP Memoria.png",
+            "tags": [
+                "Entertainment",
+                "Portuguese",
+                "European",
+                "European Portuguese",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "country": "Portugal"
+        },
+        {
+            "name": "RTP Madeira",
+            "aliases": [
+                "RTP Madeira",
+                "Radio Televisão Portuguesa Madeira"
+            ],
+            "streams": [
+                "https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/chunklist_b640000_slpt.m3u8"
+            ],
+            "lang": "pt-pt",
+            "logo": "RTP Madeira.png",
+            "tags": [
+                "Entertainment",
+                "Portuguese",
+                "European",
+                "European Portuguese",
+                "Portuguese Islands",
+                "Madeira",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "region": [
+                "Portuguese Islands",
+                "Madeira",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "country": "Portugal"
+        },
+        {
+            "name": "RTP Açores",
+            "aliases": [
+                "RTP Açores",
+                "Radio Televisão Portuguesa Açores"
+            ],
+            "streams": [
+                "https://streaming-live.rtp.pt/liverepeater/smil:rtpacores.smil/chunklist_b640000_slpt.m3u8"
+            ],
+            "lang": "pt-pt",
+            "logo": "RTP Açores.png",
+            "tags": [
+                "Entertainment",
+                "Portuguese",
+                "European",
+                "European Portuguese",
+                "Portuguese Islands",
+                "Açores",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "region": [
+                "Portuguese Islands",
+                "Açores",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "country": "Portugal"
+        },
+        {
+            "name": "RTP Africa",
+            "aliases": [
+                "RTP Açores",
+                "Radio Televisão Portuguesa Açores",
+                "RTP Africa"
+            ],
+            "streams": [
+                "https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/chunklist_b640000_slpt.m3u8"
+            ],
+            "lang": "pt-pt",
+            "logo": "RTP Africa.png",
+            "tags": [
+                "Entertainment",
+                "Portuguese",
+                "European",
+                "European Portuguese",
+                "Africa",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "region": [
+                "Africa",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "country": "Portugal"
+        },
+        {
+            "name": "sic",
+            "aliases": [
+                "sic"
+            ],
+            "streams": [
+                "http://live.impresa.pt/live/sic/sic.m3u8",
+                "https://live.impresa.pt/live/sic/sic540p.m3u8"
+            ],
+            "lang": "pt-pt",
+            "logo": "sic.png",
+            "tags": [
+                "Entertainment",
+                "Portuguese",
+                "European",
+                "European Portuguese",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "country": "Portugal"
+        },
+        {
+            "name": "sic noticias",
+            "aliases": [
+                "sic_noticias",
+                "sic noticias"
+            ],
+            "streams": [
+                "http://live.impresa.pt/live/sicnot/sicnot.m3u8",
+                "https://live.impresa.pt/live/sicnot/sicnot540p.m3u8"
+            ],
+            "lang": "pt-pt",
+            "logo": "sicn.png",
+            "tags": [
+                "News",
+                "Portuguese",
+                "European",
+                "European Portuguese",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "country": "Portugal"
+        },
+        {
+            "name": "tvi",
+            "aliases": [
+                "tvi",
+                "t v i"
+            ],
+            "streams": [
+                "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yNy8yMDIwIDc6MDo1IFBNJmhhc2hfdmFsdWU9MWcyN3hMeG1YWEhxVko2TEY0QlR3UT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTRmM2Y0OGFmLTRhZTMtNDZhYS04MDhhLWMzMjUzY2MyOWJmOQ=="
+            ],
+            "lang": "pt-pt",
+            "logo": "tvi.png",
+            "tags": [
+                "Entertainment",
+                "Portuguese",
+                "European",
+                "European Portuguese",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "country": "Portugal"
+        },
+        {
+            "name": "tvi24",
+            "aliases": [
+                "tvi 24",
+                "t v i 24",
+                "tvi24"
+            ],
+            "streams": [
+                "https://video-auth6.iol.pt/live_tvi24/live_tvi24/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yNy8yMDIwIDc6MDo1IFBNJmhhc2hfdmFsdWU9U0tRZWt0Z25rOWhpT09qaXduaC9zUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWJmZWRiMzlmLTU2ZWQtNDI0My1hZGY3LTJlZThhMjQ2NWViYQ=="
+            ],
+            "lang": "pt-pt",
+            "logo": "TVI24.png",
+            "tags": [
+                "Entertainment",
+                "Portuguese",
+                "European",
+                "European Portuguese",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "country": "Portugal"
+        },
+        {
+            "name": "porto canal",
+            "aliases": [
+                "porto_canal",
+                "porto canal"
+            ],
+            "streams": [
+                "https://streamer-a01.videos.sapo.pt/live/portocanal/playlist.m3u8",
+                "https://streamer-a03.videos.sapo.pt/live/portocanal/playlist.m3u8"
+            ],
+            "lang": "pt-pt",
+            "logo": "porto.png",
+            "tags": [
+                "Entertainment",
+                "Portuguese",
+                "European",
+                "European Portuguese",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "country": "Portugal"
+        },
+        {
+            "name": "euronews",
+            "aliases": [
+                "euronews",
+                "euro news",
+                "euronews pt",
+                "euro news pt",
+                "euronews portugal",
+                "euro news portugal",
+                "euronews portuguese",
+                "euro news portuguese"
+            ],
+            "streams": [
+                "http://euronews-pt-p13-cdn.hexaglobe.net/b49b4101bc4cf4fc882abd5cd7039d6b/5f4802b2/euronews/euronews-euronews-website-web-responsive-2/ewnsabrpt_por.smil/playlist.m3u8"
+            ],
+            "lang": "pt-pt",
+            "logo": "Euronews.png",
+            "tags": [
+                "News",
+                "Portuguese",
+                "European",
+                "European Portuguese",
+                "Europe",
+                "European Union",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "country": "Portugal"
+        },
+        {
+            "name": "Sobrenatural TV",
+            "aliases": [
+                "Sobrenatural TV",
+                "Sobrenatural"
+            ],
+            "streams": [
+                "http://213.13.26.11:1935/live/sobrenaturaltv/livestream.m3u8",
+                "http://livestreamcdn.net:1935/SobrenaturalTV/SobrenaturalTV/playlist.m3u8"
+            ],
+            "lang": "pt-pt",
+            "logo": "sobrenatural.png",
+            "tags": [
+                "Religious",
+                "Portuguese",
+                "European",
+                "European Portuguese",
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "Portugal"
+            ],
+            "country": "Portugal"
+        },
+        {
+            "name": "TV Moçambique",
+            "aliases": [
+                "TVM",
+                "Televisão de Moçambique",
+                "TV de Moçambique",
+                "Mozambique TV",
+                "TV Moçambique"
+            ],
+            "streams": [
+                "http://196.28.226.121:1935/live/smil:Channel1.smil/playlist.m3u8"
+            ],
+            "lang": "pt",
+            "logo": "TVM.png",
+            "tags": [
+                "Entertainment",
+                "Portuguese",
+                "Africa",
+                "Mozambique"
+            ],
+            "region": [
+                "Africa",
+                "Mozambique"
+            ],
+            "country": "Mozambique"
+        },
+        {
+            "name": "TV Moçambique Internacional",
+            "aliases": [
+                "TVMI",
+                "TVM I",
+                "TVM Internacional",
+                "Televisão de Moçambique Internacional",
+                "TV de Moçambique Internacional",
+                "International Mozambique TV",
+                "TV Moçambique Internacional"
+            ],
+            "streams": [
+                "http://196.28.226.121:1935/live/smil:Channel2.smil/playlist.m3u8"
+            ],
+            "lang": "pt",
+            "logo": "TVMI.png",
+            "tags": [
+                "Entertainment",
+                "Portuguese",
+                "Africa",
+                "Mozambique"
+            ],
+            "region": [
+                "Africa",
+                "Mozambique"
+            ],
+            "country": "Mozambique"
+        },
+        {
+            "name": "Kuriakos Cine",
+            "aliases": [
+                "Kuriakos Cine"
+            ],
+            "streams": [
+                "http://c2.manasat.com:1935/kcine/kcine3/FluxusTV.m3u8"
+            ],
+            "lang": "pt-br",
+            "logo": "kuriakos-cine.png",
+            "tags": [
+                "Religious",
+                "Movies",
+                "Portuguese",
+                "Brazilian",
+                "Brazilian Portuguese",
+                "Brazil"
+            ],
+            "region": [
+                "Brazil"
+            ],
+            "country": "Brazil"
+        },
+        {
+            "name": "Kuriakos Kids",
+            "aliases": [
+                "Kuriakos Kids"
+            ],
+            "streams": [
+                "http://c2.manasat.com:1935/kkids/kkids3/FluxusTV.m3u8"
+            ],
+            "lang": "pt-br",
+            "logo": "kuriakos-kids.png",
+            "tags": [
+                "Religious",
+                "Kids",
+                "Portuguese",
+                "Brazilian",
+                "Brazilian Portuguese",
+                "Brazil"
+            ],
+            "region": [
+                "Brazil"
+            ],
+            "country": "Brazil"
+        },
+        {
+            "name": "Kuriakos Music",
+            "aliases": [
+                "Kuriakos Music"
+            ],
+            "streams": [
+                "http://c2.manasat.com:1935/kmusic/kmusic3/FluxusTV.m3u8"
+            ],
+            "lang": "pt-br",
+            "logo": "kuriakos-music.png",
+            "tags": [
+                "Religious",
+                "Music",
+                "Portuguese",
+                "Brazilian",
+                "Brazilian Portuguese",
+                "Brazil"
+            ],
+            "region": [
+                "Brazil"
+            ],
+            "country": "Brazil"
+        },
+        {
+            "name": "Kuriakos TV",
+            "aliases": [
+                "Kuriakos",
+                "Kuriakos TV"
+            ],
+            "streams": [
+                "http://195.22.11.11:1935/ktv/ktv1/FluxusTV.m3u8",
+                "http://195.22.11.11:1935/ktv/ktv1/TeamBlue.m3u8"
+            ],
+            "lang": "pt-br",
+            "logo": "kuriakos.png",
+            "tags": [
+                "Religious",
+                "Entertainment",
+                "Portuguese",
+                "Brazilian",
+                "Brazilian Portuguese",
+                "Brazil"
+            ],
+            "region": [
+                "Brazil"
+            ],
+            "country": "Brazil"
+        },
+        {
+            "name": "TV Serra Verde",
+            "aliases": [
+                "TV Serra Verde",
+                "Serra Verde TV",
+                "Serra Verde",
+                "canal Serra Verde"
+            ],
+            "streams": [
+                "https://stmv6.srvstm.com/leandro9908/leandro9908/playlist.m3u8"
+            ],
+            "lang": "pt-br",
+            "logo": "TV-Serra-Verde.png",
+            "tags": [
+                "Portuguese",
+                "Brazilian",
+                "Brazilian Portuguese",
+                "Brazil"
+            ],
+            "region": [
+                "Brazil"
+            ],
+            "country": "Brazil"
+        },
+        {
+            "name": "Futura",
+            "aliases": [
+                "Futura"
+            ],
+            "streams": [
+                "http://srv3.zoeweb.tv:1935/z01-live/stream/livestream.m3u8"
+            ],
+            "lang": "pt-br",
+            "logo": "Canal-Futura.png",
+            "tags": [
+                "Portuguese",
+                "Brazilian",
+                "Brazilian Portuguese",
+                "Brazil"
+            ],
+            "region": [
+                "Brazil"
+            ],
+            "country": "Brazil"
+        },
+        {
+            "name": "TV Rio Preto",
+            "aliases": [
+                "Rio Preto",
+                "TV Rio Preto SJRP",
+                "TV Rio Preto"
+            ],
+            "streams": [
+                "https://livefocamundo.com:8081/8162/index.m3u8"
+            ],
+            "lang": "pt-br",
+            "logo": "TV-Rio-Preto.png",
+            "tags": [
+                "Portuguese",
+                "Brazilian",
+                "Brazilian Portuguese",
+                "Brazil"
+            ],
+            "region": [
+                "Brazil"
+            ],
+            "country": "Brazil"
+        },
+        {
+            "name": "TV5 Monde",
+            "aliases": [
+                "TV5",
+                "TV 5",
+                "TV5 Monde"
+            ],
+            "streams": [
+                "http://v3plusinfo247hls-i.akamaihd.net/hls/live/218877/v3plusinfo247hls/index.m3u8"
+            ],
+            "lang": "fr",
+            "logo": "tv5.png",
+            "tags": [
+                "Entertainment",
+                "French",
+                "Europe",
+                "European Union",
+                "France"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "France"
+            ],
+            "country": "France"
+        },
+        {
+            "name": "RT France",
+            "aliases": [
+                "RT Francia HD",
+                "RT Francia",
+                "RT France"
+            ],
+            "streams": [
+                "https://rt-france.secure.footprint.net/1107_2500Kb.m3u8"
+            ],
+            "lang": "fr",
+            "logo": "RT-France.png",
+            "tags": [
+                "French",
+                "Europe",
+                "European Union",
+                "France"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "France"
+            ],
+            "country": "France"
+        },
+        {
+            "name": "CGTN Documentary",
+            "aliases": [
+                "CGTN Documentary"
+            ],
+            "streams": [
+                "http://livedoc.cgtn.com/1000d/prog_index.m3u8"
+            ],
+            "lang": "en",
+            "logo": "CGTN-Documentary.png",
+            "tags": [
+                "Documentary",
+                "English",
+                "China"
+            ],
+            "region": [
+                "China"
+            ],
+            "country": "China"
+        },
+        {
+            "name": "Russia Today",
+            "aliases": [
+                "RT",
+                "Russia Today"
+            ],
+            "streams": [
+                "http://rt-news.secure.footprint.net/1103.m3u8",
+                "https://rt-news.secure.footprint.net/1103_2500Kb.m3u8"
+            ],
+            "lang": "en",
+            "logo": "RT.png",
+            "tags": [
+                "News",
+                "English",
+                "Russia"
+            ],
+            "region": [
+                "Russia"
+            ],
+            "country": "Russia"
+        },
+        {
+            "name": "Russia Today Documentary",
+            "aliases": [
+                "RT Documentary",
+                "Russia Today Documentary"
+            ],
+            "streams": [
+                "https://rt-doc.secure.footprint.net/1101_2500Kb.m3u8"
+            ],
+            "lang": "en",
+            "logo": "RT-Documentary.png",
+            "tags": [
+                "Documentary",
+                "English",
+                "Russia"
+            ],
+            "region": [
+                "Russia"
+            ],
+            "country": "Russia"
+        },
+        {
+            "name": "Russia Today America",
+            "aliases": [
+                "RT America",
+                "Russia Today America"
+            ],
+            "streams": [
+                "https://rt-usa.secure.footprint.net/1105_2500Kb.m3u8"
+            ],
+            "lang": "en-us",
+            "logo": "RT-America.png",
+            "tags": [
+                "News",
+                "English",
+                "America",
+                "Russia"
+            ],
+            "region": [
+                "Russia"
+            ],
+            "country": "Russia"
+        },
+        {
+            "name": "Russia Today UK",
+            "aliases": [
+                "RT UK",
+                "Russia Today England",
+                "Russia Today United Kingdom",
+                "Russia Today UK"
+            ],
+            "streams": [
+                "https://rt-uk.secure.footprint.net/1106_2500Kb.m3u8"
+            ],
+            "lang": "en-gb",
+            "logo": "RT-UK.png",
+            "tags": [
+                "News",
+                "English",
+                "United Kingdom",
+                "Russia"
+            ],
+            "region": [
+                "Russia"
+            ],
+            "country": "Russia"
+        },
+        {
+            "name": "Redbull TV",
+            "aliases": [
+                "Red-Bull TV",
+                "Red Bull TV",
+                "Redbull TV"
+            ],
+            "streams": [
+                "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8"
+            ],
+            "lang": "en",
+            "logo": "Red-Bull-TV.png",
+            "tags": [
+                "English"
+            ]
+        },
+        {
+            "name": "California Music Channel",
+            "aliases": [
+                "CMC",
+                "CMC TV",
+                "California Music Channel TV",
+                "California Music Channel"
+            ],
+            "streams": [
+                "https://cmctv.ios.internapcdn.net/cmctv_vitalstream_com/live_1/CMC-TV/playlist.m3u8"
+            ],
+            "lang": "en",
+            "logo": "CMC.png",
+            "tags": [
+                "Music",
+                "California",
+                "America"
+            ],
+            "region": [
+                "California",
+                "America"
+            ]
+        },
+        {
+            "name": "Country Music Channel",
+            "aliases": [
+                "CMC Country",
+                "CMC 92",
+                "Country Music Channel TV",
+                "Country Music Channel"
+            ],
+            "streams": [
+                "https://cmctv.ios.internapcdn.net/cmctv_vitalstream_com/live_1/CMCU-92/playlist.m3u8"
+            ],
+            "lang": "en",
+            "logo": "CMC.png",
+            "tags": [
+                "Music",
+                "California",
+                "America"
+            ],
+            "region": [
+                "California",
+                "America"
+            ]
+        },
+        {
+            "name": "Colosal TV",
+            "aliases": [
+                "Colosal TV"
+            ],
+            "streams": [
+                "http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8"
+            ],
+            "lang": "es",
+            "logo": "Colosal-TV.png",
+            "tags": [
+                "Music",
+                "Costa Rica"
+            ],
+            "region": [
+                "Costa Rica"
+            ]
+        },
+        {
+            "name": "DeeJay TV",
+            "aliases": [
+                "DeeJay TV"
+            ],
+            "streams": [
+                "https://deejay_tv-lh.akamaihd.net/i/DeejayTv_1@129866/master.m3u8"
+            ],
+            "lang": "it",
+            "logo": "DeeJay-TV.png",
+            "tags": [
+                "Music",
+                "Italy"
+            ],
+            "region": [
+                "Italy"
+            ]
+        },
+        {
+            "name": "FM Italia TV",
+            "aliases": [
+                "FM Italia TV"
+            ],
+            "streams": [
+                "https://stream2.xdevel.com/fmitalia/fmitalia/playlist.m3u8"
+            ],
+            "lang": "it",
+            "logo": "FM-Italia-TV.png",
+            "tags": [
+                "Music",
+                "Italy"
+            ],
+            "region": [
+                "Italy"
+            ]
+        },
+        {
+            "name": "Sexy KPOP TV",
+            "aliases": [
+                "Sexy KPOP TV"
+            ],
+            "streams": [
+                "https://59f2354c05961.streamlock.net:1443/canaisforadoar/_definst_/canaisforadoar/chunklist.m3u8"
+            ],
+            "lang": "ko",
+            "logo": "Sexy-KPOP-TV.png",
+            "tags": [
+                "Music",
+                "Korean"
+            ],
+            "region": [
+                "Korean"
+            ]
+        },
+        {
+            "name": "1HD Music",
+            "aliases": [
+                "1HD Music"
+            ],
+            "streams": [
+                "http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/mono.m3u8"
+            ],
+            "lang": "ru",
+            "logo": "1HD.png",
+            "tags": [
+                "Music",
+                "Russia"
+            ],
+            "region": [
+                "Russia"
+            ]
+        },
+        {
+            "name": "NRG-91-TV",
+            "aliases": [
+                "Next Radio Generation",
+                "Next Radio Generation TV",
+                "Next Radio Generation 91",
+                "NRG-91-TV"
+            ],
+            "streams": [
+                "http://tv.nrg91.gr:1935/onweb/live/playlist.m3u8"
+            ],
+            "lang": "ru",
+            "logo": "NRG-91-TV.png",
+            "tags": [
+                "Music",
+                "Russia"
+            ],
+            "region": [
+                "Russia"
+            ]
+        },
+        {
+            "name": "Locomotion",
+            "aliases": [
+                "Locomotion"
+            ],
+            "streams": [
+                "http://locomotiontv.com/envivo/loco_ch/stream.m3u8"
+            ],
+            "lang": "es",
+            "logo": "Locomotion.png",
+            "tags": [
+                "Entertainment",
+                "Spanish",
+                "Kids",
+                "Latin American"
+            ],
+            "region": [
+                "Latin American"
+            ]
+        },
+        {
+            "name": "TV Galícia",
+            "aliases": [
+                "TV Galícia"
+            ],
+            "streams": [
+                "https://europa-crtvg.flumotion.com/crtvg/europa_high/playlist.m3u8"
+            ],
+            "lang": "es",
+            "logo": "TVG.png",
+            "tags": [
+                "Entertainment",
+                "Spanish",
+                "Europe",
+                "European Union",
+                "Spain",
+                "Galícia"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "Spain",
+                "Galícia"
+            ]
+        },
+        {
+            "name": "TVE 24h",
+            "aliases": [
+                "Spanish Television 24",
+                "TVE 24h"
+            ],
+            "streams": [
+                "https://rtvelivestream.akamaized.net/24h_dvr.m3u8"
+            ],
+            "lang": "es",
+            "logo": "TVE.png",
+            "tags": [
+                "News",
+                "Spanish",
+                "Europe",
+                "European Union",
+                "Spain"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "Spain"
+            ]
+        },
+        {
+            "name": "TVE",
+            "aliases": [
+                "Spanish Television",
+                "TVE"
+            ],
+            "streams": [
+                "http://rtvelivestream.akamaized.net/la1_dvr.m3u8"
+            ],
+            "lang": "es",
+            "logo": "TVEI.png",
+            "tags": [
+                "Entertainment",
+                "Spanish",
+                "Europe",
+                "European Union",
+                "Spain"
+            ],
+            "region": [
+                "Europe",
+                "European Union",
+                "Spain"
+            ]
+        },
+        {
+            "name": "euronews",
+            "aliases": [
+                "euronews",
+                "euro news",
+                "euronews es",
+                "euro news es",
+                "spanish euronews",
+                "spanish euro news",
+                "euronews spanish",
+                "euro news spanish"
+            ],
+            "streams": [
+                "http://euronews-es-p-cdn.hexaglobe.net/4adbd8ba4e23661db4f21d01b61e241f/5f4802b2/euronews/euronews-euronews-website-web-responsive-2/ewnsabres_spa.smil/playlist.m3u8"
+            ],
+            "lang": "es",
+            "logo": "Euronews.png",
+            "tags": [
+                "News",
+                "Spanish",
+                "Europe",
+                "European Union"
+            ],
+            "region": [
+                "Europe",
+                "European Union"
+            ]
+        },
+        {
+            "name": "CGTN Español",
+            "aliases": [
+                "CGTN Español"
+            ],
+            "streams": [
+                "https://live.cgtn.com/1000e/prog_index.m3u8"
+            ],
+            "lang": "es",
+            "logo": "CGTN-Español.png",
+            "tags": [
+                "News",
+                "Spanish",
+                "China"
+            ],
+            "region": [
+                "China"
+            ],
+            "country": "China"
+        },
+        {
+            "name": "Russia Today Español",
+            "aliases": [
+                "Russia Today Español"
+            ],
+            "streams": [
+                "https://rt-esp.secure.footprint.net/1102_2500Kb.m3u8"
+            ],
+            "lang": "es",
+            "logo": "RT-Español.png",
+            "tags": [
+                "News",
+                "English",
+                "Russia"
+            ],
+            "region": [
+                "Russia"
+            ],
+            "country": "Russia"
+        }
+    ]
+}
