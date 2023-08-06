@@ -1,0 +1,10 @@
+README.md
+setup.py
+polyfamily_tree/__init__.py
+polyfamily_tree/errors.py
+polyfamily_tree/family_member.py
+polyfamily_tree/member_iterators.py
+polyfamily_tree.egg-info/PKG-INFO
+polyfamily_tree.egg-info/SOURCES.txt
+polyfamily_tree.egg-info/dependency_links.txt
+polyfamily_tree.egg-info/top_level.txt
