@@ -1,0 +1,7 @@
+README.md
+setup.py
+hermes_subscribe.egg-info/PKG-INFO
+hermes_subscribe.egg-info/SOURCES.txt
+hermes_subscribe.egg-info/dependency_links.txt
+hermes_subscribe.egg-info/requires.txt
+hermes_subscribe.egg-info/top_level.txt
