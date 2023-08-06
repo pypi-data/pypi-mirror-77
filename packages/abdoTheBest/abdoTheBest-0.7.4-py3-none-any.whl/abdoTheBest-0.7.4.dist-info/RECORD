@@ -1,0 +1,13 @@
+genn/Document.py,sha256=Dn3AnAchWzfL1pGtM_eVrQ3-v6L3ot7iOmy7zb3F9qw,631
+genn/__init__.py,sha256=QGdDK1-A2f6tiIpJ948hSYFbSd1xSabDdc4vzf6C7BI,164
+genn/controllers.py,sha256=s7r9EWgZtKwFlggPenZuVKceiQVV5dCIYwTJ6SN1cv8,4636
+genn/embedding.py,sha256=7Jt9DgKzyw6AN4spkAhrx6I75U_UzInupSasVO4Cmdk,4264
+genn/generator.py,sha256=W3lx5exRe8L3nSBNb4diID8PJH8wK9zg4OwSQs3gGMM,10894
+genn/gru.py,sha256=Pp6OqvM0OGCXjzBI_UULVdgc95iXy0zYt33hTQI6ZR0,4579
+genn/importers.py,sha256=0CZUrr3Lcoo-2uHSeBM15ONm09qnFso3dl_F_BLf6ZU,526
+genn/lstm.py,sha256=EC1_kgZTRbzHaohy3LlpyJqLDMUheavYU5jvQ0nV8rA,5870
+genn/preprocessing.py,sha256=HU0nD3W1yw9TfOfexnOLcuJp88idKso-n9KvyfLjnfk,3341
+abdoTheBest-0.7.4.dist-info/METADATA,sha256=jHY9uDbrcHVoXMiDHJIUO7F4SjAECDXHST4E8ORDq5U,3069
+abdoTheBest-0.7.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+abdoTheBest-0.7.4.dist-info/top_level.txt,sha256=H22rOtDc7lnaKccWkKemX44IzOvCzjT4P3r3BXeKorY,5
+abdoTheBest-0.7.4.dist-info/RECORD,,
