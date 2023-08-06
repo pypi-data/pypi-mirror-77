@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: mpes
+Version: 1.0.9
+Summary: Distributed data processing routines for multidimensional photoemission spectroscopy (MPES)
+Home-page: https://github.com/mpes-kit/mpes
+Author: R. Patrick Xian, Laurenz Rettig
+Author-email: xrpatrick@gmail.com, rettig@fhi-berlin.mpg.de
+License: MIT
+Download-URL: https://github.com/mpes-kit/mpes/tarball/1.0.9
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: bokeh
+Requires-Dist: scikit-image
+Requires-Dist: sphinx
+Requires-Dist: nose
+Requires-Dist: coverage
+Requires-Dist: igor
+Requires-Dist: lmfit
+Requires-Dist: h5py (==2.9.0)
+Requires-Dist: dask[complete]
+Requires-Dist: fastparquet
+Requires-Dist: tqdm
+Requires-Dist: natsort
+Requires-Dist: funcy
+Requires-Dist: imageio
+Requires-Dist: numba
+Requires-Dist: opencv-python
+Requires-Dist: xarray
+Requires-Dist: astropy
+Requires-Dist: photutils
+Requires-Dist: symmetrize
+Requires-Dist: silx
+Requires-Dist: deepdish
+Requires-Dist: fastdtw
+Requires-Dist: threadpoolctl
+
+# mpes
+
+
