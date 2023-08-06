@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: dina-test
+Version: 0.1.1
+Summary: 
+License: MIT
+Author: dinabandhu50
+Author-email: beheradinabandhu50@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: numpy (>=1.19.1,<2.0.0)
+Requires-Dist: sphinx (>=3.2.1,<4.0.0)
+Description-Content-Type: text/x-rst
+
+*****************************
+This is my first pypi package
+*****************************
+
+Steps
+=====
+
+ - step 1: " install poetry and open it with vscode"
+ - step 2: " build the poetry package"
+
+html_theme = "nature"
