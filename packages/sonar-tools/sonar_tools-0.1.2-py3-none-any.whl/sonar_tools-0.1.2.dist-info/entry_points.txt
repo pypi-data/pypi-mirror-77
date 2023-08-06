@@ -1,0 +1,3 @@
+[console_scripts]
+sonar-audit = sonarqube.audit:main
+
