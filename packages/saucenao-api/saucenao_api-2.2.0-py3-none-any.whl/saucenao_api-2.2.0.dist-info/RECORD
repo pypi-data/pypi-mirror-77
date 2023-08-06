@@ -1,0 +1,10 @@
+saucenao_api/__init__.py,sha256=GwFUE3_3I_D_uo6wo4C5ObVuidIKJUipN1b_gzpOiNU,396
+saucenao_api/containers.py,sha256=Q3QefBapZ5xj-x9yN399_nLFRSq2uO9El9m2A_rmuUI,4878
+saucenao_api/errors.py,sha256=a-ypwtqUDZ6Tz_4v5QmGyN6VWvRYoul4FLZXimBBdp0,478
+saucenao_api/params.py,sha256=LV1GrBd6M6hthk7qXEMsCRW0VW61xPVVN0x2RUXp1gA,952
+saucenao_api/saucenao_api.py,sha256=5fxw3Ma1dKpe5f8Cuww8hhL2yDVh1uHIPlwK-ItRYlg,3716
+saucenao_api-2.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+saucenao_api-2.2.0.dist-info/METADATA,sha256=LZcJmC0xEd0fHjCQ0PdySXNRd1JPbgnjiKlEoduY9Bk,4498
+saucenao_api-2.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+saucenao_api-2.2.0.dist-info/top_level.txt,sha256=KkGaXedjTAEgP3lf60V9ZljUB9cjIWRNe969MFQl-Hw,13
+saucenao_api-2.2.0.dist-info/RECORD,,
