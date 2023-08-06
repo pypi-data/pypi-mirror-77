@@ -1,0 +1,15 @@
+Flask_SoftDeletes-1.0.0-py3.6.egg-info/PKG-INFO,sha256=-JonR5cWqYjJXPzYa4oJCAT_lyhoZg7yYzqnA8ucEfI,1861
+Flask_SoftDeletes-1.0.0-py3.6.egg-info/SOURCES.txt,sha256=-2_wTmBBwmZyyHXMtQICeD6ec5iVjxjfcmQ3hAEVCmw,346
+Flask_SoftDeletes-1.0.0-py3.6.egg-info/dependency_links.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+Flask_SoftDeletes-1.0.0-py3.6.egg-info/not-zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+Flask_SoftDeletes-1.0.0-py3.6.egg-info/requires.txt,sha256=pmUP-2hDXxTaDWYlSEcW-EG5gmSFfS5X3PQAPgaHoFY,37
+Flask_SoftDeletes-1.0.0-py3.6.egg-info/top_level.txt,sha256=A1ArcPwWDp1oZeJg0nShx8WyBgQTr9GSSO5WBAoZ-wk,18
+flask_softdeletes/__init__.py,sha256=wqmBGNGSh-G6AOnhG4Lfd4ijz4jU5jmh_9MBVAjSSzY,156
+flask_softdeletes/model.py,sha256=PdeWnpI_pqjpNwyqRnfP2xpdK7HfGsF9BsnMgujc1NY,565
+flask_softdeletes/query.py,sha256=cjMDqIm_8C2DP87O1ud7mXEMLv4AgUc81PaXvYUSHkA,1052
+Flask_SoftDeletes-1.0.0.dist-info/dependency_links.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+Flask_SoftDeletes-1.0.0.dist-info/top_level.txt,sha256=A1ArcPwWDp1oZeJg0nShx8WyBgQTr9GSSO5WBAoZ-wk,18
+Flask_SoftDeletes-1.0.1.dist-info/METADATA,sha256=sRLc-xv_3KqfheFCAxHvPNCrgvDjGnc4LJFUyc84ZFw,1603
+Flask_SoftDeletes-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+Flask_SoftDeletes-1.0.1.dist-info/top_level.txt,sha256=A1ArcPwWDp1oZeJg0nShx8WyBgQTr9GSSO5WBAoZ-wk,18
+Flask_SoftDeletes-1.0.1.dist-info/RECORD,,
