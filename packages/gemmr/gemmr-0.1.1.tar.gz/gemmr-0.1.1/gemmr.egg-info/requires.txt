@@ -1,0 +1,9 @@
+numpy>=1.18.1
+scipy
+pandas
+xarray==0.15.1
+netcdf4
+scikit-learn
+statsmodels
+joblib
+tqdm
