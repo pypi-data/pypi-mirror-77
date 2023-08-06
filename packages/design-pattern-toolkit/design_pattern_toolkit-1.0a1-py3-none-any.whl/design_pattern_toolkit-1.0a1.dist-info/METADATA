@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: design-pattern-toolkit
+Version: 1.0a1
+Summary: Collection of design patterns implemented in Python
+Home-page: https://gitlab.com/frier17/toolkit.git
+Author: https://gitlab.com/frier17/
+Author-email: frier17@a17s.co.uk
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+
+UNKNOWN
+
+
