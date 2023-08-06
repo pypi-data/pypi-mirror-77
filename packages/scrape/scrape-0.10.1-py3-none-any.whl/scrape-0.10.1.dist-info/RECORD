@@ -1,0 +1,11 @@
+scrape/__init__.py,sha256=qFju3sbuC3akbPSdctF51tL_cIxCwxJrbvUTXf7DHOI,344
+scrape/crawler.py,sha256=jj15ZNV1YPWQ5jjeecSxntZMzHOgwRaeRqohoXFputc,3963
+scrape/orderedset.py,sha256=Cdk94MqkpO-FhTVJkC5prDAZqiCWhD1p5WiX4K6n4GI,1783
+scrape/scrape.py,sha256=lP4LFijEbvdW8-nHG3WlqGx8x8uedqBFyIhV4P69vxE,12310
+scrape/utils.py,sha256=u7yPIyGNZHOkCKMbEH8U-1grHYbZYjAEjc-RUfWYop4,28106
+scrape-0.10.1.dist-info/LICENSE.txt,sha256=0Q1_8-9wK5-bxTGDucFXHD55CfHFqNA-TyHU5vGpXhM,1083
+scrape-0.10.1.dist-info/METADATA,sha256=dp-L-Ednr5k6is0qPplE8phvVC91_iMlB8l3i5ev2Kg,19776
+scrape-0.10.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+scrape-0.10.1.dist-info/entry_points.txt,sha256=dNxsdsDe-qkY1fGb1VgjP1G2fpoH80VNoWEhsYA9jys,62
+scrape-0.10.1.dist-info/top_level.txt,sha256=tq96RXwASn-nnj7ajQCbte8DzBzeuj-VCE_I54xQrys,7
+scrape-0.10.1.dist-info/RECORD,,
