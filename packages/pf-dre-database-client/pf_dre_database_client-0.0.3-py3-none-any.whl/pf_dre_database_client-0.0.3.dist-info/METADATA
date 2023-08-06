@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pf-dre-database-client
+Version: 0.0.3
+Summary: Provides a client for all Data interactions required with the Meter Management System
+Home-page: https://github.com/pypa/sampleproject
+Author: Dominic Hains
+Author-email: d.hains@uq.edu.au
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: psycopg2
+Requires-Dist: pandas
+Requires-Dist: pytz
+
+# Meter Management System Client
+The python implementation of the pf-dre-database repo provides a client
+for all Data interactions required with the Meter Management System:
+- Relational tables (Read Only)
+- Timescale DB (Read/Write - No insertion or deletion)
+    - JSON Schema
+    - Narrow Data Format Schema
+
+This python implementation is to be built and deployed to PyPI for use
+across all python subsystems of the Demand Response Engine.
+
+
+### Prerequisites
+- Python 3.7.0+
+
+
+
