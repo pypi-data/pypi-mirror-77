@@ -1,0 +1,12 @@
+README.md
+asteroid_sphinx_theme.py
+setup.cfg
+setup.py
+asteroid_sphinx_theme/__init__.py
+asteroid_sphinx_theme.egg-info/PKG-INFO
+asteroid_sphinx_theme.egg-info/SOURCES.txt
+asteroid_sphinx_theme.egg-info/dependency_links.txt
+asteroid_sphinx_theme.egg-info/entry_points.txt
+asteroid_sphinx_theme.egg-info/not-zip-safe
+asteroid_sphinx_theme.egg-info/requires.txt
+asteroid_sphinx_theme.egg-info/top_level.txt
