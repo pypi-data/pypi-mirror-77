@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: jederu_analytics
+Version: 1.0
+Summary: Python3 library voor Jederu Analytics
+Home-page: https://jensderuiter.dev
+Author: Jens de Ruiter
+Author-email: jensgamesnl@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
