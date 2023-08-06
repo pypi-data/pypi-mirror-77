@@ -1,0 +1,8 @@
+geotiff_crop_dataset/__init__.py,sha256=2S9nKGbhYC7sOknBspibJGBxlHsXitjFBT0fW_RMP7s,182
+geotiff_crop_dataset/dataset_reader.py,sha256=2PidDc5obfJRxelFK8fFBtMH67c6njLJ9eYreqpOmPA,3150
+geotiff_crop_dataset/dataset_writer.py,sha256=9oUvdEsCb2ZJgzcoxbM6rfho4A6v5SCbjImJc5EBvMs,3165
+geotiff_crop_dataset-0.0.1rc10.dist-info/LICENSE,sha256=BMFOPBy3MsG2Enc_yF-zzvExcabrnanspjYpkrM9i6o,1072
+geotiff_crop_dataset-0.0.1rc10.dist-info/METADATA,sha256=2BljJ_b_S83PeXNLv80y04VdxS6ACMLut5AsGeB-R1w,396
+geotiff_crop_dataset-0.0.1rc10.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+geotiff_crop_dataset-0.0.1rc10.dist-info/top_level.txt,sha256=6MLLnQipGEiug14z5TT6XNLiJqIL2cVgg_UtsLgWvvs,21
+geotiff_crop_dataset-0.0.1rc10.dist-info/RECORD,,
