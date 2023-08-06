@@ -1,0 +1,13 @@
+musfeat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+musfeat/musfeat.py,sha256=FQ8LBk966oKlONyyLe3lXEpyWwvOTQRr8e9i35B39mE,2321
+musfeat/analysis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+musfeat/analysis/audio_analysis.py,sha256=BVrsx12Cdhz4ywVrlNgY36iKxWQ57uoLoMdFzAXenl4,11070
+musfeat/helper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+musfeat/helper/settings.py,sha256=BmHvt_Zbm9-zGB17TH4C88qKdJq7UEHavQekRe8MNhA,178
+musfeat/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+musfeat/models/audio_models.py,sha256=ND6uWFz79xB2hm_LliZRX4XXRcor1Ha9BxvBYZtGfkQ,912
+MusFeat-1.0.3.dist-info/LICENSE.txt,sha256=883b9CtTIwg4YinmjkTp8GA8R-o1ItuVp3eSb136jDs,1098
+MusFeat-1.0.3.dist-info/METADATA,sha256=7E2lJYQk4YGpx-O5A3lueliSDQqDCuByn7AGQoN3mIw,412
+MusFeat-1.0.3.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+MusFeat-1.0.3.dist-info/top_level.txt,sha256=xAja7ApNr4YxkZKAC41flsWR_ws4d4Aprms35nfskOw,8
+MusFeat-1.0.3.dist-info/RECORD,,
