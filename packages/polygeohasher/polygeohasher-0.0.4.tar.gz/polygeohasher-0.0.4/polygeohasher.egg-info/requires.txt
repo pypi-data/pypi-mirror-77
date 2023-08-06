@@ -1,0 +1,3 @@
+Geohash
+geopandas
+polygon-geohasher
