@@ -1,0 +1,8 @@
+# basic files
+include LICENSE
+include README.md
+include requirements.txt
+include VERSION
+
+# lark grammar file
+include n3/parser/grammar.lark
