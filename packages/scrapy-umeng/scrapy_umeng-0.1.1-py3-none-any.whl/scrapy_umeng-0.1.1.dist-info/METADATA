@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: scrapy-umeng
+Version: 0.1.1
+Summary: umeng sdk for scrapy
+Home-page: https://github.com/geek-dc/scrapy-umeng
+Author: derekchan
+Author-email: dchan0831@gmail.com
+License: MIT Licence
+Keywords: pip,datacanvas,eds,xiaoh
+Platform: any
+Requires-Dist: requests
+
+umeng sdk for scrapy
+
+
