@@ -1,0 +1,16 @@
+PyYAML
+msgpack
+ipython
+ipdb
+coloredlogs
+
+# dev
+cvxopt
+cvxpy
+pandas
+tabulate
+cvxopt
+pytest
+pylint
+invoke
+mypy
