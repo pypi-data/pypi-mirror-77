@@ -1,0 +1,3 @@
+[console_scripts]
+flowsym = flowsym.cli:main
+
