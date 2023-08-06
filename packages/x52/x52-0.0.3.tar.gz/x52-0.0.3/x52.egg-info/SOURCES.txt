@@ -1,0 +1,14 @@
+README.md
+X52.cpp
+X52Device.cpp
+X52Page.cpp
+main.cpp
+setup.py
+stdafx.cpp
+utils.cpp
+x52_python_wrapper.cpp
+x52/__init__.py
+x52.egg-info/PKG-INFO
+x52.egg-info/SOURCES.txt
+x52.egg-info/dependency_links.txt
+x52.egg-info/top_level.txt
