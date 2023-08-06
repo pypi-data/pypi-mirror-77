@@ -1,0 +1,11 @@
+hacs_frontend/__init__.py,sha256=5iYKrXqjX_VRqU4oEAko3OUvt6j0RltAw1hssPIAzp8,342
+hacs_frontend/debug.js,sha256=euA539xJtCZI3esexPpJ4O_VjXGacEMomT07AXBJHCc,2296629
+hacs_frontend/debug.js.gz,sha256=AygyYz5DzDWpoSWYDCB2DU0KkcOx1cFPPLd-chmSgwU,513429
+hacs_frontend/main.js,sha256=qtpSi97buMri8iLuB7M82NSpLAoSiIBzu3y_NchQnNw,942354
+hacs_frontend/main.js.gz,sha256=TObAg693KSyj8W9TAJ1U-EGNYP2-yB2Ad-KqKKtif_0,241217
+hacs_frontend/version.py,sha256=nlY5dYU7gyMZDkJfDAxGo-4J7PfdhSDWUyaVgSK5kJI,22
+hacs_frontend-202008231427.dist-info/LICENSE,sha256=CjPRwZHsGAbHc7YFCAOSdGzH8Ee4o8TE4cohuweXgLw,1061
+hacs_frontend-202008231427.dist-info/METADATA,sha256=nWRMzjcQOX2NXVO83NmlXG1rxUCuGZeezI-6gmE-bBA,237
+hacs_frontend-202008231427.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+hacs_frontend-202008231427.dist-info/top_level.txt,sha256=TxYs6itCaoPswVSRDFquIsxrv08jOk3-flkYe4Hhsqo,14
+hacs_frontend-202008231427.dist-info/RECORD,,
