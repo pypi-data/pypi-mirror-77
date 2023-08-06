@@ -1,0 +1,9 @@
+{
+  "argv": [
+    "java", "-cp", ${PATH}, "com.twosigma.beakerx.scala.kernel.Scala",  "{connection_file}"
+  ],
+  "display_name": "Scala",
+  "language": "scala",
+  "env": { "PS1":"scala>"},
+  "interrupt_mode": "message"
+}
