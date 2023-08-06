@@ -1,0 +1,7 @@
+oidcutils/__init__.py,sha256=LcCmnz46fBNxuOi8mkHHDfejGnOgaWk8WIngpCM9h3k,68
+oidcutils/client.py,sha256=gbwafZrq8n3spBVXg2VCLrQsdfxdngU0K0G-V06j17I,3749
+gcp_oidc-0.0.12.dist-info/LICENSE,sha256=IaISEiHSo13y2NMz0Aph7SQERrYQcJJ0H_mWlBrNyRk,1022
+gcp_oidc-0.0.12.dist-info/METADATA,sha256=HkV6CCcVMWfP1McLKGcCybuH4yFyn_VpoQvV-OxTDDo,3569
+gcp_oidc-0.0.12.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+gcp_oidc-0.0.12.dist-info/top_level.txt,sha256=gd_bmPbm94Lnyn1cIwNyPyylQWy_nUD6u9HS0on1qHc,10
+gcp_oidc-0.0.12.dist-info/RECORD,,
