@@ -1,0 +1,7 @@
+README.md
+setup.py
+everywhere/__init__.py
+everywhere.egg-info/PKG-INFO
+everywhere.egg-info/SOURCES.txt
+everywhere.egg-info/dependency_links.txt
+everywhere.egg-info/top_level.txt
