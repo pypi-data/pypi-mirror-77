@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block bodyclass %}home{% endblock %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block addhead %}
+{% for header_element in extra_headers %}
+{{ header_element }}
+{% endfor %}
+{% endblock %}
+
+
+{% block body %}
+  <div style="padding:2%;">
+  {{ content }}
+  </div>
+{% endblock %}
+
+{% block body_end %}
+{% for elem in body_scripts %}
+{{ elem }}
+{% endfor %}
+{% endblock %}

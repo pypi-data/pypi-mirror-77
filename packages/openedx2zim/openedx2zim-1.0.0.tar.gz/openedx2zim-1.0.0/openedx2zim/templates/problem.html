@@ -1,0 +1,16 @@
+<div class="xblock xblock-student_view xblock-student_view-problem xmodule_display xmodule_CapaModule" data-block-type="problem">
+    <div class="problems-wrapper">
+        {{ problem_header }}
+        <div class="problem" id="{{ problem_id }}">
+            {{ html_content }}
+            {% if answers_available %}
+            <div class="action">
+                <script type="text/javascript" src="{{ path_to_root }}instance_assets/{{ problem_id }}_answers.js"></script>
+                <div class="submit-attempt-container">
+                <button type="button" class="submit btn-brand" onclick="problem_check_answers('{{ problem_id }}')" >          <span class="submit-label">Submit</span>      </button>
+                </div>
+            </div>
+            {% endif %}
+         </div>
+    </div>
+</div>

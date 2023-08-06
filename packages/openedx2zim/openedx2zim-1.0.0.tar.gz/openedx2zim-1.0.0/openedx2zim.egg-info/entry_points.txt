@@ -1,0 +1,3 @@
+[console_scripts]
+openedx2zim = openedx2zim.__main__:main
+

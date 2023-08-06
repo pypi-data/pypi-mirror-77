@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block bodyclass %}wiki-page{% endblock %}
+
+{% block title %}{{ content["title"] }}{% endblock %}
+
+{% block body %}
+<div class="wiki-wrapper">
+  <main id="main" aria-label="Content" tabindex="-1">
+    <section class="wiki view" id="wiki-content">
+    {#<header class="breadcrumbs-header"> <!-- IMPROUVEMENT header-->
+      <h2 class="sr">Course Wiki</h2>
+      <ul class="breadcrumb pull-left" class="">
+          <li><a href="/courses/course-v1:Microsoft+DEV274x+1T2018a/wiki/">Wiki</a></li>
+          <li><a href="/courses/course-v1:Microsoft+DEV274x+1T2018a/wiki/Microsoft.DEV274x.2T2017/">Microsoft.DEV274x.2T2017</a></li>
+          <li class="active"><a href="/courses/course-v1:Microsoft+DEV274x+1T2018a/wiki/Microsoft.DEV274x.2T2017/can-i-re-submit-end-assignment/">Can i re submit the end of assignment?</a></li>
+      </ul>
+    </header>
+#}
+      <div class="article-wrapper">
+        <article class="main-article" id="main-article">
+            <h3 class="entry-title">{{ content["title"] }}</h3>
+            <div class="wiki-article">
+              <p> {{ content["text"]  }} </p>
+            </div>
+        </article>
+        <div class="article-functions">
+          <div class="timestamp">
+            <span class="label"> Last modified  :</span><br />
+            <span class="date">{{ content["last-modif"] }}</span>
+          </div>
+          {% if content["children"] |length > 0 %}
+          <div class="see-children">
+            <a href="{{ rooturl }}/{{ dir }}"> See sub page</a>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+{% endblock %}
+

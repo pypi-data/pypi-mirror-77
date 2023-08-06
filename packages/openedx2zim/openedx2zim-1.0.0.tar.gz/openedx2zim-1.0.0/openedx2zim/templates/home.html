@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block bodyclass %}home{% endblock %}
+
+{% block title %}{{ mooc.head_course_xblock.display_name }}{% endblock %}
+
+{% block body %}
+  <section class="zim-container">
+    <div class="zim-info-wrapper">
+      <section class="zim-updates">
+        <h1> {{ mooc.head_course_xblock.display_name }} </h1>
+        <section>
+          {% for message  in messages %}
+            <article>
+              {{ message }}
+            </article>
+          {% endfor %}
+        </section>
+      </section>
+    </div>
+  </section>
+  
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block bodyclass %}wiki-list{% endblock %}
+
+{% block title %} Wiki {% endblock %}
+{% block body %}
+<div class="zim-container">
+  <div class="wiki-wrapper">
+    <main id="main" aria-label="Content" tabindex="-1">
+      <section class="wiki " id="wiki-content">
+        <div class="article-wrapper">
+          <article class="main-article" id="main-article">
+            <h3 class="entry-title">{{ wiki_name }}</h3>
+            <p data-l10-id="wiki_nb_article_level" data-l10n-args='{ "nb_articles": "{{ pages | length }}" }' > There are {{ pages | length }} articles in this level.</p> 
+            <table class="table table-striped">
+              <tr>
+                <th scope="col">Title</th>
+                <th scope="col">Last modified</th> 
+              </tr>
+              {% for page in pages %}
+              <tr>
+                <td>
+                  <a href="{{ page["url"]  }}/index.html"> {{ page["title"] }}</a>
+                </td>
+                <td>
+                  {{ page["last-modif"] }}
+                </td>
+              </tr>
+              {% endfor %}
+            </table>
+
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+</div>
+
+
+
+
+
+{% endblock %}

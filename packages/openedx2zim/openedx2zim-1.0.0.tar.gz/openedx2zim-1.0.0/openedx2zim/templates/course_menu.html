@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block bodyclass %}menu_chapter{% endblock %}
+
+{% block title %}{{ course.display_name }}{% endblock %}
+
+{% block body %}
+<div class="zim-container">
+  <div class="zim-course-wrapper" role="presentation">
+	{% include "side_menu.html" %}
+  </div>
+</div>
+{% endblock %}
+
