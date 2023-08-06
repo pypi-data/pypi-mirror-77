@@ -1,0 +1,32 @@
+services:
+  StagingConfig:
+    subnetwork_name: eme-staging
+    env_variables:
+      DJANGO_DEBUG: "False"
+      SESSION_COOKIE_SECURE: "True"
+      ALLOWED_HOSTS: '*.mydomain.com,*.mydomain.com'
+      DB_HOST: 10.0.0.1
+      DB_PORT: "6432"
+      DB_NAME: mydb
+      DB_USER: postgres
+  BackendConfig:
+    env: flex
+    entrypoint: bash -c 'gunicorn -w 8 -b :$PORT server.wsgi --capture-output'
+  BackendStagingConfig:
+    inherits_from:
+    - BackendConfig
+    - StagingConfig
+    service: backend-staging
+    automatic_scaling:
+      max_num_instances: 5
+      min_num_instances: 1
+  CeleryStagingConfig:
+    inherits_from:
+    - BackendConfig
+    - StagingConfig
+    service: celery-staging
+    entrypoint: bash -c 'celery -A myapp worker'
+    instance_tag: celery-staging
+    automatic_scaling:
+      max_num_instances: 1
+      min_num_instances: 1
