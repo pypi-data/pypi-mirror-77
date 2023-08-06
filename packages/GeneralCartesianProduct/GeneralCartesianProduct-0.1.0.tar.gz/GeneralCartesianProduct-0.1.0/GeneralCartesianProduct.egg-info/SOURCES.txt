@@ -1,0 +1,13 @@
+.gitignore
+LICENSE.txt
+README.md
+setup.py
+GeneralCartesianProduct.egg-info/PKG-INFO
+GeneralCartesianProduct.egg-info/SOURCES.txt
+GeneralCartesianProduct.egg-info/dependency_links.txt
+GeneralCartesianProduct.egg-info/top_level.txt
+generalcartesianproduct/__init__.py
+generalcartesianproduct/general_cartesian_product.py
+generalcartesianproduct/tests/__init__.py
+generalcartesianproduct/tests/test_sage.py
+generalcartesianproduct/tests/test_sympy.py
