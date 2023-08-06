@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+clipper_py.egg-info/PKG-INFO
+clipper_py.egg-info/SOURCES.txt
+clipper_py.egg-info/dependency_links.txt
+clipper_py.egg-info/not-zip-safe
+clipper_py.egg-info/top_level.txt
