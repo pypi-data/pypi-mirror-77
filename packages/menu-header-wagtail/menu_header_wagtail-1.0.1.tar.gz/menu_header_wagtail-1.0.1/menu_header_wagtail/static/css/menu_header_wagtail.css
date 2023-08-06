@@ -1,0 +1,273 @@
+/**
+ * header wagtail - JavaScript
+ *
+ * @link    https://joseflorez.co
+ * @license For open source use: MIT
+ * @author  Jose Florez https://joseflorez.co
+ * @version 1.0.0
+ *
+ * See usage examples at https://joseflorez.co/
+ */
+
+/********************************************
+Start Header
+ */
+.opacity.active {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 998;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header {
+    display: none;
+    position: fixed !important;
+    background-color: #fff;
+    z-index: 999;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    left: 0;
+    right: 0;
+}
+
+header.active {
+    display: block;
+}
+
+header.active .container {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+header.active .container .brand .logo {
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+header.active .container .brand .toggle {
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 992px) {
+    header.active .container .brand .toggle {
+        display: inline-block;
+    }
+}
+
+header.active .container nav {
+    display: flex;
+}
+
+header.active .container nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header.active .container nav ul li {
+    margin: 5px 10px;
+    list-style: none;
+}
+
+header.active .container nav ul li:last-child {
+    margin-right: 0;
+}
+
+header.active .container nav ul li a {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #757575;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header.active .container nav ul li.dropdown ul {
+    display: none;
+}
+
+header.active .container nav ul li.dropdown ul.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 99;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(134, 151, 168, 0.1);
+}
+
+header.active .container nav ul li.dropdown ul li {
+    margin: 10px auto;
+}
+
+@media (max-width: 992px) {
+    header.active .container {
+        flex-direction: column;
+    }
+
+    header.active .container .brand {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header.active .container nav {
+        display: none;
+    }
+
+    header.active .container nav.active {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header.active .container nav.active ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header.active .container nav.active ul li {
+        margin-top: 20px;
+    }
+}
+
+header.top {
+    transform: translateX(100%);
+    display: block;
+    width: 400px;
+    height: 100%;
+    right: 0;
+    left: auto;
+    top: 0;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.2);
+}
+
+header.top nav ul li a {
+    cursor: pointer;
+}
+
+header.top.activeTop {
+    transform: translateX(0%);
+}
+
+header.top.activeTop .toggle {
+    left: 30px !important;
+}
+
+header.top.activeTop .toggle i {
+    font-size: 20px;
+    color: #000000 !important;
+}
+
+header.top .container {
+    display: flex;
+    flex-direction: column;
+}
+
+header.top .container .brand {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header.top .container .brand .logo {
+    font-size: 30px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+    white-space: nowrap;
+}
+
+header.top .container .brand .toggle {
+    position: fixed;
+    left: -50px;
+    top: 30px;
+    cursor: pointer;
+}
+
+header.top .container .brand .toggle i {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+header.top .container nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+header.top .container nav ul li {
+    margin: 20px auto;
+    list-style: none;
+}
+
+header.top .container nav ul li a {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #757575;
+    text-decoration: none;
+}
+
+header.top .container nav ul li.dropdown ul {
+    display: none;
+}
+
+header.top .container nav ul li.dropdown ul.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(134, 151, 168, 0.1);
+}
+
+header.top .container nav ul li.dropdown ul li {
+    margin: 10px auto;
+}
+
+header:after {
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), #a5a5a5, rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000', GradientType=1);
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    width: 100%;
+    content: "";
+    bottom: -30px;
+    bottom: 0;
+}
+
+/*
+End Header
+ **************************************/
