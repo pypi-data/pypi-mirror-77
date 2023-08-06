@@ -1,0 +1,10 @@
+setup.py
+rdel_distributions/Binomialdistribution.py
+rdel_distributions/Gaussiandistribution.py
+rdel_distributions/Generaldistribution.py
+rdel_distributions/__init__.py
+rdel_distributions.egg-info/PKG-INFO
+rdel_distributions.egg-info/SOURCES.txt
+rdel_distributions.egg-info/dependency_links.txt
+rdel_distributions.egg-info/not-zip-safe
+rdel_distributions.egg-info/top_level.txt
