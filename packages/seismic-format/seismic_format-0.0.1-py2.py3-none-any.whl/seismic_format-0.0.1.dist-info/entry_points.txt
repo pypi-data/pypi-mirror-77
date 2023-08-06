@@ -1,0 +1,5 @@
+[console_scripts]
+quakeml-to-y2k = seismic_format.quakeml_to_y2k:main
+seisan-to-quakeml = seismic_format.seisan_to_quakeml:main
+y2k-to-quakeml = seismic_format.y2k_to_quakeml:main
+

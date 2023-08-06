@@ -1,0 +1,61 @@
+Y2000 summary format (also used as header in archive file) - y2000 manual p.98-99
+Start       Fortran
+Col     Len Format  Algn Field                  Data (* revised from pre-Y2000 format)
+===     === ======  ==== ==============         ==========================================
+1       4   I4      L   year                    Year. *
+5       8   A8      L   moddhhmi                Month, day, hour and minute. *MTH: changed format from 4I2
+13      4   F4.2    L   seconds                 Origin time seconds.
+17      2   F2.0    L   lat_deg                 Latitude (deg). First character must not be blank.
+19      1   A1      L   n_or_s                  S for south, blank otherwise.
+20      4   F4.2    L   lat_min                 Latitude (min).
+24      3   F3.0    L   lon_deg                 Longitude (deg).
+27      1   A1      L   e_or_w                  E for east, blank otherwise.
+28      4   F4.2    L   lon_min                 Longitude (min).
+32      5   F5.2    R   depth                   Depth (km).
+37      3   F3.2    L   ampmag                  Amplitude magnitude. *
+40      3   I3      R   n_P_and_S_times         Number of P & S times with final weights greater than 0.1.
+43      3   I3      L   azgap                   Maximum azimuthal gap, degrees.
+46      3   F3.0    R   min_dist                Distance to nearest station (km).
+49      4   F4.2    R   rms                     RMS travel time residual.
+53      3   F3.0    R   pri_error_az            Azimuth of largest principal error (deg E of N).
+56      2   F2.0    R   pri_error_dip           Dip of largest principal error (deg).
+58      4   F4.2    R   pri_error_size          Size of largest principal error (km).
+62      3   F3.0    R   int_error_az            Azimuth of intermediate principal error.
+65      2   F2.0    R   int_error_dip           Dip of intermediate principal error.
+67      4   F4.2    R   int_error_size          Size of intermediate principal error (km).
+71      3   F3.2    L   durmag                  Coda duration magnitude. *
+74      3   A3      L   region                  Event location remark (region), derived from location.
+77      4   F4.2    R   sm_error_size           Size of smallest principal error (km).
+81      1   A1      L   analyst_remark          Auxiliary remark from analyst (i.e. Q for quarry).
+82      1   A1      L   program_remark          Auxiliary remark from program (i.e. “-“ for depth fixed, etc.).
+83      3   I3      R   number_S_times          Number of S times with weights greater than 0.1.
+86      4   F4.2    R   error_horizontal        Horizontal error (km).
+90      4   F4.2    R   error_vertical          Vertical error (km).
+94      3   I3      R   number_P_first_motions  Number of P first motions. *
+97      4   F4.1    R   tot_amp_mag_weights     Total of amplitude mag weights ~number of readings.*
+101     4   F4.1    R   tot_dur_mag_weights     Total of duration mag weights ~number of readings. *
+105     3   F3.2    R   med_abs_diff_amp        Median-absolute-difference of amplitude magnitudes.
+108     3   F3.2    R   med_abs_diff_dur        Median-absolute-difference of duration magnitudes.
+111     3   A3      L   crustal_model           3-letter code of crust and delay model.
+114     1   A1      L   authority               "Authority" code, i.e. what network furnished the information. Hypoinverse passes this code through.
+115     1   A1      L   P_source_code           Most common P & S data source code. (See table 1 below).
+116     1   A1      L   dur_source_code         Most common duration data source code. (See cols. 68-69)
+117     1   A1      L   amp_source_code         Most common amplitude data source code.
+118     1   A1      L   pri_dur_mag_type        Primary coda duration magnitude type code
+119     3   I3      R   n_valid_P_and_S_reads   Number of valid P & S readings (assigned weight > 0).
+122     1   A1      R   pri_amp_mag_type        Primary amplitude magnitude type code
+123     1   A1      R   ext_mag_label           "External" magnitude label or type code. Typically "L" (=ML) This information is not computed by Hypoinverse, but passed along, as computed by UCB. 
+124     3   F3.2    R   ext_mag                 "External" magnitude.
+127     3   F3.1    R   tot_ext_mag_weights     Total of "external" magnitude weights (~ number of readings). 
+130     1   A1      R   alt_amp_mag_label       Alternate amplitude magnitude label or type code.
+131     3   F3.2    R   alt_amp_mag             Alternate amplitude magnitude.
+134     3   F3.1    R   tot_alt_amp_mag_weights Total of the alternate amplitude mag weights ~no. of readings.
+137     10  I10     R   event_id                Event identification number
+147     1   A1      L   prefmag_label           Preferred magnitude label code chosen from those available.
+148     3   F3.2    L   prefmag                 Preferred magnitude, chosen by the Hypoinverse PRE command.
+151     4   F4.1    R   tot_pref_mag_weights    Total of the preferred mag weights (~ number of readings). *
+155     1   A1      R   alt_dur_mag_label       Alternate coda duration magnitude label or type code.
+156     3   F3.2    R   alt_dur_mag             Alternate coda duration magnitude.
+159     4   F4.1    R   tot_alt_dur_mag_weights Total of the alternate coda duration magnitude weights. *
+163     1   A1      R   version_info            "Version" of the information, i.e. the stage of processing. This can either be passed through, or assigned by Hypoinverse with the LAB command. 
+164     1   A1      R   review_version          Version of last human review. Hypoinverse passes this through. 164 is the last filled column

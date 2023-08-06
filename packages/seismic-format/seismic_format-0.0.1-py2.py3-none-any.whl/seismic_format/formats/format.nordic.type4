@@ -1,0 +1,37 @@
+SEISAN manual p.415-416 Appendix A Nordic Format type 4
+Start       Fortran
+Col     Len Format  Algn Field                  Data (* revised from pre-Y2000 format)
+===     === ======  ==== ==============         ==========================================
+1       1   A1      L   Free                    Free field not used
+2       5   A5      L   sta                     Station Name
+7       1   A1      L   Instrument_type         S=SP, I=IP, L=LP, etc
+8       1   A1      L   Component               Z, N, E, T, R, 1, 2
+9       1   A1      L   Free                    Free or weight
+10      1   A1      L   Quality_indicator       I, E, etc.
+11      2   A2      L   Phase                   Phase ID: PN, PG, LG, P, S, etc
+13      1   A1      L   Free                    NOT SPECIFIED!
+14      1   A1      L   Free                    NOT SPECIFIED!
+15      1   I1      L   Weighting_indicator     (1-4) 0 or bank = full weight, 1=75%, 2=50%, 3=25%, 4=0%
+16      1   A1      L   Free                    Free or flag A to indicate automatic pick
+17      1   A1      L   First_motion            C, D
+18      1   A1      L   Free                    Note: 15 to 18 an also be used for phase assuming column 11-14 is not blank
+19      2   I2      L   Hour                    Hour can be up to 48 to indicate next day
+21      2   I2      L   Minutes                 Minutes
+23      6   F6.0    L   Seconds                 Seconds
+29      1   A1      L   Free                    Free field not used
+30      4   I4      L   Duration                Duration (to noise) seconds
+34      7   G7.1    L   Amplitude               Zero-peak in units of nm, nm/s, nm/s**2, or counts
+41      1   A1      L   Free                    Free field not used
+42      4   F4.0    L   Period                  Seconds
+46      1   A1      L   Free                    Free field not used
+47      5   F5.0    L   Direction_of_approach   Degrees
+52      1   A1      L   Free                    Free field not used
+53      4   F4.0    L   Phase_velocity          Km/second
+57      4   F4.0    L   Angle_of_incidence      Used to be signal to noise ratio
+61      3   I3      L   Azimuth_residual
+64      5   F5.1    L   Travel_time_residual
+69      2   I2      L   Weight
+71      5   F5.0    L   Epicentral_distance     km
+76      1   A1      L   Free                    Free field not used
+77      3   I3      L   Azimuth_at_the_source
+80      1   A1      L   Type_of_this_line       Type of this line ("4"), can be blank which is most often

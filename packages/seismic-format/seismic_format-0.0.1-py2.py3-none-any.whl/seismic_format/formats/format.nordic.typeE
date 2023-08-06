@@ -1,0 +1,18 @@
+SEISAN manual p.411 Appendix A Nordic Format type E
+Start       Fortran
+Col     Len Format  Algn Field                  Data
+===     === ======  ==== ==============         ==========================================
+1       1   A1      L   Free                    Free field not used
+2       4   A4      L   GAP=                    The text "GAP="
+6       3   I3      L   Gap                     Value of azimuthal gap
+9       6   A6      L   Free                    Free field not used
+15      6   F6.2    L   Origin_time_error       Seconds (I assume)
+21      4   A4      L   Free                    Free field not used
+25      6   F6.1    L   Latitude_error          Latitude (y) error
+31      1   A1      L   Free                    Free field not used
+33      6   F6.1    L   Longitude_error         Longitude (x) error
+39      5   F5.1    L   Depth_error             Depth (z) error
+44      12  E12.4   L   Covariance_xy           Covariance (x,y) km*km
+56      12  E12.4   L   Covariance_xz           Covariance (x,z) km*km
+68      12  E12.4   L   Covariance_yz           Covariance (y,z) km*km
+80      1   A1      L   Type_of_this_line       eg., E

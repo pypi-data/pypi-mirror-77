@@ -1,0 +1,24 @@
+SEISAN manual p.417 Appendix A Nordic Format type H
+Start       Fortran
+Col     Len Format  Algn Field                  Data
+===     === ======  ==== ==============         ==========================================
+1       1   A1      L   Free                    Free field not used
+2       4   I4      L   Year                    Year
+6       1   A1      L   Free                    Free field not used
+7       2   I2      L   Month                   Month
+9       2   I2      L   Day                     Day of Month
+11      1   A1      L   Fix_o_time              Normally blank, an F fixes origin time
+12      2   I2      L   Hour                    Hour
+14      2   I2      L   Minutes                 Minutes
+16      1   A1      L   Free                    Free field not used
+17      6   F6.3    L   Seconds                 Seconds
+23      1   A1      L   Free                    Free field not used
+24      9   F9.5    L   Latitude                Degrees (+ N)
+33      1   A1      L   Free                    Free field not used
+34      10  F10.5   L   Longitude               Degrees (+ E)
+44      1   A1      L   Free                    Free field not used
+45      8   F8.3    L   Depth                   Km
+53      1   A1      L   Free                    Free field not used
+54      6   F6.3    L   RMS                     RMS
+60      19  A19     L   Free                    Free field not used
+80      1   A1      L   Type_of_this_line       eg., H

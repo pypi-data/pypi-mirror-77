@@ -1,0 +1,35 @@
+SEISAN manual p.411 Appendix A Nordic Format type 1
+Start       Fortran
+Col     Len Format  Algn Field                  Data
+===     === ======  ==== ==============         ==========================================
+1       1   A1      L   Free                    Free field not used
+2       4   I4      L   Year                    Year
+6       1   A1      L   Free                    Free field not used
+7       2   I2      L   Month                   Month
+9       2   I2      L   Day                     Day of Month
+11      1   A1      L   Fix_o_time              Normally blank, an F fixes origin time
+12      2   I2      L   Hour                    Hour
+14      2   I2      L   Minutes                 Minutes
+16      1   A1      L   Free                    Free field not used
+17      4   F4.1    L   Seconds                 Seconds
+21      1   A1      L   Location_model_indicator Any character
+22      1   A1      L   Distance_indicator      L=Local, R=Regional, D=Distance, etc.
+23      1   A1      L   EventID                 Q=Confirmed Earthquake, ''=Probable Earthquake, E=Confirmed Explosion, .., V=Volcanic
+24      7   F7.3    L   Latitude                Degrees (+ N)
+31      8   F8.3    L   Longitude               Degrees (+ E)
+39      5   F5.1    L   Depth                   Km
+44      1   A1      L   Depth_indicator         F=Fixed, S=Starting value
+45      1   A1      L   Locating_indicator      -------------, * do not locate
+46      3   A3      L   Hypocenter_reporting_agency
+49      3   I3      L   Number_of_stations_used
+52      4   F4.1    L   RMS_of_time_residuals   ?? What is the precision of this field ?
+56      4   F4.1    L   Magnitude_no_1
+60      1   A1      L   Type_of_magnitude       L=ML, b=mb, B=mB, s=Ms, S=MS, W=MW, G=MbLg, C=Mc
+61      3   A3      L   Magnitude_reporting_agency
+64      4   F4.1    L   Magnitude_no_2
+68      1   A1      L   Type_of_magnitude_2      L=ML, b=mb, B=mB, s=Ms, S=MS, W=MW, G=MbLg, C=Mc
+69      3   A3      L   Magnitude_reporting_agency_2
+72      4   F4.1    L   Magnitude_no_3
+76      1   A1      L   Type_of_magnitude_3      L=ML, b=mb, B=mB, s=Ms, S=MS, W=MW, G=MbLg, C=Mc
+77      3   A3      L   Magnitude_reporting_agency_3
+80      1   A1      L   Type_of_this_line       Type of this line ("1"), can be blank if first line of event
