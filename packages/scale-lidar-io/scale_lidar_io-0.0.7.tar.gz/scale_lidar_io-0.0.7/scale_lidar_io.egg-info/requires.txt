@@ -1,0 +1,14 @@
+awscli
+smart_open
+boto3
+dataclasses
+matplotlib
+numpy
+opencv-python
+pandas
+Pillow
+PyYAML
+transforms3d
+ujson
+pyquaternion
+pyntcloud
