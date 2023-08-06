@@ -1,0 +1,10 @@
+farsante/__init__.py,sha256=AJS6Oo7r4wju2lxColulaKiCALZkqnwTeP3A5fVbkKs,122
+farsante/dask_dfs.py,sha256=mQS_92T4wOkw7Baj-Xi8AB_C30r9KauzcRU-C-iUpgM,150
+farsante/dask_generators.py,sha256=ebdjNp0bFh7w_sWDH89Gr9EAMhNyrWZT5faZQjuf6ag,353
+farsante/pandas_dfs.py,sha256=ezwVllNuaoun7FcQb7lu9BsdU553CaFxcfjGJui2uF8,141
+farsante/pandas_generators.py,sha256=J09LtJzbZUkI97l5HnnOBTq9iZGa_lohfdzqZLMYqgg,569
+farsante/pyspark_dfs.py,sha256=jRe_BA8NCP7vfWYm7qi_mvOu8DdlqF6AaU9flpQHQ_U,253
+farsante/pyspark_generators.py,sha256=ZjJIrQv-TaJLWy8714Vb6L74MYlwPxCByrQXCIegqjs,942
+farsante-0.2.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+farsante-0.2.0.dist-info/METADATA,sha256=5kIMOB_7ELbdU9_UzAG8qpW750FOyfBdK9HyAfKzFIQ,497
+farsante-0.2.0.dist-info/RECORD,,
