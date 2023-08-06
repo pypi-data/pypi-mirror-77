@@ -1,0 +1,11 @@
+grokcore.component
+setuptools
+zope.annotation
+zope.security
+zope.securitypolicy
+
+[test]
+zope.component
+zope.interface
+zope.location
+zope.principalregistry
