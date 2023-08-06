@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: loxodonta
+Version: 0.1.1
+Summary: Network traffic visualization
+Home-page: UNKNOWN
+Author: Tomer Waldmann
+Author-email: tomer.valdman@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pyshark
+Requires-Dist: tqdm
+Requires-Dist: neo4j
+Requires-Dist: click
+Requires-Dist: appdirs
+
+UNKNOWN
+
+
