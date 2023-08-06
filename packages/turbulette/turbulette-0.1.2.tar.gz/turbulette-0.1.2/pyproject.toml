@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "turbulette"
+version = "0.1.2"
+description = "A Framework to build async GraphQL APIs with Ariadne and GINO"
+authors = ["Gazorby <gazorby@pm.me>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+ariadne = "^0.11.0"
+pydantic = {extras = ["email"], version = "^1.6.1"}
+alembic = "^1.4.2"
+psycopg2-binary = "^2.8.5"
+passlib = {extras = ["bcrypt"], version = "^1.7.2"}
+simple-settings = "^0.19.1"
+python-jwt = "^3.2.6"
+gino-enum-tables = {version = "^1.0.7", optional = true}
+gino = {extras = ["starlette"], version = "^1.0.1"}
+
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+rope = "^0.17.0"
+pylint = "^2.5.3"
+ptvsd = "^4.3.2"
+uvicorn = {extras = ["watchgodreload"], version = "^0.11.8"}
+tuna = "^0.4.5"
+memory_profiler = "^0.57.0"
+pytest = "^6.0.1"
+pytest-cov = "^2.10.0"
+pytest-asyncio = "^0.14.0"
+gunicorn = "^20.0.4"
+fastapi = "^0.61.0"
+coverage = {extras = ["toml"], version = "^5.2.1"}
+
+[tool.poetry.plugins."pytest11"]
+"turbulette" = "turbulette.test.pytest_plugin"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--cov --cov-report html --cov-report xml"
+
+[tool.coverage.run]
+omit = ["turbulette/test/pytest_plugin.py"]
+source = ["turbulette/"]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
