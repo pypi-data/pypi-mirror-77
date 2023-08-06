@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: decap
+Version: 0.0.1
+Summary: A simple function for decapitalizing text.
+Home-page: UNKNOWN
+Author: Peter Kyle
+Author-email: peterdooga@gmail.com
+License: MIT
+Description: A simple module to decapitalize text.
+        
+        decap("Hello World")
+        
+        Output:
+        hello world
+        
+        Change Log
+        ===========
+        
+        0.0.1 (date)
+        -----------------
+        - First Release
+Keywords: decap decapitalize
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

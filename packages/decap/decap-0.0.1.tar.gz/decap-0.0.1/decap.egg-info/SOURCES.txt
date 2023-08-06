@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+decap/__init__.py
+decap.egg-info/PKG-INFO
+decap.egg-info/SOURCES.txt
+decap.egg-info/dependency_links.txt
+decap.egg-info/top_level.txt
