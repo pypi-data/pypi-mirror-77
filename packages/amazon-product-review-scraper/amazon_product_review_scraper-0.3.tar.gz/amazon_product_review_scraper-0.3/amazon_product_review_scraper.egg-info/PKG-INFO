@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: amazon-product-review-scraper
+Version: 0.3
+Summary: Python package to scrape product review data from amazon
+Home-page: https://github.com/SinghalHarsh/amazon-product-review-scraper
+Author: Harsh Singhal
+Author-email: harshsinghal726@gmail.com
+License: MIT
+Description: # Amazon Product Review Scraper
+        Python package to scrape product review data from amazon
+        
+        ## Installation
+        
+            pip install amazon-product-review-scraper
+Keywords: Scraper,Amazon,Reviews
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
