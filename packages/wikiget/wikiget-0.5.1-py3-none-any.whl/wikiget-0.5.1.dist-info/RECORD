@@ -1,0 +1,11 @@
+wikiget/__init__.py,sha256=ALjaDt3uXMVBQP_8zMJga5d843QByBASRru4Y0mOggA,1155
+wikiget/dl.py,sha256=np8xJhn9o9h6LWuusPclBX-YCkU-cwfPp9FTKi_osCw,6373
+wikiget/validations.py,sha256=mSe3Z6mk2v4ZwvGGywGsP13B6exQzdK6KNjs4M9nUZo,2434
+wikiget/version.py,sha256=s8Yq9Om1yBxrMA7xYQ5Y13Paeuxnq99NxhyjuPlnH6A,22
+wikiget/wikiget.py,sha256=LrZXFikV765b_jScKE-XgEHuqrvBlwgHaaDxGfLAINM,5000
+wikiget-0.5.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+wikiget-0.5.1.dist-info/METADATA,sha256=pG1_zCzZyp_O5IAyEjV_TCd-Fk3yrb0ccTqSTorgjrE,6049
+wikiget-0.5.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+wikiget-0.5.1.dist-info/entry_points.txt,sha256=gtFANRCo-dbvFMp2e5rAzNdVn4RnAsimgFg-0SSYJmU,50
+wikiget-0.5.1.dist-info/top_level.txt,sha256=d4jsfSwhqqJr01sZPcQvAtG8sxXTktdl-df_Uepk0nA,8
+wikiget-0.5.1.dist-info/RECORD,,
