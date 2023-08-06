@@ -1,0 +1,10 @@
+rickandmorty/__init__.py,sha256=15VUklUDYwJkACreanCzSsO2B6kVhRYQPlEtu76QA0I,202
+rickandmorty/base.py,sha256=eA85G51sJ78oKbVWsN18lMozXxuq9bkxCwSaJp7FjGc,101
+rickandmorty/character_client.py,sha256=KNVjEMEsx0E1F8qpsN0eWzAVYTA-RZGQkFeilXz5P-A,1642
+rickandmorty/episode_client.py,sha256=rBWrgYS9ciIWniRLYa5HFMsV-NG6QPw3SS73BBksWvo,1316
+rickandmorty/location_client.py,sha256=QRFvTdEZR-UT3IJz9dHRnldy2k2dvFWgpI_Ds_p1x3I,1415
+rickandmorty-0.1.0.dist-info/LICENSE,sha256=qHGtBMAd09xMOr75QcrHOXK2MN1Cnt7xLYlaHTRW3Ts,1094
+rickandmorty-0.1.0.dist-info/METADATA,sha256=-IwzNTiPp4YT0eP5wVngAHV_6gMqjyRFULSazc5XiE0,2657
+rickandmorty-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+rickandmorty-0.1.0.dist-info/top_level.txt,sha256=VxgWYDXKKe5Rn8ux8sSlGiwcBj2Z5cxPt90dhqn8bTE,13
+rickandmorty-0.1.0.dist-info/RECORD,,
