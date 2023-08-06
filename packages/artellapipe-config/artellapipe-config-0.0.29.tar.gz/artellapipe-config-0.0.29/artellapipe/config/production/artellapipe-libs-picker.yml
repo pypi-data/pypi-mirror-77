@@ -1,0 +1,7 @@
+# Base Configuration file for artellapipe-libs-picker
+
+# Defines lib name
+name: Picker
+
+# Unique ID for the tool
+id: artellapipe-plugins-picker
