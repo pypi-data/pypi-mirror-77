@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+logging.yaml
+setup.py
+python_stackdriver_logging_mdp1.egg-info/PKG-INFO
+python_stackdriver_logging_mdp1.egg-info/SOURCES.txt
+python_stackdriver_logging_mdp1.egg-info/dependency_links.txt
+python_stackdriver_logging_mdp1.egg-info/requires.txt
+python_stackdriver_logging_mdp1.egg-info/top_level.txt
