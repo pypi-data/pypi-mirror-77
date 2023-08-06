@@ -1,0 +1,3 @@
+[console_scripts]
+parser = path_quant:pathc_quant.py
+
