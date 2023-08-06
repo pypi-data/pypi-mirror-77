@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: gds_tools
+Version: 0.1.1
+Summary: Package aiding scripted design of structures for nanofabrication of devices for condensed matter physics research.
+Home-page: https://github.com/kouwenhovenlab/gds_tools
+Author: Lieuwe Stek
+Author-email: lieuwe.stek@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: gds gdsii cad script scripting physics nanofabrication condensed matter
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.6
