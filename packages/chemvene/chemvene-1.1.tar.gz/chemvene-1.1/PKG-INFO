@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: chemvene
+Version: 1.1
+Summary: A convenient chemical model visualization and analysis engine for processing output from the Michigan protoplanetary disk chemical modeling code.
+Home-page: https://github.com/richardseifert/Chemvene
+Author: Richard Seifert
+Author-email: seifertricharda@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
