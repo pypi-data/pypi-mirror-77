@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: lib-kaasknak
+Version: 0.0.1
+Summary: Dealing with isotopic inventories.
+Home-page: https://github.com/kaasknak/lib
+Author: kaasknak
+Author-email: private@mail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+This simple package will convert element names (H for hyrogen, Co for cobalt) to their atomic number using Element()
+It also outputs the natural composition of the element a,b=NatComp("Gd") where a will give the natural occuring isotopes of gadolinium and b will contain the fraction of each isotope.
+
+Data is gather from the wikipedia page for every individual element.
+
+
