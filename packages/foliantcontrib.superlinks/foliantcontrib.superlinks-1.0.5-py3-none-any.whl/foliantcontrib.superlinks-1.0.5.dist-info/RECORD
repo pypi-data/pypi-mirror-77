@@ -1,0 +1,9 @@
+foliant/preprocessors/superlinks/__init__.py,sha256=yi23e86oXWFJk7pmE4D_J0c0s7dHi9hsLy5cnN72HmA,37
+foliant/preprocessors/superlinks/anchors_generator.py,sha256=h3KmZAvgIyddNhFGB0lwd6yZFWxznFUDGtrSvNj3guQ,6215
+foliant/preprocessors/superlinks/confluence.py,sha256=EJdy3x3IMruIY86vDIbv-4OTy8pF7CLze9PIsCAUwz8,2402
+foliant/preprocessors/superlinks/superlinks.py,sha256=Jv9kYLmb5FtNpmf7v6BbVquSuasr7KZ09ZvjqNo4wu4,17078
+foliantcontrib.superlinks-1.0.5.dist-info/LICENSE,sha256=PufEtkm3g2iPEYbJqg2lDjMQJ1FMm_oUPyeYPiN4PHE,1056
+foliantcontrib.superlinks-1.0.5.dist-info/METADATA,sha256=43FikTvONkTvyrvUlw3Rn6sZUy2PPfrMbkjIBZtr6f0,4897
+foliantcontrib.superlinks-1.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+foliantcontrib.superlinks-1.0.5.dist-info/top_level.txt,sha256=5uvI8ZIgBWKY09Z8Xs4ESLGD7yAEGbiLvIrdHdaC9mE,8
+foliantcontrib.superlinks-1.0.5.dist-info/RECORD,,
