@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: timebandit
+Version: 0.1.0
+Summary: The most fabulous time measuring object in the world.
+License: Python-2.0
+Author: skeptycal
+Author-email: 26148512+skeptycal@users.noreply.github.com
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: loguru (>=0.5.1,<0.6.0)
+Requires-Dist: wheel (>=0.35.1,<0.36.0)
