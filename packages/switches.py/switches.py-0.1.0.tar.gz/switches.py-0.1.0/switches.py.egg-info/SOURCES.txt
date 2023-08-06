@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+switches/__init__.py
+switches/switch.py
+switches.py.egg-info/PKG-INFO
+switches.py.egg-info/SOURCES.txt
+switches.py.egg-info/dependency_links.txt
+switches.py.egg-info/top_level.txt
+tests/__init__.py
+tests/funcs.py
+tests/test.py
