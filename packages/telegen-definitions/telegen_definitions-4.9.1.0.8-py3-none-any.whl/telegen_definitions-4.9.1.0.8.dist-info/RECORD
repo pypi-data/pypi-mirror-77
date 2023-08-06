@@ -1,0 +1,10 @@
+telegen_definitions/__init__.py,sha256=DIdW_BpmP9zPXt167pBxhiNcIhcT_RY4jn7cVgpGC9k,50
+telegen_definitions/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telegen_definitions/endpoints.py,sha256=i4DbVnCVgdrQKZ1m1O1nxGWuxcbVtr4kpPEKpvFSM3c,2405
+telegen_definitions/generated.py,sha256=2jTV5e6KxMKFY_IpdSbdqS9Uzex9_0UPCLYAk4ZH3Fs,57761
+telegen_definitions/multipart_encoder.py,sha256=xTZ-Kp5r3MiljpMdE2hWTdrG1STwdwIo2Db0Gbe58-0,1259
+telegen_definitions/types.py,sha256=M2f_PkW73NCXdJStp_KVtp26EtHj9d40Njc9q1O6ntI,5028
+telegen_definitions-4.9.1.0.8.dist-info/METADATA,sha256=boqw5OLsHBpm_VUAkXP7_g0vFlYp6qlQ7n-kxHGCUqY,1091
+telegen_definitions-4.9.1.0.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+telegen_definitions-4.9.1.0.8.dist-info/top_level.txt,sha256=OQYcYrNqxFTWpMx8PdtPuINRw7ysgISww5MgCZwV9QE,20
+telegen_definitions-4.9.1.0.8.dist-info/RECORD,,
