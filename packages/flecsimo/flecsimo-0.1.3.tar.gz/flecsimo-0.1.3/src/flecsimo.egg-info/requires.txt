@@ -1,0 +1,4 @@
+paho-mqtt>=1.5.0
+transitions>=0.8.1
+memory-profiler>=0.57.0
+pyreadline>=2.1
