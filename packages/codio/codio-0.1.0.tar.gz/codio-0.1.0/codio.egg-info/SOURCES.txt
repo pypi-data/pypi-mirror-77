@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+codio/__init__.py
+codio/__version__.py
+codio/cli.py
+codio.egg-info/PKG-INFO
+codio.egg-info/SOURCES.txt
+codio.egg-info/dependency_links.txt
+codio.egg-info/entry_points.txt
+codio.egg-info/requires.txt
+codio.egg-info/top_level.txt
