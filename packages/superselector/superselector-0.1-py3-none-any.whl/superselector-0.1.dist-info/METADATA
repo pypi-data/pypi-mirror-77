@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: superselector
+Version: 0.1
+Summary: A module to help you easily make arrow key selection menus in Python.
+Home-page: http://bgamestudios.tk
+Author: Boyne G
+Author-email: bgamestudios@mail.com
+License: MIT
+Download-URL: https://pypi.org/project/superselector/
+Keywords: Menus,Selector,Arrows
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: keyboard
+Requires-Dist: colorama
+
+SUPERSELECTOR
+
+superselector is a module to easily make arrow key selection menus in Python
+
+
+
