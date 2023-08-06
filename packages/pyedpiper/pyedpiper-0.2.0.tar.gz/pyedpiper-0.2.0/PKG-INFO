@@ -1,0 +1,26 @@
+Metadata-Version: 1.2
+Name: pyedpiper
+Version: 0.2.0
+Summary: Small set of handy tools to compliment your ML pipeline and minimize a boilerplate.
+Home-page: https://github.com/stllfe/pyedpiper
+Author: Oleg Pavlovich
+Author-email: pavlovi4.o@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/stllfe/pyedpiper
+Description: UNKNOWN
+Keywords: deep learning,pytorch,pytorch lightning,AI
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
