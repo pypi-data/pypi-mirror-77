@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+getboxplots/__init__.py
+getboxplots.egg-info/PKG-INFO
+getboxplots.egg-info/SOURCES.txt
+getboxplots.egg-info/dependency_links.txt
+getboxplots.egg-info/requires.txt
+getboxplots.egg-info/top_level.txt
