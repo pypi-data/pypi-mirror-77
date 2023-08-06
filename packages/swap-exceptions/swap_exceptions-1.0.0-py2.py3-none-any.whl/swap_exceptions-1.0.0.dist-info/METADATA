@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: swap-exceptions
+Version: 1.0.0
+Summary: Python utility decorator and context manager for swapping exceptions
+Home-page: https://github.com/tomgrin10/swap-exceptions
+License: MIT
+Keywords: swap,exceptions,switch,replace,utility
+Author: Tom
+Author-email: tomgrin10@gmail.com
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: contextlib2 (>=0.6.0,<0.7.0); python_version >= "2.7" and python_version < "3.0"
+Requires-Dist: six (>=1.15.0,<2.0.0)
+Requires-Dist: typing (>=3.7.4,<4.0.0); python_version >= "2.7" and python_version < "3.0"
+Project-URL: Repository, https://github.com/tomgrin10/swap-exceptions
+Description-Content-Type: text/markdown
+
+# zoombot
+
+[![PyPI](https://img.shields.io/pypi/v/zoombot)](https://pypi.org/project/zoombot/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/zoombot)](https://pypi.org/project/zoombot/)
+[![PyPI License](https://img.shields.io/pypi/l/zoombot)](https://pypi.org/project/zoombot/)
+[![Code Style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black/)
+
+Python wrapper for Zoom Chatbot API
+
+### Usage
+```python
+from zoombot.core import Bot, Message
+
+
+class MyBot(Bot):
+    async def on_message(self, message: Message):
+        await message.reply("Hello", f"You sent {message.content}")
+
+
+if __name__ == "__main__":
+    bot = MyBot(
+        client_id="CLIENT_ID",
+        client_secret="CLIENT_SECRET",
+        bot_jid="BOT_JID",
+        verification_token="VERIFICATION_TOKEN",
+    )
+
+    bot.run()
+```
+
