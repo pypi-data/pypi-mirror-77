@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: alcokit
+Version: 0.0.7
+Summary: package to do MIR and learn generative models on top of librosa and pytorch
+Home-page: https://github.com/antoinedaurat/alcokit
+Author: Antoine Daurat
+Author-email: antoinedaurat@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (==1.15)
+Requires-Dist: pandas (==1.0.1)
+Requires-Dist: scikit-learn (==0.22.1)
+Requires-Dist: scipy (==1.4.1)
+Requires-Dist: librosa (==0.7.2)
+Requires-Dist: h5py (==2.10.0)
+Requires-Dist: pyrubberband (==0.3.0)
+Requires-Dist: pytorch-lightning (==0.8.5)
+
+UNKNOWN
+
+
