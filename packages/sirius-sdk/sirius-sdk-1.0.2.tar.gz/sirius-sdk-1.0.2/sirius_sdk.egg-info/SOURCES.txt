@@ -1,0 +1,9 @@
+README.md
+setup.py
+sirius_sdk/__init__.py
+sirius_sdk/base.py
+sirius_sdk.egg-info/PKG-INFO
+sirius_sdk.egg-info/SOURCES.txt
+sirius_sdk.egg-info/dependency_links.txt
+sirius_sdk.egg-info/requires.txt
+sirius_sdk.egg-info/top_level.txt
