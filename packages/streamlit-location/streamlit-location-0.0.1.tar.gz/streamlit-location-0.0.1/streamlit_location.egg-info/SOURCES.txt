@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+streamlit_location/__init__.py
+streamlit_location.egg-info/PKG-INFO
+streamlit_location.egg-info/SOURCES.txt
+streamlit_location.egg-info/dependency_links.txt
+streamlit_location.egg-info/requires.txt
+streamlit_location.egg-info/top_level.txt
