@@ -1,0 +1,7 @@
+torch
+catalyst<=20.07
+pandas
+numpy
+tqdm
+scikit_learn
+treelib
