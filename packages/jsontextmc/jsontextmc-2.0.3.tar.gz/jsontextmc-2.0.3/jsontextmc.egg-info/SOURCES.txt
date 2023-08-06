@@ -1,0 +1,10 @@
+README.md
+setup.py
+jsontextmc/__init__.py
+jsontextmc/__main__.py
+jsontextmc/constants.py
+jsontextmc/util.py
+jsontextmc.egg-info/PKG-INFO
+jsontextmc.egg-info/SOURCES.txt
+jsontextmc.egg-info/dependency_links.txt
+jsontextmc.egg-info/top_level.txt
