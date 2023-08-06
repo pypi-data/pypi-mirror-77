@@ -1,0 +1,4 @@
+[console_scripts]
+op = overprivileged.cli:main
+overprivileged = overprivileged.cli:main
+

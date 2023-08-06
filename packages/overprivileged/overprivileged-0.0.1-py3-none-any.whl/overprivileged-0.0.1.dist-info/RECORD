@@ -1,0 +1,16 @@
+overprivileged/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+overprivileged/cli.py,sha256=6b40H8AGjEaSrn2blYFvxPu6YJSWoN4FI10sdPTgWYw,2367
+overprivileged/clients.py,sha256=WNVXOJKynziwaGHpmUpdABKuK5BcSQuubOHvTsVd22E,926
+overprivileged/cloudwatch.py,sha256=zxkIJUPo2tjqgTWKsnWwLdcGHdtvTkhfUSH5H0J0pPY,2846
+overprivileged/iam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+overprivileged/iam/action.py,sha256=-lkFaedzflNHuSA498QVSQl3kIV28388E0LoExjqJmM,1400
+overprivileged/iam/policy.py,sha256=M-55Yv2YNMuvXzJHb3MIHzw-mA307eCoTMNxomrhpvM,2718
+overprivileged/iam/role.py,sha256=yIskh3bIY3bEYA_ZROu3AVV187X0Gdvp-kuSGb7rQA8,1686
+overprivileged/static/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+overprivileged/static/iam_actions.py,sha256=e_GXPivcsXcOkJz8jUlGEWBIasq7rNRyekQ09vgZz98,232535
+overprivileged-0.0.1.dist-info/LICENSE,sha256=I5bCfX2K9wjXp_jqFtiVM0qXoy35kisNdWdz22cDBz4,1067
+overprivileged-0.0.1.dist-info/METADATA,sha256=r7qp-TCjhVtSrYIEOCyvljqtuJRHX7FLYgaVGpNIXxI,2485
+overprivileged-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+overprivileged-0.0.1.dist-info/entry_points.txt,sha256=cfv1l4_iHzAaiiR8E0suevqRJ5NVb_rBFwtufz-4zBM,89
+overprivileged-0.0.1.dist-info/top_level.txt,sha256=eJGRYWXjnueDgqBqS_ZbKyuiZsEtfAO3Z3yKSrHGHT8,15
+overprivileged-0.0.1.dist-info/RECORD,,
