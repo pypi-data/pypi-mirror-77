@@ -1,0 +1,3 @@
+[console_scripts]
+pytagimg = pytagimg.endpoints.main:main
+
