@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: lrucli
+Version: 2020.8.22
+Summary: command line interface for pythons lru_cache for more command line fu
+Home-page: https://github.com/CodyKochmann/lrucli
+Author: Cody Kochmann
+Author-email: kochmanncody@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/CodyKochmann/lrucli/tarball/2020.8.22
+Description: UNKNOWN
+Keywords: lrucli,cli,lru,dedup,uniq,stdin,shell,bash
+Platform: UNKNOWN
+Requires-Python: >=3.2
