@@ -1,0 +1,8 @@
+simple_pypi_template/__init__.py,sha256=BhiQp5XaRjJr0FCtkiwflU_chix1Nb5XMkIo0iO0nDU,55
+simple_pypi_template/simple_pypi_template.py,sha256=OHhiKrXb9oWNlr3IiPXvrGb_y_Y-BTLJiLVB6H3Ajoo,946
+simple_pypi_template/submodule.py,sha256=e5f6YaKmk7EndDRvmwf1agWrwkFWell4WnmzOsmjC-Q,1151
+simple_pypi_template-1.0.0.dist-info/LICENSE,sha256=zWXZZjKigSx3L-P6mGgfveum1RUgU0x8_aSpIm0iXPs,1095
+simple_pypi_template-1.0.0.dist-info/METADATA,sha256=gLQXsoXIQLgVP2eD3ohFMM9bRChlWIOfib8x2zb4CBc,2352
+simple_pypi_template-1.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+simple_pypi_template-1.0.0.dist-info/top_level.txt,sha256=EZ7jyVSowdZMO8AhndR2MqrSk3OVG-lyy-buZxuwVAI,21
+simple_pypi_template-1.0.0.dist-info/RECORD,,
