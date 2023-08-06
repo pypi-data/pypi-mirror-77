@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: dragg
+Version: 0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: appdirs (==1.4.3)
+Requires-Dist: Brotli (==1.0.7)
+Requires-Dist: cfgv (==3.1.0)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: cvxopt (==1.2.5)
+Requires-Dist: cvxpy (==1.0.31)
+Requires-Dist: dash (==1.11.0)
+Requires-Dist: dash-core-components (==1.9.1)
+Requires-Dist: dash-html-components (==1.0.3)
+Requires-Dist: dash-renderer (==1.4.0)
+Requires-Dist: dash-table (==4.6.2)
+Requires-Dist: dccp (==1.0.2)
+Requires-Dist: dill (==0.3.1.1)
+Requires-Dist: distlib (==0.3.0)
+Requires-Dist: ecos (==2.0.7.post1)
+Requires-Dist: filelock (==3.0.12)
+Requires-Dist: Flask (==1.1.2)
+Requires-Dist: Flask-Compress (==1.5.0)
+Requires-Dist: future (==0.18.2)
+Requires-Dist: identify (==1.4.14)
+Requires-Dist: importlib-metadata (==1.6.0)
+Requires-Dist: importlib-resources (==1.4.0)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: Jinja2 (==2.11.2)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: mongo (==0.2.0)
+Requires-Dist: multiprocess (==0.70.9)
+Requires-Dist: names (==0.3.0)
+Requires-Dist: numpy (==1.18.3)
+Requires-Dist: osqp (==0.6.1)
+Requires-Dist: pandas (==1.0.3)
+Requires-Dist: plotly (==4.6.0)
+Requires-Dist: pre-commit (==2.2.0)
+Requires-Dist: pymongo (==3.10.1)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytz (==2020.1)
+Requires-Dist: PyYAML (==5.3.1)
+Requires-Dist: redis (==3.4.1)
+Requires-Dist: retrying (==1.3.3)
+Requires-Dist: scipy (==1.4.1)
+Requires-Dist: scs (==2.1.2)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: toml (==0.10.0)
+Requires-Dist: virtualenv (==20.0.18)
+Requires-Dist: Werkzeug (==1.0.1)
+Requires-Dist: xlrd (==1.2.0)
+Requires-Dist: zipp (==3.1.0)
+Requires-Dist: pathos (==0.2.6)
+
+UNKNOWN
+
+
