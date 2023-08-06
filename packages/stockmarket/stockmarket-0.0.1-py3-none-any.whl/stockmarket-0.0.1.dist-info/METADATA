@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: stockmarket
+Version: 0.0.1
+Summary: Get live stockmarket and crypto market datafeeds as Python objects in just a few lines of code!
+Home-page: https://github.com/ttamg/stockmarket
+License: UNKNOWN
+Keywords: stockmarket, crypto, websockets, API, trading
+Author: Matt Gosden
+Author-email: mdgosden@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Requires-Dist: cryptoxlib-aio==3.2.1
+Project-URL: Documentation, https://github.com/ttamg/stockmarket
+
+# stockmarket
+Get live stockmarket and crypto market datafeeds as Python objects in just a few lines of code
+
