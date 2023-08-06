@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    tap-businesscentral=tap_businesscentral:main
+    

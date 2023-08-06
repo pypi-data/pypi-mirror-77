@@ -1,0 +1,1 @@
+https://github.com/dreamdata-io/python-odata/archive/master.zip
