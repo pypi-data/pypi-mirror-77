@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: feature-grouper
+Version: 0.1.1
+Summary: Simple dimensionality reduction through hierarchical clustering of correlated features.
+Home-page: https://feature-grouper.readthedocs.io/en/latest/
+Author: Alex Kyllo
+Author-email: alex.kyllo@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.19.1,<2.0.0)
+Requires-Dist: scikit-learn (>=0.23.2,<0.24.0)
+Requires-Dist: scipy (>=1.5.2,<2.0.0)
+Project-URL: Repository, https://github.com/alexkyllo/feature-grouper
