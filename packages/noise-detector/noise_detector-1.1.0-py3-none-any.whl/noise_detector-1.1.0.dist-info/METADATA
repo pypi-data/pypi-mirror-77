@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: noise-detector
+Version: 1.1.0
+Summary: A simple tool to detect changes in environment noise
+Home-page: https://github.com/matthewscholefield/noise-detector
+Author: Matthew Scholefield
+Author-email: matthew331199@gmail.com
+License: UNKNOWN
+Keywords: noise detection audio
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: pylisten
+Requires-Dist: sonopy
+Requires-Dist: numpy
+Requires-Dist: prettyparse (>=1.0.0)
+Requires-Dist: logzero
+
+UNKNOWN
+
+
