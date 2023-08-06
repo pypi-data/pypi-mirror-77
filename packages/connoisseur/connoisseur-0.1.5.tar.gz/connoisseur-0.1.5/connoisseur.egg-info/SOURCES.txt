@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+connoisseur/__init__.py
+connoisseur/connoisseur.py
+connoisseur.egg-info/PKG-INFO
+connoisseur.egg-info/SOURCES.txt
+connoisseur.egg-info/dependency_links.txt
+connoisseur.egg-info/entry_points.txt
+connoisseur.egg-info/requires.txt
+connoisseur.egg-info/top_level.txt
+test/test_cli.py
