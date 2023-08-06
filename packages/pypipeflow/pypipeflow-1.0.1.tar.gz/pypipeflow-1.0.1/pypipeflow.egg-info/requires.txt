@@ -1,0 +1,7 @@
+aiohttp
+pynsq>=0.9.0
+redis
+aio-pika
+
+[uvloop]
+uvloop
