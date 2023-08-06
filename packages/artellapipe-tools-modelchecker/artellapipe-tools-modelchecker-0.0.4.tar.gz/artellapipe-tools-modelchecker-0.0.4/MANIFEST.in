@@ -1,0 +1,4 @@
+include artellapipe/tools/modelchecker/__logging__.ini
+recursive-include artellapipe/tools/modelchecker/resources/* *.*
+include versioneer.py
+include artellapipe/tools/modelchecker/_version.py
