@@ -1,0 +1,6 @@
+fastai>=2.0.0
+transformers>=3.0.2
+nlp
+ipykernel
+seqeval
+rouge-score
