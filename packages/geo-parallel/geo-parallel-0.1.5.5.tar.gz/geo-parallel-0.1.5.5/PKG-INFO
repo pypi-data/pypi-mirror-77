@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: geo-parallel
+Version: 0.1.5.5
+Summary: 
+Author: Artur
+Requires-Python: >=2.7,<3.0
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7

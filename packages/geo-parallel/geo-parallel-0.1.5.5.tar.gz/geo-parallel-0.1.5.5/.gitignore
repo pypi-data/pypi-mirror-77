@@ -1,0 +1,6 @@
+.pypirc
+dist
+geoparallel.egg-info
+/venv/
+/geo_parallel.egg-info/
+/build/
