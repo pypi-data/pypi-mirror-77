@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+Anomy/Binomialdistribution.py
+Anomy/Gaussiandistribution.py
+Anomy/Generaldistribution.py
+Anomy/__init__.py
+Anomy.egg-info/PKG-INFO
+Anomy.egg-info/SOURCES.txt
+Anomy.egg-info/dependency_links.txt
+Anomy.egg-info/not-zip-safe
+Anomy.egg-info/top_level.txt
