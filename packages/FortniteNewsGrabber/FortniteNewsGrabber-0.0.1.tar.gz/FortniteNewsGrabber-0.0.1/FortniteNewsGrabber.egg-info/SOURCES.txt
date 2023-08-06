@@ -1,0 +1,7 @@
+README.md
+setup.py
+FortniteNewsGrabber/__init__.py
+FortniteNewsGrabber.egg-info/PKG-INFO
+FortniteNewsGrabber.egg-info/SOURCES.txt
+FortniteNewsGrabber.egg-info/dependency_links.txt
+FortniteNewsGrabber.egg-info/top_level.txt
