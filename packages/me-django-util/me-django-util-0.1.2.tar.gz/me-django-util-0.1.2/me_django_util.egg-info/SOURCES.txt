@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+me_django_util.egg-info/PKG-INFO
+me_django_util.egg-info/SOURCES.txt
+me_django_util.egg-info/dependency_links.txt
+me_django_util.egg-info/top_level.txt
+util/__init__.py
+util/admin.py
+util/application.py
+util/apps.py
+util/models.py
+util/tests.py
+util/views.py
+util/migrations/__init__.py
