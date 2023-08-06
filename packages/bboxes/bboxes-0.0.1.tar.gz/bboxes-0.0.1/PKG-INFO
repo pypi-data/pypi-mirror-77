@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: bboxes
+Version: 0.0.1
+Summary: Some utils to work with bounding boxes
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: cezarcbl@pm.me
+License: MIT
+Description: # BBOXES
+        
+        Some utilities to work with bounding boxes.
+Platform: UNKNOWN

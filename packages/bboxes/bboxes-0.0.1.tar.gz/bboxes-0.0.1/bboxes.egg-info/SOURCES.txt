@@ -1,0 +1,9 @@
+README.md
+setup.py
+bboxes/__init__.py
+bboxes/bboxes.py
+bboxes.egg-info/PKG-INFO
+bboxes.egg-info/SOURCES.txt
+bboxes.egg-info/dependency_links.txt
+bboxes.egg-info/requires.txt
+bboxes.egg-info/top_level.txt
