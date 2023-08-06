@@ -1,0 +1,8 @@
+README.md
+setup.py
+cockli_gen.egg-info/PKG-INFO
+cockli_gen.egg-info/SOURCES.txt
+cockli_gen.egg-info/dependency_links.txt
+cockli_gen.egg-info/entry_points.txt
+cockli_gen.egg-info/requires.txt
+cockli_gen.egg-info/top_level.txt
