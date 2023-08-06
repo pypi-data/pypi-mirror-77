@@ -1,0 +1,6 @@
+setup.py
+bric_layer.egg-info/PKG-INFO
+bric_layer.egg-info/SOURCES.txt
+bric_layer.egg-info/dependency_links.txt
+bric_layer.egg-info/requires.txt
+bric_layer.egg-info/top_level.txt
