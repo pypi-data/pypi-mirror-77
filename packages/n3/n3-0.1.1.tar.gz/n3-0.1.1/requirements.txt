@@ -1,0 +1,18 @@
+# Parser
+lark-parser==0.9
+
+# Builder
+inflection==0.5
+
+# Exec
+appdirs==1.4
+click==7.1
+
+# PyTorch
+torch==1.6
+torchvision==0.7
+
+# Test
+coverage==5.2
+py==1.9
+pytest==6.0
