@@ -1,0 +1,12 @@
+materials_commons/api/__init__.py,sha256=6WrRWcUjqi7U2eeFTmlW-hr8aeBQOSQfmXQftGmpYHM,202
+materials_commons/api/client.py,sha256=WUb0Rb6Oj7Ysm_i-Z3cC5_GWceYQ0-liIOiVmppVpm0,38858
+materials_commons/api/models.py,sha256=o2I4Kab3ko1gm98SpwH7wU6huU2C3iPPp5aWSzyV_0M,7314
+materials_commons/api/query_params.py,sha256=Sca0FKu_5ohKFWtHkNX6PilRBNDGAtWLWKy4J2VA_XU,1680
+materials_commons/api/requests.py,sha256=qSBS7QxrfLN4MkA-28FVPlvvWNOjA_A3Yr-ppsqB7fE,3340
+materials_commons/api/util.py,sha256=V9Ky4ZU2FNAgBY0bTLyoSe15_SgA-BjZpv2YNu24N5E,254
+materials_commons/api/version.py,sha256=wasWSBZoMfjx6kUISIBzPZ9eMOCckN1jxmx6OotWIdo,113
+materials_commons_api-2.0b1.dist-info/LICENSE,sha256=o4nsNkC3HOsgzgw7vcUYDM5j8DiFmlllC45OQYDUlBM,1085
+materials_commons_api-2.0b1.dist-info/METADATA,sha256=23NwFMJFqRvwJ4C0xKbPZyeO519YxSpY8gJ3mZ3D2Oc,1148
+materials_commons_api-2.0b1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+materials_commons_api-2.0b1.dist-info/top_level.txt,sha256=-7hjhx61s4kebg-GGOv1cWWUrj68nye1-oAbjFO53aw,18
+materials_commons_api-2.0b1.dist-info/RECORD,,
