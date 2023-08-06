@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+mopen/__init__.py
+mopen/mopen.py
+mopen.egg-info/PKG-INFO
+mopen.egg-info/SOURCES.txt
+mopen.egg-info/dependency_links.txt
+mopen.egg-info/entry_points.txt
+mopen.egg-info/top_level.txt
