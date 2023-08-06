@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: bb-pytest
+Version: 0.3
+Summary: Buildbot step for py.test.
+Home-page: https://github.com/russell/bb-pytest
+Author: Russell Sim
+Author-email: russell.sim@gmail.com
+License: GPL
+Description: bb_pytest
+        =========
+        
+        bb_pytest is a library that adds a `Buildbot`_ buildstep that can
+        parse py.test output and generate correct status text at completion of
+        tests.
+        
+        Arguments
+        ---------
+        
+        This test step used ShellMixin. So besides the
+        arguments listed below the following steps will also be accpeted and
+        will behave as per the ShellCommand step: workdir, haltOnFailure,
+        flunkOnWarnings, flunkOnFailure, warnOnWarnings, warnOnFailure,
+        want_stdout, want_stderr, timeout
+        
+        
+        testpath
+          The PYTHONPATH to use when running the tests.
+        
+        python
+          The python executable to use.
+        
+        pytest
+          The pytest executable to use.
+        
+        pytestMode
+          The mode that should used to track the progress of the step. Valid
+          options are "pytest" or "xdist".
+        
+        pytestArgs
+          The pytest arguments to be passed on command line
+        
+        verbose
+          The pytest '-v' argument, also used to properly process output from pytest. ('-v' shall not be used in pytestArgs)
+        
+        
+        Example
+        -------
+        
+        .. code:: python
+        
+          from bb_pytest import step
+          from buildbot.process import factory 
+        
+          f = factory.BuildFactory()
+        
+          f.Factory.addStep(
+              Pytest(
+                  pytest="pytest",
+                  pytestArgs=['-u', '-i'],
+                  testpath=None,
+                  tests=[""],
+                  flunkOnFailure=True))
+        
+        
+        .. _buildbot: http://trac.buildbot.net/
+        
+        Changelog
+        =========
+        
+        Release 0.3 24/08/2020
+        ----------------------
+        
+        * updated to buildbot 0.9.X.
+        
+        Release 0.2 10/04/2013
+        ----------------------
+        
+        * Fixed testcounting.
+        * Updated the error states to match the trial step.
+        * Added support for counting errors.
+        
+        Release 0.1 23/03/2013
+        ----------------------
+        
+        * Initial release.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
