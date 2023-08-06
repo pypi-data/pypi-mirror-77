@@ -1,0 +1,8 @@
+Click
+Jinja2<2.11
+pytoml
+pyyaml
+xmltodict
+
+[:python_version < "3.5"]
+configparser
