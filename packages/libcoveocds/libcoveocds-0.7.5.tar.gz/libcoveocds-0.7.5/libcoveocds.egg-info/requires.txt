@@ -1,0 +1,13 @@
+libcove
+bleach
+cached-property
+CommonMark
+Django
+json-merge-patch
+requests
+
+[test]
+coveralls
+pytest
+pytest-cov
+isort
