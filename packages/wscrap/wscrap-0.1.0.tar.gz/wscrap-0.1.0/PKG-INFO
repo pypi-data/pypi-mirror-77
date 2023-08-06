@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: wscrap
+Version: 0.1.0
+Summary: Command line web scrapping tool
+Home-page: https://github.com/tz4678/wscrap
+Author: Sergey M
+Author-email: tz4678@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: aiodns (>=2.0.0,<3.0.0)
+Requires-Dist: aiohttp (>=3.6.2,<4.0.0)
+Requires-Dist: beautifulsoup4 (>=4.9.1,<5.0.0)
+Requires-Dist: lxml (>=4.5.2,<5.0.0)
+Description-Content-Type: text/markdown
+
+# WScrap
+
+Command line web scrapping tool.
+
+Usage:
+
+```zsh
+$ pip install wscrap
+# The output format is JSONL. Use jq to parse it.
+$ wscrap -i domain_list.txt -o resutls.json -vv 2> log.txt
+
+# or without install
+$ pipx run wscrap -h
+```
+
