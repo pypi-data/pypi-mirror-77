@@ -1,0 +1,8 @@
+simple_slack_bot/__init__.py,sha256=p4B5MEZrZAfu8VkhJL28XciYucaD0tIPzq5O8XQIbUw,252
+simple_slack_bot/simple_slack_bot.py,sha256=ruJwu2AgU4nVx_8Yj05EHUV0gTlVgZo9KD9gNMVTpKQ,13987
+simple_slack_bot/slack_request.py,sha256=FQ6pzpgO5tyVStQJ5dfaxCjo4nxxE9fgupgnHZu5674,4876
+simple_slack_bot-2.3.1.dist-info/LICENSE.txt,sha256=OvHXVcKKzutAeZMrryDmUS-fnV0Zu52c2Z4YwvUwwgY,1072
+simple_slack_bot-2.3.1.dist-info/METADATA,sha256=PtYoOgMi5D4cYNg1QDLPTfX8EEX4x-g4HVgzrPA9dvo,10869
+simple_slack_bot-2.3.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+simple_slack_bot-2.3.1.dist-info/top_level.txt,sha256=-Galund8oNBDe34t5wRSy53FBl_PkKhYRChilndgao4,17
+simple_slack_bot-2.3.1.dist-info/RECORD,,
