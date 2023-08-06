@@ -1,0 +1,11 @@
+MutationChecker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MutationChecker/dip.py,sha256=uy_Wq-5PrLY_9ytfhc23Lkvm-DZSPr2PxwFsILhZtz4,787
+MutationChecker/embl.py,sha256=MtBCHK1Z4tkIh6ZHLVa2Xyv8odH6s2bZPX1-1dxRooQ,2681
+MutationChecker/mapper.py,sha256=Gvk4o3rIyrPk5zeH_j6JSg8N3uWNHz2ApnBfUR8acjA,2172
+MutationChecker/prosite.py,sha256=i1q-0lm8dxqcDhYRe82XcOImx-LMzFG3neEi8i11kZ4,2382
+MutationChecker/structure.py,sha256=OKqgoap-x3eg1f6c9qJT8nrKo3o9moolQb3MupNxn50,4545
+MutationChecker-0.1.7.dist-info/LICENCE,sha256=QguxCUHbHVz5w02blEmyPILIY_HiZ7aZ98XI1UD2fqs,1078
+MutationChecker-0.1.7.dist-info/METADATA,sha256=mFLaYLWjWDpG7ToeRIaLRBoRUjqI5l88Gwrd3bCTWxY,6942
+MutationChecker-0.1.7.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+MutationChecker-0.1.7.dist-info/top_level.txt,sha256=EuGoWrA4gi2Pwa7vIvlhPbPTsf6-1xWrfG0DuXwfs_g,16
+MutationChecker-0.1.7.dist-info/RECORD,,
