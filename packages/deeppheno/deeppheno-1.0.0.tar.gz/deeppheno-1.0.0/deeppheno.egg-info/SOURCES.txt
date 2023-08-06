@@ -1,0 +1,13 @@
+README.md
+setup.py
+deeppheno/__init__.py
+deeppheno/aminoacids.py
+deeppheno/main.py
+deeppheno/utils.py
+deeppheno.egg-info/PKG-INFO
+deeppheno.egg-info/SOURCES.txt
+deeppheno.egg-info/dependency_links.txt
+deeppheno.egg-info/entry_points.txt
+deeppheno.egg-info/requires.txt
+deeppheno.egg-info/top_level.txt
+deeppheno.egg-info/zip-safe

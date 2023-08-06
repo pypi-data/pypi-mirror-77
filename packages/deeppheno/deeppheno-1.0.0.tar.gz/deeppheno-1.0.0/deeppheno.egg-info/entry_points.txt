@@ -1,0 +1,3 @@
+[console_scripts]
+deeppheno = deeppheno.main:main
+
