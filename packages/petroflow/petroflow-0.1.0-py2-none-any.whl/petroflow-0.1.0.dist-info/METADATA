@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: petroflow
+Version: 0.1.0
+Summary: A framework for well data processing
+Home-page: https://github.com/gazprom-neft/petroflow
+Author: Gazprom Neft DS team
+Author-email: rhudor@gmail.com
+License: Apache License 2.0
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: blosc (==1.8.1)
+Requires-Dist: dill (>=0.3.1)
+Requires-Dist: feather-format (>=0.4.0)
+Requires-Dist: lasio (>=0.23)
+Requires-Dist: matplotlib (>=3.1.3)
+Requires-Dist: multiprocess (>=0.70.9)
+Requires-Dist: numba (>=0.49.0)
+Requires-Dist: numpy (>=1.18.1)
+Requires-Dist: opencv-python (>=4.1.1)
+Requires-Dist: pandas (>=1.0.3)
+Requires-Dist: pillow (>=7.0.0)
+Requires-Dist: pint (>=0.11)
+Requires-Dist: plotly (>=4.6.0)
+Requires-Dist: scikit-image (>=0.16.2)
+Requires-Dist: scikit-learn (>=0.22.1)
+Requires-Dist: scipy (>=1.4.1)
+Requires-Dist: seaborn (>=0.10.0)
+Requires-Dist: tqdm (>=4.45.0)
+Provides-Extra: tensorflow
+Requires-Dist: tensorflow (>=1.15.0) ; extra == 'tensorflow'
+Provides-Extra: tensorflow-gpu
+Requires-Dist: tensorflow-gpu (>=1.15.0) ; extra == 'tensorflow-gpu'
+Provides-Extra: torch
+Requires-Dist: torch (>=1.5.0) ; extra == 'torch'
+
+UNKNOWN
+
+
