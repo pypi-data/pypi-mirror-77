@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+mshextras/__init__.py
+mshextras/module.py
+mshextras.egg-info/PKG-INFO
+mshextras.egg-info/SOURCES.txt
+mshextras.egg-info/dependency_links.txt
+mshextras.egg-info/requires.txt
+mshextras.egg-info/top_level.txt
