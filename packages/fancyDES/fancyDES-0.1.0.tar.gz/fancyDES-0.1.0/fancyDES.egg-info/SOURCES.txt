@@ -1,0 +1,10 @@
+README.md
+setup.py
+fancyDES/__init__.py
+fancyDES/fancyDES.py
+fancyDES/sbox.py
+fancyDES.egg-info/PKG-INFO
+fancyDES.egg-info/SOURCES.txt
+fancyDES.egg-info/dependency_links.txt
+fancyDES.egg-info/requires.txt
+fancyDES.egg-info/top_level.txt

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: fancyDES
+Version: 0.1.0
+Summary: DES Custom with Fancy Algorithm
+Home-page: https://github.com/berv-uni-project/fancy-DES-algorithm
+Author: Bervianto Leo Pratama
+Author-email: bervianto.leo@gmail.com
+License: UNKNOWN
+Description: # fancy-DES-algorithm (BeRez Algorithm)
+        
+        [![Build Status](https://travis-ci.org/berv-uni-project/fancy-DES-algorithm.svg?branch=master)](https://travis-ci.org/berv-uni-project/fancy-DES-algorithm)
+        [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8720d423a7f34034aac1b1b571e51157)](https://app.codacy.com/app/berviantoleo/fancy-DES-algorithm?utm_source=github.com&utm_medium=referral&utm_content=berv-uni-project/fancy-DES-algorithm&utm_campaign=Badge_Grade_Settings)
+        
+        Block Cipher with Feistel Network Looks Like DES. Using fancy transposition and f function.
+        
+        ## LICENSE
+        
+        MIT
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
