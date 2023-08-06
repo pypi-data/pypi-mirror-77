@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: hellonlp
+Version: 0.2.5
+Summary: NLP tools
+Home-page: https://github.com/hellonlp/hellonlp
+Author: Chen Ming
+Author-email: chenming9109@163.com
+License: MIT
+Description: 
+        HelloNLP
+        
+        
+        
+        
+        
+        
+        
+Keywords: NLP,Chinese word segementation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
