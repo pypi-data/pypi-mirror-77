@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: qibo
+Version: 0.0.1b3
+Summary: Quantum computing framework
+Home-page: https://github.com/Quantum-TII/qibo
+Author: Quantum-TII team
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6.0
+Requires-Dist: numpy
+Requires-Dist: tensorflow (==2.3)
+Requires-Dist: scipy
+Requires-Dist: cma
+Requires-Dist: joblib
+Requires-Dist: matplotlib
+Requires-Dist: blessings
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: recommonmark ; extra == 'docs'
+Requires-Dist: sphinxcontrib-bibtex ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: cirq ; extra == 'tests'
+
+See readthedocs webpage with the documentation
+
+
