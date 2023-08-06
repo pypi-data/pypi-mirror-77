@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: getwallpapers-downloader
+Version: 0.0.1
+Summary: Download wallpapers from getwallpapers.com
+Home-page: https://github.com/falcon-head/getwallpapers-downloader
+Author: Aptha K S
+Author-email: iamuraptha@gmail.com
+License: MIT
+Description: # getwallpapers-downloader
+        Download wallpapers from getwallpapers.com
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
