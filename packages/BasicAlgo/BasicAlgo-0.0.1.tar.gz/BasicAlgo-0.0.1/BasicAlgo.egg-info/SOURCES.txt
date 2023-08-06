@@ -1,0 +1,18 @@
+README.md
+setup.py
+BasicAlgo.egg-info/PKG-INFO
+BasicAlgo.egg-info/SOURCES.txt
+BasicAlgo.egg-info/dependency_links.txt
+BasicAlgo.egg-info/top_level.txt
+basic_algo/__init__.py
+basic_algo/Dynamic Programming/CoinChange.py
+basic_algo/Dynamic Programming/EggDropping.py
+basic_algo/Dynamic Programming/KadanesAlgorithm.py
+basic_algo/Dynamic Programming/LongestCommonSequence.py
+basic_algo/Dynamic Programming/LongestCommonSubsequence.py
+basic_algo/Dynamic Programming/LongestIncreasingSubsequence.py
+basic_algo/Dynamic Programming/PalindromePartitioning.py
+basic_algo/Dynamic Programming/SubsetSum.py
+basic_algo/Dynamic Programming/WordBreak.py
+basic_algo/Dynamic Programming/ZeroOneKnapsack.py
+basic_algo/Dynamic Programming/__init__.py
