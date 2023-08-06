@@ -1,0 +1,11 @@
+sgs_pycycle/__init__.py,sha256=1xeR5TG_pXD-KZqDkAyJI5QzVC91Tl_nSd6FvyBSoCI,2096
+sgs_pycycle/__main__.py,sha256=KMx-yb76Y6tq_VcHlL2VFQRfVO5vO8pnBMfZ699mzjc,4130
+sgs_pycycle/client.py,sha256=GtPB8UgjYBDWsFt3DGr_eStVtlcqTQg19-VW5InMLtk,7957
+sgs_pycycle/models.py,sha256=xKegvtJ84fEThJNXBTX4ohna6Iq7FZ-tn5dwoJBCtk4,5164
+sgs_pycycle-1.0.0.dist-info/COPYING,sha256=ndEWQvNgZECG-PZniR_m0u8R1onXPe5wulbbmg5UFH4,1297
+sgs_pycycle-1.0.0.dist-info/LICENSE,sha256=ndEWQvNgZECG-PZniR_m0u8R1onXPe5wulbbmg5UFH4,1297
+sgs_pycycle-1.0.0.dist-info/METADATA,sha256=o4CixwSWVFf9HD61fAmoMuWs4-uashb7_CW_QRR6npE,6637
+sgs_pycycle-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sgs_pycycle-1.0.0.dist-info/entry_points.txt,sha256=ftEOV2OZ7-CDptV3OLFx-0oQWF6aqpGBA_-0xYplXhA,59
+sgs_pycycle-1.0.0.dist-info/top_level.txt,sha256=TCJGMywZjHFBnhY7N6CK962vnouqjUL1bKpPFTsE8Vs,12
+sgs_pycycle-1.0.0.dist-info/RECORD,,
