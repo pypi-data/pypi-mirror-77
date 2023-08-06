@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: django-iprestrict-redux
+Version: 1.8.1
+Summary: Django app + middleware to restrict access to all or sections of a Django project by client IP ranges
+Home-page: https://github.com/sztamas/django-iprestrict-redux
+Author: Tamas Szabo, CCG - Murdoch University
+Author-email: me@tamas-szabo.com
+License: UNKNOWN
+Download-URL: https://github.com/sztamas/django-iprestrict-redux/releases
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Requires-Dist: Django (>=2.2)
+Provides-Extra: dev
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: pep8 ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: Sphinx ; extra == 'dev'
+Requires-Dist: django-extensions ; extra == 'dev'
+Requires-Dist: Werkzeug ; extra == 'dev'
+Provides-Extra: geoip
+Requires-Dist: pycountry (==20.7.3) ; extra == 'geoip'
+Requires-Dist: geoip2 (==4.0.2) ; extra == 'geoip'
+
+Django app + middleware to restrict access to all or sections of a Django project by client IP ranges
+
+
