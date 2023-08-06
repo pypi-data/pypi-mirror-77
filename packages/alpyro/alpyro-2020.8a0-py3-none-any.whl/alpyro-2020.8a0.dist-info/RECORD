@@ -1,0 +1,9 @@
+alpyro/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alpyro/node.py,sha256=VNRV1jFi82-c1ex7OSKmt7DDKvF7IexV21dpEdTYerE,5232
+alpyro/tcp.py,sha256=t1UciasMp1QimIzTWn_Jpf8LEn9HxFHfzJ2q5yGmpmg,7712
+alpyro/xmlrpc.py,sha256=OSK4bv1Qdh4_ow7d45h9_2x9cOsLL8rTWhvSoGHj8-s,2876
+alpyro-2020.8a0.dist-info/LICENSE,sha256=2lvbq9gFLKDfbU3ca0iAqEurJs-fJqG2xc-GCr3QCrY,1078
+alpyro-2020.8a0.dist-info/METADATA,sha256=IdKNGJ_AoYAAc-R3-ad4R7Z4RcnheLZxzhW2edPzUSo,1279
+alpyro-2020.8a0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+alpyro-2020.8a0.dist-info/top_level.txt,sha256=4fpWDnmrSkap2Xj2zCshQNAgzkZymiapE6ie9zGO8xY,7
+alpyro-2020.8a0.dist-info/RECORD,,
