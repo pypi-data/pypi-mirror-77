@@ -1,0 +1,10 @@
+raptorarima/__init__.py,sha256=KtAyGFrOWpkg_CWahs_i1ze-RopiIP5LDs20MjNA2Ek,4487
+raptorarima/autoregressive.py,sha256=CUPF02yJa3IHEs2Eh6UlqfmOfBw06V5o58I5qKCH7pM,461
+raptorarima/differencing.py,sha256=e0U0otxELPpCXBd8jAieYl5j7qbmW_cPnh-t3rRsWdI,342
+raptorarima/movingaverage.py,sha256=DfOslcfnlvwxmmRbzH1eBvnyHv0ilg8GpvL-LpfLbsY,1214
+raptorarima/plots.py,sha256=J2O0elouVlffi8Yxs5linJxrPFuCaiwok_YZmdhwAGk,2823
+raptorarima-0.0.3.dist-info/LICENSE,sha256=oJZyEdrP2b_5XXQoBKAqHPwj1Oc7UipDpkpemplIyik,1068
+raptorarima-0.0.3.dist-info/METADATA,sha256=JVNBGQynCi49C1CtwhIC8sVAfcTtnrX5y1fH9Ww3pS0,2217
+raptorarima-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+raptorarima-0.0.3.dist-info/top_level.txt,sha256=Ts3qSAjd7k_NkUFpPwWABTZHfZvHK7VPW3Im26tVKSo,12
+raptorarima-0.0.3.dist-info/RECORD,,
