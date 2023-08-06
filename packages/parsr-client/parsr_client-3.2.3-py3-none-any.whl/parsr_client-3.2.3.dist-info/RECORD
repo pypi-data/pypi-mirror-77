@@ -1,0 +1,6 @@
+parsr_client/__init__.py,sha256=R0C66mge5ThKfgZS6_2qwrCKYe18if2SGA2qhrmLLVI,98
+parsr_client/parsr_client.py,sha256=-nHwuMYbO6DsJTk0w9ZWqL8PjB1D8UjwBBZZyOTqB4k,16371
+parsr_client/parsr_output_interpreter.py,sha256=HvRVZt2HtecTgDLTDXvM24HtTZrgbEqwssivofvlVqw,3787
+parsr_client-3.2.3.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+parsr_client-3.2.3.dist-info/METADATA,sha256=Fq-2OtvEzCi2jVButND8NXYkvLuC7mX8xaL0bah2z-Q,2543
+parsr_client-3.2.3.dist-info/RECORD,,
