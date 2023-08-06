@@ -1,0 +1,12 @@
+black
+dataclasses
+human_body_prior
+matplotlib
+numpy
+pillow
+pyrender
+scikit-learn
+scipy
+torch==1.4.0
+tqdm
+PyOpenGL==3.1.0
