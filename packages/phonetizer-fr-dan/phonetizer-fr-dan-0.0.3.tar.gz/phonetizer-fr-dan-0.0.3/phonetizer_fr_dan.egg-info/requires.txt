@@ -1,0 +1,7 @@
+pytest
+pandas>=0.22.0
+numpy>=1.16.0
+google-cloud-storage>=1.30.0
+pyarrow>=0.15.1
+fsspec>=0.8.0
+gcsfs==0.6.2
