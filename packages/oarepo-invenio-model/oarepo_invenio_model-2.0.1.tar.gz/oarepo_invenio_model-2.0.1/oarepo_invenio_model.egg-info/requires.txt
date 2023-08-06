@@ -1,0 +1,15 @@
+marshmallow
+flask
+
+[tests]
+pytest>=4.6.3
+oarepo-mapping-includes
+oarepo[tests]~=3.2.1
+
+[tests-es7]
+pytest>=4.6.3
+oarepo-mapping-includes
+oarepo[tests-es7]~=3.2.1
+
+[validate]
+oarepo-validate
