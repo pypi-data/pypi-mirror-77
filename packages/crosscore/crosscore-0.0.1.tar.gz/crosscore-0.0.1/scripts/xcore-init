@@ -1,0 +1,128 @@
+#!/usr/bin/env python
+import subprocess
+import os.path as op
+import os
+import yaml
+import json
+import uuid
+import getpass
+from argparse import ArgumentParser
+
+#
+# xcore-init: initialize crosscore.
+#
+parser = ArgumentParser()
+parser.add_argument('provider', help='cloud provider - aws or gcp')
+args = parser.parse_args()
+
+if args.provider == 'aws':
+    from crosscore.aws import templates
+elif args.provider == 'gcp':
+    from crosscore.gcp import templates
+else:
+    print('Error: only "aws" and "gcp" are supported providers')
+    exit(1)
+
+config = {}
+config['terraform_config'] = templates.terraform_initial_config
+config['adaptive_config'] = templates.adaptive_initial_config
+config['dask_config'] = templates.dask_initial_config
+provider = config['terraform_config']['cloud_provider']
+
+public_key_path = os.environ.get('SSH_PUBLIC_KEY')
+if public_key_path is None:
+    print('Error - you need to set the SSH_PUBLIC_KEY environment variable.')
+    exit(1)
+if not op.exists(public_key_path):
+    print('Error - ssh public key file {} not found'.format(public_key_path))
+    exit(1)
+config['terraform_config']['public_key_path'] = public_key_path
+config['terraform_config']['user_name'] = getpass.getuser()
+
+if provider == 'aws':
+    awsconfigdir = op.expanduser('~/.aws')
+    print('checking aws configuration...')
+    if not op.exists(awsconfigdir):
+        print('Error - cannot find your aws configuration - run "aws configure"')
+        exit(1)
+    result = subprocess.run('aws configure get default.region', shell=True, stdout=subprocess.PIPE,
+                            stderr=subprocess.PIPE, universal_newlines=True)
+    if result.returncode != 0:
+        print(result.stdout)
+        print(result.stderr)
+        exit(1)
+    config['terraform_config']['region_name'] = result.stdout[:-1] 
+    uid = str(uuid.uuid4())[:8]
+    config['terraform_config']['sg_name'] = 'xcore-sg-' + uid
+    config['terraform_config']['key_name'] = 'xcore-key-' + uid
+
+elif provider == 'gcp':
+    print('checking gcs configuration...')
+    credentials = os.environ.get('GOOGLE_APPLICATION_CREDENTIALS')
+    if credentials is None:
+        print('Error - you need to set the GOOGLE_APPLICATION_CREDENTIALS environment variable to point as the location of yoiur credentials file.')
+        exit(1)
+    with open(credentials) as f:
+        cred_data = json.load(f)
+    config['terraform_config']['project_name'] = cred_data['project_id']
+    az = os.environ.get('GOOGLE_DEFAULT_AVAILABILITY_ZONE')
+    if az is None:
+        print('Error - you need to set the GOOGLE_DEFAULT_AVAILABILITY_ZONE environment variable')
+        exit(1)
+    config['terraform_config']['region_name'] = az[:-2]
+    config['terraform_config']['zone_name'] = az
+
+print('checking terraform installation...')
+result = subprocess.run('which terraform', shell=True, stdout=subprocess.PIPE,
+                        stderr=subprocess.PIPE, universal_newlines=True)
+if result.returncode != 0:
+    print("Error: can't find terraform - it it installed and in your path?")
+    exit(1)
+
+print('checking crosscore installation...')
+configdir = op.expanduser("~/.xcore")
+if not op.exists(configdir):
+    print('creating configuration directory {}'.format(configdir))
+    os.makedirs(configdir)
+
+configfile = op.join(configdir, 'config.yaml')
+if not op.exists(configfile):
+    print('creating configuration file config.yaml')
+    with open(configfile, 'w') as f:
+        yaml.dump(config, f)
+
+terraformdir = op.join(configdir, 'terraform')
+
+with open(configfile) as f:
+    config = yaml.load(f, Loader=yaml.SafeLoader)
+
+editing_required = False
+if config is None:
+    editing_required = True
+else:
+    for key in templates.terraform_initial_config.keys():
+        if config['terraform_config'].get(key) is None:
+            editing_required = True
+    for key in templates.adaptive_initial_config.keys():
+        if config['adaptive_config'].get(key) is None:
+            editing_required = True
+
+if editing_required:
+    print('The configuration file "{}" requires editing.'.format(configfile))
+    print(' before you can use crosscore. Please complete this then')
+    print(' run "xcore-init" again.')
+    exit(1)
+    
+print('initializing terraform state...')
+from crosscore import terraform
+no_errors = True
+deployment = terraform.create(terraformdir, templates.terraform_template, config['terraform_config'])
+if deployment.status != "OK":
+    print('There was an error initializing terraform:')
+    print(deployment.stdout)
+    print(deployment.stderr)
+    no_erros = False
+
+if no_errors:
+    print('Success!')
+    print('Next edit {} if required then run  "xcore start"'.format(configfile))
