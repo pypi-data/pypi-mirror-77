@@ -1,0 +1,3 @@
+[console_scripts]
+nannernest=nannernest.cli:app
+
