@@ -1,0 +1,5 @@
+include plottwist/bootstrap/__logging__.ini
+include plottwist/bootstrap/houdini/*.bat
+include plottwist/bootstrap/houdini/*.xml
+include versioneer.py
+include plottwist/bootstrap/_version.py
