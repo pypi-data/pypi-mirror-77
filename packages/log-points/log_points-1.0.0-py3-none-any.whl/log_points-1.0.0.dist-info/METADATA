@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: log-points
+Version: 1.0.0
+Summary: Adds log points and markers with debug information
+Home-page: https://github.com/RosiePuddles/log_points
+Author: PuddlesDay
+Author-email: rosiegbartlett@gmail.com
+License: MIT Licence
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: os
+Requires-Dist: inspect
+Requires-Dist: signal
+
+# log_points
+
+
+
