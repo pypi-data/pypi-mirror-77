@@ -1,0 +1,36 @@
+# Edatest
+
+This is a simple package used to run Edabit tests.
+
+# How to use
+
+**Import the package to your document**
+```python
+from edatest import Edatest
+Test = Edatest()
+```
+
+**Write your code**
+```python
+def has_friday_13(month, year):
+	return "answer here"
+```
+
+**Insert tests available in the tests tab in the Edabit challenge**
+```python
+Test.assert_equals(has_friday_13(3, 2020), True)
+Test.assert_equals(has_friday_13(10, 2017), True)
+Test.assert_equals(has_friday_13(1, 1985), False)
+Test.assert_equals(has_friday_13(5, 1619), False)
+Test.assert_equals(has_friday_13(6, 1614), True)
+```
+
+**Run your python script to test your code**
+```bash
+$ python edabit.py 
+❌ FAILED: "answer here" should equal "True"
+❌ FAILED: "answer here" should equal "True"
+❌ FAILED: "answer here" should equal "False"
+❌ FAILED: "answer here" should equal "False"
+❌ FAILED: "answer here" should equal "True"
+```
