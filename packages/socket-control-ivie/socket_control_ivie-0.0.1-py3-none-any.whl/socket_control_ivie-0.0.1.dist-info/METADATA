@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: socket-control-ivie
+Version: 0.0.1
+Summary: controls sockets using python
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: twine ; extra == 'dev'
+
+UNKNOWN
+
+
