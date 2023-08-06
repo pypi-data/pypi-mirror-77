@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: VCF-kit
+Version: 0.2.0
+Summary: "Assorted utilities for the variant call format"
+Home-page: https://www.github.com/andersenlab/vcf-kit
+Author: Daniel E. Cook
+Author-email: danielecook@gmail.com
+License: MIT
+Project-URL: Documentation, https://vcf-kit.readthedocs.io/en/latest/?badge=latest
+Project-URL: Code, https://www.github.com/andersenlab/vcf-kit
+Project-URL: Issue tracker, https://www.github.com/andersenlab/vcf-kit/issues
+Keywords: VCF,variant,caller,format,snps,genetic,variation,genetics
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: setuptools
+Requires-Dist: awesome-slugify
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: cython
+Requires-Dist: cyvcf2
+Requires-Dist: docopt
+Requires-Dist: biopython
+Requires-Dist: yahmm (==1.1.3)
+Requires-Dist: clint
+Requires-Dist: requests
+Requires-Dist: networkx
+Requires-Dist: intervaltree
+Requires-Dist: tabulate
+Requires-Dist: jinja2
+
+UNKNOWN
+
+
