@@ -1,0 +1,8 @@
+README.md
+setup.py
+PyExfil.egg-info/PKG-INFO
+PyExfil.egg-info/SOURCES.txt
+PyExfil.egg-info/dependency_links.txt
+PyExfil.egg-info/requires.txt
+PyExfil.egg-info/top_level.txt
+pyexfil/__init__.py
