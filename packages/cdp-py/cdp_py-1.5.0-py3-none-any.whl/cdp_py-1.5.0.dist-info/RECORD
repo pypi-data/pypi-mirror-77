@@ -1,0 +1,9 @@
+cdp/__init__.py,sha256=UYm343N1DhUTFg8fJ3llyoe69kPelGz0W8BDHq3njoo,46
+cdp/cdp.py,sha256=DAKR5puxlVLwYUWKVkU8zjGET-WlM3Ca3nrIwM9rgJM,23077
+cdp/ciholas_serial_number.py,sha256=W2_G7qZapukIFr3tvnUEgXsFCz1c419D55BBv7UFjss,1362
+cdp/data_items/__init__.py,sha256=bk-al4FnDoXnlRWFrubMoBZWMZtjVkiRobIXCwWpXTM,975
+cdp/data_items/data_items.py,sha256=j924U74zp1AdzAxghEioHySPnYb8pm9IzMWElOPzNgk,82862
+cdp_py-1.5.0.dist-info/METADATA,sha256=WiZUArPSUtlKAp-iRoRIZ_9M5hhGfLKJlM7RP2Q4_jg,1930
+cdp_py-1.5.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cdp_py-1.5.0.dist-info/top_level.txt,sha256=J85fE_-nRZo8ZskbjM7DKJHuf1xLh7qwJkp5gYwBjx0,4
+cdp_py-1.5.0.dist-info/RECORD,,
