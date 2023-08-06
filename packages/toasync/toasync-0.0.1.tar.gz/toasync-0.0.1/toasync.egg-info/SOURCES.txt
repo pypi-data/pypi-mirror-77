@@ -1,0 +1,7 @@
+README.md
+setup.py
+toasync/__init__.py
+toasync.egg-info/PKG-INFO
+toasync.egg-info/SOURCES.txt
+toasync.egg-info/dependency_links.txt
+toasync.egg-info/top_level.txt
