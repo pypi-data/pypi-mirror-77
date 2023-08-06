@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+DEWPython/DEWPython.py
+DEWPython/__init__.py
+DEWPython.egg-info/PKG-INFO
+DEWPython.egg-info/SOURCES.txt
+DEWPython.egg-info/dependency_links.txt
+DEWPython.egg-info/requires.txt
+DEWPython.egg-info/top_level.txt
