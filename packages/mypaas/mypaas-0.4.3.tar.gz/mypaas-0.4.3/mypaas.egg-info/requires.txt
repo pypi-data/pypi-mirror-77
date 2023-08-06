@@ -1,0 +1,11 @@
+cryptography
+requests
+pyperclip
+
+[server]
+toml
+uvicorn
+asgineer
+psutil
+fastuaparser
+pscript
