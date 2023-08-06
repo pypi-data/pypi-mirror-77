@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+requirements.txt
+setup.cfg
+setup.py
+gradient_compression/__init__.py
+gradient_compression/rp_compression.py
+gradient_compression.egg-info/PKG-INFO
+gradient_compression.egg-info/SOURCES.txt
+gradient_compression.egg-info/dependency_links.txt
+gradient_compression.egg-info/not-zip-safe
+gradient_compression.egg-info/requires.txt
+gradient_compression.egg-info/top_level.txt
