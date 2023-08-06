@@ -1,0 +1,10 @@
+repoze.retry-1.5-py3.8-nspkg.pth,sha256=Z--Z0nwjEZCVZhFyMqLQbrOpmWu19qtTWRyeyPFxQ0A,539
+repoze/retry/__init__.py,sha256=1cothaGBp1mJGlsiHgVJvfeRL4sDmYClip7q6XJe_rk,5877
+repoze/retry/tests.py,sha256=XI4HTYREOroBPzawBbmm9FYV5axEN8L5ovQ-Q0LNWiA,21270
+repoze.retry-1.5.dist-info/LICENSE.txt,sha256=QU48zYp1hpbDpHCKMeNlB_HEd1f901odVpvkMIUUgzg,1791
+repoze.retry-1.5.dist-info/METADATA,sha256=LfMJfeyDuG-_Wc1GL6GU246ipOiODofk183gRqKR3dM,6556
+repoze.retry-1.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+repoze.retry-1.5.dist-info/entry_points.txt,sha256=8rxna04JkxNeUyEyopm9l20RoGGO2nMUztCcLwlG22I,78
+repoze.retry-1.5.dist-info/namespace_packages.txt,sha256=J8ri7gY0fmS54HZ0sfQdE8_0DKDv5DgmMLQB5DODOpc,7
+repoze.retry-1.5.dist-info/top_level.txt,sha256=J8ri7gY0fmS54HZ0sfQdE8_0DKDv5DgmMLQB5DODOpc,7
+repoze.retry-1.5.dist-info/RECORD,,
