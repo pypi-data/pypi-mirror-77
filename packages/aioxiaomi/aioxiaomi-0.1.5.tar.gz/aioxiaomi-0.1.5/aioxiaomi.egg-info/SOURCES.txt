@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+aioxiaomi/__init__.py
+aioxiaomi/__main__.py
+aioxiaomi/aioxiaomi.py
+aioxiaomi/discover.py
+aioxiaomi.egg-info/PKG-INFO
+aioxiaomi.egg-info/SOURCES.txt
+aioxiaomi.egg-info/dependency_links.txt
+aioxiaomi.egg-info/entry_points.txt
+aioxiaomi.egg-info/not-zip-safe
+aioxiaomi.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+aioxiaomi = aioxiaomi.__main__:main
+
