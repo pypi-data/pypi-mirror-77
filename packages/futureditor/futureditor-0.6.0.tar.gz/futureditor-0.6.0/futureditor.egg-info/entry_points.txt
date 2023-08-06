@@ -1,0 +1,3 @@
+[console_scripts]
+SanjayMarison = futureditor.__main__:main
+
