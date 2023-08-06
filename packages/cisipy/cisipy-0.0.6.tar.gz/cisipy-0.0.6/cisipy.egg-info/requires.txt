@@ -1,0 +1,11 @@
+toml
+numpy
+scipy
+scikit-image
+tifffile
+nd2reader
+python-bioformats
+pyimagej
+starfish
+sympy<=1.5.1
+spams
