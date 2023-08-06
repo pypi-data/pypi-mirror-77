@@ -1,0 +1,15 @@
+servicemock/__init__.py,sha256=p3XPRa3-KF-Tt9mD2tiysS0Y99myKiuZekRHsPQkYCA,270
+servicemock/adapter.py,sha256=gTJywpnFqWhBe_RX9zYnNVuNoX_N4t0RUitdFEmGfu4,1301
+servicemock/servicemock.py,sha256=3x4ufm7avkQaPa7Op75So6NZuNQJzOO07NFAVzWT_0w,8721
+servicemock/unittest.py,sha256=i-K32OMhj34wjY1tUDB-IGi5qKjsRzXsRkbdF_RMTsw,376
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_error_messages.py,sha256=hRLmN-j7Ia2JTBRoeuaQS-M_LNK5xNRwhA6f7K9UZkA,597
+tests/test_request.py,sha256=_bRp-aXYAGW6xklZicSfjtFoULE15YH7eivtcPEnWyI,599
+tests/test_service_mock.py,sha256=zzOglCj7CjgPqEtB5GqcUpL4afHW9ZaZGR7XbM2185M,8599
+tests/test_unittest_integration.py,sha256=UqH56s2JHoPxGv0r0hQGQXW8NxN05IXyv9pN6dLcedE,598
+tests/test_utest_example.py,sha256=wUruJ5x4cdw7Fonicw5QsJ5_rIZoLd3cztI-dm3Jubc,737
+servicemock-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+servicemock-0.1.1.dist-info/METADATA,sha256=hCYaCPll4yE1ln2Bu_jvh7svHjcB0gu5g0Ei3h_enxY,1073
+servicemock-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+servicemock-0.1.1.dist-info/top_level.txt,sha256=L01wR6eK7Ef5-bUWYixgSU_RhF9V0nz9RlW0HxfXw44,18
+servicemock-0.1.1.dist-info/RECORD,,
