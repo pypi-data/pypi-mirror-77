@@ -1,0 +1,8 @@
+virtual/conf.py,sha256=CLMbWLPuURG3wWQRqIRn8z5vhi264YzVOjcnjDf26I4,37
+virtual/version.py,sha256=6jOOLep9oUcmWudigUTkyFQs0of9qT2ZXyiywxLqO3A,38
+virtual/grains/virtual/init.py,sha256=BPaHzXkvf9MhxgsqPWUxuqrSocqriEBCdGvk3TJfeQo,91
+virtual/grains/virtual/virtual.py,sha256=_OkgOjhmxCeekZgiJvrCVlGdn94D4OAfzW3J6caPgSk,22750
+grains_virt-3.dist-info/METADATA,sha256=oUFzcD7ztinaOtJdJSV5qyUZ_enXfVr_8UGbi-yzb5Q,1528
+grains_virt-3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+grains_virt-3.dist-info/top_level.txt,sha256=o0y5Zb7oExZlLfRS48XZpkV9LlQ9NZRgM2nkE0mgnTA,8
+grains_virt-3.dist-info/RECORD,,
