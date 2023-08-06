@@ -1,0 +1,3 @@
+[console_scripts]
+karel = karel_robot.run.main:main
+
