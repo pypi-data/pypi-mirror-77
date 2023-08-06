@@ -1,0 +1,10 @@
+switches/__init__.py,sha256=rwM07nuJzdbONTr8-eF9pxvVPxoDsjRO-RWLcUMirVU,201
+switches/switch.py,sha256=dNaw37-i49VmSmrxTzpoDS_AObtUF-c1xnpvuTfWiz4,12514
+tests/__init__.py,sha256=1kBYFdnpQ-uMzbVrbsQwTUkK0Wh72OarknIMg7DAnL8,142
+tests/funcs.py,sha256=Nq5Ni4rZSPg65dH7vYHrmghywpo-xPN4Brsi0cDyIE8,14467
+tests/test.py,sha256=bBdikkLSg2S0h2AG-vuHKkW16QM5RMnBQaEDJaX57QM,4572
+switches.py-0.0.1.dist-info/LICENSE.txt,sha256=y0CaMDE_-QXc6JkW43sDKxL6Qe0y005iHNJHQBVKF5M,1091
+switches.py-0.0.1.dist-info/METADATA,sha256=pYo_UYpCs_6Qbd2qH0xqabnkUB9kuPQfPvP0P8qn8m8,4096
+switches.py-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+switches.py-0.0.1.dist-info/top_level.txt,sha256=l2awVj7CqNeAOwD9DJtGEqCMBjYfuNh8W613W6-ZKsI,15
+switches.py-0.0.1.dist-info/RECORD,,
