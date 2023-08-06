@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pooraka
+Version: 0.1.5
+Summary: Pytorch wrapper
+Home-page: https://github.com/chakkritte/pooraka
+Author: Chakkrit Termritthikun
+Author-email: chakkritt60@nu.ac.th
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: torch (>=1.0)
+Requires-Dist: torchvision
+Requires-Dist: shutil
+
+UNKNOWN
+
+
