@@ -1,0 +1,15 @@
+corejam/__init__.py,sha256=7QTknM3zuPfQPiqAhKRY1q6iKp_Ap2aLzDb6JEWdews,1693
+corejam/__main__.py,sha256=gQhXn4WUMDezgaQq0QY9GKpd-KmQYwK7GC6biW862-Q,1560
+corejam/argparse.py,sha256=kacyRMRSbRo6noyMpvFUvFJgWygcu5ly37ZnC8pxrZo,5853
+corejam/exceptions.py,sha256=8HN24L6Twcn0PzLap2d_dwK0NQOnqT5DqsvITxBoGjU,336
+corejam/io.py,sha256=Jv_Or7JVsVnsINl3LWwV55B9AFXxyIySBOBZNmdzhjg,551
+corejam/logging.py,sha256=arnc6it9OCEPf0uNgEpG90edB3JfDy4jp9GwifPsRJM,8328
+corejam-0.0.1.data/data/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_io.py,sha256=xQzhkXNSokNLGwhC1jnSvAeuKEv7FtJEddfPuCoP_Mk,1908
+corejam-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+corejam-0.0.1.dist-info/METADATA,sha256=-aUv4AyB9_S2HDcc9a-iLxy5D3oNTymY66b27vrQw0o,1313
+corejam-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+corejam-0.0.1.dist-info/entry_points.txt,sha256=IUYBM9nDbqMmLsj6Ifz93D1W7_u9E-hH5FucDvULXJQ,51
+corejam-0.0.1.dist-info/top_level.txt,sha256=cIp2iM6kxUsDmNTlSUKW83Mn9E32g36S0A4K5vX2uv8,14
+corejam-0.0.1.dist-info/RECORD,,
