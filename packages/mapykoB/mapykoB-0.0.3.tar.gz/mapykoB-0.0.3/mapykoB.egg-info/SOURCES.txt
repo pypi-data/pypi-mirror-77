@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+mapykoB/__init__.py
+mapykoB/generate_data.py
+mapykoB.egg-info/PKG-INFO
+mapykoB.egg-info/SOURCES.txt
+mapykoB.egg-info/dependency_links.txt
+mapykoB.egg-info/top_level.txt
+mapykoB/discreet/__init__.py
+mapykoB/discreet/hmm_discreet.py
+test/test_mapykoB.py
