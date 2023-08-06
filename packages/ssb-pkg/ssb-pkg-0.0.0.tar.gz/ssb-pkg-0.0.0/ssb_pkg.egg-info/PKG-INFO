@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: ssb-pkg
+Version: 0.0.0
+Summary: A package for detecting and visualizing sinks, sources, and bridges in networks.
+Home-page: https://chipdelmal.github.io/MoNeT/SSBSTP
+Author: Chris De Leon
+Author-email: chrisdeleon333@gmail.com
+License: UNKNOWN
+Description: # General Info:
+        - Check out https://chipdelmal.github.io/MoNeT/SSBSTP for general project details!
+        
+        # Structure:
+        - ssb
+        	- data
+        		- some_locations.csv
+        		- kernels
+        			- kernel_1.csv
+        			- kernel_2.csv
+        			- ...
+        			- kernel_n.csv
+        	- outputs
+        	- `__init__.py`
+        	- `ssbplots.py`
+        	- `clusters.py`
+        	- `detector.py`
+        	- `mpc_defs.py`
+        
+        # Package Overview:
+        - This package provides a more convenient way to perform sink/source/bridge detection for the MoNet project. Given a list of clusters, a list of kernels, and a network of locations, the `clusters.py` script will iterate over all clusters, and, for each one, run sink/source/bridge detection for each kernel using the specified locations. The script uses multiprocessing to compute the results for large inputs more efficiently. The results are placed in a nested dictionary such that `dictionary[c][k]` is the detector object used with `c` clusters for kernel `k` where `k` is the file name of the kernel. The package also comes with a plotting library for examining the results of the script in a more appealing way.
+        
+        # Overview of Major Files:
+        - `detector.py` : contains the class definition of the detector class. The detector class takes in a state transition matrix (or kernel) and a pandas DataFrame with a 'pop' column and performs sink/source/bridge detection on the data. There are various other settings that may be used with the detector all of which are documented in the file.
+        - `clusters.py` : the script for running multi-process clustering detection. The script takes the following flags:
+        	- `-l` : the path to the locations CSV file (e.g. 'data/some_locations.csv')
+        	- `-k` : a path to a directory of kernels to use for detection. Kernels are expected to be CSV files (e.g. 'data/kernels').
+        	- `-o` : the name of the output folder. If unspecified, a folder named 'outputs' will be created (if it doesn't already exist) and the results will be placed in it.
+        	- `-c` : a comma separated string of integers representing the number of clusters to use for detection.
+        	-  `-n` : the number of processes to use. If unspecified then the number returned by cpu_count() is used.
+        	- `-e` : the experiment id, which is used for naming the resulting output file.
+        - `mpc_defs.py` : contains a helper function for `clusters.py`. This is needed for multiprocessing.
+        - `ssbplots.py` : a module for plotting the results of the `clusters.py` script. More details about each plot are given within the file.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
