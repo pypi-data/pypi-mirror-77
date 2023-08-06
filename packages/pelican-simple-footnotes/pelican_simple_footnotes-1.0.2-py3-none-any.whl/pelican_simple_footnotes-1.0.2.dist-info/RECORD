@@ -1,0 +1,7 @@
+pelican/plugins/simple_footnotes/__init__.py,sha256=NLXb7JQ_eQTFXmbtE-Tgtdp_LPYHCGtCTwJzfgG7B1M,40
+pelican/plugins/simple_footnotes/simple_footnotes.py,sha256=D9qqLEldN-wAkTH_DOWgDQU7nNpuYQ7HoQw2_53DmmE,4311
+pelican/plugins/simple_footnotes/test_simple_footnotes.py,sha256=U3IbduOjaGTzxpHtytfcuHxZWPZ-Fv7Rqvzuhzyn91c,1239
+pelican_simple_footnotes-1.0.2.dist-info/LICENSE,sha256=V8j_M8nAz8PvAOZQocyRDX7keai8UJ9skgmnwqETmdY,34520
+pelican_simple_footnotes-1.0.2.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+pelican_simple_footnotes-1.0.2.dist-info/METADATA,sha256=csNP0ypcf6EwDnaCOoClUavfk2DfywOdNrB9YRx_dD0,3396
+pelican_simple_footnotes-1.0.2.dist-info/RECORD,,
