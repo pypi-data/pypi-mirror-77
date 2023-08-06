@@ -1,0 +1,9 @@
+README.md
+setup.py
+spys1proxy/__init__.py
+spys1proxy/main.py
+spys1proxy.egg-info/PKG-INFO
+spys1proxy.egg-info/SOURCES.txt
+spys1proxy.egg-info/dependency_links.txt
+spys1proxy.egg-info/requires.txt
+spys1proxy.egg-info/top_level.txt
