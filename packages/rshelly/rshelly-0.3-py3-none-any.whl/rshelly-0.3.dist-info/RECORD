@@ -1,0 +1,8 @@
+rshelly-0.3.data/scripts/rshelly,sha256=yu9Z74mYYCg-g7mKJX9LJtGFtoeIQVCTmFT6PSQ4Raw,2596
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/database.py,sha256=-So9OCo0UO4ujw1Pj9_-utBP91D26M3x2DC6P2pMMXw,10957
+rshelly-0.3.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+rshelly-0.3.dist-info/METADATA,sha256=0QdI__lrTBicCzY91YzGW4WoM0s4OKJVEoB9gGsYhXQ,526
+rshelly-0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+rshelly-0.3.dist-info/top_level.txt,sha256=BXdhaaHBJTl5WDScj-NdcpdW6F1g7hNN3YP0CLPxk-0,6
+rshelly-0.3.dist-info/RECORD,,
