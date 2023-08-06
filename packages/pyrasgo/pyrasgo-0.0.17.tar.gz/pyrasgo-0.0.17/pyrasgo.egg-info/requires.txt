@@ -1,0 +1,6 @@
+requests==2.23.0
+snowflake-connector-python
+pandas
+amplitude-python
+deprecated==1.2.10
+tqdm==4.48.2
