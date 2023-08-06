@@ -1,0 +1,5 @@
+aws_cdk.core<2.0.0,>=1.60.0
+aws_cdk.aws_cloudformation<2.0.0,>=1.60.0
+aws_cdk.aws_iam<2.0.0,>=1.60.0
+aws_cdk.aws_lambda<2.0.0,>=1.60.0
+aws_cdk.aws_ecr<2.0.0,>=1.60.0
