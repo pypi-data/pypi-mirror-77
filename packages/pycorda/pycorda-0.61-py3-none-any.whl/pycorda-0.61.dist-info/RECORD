@@ -1,0 +1,8 @@
+pycorda/__init__.py,sha256=9nYwB9TlwVhWMe9CEXLFckKyOynj408WIWXF3gBsIsc,61
+pycorda/core.py,sha256=KiGFOz5iHx6HU-OYget0HDlLW8DEsijU15-7kRoitsE,13797
+pycorda/stats.py,sha256=JbeRFL0CRM8qtgF4x2yyZF2oNBGQNHdptrgXGQlZ3Gw,4531
+pycorda-0.61.dist-info/LICENSE,sha256=QMaZwhLFKLFfXtUEq_zOoXQPKYi4VUdD9B1fHUKCGPM,11511
+pycorda-0.61.dist-info/METADATA,sha256=hluSO89mKFHVWkrdhvyS705BvhBJvNyp4OammUGkRns,398
+pycorda-0.61.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pycorda-0.61.dist-info/top_level.txt,sha256=wmb39lcCxM-IjyFRoGthKvvQx-qHWErrWRIzRCd5LCQ,8
+pycorda-0.61.dist-info/RECORD,,
