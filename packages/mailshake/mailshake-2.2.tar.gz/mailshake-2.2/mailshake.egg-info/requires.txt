@@ -1,0 +1,12 @@
+html2text
+
+[dev]
+flake8
+pytest
+pytest-cov
+tox
+
+[test]
+flake8
+pytest
+pytest-cov
