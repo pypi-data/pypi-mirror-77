@@ -1,0 +1,9 @@
+License.txt
+MANIFEST.in
+Readme.txt
+setup.py
+check_palindrome_asfa.egg-info/PKG-INFO
+check_palindrome_asfa.egg-info/SOURCES.txt
+check_palindrome_asfa.egg-info/dependency_links.txt
+check_palindrome_asfa.egg-info/top_level.txt
+is_palindrome_asfa/__init__.py
