@@ -1,0 +1,9 @@
+checkscore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+checkscore/checkscore.py,sha256=Gy7Y9_tcFUoElaA0yM7fgjpSiN6VhWE_swkduGJdhfQ,4370
+checkscore/methods.py,sha256=u3Se-bU-ekwcULKlbQ8zLp_JCoYYYp7hutM5Vup4zL8,2043
+checkscore/repeater.py,sha256=ZHZiA0H6uNdkuEfHGXsWyr0jYZ3VnDHunXEFZSlT_LU,2264
+checkscore-0.0.8.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+checkscore-0.0.8.dist-info/METADATA,sha256=EHTgb5GELAtnZygExL3j_gMsTbV_eBivHk8PIIZSSRI,506
+checkscore-0.0.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+checkscore-0.0.8.dist-info/top_level.txt,sha256=X4bLLak0L3RY8z_0rOIU6qqykjcRLedwZm4YuPbZAhI,11
+checkscore-0.0.8.dist-info/RECORD,,
