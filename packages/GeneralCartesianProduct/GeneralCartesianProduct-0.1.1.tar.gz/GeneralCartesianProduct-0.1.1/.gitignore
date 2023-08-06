@@ -1,0 +1,6 @@
+.idea/
+dist/
+build/
+GeneralCartesianProduct.egg-info/
+
+release.sh
