@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+optiEncoder/__init__.py
+optiEncoder/optiEncoder.py
+python_optiEncoder.egg-info/PKG-INFO
+python_optiEncoder.egg-info/SOURCES.txt
+python_optiEncoder.egg-info/dependency_links.txt
+python_optiEncoder.egg-info/requires.txt
+python_optiEncoder.egg-info/top_level.txt
