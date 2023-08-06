@@ -1,0 +1,10 @@
+README.md
+setup.py
+equation_solver_abhhii.egg-info/PKG-INFO
+equation_solver_abhhii.egg-info/SOURCES.txt
+equation_solver_abhhii.egg-info/dependency_links.txt
+equation_solver_abhhii.egg-info/top_level.txt
+solveJsonEquation/__init__.py
+solveJsonEquation/expression.py
+solveJsonEquation/operatorUtils.py
+solveJsonEquation/solver.py
