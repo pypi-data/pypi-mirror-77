@@ -1,0 +1,3 @@
+[pytest11]
+envraw = pytest_envraw.plugin
+
