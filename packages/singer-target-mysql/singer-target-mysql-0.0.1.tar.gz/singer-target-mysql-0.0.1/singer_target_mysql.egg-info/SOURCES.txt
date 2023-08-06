@@ -1,0 +1,7 @@
+README.md
+setup.py
+singer_target_mysql.egg-info/PKG-INFO
+singer_target_mysql.egg-info/SOURCES.txt
+singer_target_mysql.egg-info/dependency_links.txt
+singer_target_mysql.egg-info/top_level.txt
+target-mysql/__init__.py
