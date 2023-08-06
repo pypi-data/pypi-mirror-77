@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: libkarel
+Version: 1.0.2
+Summary: Utilities for validating karel.js test cases
+Home-page: https://github.com/omegaup/libkarel
+Author: omegaUp
+Author-email: lhchavez@omegaup.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Libkarel
+
+Utilerías python para karel
+
+
