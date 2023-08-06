@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "autosys"
+version = "1.5.2"
+description = "System Utilities for Python on macOS."
+authors = ["skeptycal <26148512+skeptycal@users.noreply.github.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.24.0"
+toml = "^0.10.1"
+colorama = "^0.4.3"
+click = "^7.1.2"
+appdirs = "^1.4.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0.1"
+pylint = "^2.6.0"
+colorama = "^0.4.3"
+coverage = "^5.2.1"
+autosysloguru = "^0.4.0"
+pytest-cov = "^2.10.1"
+Sphinx = "^3.2.1"
+sphinx-rtd-theme = "^0.5.0"
+tox = "^3.19.0"
+autopep8 = "^1.5.4"
+pre-commit = "^2.7.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
