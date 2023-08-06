@@ -1,0 +1,119 @@
+[![Downloads](https://pepy.tech/badge/scrape-search-engine)](https://pepy.tech/project/scrape-search-engine)
+
+## Package Installation : 
+```
+pip install scrape-search-engine
+```
+[Package LInk](https://pypi.org/project/scrape-search-engine/)
+
+## Scrape Search Engine :
+
+Search anything on the Search Engine it will collect all the links and save it into JSON file format.
+
+## How to import the module:
+```
+userAgent = ('') #search on google "my user agent"
+search = ('')  #Enter Anything for Search
+```
+## Google Search Engine : 
+```
+from ScrapeSearchEngine.ScrapeSearchEngine import Google
+
+google = Google(search, userAgent)
+
+print(google)
+```
+## Givewater Search Engine : 
+```
+from ScrapeSearchEngine.ScrapeSearchEngine import Givewater
+
+givewater = Givewater(search, userAgent)
+
+print(givewater)
+```
+## Ecosia Search Engine : 
+```
+from ScrapeSearchEngine.ScrapeSearchEngine import Ecosia
+
+ecosia = Ecosia(search, userAgent)
+
+print(ecosia)
+```
+## Bing Search Engine : 
+```
+from ScrapeSearchEngine.ScrapeSearchEngine import Bing
+
+bing = Bing(search, userAgent)
+
+print(bing)
+```
+## Ask Search Engine : 
+```
+from ScrapeSearchEngine.ScrapeSearchEngine import Ask
+
+ask = Ask(search, userAgent)
+
+print(ask)
+```
+## CommonLinks Search Engine : 
+```
+from ScrapeSearchEngine.ScrapeSearchEngine import CommonLinks
+
+comminlinks = CommonLinks(search, userAgent)
+
+print(comminlinks)
+```
+## Save into Json File formate :
+```
+givewaterJson = makeJson('givewater', givewater)
+
+print(givewaterJson)
+
+ecosiaJson = makeJson('ecosia', ecosia)
+
+print(ecosiaJson)
+
+bingJson = makeJson('bing', bing)
+
+print(bingJson)
+
+askJson = makeJson('ask', ask)
+
+print(askJson)
+```
+## Save All into Json File formate as finalJson :
+```
+finalJson = makeJson('finalJson',googleJson)
+
+finalJson.update(givewaterJson)
+
+finalJson.update(ecosiaJson)
+
+finalJson.update(bingJson)
+
+finalJson.update(askJson)
+
+print(finalJson)
+```
+
+## Required package’s:
+```
+• pip install BeautifulSoup
+
+• pip install requests
+
+• pip install bs4
+```
+## License:
+MIT Licensed
+
+## Author:
+Sujit Mandal
+
+[GitHub](https://github.com/sujitmandal)
+
+[LinkedIn](https://www.linkedin.com/in/sujit-mandal-91215013a/)
+
+[Facebook](https://www.facebook.com/sujit.mandal.33671748)
+
+[Twitter](https://twitter.com/mandalsujit37)
