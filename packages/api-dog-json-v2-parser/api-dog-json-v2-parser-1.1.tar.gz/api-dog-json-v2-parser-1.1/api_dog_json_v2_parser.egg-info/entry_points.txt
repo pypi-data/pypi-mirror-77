@@ -1,0 +1,3 @@
+[console_scripts]
+api-dog-pv2 = api_dog_parser_v2.parser:main
+
