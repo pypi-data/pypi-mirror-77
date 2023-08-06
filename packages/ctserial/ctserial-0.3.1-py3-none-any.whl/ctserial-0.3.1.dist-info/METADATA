@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: ctserial
+Version: 0.3.1
+Summary: ctserial is a security professional's swiss army knife for interacting with raw serial devices
+Home-page: https://github.com/ControlThingsTools/ctserial
+Author: Justin Searle
+Author-email: justin@meeas.com
+License: GPLv3
+Keywords: serial,pentest,ControlThings,ControlThingsPlatform
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: ctui
+Requires-Dist: pyserial
+Requires-Dist: tabulate
+
+# Control Things Serial
+
+ctserial goal is to become the security professional's Swiss army knife for interacting with raw serial devices
+
+# Installation:
+
+As long as you have git and Python 3.6 or later installed, all you should need to do is:
+
+```
+pip3 install ctserial
+```
+
+# Usage:
+
+First, start the tool from a terminal.  Then connect to your serial device and interact with it.  For example:
+
+```
+ctmodbus> connect /dev/your-serial-device
+ctmodbus> sendhex deadc0de        (sends actual hex, so 4 bytes)
+ctmodbus> sendhex \xde \xad c0de  (sends same hex as before, ignoring spaces and \x)
+ctmondus> send Dead Code 国        (sends full utf-8 string without spaces)
+ctmodbus> send "Dead Code 国"      (Use quotes if you need spaces)
+ctmodbus> exit
+```
+
+# Platform Independence
+
+Python 3.6+ and all dependencies are available for all major operating systems.  It is primarily developed on MacOS and Linux, but should work in Windows as well.
+
+# Author
+
+* Justin Searle <justin@controlthings.io>
+
+
+
