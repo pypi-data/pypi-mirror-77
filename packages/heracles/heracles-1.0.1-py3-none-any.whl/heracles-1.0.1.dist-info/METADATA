@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: heracles
+Version: 1.0.1
+Summary: Heracles - GUI helper for PreSMC ATLAS
+Home-page: https://github.com/luarlelima/heracles
+Author: Luarle Sousa
+Author-email: luarle.sousa@sidia.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: uiautomator2
+Requires-Dist: airtest
+Requires-Dist: pywin32
+
+
+Heracles - GUI helper for PreSMC ATLAS
+========
+
+Heracles is a module that simplifies Sidia ATLAS testing tasks.
+It provides functions and a GUI to perform procedures like enabling 
+and disabling Airplane Mode, Wifi, starting and receiving calls,
+and changing settings in test devices.
+
+
+Features
+--------
+
+- Enable/disable airplane mode
+- Start and answer phone calls
+- Reboot device
+- Open SysDump and ImsLogger
+
+
+Requirements
+------------
+uiautomator2, airtest, and their dependencies
+
+    python -m pip install -U --pre uiautomator2
+
+    python -m pip install -U airtest
+
+
+Installation
+------------
+
+After installing the prerequisites, just run
+
+    python -m pip install heracles
+
+
+Usage
+------------
+
+Heracles can be executed as a standalone app. Open from a Windows terminal:
+
+    heracles
+
+Can be imported as a library, too
+
+    import heracles as hrc
+	hrc.airplane_mode_on()
+
+
+Support
+-------
+
+If you are having issues, please mail the dev directly.
+DEV mail: luarle.sousa@sidia.com
+
+
+License
+-------
+
+MIT license
+
