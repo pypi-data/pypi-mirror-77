@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: atrest
+Version: 0.0.6
+Summary: Basic Autotask REST Client
+Home-page: UNKNOWN
+Author: Jonathan Weaver
+Author-email: createchange@protonmail.com
+License: UNKNOWN
+Description: # atrest
+        
+        ## About
+        
+        This library is a very basic tool to submit tickets to an Autotask help desk.
+        
+        ---
+        
+        ## Usage
+        
+        Initialize the `Client` class, then utilize the following available methods:
+        
+        - `get_base_url`
+        - `set_base_url`
+        - `get_headers`
+        - `set_headers`
+        - `create_ticket`
+        
+        You MUST use the `set_base_url` and `set_headers` methods. These will be what provides authentication when you make requests. I recommend the following approach:
+        
+        1. Load the environment with variables found in `.env-template`
+        2. Initialize the client, then load in the enviroment variables
+        
+        Here is an example implementation:
+        
+        ```python
+        from dotenv import load_dotenv
+        
+        def submit_ticket(ticket_title, ticket_desc):
+            load_dotenv(find_dotenv())
+        
+            atclient = Client()
+            atclient.set_base_url(os.getenv("AT_BASE_URL"))
+            atclient.set_headers(username=os.getenv("AT_USERNAME"), secret=os.getenv("AT_SECRET"), api_integration_code=os.getenv("AT_INTEGRATION_CODE"))
+        
+            ticket_title = "Major Issue!"
+            ticket_desc = """
+            There was a major issue.
+        
+            You should definitely check it out!
+            """
+        
+            try:
+                atclient.create_ticket(ticket_title, ticket_desc, status=1, priority=1, company_id=0, queue_id=29682833)
+                print("Ticket successfully sent.")
+            except Exception as e:
+                raise e
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
