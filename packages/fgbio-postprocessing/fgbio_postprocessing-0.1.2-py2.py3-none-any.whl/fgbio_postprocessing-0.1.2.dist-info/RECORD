@@ -1,0 +1,10 @@
+fgbio_postprocessing/__init__.py,sha256=r_cKr7sbAG8wXvZQ-5WkC2eXGKMDWp6Xe_hNXu43MT0,21
+fgbio_postprocessing/cli.py,sha256=OwncHsn-AXL01o4MdtFq3baNF1QrjSZjcvLwMwu46h8,707
+fgbio_postprocessing/simplex_filter.py,sha256=2_iJM-gw8egSeRjzb3IIZVCYFsLSCK_rKPYzbPmn9mg,1225
+fgbio_postprocessing-0.1.2.dist-info/AUTHORS.rst,sha256=e7-oTSz7faxdVe5bh_u4PvNZUuo--9QRyUUiNXqkOX8,153
+fgbio_postprocessing-0.1.2.dist-info/LICENSE,sha256=HykzT0_B07Nxey1Eyx52clf4hT1oYnCExBAXTG1euCI,1070
+fgbio_postprocessing-0.1.2.dist-info/METADATA,sha256=xxzndc8wnI6m2zAgrl3JSi3wX2-RVyCz5sEXBG3sEHQ,2095
+fgbio_postprocessing-0.1.2.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+fgbio_postprocessing-0.1.2.dist-info/entry_points.txt,sha256=cYljgePmElWwgxjaGBrArhefL6fdEBk5SS-zADvejYA,76
+fgbio_postprocessing-0.1.2.dist-info/top_level.txt,sha256=QfC2LNRVqnvgLf9hPv-3cs-cLCa2EUrI3RCa2cEz4lg,21
+fgbio_postprocessing-0.1.2.dist-info/RECORD,,
