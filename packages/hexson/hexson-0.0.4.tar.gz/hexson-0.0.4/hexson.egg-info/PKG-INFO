@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: hexson
+Version: 0.0.4
+Summary: Json library which enable user to parse and dump data with hex escape
+Home-page: https://github.com/wonderqs/hexson
+Author: Qiushi Yang
+Author-email: i@listenwhat.com
+Maintainer: Qiushi Yang
+Maintainer-email: i@listenwhat.com
+License: Apache-2.0
+Description: # Hexson
+        
+        [![Python version](https://img.shields.io/pypi/pyversions/hexson.svg)](https://pypi.org/project/hexson)
+        [![Build Status](https://travis-ci.org/wonderqs/hexson.svg?branch=master)](https://travis-ci.org/wonderqs/hexson)
+        [![PyPI version](https://badge.fury.io/py/hexson.svg)](https://badge.fury.io/py/hexson)
+        
+        Json library designed for binary data processing.
+        
+        Different from built-in json library, Hexson can encode invisible characters 
+        with hex escape instead of unicode escape.
+        
+        ## Install
+        
+        ````
+        pip3 install hexson
+        ````
+        
+        ## Usage
+        
+        ### loader & dumpper
+        
+        ````
+        json_dict = hexson.load(fd)
+        json_str = hexson.dump(json_dict, fd)
+        ````
+        
+        ### Elasticsearch serializer
+        
+        ````
+        es_conn = elasticsearch.Elasticsearch([{'host': cfg['es']['host'], 'port': cfg['es']['port']}],
+                                                  http_auth=(cfg['es']['user'], cfg['es']['pass']),
+                                                  timeout=60, serializer=hexson.JSONSerializer())
+        ````
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4
+Description-Content-Type: text/markdown
