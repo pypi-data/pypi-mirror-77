@@ -1,0 +1,10 @@
+pyblish-base==1.8.7
+pyblish-lite==0.8.6
+tpDcc-libs-python
+tpDcc-core
+
+[dev]
+wheel
+
+[test]
+pytest
