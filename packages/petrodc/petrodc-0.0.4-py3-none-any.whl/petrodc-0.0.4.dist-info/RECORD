@@ -1,0 +1,10 @@
+petrodc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+petrodc/npd/__init__.py,sha256=AgzHFCOx6Na1RoODtR-SW8iP4ctbvIASkFWqfNfcZNw,32
+petrodc/npd/wellbore.py,sha256=2MvCR3bM1nOOKR8DSrOlGS4FWJwGyVTEUgcESbgVTtU,1774
+petrodc/usgs_eros/__init__.py,sha256=u4CfqddnzGo1YU0iwXfLA0-7WinsICtFnv41kORnJmY,45
+petrodc/usgs_eros/elevation.py,sha256=XqnH7-P68pD-EeK_fZNb3hqxJeDS6LtLfr2pf-Vncr4,2122
+petrodc-0.0.4.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+petrodc-0.0.4.dist-info/METADATA,sha256=KzFCV7HRIbOGy1Vfz13urQeO9ooI8QdZm97UpURCaiY,1922
+petrodc-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+petrodc-0.0.4.dist-info/top_level.txt,sha256=94rWxqZv4Svn3ZIqqnudkpMyxF85Ec2ZqFoQbrcSYn0,8
+petrodc-0.0.4.dist-info/RECORD,,
