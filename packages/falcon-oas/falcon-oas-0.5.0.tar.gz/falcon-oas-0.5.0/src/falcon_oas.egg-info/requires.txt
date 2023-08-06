@@ -1,0 +1,10 @@
+falcon<3,>=1.4
+oas~=0.2
+six~=1.11
+
+[test]
+pytest
+pytest-cov
+pytest-mock
+pytest-xdist
+pyyaml~=5.1
