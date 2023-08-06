@@ -1,0 +1,9 @@
+redmine/__init__.py,sha256=sxdjrYwhpi-5S6-bdHPpaWREYDM9xI7IL0W9D--TMNw,23
+redmine/main.py,sha256=wb25yMAvzUj5NXe0DPLDzgXtoiBBCnyNspIiz7cjwvw,16075
+redmine/tables.py,sha256=oMiJVofzkVgIvj46v6_hPnHLP7ObaWqqXgtwLrCLcrk,747
+redmine/utils.py,sha256=C5r-BmTCUiZys2sqChkgG0Dp_bzTdG2Sx8vLwilBkg0,1943
+Redmine_CLI_Tool-0.0.6.dist-info/METADATA,sha256=eWLL9TSWojcrZyu01rzWerntM64oevLUnsAR-b5u3x4,1323
+Redmine_CLI_Tool-0.0.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+Redmine_CLI_Tool-0.0.6.dist-info/entry_points.txt,sha256=Ngl0UMILQlj6G6KKbUlNGqyAJd4YfrPZ4MihMg6m4Dk,47
+Redmine_CLI_Tool-0.0.6.dist-info/top_level.txt,sha256=SW5IXF3R9rJ-gnGC0KhYC-GCoTYJb7Kz9doxJpG0fy8,8
+Redmine_CLI_Tool-0.0.6.dist-info/RECORD,,
