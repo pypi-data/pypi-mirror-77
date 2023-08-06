@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+Mbedder/__init__.py
+Mbedder/embeddings.py
+Mbedder.egg-info/PKG-INFO
+Mbedder.egg-info/SOURCES.txt
+Mbedder.egg-info/dependency_links.txt
+Mbedder.egg-info/requires.txt
+Mbedder.egg-info/top_level.txt
+examples/__init__.py
