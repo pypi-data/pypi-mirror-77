@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: beautifulworld
+Version: 0.0.3
+Summary: Package for visualizing data about cities
+Home-page: https://github.com/barissayil/beautifulworld
+Author: Baris Sayil
+Author-email: barissayil@protonmail.com
+License: MIT
+Download-URL: https://pypi.org/project/beautifulworld/
+Keywords: World,Cities
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: bs4
+Requires-Dist: seaborn
+Requires-Dist: numpy
+
+Package for visualizing data about cities
+
+
+```
+pip install beautifulworld
+```
+
+
