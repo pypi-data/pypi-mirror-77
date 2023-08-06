@@ -1,0 +1,8 @@
+setup.py
+danniexPipTest.egg-info/PKG-INFO
+danniexPipTest.egg-info/SOURCES.txt
+danniexPipTest.egg-info/dependency_links.txt
+danniexPipTest.egg-info/top_level.txt
+piptest/__init__.py
+piptest/hello.py
+piptest/module2.py
