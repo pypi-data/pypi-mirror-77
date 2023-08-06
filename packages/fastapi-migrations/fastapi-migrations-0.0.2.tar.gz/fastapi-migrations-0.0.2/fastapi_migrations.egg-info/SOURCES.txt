@@ -1,0 +1,8 @@
+README.md
+setup.py
+fastapi-migrations/__init__.py
+fastapi_migrations.egg-info/PKG-INFO
+fastapi_migrations.egg-info/SOURCES.txt
+fastapi_migrations.egg-info/dependency_links.txt
+fastapi_migrations.egg-info/not-zip-safe
+fastapi_migrations.egg-info/top_level.txt
