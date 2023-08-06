@@ -1,0 +1,10 @@
+README.md
+setup.py
+bmandk/__init__.py
+bmandk/pyplanet_agones/__init__.py
+pyplanet_agones.egg-info/PKG-INFO
+pyplanet_agones.egg-info/SOURCES.txt
+pyplanet_agones.egg-info/dependency_links.txt
+pyplanet_agones.egg-info/not-zip-safe
+pyplanet_agones.egg-info/requires.txt
+pyplanet_agones.egg-info/top_level.txt
