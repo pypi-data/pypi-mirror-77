@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: MangadexDownloaderLib
+Version: 1.0.1
+Summary: fast downloading manga from mangadex in pdf format
+Home-page: https://github.com/ittybe/MangadexDownloaderLib
+Author: ittybe
+Author-email: ittybemain@gmail.com
+License: Mozilla Public License Version 2.0
+Keywords: Mangadex manga fast pdf multithreading_parsing
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: Pillow (==7.2.0)
+Requires-Dist: PyPDF2 (==1.26.0)
+Requires-Dist: requests (==2.24.0)
+
+visit homepage please
+
+
