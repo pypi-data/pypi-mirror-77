@@ -1,0 +1,12 @@
+tea_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tea_client/errors.py,sha256=PSQbBUt0qPNRCW_FSTwiqSy3No1BxiiOJYLjAgZEEpM,2197
+tea_client/handler.py,sha256=j5ufWiXhaWkeCPPDt0YwMDbCSfpSOxnHntltHbNTxCg,333
+tea_client/http.py,sha256=w4dz4uXW_A64lhHCAhgPkSW5ihSelHuJ-2J2MCJQhtw,9483
+tea_client/models.py,sha256=K5pa7W0AXqu7vkM66QjOVOBCGqY7SYFFjJqHrShQvow,787
+tea_client/version.py,sha256=x77cQsxHTiE8VUTLcl9wByGKVarg7vd6nDlgRTLnVqE,474
+tea_client-0.0.3.dist-info/AUTHORS,sha256=WKPtGSdpmKLMed-aR9w-fSGDCL8iXqA68126NERcTOk,93
+tea_client-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tea_client-0.0.3.dist-info/METADATA,sha256=LqiiXu5HMh29P0ENP1jWBHWwVa-QERdUvPw8YrqSnWA,721
+tea_client-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tea_client-0.0.3.dist-info/top_level.txt,sha256=z0LXb5jxd3Tp0CDwp6dCPMy96ROfRv965wMPuHyK7gA,11
+tea_client-0.0.3.dist-info/RECORD,,
