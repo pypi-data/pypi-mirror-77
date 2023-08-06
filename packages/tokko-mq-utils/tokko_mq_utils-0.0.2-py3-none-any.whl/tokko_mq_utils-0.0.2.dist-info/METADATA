@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tokko-mq-utils
+Version: 0.0.2
+Summary: Few RabbitMQ tools.
+Home-page: https://github.com/TokkoLabs/services-tokkobroker/libraries/rpc-plugins/tokko_rpc
+Author: Jose Salgado
+Author-email: jsalgado@navent.com
+License: BSD License
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pika (==1.1.0)
+
+UNKNOWN
+
+
