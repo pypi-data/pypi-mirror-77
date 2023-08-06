@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+libpythonpro/__init__.py
+libpythonpro/github_api.py
+rbm_libpythonpro.egg-info/PKG-INFO
+rbm_libpythonpro.egg-info/SOURCES.txt
+rbm_libpythonpro.egg-info/dependency_links.txt
+rbm_libpythonpro.egg-info/not-zip-safe
+rbm_libpythonpro.egg-info/requires.txt
+rbm_libpythonpro.egg-info/top_level.txt
