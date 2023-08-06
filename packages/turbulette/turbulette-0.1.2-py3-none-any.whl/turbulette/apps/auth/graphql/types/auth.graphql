@@ -1,0 +1,13 @@
+directive @scope(permissions: [String!], is_staff: Boolean) on FIELD_DEFINITION
+directive @access_token_required on FIELD_DEFINITION
+
+type JsonWebToken {
+  accessToken: String
+  refreshToken: String
+  errors: [String]
+}
+
+type AccessToken {
+  accessToken: String
+  errors: [String]
+}
