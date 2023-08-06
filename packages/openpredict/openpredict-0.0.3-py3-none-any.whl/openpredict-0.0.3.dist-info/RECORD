@@ -1,0 +1,11 @@
+openpredict/__init__.py,sha256=07NzQXBgNlnw5kSN6ZYxE9By-_RuH3Jyy58Z74sIio0,21
+openpredict/__main__.py,sha256=vcZB-hgI993Qj5osE6QteGT4a68RYwTyedpupPhdeFs,939
+openpredict/openpredict_api.py,sha256=X0rkAAtK0vxGlsXU283f-rzmnuxoDxXgOF7NffN61i0,4181
+openpredict/openpredict_omim_drugbank.py,sha256=4kScFD9b89CPbEGAlopdSPrfNgXleUBFfa43VASZxE4,20295
+openpredict/utils.py,sha256=J9ztCUyVFBhMGYNAKgLAXRDJBBVvEzGNEmUNAkNFTmA,14
+openpredict-0.0.3.dist-info/LICENSE,sha256=WmxErtD-V78fBKgWvw42TkIXScXE6DtnZZ61yzkMO-E,1071
+openpredict-0.0.3.dist-info/METADATA,sha256=D2adZRwOTsyaJhkgrUP_97fxyX0aASsHOeuuHQA5epA,5314
+openpredict-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+openpredict-0.0.3.dist-info/entry_points.txt,sha256=MSPvqp9ofI-7iqon892Kd0_nhJE7rov-b1kOqlu17B4,59
+openpredict-0.0.3.dist-info/top_level.txt,sha256=De6Cc3NNrJN9mporDJJ1OPkxhnFovwfW4e6__VQwNM0,12
+openpredict-0.0.3.dist-info/RECORD,,
