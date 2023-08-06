@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pomodoro/__init__.py
+pomodoro/pomodoro.py
+pomodorobot.egg-info/PKG-INFO
+pomodorobot.egg-info/SOURCES.txt
+pomodorobot.egg-info/dependency_links.txt
+pomodorobot.egg-info/entry_points.txt
+pomodorobot.egg-info/top_level.txt
