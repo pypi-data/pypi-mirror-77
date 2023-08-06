@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: dolmen.forms.wizard
+Version: 0.1
+Summary: Wizard for zeam.form
+Home-page: UNKNOWN
+Author: Christian Klinger
+Author-email: cklinger@novareto.de
+License: GPL
+Description: ===================
+        dolmen.forms.wizard
+        ===================
+        
+        
+        
+        Changelog
+        =========
+        
+        0.1 (2020-08-25)
+        ----------------
+        
+        * Initial release
+        
+Keywords: Zeam Grok Dolmen Wizard
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Zope3
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Provides-Extra: test
