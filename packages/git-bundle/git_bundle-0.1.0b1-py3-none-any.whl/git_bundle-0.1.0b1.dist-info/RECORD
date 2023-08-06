@@ -1,0 +1,10 @@
+gitbundle/_config/config_test.yaml,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitbundle/branch/CurrentBranchResolver.py,sha256=Isv0OOxc8_2aV1g4YTu1HS6r_85TrPFxIen_Iu4YL7I,764
+gitbundle/containerInit.py,sha256=KrW3WezHeBRbdP98RpY6nCY_4nD5rHzsHSBMDNkuiLk,685
+gitbundle/GitBundle.py,sha256=YcSxEHK1-3_zB3xbVQRsgLZ16jb3LIHT9F-bLTDHB-4,858
+gitbundle/GitBundleTest.py,sha256=d1crY9aw41vsTbtAJUHoXJVsl_DCCs00E3zwHS0k2Mc,527
+gitbundle/repository/CurrentRepositoryFactory.py,sha256=zyDt1t21IWbv6lIOInakSzuDr21Qe2PUFf7QFRhfeTo,514
+git_bundle-0.1.0b1.dist-info/LICENSE,sha256=p9qOsNzKt71jf-HqXcPq37l1LUkod01gTPiBMc2UVOI,1060
+git_bundle-0.1.0b1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+git_bundle-0.1.0b1.dist-info/METADATA,sha256=1ttMHTI5X79MMsPmSd9DEgFw6sTyi65v_cyDgJfSWrA,652
+git_bundle-0.1.0b1.dist-info/RECORD,,
