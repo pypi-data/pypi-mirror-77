@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: fastapi-oidc
+Version: 0.0.4
+Summary: WIP | COMING SOON A simple library for parsing and verifying externally issued OIDC ID tokens in fastapi.
+Home-page: https://github.com/HarryMWinters/fastapi-oidc
+License: MIT
+Author: HarryMWinters
+Author-email: harrymcwinters@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: cachetools (>=4.1.1,<5.0.0)
+Requires-Dist: fastapi (>=0.61.0,<0.62.0)
+Requires-Dist: pydantic (>=1.6.1,<2.0.0)
+Requires-Dist: python-jose[cryptography] (>=3.2.0,<4.0.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Project-URL: Documentation, https://github.com/HarryMWinters/fastapi-oidc
+Project-URL: Repository, https://github.com/HarryMWinters/fastapi-oidc
+Description-Content-Type: text/markdown
+
+# fastapi OIDC WIP | COMING SOON
+
+Verify and decrypt 3rd party OIDC ID tokens to protect your [fastapi](https://github.com/tiangolo/fastapi) endpoints.
+
+ReadTheDocs:
+
+Source code: [github](https://github.com/HarryMWinters/fastapi-oidc)
+
+## Table of Contents
+
+- Quick start
+- Troubleshooting
+- ReadTheDocs
+- Example
+
+### Quick Start
+
+`pip install fastapi-oidc`
+
+#### Verify ID Tokens Issued by Third Party
+
+This is great if you just want to use something like Okta or google to handle
+your auth. All you need to do is verify the token and then you can extract user
+ID info from it.
+
+```python3
+from fastapi import Depends
+from fastapi import FastAPI
+
+# Set up our OIDC
+from fastapi_oidc import IDToken
+from fastapi_oidc import get_auth
+
+OIDC_config = {
+    "client_id": "",
+    "base_authorization_server_uri": "",
+    "issuer": "",
+    "signature_cache_ttl": int,
+}
+
+authenticate_user: Callable = get_auth(**OIDC_config)
+
+app = FastAPI()
+
+@app.get("/protected")
+def protected(id_token: IDToken = Depends(authenticate_user)):
+    return {"Hello": "World", "user_email": id_token.email}
+```
+
