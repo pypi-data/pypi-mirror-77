@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: equation-solver-abhhii
+Version: 0.0.1
+Summary: This package allows us to solve linear equations encoded in json form
+Home-page: https://github.com/abhhii/equationSolver
+Author: Abhishek Singhal
+Author-email: abhhii.cse@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Equation Solver
+
+This package can be used to solve linear equations encode in JSON.
+Sample format is given below:  
+
+```
+{
+    "op": "equal",
+    "lhs": {
+        "op": "add",
+        "lhs": 1,
+        "rhs": {
+            "op": "multiply",
+            "lhs": "x",
+            "rhs": 10
+        }
+    },
+    "rhs": 21
+}
+
+```
+
+A driver program is included in the package to give an idea how to use the package.
+
