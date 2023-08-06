@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: jqviz
+Version: 0.0.2
+Summary: Visualize your jq commands
+Home-page: https://github.com/jkubicek/jkviz
+Author: Jim Kubicek
+Author-email: jim@jimkubicek.com
+Maintainer: Jim Kubicek
+Maintainer-email: jim@jimkubicek.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: Flask
+
+`jqviz` will let you iterate over a `jq` string in your browser.
+
+To use, you must already have [jq] installed.
+
+```bash
+jqviz my_test_file.json
+```
+
+To quit, hit the "quit" button in the browser window that opens, or `cmd-C` in the terminal window.
+
+
+[jq]: https://stedolan.github.io/jq/
+
