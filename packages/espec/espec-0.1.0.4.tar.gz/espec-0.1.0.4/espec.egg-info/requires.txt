@@ -1,0 +1,6 @@
+guang
+python-Levenshtein
+psutil
+pretty_errors
+ephem
+dill

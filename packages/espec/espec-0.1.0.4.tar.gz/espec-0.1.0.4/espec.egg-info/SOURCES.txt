@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+espec/__init__.py
+espec/espec.py
+espec/get_version.py
+espec/version.py
+espec.egg-info/PKG-INFO
+espec.egg-info/SOURCES.txt
+espec.egg-info/dependency_links.txt
+espec.egg-info/requires.txt
+espec.egg-info/top_level.txt
