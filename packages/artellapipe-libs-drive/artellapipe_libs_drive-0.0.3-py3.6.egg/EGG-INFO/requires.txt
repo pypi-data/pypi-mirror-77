@@ -1,0 +1,10 @@
+gspread==3.6.0
+oauth2client==4.1.3
+tpDcc-libs-python
+artellapipe
+
+[dev]
+wheel
+
+[test]
+pytest
