@@ -1,0 +1,10 @@
+spotify_client/__init__.py,sha256=wW7PpqzF_VWlt3LaE82u6yOUDZd7PM2pzibM3l1cCR8,34
+spotify_client/client.py,sha256=zfnnNsnlZi74D6jLyex7cu6V4T9sDo8lp4P8yVzAdIM,22699
+spotify_client/exceptions.py,sha256=ZyzyoyqspJANzSpSrqkNaB7Y2lo_FENh_1wHziVYfiA,223
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_spotify_client.py,sha256=CqQ4Ydx_jyV0t8Rdl3q_4MNli-QJjNpTqQxAf0DhNB0,29094
+spotify_client-0.0.2.dist-info/LICENSE,sha256=KccobEjqsiocJM5Tsv2iSc3_XCOIGImvGX17BgCD74g,1068
+spotify_client-0.0.2.dist-info/METADATA,sha256=RUOyQ0sBUjm0dq4BySy-zmhYe19D3Z8tBw5VAPDBJVA,1694
+spotify_client-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+spotify_client-0.0.2.dist-info/top_level.txt,sha256=buyzC0rz-HItHeCs5J663VpHPR6H55SLG14J5ky0CrU,21
+spotify_client-0.0.2.dist-info/RECORD,,
