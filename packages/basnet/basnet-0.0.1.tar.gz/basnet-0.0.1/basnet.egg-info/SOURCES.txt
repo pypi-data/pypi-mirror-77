@@ -1,0 +1,5 @@
+setup.py
+basnet.egg-info/PKG-INFO
+basnet.egg-info/SOURCES.txt
+basnet.egg-info/dependency_links.txt
+basnet.egg-info/top_level.txt
