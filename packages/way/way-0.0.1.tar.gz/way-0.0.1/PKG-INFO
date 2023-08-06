@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: way
+Version: 0.0.1
+Summary: filesystem tools
+Home-page: https://github.com/pydget/way
+License: MIT
+Keywords: fs,listdir,path,get_files
+Author: Hoyeung Wong
+Author-email: hoyeungw@outlook.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: ject (>=0.0.3,<0.0.4)
+Project-URL: Repository, https://github.com/pydget/way
+Description-Content-Type: text/markdown
+
+# way
+##### filesystem tools
+
+### Usage
+```python
+from way import get_files
+
+SRC = './'
+files = get_files(SRC, 
+                  predicate=lambda f: not f.startswith('_'), 
+                  extension='.py')
+print(SRC, ':', files)
+```

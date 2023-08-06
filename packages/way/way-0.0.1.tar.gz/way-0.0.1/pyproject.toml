@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "way"
+version = "0.0.1"
+description = "filesystem tools"
+authors = ["Hoyeung Wong <hoyeungw@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/pydget/way"
+repository = "https://github.com/pydget/way"
+keywords = [
+    "fs", "listdir", "path", "get_files"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ject = "^0.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = ">=6.0.0"
+pyspare = "^0.0.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
