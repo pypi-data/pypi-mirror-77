@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: typo_pypi
+Version: 0.1.3
+Summary: experimental approach for an empirical study for my thesis
+Home-page: https://github.com/leodelasoul/typo_pypi
+Author: Leonid Ricker
+Author-email: l.ricker93@web.de
+License: MIT
+Description: 
+        ### typo_pypi, experimental methods 
+        
+        *insert a UML diagram for all classes*  
+        analizer: forms list from  package managers  
+        validater: checks typos for any squats or malicious code
+        server: handles http stuff  
+        algos: mostly levenshtein delete-insert typo generation
+        
+        * should back theoretical claims in thesis work
+        * could be used for a possible API used by a standalone security pypi module 
+        * a yet pretty slow and naive implementation
+        
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
