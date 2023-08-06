@@ -1,0 +1,13 @@
+audioio/__init__.py,sha256=j_EoJfbO6BoC5R5-YEI65gHG6psgAhi4L2Rzz3cVvGM,1138
+audioio/audioconverter.py,sha256=IvVWhML_DMPkj8CeXXck-9EtAZJtbzHbYdqXbXXmDgA,3537
+audioio/audioloader.py,sha256=XGcspQM63BEtZ60pMYiTo70DO0l4QKze6zQm9-FAOCw,50814
+audioio/audiomodules.py,sha256=CXW2tqI45Yny_C_oLMk1qVSR00VQiQQMDzZOmNSsGUE,13765
+audioio/audiowriter.py,sha256=Eh0LA37cjsddlS_qB2KZqU5wDIed5yjachPPiSkN7-E,20586
+audioio/playaudio.py,sha256=5NlxfO-AzVKdNKBAybxEu-H1z-CwcX9bxhjjj3fw28s,32362
+audioio/version.py,sha256=BzqcSx8_pPgEeJW2yK4ZU52Kgz2wiBf5lNzIcJNHKEA,41
+audioio-0.9.3.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+audioio-0.9.3.dist-info/METADATA,sha256=GdYTPKj3IJd1ZrlA6crVfnA6sDQ9hpzhMkaERX0ZAhg,4267
+audioio-0.9.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+audioio-0.9.3.dist-info/entry_points.txt,sha256=Km0F2DUzlfq8NZYq4pvZfwwQabgKw1OShddrC-XwpEY,105
+audioio-0.9.3.dist-info/top_level.txt,sha256=lyWJEGZmLxlEDWe7Xx4cdIoHDdzzA8_NAWrtBIy8fUg,8
+audioio-0.9.3.dist-info/RECORD,,
