@@ -1,0 +1,8 @@
+hydraseq/__init__.py,sha256=GEGoP1T5h2zwSDYJnQdZQaI5fXzqlX3Ta6gcdkga0t4,154
+hydraseq/automata.py,sha256=K_uc3pWHAQ5UA12WMCS7ini2zk-0uVpN43JrOBq_Epo,2510
+hydraseq/hydraseq.py,sha256=F6Rlu6_xEZhyDOcOblODkzklCNQjzhIN6EutMy0hIB0,16443
+hydraseq-0.0.30.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+hydraseq-0.0.30.dist-info/METADATA,sha256=BgOgQUN_A2rzX_uvs7nJG4HOw9w_hV0e6IPl6m2tEwk,482
+hydraseq-0.0.30.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+hydraseq-0.0.30.dist-info/top_level.txt,sha256=bpGQ_iBCn0Ld-pYPpLNOSsPtNvK7LZLiapHa2t7jymQ,9
+hydraseq-0.0.30.dist-info/RECORD,,
