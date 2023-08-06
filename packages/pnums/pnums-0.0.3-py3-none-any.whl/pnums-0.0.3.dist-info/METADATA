@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pnums
+Version: 0.0.3
+Summary: A library that encodes coordinates so neural networks can use them better.
+Home-page: https://github.com/simleek/pnums
+License: MIT
+Author: SimLeek
+Author-email: simulator.leek@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: numpy (==1.16.1)
+Requires-Dist: scipy (>=1.4.1,<2.0.0)
+Project-URL: Repository, https://github.com/simleek/pnums
+Description-Content-Type: text/x-rst
+
+PCoords
+=======
+Neural Coordinates
+
+Installation
+------------
+Will be pip installable on first release.
