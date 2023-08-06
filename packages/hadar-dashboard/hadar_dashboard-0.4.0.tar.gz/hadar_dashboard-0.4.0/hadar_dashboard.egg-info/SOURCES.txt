@@ -1,0 +1,9 @@
+README.md
+setup.py
+hadar_dashboard/__init__.py
+hadar_dashboard/dashboard.py
+hadar_dashboard.egg-info/PKG-INFO
+hadar_dashboard.egg-info/SOURCES.txt
+hadar_dashboard.egg-info/dependency_links.txt
+hadar_dashboard.egg-info/requires.txt
+hadar_dashboard.egg-info/top_level.txt
