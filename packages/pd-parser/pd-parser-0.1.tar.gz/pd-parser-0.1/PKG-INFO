@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pd-parser
+Version: 0.1
+Summary: pd-parser: Take a potentially corrupted photodiode channel and find the event time samples at which it turned on.
+Home-page: https://github.com/alexrockhill/pd-parser/
+Maintainer: Alex Rockhill
+Maintainer-email: aprockhill@mailbox.org
+License: BSD (3-clause)
+Download-URL: https://github.com/alexrockhill/pd-parser.git
+Project-URL: Bug Reports, https://github.com/alexrockhill/pd-parser/issues
+Project-URL: Source, https://github.com/alexrockhill/pd-parser
+Description: pd-parser
+        ---------
+        A tool to parse photodiode events from a possibly corrupted channel, compatible with BIDS formatting
+        
+        Installation Instructions
+        -------------------------
+        1) Install the latest version of anaconda (https://www.anaconda.com/products/individual) or python (https://www.python.org/downloads/) and make sure that you add the installed packages to the path.
+        
+        2) Run ``pip install pd-parser`` in a terminal.
+        
+        Corrupted data may look like so:
+        
+        .. image:: ./figs/exclude_event.png
+           :width: 800
+        
+        .. image:: ./figs/event_diffs.png
+           :width: 400
+        
+        Alex Rockhill
+        Eugene, OR 2020
+Platform: any
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: ~=3.5
+Description-Content-Type: text/x-rst
