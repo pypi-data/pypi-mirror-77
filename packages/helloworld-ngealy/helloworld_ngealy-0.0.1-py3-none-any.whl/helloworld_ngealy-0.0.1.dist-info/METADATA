@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: helloworld-ngealy
+Version: 0.0.1
+Summary: Say hello!
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: blessings (~=1.7)
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+# Hello Wolrd
+This is an example project demonstrating how to publish a python module in PyPI.
+
+# Installation
+
+Run the following to install:
+ ```python 
+ pip install helloworld
+ ```
+
+ ## Usage
+
+```python
+from hello import say_hello
+
+# Generate "Hello, World!"
+say_hello()
+
+# Generate "Hello, Everyboyd!"
+say_hello("Everybody")
+```
+
+# Developing Hello Wolrd
+
+To install helloworld, along with the tools you need to develop and run tests, run the following in your virtualenv:
+
+```bash
+$ pip install -e '.[dev]'
+```
+
