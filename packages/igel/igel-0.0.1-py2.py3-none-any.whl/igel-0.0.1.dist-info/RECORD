@@ -1,0 +1,10 @@
+igel/__init__.py,sha256=OYj-CJn5rYuS0hTVgQfIDiu2emE6CX_F5HoDvC3EnSg,127
+igel/cli.py,sha256=J4HAMjFkpqbJsUZYhnDbQzU0bG8p_OaIveUtqCXzEck,390
+igel/igel.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+igel-0.0.1.dist-info/AUTHORS.rst,sha256=071ps4AaRPYiMxjqG-sd3nD0il5cs6voEpzGC_6Gw9g,161
+igel-0.0.1.dist-info/LICENSE,sha256=kMbc3iFAtRwil-cFCHKHUkHuvbV-zCuLMTGYFV2O5WA,1074
+igel-0.0.1.dist-info/METADATA,sha256=qYz54rMLfUQOspVCvF7VcFDcu9GWj50XyCn8IasXgoc,1753
+igel-0.0.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+igel-0.0.1.dist-info/entry_points.txt,sha256=idc9snr3uQfv5S569pOYpMG3Vl-scmapNto9r59bqc0,40
+igel-0.0.1.dist-info/top_level.txt,sha256=3DmuXNAGeXOkak-SLo68BtolI5dqGrCfArH7W0JOnJ0,5
+igel-0.0.1.dist-info/RECORD,,
