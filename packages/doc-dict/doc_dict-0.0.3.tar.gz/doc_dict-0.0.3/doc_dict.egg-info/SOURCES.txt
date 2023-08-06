@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+doc_dict/__init__.py
+doc_dict/datastructures.py
+doc_dict/factory.py
+doc_dict.egg-info/PKG-INFO
+doc_dict.egg-info/SOURCES.txt
+doc_dict.egg-info/dependency_links.txt
+doc_dict.egg-info/top_level.txt
+tests/__init__.py
+tests/test_factory.py
