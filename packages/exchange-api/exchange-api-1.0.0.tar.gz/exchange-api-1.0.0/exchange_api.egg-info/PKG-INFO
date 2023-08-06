@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: exchange-api
+Version: 1.0.0
+Summary: A Framework for Abstracting Crypto-Currency Exchange APIs
+Home-page: https://github.com/gaberust/exchange_api
+Author: Cory Cline, Gabe Rust
+License: LICENSE
+Description: # Exchange API
+        _&copy; Cory Cline, Gabe Rust_
+        
+        This is a Python package for use in a universal crypto-currency exchange interface.
+        It includes the `Exchange` class, which is intended to be subclassed by unique API client implementations.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
