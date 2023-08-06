@@ -1,0 +1,6 @@
+httptools~=0.0.13
+certifi
+cchardet~=2.1.5
+guardpost~=0.0.5
+rodi~=1.0.8
+essentials~=1.1.3
