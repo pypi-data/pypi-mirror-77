@@ -1,0 +1,7 @@
+README.md
+setup.py
+pycollector.egg-info/PKG-INFO
+pycollector.egg-info/SOURCES.txt
+pycollector.egg-info/dependency_links.txt
+pycollector.egg-info/requires.txt
+pycollector.egg-info/top_level.txt
