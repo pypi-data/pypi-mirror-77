@@ -1,0 +1,147 @@
+# Sumo Logic AWS CloudFormation Testing Framework
+
+The framework can be used to test the full life cycle of a AWS CloudFormation template from Validation, Deployment, Post Deployment and Clean Up.
+
+The framework performs below life cycle events for an AWS CloudFormation template:
+1. Pre Deployment Event - Perform pre validation which include CFN Linting and CFN Nag to check for validation issue and security issue.
+2. Deploy Event - Perform deployment of a CloudFormation template.
+3. Post Deployment Event - Perform post deployment validation like Resource, Outputs and parameters checks.
+4. Clean Up Event - Perform clean up of CloudFormation stack.
+
+## Pre Requisite
+
+Before using the testing framework, 
+1. Install AWS CLI on the machine.
+2. Install CFN NAG in the machine. To install CFN NAG, please [visit](https://github.com/stelligent/cfn_nag#installation).
+
+## Installation
+
+Framework can be installed as a python package using `pip3 install sumologic-cfn-tester`
+
+## Usage
+
+To test the CloudFormation template, run command `sumocfntester -f <Test File>`
+
+An Extra flag `-d true` can be used to enable debug logging.
+## Test File
+
+Framework requires a Test File (JSON OR YAML) format, which contains test cases. Below is an example for a valid Test File.
+Comments are added for each field.
+```yaml
+---
+# Global Configuration
+Global:
+  TemplatePath: "../../templates/ParentTemplate.yaml" # Path of the template
+  TestProjectName: BasicTestProject # Test Project Name
+  ParallelTestsRun: 5 # Number of parallel Tests run. Number of stacks will be deployed parallel on AWS.
+  GlobalParameters: # Key value pairs for the CloudFormation template parameter. Key = Parameter Name, value = Parameter value.
+    SumoDeployment: us1
+    SumoAccessID: Parameter_value_2 # You can also provide env variables like ${ENV_1}
+    SumoAccessKey: Parameter_value_1
+    SumoOrganizationId: Parameter_value_2
+    RemoveSumoResourcesOnDeleteStack: 'true'
+# Tests Configuration
+Tests:
+  - TestName: Do_Not_Install_Nested_Stack # Test Case Number 1
+    Regions: # List of regions where you want to deploy the stack.
+      - ap-south-1
+    Parameters: # Contains Path Or Values. Values: Key value pairs for the CloudFormation template parameter. Key = Parameter Name, value = Parameter value.
+      Values:
+        InstallApp: 'No'
+        CreateCloudWatchMetricsSource: 'No'
+    Skip: false # True if need to skip the test case.
+    Assertions: # All Assertions for post deployment validation. Nested Resources can be provided separated by '.'.
+      - AssertType: ResourceExistence # ResourceExistence validation. Can have list of Resources in Assert object.
+        Assert:
+          Resources:
+            - SumoLogicHelperRole
+            - SumoLogicHelperFunction
+            - SumoRole
+            - sumoNestedAppStack.SumoRole # Shows Nested Stack Resource logical ID. sumoNestedAppStack -> Resource Logical ID of Stack in Parent stack. SumoRole = A Resource in Nested Stack.
+      - AssertType: OutputsCheck # OutputsCheck validation. Can have list of Outputs in Assert object.
+        Assert:
+          Outputs:
+            - LambdaHelperARN
+            - LambdaRoleARN
+            - SumoRoleARN
+            - sumoNestedAppStack.SumoRoleARN
+      - AssertType: ParameterCheck # ParameterCheck validation. Can have Dictionary of Parameters in Assert object.
+        Assert:
+          sumoNestedAppStack: # Resource logical ID. Key value pairs for the CloudFormation template parameter. Key = Parameter Name, value = Parameter value.
+            ParentStackName: MasterTemplate
+            InstallApp: 'Yes'
+          sumoNestedAppStack.sumoNestedAppStack: # Resource logical ID. Key value pairs for the CloudFormation template parameter. Key = Parameter Name, value = Parameter value.
+            ParentStackName: DoNotInstall
+            InstallApp: 'Yes'
+  - TestName: Install_Nested_Stack # Test Case Number 2
+    Regions:
+      - ap-south-1
+    Parameters:
+      Path: Install_Nested_Stack.yaml # Contains Path Or Values. Path: Path of the parameter file.
+    Skip: false
+    Assertions:
+      - AssertType: ResourceExistence
+        Assert:
+          Resources:
+            - SumoLogicHelperRole
+            - SumoLogicHelperFunction
+            - SumoRole
+            - sumoNestedAppStack.SumoRole
+            - sumoNestedAppStack
+            - sumoNestedAppStack.sumoNestedAppStack
+      - AssertType: OutputsCheck
+        Assert:
+          Outputs:
+            - LambdaHelperARN
+            - LambdaRoleARN
+            - SumoRoleARN
+            - sumoNestedAppStack
+            - sumoNestedAppStack.SumoRoleARN
+            - sumoNestedAppStack.sumoNestedAppStack
+      - AssertType: ParameterCheck
+        Assert:
+          sumoNestedAppStack:
+            ParentStackName: MasterTemplate
+            InstallApp: 'Yes'
+          sumoNestedAppStack.sumoNestedAppStack:
+            ParentStackName: DoNotInstall
+            InstallApp: 'Yes'
+```
+## Process Flow
+
+Below Steps explains all the processes a CF template goes through.
+
+#### Pre Deployment
+
+For Pre Deployment testing (Validation done on CF template before deploying it on AWS), we use below third party packages.
+
+A. [CFN PYTHON LINT](https://github.com/aws-cloudformation/cfn-python-lint)
+- Install the dependency using `pip install cfn-lint`.
+- Helps to perform some basic validation on CF template to check the resources, mapping, parameters.
+- It also checks for conditional dependencies within CF templates.
+- For more details on all rules, try running `cfn-lint -l` after installing dependency.
+
+B. [CFN NAG](https://github.com/stelligent/cfn_nag)
+- The dependency require ruby to installed on the machine.
+- The dependency can be installed using `gem install cfn-nag`
+- Helps to check basic rules like S3 Bucket policy, Wild cards checks etc.
+
+#### Deployment
+
+Deployment process deploys the CloudFormation template to AWS account with the mentioned regions.
+
+#### Post Deployment
+
+Post Deployment process check for below validation on the deployed CloudFormation stack.
+
+A. ResourceExistence - The validation checks for all mentioned resources in your CloudFormation stack and corresponding nested stacks.
+B. OutputsCheck - The validation checks for all mentioned resources in your CloudFormation stack and corresponding nested stacks.
+C. ParameterCheck - The validation checks for all mentioned resources in your CloudFormation stack and corresponding nested stacks.
+
+#### Clean Up
+
+Clean Up process deletes the deployed stack from AWS account.
+
+#### Report Generation
+
+A report will be generated for each test file with the status of the test cases within the test files.
