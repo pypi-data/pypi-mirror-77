@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pytest-drf
+Version: 1.0.3
+Summary: A Django REST framework plugin for pytest.
+Home-page: https://github.com/theY4Kman/pytest-drf
+License: MIT
+Keywords: pytest,django,djangorestframework
+Author: Zach "theY4Kman" Kanzler
+Author-email: they4kman@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Django
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Testing
+Requires-Dist: djangorestframework (>3)
+Requires-Dist: inflection (>=0.3.1,<0.4.0)
+Requires-Dist: pytest (>=3.6)
+Requires-Dist: pytest-assert-utils (>=0,<1)
+Requires-Dist: pytest-common-subject (>=1.0,<2.0)
+Requires-Dist: pytest-lambda (>=1.1,<2.0)
+Description-Content-Type: text/markdown
+
+# pytest-drf
+
+[![PyPI version](https://badge.fury.io/py/pytest-drf.svg)](https://badge.fury.io/py/pytest-drf)
+[![Build Status](https://travis-ci.org/theY4Kman/pytest-drf.svg?branch=master)](https://travis-ci.org/theY4Kman/pytest-drf)
+
+pytest-drf is a [pytest](http://pytest.org) plugin for testing your [Django REST Framework](https://www.django-rest-framework.org/) APIs.
+
+Much like Django REST Framework offers conventions and conveniences to ease the development of Django-powered APIs, pytest-drf offers conventions and conveniences to ease the development of DRF API tests.
+
+Where DRF provides API Views, pytest-drf provides `APIViewTest`
+```python
+
+```
+
