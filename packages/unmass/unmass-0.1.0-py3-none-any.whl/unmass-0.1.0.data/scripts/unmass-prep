@@ -1,0 +1,303 @@
+#!/usr/bin/env bash
+# Copyright (c) 2019-present, Facebook, Inc.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# NOTICE FILE in the root directory of this source tree.
+#
+# Revisions:
+#  * July 2020: Thamme Gowda; simplification and generalization for any two pairs of languages
+#
+
+set -e
+
+MAIN_PATH=$PWD
+#
+# Data preprocessing configuration
+#
+N_MONO=7000000  # number of monolingual sentences for each language
+CODES=64000     # number of BPE codes
+#CHAR_COVERAGE=0.9998
+ # number of threads in data preprocessing
+N_THREADS=$(python -c "import multiprocessing as mp; print(min(16, mp.cpu_count()))")
+#LWLL_DATA=/home/tgowda/work/lwll/runs/y1-dev/data
+TOOLS_PATH=$PWD/tools
+
+#
+# Read arguments
+#
+DATA_PATH=
+MONO_PREF=
+PARA_VAL_PREF=
+POSITIONAL=()
+while [[ $# -gt 0 ]]; do
+  key="$1"
+  case $key in
+    --src)
+      SRC="$2"; shift 2;;
+    --tgt)
+      TGT="$2"; shift 2;;
+    --mono)
+      MONO_PREF="$2"; shift 2;;
+    --n_mono)
+      N_MONO="$2"; shift 2;;
+    --para_val)
+      PARA_VAL_PREF="$2"; shift 2;;
+    --data)
+      DATA_PATH="$2"; shift 2;;
+    --tools)
+      TOOLS_PATH="$2"; shift 2;;
+    --bpe)
+      CODES="$2"; shift 2;;
+    --reload_codes)
+      RELOAD_CODES="$2"; shift 2;;
+    --reload_vocab)
+      RELOAD_VOCAB="$2"; shift 2;;
+    *)
+    POSITIONAL+=("$1")
+    shift;;
+  esac
+done
+set -- "${POSITIONAL[@]}"
+
+quit(){  # quit with error message
+  printf "ERROR: $2\n"
+  exit $1
+}
+#
+# Check parameters
+#
+[[ -n "$SRC" ]] || quit 1 "--src not provided"
+[[ -n "$TGT" ]] || quit 1 "--tgt not provided"
+[[ -n "$DATA_PATH" ]] || quit 1 "--data path/to/store/data is required"
+[[ -n "$MONO_PREF" ]] ||quit 1 "--mono mono text path prefix required"
+[[ -n "$PARA_VAL_PREF" ]] || quit 1 "--para_val validation data (bitext) required"
+
+[[ "$SRC" != "$TGT" ]] || quit 1  "source and target cannot be identical"
+[[ "$SRC" < "$TGT" ]] || quit 1  "please ensure SRC < TGT"
+[[ -z "$RELOAD_CODES"  && ! -f "$RELOAD_CODES" ]] || quit 1 "cannot locate BPE codes"
+[[ -z "$RELOAD_VOCAB"  && ! -f "$RELOAD_VOCAB" ]] || quit 1  "cannot locate vocabulary"
+if [[ -z "$RELOAD_CODES" &&  -n "$RELOAD_VOCAB" || -n "$RELOAD_CODES" && -z "$RELOAD_VOCAB" ]]
+then
+  echo "BPE codes should be provided if and only if vocabulary is also provided";
+  exit
+fi
+python -m unmass.preprocess -h &> /dev/null || quit 3 "Unable to run 'python -m unmass.preprocess'; Please fix your PYTHONPATH or install unmass"
+#nlcodec -h &> /dev/null  || quit 3 "Please install nlcodec by 'pip install nlcodec'"
+
+SRC_ORIG=$MONO_PREF.$SRC
+TGT_ORIG=$MONO_PREF.$TGT
+PARA_SRC_VALID_ORIG=$PARA_VAL_PREF.$SRC
+PARA_TGT_VALID_ORIG=$PARA_VAL_PREF.$TGT
+
+[[ -f $SRC_ORIG ]] || { echo "SRC_ORIG $SRC_ORIG not found"; exit 2; }
+[[ -f $TGT_ORIG ]] || { echo "TGT_ORIG $TGT_ORIG not found"; exit 2; }
+
+for var in {SRC,TGT}_ORIG  PARA_{SRC,TGT}_VALID_ORIG; do
+    eval "path=\$$var"
+    if [[ ! -f "$path" ]]; then
+	    echo "$var $path not found"
+	    exit 3;
+    fi
+done
+
+
+MONO_PATH=$DATA_PATH/mono
+PARA_PATH=$DATA_PATH/para
+PROC_PATH=$DATA_PATH/processed/
+
+# create paths
+[[ -d $TOOLS_PATH ]] || mkdir -p $TOOLS_PATH
+
+FASTBPE_DIR=$TOOLS_PATH/fastBPE
+FASTBPE=$FASTBPE_DIR/fast
+# Download fastBPE
+if [ ! -d "$FASTBPE_DIR" ]; then
+  cd $TOOLS_PATH
+  echo "Cloning fastBPE from GitHub repository..."
+  git clone --depth 1 https://github.com/glample/fastBPE -b master
+  cd $MAIN_PATH
+fi
+if [ ! -f "$FASTBPE" ]; then # Compile fastBPE
+  echo "Compiling fastBPE..."
+  cd $FASTBPE_DIR
+  g++ -std=c++11 -pthread -O3 fastBPE/main.cc -IfastBPE -o fast
+  cd $MAIN_PATH
+fi
+[[ -f "$FASTBPE" ]] || quit 3 "fastBPE not setup. please fix it and rerun"
+mkdir -p $DATA_PATH
+mkdir -p $MONO_PATH
+mkdir -p $PARA_PATH
+mkdir -p $PROC_PATH
+
+PREPROCESS="python -m unmass.preprocess"
+SRC_RAW=$MONO_PATH/$SRC/all.$SRC
+TGT_RAW=$MONO_PATH/$TGT/all.$TGT
+SRC_TOK=$SRC_RAW.tok
+TGT_TOK=$TGT_RAW.tok
+
+# BPE / vocab files
+BPE_CODES=$PROC_PATH/codes
+SRC_VOCAB=$PROC_PATH/vocab.$SRC
+TGT_VOCAB=$PROC_PATH/vocab.$TGT
+FULL_VOCAB=$PROC_PATH/vocab.$SRC-$TGT
+
+# train / valid / test monolingual BPE data
+SRC_TRAIN_BPE=$PROC_PATH/train.$SRC
+TGT_TRAIN_BPE=$PROC_PATH/train.$TGT
+SRC_VALID_BPE=$PROC_PATH/valid.$SRC
+TGT_VALID_BPE=$PROC_PATH/valid.$TGT
+
+# valid/src
+PARA_SRC_VALID=$PARA_PATH/dev/dev.$SRC
+PARA_TGT_VALID=$PARA_PATH/dev/dev.$TGT
+
+# valid / parallel BPE data
+PARA_SRC_VALID_BPE=$PROC_PATH/valid.$SRC-$TGT.$SRC
+PARA_TGT_VALID_BPE=$PROC_PATH/valid.$SRC-$TGT.$TGT
+
+
+
+mkdir -p $MONO_PATH/$SRC  $MONO_PATH/$TGT $PARA_PATH/dev #$PARA_PATH/test
+#cd $MONO_PATH
+
+# concatenate monolingual data files
+if ! [[ -f "$SRC_RAW" ]]; then
+  echo " $SRC monolingual data..."
+  cat $SRC_ORIG | shuf | head -n $N_MONO > $SRC_RAW
+fi
+if ! [[ -f "$TGT_RAW" ]]; then
+  echo " $TGT monolingual data..."
+  cat $TGT_ORIG | shuf | head -n $N_MONO > $TGT_RAW
+fi
+echo "$SRC selected monolingual data in: $SRC_RAW"
+echo "$TGT selected monolingual data in: $TGT_RAW"
+
+SRC_PREPROCESSING="sacremoses -j $N_THREADS -l $SRC normalize -q -d -p -c | sacremoses -j $N_THREADS -l $SRC tokenize -x -a "
+TGT_PREPROCESSING="sacremoses  -j $N_THREADS -l $TGT normalize -q -d -p -c | sacremoses -j $N_THREADS -l $TGT tokenize -x -a "
+
+
+# tokenize data
+if ! [[ -f "$SRC_TOK" ]]; then
+  echo "Normalize and tokenize $SRC monolingual data..."
+  eval "cat $SRC_RAW | $SRC_PREPROCESSING > $SRC_TOK"
+fi
+
+if ! [[ -f "$TGT_TOK" ]]; then
+  echo "Tokenize $TGT monolingual data..."
+  eval "cat $TGT_RAW | $TGT_PREPROCESSING > $TGT_TOK"
+fi
+echo "$SRC monolingual data tokenized in: $SRC_TOK"
+echo "$TGT monolingual data tokenized in: $TGT_TOK"
+
+# reload BPE codes
+#cd $MAIN_PATH
+if [ ! -f "$BPE_CODES" ] && [ -f "$RELOAD_CODES" ]; then
+  echo "Reloading BPE codes from $RELOAD_CODES ..."
+  cp $RELOAD_CODES $BPE_CODES
+fi
+
+# learn BPE codes
+if [ ! -f "$BPE_CODES" ]; then
+  echo "Learning BPE codes using fastBPE..."
+  $FASTBPE learnbpe $CODES $SRC_TOK $TGT_TOK > $BPE_CODES
+  # Step 1 extract term freqs
+  #export SPARK_MASTER="local[${N_THREADS}]"
+  #export SPARK_DRIVER_MEM="8g"
+  #python -m nlcodec.term_freq -i $SRC_TOK $TGT_TOK --no-dedup -cf $PROC_PATH/charfreqs.tsv -wf $PROC_PATH/wordfreqs.tsv
+  # step 2 learn from term freqs.  -tfs indicates input is term freqs
+  #nlcodec learn -l bpe -vs $CODES -cv $CHAR_COVERAGE -m ${BPE_CODES} -tfs -i $PROC_PATH/wordfreqs.tsv
+fi
+echo "BPE learned in $BPE_CODES"
+
+# apply BPE codes
+if ! [[ -f "$SRC_TRAIN_BPE" ]]; then
+  echo "Applying $SRC BPE codes..."
+  $FASTBPE applybpe $SRC_TRAIN_BPE $SRC_TOK $BPE_CODES
+  #nlcodec encode -m $BPE_CODES -i $SRC_TOK  -o $SRC_TRAIN_BPE
+fi
+if ! [[ -f "$TGT_TRAIN_BPE" ]]; then
+  echo "Applying $TGT BPE codes..."
+  $FASTBPE applybpe $TGT_TRAIN_BPE $TGT_TOK $BPE_CODES
+  #nlcodec encode -m $BPE_CODES -i $TGT_TOK  -o $TGT_TRAIN_BPE
+fi
+echo "BPE codes applied to $SRC in: $SRC_TRAIN_BPE"
+echo "BPE codes applied to $TGT in: $TGT_TRAIN_BPE"
+
+# extract source and target vocabulary
+if ! [[ -f "$SRC_VOCAB" && -f "$TGT_VOCAB" ]]; then
+  echo "Extracting vocabulary..."
+  $FASTBPE getvocab $SRC_TRAIN_BPE > $SRC_VOCAB
+  $FASTBPE getvocab $TGT_TRAIN_BPE > $TGT_VOCAB
+fi
+echo "$SRC vocab in: $SRC_VOCAB"
+echo "$TGT vocab in: $TGT_VOCAB"
+
+# reload full vocabulary
+#cd $MAIN_PATH
+if [ ! -f "$FULL_VOCAB" ] && [ -f "$RELOAD_VOCAB" ]; then
+  echo "Reloading vocabulary from $RELOAD_VOCAB ..."
+  cp $RELOAD_VOCAB $FULL_VOCAB
+fi
+
+# extract full vocabulary
+if ! [[ -f "$FULL_VOCAB" ]]; then
+  echo "Extracting vocabulary..."
+  $FASTBPE getvocab $SRC_TRAIN_BPE $TGT_TRAIN_BPE > $FULL_VOCAB
+fi
+echo "Full vocab in: $FULL_VOCAB"
+
+# binarize data
+if ! [[ -f "$SRC_TRAIN_BPE.pth" ]]; then
+  echo "Binarizing $SRC data..."
+  $PREPROCESS $FULL_VOCAB $SRC_TRAIN_BPE
+fi
+if ! [[ -f "$TGT_TRAIN_BPE.pth" ]]; then
+  echo "Binarizing $TGT data..."
+  $PREPROCESS $FULL_VOCAB $TGT_TRAIN_BPE
+fi
+echo "$SRC binarized data in: $SRC_TRAIN_BPE.pth"
+echo "$TGT binarized data in: $TGT_TRAIN_BPE.pth"
+
+#
+# Download parallel data (for evaluation only)
+#
+#cd $PARA_PATH
+
+echo "Tokenizing validation data..."
+eval "cat $PARA_SRC_VALID_ORIG | $SRC_PREPROCESSING > $PARA_SRC_VALID"
+eval "cat $PARA_TGT_VALID_ORIG | $TGT_PREPROCESSING > $PARA_TGT_VALID"
+
+
+echo "Applying BPE to valid and test files..."
+$FASTBPE applybpe $PARA_SRC_VALID_BPE $PARA_SRC_VALID $BPE_CODES $SRC_VOCAB
+$FASTBPE applybpe $PARA_TGT_VALID_BPE $PARA_TGT_VALID $BPE_CODES $TGT_VOCAB
+#nlcodec encode -m $BPE_CODES -i $PARA_SRC_VALID -o $PARA_SRC_VALID_BPE
+#nlcodec encode -m $BPE_CODES -i $PARA_TGT_VALID -o $PARA_TGT_VALID_BPE
+
+echo "Binarizing data..."
+rm -f $PARA_SRC_VALID_BPE.pth $PARA_TGT_VALID_BPE.pth $PARA_SRC_TEST_BPE.pth $PARA_TGT_TEST_BPE.pth
+$PREPROCESS $FULL_VOCAB $PARA_SRC_VALID_BPE
+$PREPROCESS $FULL_VOCAB $PARA_TGT_VALID_BPE
+
+#
+# Link monolingual validation and test data to parallel data
+#
+ln -sf "$(basename $PARA_SRC_VALID_BPE.pth)" $SRC_VALID_BPE.pth
+ln -sf "$(basename $PARA_TGT_VALID_BPE.pth)" $TGT_VALID_BPE.pth
+
+#
+# Summary
+#
+echo ""
+echo "===== Data summary"
+echo "Monolingual training data:"
+echo "    $SRC: $SRC_TRAIN_BPE.pth"
+echo "    $TGT: $TGT_TRAIN_BPE.pth"
+echo "Monolingual validation data:"
+echo "    $SRC: $SRC_VALID_BPE.pth"
+echo "    $TGT: $TGT_VALID_BPE.pth"
+echo "Parallel validation data:"
+echo "    $SRC: $PARA_SRC_VALID_BPE.pth"
+echo "    $TGT: $PARA_TGT_VALID_BPE.pth"
+echo ""
