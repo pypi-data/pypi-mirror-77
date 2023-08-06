@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: preadwrite
+Version: 0.0.1
+Summary: pread, pwrite interface for pypy 6.0
+Home-page: UNKNOWN
+Author: Nohhyun Park
+Author-email: nohhyun.park@gmail.com
+License: MIT License
+Description: Simple pread/pwrite wrapper for pypy 6.0
+        ========================================
+        
+        API is same as python3.3 pread/pwrite.
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: System :: Filesystems
+Classifier: Topic :: System :: Operating System
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown

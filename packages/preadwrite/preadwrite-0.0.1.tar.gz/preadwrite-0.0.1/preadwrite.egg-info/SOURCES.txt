@@ -1,0 +1,10 @@
+README.md
+setup.py
+preadwrite/__init__.py
+preadwrite/main.py
+preadwrite/preadwrite_build.py
+preadwrite.egg-info/PKG-INFO
+preadwrite.egg-info/SOURCES.txt
+preadwrite.egg-info/dependency_links.txt
+preadwrite.egg-info/requires.txt
+preadwrite.egg-info/top_level.txt
