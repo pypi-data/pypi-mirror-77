@@ -1,0 +1,4 @@
+include artellapipe/tools/renamer/__logging__.ini
+recursive-include artellapipe/tools/renamer/resources/* *.*
+include versioneer.py
+include artellapipe/tools/renamer/_version.py
