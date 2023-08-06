@@ -1,0 +1,8 @@
+setup.py
+BasicComponents/BasicComponentsWrapper.cpp
+BasicComponents/WorkspaceComponentsWrapper.cpp
+BasicComponents/WorkspaceCostManagementWrapper.cpp
+MrscFastComponents.egg-info/PKG-INFO
+MrscFastComponents.egg-info/SOURCES.txt
+MrscFastComponents.egg-info/dependency_links.txt
+MrscFastComponents.egg-info/top_level.txt
