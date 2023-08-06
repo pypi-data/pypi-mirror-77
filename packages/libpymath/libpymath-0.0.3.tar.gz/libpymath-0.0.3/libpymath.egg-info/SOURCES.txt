@@ -1,0 +1,8 @@
+README.md
+setup.py
+LibPyMath/LibPyMathModules/testModule.c
+LibPyMath/LibPyMathModules/testModule.c
+libpymath.egg-info/PKG-INFO
+libpymath.egg-info/SOURCES.txt
+libpymath.egg-info/dependency_links.txt
+libpymath.egg-info/top_level.txt
