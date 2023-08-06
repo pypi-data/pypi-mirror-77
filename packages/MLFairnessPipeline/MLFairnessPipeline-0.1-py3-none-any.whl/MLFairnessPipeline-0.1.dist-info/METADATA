@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: MLFairnessPipeline
+Version: 0.1
+Summary: An end to end ML Fairness Pipeline
+Home-page: https://github.com/markbentivegna/MLFairnessPipeline
+Author: Mark Bentivegna
+Author-email: markbentivegna@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# ML Fairness Pipeline
+
+Included in this repository is all relevant code. Documentation and environment setup instructions will follow.
+
+Contributors:
+
+Mark Bentivegna
+
+Aman Kumar Sinha
+
+Srishti Karakoti
+
+Pantelis Monogioudis
+
