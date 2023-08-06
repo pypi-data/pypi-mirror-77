@@ -1,0 +1,7 @@
+packaging
+pyyaml
+toml
+six
+
+[pipenv]
+pipenv
