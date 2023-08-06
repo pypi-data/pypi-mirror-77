@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tensorrtserver
+Version: 1.11.0
+Summary: Python client library for TensorRT Inference Server
+Home-page: http://nvidia.com
+Author: NVIDIA Inc.
+Author-email: davidg@nvidia.com
+License: BSD
+Keywords: tensorrt inference server service client
+Platform: UNKNOWN
+Requires-Dist: future
+Requires-Dist: numpy
+Requires-Dist: protobuf (>=3.5.0)
+Requires-Dist: grpcio
+
+UNKNOWN
+
+
