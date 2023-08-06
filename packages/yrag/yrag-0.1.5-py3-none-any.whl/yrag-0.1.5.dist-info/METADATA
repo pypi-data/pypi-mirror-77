@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: yrag
+Version: 0.1.5
+Summary: Yrag aim to deploy machine-learing model quickly and easily
+Home-page: https://github.com/Yougigun/yrag
+Author: Gary
+Author-email: s14031403@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# YRAG is aimed to build up Machine Learning Application quickly!
+This is a simple example package. You can use
+[yrag](https://github.com/Yougigun/yrag)
+to write your content.
+
+
+## Package included: 
+### Data Science package
+- numpy            -      1.18.4
+- pandas           -     1.0.3
+- scipy            -      1.4.1
+- scikit-learn     -      0.23.0
+- tensorflow       -      2.2.0
+- torch            -      1.4.0+cpu
+- transformers     -      2.9.1
+
+### Database package
+- pymssql          -      2.1.4
+- PyMySQL          -      0.9.3
+- redis            -      3.5.2
+- requests         -      2.23.0
+
+
+## Note
+- Build package : python setup.py sdist bdist_wheel
+- Upload package : python -m twine upload dist/*   
+
