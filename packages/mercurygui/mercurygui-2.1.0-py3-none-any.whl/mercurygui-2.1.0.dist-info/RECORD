@@ -1,0 +1,16 @@
+mercurygui/__init__.py,sha256=HbBx1G5Yc8zOBu5hDgjRJmjg7OH2CIgFWENGr5JFDKY,74
+mercurygui/feed.py,sha256=JWkDSNMlyAxpz87NzZpw1i9euFxQOa0vUwoT2Rn72ZE,8957
+mercurygui/main.py,sha256=IJGXuN6ulAI-ECVCu6aTG_YxkkQRM8vMsMeHXmBcwpc,25916
+mercurygui/main.ui,sha256=PsE5A4b_uZ1RMUtACxd2Sl81kmw5YSVOgS7IfWiQNo0,15727
+mercurygui/module_dialog.ui,sha256=87nF4gKYdonr4DUH94gPRY8K8uUPVa4fD7PLVOM10XY,3115
+mercurygui/pyqtplot_canvas.py,sha256=KY6ZkpZTukkD5qQ8_99tgLkZv-CDxwTBZO0CgkrgFcE,6825
+mercurygui/config/__init__.py,sha256=XrXrsE4oitkc6O48Q7JWOSIJFEi6437q7smGCgp-HbQ,40
+mercurygui/config/base.py,sha256=pshbJ8ZV5rVqWTuShofk5TZ-0uwicwHpppLhEpX_VP4,2580
+mercurygui/config/main.py,sha256=w0Votba8j5schZ963DesctJCEq7Df68laXOqqSt2nmU,2183
+mercurygui/config/user.py,sha256=PtrZbfstdtxw3TLmexNcTqRWCir_yMup8L7OWEQW2Sg,17269
+mercurygui-2.1.0.dist-info/LICENSE.md,sha256=eMqoPczikNX-wAdQ4bc1frnMPvfbiI1J08a5iV768vI,9935
+mercurygui-2.1.0.dist-info/METADATA,sha256=8DO4BjX8-nA6JFsqoGESyLKOMojFEyJieH1WmHuBW4g,2053
+mercurygui-2.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mercurygui-2.1.0.dist-info/entry_points.txt,sha256=mlFbeEPCG3jzplapnmuvrTIDlP_A3tBzKwGRhQXKJOE,100
+mercurygui-2.1.0.dist-info/top_level.txt,sha256=SNWFdiXIDRtDyMcrzvFUUYKnUS9-AE0i4yMgraYBbgc,11
+mercurygui-2.1.0.dist-info/RECORD,,
