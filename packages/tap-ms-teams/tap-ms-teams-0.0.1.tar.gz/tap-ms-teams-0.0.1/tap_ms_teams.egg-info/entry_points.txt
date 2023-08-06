@@ -1,0 +1,4 @@
+
+          [console_scripts]
+          tap-ms-teams=tap_ms_teams:main
+      
