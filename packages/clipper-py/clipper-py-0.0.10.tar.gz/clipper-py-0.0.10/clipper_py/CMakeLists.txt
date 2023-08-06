@@ -1,0 +1,26 @@
+SET(PYCLIPPER_BOOST_PYTHON_SRC
+        clipper.cpp
+        path.cpp
+        int-point.cpp
+        clipper-py.cpp)
+
+FIND_PACKAGE(Boost REQUIRED)
+FIND_PACKAGE(Boost QUIET COMPONENTS python python38)
+
+set(Boost_PYTHON_LIBRARY ${Boost_PYTHON38_LIBRARY})
+set(Python_ADDITIONAL_VERSIONS 3.8)
+
+FIND_PACKAGE(PythonLibs 3.8 REQUIRED)
+SET(PYDEXTENSION FALSE)
+
+SET(PYTHON_LIB_INSTALL "/usr/lib/python3.8/site-packages" CACHE STRING "Where to install the clipper-py module?")
+SET(SITEPACKAGE ${PYTHON_LIB_INSTALL})
+
+INCLUDE_DIRECTORIES( ./ ${PYTHON_INCLUDE_PATH} ${BOOST_INCLUDE_DIR} )
+ADD_LIBRARY(clipper_py SHARED ${PYCLIPPER_BOOST_PYTHON_SRC})
+SET_TARGET_PROPERTIES(clipper_py PROPERTIES PREFIX "_")
+TARGET_LINK_LIBRARIES(clipper_py polyclipping ${Boost_PYTHON_LIBRARY} ${PYTHON_LIBRARIES})
+SET_PROPERTY(TARGET polyclipping PROPERTY POSITION_INDEPENDENT_CODE ON)  # we need -fPIC to link clipper-py against polyclipping
+
+#INSTALL(TARGETS clipper_py DESTINATION "${SITEPACKAGE}/clipper_py")
+#INSTALL(FILES "${CMAKE_CURRENT_SOURCE_DIR}/__init__.py" DESTINATION "${SITEPACKAGE}/clipper_py")

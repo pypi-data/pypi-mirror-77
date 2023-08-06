@@ -1,0 +1,18 @@
+# The header name clipper.hpp is too generic, so install in a subdirectory
+include(GNUInstallDirs)
+
+SET(CMAKE_INSTALL_INCDIR "/usr/include/polyclipping")
+SET(CMAKE_INSTALL_LIBDIR "/usr/lib${LIB_SUFFIX}")
+SET(CMAKE_INSTALL_PKGCONFIGDIR "/usr/share/pkgconfig")
+SET(PCFILE "${CMAKE_CURRENT_BINARY_DIR}/polyclipping.pc")
+
+SET(BUILD_SHARED_LIBS ON CACHE BOOL "Build shared libraries (.dll/.so) instead of static ones (.lib/.a)")
+ADD_LIBRARY(polyclipping clipper.cpp)
+
+CONFIGURE_FILE (../polyclipping.pc.cmakein "${PCFILE}" @ONLY)
+
+INSTALL (FILES clipper.hpp DESTINATION "${CMAKE_INSTALL_INCDIR}")
+INSTALL (TARGETS polyclipping LIBRARY DESTINATION "${CMAKE_INSTALL_LIBDIR}")
+INSTALL (FILES "${PCFILE}" DESTINATION "${CMAKE_INSTALL_PKGCONFIGDIR}")
+
+SET_TARGET_PROPERTIES(polyclipping PROPERTIES VERSION 22.0.0 SOVERSION 22)
