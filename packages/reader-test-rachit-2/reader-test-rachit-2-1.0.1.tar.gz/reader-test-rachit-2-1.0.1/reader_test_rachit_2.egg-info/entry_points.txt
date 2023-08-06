@@ -1,0 +1,3 @@
+[console_scripts]
+reader-test-rachit-2 = reader.__main__:main
+

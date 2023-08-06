@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+reader/__init__.py
+reader/__main__.py
+reader/config.cfg
+reader/feed.py
+reader/viewer.py
+reader_test_rachit_2.egg-info/PKG-INFO
+reader_test_rachit_2.egg-info/SOURCES.txt
+reader_test_rachit_2.egg-info/dependency_links.txt
+reader_test_rachit_2.egg-info/entry_points.txt
+reader_test_rachit_2.egg-info/requires.txt
+reader_test_rachit_2.egg-info/top_level.txt
