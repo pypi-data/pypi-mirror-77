@@ -1,0 +1,3 @@
+[console_scripts]
+py-semver = src.sem_ver:main
+
