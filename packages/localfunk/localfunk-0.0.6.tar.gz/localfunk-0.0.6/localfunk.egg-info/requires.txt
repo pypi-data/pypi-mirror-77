@@ -1,0 +1,4 @@
+flask
+pyngrok
+cfn-flip
+boto3
