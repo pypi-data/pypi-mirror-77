@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+mongo_tfrecords/VERSION
+mongo_tfrecords/__init__.py
+mongo_tfrecords/__main__.py
+mongo_tfrecords/exporter.py
+mongo_tfrecords.egg-info/PKG-INFO
+mongo_tfrecords.egg-info/SOURCES.txt
+mongo_tfrecords.egg-info/dependency_links.txt
+mongo_tfrecords.egg-info/requires.txt
+mongo_tfrecords.egg-info/top_level.txt
