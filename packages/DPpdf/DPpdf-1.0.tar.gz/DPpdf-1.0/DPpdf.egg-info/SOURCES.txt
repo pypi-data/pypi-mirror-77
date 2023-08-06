@@ -1,0 +1,9 @@
+README.md
+setup.py
+DPpdf/__init__.py
+DPpdf/pdf22text.py
+DPpdf/pdf2image.py
+DPpdf.egg-info/PKG-INFO
+DPpdf.egg-info/SOURCES.txt
+DPpdf.egg-info/dependency_links.txt
+DPpdf.egg-info/top_level.txt
