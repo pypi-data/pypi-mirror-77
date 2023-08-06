@@ -1,0 +1,7 @@
+setup.py
+fenda/settings/__init__.py
+fenda_settings.egg-info/PKG-INFO
+fenda_settings.egg-info/SOURCES.txt
+fenda_settings.egg-info/dependency_links.txt
+fenda_settings.egg-info/requires.txt
+fenda_settings.egg-info/top_level.txt
