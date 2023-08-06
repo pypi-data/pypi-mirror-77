@@ -1,0 +1,16 @@
+mitnewsclassify/__init__.py,sha256=Ft4SMFnkinBWkGHEWArwU7h0zkwjbiQOQQoIVKkWFq8,364
+mitnewsclassify/distilbert.py,sha256=g4up9bia9PPGnkIwDhmMRS7KOGfp9lh3oCljj3rbON8,2848
+mitnewsclassify/doc2vec.py,sha256=_JlWSZkkhuqVrD4FV6h7W3CwBQxOuFM84Pi66FTua9M,3013
+mitnewsclassify/download.py,sha256=YjbSJWtrb4DDgjfXlHXeJtyYN7DYHIoqVFhuRkZ03r4,5671
+mitnewsclassify/ensemble.py,sha256=zaofkr9XC923ltgfU6-ZuiUrQQyfwXm59Brdz13zbD0,2284
+mitnewsclassify/gpt2.py,sha256=SpQ-CAnUoiLMhqLlADPBNMdWEGvbqenD-v_YMKRZ9bg,3546
+mitnewsclassify/gpt_model.py,sha256=z2nKxP2xmK5WVWEfWZug8BQ4V6WR4JV1FK0AnY6v3kM,1237
+mitnewsclassify/quadsemble.py,sha256=AoGEfgkIBtnvo2QivAkYhLg1iggfAk300Y_nqopp7Tw,2623
+mitnewsclassify/tfidf.py,sha256=unHYy1s-ZLd02TBPUXqBQr5_wg08_VdPgIb-C-FEa20,3134
+mitnewsclassify/tfidf_bi.py,sha256=yMzo61pNYLnVs7rtKcKslAMUP5a3kfwsehrkCfrskE8,3171
+mitnewsclassify/trisemble.py,sha256=Pgp6yzzqO4QAyuHcghehs5eEvUo7bL6u0vwPmFgDZ5g,2536
+mit_news_classify-0.8.1.dist-info/LICENSE,sha256=cuNmEWcAWb2Gis4l3CGBNbeJhJkgVSy-hYZOYYNdkdQ,1093
+mit_news_classify-0.8.1.dist-info/METADATA,sha256=QT5Ino00Z-D54B7uHAfxwsAiHJW_fRUtPwZ_EMtSgtQ,748
+mit_news_classify-0.8.1.dist-info/WHEEL,sha256=sI-vBbJF_F_l-R6JrPzLJ9vhJk6PcAXoAkIfwXdMgLI,97
+mit_news_classify-0.8.1.dist-info/top_level.txt,sha256=-xBpwWuB9hdFrNfNXY8z7u3nQYjUgsvu1ixh6Yxjo4w,16
+mit_news_classify-0.8.1.dist-info/RECORD,,
