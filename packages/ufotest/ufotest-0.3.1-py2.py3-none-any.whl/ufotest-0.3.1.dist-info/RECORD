@@ -1,0 +1,17 @@
+ufotest/__init__.py,sha256=7uKku4YFryGY_nst5ebi7oRBMEw-8ITQTe5AN1DVJ9I,127
+ufotest/capture.py,sha256=rzi8kiLBvp4hloWiUnCrOSreYcb4HDuzeMW7ZnRScWc,2175
+ufotest/cli.py,sha256=5bScQMXDVlApk4n27E2OECnL01UFIh3AGRQGd1zFhyA,5084
+ufotest/config.py,sha256=BwOvIeG7zYOYdIF2jaVUGJFgsYvKgEfpKL8Q0bz_Wf0,1831
+ufotest/default.toml,sha256=qvRzjF8tv5Ska9UNRT77giwscKzlCjwG0xL127zxgLk,5037
+ufotest/install.py,sha256=589sbG1zlTxd1rAYhCjwzo_HXCfTaXDsU6Wa7ItZsak,6904
+ufotest/logging.py,sha256=rdhn7iiMxKA3x1lT6sfI3Aq6J5vw7d482MG1uS3Jb0Y,117
+ufotest/reset.sh,sha256=lxVI3B6V69PpY1rgz6DMZmtHQDpGXleiokRB7W381to,1743
+ufotest/status.sh,sha256=WgT0DQBwOTQaHyDU-rQQRMAHnZq2-xs3SVDMZwvjIVQ,2704
+ufotest/util.py,sha256=TUK3SLaUW7bwXXwAW00HdLkYNqzYKR1LO3tvVJyqAD0,2408
+ufotest-0.3.1.dist-info/AUTHORS.rst,sha256=G5hoO0vfa75Pc6q7TpgmaY0HVR3rx26wD4D3GSF0jiE,220
+ufotest-0.3.1.dist-info/LICENSE,sha256=EU4e3jBntuhUd60oWckyydlvf7a6cJ71z_vcsXO5yTs,1071
+ufotest-0.3.1.dist-info/METADATA,sha256=CwOKxi4wjioiuUxKJiiSxmtQ8FCzhWz8qk4BRDwNlNg,4014
+ufotest-0.3.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+ufotest-0.3.1.dist-info/entry_points.txt,sha256=J9ZQ1pAlyyNjcUJKZRwpJQWtCl117Ls0YE-uSa8XUpE,45
+ufotest-0.3.1.dist-info/top_level.txt,sha256=Hza-DwYkh_jKhNIMK6GD7M2wbunWitxIyR8kkk-ewJI,8
+ufotest-0.3.1.dist-info/RECORD,,
