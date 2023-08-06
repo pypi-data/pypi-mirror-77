@@ -1,0 +1,12 @@
+annotell_query-2.0.1-py3.7-nspkg.pth,sha256=QpBPPgWNKzm0ysnHOq_yHjdpWnH3BJrz1TQeNgOzolw,549
+annotell/ams/__init__.py,sha256=F5mW07pSyGrqDNY2Ehr-UpDzpBtN-FsYU0QGZWf6PJE,22
+annotell/ams/query.py,sha256=ANc9MW8djmtwxLHKtl6KUVMMKQh8hTJvJ0ixAui1OnA,2814
+annotell/query/__init__.py,sha256=Jdoaj73bkpTjqG_6m6_pFw6HBtc8vvF6TtxMVPuE4lw,23
+annotell/query/query_api_client.py,sha256=79CEevbSiHWmhnRZZifs3PlZrSYA9g2vus8RES7ytPA,6571
+annotell/query/query_model.py,sha256=gbLBHU35NJ--7qqhv1MfBefsIcDzQLKZccKBX5IXGdc,1246
+annotell/query/util.py,sha256=oT6iS8JAY4nxxqiAUREJVgDktJl0KLx1pvpHei81isQ,256
+annotell_query-2.0.1.dist-info/METADATA,sha256=r5zhAl236L9htblLVsAdJWqsF02xDOEJisomWtYoaPM,1425
+annotell_query-2.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+annotell_query-2.0.1.dist-info/namespace_packages.txt,sha256=ovwDyo5ajMsAZxqAovd0d4s8ZFftRtmvbKk1zN8Z0go,9
+annotell_query-2.0.1.dist-info/top_level.txt,sha256=ovwDyo5ajMsAZxqAovd0d4s8ZFftRtmvbKk1zN8Z0go,9
+annotell_query-2.0.1.dist-info/RECORD,,
