@@ -1,0 +1,7 @@
+README.md
+setup.py
+anymath/__init__.py
+anymath.egg-info/PKG-INFO
+anymath.egg-info/SOURCES.txt
+anymath.egg-info/dependency_links.txt
+anymath.egg-info/top_level.txt
