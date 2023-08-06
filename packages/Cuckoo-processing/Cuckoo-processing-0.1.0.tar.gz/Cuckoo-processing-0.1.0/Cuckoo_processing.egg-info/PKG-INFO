@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: Cuckoo-processing
+Version: 0.1.0
+Summary: Cuckoo Sandbox data processing helpers and modules
+Home-page: https://cuckoosandbox.org/
+Author: Stichting Cuckoo Foundation
+Author-email: info@hatching.io
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
