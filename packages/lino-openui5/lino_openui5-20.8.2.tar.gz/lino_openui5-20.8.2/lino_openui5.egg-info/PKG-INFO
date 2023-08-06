@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: lino-openui5
+Version: 20.8.2
+Summary: The SAP Open Ui5 user interface for Lino
+Home-page: http://www.lino-framework.org
+Author: Luc Saffre
+Author-email: luc.saffre@gmail.com
+License: BSD-2-Clause
+Description: 
+        The SAP Open Ui5 front end for Lino.
+        
+        This front end has passed the proof of concept phase, i.e. it is visible that it
+        works. But it is not ready for production. There is still much work to do.
+        
+        The central project homepage is https://openui5.lino-framework.org/
+        
+        
+Platform: UNKNOWN
+Classifier:   Programming Language :: Python
+Classifier:   Programming Language :: Python :: 3
+Classifier:   Development Status :: 1 - Planning
+Classifier:   Environment :: Web Environment
+Classifier:   Framework :: Django
+Classifier:   Intended Audience :: Developers
+Classifier:   Intended Audience :: System Administrators
+Classifier:   License :: OSI Approved :: BSD License
+Classifier:   Natural Language :: English
+Classifier:   Operating System :: OS Independent
+Classifier:   Topic :: Database :: Front-Ends
+Classifier:   Topic :: Home Automation
+Classifier:   Topic :: Office/Business
+Classifier:   Topic :: Software Development :: Libraries :: Application Frameworks
