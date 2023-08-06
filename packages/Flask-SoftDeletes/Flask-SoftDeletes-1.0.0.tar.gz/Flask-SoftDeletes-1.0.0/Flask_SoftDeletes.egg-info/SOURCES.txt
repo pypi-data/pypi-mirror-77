@@ -1,0 +1,11 @@
+README.md
+setup.py
+Flask_SoftDeletes.egg-info/PKG-INFO
+Flask_SoftDeletes.egg-info/SOURCES.txt
+Flask_SoftDeletes.egg-info/dependency_links.txt
+Flask_SoftDeletes.egg-info/not-zip-safe
+Flask_SoftDeletes.egg-info/requires.txt
+Flask_SoftDeletes.egg-info/top_level.txt
+flask_softdeletes/__init__.py
+flask_softdeletes/model.py
+flask_softdeletes/query.py
