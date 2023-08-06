@@ -1,0 +1,10 @@
+torch_deploy/__init__.py,sha256=U_DTBKBbI1FelEIo7aL7NNOnEqE4dOZBkHZmJGbpkZM,48
+torch_deploy/app.py,sha256=8os_fe4c1mf_9cD6A3UB7pQgWI0JZIN_Hi1-2OKHis4,3887
+torch_deploy/deploy.py,sha256=yuap_s2n3K21gcBPzNd7SSl802sWiDb0Kyp5lZnWZF8,1294
+torch_deploy/logger.py,sha256=fyZ4J_QpBNSpjSkVrinq5O4EjlHeXlGMFqHcy2GjRNQ,549
+torch_deploy/processing.py,sha256=IudTnDTA5qKrfZ0TfB0IOzg1O2hE-6NjteX_ClkiepQ,116
+pytorch_deploy-0.0.6.dist-info/LICENSE,sha256=jKKW_IxfoTMMuHyYpKBSrerV0zmlzQ1Rc_JHGp-INi4,1088
+pytorch_deploy-0.0.6.dist-info/METADATA,sha256=NbUO3_ltD7CsT-lQWIT-rqSy-bTrxpjRgyS8g6V9BwA,4455
+pytorch_deploy-0.0.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pytorch_deploy-0.0.6.dist-info/top_level.txt,sha256=v3wQ5yKIiWBF6FiycIwDyas_1qa1KiGIYC-zPfeYUzo,13
+pytorch_deploy-0.0.6.dist-info/RECORD,,
