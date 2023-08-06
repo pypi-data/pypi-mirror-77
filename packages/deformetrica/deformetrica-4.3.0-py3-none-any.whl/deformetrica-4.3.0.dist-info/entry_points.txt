@@ -1,0 +1,3 @@
+[console_scripts]
+deformetrica = deformetrica.__main__:main
+
