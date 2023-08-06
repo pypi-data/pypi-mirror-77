@@ -1,0 +1,11 @@
+api_endpoint_manager/__init__.py,sha256=QWSW9rNsUas3Nr41MGcw6OC2RrvlR-IJT4h4kqee8us,162
+api_endpoint_manager/api_endpoint.py,sha256=DFBBL5zaftgcoa806Fb7TJv59r1P61PpO2O4Wy6tjkw,214
+api_endpoint_manager/delete.py,sha256=w-WiRwZYcLINKgpJS-cV5YT8bg0YsNqbBmGggddI2n0,1265
+api_endpoint_manager/get.py,sha256=r84rcQ9-AuBCwOhLORrPNRIWvafh43luiT4IeK_emLc,1250
+api_endpoint_manager/post.py,sha256=b9HssVOQ9iKyO76n1Ir15pAJPLZjWmjhvsYqyQLMv-g,774
+api_endpoint_manager/put.py,sha256=trpax5dnzkinMqTwcIQ5i1Ujm7RT3xoVyXd8Er3U3SQ,1250
+api_endpoint_manager-0.0.4.dist-info/LICENSE,sha256=r-WbivgGc5P2prG3JSQI6NqoX4G99jKQ5s_VHD6NPmU,1102
+api_endpoint_manager-0.0.4.dist-info/METADATA,sha256=7I7KOGu9Aayu7hrHNF3E9yGfMgfHOFvtO8vzMs1L9lU,1562
+api_endpoint_manager-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+api_endpoint_manager-0.0.4.dist-info/top_level.txt,sha256=eND6odtv-Mbhk1Y6lwJN18glDHPhrqILuDbLV3I7Ruo,21
+api_endpoint_manager-0.0.4.dist-info/RECORD,,
