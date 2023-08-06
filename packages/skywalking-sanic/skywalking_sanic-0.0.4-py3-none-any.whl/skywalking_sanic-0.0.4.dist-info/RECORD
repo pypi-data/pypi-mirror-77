@@ -1,0 +1,9 @@
+example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example/app.py,sha256=cgtIRHNlus-LwfBWwwG0LOTwu3fEo6tk3YGR2DteHRE,391
+skywalking_sanic/__init__.py,sha256=fZ21xpW4rp81q3fpqnBSWsOd0RAy5x4_yNdcSsNKOvQ,2230
+skywalking_sanic/sw_requests.py,sha256=VUYn5B8W3MCFiv8HY0H8pkwzWp69GzzD8wcQL66-UBQ,2764
+skywalking_sanic-0.0.4.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+skywalking_sanic-0.0.4.dist-info/METADATA,sha256=EWxK8aQhRB8dz__U9na0fiX-6yLx2se9kaVAzAqfz9c,585
+skywalking_sanic-0.0.4.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+skywalking_sanic-0.0.4.dist-info/top_level.txt,sha256=wRc9KvQwdu-b1toOco5Q7aqAUMfRt1SiPQs1AnYQNlA,25
+skywalking_sanic-0.0.4.dist-info/RECORD,,
