@@ -1,0 +1,9 @@
+_portaudio.cpython-38-x86_64-linux-gnu.so,sha256=pGnZExOjxqPVCD8AXT89ZYJplQGpn9BY6Uig3frmG5c,127536
+outport-2.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+outport-2.dist-info/METADATA,sha256=MES15XSyiE8OG0HPa8Xlgd5gjXeq3jbFxso3pEdkWpw,282
+outport-2.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+outport-2.dist-info/WHEEL,sha256=0wGQBSV-BlYX9ESMZyEiLMpXIYwrZGj6McPYyDp_RjA,108
+outport-2.dist-info/top_level.txt,sha256=5brEAcUSOuJJ3zQEotL7-nZNJ7v7BVodelJH5eJcyxw,19
+outport-2.dist-info/LICENSE.pyaudio,sha256=YGE8OtlX2vFBSKKbQ97PKsXx77HT-9AlUlX8he5xQEU,1055
+outport-2.dist-info/RECORD,,
+outport/__init__.py,sha256=NrjdmNgx6s4X6Si2NIw-DkQuKEyyEBhkjepgt-vZ1Ak,40390
