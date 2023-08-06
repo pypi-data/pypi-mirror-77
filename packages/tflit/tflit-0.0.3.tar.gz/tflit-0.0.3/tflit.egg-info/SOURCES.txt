@@ -1,0 +1,10 @@
+README.md
+setup.py
+tflit/__init__.py
+tflit/core.py
+tflit/util.py
+tflit.egg-info/PKG-INFO
+tflit.egg-info/SOURCES.txt
+tflit.egg-info/dependency_links.txt
+tflit.egg-info/requires.txt
+tflit.egg-info/top_level.txt
