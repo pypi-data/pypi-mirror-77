@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+luaproject.egg-info/PKG-INFO
+luaproject.egg-info/SOURCES.txt
+luaproject.egg-info/dependency_links.txt
+luaproject.egg-info/entry_points.txt
+luaproject.egg-info/not-zip-safe
+luaproject.egg-info/requires.txt
+luaproject.egg-info/top_level.txt
