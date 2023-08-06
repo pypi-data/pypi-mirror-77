@@ -1,0 +1,13 @@
+email_controller/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+email_controller/contact_handler.py,sha256=2Za5Zf86f_fm6Sys_pZSYUdKjfBomwBCDqPqfV-U5-E,5522
+email_controller/record_validation.py,sha256=tX_eRdeAu7HOn985gXpuvMK8PaxqDC6gvN7IbwiQfsg,3683
+email_controller/response_handler.py,sha256=pwih1n7ZlGIkkyCq2mg-TUEQ5MLzfJMSEcGg31j6dYI,967
+email_controller/smtp_controller.py,sha256=9U74s6ud1sVQakLuJo-i0vH2oxkSLSBA2g5sLLtsRuI,3144
+unittests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unittests/test_email_controller.py,sha256=-DQLIM6nmfRRN-CK7wvnWWPPhO_xR96_ldcAXVXEYUY,2927
+unittests/test_response_handler.py,sha256=jW5FPjfK77iC8Eiv-bcnIFGA8Jv5L_bnLx0tzjXlZf4,756
+email_controller-0.0.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+email_controller-0.0.7.dist-info/METADATA,sha256=khwmWz8XJC2Q8c3Q4xDFIrYEK3IpkcAXBZFU7jsS2wY,572
+email_controller-0.0.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+email_controller-0.0.7.dist-info/top_level.txt,sha256=YEwaXRYKNAs8NlhKJeCq0frvK8kCQfXYVsqFguJ661E,27
+email_controller-0.0.7.dist-info/RECORD,,
