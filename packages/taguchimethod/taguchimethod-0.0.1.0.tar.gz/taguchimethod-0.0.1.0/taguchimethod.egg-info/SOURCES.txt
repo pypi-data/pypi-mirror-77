@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+taguchimethod/__init__.py
+taguchimethod.egg-info/PKG-INFO
+taguchimethod.egg-info/SOURCES.txt
+taguchimethod.egg-info/dependency_links.txt
+taguchimethod.egg-info/requires.txt
+taguchimethod.egg-info/top_level.txt
