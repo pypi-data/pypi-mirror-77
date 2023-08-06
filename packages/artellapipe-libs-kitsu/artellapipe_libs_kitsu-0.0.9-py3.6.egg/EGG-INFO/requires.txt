@@ -1,0 +1,9 @@
+gazu==0.7.17
+tpDcc-libs-python
+artellapipe
+
+[dev]
+wheel
+
+[test]
+pytest
