@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: citty
+Version: 0.0.3
+Summary: citty -- CI driver in your terminal.
+Home-page: https://gitlab.com/aghast/citty/
+Author: aghast
+Author-email: aghast@aghast.dev
