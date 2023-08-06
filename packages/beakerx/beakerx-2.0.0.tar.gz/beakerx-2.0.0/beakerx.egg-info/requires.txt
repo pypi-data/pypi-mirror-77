@@ -1,0 +1,5 @@
+beakerx_base
+requests
+pandas
+bottle
+pyspark
