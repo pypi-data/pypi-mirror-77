@@ -1,0 +1,11 @@
+repobee>=3.0.0-alpha.7
+daiquiri
+colored
+
+[TEST]
+appdirs
+daiquiri
+pytest>=4.0.0
+pytest-cov>=2.5.1
+pytest-mock
+codecov
