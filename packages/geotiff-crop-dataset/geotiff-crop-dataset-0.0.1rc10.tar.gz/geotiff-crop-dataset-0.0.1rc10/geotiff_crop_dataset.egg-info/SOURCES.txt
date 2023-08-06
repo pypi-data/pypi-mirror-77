@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+.github/workflows/release.yaml
+.github/workflows/test.yaml
+geotiff_crop_dataset/__init__.py
+geotiff_crop_dataset/dataset_reader.py
+geotiff_crop_dataset/dataset_writer.py
+geotiff_crop_dataset.egg-info/PKG-INFO
+geotiff_crop_dataset.egg-info/SOURCES.txt
+geotiff_crop_dataset.egg-info/dependency_links.txt
+geotiff_crop_dataset.egg-info/requires.txt
+geotiff_crop_dataset.egg-info/top_level.txt
+test/__init__.py
+test/test_dataset_reader.py

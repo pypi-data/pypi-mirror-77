@@ -1,0 +1,6 @@
+numpy
+rasterio
+setuptools
+setuptools-scm
+torch
+torchvision
