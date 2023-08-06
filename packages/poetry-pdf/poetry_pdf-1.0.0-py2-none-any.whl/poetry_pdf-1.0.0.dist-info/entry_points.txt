@@ -1,0 +1,3 @@
+[console_scripts]
+poetry-pdf = poetry_pdf.__main__:entrypoint
+
