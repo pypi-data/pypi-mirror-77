@@ -1,0 +1,9 @@
+README.md
+setup.py
+divinepdf/__init__.py
+divinepdf/pdf2image.py
+divinepdf/pdf2text.py
+divinepdf.egg-info/PKG-INFO
+divinepdf.egg-info/SOURCES.txt
+divinepdf.egg-info/dependency_links.txt
+divinepdf.egg-info/top_level.txt
