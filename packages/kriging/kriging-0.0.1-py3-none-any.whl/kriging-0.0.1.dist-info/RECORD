@@ -1,0 +1,10 @@
+kriging/__init__.py,sha256=84-mKsTYvgUd3l52MtrfqrlqokxxSkvBLGgho3ANd7M,508
+kriging/_kriging.py,sha256=5TPeeI38ppgt2flYw08I2M6f1U_pbRNCWpalbTwD8LI,4395
+kriging/_plotting.py,sha256=kxIHCZ4w-_Q57Axmx5Ry5Npxm_HnnIx2ekZ0WGtKLdA,522
+kriging/base.py,sha256=FB9AQYKGXUT7x4EhFLzUf7NPDEDcntc0hBUzMB_9WRc,1259
+kriging/data/mapdata.json,sha256=3XlT5TlTv35AuhvNNWQhmMK1K5QEQyy_cCGehNiXXCk,2141301
+kriging-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+kriging-0.0.1.dist-info/METADATA,sha256=7UIDxh4o0uakM3U4EWZ9XVUr3JYMD1bc_ErWpb6fwD4,1211
+kriging-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+kriging-0.0.1.dist-info/top_level.txt,sha256=-7GJ_TB8rwPB-JGmnAIYWv26fmUsO4UnSMmbbbf4x-M,8
+kriging-0.0.1.dist-info/RECORD,,
