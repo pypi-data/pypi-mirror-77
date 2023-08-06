@@ -1,0 +1,17 @@
+tkseem/__init__.py,sha256=idLIA7_kKmg-3Us6sjNvPxL3dlAGYztVHLnSzmdZCMA,578
+tkseem/_base.py,sha256=XXp1hOGaR19yRrC7WKSglD0spTVCbSprD61sm9epPUo,13331
+tkseem/character_tokenizer.py,sha256=bnfK01QccwpcjiVdUvxLfow7wSW75r7KdmeeCQryQe8,1235
+tkseem/disjoint_letters_tokenizer.py,sha256=fYoeedOwyKaF5Ai-xh2b-BbUhF3SkKaCGdpjYTFK4Ns,815
+tkseem/morphological_tokenizer.py,sha256=CeE4h4RrbpCIw9gO7c5Eg0uK8angHcdp57sV-VJ2-vw,438
+tkseem/random_tokenizder.py,sha256=PndRC-_i6RMmo_ZqUF_ZWXlA4VijJhWM-jU4Iu6hNwk,1446
+tkseem/sentencepiece_tokenizer.py,sha256=PV7oScGyYfAM_nnI9616CI_I48kiiudRNvT34yMvTsg,2651
+tkseem/tokenizers.py,sha256=6JfNcZgYPPOc7LZQzTyeVpcDOIbhFep7nX2toPiJppM,26410
+tkseem/util.py,sha256=I3PF4MAbNKozEpU8kBM3nQiT826gFInLlKMHWUhYtPY,2059
+tkseem/word_tokenizer.py,sha256=cYsYH-Kr6-uqv5LvRSvlP8qiRUbXjS2hvvJr-6-RT_M,1197
+tkseem/dictionaries/cached.pl,sha256=Rpfy2Tbsk3ZoeicIbHCBa7Gib5H1bsJtiSSYq7YWoTI,41952246
+tkseem/dictionaries/vocab.pl,sha256=fJ-K0BHKb5vGnDbcKD0aAWUOxVBhtVe6mj4Kuf-K3CA,69856550
+tkseem-0.0.3.dist-info/LICENSE,sha256=8C4kU6sgr019qXRkxEitrRN7KYAw9DET-9ugcNEy_Vc,1086
+tkseem-0.0.3.dist-info/METADATA,sha256=bozdUiJzjW3JXJmJgeIa-3IbW_2zaJJnEgBrcWVzs04,4268
+tkseem-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tkseem-0.0.3.dist-info/top_level.txt,sha256=b8LIjJZJSHg-ualBkHw2nNOSCVgORT577mrhcPK3xSU,7
+tkseem-0.0.3.dist-info/RECORD,,
