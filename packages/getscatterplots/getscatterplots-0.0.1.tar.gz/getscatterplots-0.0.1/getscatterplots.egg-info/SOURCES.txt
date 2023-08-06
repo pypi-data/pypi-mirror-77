@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+getscatterplots/__init__.py
+getscatterplots.egg-info/PKG-INFO
+getscatterplots.egg-info/SOURCES.txt
+getscatterplots.egg-info/dependency_links.txt
+getscatterplots.egg-info/requires.txt
+getscatterplots.egg-info/top_level.txt
