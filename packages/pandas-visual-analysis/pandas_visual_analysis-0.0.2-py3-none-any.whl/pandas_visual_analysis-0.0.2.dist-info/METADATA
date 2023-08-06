@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: pandas-visual-analysis
+Version: 0.0.2
+Summary: A package for interactive visual analysis in Jupyter notebooks.
+Home-page: https://github.com/meffmadd/pandas-visual-analysis
+Author: Matthias Matt
+Author-email: matthias.matt@student.tuwien.ac.at
+License: MIT License
+Keywords: pandas data-science visualization data-analysis brushing linked-brushing python jupyter ipython
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Framework :: IPython
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: setuptools (~=49.2.0)
+Requires-Dist: traitlets (~=4.3.3)
+Requires-Dist: pandas (~=1.1.0)
+Requires-Dist: ipywidgets (~=7.5.1)
+Requires-Dist: numpy (~=1.19.1)
+Requires-Dist: plotly (~=4.9.0)
+Provides-Extra: notebook
+Requires-Dist: jupyter-client (>=6.0.0) ; extra == 'notebook'
+Requires-Dist: jupyter-core (>=4.6.3) ; extra == 'notebook'
+
+.. image:: docs/source/_static/assets/banner.jpeg
+   :width: 95%
+   :alt: banner
+   :align: center
+
+.. image:: https://github.com/meffmadd/pandas-visual-analysis/workflows/Tests/badge.svg
+    :target: https://github.com/meffmadd/pandas-visual-analysis/actions?query=workflow%3ATests
+
+.. image:: https://api.codacy.com/project/badge/Grade/87128508f93c474ba93f6eff45e5a9fb
+    :alt: Codacy Badge
+    :target: https://app.codacy.com/manual/meffmadd/pandas-visual-analysis?utm_source=github.com&utm_medium=referral&utm_content=meffmadd/pandas-visual-analysis&utm_campaign=Badge_Grade_Settings
+
+.. image:: https://codecov.io/gh/meffmadd/pandas-visual-analysis/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/meffmadd/pandas-visual-analysis
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/psf/black
+
+.. image:: https://img.shields.io/badge/License-MIT-yellow.svg
+    :alt: MIT License
+    :target: https://opensource.org/licenses/MIT
+
+
+==================
+Installation
+==================
+.. installation-start
+
+TODO
+
+.. installation-end
+
+==================
+Usage
+==================
+.. usage-start
+
+TODO
+
+.. usage-end
+
+
