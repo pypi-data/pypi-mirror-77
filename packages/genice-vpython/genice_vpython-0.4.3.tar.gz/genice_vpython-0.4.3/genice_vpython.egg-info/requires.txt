@@ -1,0 +1,3 @@
+vpython
+genice<2.0
+countrings>=0.1.7
