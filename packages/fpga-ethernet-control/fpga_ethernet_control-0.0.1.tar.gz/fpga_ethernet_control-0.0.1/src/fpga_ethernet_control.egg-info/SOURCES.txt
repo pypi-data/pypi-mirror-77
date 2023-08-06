@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/wiz_scpi.py
+src/fpga_ethernet_control.egg-info/PKG-INFO
+src/fpga_ethernet_control.egg-info/SOURCES.txt
+src/fpga_ethernet_control.egg-info/dependency_links.txt
+src/fpga_ethernet_control.egg-info/requires.txt
+src/fpga_ethernet_control.egg-info/top_level.txt
