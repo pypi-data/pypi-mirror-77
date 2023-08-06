@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: business-rule-engine
+Version: 0.0.1
+Summary: Python DSL for setting up business intelligence rules
+Home-page: https://business-rule-engine.readthedocs.io/
+Author: Manfred Kaiser
+Author-email: manfred.kaiser@logfile.at
+License: UNKNOWN
+Project-URL: Source, https://github.com/logfile-at/business-rule-engine
+Project-URL: Tracker, https://github.com/logfile-at/business-rule-engine/issues
+Description: business-rule-engine
+        ====================
+        
+        [![CodeFactor](https://www.codefactor.io/repository/github/manfred-kaiser/business-rule-engine/badge)](https://www.codefactor.io/repository/github/manfred-kaiser/business-rule-engine)
+        [![Github version](https://img.shields.io/github/v/release/manfred-kaiser/business-rule-engine?label=github&logo=github)](https://github.com/manfred-kaiser/business-rule-engine/releases)
+        [![PyPI version](https://img.shields.io/pypi/v/business-rule-engine.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/business-rule-engine/)
+        [![Supported Python versions](https://img.shields.io/pypi/pyversions/business-rule-engine.svg?logo=python&logoColor=FFE873)](https://pypi.org/project/business-rule-engine/)
+        [![PyPI downloads](https://pepy.tech/badge/business-rule-engine/month)](https://pepy.tech/project/business-rule-engine/month)
+        [![GitHub](https://img.shields.io/github/license/manfred-kaiser/business-rule-engine.svg)](LICENSE)
+        
+        
+Keywords: business rules engine
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >= 3.6
+Description-Content-Type: text/markdown
