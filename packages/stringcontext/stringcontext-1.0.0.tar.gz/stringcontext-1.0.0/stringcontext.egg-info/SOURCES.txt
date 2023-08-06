@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+stringcontext/__init__.py
+stringcontext/stringcontext.py
+stringcontext.egg-info/PKG-INFO
+stringcontext.egg-info/SOURCES.txt
+stringcontext.egg-info/dependency_links.txt
+stringcontext.egg-info/top_level.txt
+stringcontext.egg-info/zip-safe
