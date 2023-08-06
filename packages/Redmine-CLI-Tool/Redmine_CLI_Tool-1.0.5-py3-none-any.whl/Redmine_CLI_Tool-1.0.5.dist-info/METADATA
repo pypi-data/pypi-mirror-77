@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: Redmine-CLI-Tool
+Version: 1.0.5
+Summary: A command-line utility to interact with Redmine
+Home-page: https://github.com/migelbd/redmine-cli
+Author: migelbd
+Author-email: migel.bd@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Dist: attrs (==20.1.0)
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: colorama (==0.4.3)
+Requires-Dist: commonmark (==0.9.1)
+Requires-Dist: idna (==2.10)
+Requires-Dist: importlib-metadata (==1.7.0)
+Requires-Dist: prettytable (==0.7.2)
+Requires-Dist: profig (==0.5.1)
+Requires-Dist: prompt-toolkit (==3.0.6)
+Requires-Dist: Pygments (==2.6.1)
+Requires-Dist: pyperclip (==1.8.0)
+Requires-Dist: pyreadline (==2.1)
+Requires-Dist: python-redmine (==2.3.0)
+Requires-Dist: questionary (==1.5.2)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: rich (==5.2.1)
+Requires-Dist: typing-extensions (==3.7.4.3)
+Requires-Dist: urllib3 (==1.25.10)
+Requires-Dist: wcwidth (==0.2.5)
+Requires-Dist: zipp (==3.1.0)
+
+UNKNOWN
+
+
