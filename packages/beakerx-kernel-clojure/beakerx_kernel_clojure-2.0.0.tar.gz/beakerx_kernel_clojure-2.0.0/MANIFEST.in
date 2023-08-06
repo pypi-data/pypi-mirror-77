@@ -1,0 +1,4 @@
+recursive-include beakerx_clojure/kernel *
+
+include setupbase.py
+

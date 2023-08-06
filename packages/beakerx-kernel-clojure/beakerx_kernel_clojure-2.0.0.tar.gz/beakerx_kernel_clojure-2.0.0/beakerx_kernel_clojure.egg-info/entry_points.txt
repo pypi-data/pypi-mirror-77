@@ -1,0 +1,3 @@
+[console_scripts]
+beakerx_kernel_clojure = beakerx_clojure:run
+

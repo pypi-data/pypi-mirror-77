@@ -1,0 +1,9 @@
+{
+  "argv": [
+    "java", "-cp", ${PATH}, "com.twosigma.beakerx.clojure.kernel.Clojure",  "{connection_file}"
+  ],
+  "display_name": "Clojure",
+  "language": "clojure",
+  "env": { "PS1":"clojure>"},
+  "interrupt_mode": "message"
+}
