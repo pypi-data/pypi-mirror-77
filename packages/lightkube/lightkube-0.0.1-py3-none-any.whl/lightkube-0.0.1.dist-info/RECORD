@@ -1,0 +1,13 @@
+lightkube/__init__.py,sha256=FSF5RjoWbCVlTMmZiy-dz1ip6n4re8E03xxO2H5zGEU,130
+lightkube/operators.py,sha256=W0qNUMwijDkTa7dr2uNweUSsP2QC4ta-oFavSxzqjyU,1048
+lightkube/config/client_adapter.py,sha256=EhNEhEJtQIOynp92APpWod8Ibga2oPFlxnuRVKr0Fhc,2830
+lightkube/config/config.py,sha256=YeE5q-MXo7FuoOZb9I0VHGez5TcAHnOpgA5q01DqBds,10617
+lightkube/core/client.py,sha256=I7kFif18QodfqZaiwu3F5CG1wGfdPzUWtV2577ClWfM,8797
+lightkube/core/exceptions.py,sha256=Qu8PI3jyJ5F5BC9ijCTFIeoWS37nYpaoyJtkv2oqw6Q,414
+lightkube/core/generic_client.py,sha256=17jsT2q5kZJlq82JlzniYvMr6CjdkSU-EaZ_b_Dvegg,8282
+lightkube/core/selector.py,sha256=qejI8MXm_mhbGw2_WRs3fE64xZsesm5PwN4K_LCQMNY,784
+lightkube-0.0.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+lightkube-0.0.1.dist-info/METADATA,sha256=zlZ291AeSDqUPEhRTQuOEij8-U6K47HlW0Wm5N6tnmE,713
+lightkube-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+lightkube-0.0.1.dist-info/top_level.txt,sha256=AlglxU9KLupQlyTgYUsal8JiLsPG7vArIneAlhhD9PY,10
+lightkube-0.0.1.dist-info/RECORD,,
