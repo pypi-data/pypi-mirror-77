@@ -1,0 +1,15 @@
+connections/__init__.py,sha256=z7FUWGT0JcQ_C9zoNgcSRicw2eYCLvMzrUQu-1a5Oe8,181
+constants/__init__.py,sha256=z7FUWGT0JcQ_C9zoNgcSRicw2eYCLvMzrUQu-1a5Oe8,181
+constants/constants.py,sha256=vSOrMfA2inHNWP1-34lkuwE9JwbqZ0IM7nhoI9AZ2z4,655
+examples/__init__.py,sha256=z7FUWGT0JcQ_C9zoNgcSRicw2eYCLvMzrUQu-1a5Oe8,181
+examples/create_connection.py,sha256=RKuhNmHh2CQrvVah7Iw1Js68ChrHhUuMkJNGkzhYJZg,580
+examples/execute_query.py,sha256=P7muoy30VGRKOci9JFMe3VbWJhEjFPfbE0XSHwi7on0,894
+examples/execute_query_async.py,sha256=UMM-3fjBy10GPaD75u74xRhJottWLy47HvEOmr351WI,911
+examples/execute_script.py,sha256=3VyycsF-ZzHheRAYE14AxAfatjTXrkbsP4Ds7oVD8qA,969
+utilities/__init__.py,sha256=6t8z-Aigq1Yc6HhfXAzTMfCZKO_9jQxinxe3NbA_UqU,808
+utilities/sf_operations.py,sha256=aYlidhhDCNjyDaZ4xTjPCZLzVrJteLIr4KPOYWtYrs8,19222
+snowflake_python_sdk-1.0.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+snowflake_python_sdk-1.0.0.dist-info/METADATA,sha256=49C9R_CFpzzr0vtONnJemP0OINn7y6pwK4AXEf_e6kM,4570
+snowflake_python_sdk-1.0.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+snowflake_python_sdk-1.0.0.dist-info/top_level.txt,sha256=LtsChm7y0UdLY5WiOrQRoLZqf0BIPB1gWnrYNKecVXI,41
+snowflake_python_sdk-1.0.0.dist-info/RECORD,,
