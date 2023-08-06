@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dbt-synapse
+Version: 0.18.0rc1
+Summary: A Azure Synapse adpter plugin for dbt (data build tool)
+Home-page: https://github.com/swanderz/dbt-synapse
+Author: Anders Swanson
+Author-email: swanson.anders@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: dbt-core (==0.18.0rc1)
+Requires-Dist: pyodbc (>=4.0.27)
+
+A Azure Synapse adpter plugin for dbt (data build tool)
+
+
