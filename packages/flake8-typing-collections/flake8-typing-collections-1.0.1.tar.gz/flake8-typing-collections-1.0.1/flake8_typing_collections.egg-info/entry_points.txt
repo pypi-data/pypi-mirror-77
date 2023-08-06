@@ -1,0 +1,3 @@
+[flake8.extension]
+TYCO = flake8_typing_collections.checker:Checker
+
