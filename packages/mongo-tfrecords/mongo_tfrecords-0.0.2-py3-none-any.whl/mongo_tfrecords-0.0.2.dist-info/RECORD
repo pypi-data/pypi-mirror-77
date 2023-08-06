@@ -1,0 +1,8 @@
+mongo_tfrecords/__init__.py,sha256=JiARaP_NBfcCeLJSU6l1bmIdqcRM5WKK3SWuutCEUp4,645
+mongo_tfrecords/__main__.py,sha256=a2g83L2CcsCoJU6rH4f9q4FO8f98eSsyw8Ix_GbdhUA,2205
+mongo_tfrecords/exporter.py,sha256=sQApcpLsqS0vgnSsjKQ7AFsTjTbMjm7LyTEUodSYMPs,5756
+mongo_tfrecords-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mongo_tfrecords-0.0.2.dist-info/METADATA,sha256=1C38TDYMQ56PDrfKVcmlz9BpzwZtIYuWIBK72QItdoA,2778
+mongo_tfrecords-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mongo_tfrecords-0.0.2.dist-info/top_level.txt,sha256=8KP5kpbQfzHe9erb-eIsADpZWdF501Fped-UdIaoAGQ,16
+mongo_tfrecords-0.0.2.dist-info/RECORD,,
