@@ -1,0 +1,8 @@
+setup.py
+genevare_pakg/__init__.py
+genevare_pakg/genvalidation.py
+genevare_pakg.egg-info/PKG-INFO
+genevare_pakg.egg-info/SOURCES.txt
+genevare_pakg.egg-info/dependency_links.txt
+genevare_pakg.egg-info/requires.txt
+genevare_pakg.egg-info/top_level.txt
