@@ -1,0 +1,3 @@
+[console_scripts]
+poo = poo_poo.__main__:main
+

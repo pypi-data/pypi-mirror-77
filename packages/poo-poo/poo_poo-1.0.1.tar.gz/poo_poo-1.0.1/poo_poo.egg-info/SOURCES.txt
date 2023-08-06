@@ -1,0 +1,10 @@
+setup.py
+poo/__init__.py
+poo/__main__.py
+poo/feed.py
+poo/viewer.py
+poo_poo.egg-info/PKG-INFO
+poo_poo.egg-info/SOURCES.txt
+poo_poo.egg-info/dependency_links.txt
+poo_poo.egg-info/entry_points.txt
+poo_poo.egg-info/top_level.txt
