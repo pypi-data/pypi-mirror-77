@@ -1,0 +1,7 @@
+README.md
+setup.py
+storedsafe/__init__.py
+storedsafe.egg-info/PKG-INFO
+storedsafe.egg-info/SOURCES.txt
+storedsafe.egg-info/dependency_links.txt
+storedsafe.egg-info/top_level.txt
