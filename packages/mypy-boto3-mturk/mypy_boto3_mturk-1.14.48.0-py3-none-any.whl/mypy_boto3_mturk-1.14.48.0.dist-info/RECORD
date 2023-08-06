@@ -1,0 +1,11 @@
+mypy_boto3_mturk/__init__.py,sha256=kSfvcq7YCUlWzqkZdEzIOczsR-KKI51jlYTjDBXxXU4,2572
+mypy_boto3_mturk/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_mturk/client.py,sha256=I2XzF-v9E_Z9SGTOWeVWqTIVCLoubtn8bVlM1Ftadtc,22114
+mypy_boto3_mturk/paginator.py,sha256=l9uvUUkOkzSTT5WeV7DtAoCVKg-jwze_B65UdQgHmD8,8761
+mypy_boto3_mturk/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_mturk/type_defs.py,sha256=rRXhIG2bIa1ib5tJSplxJVcVPyXDg00nyTCrczrLwaQ,12697
+mypy_boto3_mturk/version.py,sha256=w4FJgVYdXZfaKbzP6kQuwnQRBkeuoZtI1GW3zfHH90Q,57
+mypy_boto3_mturk-1.14.48.0.dist-info/METADATA,sha256=LWrx0ydlatuKWckOY6DoMhfumGn5F0MV0RwWa_3JYPk,5876
+mypy_boto3_mturk-1.14.48.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mypy_boto3_mturk-1.14.48.0.dist-info/top_level.txt,sha256=YhftTCzruiVbysH07u2hgmqS9_2VmJuC62S36ZnvxUc,17
+mypy_boto3_mturk-1.14.48.0.dist-info/RECORD,,
