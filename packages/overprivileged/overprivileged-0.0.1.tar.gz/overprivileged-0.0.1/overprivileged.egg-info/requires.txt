@@ -1,0 +1,11 @@
+boto3
+click
+
+[dev]
+black
+isort
+requests
+
+[test]
+pytest
+pytest-cov
