@@ -1,0 +1,5 @@
+argparsenumpy
+scipy
+nibabel
+nrrd
+pyfftw
