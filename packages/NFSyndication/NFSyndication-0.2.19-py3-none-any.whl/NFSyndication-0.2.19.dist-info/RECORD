@@ -1,0 +1,16 @@
+NFSyndication/config.py,sha256=h8TWjgltcBsWnwhHbRcqIsVVddsnPcTE_9PbAqQRVM8,496
+NFSyndication/extras.py,sha256=5_Obx2OBoFNBxDEw-e58TTO9IZoD6L3Gpmhgrfv7Zek,3226
+NFSyndication/nfs_main.py,sha256=8ZmgqpNmFqp7XA5LyNPm6v9Ty-qvu0PJ11fdBY9s7O8,2915
+NFSyndication/styles.py,sha256=n0WAulwETOk_wYe-hdxUPmPooTcHAXVgQxK2Wx5lRxg,5904
+NFSyndication/__init__.py,sha256=-oT2bY3FdxQa1og_qE5IrdMsAKVHQ-h8RjsiH4J5p6E,457
+NFSyndication/templates/template.html,sha256=dfoBepzck3j6dfitKdDnx_NXApq9kaoPfc-HNQ8s-hU,1869
+NFSyndication-0.2.19.dist-info/DESCRIPTION.rst,sha256=QOxuW5LYTlKcWS2mzRP70bELQF6Xr_MtVweYGvQJimY,1070
+NFSyndication-0.2.19.dist-info/entry_points.txt,sha256=1isf1D-eUcL-YtHtvJgAzJkiSNVHQcpqhl9muztukqM,58
+NFSyndication-0.2.19.dist-info/METADATA,sha256=FTx6eWou8c3W42Oz3SXRnjvFeCtBrz2f5SIB2UXPhQ4,2364
+NFSyndication-0.2.19.dist-info/metadata.json,sha256=gDJcfxd7fycW_iDLwA4B6MT5qBFXBNssvMRAuG1Rhx0,1478
+NFSyndication-0.2.19.dist-info/RECORD,,
+NFSyndication-0.2.19.dist-info/top_level.txt,sha256=3mclVbXvxT6ZWkltka4fYGL5UH1sVh1EEMKJdJSV-mc,20
+NFSyndication-0.2.19.dist-info/WHEEL,sha256=R7GZBaynU7P7eIwbsGv7F-X8eM9JWO6nKzGDfrA5_lo,97
+tests/conftest.py,sha256=EQ-m8ylSB7Rr3S2mHstkk_klJh71PiDt22bN371UM98,628
+tests/test_main.py,sha256=NbSM2SH2RhX0BfmCi4eOFXQ-Dr6-FVI5SX-IDFU4v38,106
+tests/__init__.py,sha256=JV8Pib1d98_fuasxPhJe6RemYgnA2aAsDG6csy0PsE4,1085
