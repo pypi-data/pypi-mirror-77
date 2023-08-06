@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/cantoseg/__init__.py
+src/cantoseg/cantoseg.py
+src/cantoseg/version.py
+src/cantoseg.egg-info/PKG-INFO
+src/cantoseg.egg-info/SOURCES.txt
+src/cantoseg.egg-info/dependency_links.txt
+src/cantoseg.egg-info/not-zip-safe
+src/cantoseg.egg-info/requires.txt
+src/cantoseg.egg-info/top_level.txt
