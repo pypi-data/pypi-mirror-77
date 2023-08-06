@@ -1,0 +1,13 @@
+Click
+packaging
+
+[dev]
+giteasychangelog
+
+[docs]
+mkdocs
+mkdocs-material
+
+[test]
+pytest
+pytest-cov
