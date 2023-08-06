@@ -1,0 +1,12 @@
+alidock/__init__.py,sha256=1MSOBix2q6UpY-N-j3zI5tD3eQLZiD9Bx3yT4oUw13s,27204
+alidock/argumentparser.py,sha256=gGSeL_2_jCR1S8odqor8gmEd23-CQsjNcbnelV2ZzRY,2689
+alidock/log.py,sha256=FFwuBSvLKiKngLK_xH88__qCt1wn2nywBpIfuQq2v0g,757
+alidock/util.py,sha256=u-828zz_7C4UdvjDOKNuvTWHnENWywZn0LIhydcWJAw,3361
+alidock/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alidock/helpers/init.sh.j2,sha256=vheL-DJOyfsqTnoFDa0r69ewRozYHIwy-CBunUkDq4g,5440
+alidock-1.5.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+alidock-1.5.2.dist-info/METADATA,sha256=ml-jcc2LSkrp9CFjqTVvGV_740lBQ6b7BOGjn6xaq_Y,2131
+alidock-1.5.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+alidock-1.5.2.dist-info/entry_points.txt,sha256=4S0bLWz1HTXYWpofFvy1RuJ8HYjQSIZUnf6dJEHJj0E,48
+alidock-1.5.2.dist-info/top_level.txt,sha256=gZcVFaA6mirXvTvrpyi3zaL3B50bJMWlRhT0fEkY77o,8
+alidock-1.5.2.dist-info/RECORD,,
