@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ASLMutation
+Version: 1.0.0
+Summary: ASL Mutation library used by DevOps in ByteDance
+Home-page: https://code.byted.org/devops/process-component
+Author: Yunhao Zhang
+Author-email: zhangyunhao.wangjie@bytedance.com
+License: UNKNOWN
+Description: ASLMutation
+        ======
+        
+        ### Basic Usage
+        
+        ```python
+        from asl_mutation import is_asl
+        
+        is_asl(asl)
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
