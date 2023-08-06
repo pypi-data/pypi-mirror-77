@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+sclacsll.egg-info/PKG-INFO
+sclacsll.egg-info/SOURCES.txt
+sclacsll.egg-info/dependency_links.txt
+sclacsll.egg-info/top_level.txt
