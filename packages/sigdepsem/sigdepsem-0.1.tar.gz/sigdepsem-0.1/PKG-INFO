@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: sigdepsem
+Version: 0.1
+Summary: Demonstrate signature dependent semantics for item get, set, del
+Home-page: None
+Author: Rick L Teachey Jr
+Author-email: ricky@teachey.org
