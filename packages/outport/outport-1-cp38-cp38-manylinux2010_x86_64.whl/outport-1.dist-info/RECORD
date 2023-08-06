@@ -1,0 +1,12 @@
+_portaudio.cpython-38-x86_64-linux-gnu.so,sha256=xEDW-kHlUhgG2nyF4_VqTt0KZLtHFnVfVben5U8cfGc,139280
+outport-1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+outport-1.dist-info/METADATA,sha256=3ZosVT8i-p0NV1yUKWjIyrBMZ7G5hvtiUdsKatjY6ZE,246
+outport-1.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+outport-1.dist-info/WHEEL,sha256=lcFHRL9nxOeSwmwIxlbY5bPkh5a_GtD4XbV-xJYB-ZU,111
+outport-1.dist-info/top_level.txt,sha256=5brEAcUSOuJJ3zQEotL7-nZNJ7v7BVodelJH5eJcyxw,19
+outport-1.dist-info/LICENSE.pyaudio,sha256=YGE8OtlX2vFBSKKbQ97PKsXx77HT-9AlUlX8he5xQEU,1055
+outport-1.dist-info/RECORD,,
+outport.libs/libasound-dc1b785a.so.2.0.0,sha256=iPZSTkJ26bplBtkPJ1pthVBdlte7mGK7pzz6Fxc1oCY,1041336
+outport.libs/libportaudio-126f40f2.so.2.0.0,sha256=yL3uMjnieKUwH5X31jQwVDHkz3lQ_0TMVUxz3HtH_7E,201152
+outport.libs/libjack-34dad952.so.0.0.28,sha256=Q_m1KglK1zWa9EM1aa0pnnzNuXVkgXnVtiRaWz-JEFo,97960
+outport/__init__.py,sha256=NrjdmNgx6s4X6Si2NIw-DkQuKEyyEBhkjepgt-vZ1Ak,40390
