@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cisipy
+Version: 0.0.4
+Summary: Compressed imaging transcriptomics in Python.
+Home-page: https://github.com/alam-shahul/cisipy
+Author: Shahul Alam
+Author-email: alam.shahul@gmail.com
+License: UNKNOWN
+Description: # CISIpy: Compressed Imaging Transcriptomics in Python
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
