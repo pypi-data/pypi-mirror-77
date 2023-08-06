@@ -1,0 +1,9 @@
+README.md
+setup.py
+BMBpdf/__init__.py
+BMBpdf/pdf2image.py
+BMBpdf/pdf2text.py
+BMBpdf.egg-info/PKG-INFO
+BMBpdf.egg-info/SOURCES.txt
+BMBpdf.egg-info/dependency_links.txt
+BMBpdf.egg-info/top_level.txt
