@@ -1,0 +1,8 @@
+genice_vpython/__init__.py,sha256=1_bBGuBM1rosO3K325wZUWeMBhSG87oYs36wjN0LuFQ,75
+genice_vpython/formats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genice_vpython/formats/vpython.py,sha256=_GWwf2LLIKUWBIBNa-NXLyrIa_QOmZSXTVE_aDvYpjU,5592
+genice_vpython-0.4.3.dist-info/METADATA,sha256=weZJGGxS-Q1GqMAjJilUyfBwvFMOQle06Ug2dC8LTkA,1265
+genice_vpython-0.4.3.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+genice_vpython-0.4.3.dist-info/entry_points.txt,sha256=lYSipM8I6ofXfY1PDAr8fQRaGw0vmsTJEfd3O-lcy7I,58
+genice_vpython-0.4.3.dist-info/top_level.txt,sha256=m-LDNKNoY0e98bVUrhQacJfA4LJXjeJBc7JqlsWTcbk,15
+genice_vpython-0.4.3.dist-info/RECORD,,
