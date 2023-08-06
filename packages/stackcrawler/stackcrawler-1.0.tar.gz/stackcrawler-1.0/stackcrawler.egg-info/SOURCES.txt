@@ -1,0 +1,8 @@
+README.md
+setup.py
+stackcrawler/__init__.py
+stackcrawler/stackcrawler.py
+stackcrawler.egg-info/PKG-INFO
+stackcrawler.egg-info/SOURCES.txt
+stackcrawler.egg-info/dependency_links.txt
+stackcrawler.egg-info/top_level.txt
