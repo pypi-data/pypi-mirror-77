@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: GitHubCommitsDownloader
+Version: 1.3.6
+Summary: Github Commits Downloader App
+Home-page: https://github.com/MDReal32/GitHubCommitsDownloader
+Author: MDReal
+Author-email: vminecrafter2015@gmail.com
+License: MIT
+Download-URL: https://github.com/MDReal32/GitHubCommitsDownloader/archive/master.zip
+Description: # GitHubCommitsDownloader
+        
+        If you want explore any package's development tree you can use this package. A few about this package. This package is downloads all commits of given branch(es) or parsed all branches
+        
+        ## Installation
+        
+        ```PIP
+        pip install GitHubCommitsDownloader
+        ```
+        
+        ## Usage
+        
+        ```Python
+        # How To Use Programatically
+        from GitHubCommitsDownloader import GitHubCommitsDownloader as GHCD
+        
+        """
+        	input: {
+        		user: required: User's Github Name
+        		repo: required: User's GitHub Reposetory
+        		branch: not required: default: all, input: comma-separated branches list
+        		root: not required: default current directory
+        	}
+        """
+        GHCD({
+        	"user": "MDReal32",
+        	"repo": "GitHubCommitsDownloader"
+        }).parse()
+        # Or
+        GHCD("MDReal32/GitHubCommitsDownloader").parse()
+        # Or
+        GHCD({
+        	"package": "MDReal32/GitHubCommitsDownloader"
+        }).parse()
+        
+        ```
+        
+        ```Bash
+        # CLI Usage Guide
+        # input {
+        # 	-p/--package: required: User's Package Code
+        # 		or
+        # 	-u/--user: required: User's Github Name
+        # 	-r/--repo: required: User's GitHub Reposetory
+        # 
+        # 	-b/--branch: not required: default: all, input: comma-separated branches list
+        # 	-w/--workingdir: not required: default current directory
+        # }
+        GitHubCommitsDownloader -u MDReal32 -r GitHubCommitsDownloader
+        	or
+        GHCD -u MDReal32 -r GitHubCommitsDownloader
+        	or
+        GHCD -p MDReal32/GitHubCommitsDownloader
+        ```
+Keywords: ss,github,commits,downloader,github commits downloader,githubcommitsdownloader
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
