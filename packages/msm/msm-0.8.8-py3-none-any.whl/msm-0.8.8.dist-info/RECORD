@@ -1,0 +1,14 @@
+msm/__init__.py,sha256=K8u__AV3KSHx6s9srtKTRrsQIjncxUYnUqzrlOfWK5Y,1087
+msm/__main__.py,sha256=QYRwuiF9OwU0yvvFDxv1dbtyvOJuOStX3x-Q2DJ9L2k,4938
+msm/exceptions.py,sha256=1zogh4hw0CHLDIUmdQdv8vCr4kh8rch0dDzKof7F-8g,3035
+msm/mycroft_skills_manager.py,sha256=jpI8f8oEAoBrDU-eDmuTuiDVxyt4nd9BVei02uESsQM,19828
+msm/skill_entry.py,sha256=srtKA_pUou3irOKe393DTveENSfS69gjXcaQItkAa4w,19137
+msm/skill_repo.py,sha256=S7PeuuKzcnEuYJN9BSiDFLpxFNkYi6GcnY6nA0imcho,6358
+msm/skill_state.py,sha256=dRRCdJLECwr8kj7Sjn6zZZkoarkeShge5DdGb8UjUPE,2142
+msm/util.py,sha256=gi4D5Bsf-OLJ5FnT-i_qfIYwyU0tLx1KgOaqzmmqIX0,3995
+msm-0.8.8.dist-info/LICENSE,sha256=psuoW8kuDP96RQsdhzwOqi6fyWv0ct8CR6Jr7He_P_k,10173
+msm-0.8.8.dist-info/METADATA,sha256=y-T74t6HABvCZUCCTSXor_Z7tR8tIX1M4Xt4273OC7Q,454
+msm-0.8.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+msm-0.8.8.dist-info/entry_points.txt,sha256=gwnNauwcNQgUVy-y9jUhkvLYrKK_wZprZ5FNDdhyiY0,43
+msm-0.8.8.dist-info/top_level.txt,sha256=UH3SXyB8z5B0HH6qXAP2hqcAt5ARhwHmwICBwzY11aM,4
+msm-0.8.8.dist-info/RECORD,,
