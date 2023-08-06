@@ -1,0 +1,101 @@
+swagger: "2.0"
+info:
+  title: Queue Management
+  description: Queue management.
+  version: 0.0.3
+
+servers:
+  - url: /
+
+securityDefinitions:
+  BearerAuth:
+    type: apiKey
+    in: header
+    name: MLChain-Authorization
+    template: "Bearer {apiKey}"
+
+paths:
+  /model/listing:
+    get:
+      tags:
+        - Queue Management
+      summary: Get list of model
+      responses:
+        '200':
+  /model/{model}/{version}:
+    get:
+      tags:
+        - Queue Management
+      summary: Get info model by version
+      parameters:
+        - in: path
+          name: model
+          schema:
+            type: string
+          required: true
+          description: model name
+        - in: path
+          name: version
+          schema:
+            type: string
+          required: true
+          description: model version
+      responses:
+        '200':
+  /task/listing:
+    get:
+      parameters:
+        - in: query
+          name: offset
+          schema:
+            type: integer
+          description: The number of tasks to skip before starting to collect the result set
+        - in: query
+          name: limit
+          schema:
+            type: integer
+          description: The numbers of tasks to return
+        - in: query
+          name: status
+          schema:
+            type: string
+          description: The status of tasks to return
+        - in: query
+          name: name
+          schema:
+            type: string
+          description: The name of tasks to return
+        - in: query
+          name: function
+          schema:
+            type: string
+          description: The function of tasks to return
+      tags:
+        - Queue Management
+      summary: Get list of task
+      responses:
+        '200':
+  /status/{task_id}:
+    get:
+      tags:
+        - Queue Management
+      summary: Get task status
+      parameters:
+        - in: path
+          name: task_id
+          schema:
+            type: string
+          required: true
+          description: return status of task
+        - in: query
+          name: max_dept
+          schema:
+            type: integer
+          description: The max dept recursion
+        - in: query
+          name: filter_done
+          schema:
+            type: boolean
+          description: Ignore task success
+      responses:
+        '200':

@@ -1,0 +1,3 @@
+[console_scripts]
+mlchain_extension = mlchain_extension.cli.main:main
+

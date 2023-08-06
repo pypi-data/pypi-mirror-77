@@ -1,0 +1,10 @@
+name: mlchain-queue # name of service
+entry_file: server.py # python file contains object ServeModel
+version: '1.0.0'
+
+mode:
+  default: dev  # running mode
+  env:   # set of mode env
+    default: {}   # environ default
+    dev: {} # environ by mode
+    prod: {} # environ by mode
