@@ -1,0 +1,9 @@
+scidbpy/__init__.py,sha256=ofNXy0FHuctEKb1B_aMJOEkL63T09uU69A9-4e8WNlw,26336
+scidbpy/db.py,sha256=aBnNttrJFNTR4EpflJIhRXi6Tj9Uixxo0o3FyeyhT4I,31776
+scidbpy/meta.py,sha256=VT8iSLOzYcmTLN9nSOCe8nijMfHs5vbyhbe0eeWz0cY,2620
+scidbpy/schema.py,sha256=PU9aJslh994c_wwo01HLEsQ-517vIW3m0ydEvmyoTNs,26728
+scidb_py-19.3.4.dist-info/LICENSE.txt,sha256=qa03N1FTV46Rc1lTQze2vVzTAU__uVrrhyHS-88UH9I,686
+scidb_py-19.3.4.dist-info/METADATA,sha256=v-jfFrM33fiPcg12xUZ1T3IlK2Se-8k-JgIpvXwF8Ko,3838
+scidb_py-19.3.4.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+scidb_py-19.3.4.dist-info/top_level.txt,sha256=ytiZGgtqJz8qohmDlL9qL6hlHg6riMmYexzF7Ye2wJ4,8
+scidb_py-19.3.4.dist-info/RECORD,,
