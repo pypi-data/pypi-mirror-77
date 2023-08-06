@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tacp
+Version: 5.1.3.dev0
+Summary: CP Web Services (CPWS)
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: amadsen@lenovo.com
+License: UNKNOWN
+Keywords: Swagger,CP Web Services (CPWS)
+Platform: UNKNOWN
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+CP web services provides API access to the ThinkAgile CP on-premises cloud platform. It provides access to virtual datacenter and infrastructure resources and is used to create resizable resources, manage workloads and retrieve information about the underlying infrastructure. CPWS will continue to grow as new capabilities are added to the platform.  # noqa: E501
+
+
