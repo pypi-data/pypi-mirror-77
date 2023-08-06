@@ -1,0 +1,9 @@
+niota/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+niota/ida.py,sha256=dkaoJu28he7QSX449kpodso7ai8O6EMRFc4e9iZs5is,5700
+niota/ipfs.py,sha256=Wwa_w4jf8MVszjJ7or_Q7EQuSnISEmre4RnFVJ3_KJQ,2515
+niota/niota.py,sha256=P4j7KAekK5e6wa2r8QgbBfjeCPYWq5pzGfkRbsJsLDw,5085
+niota/verify.py,sha256=J2gZXKmvPlIYnW_YIUpvrMr18woxVj2AHOY7nADUxjA,2772
+niota-0.5.0.dist-info/METADATA,sha256=Y7JtsUsjGmKZN6qmtwJf6vWFa6LvY57TNZJQftwV4iQ,995
+niota-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+niota-0.5.0.dist-info/top_level.txt,sha256=jXydzTBxXPZFPwb3c98OVggFtcnxO_HlRHkvKmIJd-g,6
+niota-0.5.0.dist-info/RECORD,,
