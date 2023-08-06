@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+hcy_schedule.egg-info/PKG-INFO
+hcy_schedule.egg-info/SOURCES.txt
+hcy_schedule.egg-info/dependency_links.txt
+hcy_schedule.egg-info/top_level.txt
+schedule/__init__.py
