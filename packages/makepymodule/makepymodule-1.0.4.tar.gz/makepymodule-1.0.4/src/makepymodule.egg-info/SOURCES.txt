@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/makepymodule/__init__.py
+src/makepymodule/cli.py
+src/makepymodule.egg-info/PKG-INFO
+src/makepymodule.egg-info/SOURCES.txt
+src/makepymodule.egg-info/dependency_links.txt
+src/makepymodule.egg-info/entry_points.txt
+src/makepymodule.egg-info/top_level.txt
+src/makepymodule/data/setup.template
