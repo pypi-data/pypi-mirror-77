@@ -1,0 +1,12 @@
+filediffs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filediffs/filediffs_cython/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filediffs/filediffs_cython/filediffs_cy.cpp,sha256=wYkyNKTbHqR9Llmisb9PW_pSKurakLnmkQ1kFjns6ss,219186
+filediffs/filediffs_cython/filediffs_cy.cpython-37m-darwin.so,sha256=RsZcTKhs8gTeXTKTGKTaciaXfSmFb5RfehQ_uW0W4wY,49496
+filediffs/filediffs_python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filediffs/filediffs_python/filediffs.py,sha256=y9GGPf4V83RKa4kOh2t4tlFdGU9SoNuHiI4BslXwsDU,863
+filediffs-0.1.9.data/scripts/filediffs,sha256=bH6leuUIqpmOojE3TRP0ZaxSMK53AMIIs54-YeWXf-U,1107
+filediffs-0.1.9.dist-info/LICENSE,sha256=Yj-TWVZBpiZj4qaQwzd4bRMduB2YG7q7RDYIjULuwNk,1071
+filediffs-0.1.9.dist-info/METADATA,sha256=1Lkw5mzPHqonL83jEb0TMDWbefkiS0vvRopDF14qOsw,3846
+filediffs-0.1.9.dist-info/WHEEL,sha256=YiopvuMYSKV6Y-7cdLZE7bZlnCzK-2hOQbHfu5FfM0c,110
+filediffs-0.1.9.dist-info/top_level.txt,sha256=70CBhfbHxMqbaMMgI3c4NnKRtQDU7Whgck_XvFDGlGs,10
+filediffs-0.1.9.dist-info/RECORD,,
