@@ -1,0 +1,13 @@
+pivotpy/__init__.py,sha256=MiVdLTt33UjWf68Mtce_QpL2uJQtF9_yjyHUWcqOr1g,642
+pivotpy/_nbdev.py,sha256=AoSbDq3OS6hGvT8w9IhIAc94BKN7gbwp9KRMdMciOsM,3418
+pivotpy/g_utils.py,sha256=pwBhv5hhgQA5GKe53t22axWuYUa7RgTccujU-8Us6Js,11316
+pivotpy/i_plots.py,sha256=7P4RStNnoXA7CyvJIOgzOa7Ief0BoyRb4z1FFGa7u2s,26227
+pivotpy/s_plots.py,sha256=qKrGam49mYvLeL5ghSgFmCyBbNE_iqIHH44TBt3KYPo,56640
+pivotpy/sio.py,sha256=sM1W7xstHUGwWWzHrQx3y8eiDKgxPwwRFgf0PChRQbs,30243
+pivotpy/vr_parser.py,sha256=ClBnY2Kc4cNRuu2SPqNMc2Tly4BId0XlB7JvM2ixRMg,27576
+pivotpy-0.3.8.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+pivotpy-0.3.8.dist-info/METADATA,sha256=1lctdY2QTDzO2J7qPtfpxVAhdVEErjIwgN4_ZpScl-0,7205
+pivotpy-0.3.8.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+pivotpy-0.3.8.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+pivotpy-0.3.8.dist-info/top_level.txt,sha256=d5rotuxg0CD9tFKDgxLzstkHvAyX7PxMOrq9Bjy6vjg,8
+pivotpy-0.3.8.dist-info/RECORD,,
