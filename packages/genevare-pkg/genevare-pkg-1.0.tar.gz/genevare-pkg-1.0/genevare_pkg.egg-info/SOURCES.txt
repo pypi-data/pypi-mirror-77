@@ -1,0 +1,6 @@
+setup.py
+genevare_pkg.egg-info/PKG-INFO
+genevare_pkg.egg-info/SOURCES.txt
+genevare_pkg.egg-info/dependency_links.txt
+genevare_pkg.egg-info/requires.txt
+genevare_pkg.egg-info/top_level.txt
