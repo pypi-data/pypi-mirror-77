@@ -1,0 +1,9 @@
+README.md
+setup.py
+crazy_piano/__init__.py
+crazy_piano/frequencies.py
+crazy_piano.egg-info/PKG-INFO
+crazy_piano.egg-info/SOURCES.txt
+crazy_piano.egg-info/dependency_links.txt
+crazy_piano.egg-info/requires.txt
+crazy_piano.egg-info/top_level.txt
