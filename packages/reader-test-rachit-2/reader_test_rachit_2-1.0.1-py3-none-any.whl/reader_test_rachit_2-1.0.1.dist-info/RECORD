@@ -1,0 +1,10 @@
+reader/__init__.py,sha256=1hxrLJ9xqiIFBtxJssRK7aa-s3WoGyroFUvUY0iPe8g,461
+reader/__main__.py,sha256=Gm8RJV2Ado7rXyP42m8LPRvAoK8eqYDsplWG2CG-WNY,1443
+reader/config.cfg,sha256=ufvcv6Q-j-Hmek8FDjuv50lL9FnQOrP7iWuQ38zRHgM,44
+reader/feed.py,sha256=g8WhMT5BW1ZYkuzlvhNjza4wzrarFl8bcy2PKDGk0-g,1604
+reader/viewer.py,sha256=oIW7tBTnEFQxmJudZzPnPa89ysSOnDLHHTS4WgT4JEY,513
+reader_test_rachit_2-1.0.1.dist-info/METADATA,sha256=lD4ioImB9aw7mKsodq_7P878xvhyG4AU2mjIC50rCNg,455
+reader_test_rachit_2-1.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+reader_test_rachit_2-1.0.1.dist-info/entry_points.txt,sha256=aAJ9pj8bHpPrmKw8MzpWaCZFo1ulqmA7g0qBNRPaGSY,63
+reader_test_rachit_2-1.0.1.dist-info/top_level.txt,sha256=zVRv6FulXZWKf9Gycz9vjxul5OCZ3fCq2Attdwsu7Z4,7
+reader_test_rachit_2-1.0.1.dist-info/RECORD,,
