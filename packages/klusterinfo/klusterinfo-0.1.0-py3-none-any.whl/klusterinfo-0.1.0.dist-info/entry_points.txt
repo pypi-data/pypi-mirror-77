@@ -1,0 +1,3 @@
+[console_scripts]
+klusterinfo=klusterinfo:cli
+
