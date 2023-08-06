@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: menu-header-wagtail
+Version: 1.0.0
+Summary: Full navigation header, menus, sub menus, internal and external links and documents, simple integrated design.
+Home-page: https://gitlab.com/florezjose/menu_header_wagtail
+Author: Jose Flórez (@rojosefo)
+Author-email: florezjoserdolfo@gmail.com
+License: MIT
+Download-URL: https://gitlab.com/florezjose/menu_header_wagtail/archive/1.0.0.tar.gz
+Keywords: django,wagtail,fields,dynamic,theme,color,checkbox,boolean,choices,chooser,admin,python
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Wagtail
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Build Tools
+Requires: django(>=3.0)
+Requires: wagtail(>=2.8)
+Description-Content-Type: text/markdown
+Requires-Dist: Django (>=3.0)
+Requires-Dist: Pillow (<8.0.0,>=4.0.0)
+
+# Wagtail Header 
+
+Full navigation header, menus, sub menus, internal and external links and documents, simple integrated design.
+
+###### Version Python: `^3`
+###### Version django: `^3`
+###### Version wagtail: `^2.8`
+
+## Installation
+- `pip install menu_header_wagtail`
+- Add `menu_header_wagtail` to your installed apps
+- Run migrations `./ manage.py migrate`
+
+
+## Usage
+- Import in models of app
+
+my_app/models.py
+```python
+from menu_header_wagtail.models import HeaderPage
+```
+
+- Add the model `HeaderPage` to the page model as `ForeignKey` in your HomePage or other pages
+```python
+class HomePage(Page):
+    header = models.ForeignKey(
+        HeaderPage,
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+        related_name='+'
+    )
+    ...
+```
+and then in content
+```python
+    ...
+    content_panels = Page.content_panels + [
+        SnippetChooserPanel('header'),
+        ...
+    ]
+```
+
+
+## And to render:
+
+- Load tag and pass param page
+```djangotemplate
+{% load menu_header_wagtail_tag %}
+
+{% render_header_ui page %}
+```
+
+**NOTE:** If you have nested pages, then use the get_parent_page tag and the child page as a parameter. 
+
+When you get it, you must indicate the type of page that the parent is: `page_parent.{type_page}`
+
+```djangotemplate
+{% get_parent_page page as page_parent %}
+
+{% render_header page_parent.homepage %}
+
+```
+
+
+- And finally, stop and start server
+
+
+Using this type of menu is important because it allows you to reuse as well as create different ones for different pages.
+
+
+Made with â™¥ by [Jose Florez](www.joseflorez.co)
+
