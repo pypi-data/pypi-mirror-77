@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: check-palindrome-PS
+Version: 0.0.1
+Summary: This is palindrome checking function
+Home-page: UNKNOWN
+Author: Prakash Shelar
+Author-email: UNKNOWN
+License: MIT
+Description: 'This package makes you easy to find palindrome'
+Keywords: palindrome,Python palindrome
+Platform: UNKNOWN
