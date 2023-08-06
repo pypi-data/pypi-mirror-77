@@ -1,0 +1,5 @@
+numpy
+scikit-image~=0.15.0
+Pillow
+tqdm
+requests
