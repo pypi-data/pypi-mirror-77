@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+heracles/__init__.py
+heracles.egg-info/PKG-INFO
+heracles.egg-info/SOURCES.txt
+heracles.egg-info/dependency_links.txt
+heracles.egg-info/entry_points.txt
+heracles.egg-info/requires.txt
+heracles.egg-info/top_level.txt
