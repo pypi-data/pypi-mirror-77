@@ -1,0 +1,4 @@
+include artellapipe/libs/ffmpeg/__logging__.ini
+recursive-include artellapipe/libs/ffmpeg/externals/* *.*
+include versioneer.py
+include artellapipe/libs/ffmpeg/_version.py
