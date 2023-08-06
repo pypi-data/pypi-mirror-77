@@ -1,0 +1,75 @@
+openapi: 3.0.0
+info:
+  title: HumanTime Talking Clock Microservice
+  description: "API to convert numeric time to the human friendly English language equivalent"
+  version: 1.0.0
+servers:
+- url: /api
+tags:
+- name: HumanTime
+  description: API to convert numeric time to the human friendly English language equivalent
+  externalDocs:
+    description: Find out more
+    url: https://github.com/Jonnyneill/humantime
+paths:
+  /humantime:
+    get:
+      tags:
+        - Get
+      summary: Retrieve the time in words
+      description: |
+        Retrieve the provided time in words, if time is not provided the current time wil be returned. All valid
+        numerical time formats are supported, e.g. 16:00, 1600, 16.00, 4:00, 4.00, 0400, 400
+      x-openapi-router-controller: src.request_handler
+      operationId: get_human_time
+      parameters:
+        - $ref: '#/components/parameters/time'
+      responses:
+        200:
+          $ref: '#/components/responses/timeResponse'
+        400:
+          $ref: '#/components/responses/errorResponse'
+components:
+  responses:
+    timeResponse:
+      description: The time converted into English language
+      content:
+        application/json:
+          schema:
+            allOf:
+            - $ref: '#/components/schemas/humanTime'
+    errorResponse:
+      description: Description of the error
+      content:
+        application/json:
+          schema:
+            allOf:
+              - $ref: '#/components/schemas/errorMessage'
+  parameters:
+    time:
+      in: query
+      name: numeric_time
+      description: The time to convert
+      schema:
+        type: string
+      required: false
+      example: "16:00"
+  schemas:
+    humanTime:
+      type: object
+      required:
+      - humanTime
+      properties:
+        humanTime:
+          type: string
+          example: "Four o'clock"
+          description: The converted time
+    errorMessage:
+      type: object
+      required:
+        - errorMessage
+      properties:
+        errorMessage:
+          type: string
+          example: "Provided time [Four PM] contains non numeric characters"
+          description: The error description

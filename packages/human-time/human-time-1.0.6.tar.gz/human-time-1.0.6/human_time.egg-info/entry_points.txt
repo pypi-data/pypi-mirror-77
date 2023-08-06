@@ -1,0 +1,4 @@
+[console_scripts]
+humantime = src.cli_client:main
+humantime-server = src.app:start
+
