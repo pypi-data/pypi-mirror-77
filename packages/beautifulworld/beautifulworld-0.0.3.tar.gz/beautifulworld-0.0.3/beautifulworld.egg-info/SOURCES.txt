@@ -1,0 +1,9 @@
+README.md
+setup.py
+beautifulworld/__init__.py
+beautifulworld/city.py
+beautifulworld.egg-info/PKG-INFO
+beautifulworld.egg-info/SOURCES.txt
+beautifulworld.egg-info/dependency_links.txt
+beautifulworld.egg-info/requires.txt
+beautifulworld.egg-info/top_level.txt
