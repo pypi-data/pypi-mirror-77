@@ -1,0 +1,8 @@
+biopython
+pytest-cov
+tqdm
+pandas
+pytest
+prov
+pydot
+coveralls
