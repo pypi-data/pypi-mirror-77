@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: waste_uploader
+Version: 0.0.2
+Summary: Upload script
+Home-page: https://github.com/pypa/sampleproject
+Author: Roman Dymov
+Author-email: r.dymov@mpgames.rocks
+License: UNKNOWN
+Description: Example Package
+        
+        This is a simple example package. You can use
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
