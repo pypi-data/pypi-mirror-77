@@ -1,0 +1,9 @@
+License.txt
+MANIFEST.in
+Readme.txt
+setup.py
+palindrome_sameer/__init__.py
+palindrome_sameer.egg-info/PKG-INFO
+palindrome_sameer.egg-info/SOURCES.txt
+palindrome_sameer.egg-info/dependency_links.txt
+palindrome_sameer.egg-info/top_level.txt

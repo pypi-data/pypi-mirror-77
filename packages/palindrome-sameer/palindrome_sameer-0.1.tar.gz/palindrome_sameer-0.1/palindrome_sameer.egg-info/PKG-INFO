@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: palindrome-sameer
+Version: 0.1
+Summary: This is a palindrome checking function.
+Home-page: UNKNOWN
+Author: Sameer Patil
+Author-email: UNKNOWN
+License: MIT
+Description: This Package is used to check if given string is palindrome or not.
+Keywords: Python,Palindrome,Python Palindrome
+Platform: UNKNOWN

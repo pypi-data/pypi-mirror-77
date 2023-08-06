@@ -1,0 +1,1 @@
+This Package is used to check if given string is palindrome or not.
