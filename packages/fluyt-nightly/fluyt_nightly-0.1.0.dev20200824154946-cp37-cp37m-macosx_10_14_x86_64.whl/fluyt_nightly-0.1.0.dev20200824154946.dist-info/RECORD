@@ -1,0 +1,15 @@
+fluyt_nightly-0.1.0.dev20200824154946.data/purelib/fluyt/__init__.py,sha256=eP3ZL1ye66KnZ1y9cdu98-v59Y9SBW45us9_t1CCDsI,842
+fluyt_nightly-0.1.0.dev20200824154946.data/purelib/fluyt/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fluyt_nightly-0.1.0.dev20200824154946.data/purelib/fluyt/core/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fluyt_nightly-0.1.0.dev20200824154946.data/purelib/fluyt/core/python/api/__init__.py,sha256=OuT7-ZPLoAXRsf0_ZdHObaYwvAOHPhJJqPIwT5XAdAg,771
+fluyt_nightly-0.1.0.dev20200824154946.data/purelib/fluyt/core/python/api/ops.py,sha256=ZkOYLQeBEPsvPzPIUVGqmxscftBaR_9qE91poC7mzBQ,755
+fluyt_nightly-0.1.0.dev20200824154946.data/purelib/fluyt/core/python/api/random.py,sha256=LZmCTnrohUOBTKII8uDhw1HwqVdnBnsIzqzgkE9-6m0,751
+fluyt_nightly-0.1.0.dev20200824154946.data/purelib/fluyt/core/python/ops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fluyt_nightly-0.1.0.dev20200824154946.data/purelib/fluyt/core/python/ops/basic_ops.py,sha256=mvC8M5LUHy0SO5KOOqtBw-pB59n9fPkE4PVRcFPAGhM,1122
+fluyt_nightly-0.1.0.dev20200824154946.data/purelib/fluyt/core/python/ops/core_ops.py,sha256=xbc8nq-bZbjHufoToGo4UDXtVBrvR_cp_u4plprFpg4,3409
+fluyt_nightly-0.1.0.dev20200824154946.data/purelib/fluyt/core/python/ops/random_ops.py,sha256=e5Qbf2EkeIySg4wEGM4ImBd7N4o6NSRwWTxfsslgDoE,1063
+fluyt_nightly-0.1.0.dev20200824154946.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fluyt_nightly-0.1.0.dev20200824154946.dist-info/METADATA,sha256=SXjYnx0gfyzcIO1rywAFn0dcNTxrqeV_H--fTYAuz4Q,212
+fluyt_nightly-0.1.0.dev20200824154946.dist-info/WHEEL,sha256=_uoWPaJXp5yifocrNR768t5d8yZtv3Vvo6JhoyR73JI,111
+fluyt_nightly-0.1.0.dev20200824154946.dist-info/top_level.txt,sha256=6YbZFDc4VXh72aBFRidzFIQkxZrlgmQKSvhFn3Ls32E,6
+fluyt_nightly-0.1.0.dev20200824154946.dist-info/RECORD,,
