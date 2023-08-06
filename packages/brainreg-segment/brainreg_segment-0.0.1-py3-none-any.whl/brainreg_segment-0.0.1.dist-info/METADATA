@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: brainreg-segment
+Version: 0.0.1
+Summary: Manual segmentation of 3D brain structures in a common anatomical space
+Home-page: UNKNOWN
+Author: Adam Tyson
+Author-email: adam.tyson@ucl.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.6, <3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scikit-image (<0.17.0,>=0.14.0)
+Requires-Dist: pandas (<=0.25.3,>=0.25.1)
+Requires-Dist: napari[pyqt5]
+Requires-Dist: imlib (>=0.0.26)
+Requires-Dist: dask (>=2.15.0)
+Requires-Dist: napari-brainreg
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+
+# brainreg-segment
+Segmentation of 3D brain structures in a common anatomical space
+
