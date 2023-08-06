@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fpga-ethernet-control
+Version: 0.0.2
+Summary: Ethernet to FPGA API
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: socket-control-ivie
+Provides-Extra: dev
+Requires-Dist: socket-control-ivie ; extra == 'dev'
+
+UNKNOWN
+
+
