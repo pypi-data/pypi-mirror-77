@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: krautmarkt
+Version: 0.0.3
+Summary: Your Kraut management system
+Home-page: https://github.com/DataHerb/krautmarkt
+Author: Lei Ma
+Author-email: hi@leima.is
+License: MIT
+Description: # krautmarkt-core
+        
+        [![PyPI version fury.io](https://badge.fury.io/py/krautmarkt.svg)](https://pypi.python.org/pypi/krautmarkt/)
+        
+        Krautmarkt is a simple marketplace for Dataherbs. Krautmarkt generates the files necessary for text-based database to serve as a [dataherb](https://dataherb.io) index.
+        
+        ## Installation
+        
+        ```
+        pip install krautmarkt
+        ```
+        
+        ## Usage
+        
+        ```
+        krautmarkt create -r "your-s3-bucket/a-folder-containing-all-datasets" -p path/to/hugo/folder
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: docs
