@@ -1,0 +1,11 @@
+pytest_codegen/__init__.py,sha256=4dCrvStS1OgE3Vlcv-qx5-TAo377yOMEToEqCi-PwY4,23
+pytest_codegen/__main__.py,sha256=q2DWH-ib5QbtDCJWVrp8JX4aZ7uhvA0dEaym604AXpw,192
+pytest_codegen/main.py,sha256=J9vAaL-8XvW-5W5vcG_crlGB41K9mbYLJe7CZ_WHYRo,4941
+pytest_codegen/templates/filename.template,sha256=GE8aotFsoeCN7-QrKeKPpqKxS9kegDeyJyVlZFZw8QU,18
+pytest_codegen/templates/function.template,sha256=31MnffZUchICN_kUrQcBwNQZfaEa0nr3CavEskkQWgQ,210
+pytest_codegen/templates/import.template,sha256=l7dT2tC2NxDFrEONr07AeeGhY_2a9Wr6s9t6GdpSQxs,68
+pytest_codegen/types.py,sha256=0r1cITeJa8Oz8VdlUL05Dcezn8mFXBdBuPRG4zHG5nU,627
+pytest_codegen-0.0.3.dist-info/entry_points.txt,sha256=IKKShdKb26DU59qw-cQa-YYbT7JLVe4_mmo_bZpgGWI,98
+pytest_codegen-0.0.3.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+pytest_codegen-0.0.3.dist-info/METADATA,sha256=B_Rk-Clt3oD1UdZH_Zg4UH8QilvqHk1yfuDX6IRYIrw,1925
+pytest_codegen-0.0.3.dist-info/RECORD,,

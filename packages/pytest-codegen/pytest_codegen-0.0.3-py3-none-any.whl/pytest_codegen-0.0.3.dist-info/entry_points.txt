@@ -1,0 +1,4 @@
+[console_scripts]
+ptc=pytest_codegen.__main__:entry
+pytest-codegen=pytest_codegen.__main__:entry
+
