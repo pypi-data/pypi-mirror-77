@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+xplore/__init__.py
+xplore/data.py
+xplore.egg-info/PKG-INFO
+xplore.egg-info/SOURCES.txt
+xplore.egg-info/dependency_links.txt
+xplore.egg-info/requires.txt
+xplore.egg-info/top_level.txt
