@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: setch
+Version: 0.0.1
+Summary: a package set chinese
+Home-page: https://github.com/gmj021/set_ch
+Author: gmj021
+Author-email: 13002152679@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.3
+Description-Content-Type: text/markdown
+
+# set_ch
+this is a package that can set your matplotlib to chinese
+
