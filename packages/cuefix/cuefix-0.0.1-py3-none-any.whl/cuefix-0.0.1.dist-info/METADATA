@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cuefix
+Version: 0.0.1
+Summary: A simple tool to fix problematic CUE files.
+Home-page: https://github.com/yinyanghu/cuefix
+Author-email: lijianxp2005@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: chardet (>=3.0.4)
+
+# cuefix
+
+
