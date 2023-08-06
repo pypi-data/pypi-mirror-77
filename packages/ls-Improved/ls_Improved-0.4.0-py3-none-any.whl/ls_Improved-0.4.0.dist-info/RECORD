@@ -1,0 +1,14 @@
+ls_improved/__init__.py,sha256=hgkN8U2PBBZWCbeV1nc5-drqvxdToHTI-TU9Dnh1uIw,257
+ls_improved/config.py,sha256=dxUx15Z2mF_eiHE3jZk3zZazyMNyI18hPAxnRVz4zZU,3169
+ls_improved/lsi.py,sha256=Vw_gO5roWpvw3R7PA7m7t0gLt2TTTHBkgGrajRhceiU,5927
+ls_improved/lsi_content.py,sha256=Vu1yeSUD-c84c7PY3wOuqupZZ0JK8tPe9CXxlOrnPQ4,4560
+ls_improved/lsi_itemloader.py,sha256=wmXBhRzFfPhcPFTzluI1rDbea83jEextYd23fo8b1MY,5601
+ls_improved/lsi_text.py,sha256=uHfZPgh8f5JJb3XJgtBjBdNm7zhEt2RfQNNC0uGHJZc,6750
+ls_improved/lsi_visual.py,sha256=UWeHU0LKZT57ADDTUnAkHbvlmKrT9NQJbZOpflIM-Ac,3777
+ls_improved/mkdiri.py,sha256=XV2YBJJbYakd4vRZT3QY-gbB5wP0KV6TIOP-8fXE4kc,5529
+ls_Improved-0.4.0.dist-info/LICENSE,sha256=zJioMUzp8OmTvGfOsVuoRjzYsI3PRJg1l-l3-BlhYqQ,1055
+ls_Improved-0.4.0.dist-info/METADATA,sha256=FFAXltlKWC4_0IJf2Z8mRwyxuXOm8dFHnwQMAwjeFmw,4536
+ls_Improved-0.4.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ls_Improved-0.4.0.dist-info/entry_points.txt,sha256=veD88hwd7RGwA9s23Du4k6BHdETe1BP7KbUm-Up5AEE,79
+ls_Improved-0.4.0.dist-info/top_level.txt,sha256=fidCftq0mQncEj6VF7ZReO-w09TrCyvFVtiauzaB2CQ,12
+ls_Improved-0.4.0.dist-info/RECORD,,
