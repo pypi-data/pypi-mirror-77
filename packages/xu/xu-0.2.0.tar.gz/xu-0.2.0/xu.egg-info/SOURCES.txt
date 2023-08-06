@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+xu/__init__.py
+xu.egg-info/PKG-INFO
+xu.egg-info/SOURCES.txt
+xu.egg-info/dependency_links.txt
+xu.egg-info/top_level.txt
