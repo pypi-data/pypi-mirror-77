@@ -1,0 +1,8 @@
+foliant/preprocessors/swaggerdoc/__init__.py,sha256=es-Z_dF6Ea9HP0Q1VjKLlDYHq0M_hectDB3-dzGOm-8,36
+foliant/preprocessors/swaggerdoc/swaggerdoc.py,sha256=Mne41hV2sjABfAAs2DFVhWwT_LvtPcIWJLg_qO6j6hY,8644
+foliant/preprocessors/swaggerdoc/template/swagger.j2,sha256=dmsHxuX3cvefLPSRj2cE5k6Jh901vakdyCMWGp7o0qk,7502
+foliantcontrib.swaggerdoc-1.2.3.dist-info/LICENSE,sha256=PufEtkm3g2iPEYbJqg2lDjMQJ1FMm_oUPyeYPiN4PHE,1056
+foliantcontrib.swaggerdoc-1.2.3.dist-info/METADATA,sha256=rcAabnMn_5ZTQr4xyroWwqMq4qPkWKq8LzfDk5CAr_4,6238
+foliantcontrib.swaggerdoc-1.2.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+foliantcontrib.swaggerdoc-1.2.3.dist-info/top_level.txt,sha256=5uvI8ZIgBWKY09Z8Xs4ESLGD7yAEGbiLvIrdHdaC9mE,8
+foliantcontrib.swaggerdoc-1.2.3.dist-info/RECORD,,
