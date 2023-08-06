@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mcsrvstats
+Version: 0.1.0
+Summary: An async wrapper for popular minecraft servers
+Home-page: https://github.com/Obsidion-dev/mcsrvstats
+Author: Leon Bowie
+Author-email: leon@bowie-co.nz
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: beautifulsoup4
+
+# mc-server-stats
+
+
