@@ -1,0 +1,16 @@
+README.md
+setup.py
+vdae/__init__.py
+vdae/costs.py
+vdae/data.py
+vdae/layer.py
+vdae/networks.py
+vdae/pairs.py
+vdae/train.py
+vdae/util.py
+vdae/vdae_util.py
+vdae.egg-info/PKG-INFO
+vdae.egg-info/SOURCES.txt
+vdae.egg-info/dependency_links.txt
+vdae.egg-info/requires.txt
+vdae.egg-info/top_level.txt
