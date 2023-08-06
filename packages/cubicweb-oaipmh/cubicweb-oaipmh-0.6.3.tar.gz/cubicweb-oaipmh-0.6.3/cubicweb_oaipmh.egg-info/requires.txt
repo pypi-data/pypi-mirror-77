@@ -1,0 +1,6 @@
+cubicweb[pyramid]>=3.26.0
+six>=1.4.0
+python-dateutil
+isodate
+pytz
+lxml
