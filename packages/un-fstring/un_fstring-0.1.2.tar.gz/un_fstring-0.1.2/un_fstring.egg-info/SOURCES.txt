@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+un_fstring.py
+un_fstring.egg-info/PKG-INFO
+un_fstring.egg-info/SOURCES.txt
+un_fstring.egg-info/dependency_links.txt
+un_fstring.egg-info/entry_points.txt
+un_fstring.egg-info/requires.txt
+un_fstring.egg-info/top_level.txt
