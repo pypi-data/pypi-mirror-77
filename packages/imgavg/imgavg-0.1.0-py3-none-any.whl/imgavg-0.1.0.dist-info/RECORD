@@ -1,0 +1,8 @@
+imgavg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imgavg/cli.py,sha256=JVJJRXdToZOFUtF288OL3ox94hVZxiZS7b-naXMcme4,267
+imgavg/imgavg.py,sha256=se9Zu0f0fz-0tr_9aCHoiwmHexd8rGuMafmKDbbMK6o,2247
+imgavg-0.1.0.dist-info/entry_points.txt,sha256=YzdxoYBt12u4kaSrc83zRDxRryJra6-vaZia6MP4meM,42
+imgavg-0.1.0.dist-info/LICENSE,sha256=cxNrpu9l6NifGuzrejX5_qJmzYKMdHTeahucSh8e6MQ,1085
+imgavg-0.1.0.dist-info/WHEEL,sha256=jM75OLmO0bF2QZxXmlw3A-IE58epFjnoGYhyw7ywvsc,85
+imgavg-0.1.0.dist-info/METADATA,sha256=oU0pvt0gj15Sa4dDJDh6R2sE7vmezV8VtE3raMF_caE,562
+imgavg-0.1.0.dist-info/RECORD,,
