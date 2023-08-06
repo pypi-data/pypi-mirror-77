@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: robout
+Version: 0.1.1
+Summary: Robust scaling for numeric data with outliers
+Home-page: https://github.com/pedro-r-dias/robout
+Author: pedro-r-dias
+Author-email: pedroruivodias@gmail.com
+License: UNKNOWN
+Keywords: robout,scaling,standardization,normalization,outlier
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.14)
+Requires-Dist: pandas (>=0.23)
+
+Scaler preserving outliers found in unscaled data. It does not discard outliers, it transforms them to a controllable proximity in relation to the higher density region of the scaled distribution.
+
+
