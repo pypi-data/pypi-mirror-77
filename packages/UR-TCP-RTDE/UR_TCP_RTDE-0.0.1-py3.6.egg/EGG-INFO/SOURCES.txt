@@ -1,0 +1,7 @@
+README.md
+setup.py
+UR_TCP_RTDE/__init__.py
+UR_TCP_RTDE.egg-info/PKG-INFO
+UR_TCP_RTDE.egg-info/SOURCES.txt
+UR_TCP_RTDE.egg-info/dependency_links.txt
+UR_TCP_RTDE.egg-info/top_level.txt
