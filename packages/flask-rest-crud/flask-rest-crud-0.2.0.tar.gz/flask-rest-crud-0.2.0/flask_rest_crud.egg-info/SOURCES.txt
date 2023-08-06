@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+flask_rest_crud/__init__.py
+flask_rest_crud/crud.py
+flask_rest_crud/error_handler.py
+flask_rest_crud.egg-info/PKG-INFO
+flask_rest_crud.egg-info/SOURCES.txt
+flask_rest_crud.egg-info/dependency_links.txt
+flask_rest_crud.egg-info/requires.txt
+flask_rest_crud.egg-info/top_level.txt
