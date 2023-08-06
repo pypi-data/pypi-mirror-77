@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+svdwdist/Binomialdistribution.py
+svdwdist/Gaussiandistribution.py
+svdwdist/Generaldistribution.py
+svdwdist/__init__.py
+svdwdist.egg-info/PKG-INFO
+svdwdist.egg-info/SOURCES.txt
+svdwdist.egg-info/dependency_links.txt
+svdwdist.egg-info/not-zip-safe
+svdwdist.egg-info/top_level.txt
