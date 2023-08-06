@@ -1,0 +1,8 @@
+aws_cdk/aws_workspaces/__init__.py,sha256=aCKbYsa6leODXlNj0SusecOKz_BSov5VcBumuNsCVV4,20511
+aws_cdk/aws_workspaces/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_workspaces/_jsii/__init__.py,sha256=jVeVeMw_w1Ind2FtDON_o5wV0UgsHy4qEAunKF797jo,384
+aws_cdk/aws_workspaces/_jsii/aws-workspaces@1.61.0.jsii.tgz,sha256=pKSTX1O6tmy1SzVUmFYVjvY-WZ9WZ9w3qfW0q_wHi_s,19524
+aws_cdk.aws_workspaces-1.61.0.dist-info/METADATA,sha256=GF68PLMTs3qtY0hN_g4p6ehNHoLwAgJphSNnTg66KYQ,1456
+aws_cdk.aws_workspaces-1.61.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_cdk.aws_workspaces-1.61.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_workspaces-1.61.0.dist-info/RECORD,,
