@@ -1,0 +1,13 @@
+README.md
+setup.py
+django_gridfs_storage.egg-info/PKG-INFO
+django_gridfs_storage.egg-info/SOURCES.txt
+django_gridfs_storage.egg-info/dependency_links.txt
+django_gridfs_storage.egg-info/not-zip-safe
+django_gridfs_storage.egg-info/requires.txt
+django_gridfs_storage.egg-info/top_level.txt
+gridfs_storage/__init__.py
+gridfs_storage/apps.py
+gridfs_storage/storages.py
+gridfs_storage/urls.py
+gridfs_storage/views.py
