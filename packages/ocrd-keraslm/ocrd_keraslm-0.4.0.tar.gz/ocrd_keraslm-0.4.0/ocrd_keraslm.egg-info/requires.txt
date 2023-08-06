@@ -1,0 +1,10 @@
+ocrd>=2.13.1
+keras==2.3.*
+numpy
+tensorflow-gpu==1.15.*
+h5py
+networkx>=2.0
+
+[plotting]
+sklearn
+matplotlib
