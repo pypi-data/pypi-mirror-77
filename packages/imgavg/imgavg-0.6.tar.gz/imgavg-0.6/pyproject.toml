@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "imgavg"
+version = "0.6"
+description = "A command line utility that outputs the average of a number of pictures."
+authors = ["Joeseph Rodrigues <dowhilegeek@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.19.1"
+pillow = "^7.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+imgavg = "imgavg.cli:main"
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
