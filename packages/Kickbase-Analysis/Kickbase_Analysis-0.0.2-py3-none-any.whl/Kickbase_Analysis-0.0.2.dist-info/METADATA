@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: Kickbase-Analysis
+Version: 0.0.2
+Summary: Analysis framework for kickbase
+Home-page: https://github.com/kevinskyba/kickbase-analysis
+Author: kevinskyba
+Author-email: kevinskyba@live.de
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: kickbase-api
+
+# Kickbase_Analysis
+[Kickbase](https://www.kickbase.com/) Analysis framework for Python 3.  This work is unofficial and not related to kickbase in any way. All of this was done for scientific reasons only and you should not use it for anything else but for your personal learning!
+
+## Installation
+- From pypi:
+`pip3 install kickbase_analysis`
+
+## Requirements
+- [kickbase_api](https://github.com/kevinskyba/kickbase-api-python/)
+
+## Usage
+```python
+
+```
+
+## Docs
+
+
+## API
+
+
+## License
+
+[MIT License](LICENSE.md)
+
