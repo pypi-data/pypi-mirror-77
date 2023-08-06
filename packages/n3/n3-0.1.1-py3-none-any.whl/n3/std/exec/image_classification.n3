@@ -1,0 +1,3 @@
+exec node ImageClassification:
+    let data = node *
+    let model = node *
