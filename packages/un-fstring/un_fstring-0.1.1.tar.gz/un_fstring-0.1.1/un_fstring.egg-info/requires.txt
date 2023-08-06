@@ -1,0 +1,6 @@
+astroid
+tokenize-rt
+
+[tests]
+mypy
+pytest>=6
