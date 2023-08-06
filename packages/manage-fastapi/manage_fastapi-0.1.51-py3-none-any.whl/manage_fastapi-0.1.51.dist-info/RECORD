@@ -1,0 +1,11 @@
+manage_fastapi/__init__.py,sha256=J5DqQAfJrmJsVwP_F1QEYvB7YXVaXR6y-BTblSWQs-k,23
+manage_fastapi/__main__.py,sha256=ddAl4-HkGXNKqo2SwPVGbUaOy3TK8fP6s0nzER7nWHU,55
+manage_fastapi/main.py,sha256=LFkno1ahsPNlckF5rnqN3H_EfPG9cnqltLbglIMaz-8,990
+manage_fastapi/models_utils.py,sha256=IIyuyusM50GwKNosux41EoyLpN0c-0SMDkd4W9pWDyY,1585
+manage_fastapi/project_utils.py,sha256=OdlvRfcQBnOE3sAbAc2lPPaxlKdaYUuj3GCEWy6QXqU,6483
+manage_fastapi/templates.py,sha256=t2pqtSS8jo9IGNAawIVccOJ53byrVtOukZxZYJlRnfM,7136
+manage_fastapi-0.1.51.dist-info/entry_points.txt,sha256=AVOr9KCV0MsZz9nuPzMIclSe_uJlntPw1MWt-FNSEus,58
+manage_fastapi-0.1.51.dist-info/LICENSE,sha256=6Hia7cdTVjQ9XIPU-5UlL2Y792mZVjLShQKbmPAw6nE,1079
+manage_fastapi-0.1.51.dist-info/WHEEL,sha256=jM75OLmO0bF2QZxXmlw3A-IE58epFjnoGYhyw7ywvsc,85
+manage_fastapi-0.1.51.dist-info/METADATA,sha256=BE0-lShAhG2LjooSANBrCWVsiSBE764uwRkbljF9cyE,5160
+manage_fastapi-0.1.51.dist-info/RECORD,,
