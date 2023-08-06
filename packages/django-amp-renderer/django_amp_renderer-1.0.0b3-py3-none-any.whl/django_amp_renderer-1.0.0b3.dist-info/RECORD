@@ -1,0 +1,9 @@
+django_amp_renderer/__init__.py,sha256=NvV5TXsBGRoPc2BmvD4rVwhZNnoX1ddCnj5UgnpTfrc,169
+django_amp_renderer/middleware.py,sha256=3t3ZcDV-79YwBLsQrNJ7H8V6Rxke_vu1m5emL-qMWoU,2247
+tests/__init__.py,sha256=NvV5TXsBGRoPc2BmvD4rVwhZNnoX1ddCnj5UgnpTfrc,169
+tests/test_middleware.py,sha256=ZB8-_bzbZ5NVIBTXXuDBtrVkST_9frtwlOxAjsxe-VI,507
+django_amp_renderer-1.0.0b3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+django_amp_renderer-1.0.0b3.dist-info/METADATA,sha256=Gq4cGi_leTJ_m0eKKAoHEtku5j6FZVGP8Sf_FBi_weo,2706
+django_amp_renderer-1.0.0b3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_amp_renderer-1.0.0b3.dist-info/top_level.txt,sha256=ioNAr408vuYAX6XD91Qva8HYB-2m17YiviSa8YDz2xg,26
+django_amp_renderer-1.0.0b3.dist-info/RECORD,,
