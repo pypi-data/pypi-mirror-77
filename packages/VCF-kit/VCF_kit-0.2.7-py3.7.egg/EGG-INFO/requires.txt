@@ -1,0 +1,16 @@
+setuptools
+awesome-slugify
+matplotlib
+scipy
+numpy
+cython
+cyvcf2
+docopt
+biopython
+pomegranate
+clint
+requests
+networkx
+intervaltree
+tabulate
+jinja2
