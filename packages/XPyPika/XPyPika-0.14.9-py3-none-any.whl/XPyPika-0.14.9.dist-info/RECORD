@@ -1,0 +1,13 @@
+pypika/__init__.py,sha256=os4BmDVwx_gZdHrV-NRR49ODJnLu8HiFlSR86B3B4Tk,1636
+pypika/analytics.py,sha256=H5j4tVwOU4tfVZT3YimuSnf1fA7-RONx5r1GF7D0ptc,3139
+pypika/dialects.py,sha256=VgLb762v4-HG1bgG9g3jOggOb-qSj3XoLShxuF_tZDA,6143
+pypika/enums.py,sha256=dpAfebmOIEfddtvukbOjXPloWyILROvpxus9iIS4iGo,1503
+pypika/functions.py,sha256=YRRbrYvHJkYARlCnXnkh7704Xgg5uEN9fEbLzaNhhvo,6718
+pypika/pseudocolumns.py,sha256=51ZE7ZVShB4riAv6fp4trdYK9fv5TDbPeGnOBDFFBPQ,252
+pypika/queries.py,sha256=5HbbFkWVtjP6s-xxKZ5uwpNJNv9d7in19ccMyHMQViM,30415
+pypika/terms.py,sha256=ou8H9K2FKsxDNu2v7E8UAGP2SoBTEV9DP-HdrjBA1PA,30012
+pypika/utils.py,sha256=wu8GbkojGGIeFli23N2vujTiMVBRRF1xTFjfs7IeH8w,2860
+XPyPika-0.14.9.dist-info/METADATA,sha256=TVk5lcz2n4TWU-ZYAT_4KmJwNLsE2WJUWawzUILr-p0,286
+XPyPika-0.14.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+XPyPika-0.14.9.dist-info/top_level.txt,sha256=jxoMoGSWV0-WzJzIUK5Zfdpd04A0PQGhMsPBnAVua0s,7
+XPyPika-0.14.9.dist-info/RECORD,,
