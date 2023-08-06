@@ -1,0 +1,16 @@
+myapp/__init__.py,sha256=LSrJVGh6AiCXvhVyM8dTiQfBpOJqlmNUrb8dgmSfk-U,570
+myapp/example1.py,sha256=-qTkvPx75HoKbIfAoXi3Y7fVnuMpBlo37nxxtwvfzRE,453
+myapp/example2.py,sha256=4CauyqYP5jy8HvFqXVwz01c66NlXqqmoH4zIl0w00wg,327
+myapp/example3.py,sha256=zU_ZR0f8ATmG53CiEiQCcBjrbQb5s9KSIvm6AmieWts,409
+myapp/example4.py,sha256=SQlhoStynL_4SKQXYl9ns-P-7koYha7ra3WkjkUrr9s,418
+myapp/example5.py,sha256=3IGPWi7gtbpZWI5MWoYc_uCzEAjVkUmyM7BjB9LoQi8,391
+myapp/data_subdir/binfile.dat,sha256=X3jDMnTkP6neVlkmXB2RfiXANyLcsLjSfbjV_qqBOVM,4
+myapp/data_subdir/textfile.txt,sha256=qUiQTy8PR5uPgZdpSzAYSw0u0cHNKh7A-4XSmaGSpEc,12
+myapp/data_subpackage/__init__.py,sha256=729kDfAYvCC8126-rRY62P05x3UGcrz6C2q-9_n-bGc,168
+myapp/data_subpackage/binfile.dat,sha256=X3jDMnTkP6neVlkmXB2RfiXANyLcsLjSfbjV_qqBOVM,4
+myapp/data_subpackage/textfile.txt,sha256=qUiQTy8PR5uPgZdpSzAYSw0u0cHNKh7A-4XSmaGSpEc,12
+resources_example-0.2.dist-info/METADATA,sha256=3DP_O-KbdJj0QJ4MY8Ofwcnqdxmp3u0rJ1hhYWfirkM,3264
+resources_example-0.2.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+resources_example-0.2.dist-info/entry_points.txt,sha256=YhPpWltXU2RWAOytC26Opt_NRrSY8VZIQYx9Y8SNLO4,50
+resources_example-0.2.dist-info/top_level.txt,sha256=mpTy47xfkgdU0oEqsofUDZ-1ddd-Dv0ct-TjiFec8Ks,6
+resources_example-0.2.dist-info/RECORD,,
