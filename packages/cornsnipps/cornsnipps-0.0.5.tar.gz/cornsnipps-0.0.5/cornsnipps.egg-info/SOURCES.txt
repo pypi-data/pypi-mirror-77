@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cornsnipps/__init__.py
+cornsnipps/time.py
+cornsnipps/types.py
+cornsnipps.egg-info/PKG-INFO
+cornsnipps.egg-info/SOURCES.txt
+cornsnipps.egg-info/dependency_links.txt
+cornsnipps.egg-info/not-zip-safe
+cornsnipps.egg-info/top_level.txt
