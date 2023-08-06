@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dina-test"
+version = "0.1.0"
+description = ""
+authors = ["dinabandhu50 <beheradinabandhu50@gmail.com>"]
+license = "MIT"
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.19.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^19.10b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
