@@ -1,0 +1,8 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/fizzbuzz_co.egg-info/PKG-INFO
+src/fizzbuzz_co.egg-info/SOURCES.txt
+src/fizzbuzz_co.egg-info/dependency_links.txt
+src/fizzbuzz_co.egg-info/top_level.txt
