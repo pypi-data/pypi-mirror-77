@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: AvocadoPricePredictionModel
+Version: 0.3.7
+Summary: A model to predict avocado prices!
+Home-page: https://github.com/NadavAtGitHub/AvocadoPricePrediction
+Author: Nadav Donner
+Author-email: nadavdonner@idf.il
+License: GPL3
+Platform: UNKNOWN
+Requires-Dist: scikit-learn
+Requires-Dist: threadpoolctl
+
+UNKNOWN
+
+
