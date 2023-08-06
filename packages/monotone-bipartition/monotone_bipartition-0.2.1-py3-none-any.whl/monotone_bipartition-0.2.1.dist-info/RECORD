@@ -1,0 +1,16 @@
+monotone_bipartition/__init__.py,sha256=afB-iHa1UKuSPoppeBYAk4Ci1CwxlYhkjipx0EeCxOo,88
+monotone_bipartition/bipartition.py,sha256=9v5xKMABZzH7aldnL3qDksu3ZrvOwg-TH6gFHZb0f80,3596
+monotone_bipartition/hausdorff.py,sha256=bCURqqYVUGsX_rbqRiWGwHMNvuLz8LQFjB85z8HwyHY,2786
+monotone_bipartition/rectangles.py,sha256=DYVSKiRSGTBqHTqLs_WunvwmWnEQygH9Ec9Hqiu4TPw,4100
+monotone_bipartition/refine.py,sha256=JZcfKgWWgXC-gU1YDSTCqsLyq9aaIzJcmap1Rj8VbUI,2404
+monotone_bipartition/search.py,sha256=UI_NyM_06MnzKOxzN2lfSni9Vz3BMe_uME5dYnzHMXI,2561
+monotone_bipartition/test_bipartition.py,sha256=zHHpiex1odj9eNUNIjvdvCeg5BsA3aaAfpQdLnIVMTE,965
+monotone_bipartition/test_hausdorff.py,sha256=Ywf7jf14E71cyKm6D1kdF3MSXUg3Ks8OSxBVZ3dmMy0,1205
+monotone_bipartition/test_project.py,sha256=OShMCdn_7ZyYhK0oi1P-uyG_UAcbpBf5xygHeKKLgEA,2289
+monotone_bipartition/test_rectangles.py,sha256=2DM1-28VNben5X2WD-9OQdGC7mLhk8NiYOBZ-FwE8-s,610
+monotone_bipartition/test_refine.py,sha256=CMGg4vO6lXcPrPZqsZrpzbNM6t-HI_w9NJs1VAiXG8g,4419
+monotone_bipartition/utils.py,sha256=x9u0yX-v8sljaAL6oEIP-wZtLDhwjuRdPUAMd6yZzQE,1206
+monotone_bipartition-0.2.1.dist-info/LICENSE,sha256=DcWeGrQ9WFgafOvamFlydd1Y4hvPeYDujW9s__RYXi4,1082
+monotone_bipartition-0.2.1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+monotone_bipartition-0.2.1.dist-info/METADATA,sha256=YQtRcBH79SwpV6Vvm04ED9JhOmJz3e-7MMgFSEK7XH0,695
+monotone_bipartition-0.2.1.dist-info/RECORD,,
