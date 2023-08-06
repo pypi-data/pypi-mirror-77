@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+corejam/__init__.py
+corejam/__main__.py
+corejam/argparse.py
+corejam/exceptions.py
+corejam/io.py
+corejam/logging.py
+corejam.egg-info/PKG-INFO
+corejam.egg-info/SOURCES.txt
+corejam.egg-info/dependency_links.txt
+corejam.egg-info/entry_points.txt
+corejam.egg-info/top_level.txt
+tests/__init__.py
+tests/test_io.py
