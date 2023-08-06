@@ -1,0 +1,10 @@
+tagit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tagit/main.py,sha256=DgG2-C8EfiOfLkgMIbp92Hnj85u25Sn60-WSAKfqHoY,8297
+tagit/query.py,sha256=NZvLMGxJRgt-ZB5470K4Etx9Aj9gCwekutYWaT5_IGs,4378
+tagit/utils.py,sha256=1GuGIbbOZVeLiLAWNa95flyWkSYh8a6q-W_W_ii60s8,511
+etagit-0.0.3.dist-info/LICENSE,sha256=cFP2ygiCfjcaBcT6oDt4cFtNKD4wj7McNIZJE3hb58A,1067
+etagit-0.0.3.dist-info/METADATA,sha256=RORgcFM5syZgPUD8Di8fs85aIOoGaiLjeCkYRhK93K0,6162
+etagit-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+etagit-0.0.3.dist-info/entry_points.txt,sha256=g2kgmbTI8A2dHAe61rnckQQ29WLP16Z_ck6k8Px1esI,43
+etagit-0.0.3.dist-info/top_level.txt,sha256=yBTjNjMg3gn5grsIgfbGVMXnHakiwys4_lrB1vWFbLs,6
+etagit-0.0.3.dist-info/RECORD,,
