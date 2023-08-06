@@ -1,0 +1,10 @@
+uptrace/__init__.py,sha256=BeIwg-hK1qEnTXxPY6Ko1pyAktGnMxe07y1jBUwq8wE,91
+uptrace/client.py,sha256=lLS-Wj-tzXJd58UWcDxait13_sKQzEFIMz3iUpS-_I0,1910
+uptrace/version.py,sha256=kyc_IdRBHfrImMRXu1r-3c_Z1tnkXIE-W7jhjZQEGeE,56
+uptrace/trace/__init__.py,sha256=NK7-UzIfuCuwEcGUj6Mkus5y_sHDh3iLw7YpZ5YOR1c,102
+uptrace/trace/exporter.py,sha256=6iXaoOd1qTLY4RPOcLdCCXmsYwAJ4Bz01rTz8Xd0sj8,3983
+uptrace-0.1.2b0.dist-info/LICENSE,sha256=9ASsiRLBhYb4CCkqvP4owwWtsfgyHVHsybkbT0BLMIU,1322
+uptrace-0.1.2b0.dist-info/METADATA,sha256=BHN0JWKP4jiEhuuBU5Jiporxnl5kM-UY9YevkWk8cxw,1513
+uptrace-0.1.2b0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+uptrace-0.1.2b0.dist-info/top_level.txt,sha256=V7vEFLI5v0UMz3M4yZLlTsQqj0KoWsvNEFAyXX2mXoA,8
+uptrace-0.1.2b0.dist-info/RECORD,,
