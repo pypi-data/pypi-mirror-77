@@ -1,0 +1,7 @@
+README.md
+setup.py
+ReconSpider.egg-info/PKG-INFO
+ReconSpider.egg-info/SOURCES.txt
+ReconSpider.egg-info/dependency_links.txt
+ReconSpider.egg-info/requires.txt
+ReconSpider.egg-info/top_level.txt
