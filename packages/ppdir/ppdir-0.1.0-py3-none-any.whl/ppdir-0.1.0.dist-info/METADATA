@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: ppdir
+Version: 0.1.0
+Summary: Pretty print a directory structure as a tree
+Home-page: https://github.com/EClaesson/ppdir
+Author: Emanuel Claesson
+Author-email: emanuel.claesson@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: colorama (>=0.4.3)
+
+# mkignore
+**Pretty print a directory structure as a tree**
+
+### Installation
+`pip install ppdir`
+
+### Usage
+```shell script
+usage: ppdir [-h] [-a, --all] [-c, --color] [DIR]
+
+Pretty print a directory structure as a tree
+
+positional arguments:
+  DIR
+
+optional arguments:
+  -h, --help   show this help message and exit
+
+  -a, --all    Include hidden files
+
+  -c, --color  Colorize output
+```
+
+### Example
+`ppdir -a -c .`
+
+Output:
+![Example](./screenshot.png)
+

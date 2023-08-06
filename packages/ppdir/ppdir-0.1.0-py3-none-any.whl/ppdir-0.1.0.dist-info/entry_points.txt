@@ -1,0 +1,3 @@
+[console_scripts]
+ppdir = ppdir:main
+
