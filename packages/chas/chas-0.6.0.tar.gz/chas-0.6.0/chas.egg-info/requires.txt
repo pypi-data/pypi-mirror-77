@@ -1,0 +1,4 @@
+flask==1.1.2
+prometheus-flask-exporter==0.15.4
+prometheus_client==0.8.0
+croniter==0.3.34
