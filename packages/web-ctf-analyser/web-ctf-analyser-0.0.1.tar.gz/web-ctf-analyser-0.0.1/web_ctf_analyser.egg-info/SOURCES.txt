@@ -1,0 +1,16 @@
+README.md
+setup.py
+analyser/__init__.py
+analyser/web-analyser.py
+analyser/helpers/__init__.py
+analyser/helpers/analysis.py
+analyser/helpers/recon.py
+analyser/utils/__init__.py
+analyser/utils/constants.py
+analyser/utils/context.py
+analyser/utils/log.py
+analyser/utils/utils.py
+web_ctf_analyser.egg-info/PKG-INFO
+web_ctf_analyser.egg-info/SOURCES.txt
+web_ctf_analyser.egg-info/dependency_links.txt
+web_ctf_analyser.egg-info/top_level.txt
