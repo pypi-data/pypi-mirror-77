@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+genderbr.egg-info/PKG-INFO
+genderbr.egg-info/SOURCES.txt
+genderbr.egg-info/dependency_links.txt
+genderbr.egg-info/top_level.txt
+tests/__init__.py
+tests/integration/__init__.py
+tests/integration/test_genderbr.py
+tests/unit/__init__.py
+tests/unit/test_genderbr.py
