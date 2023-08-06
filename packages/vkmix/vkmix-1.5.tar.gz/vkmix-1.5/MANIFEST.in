@@ -1,0 +1,8 @@
+include LICENSE
+include setup.py
+include tests/test*.py
+include tox.ini
+include requirements.txt
+include requirements-dev.txt
+include runtime.txt
+include vkmix/*.py
