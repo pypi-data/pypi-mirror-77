@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: n2yo-aio
+Version: 1.0.0
+Summary: Asynchronous Python wrapper for the N2YO API.
+Home-page: https://git.facorazza.com/facorazza/n2yo-aio
+Author: Federico A. Corazza
+Author-email: federico.corazza@live.it
+License: UNKNOWN
+Description: # n2yo-aio
+        
+        [![Build Status](https://drone.facorazza.com/api/badges/facorazza/n2yo-aio/status.svg)](https://drone.facorazza.com/facorazza/n2yo-aio)
+        
+        Asynchronous Python wrapper for the N2YO API.
+        
+        ## Installation
+        ```
+        python3 -m pip install n2yo-aio
+        ```
+        
+        ### Credits
+        > Based on [n2yo](https://github.com/circuitqed/n2yo)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
