@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: stockmarket
+Version: 0.0.1
+Summary: Get live stockmarket and crypto market datafeeds as Python objects in just a few lines of code!
+Home-page: https://github.com/ttamg/stockmarket
+Author: Matt Gosden
+Author-email: mdgosden@gmail.com

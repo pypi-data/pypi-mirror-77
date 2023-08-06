@@ -1,0 +1,27 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "stockmarket"
+author = "Matt Gosden"
+author-email = "mdgosden@gmail.com"
+home-page = "https://github.com/ttamg/stockmarket"
+classifiers = [
+"License :: OSI Approved :: MIT License", 
+"Development Status :: 3 - Alpha", 
+"Intended Audience :: Developers",
+"Intended Audience :: Financial and Insurance Industry",
+"Programming Language :: Python :: 3 :: Only",
+"Topic :: Office/Business :: Financial :: Investment"
+]
+description-file = "README.md"
+requires-python = ">=3.6"
+requires = ["cryptoxlib-aio==3.2.1"]
+keywords = "stockmarket, crypto, websockets, API, trading"
+
+[tool.flit.metadata.urls]
+Documentation = "https://github.com/ttamg/stockmarket"
+
+[tool.flit.sdist]
+exclude = ["docs/"]
