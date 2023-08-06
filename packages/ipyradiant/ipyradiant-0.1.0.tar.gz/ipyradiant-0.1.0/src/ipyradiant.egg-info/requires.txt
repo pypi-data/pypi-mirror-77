@@ -1,0 +1,6 @@
+ipycytoscape
+ipywidgets
+pandas
+qgrid
+rdflib
+rdflib-jsonld
