@@ -1,0 +1,8 @@
+skew@ git+https://github.com/tobHai/skew.git#egg=skew
+
+[dev]
+pytest
+tox
+pytest-cov
+pytest-mock
+black
