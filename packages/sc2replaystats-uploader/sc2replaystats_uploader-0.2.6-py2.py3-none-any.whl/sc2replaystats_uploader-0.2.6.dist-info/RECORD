@@ -1,0 +1,10 @@
+sc2replaystats_uploader/__init__.py,sha256=TS4LMn7juIQFZ6UPyZkPTHaiE_FUZDot-wYOgP8ZWTw,326
+sc2replaystats_uploader/cli.py,sha256=6PWDCRtRFhCAzWslAanqgnt2uIEw3OqYwbvSEzcD05o,885
+sc2replaystats_uploader/sc2replaystats_uploader.py,sha256=-o5bk2nGyIRwhlKAU6Ee27TiX3cp6madL02pED7tw0g,1995
+sc2replaystats_uploader-0.2.6.dist-info/AUTHORS.rst,sha256=Q0pl3tISNmaYYKjcdbkoYjhWeHEvqSxVk6MSnczg-Qg,168
+sc2replaystats_uploader-0.2.6.dist-info/LICENSE,sha256=4yXmXg6457AR6sDQxaGG3CQuw76wNotQx-p_Q9PSBl4,1076
+sc2replaystats_uploader-0.2.6.dist-info/METADATA,sha256=kvf1pb9IRFITEuLXTs4xTiyGXHpTK_yj65-Gqup1gqc,3575
+sc2replaystats_uploader-0.2.6.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+sc2replaystats_uploader-0.2.6.dist-info/entry_points.txt,sha256=lETaUFlHLPjRe6OQPFMPvvMJq0s7J6yIvQZIcvbXK0Y,78
+sc2replaystats_uploader-0.2.6.dist-info/top_level.txt,sha256=moaHaIBYiGkgCsyRGzEWOVEP9CFvHXnNcjm4AzjR8Ro,24
+sc2replaystats_uploader-0.2.6.dist-info/RECORD,,
