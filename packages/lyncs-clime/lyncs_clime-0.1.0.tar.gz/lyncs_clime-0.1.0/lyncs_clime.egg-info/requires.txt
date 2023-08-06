@@ -1,0 +1,10 @@
+lyncs-cppyy
+lyncs-setuptools
+
+[all]
+pytest
+pytest-cov
+
+[test]
+pytest
+pytest-cov
