@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ReconSpider
+Version: 1.0.5
+Summary: Most Advanced OSINT Framework
+Home-page: https://github.com/bhavsec/reconspider/
+Author: BhavKaran (@bhavsec)
+Author-email: contact@bhavkaran.com
+License: GPL-3.0
+Platform: UNKNOWN
+Requires-Dist: IP2proxy
+Requires-Dist: beautifulsoup4
+Requires-Dist: click
+Requires-Dist: gmplot
+Requires-Dist: h8mail
+Requires-Dist: lxml
+Requires-Dist: nmap
+Requires-Dist: paramiko
+Requires-Dist: pillow
+Requires-Dist: prompt-toolkit
+Requires-Dist: pythonping
+Requires-Dist: requests
+Requires-Dist: shodan
+Requires-Dist: urllib3
+Requires-Dist: wget
+Requires-Dist: whois
+
+UNKNOWN
+
+
