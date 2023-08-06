@@ -1,0 +1,16 @@
+jobsbundle/_config/.gitignore,sha256=xgIpI3ruu9PFPkyAmPZj1LrVDbDBtBdGk-wWyvTpC5I,15
+jobsbundle/_config/config.yaml,sha256=bO6gQZWFUojT9Ch25QpVuSXJkAq9TfnIigqcNu01OFE,989
+jobsbundle/_config/config_test.yaml,sha256=wHpO7_THuvI1d_5oI502C10ckvE5HdWCzDlIu1O3Frc,464
+jobsbundle/containerInit.py,sha256=YbS8iOlfDxJiHhEBCXOho6SnmC58Du1ZnyIKN0QtQbc,777
+jobsbundle/git/CurrentBranchResolver.py,sha256=XrZ6FapS4gAn4xYmL051L3qzbncXjPLsdC18OMNBAzA,376
+jobsbundle/git/CurrentRepositoryFactory.py,sha256=vla-osZP5kMLaf6EQtyB9iBg-9M3JAc6ZNGe2Sa7Vjs,409
+jobsbundle/job/fillTemplate.py,sha256=A-6s0Mx0NCnHx-tK7ZxrFRjIv2PQWsGoDbwMSUfuhvo,351
+jobsbundle/job/JobCreateCommand.py,sha256=OMULWN3LuLQ6jokv-4v-4TOtS6GjOllRlyyRO-V6_xo,1639
+jobsbundle/job/JobCreateOrUpdateCommand.py,sha256=VztyAFPUz8k7WqrirtI1uL0-ijiWI75Sc_7-AZOF7ys,2636
+jobsbundle/job/JobDeleteCommand.py,sha256=QwBipMklr8Np32Ap8BR4Pk6tiBL_kll3q1SRnpWS9Zw,865
+jobsbundle/job/ValuesFiller.py,sha256=jLYpcM8EY2nfQ5L-ErbrBpSb-DjR2I0RfbNqd2IaDbE,953
+jobsbundle/JobsBundle.py,sha256=SjfGu_wCcCIJOdjEYBka7Z2YqTHc94x3vJ-OwafauWU,77
+jobsbundle/JobsBundleTest.py,sha256=98qv3kl7CJOSw-14cw66BpLmAnLUk6sOfC6O66XgAXg,357
+jobs_bundle-0.1.0b2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+jobs_bundle-0.1.0b2.dist-info/METADATA,sha256=TdUI33nTc3Ey-OMSiayBHz-Wp4GMtZmb57gpZuQexok,782
+jobs_bundle-0.1.0b2.dist-info/RECORD,,
