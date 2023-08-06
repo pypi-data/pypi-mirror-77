@@ -1,0 +1,8 @@
+nats_pkg/__init__.py,sha256=xy5icTVL_-T_uZleOq5SPoLjDLVLWIK0U8whN-ij6kI,21
+nats_pkg/_handler.py,sha256=V3eGU405KLheObsucjuzkNKK2h1lBod3P-Sh1g34Wxw,1508
+nats_pkg/nats_client.py,sha256=-_BZ0qiRFxw5Rtu7A5hKVww5LyMxH6otHw2DZ86NbpE,730
+nats_python_client-0.0.2.dist-info/LICENCE,sha256=kr25Ek8kwEY4utL-p74HMFiKIyXibVylYzlOFc6VyGw,2146
+nats_python_client-0.0.2.dist-info/METADATA,sha256=OQqzuapjjsvaqbmwm1B9MxXvWckRDPBW9jr_u2TyT5Y,634
+nats_python_client-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+nats_python_client-0.0.2.dist-info/top_level.txt,sha256=nr6hqKh2fbDzuf-I_gNNk_mWWQK4PxFC7hqMs7U3RlQ,9
+nats_python_client-0.0.2.dist-info/RECORD,,
