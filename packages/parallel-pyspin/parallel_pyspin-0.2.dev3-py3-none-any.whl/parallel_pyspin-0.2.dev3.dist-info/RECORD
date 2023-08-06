@@ -1,0 +1,13 @@
+llpyspin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llpyspin/_processes.py,sha256=5JGCNbdpyUzuDS3fibI2Ocr7_COyc1h97eEygS90E3s,8314
+llpyspin/_properties.py,sha256=BawBnp2xmWtcQHFkzStZbvpN0NJNKQirK5TaVLVNq9s,7331
+llpyspin/_spinnaker.py,sha256=6gwAIx76HJduIq_hoeq-kyoiezmHCdF9FyYygSi09qE,5954
+llpyspin/primary.py,sha256=eVP7UEaz6ZfOtTBS2uAU2sza_VJ8rvPtpi7EqsA2Hrc,7620
+llpyspin/recording.py,sha256=Qmd2dQ7VAoDeHM7OgKWqP5Ma51ox2tFfd11-IREyL_M,1338
+llpyspin/secondary.py,sha256=S2ZA3I7hTlp-omoLnPhSjO4ot0Yvno0JSKzPcMHCcIc,6112
+llpyspin/streaming.py,sha256=1ooo7yGjwq6Ei0zfuoCpEaDKsC_XUoqFYtlJRqpDt6A,4352
+parallel_pyspin-0.2.dev3.dist-info/LICENSE,sha256=1U1gii8wnDe5Fb41YNc1X9gL4Bebfr4jYkXqXc2nFsw,1061
+parallel_pyspin-0.2.dev3.dist-info/METADATA,sha256=liWLXSGnUUUQH_jm4S5Q_pvweKyd63WqhCOtUPpdLXQ,509
+parallel_pyspin-0.2.dev3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+parallel_pyspin-0.2.dev3.dist-info/top_level.txt,sha256=3ROl4eZH4AsmEn141nZUaYOuZhZ4fDvlvwpAc9jaj5k,9
+parallel_pyspin-0.2.dev3.dist-info/RECORD,,
