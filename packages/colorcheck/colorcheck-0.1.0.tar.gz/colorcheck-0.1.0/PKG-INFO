@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: colorcheck
+Version: 0.1.0
+Summary: Check color contrasts in Web pages
+Home-page: https://redmine.jpages.eu/projects/colorcheck
+Author: Jérémy Pagès
+Author-email: contact@mail.jpages.eu
+License: GPL-3.0-or-later
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Requires-Python: >=3

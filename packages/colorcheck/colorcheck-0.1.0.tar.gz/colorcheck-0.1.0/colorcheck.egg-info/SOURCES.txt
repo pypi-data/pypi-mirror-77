@@ -1,0 +1,15 @@
+.hgtags
+LICENSE
+README.md
+__init__.py
+setup.py
+colorcheck/__init__.py
+colorcheck/color.py
+colorcheck/colorcheck.py
+colorcheck/csscolorrule.py
+colorcheck.egg-info/PKG-INFO
+colorcheck.egg-info/SOURCES.txt
+colorcheck.egg-info/dependency_links.txt
+colorcheck.egg-info/top_level.txt
+test/__init__.py
+test/test_color.py
