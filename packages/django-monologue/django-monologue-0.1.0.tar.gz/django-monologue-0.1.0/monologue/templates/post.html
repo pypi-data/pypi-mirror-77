@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="mt-4"><a href="{% url "post" post.id %}">{{ post.title }}</a></h1>
+<p class="font-weight-light">written by {{ post.author.username }} on {{ post.created_at }}</p>
+<p>{{ post.render_content | safe }}</p>
+
+<br />
+
+{% for comment in comments %}
+<div class="media">
+    <img src="https://via.placeholder.com/64" class="mr-3" alt="...">
+    <div class="media-body">
+      <h5 class="mt-0">{{ comment.name }} said:</h5>
+      {{ comment.content }}
+    </div>
+  </div>
+<br />
+{% endfor %}
+
+
+<form method="POST" class="needs-validation" novalidate>
+    <div class="form-group">
+        <label for="commentName">Your Name</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+        <div class="valid-feedback">
+            Looks good!
+        </div>
+        <div class="invalid-feedback">
+            Please choose a username.
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="commentEmail">Your Email</label>
+        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" required/>
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <div class="valid-feedback">
+            Looks good!
+        </div>
+        <div class="invalid-feedback">
+            Please input your valid email address.
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="commentContent">Comment Content</label>
+        <textarea class="form-control" id="content" name="content" rows="3" required maxlength="1024"></textarea>
+        <div class="valid-feedback">
+            Looks good!
+        </div>
+        <div class="invalid-feedback">
+            What's your comment?
+        </div>
+    </div>
+    {% csrf_token %}
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+{% endblock %}

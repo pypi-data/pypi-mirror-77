@@ -1,0 +1,78 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="{% static "bootstrap.css" %}" crossorigin="anonymous">
+
+  <title>Monologue</title>
+  <style>
+    body {
+      font-family: -apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="{% url "index" %}">Monologue</a>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        {% block content %}
+        {% endblock %}
+      </div>
+      <div class="col-md-4">
+        <div class="mt-5">
+          <p><b>Tags</b></p>
+          <ul class="list-group">
+            {% for tag in tags %}
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <a href="{% url "tag" tag.name %}">{{ tag.name }}</a>
+              <span class="badge badge-primary badge-pill">{{ tag.posts.count }}</span>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <hr />
+    <p class="text-center font-weight-light">powered by <a href="https://github.com/aisk/monologue">monologue</a></p>
+
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="{% static "jquery-3.5.1.slim.js" %}" crossorigin=" anonymous"></script>
+  <script src="{% static "popper.js" %}" crossorigin="anonymous"></script>
+  <script src="{% static "bootstrap.js" %}" crossorigin="anonymous"></script>
+  <script>
+    (function () {
+      'use strict';
+      window.addEventListener('load', function () {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function (form) {
+          form.addEventListener('submit', function (event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
+</body>
+
+</html>

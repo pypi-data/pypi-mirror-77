@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: django-monologue
+Version: 0.1.0
+Summary: 
+Author: An Long
+Author-email: aisk1988@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: django (>=3.0.8,<4.0.0)
+Requires-Dist: markdown (>=3.2.2,<4.0.0)
