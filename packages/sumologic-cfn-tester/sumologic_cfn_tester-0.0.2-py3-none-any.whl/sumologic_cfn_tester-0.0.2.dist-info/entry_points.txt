@@ -1,0 +1,3 @@
+[console_scripts]
+sumocfntester = sumocfntester.console:main
+
