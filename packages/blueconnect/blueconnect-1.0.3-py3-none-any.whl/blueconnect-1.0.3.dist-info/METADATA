@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: blueconnect
+Version: 1.0.3
+Summary: Unofficial API client for Blue Riiot/Blue Connect devices.
+Home-page: https://github.com/marcelveldt/python-blueconnect
+Author: Marcel van der Veldt
+Author-email: m.vanderveldt@outlook.com
+License: UNKNOWN
+Download-URL: https://github.com/marcelveldt/python-blueconnect
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Home Automation
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# python-blueconnect
+Unofficial python library for the Blue Riiot / Blue Connect API
+
+
