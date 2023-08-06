@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: XPyPika
+Version: 0.14.9
+Summary: A SQL query builder API for Python
+Home-page: https://github.com/kayak/pypika
+Author: Timothy Heys
+Author-email: theys@kayak.com
+License: Apache License Version 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
