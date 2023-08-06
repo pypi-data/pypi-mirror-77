@@ -1,0 +1,8 @@
+nexmo/__init__.py,sha256=eONyjQ5UiGAPZ-67fWov72AuIm_ssljuBkm_ja_YPB8,27381
+nexmo/_internal.py,sha256=1oZxpbPfkxQK8wQ39Be9bOyWUX2yROZiLQM74eFh6W0,6081
+nexmo/errors.py,sha256=p8uN6ZKxHj_wuiOxgvh-Ws9ZWznbdNYPyEj1AXqI_Fo,158
+nexmo-2.5.1.dist-info/LICENSE.txt,sha256=IFXUBd2gWMi8R3jhoDXQ9hWqFKe0snxweWkiSORS3S8,1076
+nexmo-2.5.1.dist-info/METADATA,sha256=3Lb04p8UQ1oqiKOoyh9kyvMlhyBPyTgn7Ito_Y9VIk8,18152
+nexmo-2.5.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+nexmo-2.5.1.dist-info/top_level.txt,sha256=3L1VQbUkzw6Y5OpW3F0cBMabIWZLj3ni-toowPaDIX8,6
+nexmo-2.5.1.dist-info/RECORD,,
