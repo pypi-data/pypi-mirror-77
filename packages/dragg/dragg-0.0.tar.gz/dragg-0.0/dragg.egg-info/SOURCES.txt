@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+dragg/main.py
+dragg.egg-info/PKG-INFO
+dragg.egg-info/SOURCES.txt
+dragg.egg-info/dependency_links.txt
+dragg.egg-info/requires.txt
+dragg.egg-info/top_level.txt
