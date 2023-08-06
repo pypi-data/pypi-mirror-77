@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: sqlalchemy-get-or-create
+Version: 0.1.0
+Summary: 
+Author: Enrico Barzetti
+Author-email: enricobarzetti@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
