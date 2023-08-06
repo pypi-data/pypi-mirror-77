@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Pylol/functions.py
+pylol.egg-info/PKG-INFO
+pylol.egg-info/SOURCES.txt
+pylol.egg-info/dependency_links.txt
+pylol.egg-info/not-zip-safe
+pylol.egg-info/top_level.txt
