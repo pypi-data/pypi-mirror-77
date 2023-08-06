@@ -1,0 +1,9 @@
+jaydebeapi
+pandas
+matplotlib
+datetime
+requests
+pyjks
+chart_studio
+scikit-learn
+jolokia
