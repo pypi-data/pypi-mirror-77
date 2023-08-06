@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: nannernest
+Version: 0.1.3
+Summary: Optimal peanut butter and banana sandwiches
+Home-page: https://github.com/EthanRosenthal/nannernest
+Keywords: deep learning,machine learning,peanut butter,banana,sandwich
+Author: Ethan Rosenthal
+Author-email: ethan@ethanrosenthal.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: Pillow (>=7.2.0,<8.0.0)
+Requires-Dist: click-spinner (>=0.1.10,<0.2.0)
+Requires-Dist: colorama (>=0.4.3,<0.5.0)
+Requires-Dist: matplotlib (>=3.3.0,<4.0.0)
+Requires-Dist: nest2D (==0.4.3)
+Requires-Dist: numpy (>=1.19.1,<2.0.0)
+Requires-Dist: scikit-image (>=0.17.2,<0.18.0)
+Requires-Dist: scipy (>=1.5.2,<2.0.0)
+Requires-Dist: seaborn (>=0.10.1,<0.11.0)
+Requires-Dist: svgpath2mpl (>=0.2.1,<0.3.0)
+Requires-Dist: sympy (>=1.6.1,<2.0.0)
+Requires-Dist: torch (>=1.6.0,<2.0.0)
+Requires-Dist: torchvision (>=0.7.0,<0.8.0)
+Requires-Dist: typer (>=0.3.1,<0.4.0)
+Project-URL: Repository, https://github.com/EthanRosenthal/nannernest
+Description-Content-Type: text/markdown
+
+# nannernest
+
+![Python package](https://github.com/EthanRosenthal/nannernest/workflows/Python%20package/badge.svg?branch=master)
+
+A small package for optimizing banana coverage on peanut butter and banana sandwiches.
+
+
+![assets/perfect_sandwich.jpg](assets/perfect_sandwich.jpg)
+
+
+## Installation
+
+`nannernest` is generally pip installable. Due to some C dependencies with the nesting library that I use [nest2D](https://github.com/markfink/nest2D), along with an outstanding [PR](https://github.com/markfink/nest2D/pull/2), I would recommend the following way to install everything:
+
+ First, make sure you have [boost](https://www.boost.org/) and [cmake](https://cmake.org/) installed. If you are on Linux, then you may have `cmake` installed, and you can install `boost` with 
+ 
+ ```commandline
+sudo apt-get install libboost-all-dev 
+```
+ 
+ I'm on a Mac, and I installed `cmake` with conda and `boost` with brew:
+ 
+ ```commandline
+conda install cmake
+brew install boost
+```
+
+Next, pip install my fork of `nest2D`:
+
+```commandline
+pip install git+https://github.com/EthanRosenthal/nest2D.git@download-dependencies
+```
+
+Finally, pip install `nannernest`
+
+```commandline
+pip install nannernest
+```
+
+## Usage
+
+Take a top-down picture that contains your banana and at least one slice of bread. Pass the image in via command line:
+
+```commandline
+$ nannernest my_image.jpg
+```
+
+### CLI Details
+
+```commandline
+$ nannernest --help
+Usage: nannernest [OPTIONS] IMAGE_PATH
+
+Arguments:
+  IMAGE_PATH  Image file which contains bread and banana  [required]
+
+Options:
+  --num-slices INTEGER            Total number of slices to cut the banana
+                                  into. This number defines the slice
+                                  thickness.  [default: 22]
+
+  --mask-threshold FLOAT          Threshold of segmentation mask.  [default:
+                                  0.6]
+
+  --peel-scaler FLOAT             Fraction of slice that is assumed to belong
+                                  to banana insides versus the peel.
+                                  [default: 0.8]
+
+  --ellipse-ratio FLOAT           Assumed ratio of minor axis to major axis of
+                                  banana slice ellipses  [default: 0.85]
+
+  --plot-segmentation / --no-plot-segmentation
+                                  Whether or not to plot the segmentation
+                                  masks  [default: False]
+
+  --plot-slicing / --no-plot-slicing
+                                  Whether or not to plot the slicing circle
+                                  and skeleton  [default: False]
+
+  --output TEXT                   Name of file to output  [default:
+                                  perfect_sandwich.jpg]
+```
+
