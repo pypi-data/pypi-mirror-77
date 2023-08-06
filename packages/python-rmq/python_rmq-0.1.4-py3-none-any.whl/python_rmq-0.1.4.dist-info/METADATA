@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: python-rmq
+Version: 0.1.4
+Summary: Redis based message queue
+Home-page: https://github.com/Forden/pyrmq
+Author: Forden
+Author-email: forden@forden.me
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: aioredis (<1.4,>=1.3)
+Requires-Dist: loguru (~=0.5)
+Provides-Extra: fast
+Requires-Dist: uvloop (<0.15.0,>=0.14.0) ; extra == 'fast'
+
+
+# PyRMQ
+Message queue written in Python and backed by Redis (compatible with https://github.com/adjust/rmq)
+
+## Installing
+`$ pip install python-rmq`
+
+## PyRMQ resources
+ - Community: [@pyrmq](https://t.me/pyrmq)
+ - Pip: [python-rmq](https://pypi.python.org/pypi/python-rmq)
+ - Source:  [Github repo](https://github.com/Forden/pyrmq)
+ - Issues/Bug tracker: [Github issues tracker](https://github.com/Forden/pyrmq/issues)
+
+## Contributing
+Contributions of all sizes are welcome. You can also help by [reporting bugs](https://github.com/Forden/pyrmq/issues/new).
+
+
