@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: commditycategory
+Version: 0.9.4
+Summary: Get the commdity's category
+Home-page: https://github.com/xinminsu/commditycategory
+Author: Xinmin Su
+Author-email: xinmin.su@hotmail.com
+License: UNKNOWN
+Description: # commditycategory
+        
+        Python interface to commditycategory.
+        
+        ## Installation
+        
+        ```
+        pip install commditycategory
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

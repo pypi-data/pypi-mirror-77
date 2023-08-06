@@ -1,0 +1,8 @@
+README.md
+setup.py
+commditycategory.egg-info/PKG-INFO
+commditycategory.egg-info/SOURCES.txt
+commditycategory.egg-info/dependency_links.txt
+commditycategory.egg-info/top_level.txt
+commoditycategory/__init__.py
+commoditycategory/commoditycategory.py
