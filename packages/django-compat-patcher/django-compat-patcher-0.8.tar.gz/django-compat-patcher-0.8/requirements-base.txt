@@ -1,0 +1,12 @@
+compat-patcher-core
+six
+
+## FOR TESTING AND BUILDING ##
+
+pytest
+pytest-cov
+git+https://github.com/arteria/django-compat
+
+tox
+check-manifest
+
