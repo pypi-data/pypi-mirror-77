@@ -1,0 +1,10 @@
+setup.py
+distributions_modupe/Binomialdistribution.py
+distributions_modupe/Gaussiandistribution.py
+distributions_modupe/Generaldistribution.py
+distributions_modupe/__init__.py
+distributions_modupe.egg-info/PKG-INFO
+distributions_modupe.egg-info/SOURCES.txt
+distributions_modupe.egg-info/dependency_links.txt
+distributions_modupe.egg-info/not-zip-safe
+distributions_modupe.egg-info/top_level.txt
