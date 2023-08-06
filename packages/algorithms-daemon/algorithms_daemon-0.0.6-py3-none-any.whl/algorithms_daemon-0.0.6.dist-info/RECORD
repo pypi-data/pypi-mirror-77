@@ -1,0 +1,11 @@
+algorithms_daemon/WorkerBroker_pb2.py,sha256=1t0eU_Gb1FmTieKSJdTyA-7Un7YR7RdnoAsE55ri4MU,8994
+algorithms_daemon/WorkerBroker_pb2_grpc.py,sha256=dgsv4GvgbsPCQTT_cay-6cAZRhOuLIwUiyH4M2OOkG4,3986
+algorithms_daemon/__init__.py,sha256=_dfGTaXAtGtm8ZcVQpFi5pdAFrK7ovOzGxP4DOgm1B8,245
+algorithms_daemon/config.py,sha256=BVOdY6Ze9D06JgZj2-QEMKc_T2yz63SGNklUnwCOIT8,1072
+algorithms_daemon/daemon.py,sha256=qEedNfHTr6MQrxeWdELXk4M-tTziQ7lUXWAPOVpFMqs,2472
+algorithms_daemon/run.py,sha256=mTfUOEa3DEKZJvOFY5L0lmEMb3UYBBOFRwRBoiQ4CRs,1168
+algorithms_daemon-0.0.6.dist-info/LICENSE,sha256=16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s,1139
+algorithms_daemon-0.0.6.dist-info/METADATA,sha256=yBHD-DLF_rVAnzCJ6ZaeKRrcu4qH071QPHrpcpM7uzg,699
+algorithms_daemon-0.0.6.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+algorithms_daemon-0.0.6.dist-info/top_level.txt,sha256=2wXoAW_D7JjPTL1_zGA3TNbPNWa2qsDYrrtRL7nS0QE,18
+algorithms_daemon-0.0.6.dist-info/RECORD,,
