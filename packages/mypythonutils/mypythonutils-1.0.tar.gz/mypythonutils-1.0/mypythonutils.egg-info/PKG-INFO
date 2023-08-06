@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: mypythonutils
+Version: 1.0
+Summary: A few useful functions
+Home-page: UNKNOWN
+Author: Paul Gasnier
+Author-email: paulgasnier49@gmail.com
+License: MIT
+Description: This is a simple library with functions I use or wanted to make for fun. I'll update with new functions when I'll need them !
+        
+        Change Log
+        =================
+        
+        1.0 (26/08/2020)
+        -----------------
+        - First Release :
+        
+            Function showlist : takes a list and prints it into the console.
+        
+            Function squareroot : outputs the square root of the number you give.
+        
+            Function listprimes : lists every prime up to the number you give.
+        
+        
+        
+Keywords: utils
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

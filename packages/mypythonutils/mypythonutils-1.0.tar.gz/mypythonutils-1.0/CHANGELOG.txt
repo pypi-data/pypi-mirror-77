@@ -1,0 +1,14 @@
+Change Log
+=================
+
+1.0 (26/08/2020)
+-----------------
+- First Release :
+
+    Function showlist : takes a list and prints it into the console.
+
+    Function squareroot : outputs the square root of the number you give.
+
+    Function listprimes : lists every prime up to the number you give.
+
+
