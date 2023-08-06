@@ -1,0 +1,4 @@
+Cuckoo-common==0.1.0
+Cuckoo-processing==0.1.0
+Cuckoo-machineries==0.1.0
+sflock<0.4,>=0.3.10

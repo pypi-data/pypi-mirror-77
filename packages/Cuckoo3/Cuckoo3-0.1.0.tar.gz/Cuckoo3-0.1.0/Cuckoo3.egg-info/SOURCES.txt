@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.py
+Cuckoo3.egg-info/PKG-INFO
+Cuckoo3.egg-info/SOURCES.txt
+Cuckoo3.egg-info/dependency_links.txt
+Cuckoo3.egg-info/entry_points.txt
+Cuckoo3.egg-info/not-zip-safe
+Cuckoo3.egg-info/requires.txt
+Cuckoo3.egg-info/top_level.txt
+cuckoo/__init__.py
+cuckoo/main.py
+cuckoo/data/.cuckoopackage
+cuckoo/data/conftemplates/cuckoo.yaml.jinja2
+cuckoo/data/conftemplates/reporting.yaml.jinja2

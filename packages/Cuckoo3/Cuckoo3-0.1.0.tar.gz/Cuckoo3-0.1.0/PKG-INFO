@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: Cuckoo3
+Version: 0.1.0
+Summary: Automated Malware Analysis System
+Home-page: https://cuckoosandbox.org/
+Author: Stichting Cuckoo Foundation
+Author-email: info@hatching.io
+License: GPLv3
+Description: Cuckoo Sandbox 3
+        
+        Cuckoo 3 is still in development. This will part of its namespace.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
