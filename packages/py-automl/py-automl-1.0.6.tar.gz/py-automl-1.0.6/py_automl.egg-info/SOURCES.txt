@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pyAutoML/__init__.py
+pyAutoML/checkpoint.py
+pyAutoML/ml.py
+pyAutoML/model.py
+pyAutoML/preprocess.py
+pyAutoML/utils.py
+pyAutoML/visualize.py
+py_automl.egg-info/PKG-INFO
+py_automl.egg-info/SOURCES.txt
+py_automl.egg-info/dependency_links.txt
+py_automl.egg-info/requires.txt
+py_automl.egg-info/top_level.txt
