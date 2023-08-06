@@ -1,0 +1,9 @@
+README.md
+setup.py
+freqit/__init__.py
+freqit/oneway.py
+freqit.egg-info/PKG-INFO
+freqit.egg-info/SOURCES.txt
+freqit.egg-info/dependency_links.txt
+freqit.egg-info/requires.txt
+freqit.egg-info/top_level.txt
