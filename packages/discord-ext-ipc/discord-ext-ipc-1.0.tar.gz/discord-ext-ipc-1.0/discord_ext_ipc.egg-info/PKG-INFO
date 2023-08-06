@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: discord-ext-ipc
+Version: 1.0
+Summary: An IPC extension allowing for the communication between a discord.py bot and an asynchronous web-framework (i.e. Quart or aiohttp.web)
+Home-page: https://github.com/lganWebb/discord-ext-ipc
+Author: lganwebb
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
