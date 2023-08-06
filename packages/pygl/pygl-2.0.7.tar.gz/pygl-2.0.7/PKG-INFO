@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pygl
+Version: 2.0.7
+Summary: PyGL is a numerical library for statistical field theory in Python
+Home-page: https://github.com/rajeshrinet/pygl
+Author: The PyGL team
+License: MIT
+Description: PyGL is a numerical library for statistical field theory in Python
+Platform: UNKNOWN
+Provides-Extra: plotting
+Provides-Extra: notebook

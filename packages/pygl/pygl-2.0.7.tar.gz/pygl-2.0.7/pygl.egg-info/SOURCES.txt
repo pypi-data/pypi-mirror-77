@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+pygl/__init__.py
+pygl/dms.c
+pygl/dms.pyx
+pygl/solvers.c
+pygl/solvers.pyx
+pygl/utils.c
+pygl/utils.pyx
+pygl.egg-info/PKG-INFO
+pygl.egg-info/SOURCES.txt
+pygl.egg-info/dependency_links.txt
+pygl.egg-info/requires.txt
+pygl.egg-info/top_level.txt
