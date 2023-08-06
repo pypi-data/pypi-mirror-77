@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: lammps-logfile
+Version: 1.0
+Summary: Tool to read lammps log files into python data structure
+Home-page: http://github.com/henriasv/lammps-logfile
+Author: Henrik Andersen Sveinsson
+Author-email: henrik.sveinsson@me.com
+License: GNU GPL v3.0
+Description: UNKNOWN
+Platform: UNKNOWN
