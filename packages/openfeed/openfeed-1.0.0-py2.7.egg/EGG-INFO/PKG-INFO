@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: openfeed
+Version: 1.0.0
+Summary: Barchart Openfeed Example Client for Python
+Home-page: https://github.com/openfeed-org/sdk-python
+Author: Barchart
+Author-email: mike@barchart.com
+License: MIT
+Download-URL: https://github.com/openfeed-org/sdk-python/archive/master.zip
+Description: # Openfeed SDK for Python
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: test

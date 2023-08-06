@@ -1,0 +1,7 @@
+README.md
+setup.py
+openfeed.egg-info/PKG-INFO
+openfeed.egg-info/SOURCES.txt
+openfeed.egg-info/dependency_links.txt
+openfeed.egg-info/requires.txt
+openfeed.egg-info/top_level.txt
