@@ -1,0 +1,11 @@
+pgsql/__init__.py,sha256=CECnBNlDpinfqCS5ACXrNfaonz3v6_6i1_cMUs4-t7c,1057
+pgsql/connstr.py,sha256=DWBqFvlir-lODLl0fFCHFAVGgrriMpVCPC73Yp8aWNc,7115
+pgsql/pgsql.py,sha256=nf-3ITTqmX8eoogAhRnLmcjbuU4v2cDMBrWa6EhpVX8,26895
+pgsql/opslib/pgsql/__init__.py,sha256=CECnBNlDpinfqCS5ACXrNfaonz3v6_6i1_cMUs4-t7c,1057
+pgsql/opslib/pgsql/connstr.py,sha256=DWBqFvlir-lODLl0fFCHFAVGgrriMpVCPC73Yp8aWNc,7115
+pgsql/opslib/pgsql/pgsql.py,sha256=nf-3ITTqmX8eoogAhRnLmcjbuU4v2cDMBrWa6EhpVX8,26895
+ops_lib_pgsql-1.0.0.dist-info/LICENSE,sha256=nno1cAsGKH1FJPSnct8bGKktBjcDV5gqQ18m2maIJD8,713
+ops_lib_pgsql-1.0.0.dist-info/METADATA,sha256=aa4VTppU2e-5HABRwuPSIuoUpKpECXLZto9r3SF6Vjw,4414
+ops_lib_pgsql-1.0.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+ops_lib_pgsql-1.0.0.dist-info/top_level.txt,sha256=9jEtQ2uBQJTCOEN4_gvqkC9Ksgs2b3VY1gG6I7zpniA,6
+ops_lib_pgsql-1.0.0.dist-info/RECORD,,
