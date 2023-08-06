@@ -1,0 +1,6 @@
+setup.py
+tstatistics.py
+tstatistics.egg-info/PKG-INFO
+tstatistics.egg-info/SOURCES.txt
+tstatistics.egg-info/dependency_links.txt
+tstatistics.egg-info/top_level.txt
