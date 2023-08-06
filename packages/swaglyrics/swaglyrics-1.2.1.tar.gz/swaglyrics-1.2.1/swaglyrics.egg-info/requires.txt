@@ -1,0 +1,15 @@
+SwSpotify==1.2.0
+flask==1.1.2
+requests==2.24.0
+unidecode==1.1.1
+beautifulsoup4==4.9.1
+colorama==0.4.3
+
+[dev]
+mock
+pytest
+pytest-cov
+blinker
+Werkzeug==1.0.1
+flask_testing
+mypy
