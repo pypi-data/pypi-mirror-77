@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: poetry-dev
+Version: 0.1.0
+Summary: A collection of scripts replace local packages with versions and vice versa
+License: MIT
+Author: Marc Rijken
+Author-email: marc@rijken.org
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: tomlkit (>=0.7.0,<0.8.0)
+Requires-Dist: typer (>=0.3.2,<0.4.0)
