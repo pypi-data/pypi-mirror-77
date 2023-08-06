@@ -1,0 +1,12 @@
+setup.py
+wsmocky/__init__.py
+wsmocky/server.py
+wsmocky/wsdl.py
+wsmocky/wsmocky.py
+wsmocky.egg-info/PKG-INFO
+wsmocky.egg-info/SOURCES.txt
+wsmocky.egg-info/dependency_links.txt
+wsmocky.egg-info/entry_points.txt
+wsmocky.egg-info/requires.txt
+wsmocky.egg-info/top_level.txt
+wsmocky.egg-info/zip-safe
