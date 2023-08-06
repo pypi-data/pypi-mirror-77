@@ -1,0 +1,13 @@
+archi.cpython-36m-i386-linux-gnu.so,sha256=Ul8n9f3aNGFLrzjHBgHwf2sTuWzpFKM3oJY0gPjQ8fg,384184
+archi-0.2.3.dist-info/RECORD,,
+archi-0.2.3.dist-info/METADATA,sha256=NBKfkSNgp8GjE5YSycbcKWxitOgha3lushQo3xN4j_0,2191
+archi-0.2.3.dist-info/top_level.txt,sha256=yujE20SRvQoZVhLPHG9IYTjsfKDmYCnBSqdvr7ItWx0,6
+archi-0.2.3.dist-info/LICENSE,sha256=RCY9EV_SbmAIgFY2YPA_zs9cUjl8TYRmhH0wtIKGQ4Y,1097
+archi-0.2.3.dist-info/WHEEL,sha256=a-nJFFiMYEYyG5QCR5Xeuk5LWyqsNoO3EX6iWAhI1Fc,110
+archi.libs/libarchive-e9e7ff71.so.17,sha256=OjDxt70zdh4G-EZX2TeLDpoeQqFTKQlopSZiL4m_7As,1152896
+archi.libs/liblz4-1b122829.so.1.7.1,sha256=IfsqF0pyD_7PEU_2Q-webNDcl6G6nOQBIGxAB0wwi88,51396
+archi.libs/libacl-30599431.so.1.1.0,sha256=VIE1MKkzM1EqvI58uz6CHLM2bgHkvMj0zoEum_RUcd8,38600
+archi.libs/liblzma-5179102a.so.0.0.0,sha256=pvGawPptSIwWifqVV6aS7OtkX1Ra_3ddkm-e8-Qsm_w,149520
+archi.libs/libattr-7c623aee.so.1.1.0,sha256=vhQXm9rfd4amvwoZuo-EEwaKlzsUXG08B5e3i15vI58,21192
+archi.libs/libzstd-74eadaf4.so.1.4.5,sha256=qfdNlygJo_JERH97aS1BywOpwY_waIGcG2d7TQPNn8s,631372
+archi.libs/libz-9f7255d3.so.1.2.3,sha256=cmkyidpVXM7SmPkPJ2vG6Zm0kSaqzlQ_OgIgUVI4NZg,79128
