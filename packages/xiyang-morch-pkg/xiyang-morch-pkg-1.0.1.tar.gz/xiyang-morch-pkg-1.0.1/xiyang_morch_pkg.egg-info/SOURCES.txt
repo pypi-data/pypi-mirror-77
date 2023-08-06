@@ -1,0 +1,15 @@
+README.md
+setup.py
+xiyang_morch_pkg.egg-info/PKG-INFO
+xiyang_morch_pkg.egg-info/SOURCES.txt
+xiyang_morch_pkg.egg-info/dependency_links.txt
+xiyang_morch_pkg.egg-info/requires.txt
+xiyang_morch_pkg.egg-info/top_level.txt
+xiyang_morph/__init__.py
+xiyang_morph/config.py
+xiyang_morph/face_detect_and_track.py
+xiyang_morph/face_detection.py
+xiyang_morph/face_points_detection.py
+xiyang_morph/face_swap.py
+xiyang_morph/morph.py
+xiyang_morph/video_handler.py
