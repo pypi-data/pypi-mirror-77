@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+tests/__init__.py
+tests/context.py
+tests/test_fetch.py
+twstock_downloader/__init__.py
+twstock_downloader/fetch.py
+twstock_downloader/get.py
+twstock_downloader/utils.py
+twstock_downloader.egg-info/PKG-INFO
+twstock_downloader.egg-info/SOURCES.txt
+twstock_downloader.egg-info/dependency_links.txt
+twstock_downloader.egg-info/requires.txt
+twstock_downloader.egg-info/top_level.txt
