@@ -1,0 +1,7 @@
+include *.txt
+include *.in
+include *.md
+
+recursive-include aws_secret_cdk *.py
+recursive-include aws_secret_cdk *.sh
+recursive-include aws_secret_cdk *.zip
