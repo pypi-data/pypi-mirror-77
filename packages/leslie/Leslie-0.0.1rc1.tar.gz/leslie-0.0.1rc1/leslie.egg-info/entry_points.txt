@@ -1,0 +1,3 @@
+[console_scripts]
+leslie = leslie.__main__:run
+
