@@ -1,0 +1,3 @@
+include data/*
+include **.json
+include **.js
