@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: inference_gym
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/tensorflow/probability/spinoffs/inference_gym
+Author: Google LLC
+Author-email: no-reply@google.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
