@@ -1,0 +1,4 @@
+inflect
+fastavro
+pytz
+dacite
