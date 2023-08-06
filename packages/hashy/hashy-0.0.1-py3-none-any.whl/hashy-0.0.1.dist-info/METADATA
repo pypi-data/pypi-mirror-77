@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hashy
+Version: 0.0.1
+Summary: simple hash library
+Home-page: https://github.com/jamesabel/hashy
+Author: abel
+Author-email: j@abel.co
+License: MIT License
+Download-URL: https://github.com/jamesabel/hashy
+Keywords: hash
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+
+# hashy
+another hash library
+
+
