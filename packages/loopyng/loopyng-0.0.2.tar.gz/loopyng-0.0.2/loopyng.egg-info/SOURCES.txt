@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+loopyng.egg-info/PKG-INFO
+loopyng.egg-info/SOURCES.txt
+loopyng.egg-info/dependency_links.txt
+loopyng.egg-info/requires.txt
+loopyng.egg-info/top_level.txt
