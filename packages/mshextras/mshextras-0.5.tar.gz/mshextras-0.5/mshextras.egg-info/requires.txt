@@ -1,0 +1,6 @@
+numpy
+pandas
+pyotp
+requests
+furl
+marshmallow
