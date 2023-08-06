@@ -1,0 +1,3 @@
+[console_scripts]
+emu=emu.__main__:main
+
