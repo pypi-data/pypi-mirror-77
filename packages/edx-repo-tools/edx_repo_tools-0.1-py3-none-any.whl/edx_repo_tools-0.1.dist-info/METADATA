@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: edx-repo-tools
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: appdirs
+Requires-Dist: click
+Requires-Dist: lazy
+Requires-Dist: github3.py
+Requires-Dist: pytest
+Requires-Dist: pytest-xdist
+Requires-Dist: pyyaml
+Requires-Dist: ruamel.yaml
+
+UNKNOWN
+
+
