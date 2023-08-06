@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: autosys
+Version: 1.5.2
+Summary: System Utilities for Python on macOS.
+License: MIT
+Author: skeptycal
+Author-email: 26148512+skeptycal@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: colorama (>=0.4.3,<0.5.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Requires-Dist: toml (>=0.10.1,<0.11.0)
