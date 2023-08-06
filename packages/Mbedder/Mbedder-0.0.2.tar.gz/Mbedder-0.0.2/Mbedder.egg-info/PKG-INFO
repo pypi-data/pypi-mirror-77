@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: Mbedder
+Version: 0.0.2
+Summary: Mbedder: A pytorch powered framework for seemlessly adding contextual text embeddings  from pretrained models
+Home-page: https://github.com/monkeysforever/Mbedder
+Author: Randeep Ahlawat
+Author-email: ahlawat.randeep@gmail.com
+License: UNKNOWN
+Description: ---
+        Mbedder is a language framework for adding contextual embeddings of pretrained language models to deep learning models.Mbedder is powered by PyTorch and HuggingFace and requires as less as 1 line of code to add embeddings and works similar to how the Embedding Layer works in PyTorch.
+        
+        List of supported architectures
+         
+        - **Bert**
+        - **XLNet**
+        - **Albert**
+        - **TransfoXL**
+        - **DistilBert**
+        - **Roberta**
+        - **XLM**
+        - **XLMRoberta**
+        - **GPT**
+        - **GPT2**
+        - **Flaubert**
+        
+        The pretrained models for the mentioned architecures can be found here.
+        
+        ### Features
+        - Addition of embeddings with 1 line of code
+        - Embeddings can output Sentence as well as Token level embeddings
+        - Task specific combination strategies can be applied to hidden states and token embeddings
+        - Custom pre-trained hugging face transformer models can be used with Mbedder.
+        
+        # Requirements and Installation
+        * [PyTorch](http://pytorch.org/) version >= 1.6.0
+        * Python version >= 3.6
+        * Transformer >= 3.0.2
+        
+        Mbedder can be using Pip as follows
+        ```
+        pip install Mbedder==0.0.1
+        ```
+        
+        # Getting Started
+        
+        A basic example of using a Mbedder Bert embedding is shown below:
+        ```
+        import torch
+        from Mbedder import BertEmbedding
+        
+        class BertClassifier(torch.nn.Module):
+            def __init__(self, num_classes):
+                super(BertClassifier, self).__init__()
+                self.embedding = BertEmbedding.from_pretrained('bert-base-uncased')
+                self.fc = torch.nn.Linear(self.embedding.embedding_size, num_classes)
+            
+            def forward(self, input_ids, attention_mask):
+                x = self.embedding(input_ids, attention_mask, output_token_embeddings=False)
+                logits = self.fc(x)
+                return logits
+        
+        ```
+        More advanced examples can be found in the examples folder.
+        
+        # License
+        
+        Mbedder is MIT-licensed.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Operating System :: Unix
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
