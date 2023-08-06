@@ -1,0 +1,68 @@
+{
+	"type": "object",
+	"patternProperties": {
+		"^[a-z][a-zA-Z]+$": {
+			"type": "object",
+			"required": [
+				"defaultValue",
+				"dataType",
+				"isSensitive",
+				"description",
+				"category"
+			],
+			"properties": {
+				"defaultValue": {
+					"type": "string"
+				},
+				"dataType": {
+					"type": "string",
+					"enum": [
+						"string",
+						"boolean",
+						"integer",
+						"list",
+						"range",
+						"longstring"
+					]
+				},
+				"category": {
+					"type": "string",
+					"enum": [
+						"asr",
+						"nlu",
+						"system",
+						"device",
+						"credentials",
+						"mqtt",
+						"tts",
+						"wakeword"
+					]
+				},
+				"isSensitive": {
+					"type": "boolean"
+				},
+				"description": {
+					"type": "string",
+					"minLength": 10,
+					"pattern": "^[A-Z].*$"
+				},
+				"display": {
+					"type": "string",
+					"enum": [
+						"hidden"
+					]
+				},
+				"beforeUpdate": {
+					"type": "string",
+					"pattern": "^[a-z].*$"
+				},
+				"onUpdate": {
+					"type": "string",
+					"pattern": "^[a-z].*$"
+				}
+			},
+			"additionalProperties": false
+		}
+	},
+	"additionalProperties": false
+}
