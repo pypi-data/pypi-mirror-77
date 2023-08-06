@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+src/aircraft/__init__.py
+src/aircraft/dispatcher.py
+src/aircraft/hook-wrapper
+src/aircraft.egg-info/PKG-INFO
+src/aircraft.egg-info/SOURCES.txt
+src/aircraft.egg-info/dependency_links.txt
+src/aircraft.egg-info/top_level.txt
