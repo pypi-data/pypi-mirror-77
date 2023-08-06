@@ -1,0 +1,6 @@
+README.md
+setup.py
+pytwanalysis.egg-info/PKG-INFO
+pytwanalysis.egg-info/SOURCES.txt
+pytwanalysis.egg-info/dependency_links.txt
+pytwanalysis.egg-info/top_level.txt
