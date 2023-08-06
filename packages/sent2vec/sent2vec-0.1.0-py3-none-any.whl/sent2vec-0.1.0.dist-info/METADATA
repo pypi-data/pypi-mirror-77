@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: sent2vec
+Version: 0.1.0
+Summary: How to represent sentences in a high-dimensional vector space, a.k.a., sentence embedding.
+Home-page: https://github.com/pdrm83/sent2vec
+Author: Pedram Ataee
+Author-email: pedram.ataee@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: transformers
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: gensim
+Requires-Dist: spacy
+
+# A Generic Sentence Embedding Library
+
+In natural language processing, we need to encode text data. In the past, we mostly use encoders such as one-hot, 
+term frequency, or TF-IDF (normalized term frequency). There are many challenges with these techniques. In the recent 
+years, the latest advancements give us opportunity to encode sentences or words in more meaningful format. The word2vec 
+model was one of them. Plus, the BERT language model provides us a powerful sentence encoders.
+
+The sentence encoding is an important step of many NLP projects. Plus, we believe that a flexible sent2vec library is 
+needed to build a prototype fast. That is why we have initiated this project. In the early releases, you will have 
+access to the standard encoders. We will add more curated techniques in the later releases. Hope you can use this 
+library in your exciting NLP projects. Note that we can use encoding, embedding, or vectorizing interchangeably in this
+context.
+
+## Library
+The package requires the following libraries:
+
+* gensim
+* numpy
+* pandas
+* spacy
+* transformers
+* torch
+
+This package is developed to make the prototyping become faster. That is why it has many dependencies on other libraries.
+
+## Install
+
+It can be installed using pip:
+```python
+pip3 install sent2vec
+```
+
+## Usage
+
+This is how to initialize the library and provide the data.
+```python
+from sent2vec.vectorizer import Vectorizer
+
+sentences = [
+    "This is an awesome book to learn NLP.",
+    "DistilBERT is an amazing NLP model.",
+    "We can interchangeably use embedding, encoding, or vectorizing.",
+]
+vectorizer = Vectorizer(sentences)
+```
+
+If you want to use the the `BERT` language model to compute sentence embedding, you must use the code below. 
+```python
+vectors = vectorizer.bert()
+```
+Having the corresponding vectors, you can compute distance among vectors. Here, as expected, the distance between 
+`vectors[0]` and `vectors[1]` is less than the distance between `vectors[0]` and `vectors[2]`.
+
+If you want to use a `word2vec` approach instead, you must first split sentences to lists of words using the 
+`sent2words` method. In this stage, you can customized the list of stop-words by adding or removing to/from the default
+list. When you extract the most important words in sentences, you can compute the sentence embeddings using the `w2v`
+method. This method computes the average of vectors corresponding to the remaining words using the code bleow. 
+```python
+sentences = [
+    "Alice is in the Wonderland.",
+    "Alice is not in the Wonderland.",
+]
+vectorizer = Vectorizer(sentences)
+vectorizer.sent2words(remove_stop_words=['not'], add_stop_words=[])
+vectors = vectorizer.w2v()
+```
+And, that's pretty much it!
+
+
+
