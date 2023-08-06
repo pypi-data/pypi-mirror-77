@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: pytiny
+Version: 0.0.1
+Summary: PyTiny is an in-memory key–value database written in Python.
+Home-page: https://gitlab.com/azael_rguez/pytiny
+Author: Alvaro Azael Rodriguez Rodriguez
+Author-email: azael.rguez96@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# PyTiny
+
+PyTiny is an in-memory key–value database written in Python.
+
+## Set up
+
+```
+from pytiny import PyTiny
+
+db = PyTiny()
+```
+
+## Functions
+
+### Set
+
+Set a key and value
+
+```
+db.set("Key")
+```
+
+### Get
+
+Get a value from a key
+
+```
+db.get("Key", "Value")
+```
+
+### Delete
+
+Delete a value from a key
+
+```
+db.delete("Key")
+```
+
+### Reset
+
+Reset the data. All data stored will be delete.
+
+```
+db.reset()
+```
+
+### Export
+
+Export the data to a .db file
+
+```
+db.export()
+```
+
+### Bring
+
+Import a file. This will be delete all data stored before, and will be restore the new data from the file.
+
+```
+db.bring("file_name")
+```
+
+## Author
+
+Alvaro Azael Rodriguez Rodriguez - (Development Lead) [[Gitlab](https://gitlab.com/azael_rguez), [Twitter](https://twitter.com/azael_rguez)]
+
+## Licence
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
