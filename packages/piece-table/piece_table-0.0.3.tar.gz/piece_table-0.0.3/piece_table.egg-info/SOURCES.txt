@@ -1,0 +1,8 @@
+README.rst
+setup.py
+piece_table/__init__.py
+piece_table/piece_table.py
+piece_table.egg-info/PKG-INFO
+piece_table.egg-info/SOURCES.txt
+piece_table.egg-info/dependency_links.txt
+piece_table.egg-info/top_level.txt
