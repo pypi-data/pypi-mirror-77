@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: vkbots
+Version: 1.0.1
+Summary: Library for creating VK Bots
+Home-page: https://github.com/Rollylni/vkbot
+Author: RoLLy
+Author-email: dimadersekt@gmail.com
+License: MIT
+Description: ======
+        vkbots
+        ======
+        
+        Library for creating LongPoll bots with decorators, easy and convenient!
+        
+        * documentation: https://github.com/Rollylni/vkbot
+        * example: https://github.com/Rollylni/
+Keywords: vkbots
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Russian

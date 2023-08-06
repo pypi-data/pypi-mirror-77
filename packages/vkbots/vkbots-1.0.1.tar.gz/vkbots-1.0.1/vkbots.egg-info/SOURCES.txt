@@ -1,0 +1,12 @@
+README.rst
+setup.py
+vkbots/__init__.py
+vkbots/bot.py
+vkbots/command.py
+vkbots/objects.py
+vkbots/task.py
+vkbots.egg-info/PKG-INFO
+vkbots.egg-info/SOURCES.txt
+vkbots.egg-info/dependency_links.txt
+vkbots.egg-info/requires.txt
+vkbots.egg-info/top_level.txt
