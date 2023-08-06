@@ -1,0 +1,18 @@
+BasicAlgo-0.0.1.dist-info/DESCRIPTION.rst,sha256=kb6i5JgyPi0YsPIfKBs3CedAfLiiB2nZXGW0EJAXha8,1460
+BasicAlgo-0.0.1.dist-info/METADATA,sha256=jGhk4CFVdwy-lqCgD14PN0Xo0E7B3e5vAMD_X2a3azI,1898
+BasicAlgo-0.0.1.dist-info/RECORD,,
+BasicAlgo-0.0.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+BasicAlgo-0.0.1.dist-info/metadata.json,sha256=zYHW5pvppcd1nMtwIhUZ-EOgbFK4DkDJ42P4-zb3-hI,633
+BasicAlgo-0.0.1.dist-info/top_level.txt,sha256=UwSEo2L60PVM-KtzM52ec4xOuVjDBSkwLveKpaD797w,11
+basic_algo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+basic_algo/Dynamic Programming/CoinChange.py,sha256=-I7SGIS5dlBjGPD-8oFvo9RqzshKDUPGHOJRAg2Ocpc,1413
+basic_algo/Dynamic Programming/EggDropping.py,sha256=bdBBxgdGypeDowfEd7wsYzc_bCpKGD1jSxgFtzyxoxk,2090
+basic_algo/Dynamic Programming/KadanesAlgorithm.py,sha256=NlX0VSSLUpYPVrrLPGunUVWJ9HjK2eoHs-bcUjdLxeM,1062
+basic_algo/Dynamic Programming/LongestCommonSequence.py,sha256=JHIs4HJLWo14bH-hTtks9ktWrg6e2phwOxAOu3OaHXY,1125
+basic_algo/Dynamic Programming/LongestCommonSubsequence.py,sha256=i6mF26544BJ0UskUhD001fFm3NhF19i8BBIFMGR_4VI,1189
+basic_algo/Dynamic Programming/LongestIncreasingSubsequence.py,sha256=BBUwyO5eRq0bSEfR13oQeYiDEeAv48klBS6Y2krj5WY,869
+basic_algo/Dynamic Programming/PalindromePartitioning.py,sha256=7P7fVBO8GZGd7oaVMwEFB4CBYKcTFQvW3Ov8He5Eh5M,1959
+basic_algo/Dynamic Programming/SubsetSum.py,sha256=rqMzesXtV10y1KIMSAJSFCASZRiCoGiPFSuBAqQ9ong,2387
+basic_algo/Dynamic Programming/WordBreak.py,sha256=gSgvbJvIfWybkpmvfxHDjm6QMOHxdrCOWaAW_mnYrE8,1355
+basic_algo/Dynamic Programming/ZeroOneKnapsack.py,sha256=O8lLo7NMftWSTB8QiAYdns4WO24f4rHZgQKJ_uShFIQ,2339
+basic_algo/Dynamic Programming/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
