@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: commisery
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: Apache License 2.0
+Project-URL: Source Code, https://github.com/tomtom-international/commisery
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6.5
+Requires-Dist: regex
+Requires-Dist: stemming (<2,>=1)
+
+UNKNOWN
+
+
