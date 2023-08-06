@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: csv-to-tmx
+Version: 0.0.0
+Summary: Creates a tmx file from a csv
+Home-page: https://github.com/mak4lab/csv-to-tmx
+Author: Victoria Mak
+Author-email: victoria@mak4lab.com
+License: UNKNOWN
+Download-URL: https://github.com/mak4lab/csv-to-tmx/tarball/download
+Description: # csv-to-tmx
+        WIP creates a tmx file from a csv
+        
+        
+        
+Keywords: parallel corpus,machine translation,nmt,csv,tmx,translation memory,mt,sentence alignment
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
