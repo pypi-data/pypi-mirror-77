@@ -1,0 +1,6 @@
+Flask
+simple-geoip
+ipaddress
+
+[test]
+pytest
