@@ -1,0 +1,11 @@
+archi.cpython-36m-darwin.so,sha256=LxQHgGDGuUAelv0BKSr7e_n_9lLM20ySZFBFSuPCfYo,186024
+archi-0.2.3.dist-info/RECORD,,
+archi-0.2.3.dist-info/LICENSE,sha256=RCY9EV_SbmAIgFY2YPA_zs9cUjl8TYRmhH0wtIKGQ4Y,1097
+archi-0.2.3.dist-info/WHEEL,sha256=LMwng7Md5n3YuDmutGwUNLmc9grwqVA_b6iMspnnXcE,109
+archi-0.2.3.dist-info/top_level.txt,sha256=yujE20SRvQoZVhLPHG9IYTjsfKDmYCnBSqdvr7ItWx0,6
+archi-0.2.3.dist-info/METADATA,sha256=NBKfkSNgp8GjE5YSycbcKWxitOgha3lushQo3xN4j_0,2191
+.dylibsarchi/liblz4.1.9.2.dylib,sha256=vYXuN02Iazl2HSTZeZ1ykmxtwjF4-3_fNjth2axCd4Y,135524
+.dylibsarchi/libarchive.13.dylib,sha256=8oGEC2EVd-QmAP5tAEQ1IRm3cX0bLxyFzOUBj-FixPw,650828
+.dylibsarchi/liblzma.5.dylib,sha256=buGArazntkP9OtKl8vKf4jvvUZY0gF6nNmuAHT7iiHI,134348
+.dylibsarchi/libzstd.1.4.5.dylib,sha256=mZnAGLREZiLlW5RG_xQsi9JWIz1_-Drs-N5IjIlMsqc,677160
+.dylibsarchi/libb2.1.dylib,sha256=61t-pKIxJo3i4DzCdh34OfWg7XaDcwm7ra7WJBOoDl8,101660
