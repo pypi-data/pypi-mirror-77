@@ -1,0 +1,9 @@
+polyfamily_tree/__init__.py,sha256=21JJyqnMqeomne5zfLFMzQhY_AOV6bcPpz0c0OB2IQg,30
+polyfamily_tree/errors.py,sha256=9rs5PTrM3ZBCkQ5FwnUwgCLdCZYdjMceGuIAfgDgW7A,1805
+polyfamily_tree/family_member.py,sha256=n5037ZjJXzs342PvKzkBqXx4b61OUf-JjvM0HHrn6ZU,11379
+polyfamily_tree/member_iterators.py,sha256=OWcUgazoU37lKLo5JXllB46wlawf9TZ1Otbjj7k9ExA,5033
+polyfamily_tree-0.1.0.dist-info/LICENSE,sha256=yphbBCa7i7C9aGrFsWDZNcYTpuA1soiAlWdy-iMyjWU,1096
+polyfamily_tree-0.1.0.dist-info/METADATA,sha256=l8QQKgN2HGThv0hAIHWHx21L3W70mLozyzo5E3DdALo,2166
+polyfamily_tree-0.1.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+polyfamily_tree-0.1.0.dist-info/top_level.txt,sha256=Va0JhF6PJi1DCLntk6BJYLocYnhV4s1-LKC0-Db9icA,16
+polyfamily_tree-0.1.0.dist-info/RECORD,,
