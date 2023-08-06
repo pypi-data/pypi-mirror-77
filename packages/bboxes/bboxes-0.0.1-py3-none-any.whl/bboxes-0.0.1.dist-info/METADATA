@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bboxes
+Version: 0.0.1
+Summary: Some utils to work with bounding boxes
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: cezarcbl@pm.me
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: opencv-python
+
+# BBOXES
+
+Some utilities to work with bounding boxes.
+
