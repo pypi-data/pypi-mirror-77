@@ -1,0 +1,13 @@
+numpy
+scipy
+pyfiglet
+marshmallow
+pyinquirer
+matplotlib
+appdirs
+
+[dev]
+pylint
+
+[test]
+pytest
