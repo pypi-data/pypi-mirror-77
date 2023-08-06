@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: tuning
+Version: 2020.8.28.15.39.17
+Summary: 调参工具
+Home-page: https://github.com/Jie-Yuan/tuning
+Author: JieYuan
+Author-email: 313303303@qq.com
+Maintainer: JieYuan
+Maintainer-email: 313303303@qq.com
+License: MIT
+Keywords: deepctr,deepnn,deepfm
+Platform: all
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: nni
+Requires-Dist: optuna
+
+# tuning
+tuning
+
+
