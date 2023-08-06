@@ -1,0 +1,5 @@
+amp-renderer
+django>=1.11.0
+
+[:python_version <= "2.7"]
+future
