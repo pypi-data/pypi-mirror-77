@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: python-optiEncoder
+Version: 1.0.5
+Summary: A python package to optimally encode a list
+Home-page: UNKNOWN
+Author: Sahil Ahuja
+Author-email: sahil27ahuja1999@gmail.com
+License: MIT
+Description: ### Installation
+        This is an easy to use library to encode categorical data in a feature into optimized set of 
+        features with each categorical value mapping to a unique bitstring.
+        
+        Installation : pip install python-optiEncoder
+        	
+        ```sh
+        >>> import optiEncoder
+        >>> enc = optiEncoder.Encoder(["France","Canada","England"])
+        >>> print("Mappings : ", enc.getMappings())
+        {'France':[0,0],'Canada':[0,1],'England':[1,0]}
+        >>> print("Encoded List : ", enc.getEncodedList())
+        [[0,0],[0,1],[1,0]]
+        ```
+        ### License
+        MIT
+        ### Author
+        Sahil Ahuja
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
