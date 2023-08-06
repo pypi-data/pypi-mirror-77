@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+oui.egg-info/PKG-INFO
+oui.egg-info/SOURCES.txt
+oui.egg-info/dependency_links.txt
+oui.egg-info/top_level.txt
