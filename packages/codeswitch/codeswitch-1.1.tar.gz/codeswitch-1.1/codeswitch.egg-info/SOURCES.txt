@@ -1,0 +1,12 @@
+LICENSE
+README.md
+requirements.txt
+setup.py
+codeswitch/__init__.py
+codeswitch/codeswitch.py
+codeswitch.egg-info/PKG-INFO
+codeswitch.egg-info/SOURCES.txt
+codeswitch.egg-info/dependency_links.txt
+codeswitch.egg-info/requires.txt
+codeswitch.egg-info/top_level.txt
+docs/index.rst
