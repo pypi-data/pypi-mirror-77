@@ -1,0 +1,8 @@
+easimpconf>=0.2.2
+ftputil>=3.4
+paramiko~=2.7
+salmagundi>=0.15.0
+
+[:python_version < "3.7"]
+importlib_resources>=1.0.2
+dataclasses>=0.7
