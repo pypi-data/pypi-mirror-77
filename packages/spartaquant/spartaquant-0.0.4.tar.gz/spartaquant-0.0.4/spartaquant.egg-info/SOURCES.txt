@@ -1,0 +1,7 @@
+README.md
+setup.py
+spartaquant.egg-info/PKG-INFO
+spartaquant.egg-info/SOURCES.txt
+spartaquant.egg-info/dependency_links.txt
+spartaquant.egg-info/top_level.txt
+spartaquant_pkg/__init__.py
