@@ -1,0 +1,12 @@
+fast_bitrix24/__init__.py,sha256=PjPKbCshuyWkcSS_36nt-Jk3UuJZGQBHAtrqRHeAiDU,133
+fast_bitrix24/bitrix.py,sha256=e1-8ppjLToDkrob1eMWfGz_LESt0MKYMnfOtfCaW5pw,4891
+fast_bitrix24/correct_asyncio.py,sha256=YbvkIeWTpIdNjBd7sbSymILydPpz5467SWLa5u5leMg,192
+fast_bitrix24/mult_request.py,sha256=Xa8P0ykx8hxFZzX88kcODB0cBUvnL4J3LVvcB_CMyR0,3911
+fast_bitrix24/srh.py,sha256=Sy65KKsFJjI7o_wJKTV2IRN6HQOaM885x7EtF0lTqBo,7048
+fast_bitrix24/user_request.py,sha256=D7hZlDXFXBEV7WSzUc7vfKr_ZtlaeIohOpHTtibQCBo,7039
+fast_bitrix24/utils.py,sha256=v6nBwAgvZI-8Re-Lchwx5u8Fd2MZyALB-kjnmZAHGSI,1365
+fast_bitrix24-0.3.5.dist-info/LICENSE,sha256=pENaf0Kem6OatxP2KPi0F67DDu5vzFnJr8ricZIX6PE,1095
+fast_bitrix24-0.3.5.dist-info/METADATA,sha256=LnL7pGuqP4Ea3Zcys8Yb2vdoOeFVdW8B-t5oFL3PS4Y,18000
+fast_bitrix24-0.3.5.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+fast_bitrix24-0.3.5.dist-info/top_level.txt,sha256=acRZRHfTg_22dC0OJ6XL7USjYIgEiN7KJXEyccuZyw4,14
+fast_bitrix24-0.3.5.dist-info/RECORD,,
