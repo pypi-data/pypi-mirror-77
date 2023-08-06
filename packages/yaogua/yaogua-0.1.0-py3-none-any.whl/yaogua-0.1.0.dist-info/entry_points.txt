@@ -1,0 +1,6 @@
+[console_scripts]
+yaogua = yaogua.__main__:main
+
+[gui_scripts]
+yaogua_gui = yaogua.gui:main
+
