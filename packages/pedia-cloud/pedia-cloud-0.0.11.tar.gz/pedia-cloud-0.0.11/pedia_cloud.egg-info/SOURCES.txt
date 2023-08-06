@@ -1,0 +1,12 @@
+README.md
+setup.py
+pedia_cloud/__init__.py
+pedia_cloud/base.py
+pedia_cloud/error.py
+pedia_cloud.egg-info/PKG-INFO
+pedia_cloud.egg-info/SOURCES.txt
+pedia_cloud.egg-info/dependency_links.txt
+pedia_cloud.egg-info/requires.txt
+pedia_cloud.egg-info/top_level.txt
+tests/__init__.py
+tests/test_segment.py
