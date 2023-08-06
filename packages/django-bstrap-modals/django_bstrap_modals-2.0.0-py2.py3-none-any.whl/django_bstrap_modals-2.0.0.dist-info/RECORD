@@ -1,0 +1,15 @@
+bsmodals/__init__.py,sha256=aNxhgsvC0t4GXKeQr3x9pFxyau24CbjAVFz1FwOXfnU,276
+bsmodals/static/bsmodals/.bsmodals.js.swp,sha256=guhtOMqhosZsmFB5p2fLpv1xmxpCHOQ5wpA_FiLDAY0,16384
+bsmodals/static/bsmodals/bsmodals.js,sha256=yJ8klIkGCkIYuu2n9WS11X4KTdbzO2fDvD-Hnop7ASY,5429
+bsmodals/static/bsmodals/restapi.js,sha256=Ln2R7xK0yqjG5Xyxwxedo_5112JGSI5UienEDynbE1Y,1672
+bsmodals/templates/bsmodals/.form.html.swp,sha256=g5dUmPTsrtQoXol9UkXpiT0fT3VZHvj1xqPSoAqMK9M,12288
+bsmodals/templates/bsmodals/alert.html,sha256=p-jIz43Co2u5n0Q7pPV5Y6RVYAsClfWaWw10e6VBO8I,858
+bsmodals/templates/bsmodals/confirm.html,sha256=gNVdzWE2GS_qenf5nIzYX75IR7au31JMaafRs8MWryk,792
+bsmodals/templates/bsmodals/error.html,sha256=Ir2HKO27A0bso1EAb1j3IP49gK6VpVKpExHDBVcs4pk,837
+bsmodals/templates/bsmodals/form.html,sha256=sc9DElcLJ5C-VZJjKXiixcxEP9MIpNtzSuC-pOHjkGo,1175
+bsmodals/templates/bsmodals/generic.html,sha256=EVKtFSZUdf5F9wrbyu_xwsb8r5azGGbArSoULG4GEoc,936
+django_bstrap_modals-2.0.0.dist-info/LICENSE,sha256=8UspFjZ90wvcGkw5R2hBPH1vniZFHRaK7ynet8h4DrI,1087
+django_bstrap_modals-2.0.0.dist-info/METADATA,sha256=gffwzvz4W1w_-3fJo-arj6JaeXXHtVC0T21Igzjflcg,1734
+django_bstrap_modals-2.0.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+django_bstrap_modals-2.0.0.dist-info/top_level.txt,sha256=LT_95OGJlZd3cE_cstu3jiKyRbtHtVFdXh_rIInnohM,9
+django_bstrap_modals-2.0.0.dist-info/RECORD,,
