@@ -1,0 +1,14 @@
+Django>=2.2
+
+[dev]
+tox
+pep8
+flake8
+mock
+Sphinx
+django-extensions
+Werkzeug
+
+[geoip]
+pycountry==20.7.3
+geoip2==4.0.2
