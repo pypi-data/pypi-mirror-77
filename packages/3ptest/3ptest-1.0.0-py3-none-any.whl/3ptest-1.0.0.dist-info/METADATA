@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: 3ptest
+Version: 1.0.0
+Summary: 3P Test Package
+Home-page: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+This is the README! You're welcome!
+
+
