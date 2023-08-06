@@ -1,0 +1,5 @@
+sqlalchemy
+colorama
+
+[:platform_system == "Windows"]
+pypiwin32
