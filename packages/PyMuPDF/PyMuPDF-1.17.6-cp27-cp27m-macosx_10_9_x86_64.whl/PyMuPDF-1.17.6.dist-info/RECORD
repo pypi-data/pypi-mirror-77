@@ -1,0 +1,9 @@
+fitz/__init__.py,sha256=q-4Qyl2qnv9_t6-uUdS1mDNLdvxMDrk0joJNOoAtLu4,3916
+fitz/__main__.py,sha256=O9VF9-zGWdEVhJs8l5aYB_OQZbp4yuR3N7DHPbhc18o,26365
+fitz/_fitz.so,sha256=cI7wbZ8Equz6eoNN9remp2mzpUfrSVhS6ZfFHCX3QZc,10459448
+fitz/fitz.py,sha256=zm3baCNr4Lnb7l15_QwkCxtU6t1U1ooFK47pG0Z4wjM,216106
+fitz/utils.py,sha256=B8vswmvlx4xjn_Yia0r8bN2kNorWt_aOraSlOYWYfgg,118076
+PyMuPDF-1.17.6.dist-info/METADATA,sha256=IiFx042O_CcYs8CbU_yhbhBlMYTrrpaWWn-k9ng7_cY,4006
+PyMuPDF-1.17.6.dist-info/WHEEL,sha256=E3q18wW2GGBRPzQS_nAtVnno5X1aBVApcpuMZiREg-8,110
+PyMuPDF-1.17.6.dist-info/top_level.txt,sha256=9uNJ8fT1ilNpuUmRTaqNxkoxurvePTMyiCdNodpKY4I,5
+PyMuPDF-1.17.6.dist-info/RECORD,,
