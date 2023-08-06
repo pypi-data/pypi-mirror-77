@@ -1,0 +1,17 @@
+filediffs-0.1.8.data/scripts/filediffs,sha256=UCWEdFPn5HUgeQKxif4eA6CXnBu02r84xW6w64U4qRI,1487
+filediffs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filediffs/filediffs_cython/filediffs_cy.cpp,sha256=wYkyNKTbHqR9Llmisb9PW_pSKurakLnmkQ1kFjns6ss,219186
+filediffs/filediffs_cython/filediffs_cy.cpython-37m-x86_64-linux-gnu.so,sha256=BbQfSS8JiQ0kIp73S2LR5Hy22ZvXxo9P3CHwH-uUhLk,251234
+filediffs/filediffs_cython/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filediffs/filediffs_cython/tests/test_filediffs_cy.py,sha256=538d6A4-M02DVZL-q9PdygBWhVbMywcngEIdmkwcZ14,4732
+filediffs/filediffs_cython/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filediffs/filediffs_python/filediffs_script.py,sha256=0l3Kp-N_SGJDqNjD9xnpqiksyWfned-rQfcR3sqfbfA,1726
+filediffs/filediffs_python/filediffs.py,sha256=y9GGPf4V83RKa4kOh2t4tlFdGU9SoNuHiI4BslXwsDU,863
+filediffs/filediffs_python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filediffs/filediffs_python/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filediffs/filediffs_python/tests/test_filediffs.py,sha256=ow8HJI1D4FNYPD13UpbjUCdqB6_lWkhZ4vLSfZhTzzM,5967
+filediffs-0.1.8.dist-info/top_level.txt,sha256=70CBhfbHxMqbaMMgI3c4NnKRtQDU7Whgck_XvFDGlGs,10
+filediffs-0.1.8.dist-info/RECORD,,
+filediffs-0.1.8.dist-info/METADATA,sha256=9wAEna38dBZHPnYY-vmPZuyVNAJtPH-g0fknh6vg0zM,4168
+filediffs-0.1.8.dist-info/LICENSE,sha256=Yj-TWVZBpiZj4qaQwzd4bRMduB2YG7q7RDYIjULuwNk,1071
+filediffs-0.1.8.dist-info/WHEEL,sha256=cHXGicVjvwSkAYFLaVXWJmI_Jmjywv0hjj3FUBkjj6A,109
