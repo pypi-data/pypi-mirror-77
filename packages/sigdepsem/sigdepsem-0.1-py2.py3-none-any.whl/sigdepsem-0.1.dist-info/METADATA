@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sigdepsem
+Version: 0.1
+Summary: Demonstrate signature dependent semantics for item get, set, del
+Home-page: UNKNOWN
+License: UNKNOWN
+Author: Rick L Teachey Jr
+Author-email: ricky@teachey.org
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-runner ; extra == "test"
+Provides-Extra: test
