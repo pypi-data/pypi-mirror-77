@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: flask-util-job-runner
+Version: 0.1.0
+Summary: 
+Author: eqqe
+Author-email: simon.rey@esker.fr
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
