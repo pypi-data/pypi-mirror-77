@@ -1,0 +1,10 @@
+CHANGELOGS.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+BsbClaci.egg-info/PKG-INFO
+BsbClaci.egg-info/SOURCES.txt
+BsbClaci.egg-info/dependency_links.txt
+BsbClaci.egg-info/top_level.txt
