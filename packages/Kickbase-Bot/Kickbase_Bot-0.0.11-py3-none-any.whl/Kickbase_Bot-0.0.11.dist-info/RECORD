@@ -1,0 +1,10 @@
+kickbase_bot/__init__.py,sha256=M3ZL15sRMGdpeUI1oDhrJ2IsDjA0e6gX9MQCbJu5hYU,77
+kickbase_bot/kickbase_bot.py,sha256=GbEnViKhIeoDwvXopqTna4CHoanO_BHrC9uEfBtUOD0,6694
+kickbase_bot/persistence.py,sha256=ROoxlFRAmVs6TI9vKAt-yUihFYbRx2P16zo-f20K6u0,4054
+kickbase_bot/serialization.py,sha256=kYjfRpFO0vUZRfueaSwq7h87gVS_rGLFaaPrEoQ8DaY,613
+kickbase_bot/threading.py,sha256=GKjmWQoR3JdbsrAlVnnOQX0V2cf1kgrvAKL1atLUBVs,459
+Kickbase_Bot-0.0.11.dist-info/LICENSE,sha256=8SFnMK87bimVEwKgHroZToNjxbwGmQ51Po-nJVmz5j4,1067
+Kickbase_Bot-0.0.11.dist-info/METADATA,sha256=QouMuYtOEeUiwjqG9bB33i25oucr6YYPmNq3-T4YgVs,2257
+Kickbase_Bot-0.0.11.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+Kickbase_Bot-0.0.11.dist-info/top_level.txt,sha256=k4eM9ZS6EfSZD6R__d0wujTIj1otoI6iKQvTH16ZNoI,13
+Kickbase_Bot-0.0.11.dist-info/RECORD,,
