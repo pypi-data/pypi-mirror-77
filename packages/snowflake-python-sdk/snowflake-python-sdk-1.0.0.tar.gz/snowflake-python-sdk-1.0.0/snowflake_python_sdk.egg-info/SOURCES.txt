@@ -1,0 +1,17 @@
+README.md
+setup.py
+connections/__init__.py
+constants/__init__.py
+constants/constants.py
+examples/__init__.py
+examples/create_connection.py
+examples/execute_query.py
+examples/execute_query_async.py
+examples/execute_script.py
+snowflake_python_sdk.egg-info/PKG-INFO
+snowflake_python_sdk.egg-info/SOURCES.txt
+snowflake_python_sdk.egg-info/dependency_links.txt
+snowflake_python_sdk.egg-info/requires.txt
+snowflake_python_sdk.egg-info/top_level.txt
+utilities/__init__.py
+utilities/sf_operations.py
