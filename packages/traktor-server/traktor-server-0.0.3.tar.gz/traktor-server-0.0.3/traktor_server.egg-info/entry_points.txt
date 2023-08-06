@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        traktor-server=traktor_server.__main__:main
+    
