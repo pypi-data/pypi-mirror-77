@@ -1,0 +1,9 @@
+click
+python-dateutil
+requests
+swh.model
+
+[testing]
+pytest
+pytest-mock
+requests_mock
