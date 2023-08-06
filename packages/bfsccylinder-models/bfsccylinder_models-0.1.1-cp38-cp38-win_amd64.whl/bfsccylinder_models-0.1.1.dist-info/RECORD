@@ -1,0 +1,12 @@
+bfsccylinder_models/__init__.py,sha256=eqLcJTC0W2SsUgakHMfAeUBJmeLPtFfqvP29s23Ii9E,120
+bfsccylinder_models/models.py,sha256=opxKG9s7rtiXcnmRDQJM5vvl5jbGc55YzD2e49kRp_U,1737
+bfsccylinder_models/models_core.cp38-win_amd64.pyd,sha256=7zvtNonKNfyo-prpDW_g0OD4p5tnbl8Wq9KxP4nh_J0,113152
+bfsccylinder_models/vatfunctions.py,sha256=D0Ai0dNzfA5ibgE8njFccP0QEHcxYCSVFAJCiwOboMo,632
+bfsccylinder_models/version.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+bfsccylinder_models-0.1.1.data/data/LICENSE,sha256=W5NY0sWMPBA-iTm-7F-w1qNJpVnhQFKJjx-e-xciY2E,1331
+bfsccylinder_models-0.1.1.data/data/README.md,sha256=ps8T5LkteFAYtvEv45XMs8lG0xygmjtP3tcjwnSbvSg,815
+bfsccylinder_models-0.1.1.dist-info/LICENSE,sha256=W5NY0sWMPBA-iTm-7F-w1qNJpVnhQFKJjx-e-xciY2E,1331
+bfsccylinder_models-0.1.1.dist-info/METADATA,sha256=x853pSXbpqyT-G_2qIO5hbDMs4eB7x82mPESlFrmkCI,1820
+bfsccylinder_models-0.1.1.dist-info/WHEEL,sha256=9MdUI0OzwjYaHl3jWlKFDIJ5MFBPjwppNgWNtexntqg,105
+bfsccylinder_models-0.1.1.dist-info/top_level.txt,sha256=Qv4XlktMdI480uiC3myvYchjvLLabKMpFDqeLDU9irU,20
+bfsccylinder_models-0.1.1.dist-info/RECORD,,
