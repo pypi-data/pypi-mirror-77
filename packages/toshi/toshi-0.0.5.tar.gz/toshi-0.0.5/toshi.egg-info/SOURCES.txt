@@ -1,0 +1,8 @@
+README.md
+setup.py
+toshi/__init__.py
+toshi/code.py
+toshi.egg-info/PKG-INFO
+toshi.egg-info/SOURCES.txt
+toshi.egg-info/dependency_links.txt
+toshi.egg-info/top_level.txt
