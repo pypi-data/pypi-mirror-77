@@ -1,0 +1,9 @@
+README.md
+setup.py
+covira/__init__.py
+covira/covira.py
+covira.egg-info/PKG-INFO
+covira.egg-info/SOURCES.txt
+covira.egg-info/dependency_links.txt
+covira.egg-info/requires.txt
+covira.egg-info/top_level.txt
