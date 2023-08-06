@@ -1,0 +1,17 @@
+README.md
+setup.py
+bin/inji
+inji/__init__.py
+inji/ansible.py
+inji/cli.py
+inji/engine.py
+inji/filters.py
+inji/globals.py
+inji/tests.py
+inji/utils.py
+inji.egg-info/PKG-INFO
+inji.egg-info/SOURCES.txt
+inji.egg-info/dependency_links.txt
+inji.egg-info/not-zip-safe
+inji.egg-info/requires.txt
+inji.egg-info/top_level.txt
