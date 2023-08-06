@@ -1,0 +1,13 @@
+README.md
+setup.py
+labs/__init__.py
+labs/cli.py
+labs/cmake.py
+labs/ninja.py
+labs_build.egg-info/PKG-INFO
+labs_build.egg-info/SOURCES.txt
+labs_build.egg-info/dependency_links.txt
+labs_build.egg-info/entry_points.txt
+labs_build.egg-info/not-zip-safe
+labs_build.egg-info/requires.txt
+labs_build.egg-info/top_level.txt
