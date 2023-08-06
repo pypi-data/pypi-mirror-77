@@ -1,0 +1,12 @@
+tpDcc-libs-python
+tpDcc-core
+tpDcc-libs-qt
+artellapipe
+artellapipe-launcher
+artellapipe-tools-artellamanager
+
+[dev]
+wheel
+
+[test]
+pytest
