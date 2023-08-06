@@ -1,0 +1,12 @@
+filediffs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filediffs/filediffs_cython/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filediffs/filediffs_cython/filediffs_cy.cp37-win_amd64.pyd,sha256=Wif48ShnhhanXqep4sga31PJfVuJ7_LvIkVPjcNuYoE,49664
+filediffs/filediffs_cython/filediffs_cy.cpp,sha256=i_TqFdHvDwjul8g4M6htDMrFFzhkHRMrAao983QQRfA,219190
+filediffs/filediffs_python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filediffs/filediffs_python/filediffs.py,sha256=8QcMMlDOrN1LmLhDqtMd6lVGTPqWg-N1WPY4B-4fUcM,880
+filediffs-0.1.9.data/scripts/filediffs,sha256=NPvTYAM9dCNWt2TjygDjQB7ACVC5PQ0Zg5-E5f0gggo,1148
+filediffs-0.1.9.dist-info/LICENSE,sha256=IJhupmxnMqdJKSkt7PqPRIBh5lwAtIXEE8drtO_VT44,1091
+filediffs-0.1.9.dist-info/METADATA,sha256=1Lkw5mzPHqonL83jEb0TMDWbefkiS0vvRopDF14qOsw,3846
+filediffs-0.1.9.dist-info/WHEEL,sha256=zdzelNAN7OMlbGAPizxWEjDYw36I1XfOus-OTyLWlAw,106
+filediffs-0.1.9.dist-info/top_level.txt,sha256=70CBhfbHxMqbaMMgI3c4NnKRtQDU7Whgck_XvFDGlGs,10
+filediffs-0.1.9.dist-info/RECORD,,
