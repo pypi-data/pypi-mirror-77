@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: trc-data-reader
+Version: 0.1.0
+Summary: A package for reading trc motion capture data.
+Home-page: https://github.com/hsorby/trc-data-reader
+Author: Hugh Sorby
+Author-email: h.sorby@auckland.ac.nz
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
