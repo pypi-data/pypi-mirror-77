@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: click-date-type
+Version: 0.1.0
+Summary: Date type parameter for click
+Home-page: https://github.com/enricobarzetti/click-date-type
+Author: Enrico Barzetti
+Author-email: enricobarzetti@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.0,<8.0)
+Description-Content-Type: text/x-rst
+
+click-date-type
+===============
+
+Date type parameter for click
+
+Installation
+------------
+
+To get the latest stable release from PyPi
+
+.. code-block:: bash
+
+    pip install click-date-type
+
+Usage
+-----
+
+.. code-block:: python
+
+    from click_date_type import Date
+
+    @click.command()
+    @click.option("--start_date", type=Date())
+    def cli(start_date):
+        click.echo(start_date.strftime("%Y-%m-%d"))
+
