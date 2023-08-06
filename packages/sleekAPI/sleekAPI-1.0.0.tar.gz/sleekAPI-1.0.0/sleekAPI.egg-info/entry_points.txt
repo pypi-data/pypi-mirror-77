@@ -1,0 +1,3 @@
+[console_scripts]
+sleek = sleek.__init__:main
+

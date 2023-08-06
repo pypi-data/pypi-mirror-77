@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sleekAPI
+Version: 1.0.0
+Summary: A simple API wrapper for Sleek.to, see GitHub for usage
+Home-page: https://github.com/TheRealAkai
+Author: Akai
+Author-email: akai@airmail.cc
+License: UNKNOWN
+Description: API wrapper for sleek.to, see GitHub for usage
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

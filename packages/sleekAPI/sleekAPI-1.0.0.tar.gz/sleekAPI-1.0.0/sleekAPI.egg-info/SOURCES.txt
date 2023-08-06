@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+sleekAPI/__init__.py
+sleekAPI/attack.py
+sleekAPI/stop.py
+sleekAPI.egg-info/PKG-INFO
+sleekAPI.egg-info/SOURCES.txt
+sleekAPI.egg-info/dependency_links.txt
+sleekAPI.egg-info/entry_points.txt
+sleekAPI.egg-info/requires.txt
+sleekAPI.egg-info/top_level.txt
