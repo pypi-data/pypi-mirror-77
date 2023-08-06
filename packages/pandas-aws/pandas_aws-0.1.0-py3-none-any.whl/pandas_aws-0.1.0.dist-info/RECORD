@@ -1,0 +1,8 @@
+LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+README.md,sha256=MO0PWXDyB3nKFFM_EEXRBVCyCmUsj9dhv9DOgC98EAI,1497
+pandas_aws/__init__.py,sha256=XTmKPJvo-3BY-WhD47YDE7RtGk5vufkdCqu8pCjdju8,453
+pandas_aws/s3.py,sha256=s-8_yjfwg_420QeX1jVRvjBEAxEJHd6koqOJO26FoLM,6640
+pandas_aws-0.1.0.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+pandas_aws-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+pandas_aws-0.1.0.dist-info/METADATA,sha256=_OluWBya54SAFOeM69R0wBa13Jmbn8Fw7Zb_fGvfCRE,2608
+pandas_aws-0.1.0.dist-info/RECORD,,
