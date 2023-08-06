@@ -1,0 +1,15 @@
+py2json/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py2json/fakit.py,sha256=DLUO9H82qy1IknPlwpVXAmdM0nfauh8iR9ESVGFY8Rs,11045
+py2json/obj2dict.py,sha256=RW0MAjzaVRXI11HpXewbJecbfEKXw7BR5hoGImgz6E4,4577
+py2json/util.py,sha256=g35FJpbeH730E6_qgw7wJ0d5KcTtvuJxq9wsig1o_tQ,7869
+py2json/w_glom.py,sha256=ugIoLOCDl0Sjbf5YpiTYdbNF9y-rNbhGU691VIn0LJI,1183
+py2json/inspire/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py2json/inspire/attribute_tree.py,sha256=kXnHIkh0YSwFK74yV0t1ziNUShA7pzHeEYWItVEeSW4,2314
+py2json/inspire/example_fakit_use.py,sha256=zr14Juk3h6nEKGNdDHHwafirkUJtfIiqJTLm4bhMhNI,7728
+py2json/inspire/func_serialization.py,sha256=P0eFZTzRTA7bqy21uUGYTpm3q9MpY9jQQ6erOxQDNb8,1034
+py2json/inspire/serializing_sklearn_estimators.py,sha256=K2C4mqrHPE_cVGREnmrDYZ-2RGE35YxWU7x_GfPz8_M,12508
+py2json-0.0.1.dist-info/LICENSE,sha256=YvCtSGJVdJvkn1nmeRSYwypu3X7V9t2BnRA_99TSyPc,1063
+py2json-0.0.1.dist-info/METADATA,sha256=X1Nh5Yv0aanXSEnbson2EVwqYF-7vyXK6QuqIJ04CBk,3748
+py2json-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+py2json-0.0.1.dist-info/top_level.txt,sha256=-xolTNpcxNVuyrVRbYB_rlDq1VgDuD34KWYvp8_c2zY,8
+py2json-0.0.1.dist-info/RECORD,,
