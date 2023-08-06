@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pybind.cpp
+setup.cfg
+setup.py
+include/sdf/RTree.h
+include/sdf/nanoflann.hpp
+include/sdf/sdf.hpp
+pysdf.egg-info/PKG-INFO
+pysdf.egg-info/SOURCES.txt
+pysdf.egg-info/dependency_links.txt
+pysdf.egg-info/not-zip-safe
+pysdf.egg-info/top_level.txt
+src/sdf.cpp
