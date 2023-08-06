@@ -1,0 +1,6 @@
+Flask
+spacy
+editdistance
+pytest
+torch
+transformers
