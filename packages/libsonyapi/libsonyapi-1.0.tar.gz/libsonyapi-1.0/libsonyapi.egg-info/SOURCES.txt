@@ -1,0 +1,10 @@
+README.md
+setup.py
+libsonyapi/__init__.py
+libsonyapi/actions.py
+libsonyapi/camera.py
+libsonyapi.egg-info/PKG-INFO
+libsonyapi.egg-info/SOURCES.txt
+libsonyapi.egg-info/dependency_links.txt
+libsonyapi.egg-info/requires.txt
+libsonyapi.egg-info/top_level.txt
