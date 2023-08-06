@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: cornsnipps
+Version: 0.0.5
+Summary: A set of useful objects, functions and snippets
+Home-page: https://github.com/akonieczny/cornsnipps
+Author: Adam Konieczny
+License: BSD 3-Clause License
+Project-URL: Issues, https://github.com/akonieczny/cornsnipps/issues
+Project-URL: Source, https://github.com/akonieczny/cornsnipps
+Keywords: snippets-library,library
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Typing :: Typed
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
+
+# Cornsnipps
+
+**Cornsnipps** is a set of useful objects, functions and snippets.
+
+_Warning: **Cornsnipps** is in the process of planning/conceptual work or in the initial stage of development. Use it carefully._
+
+## Installing
+```
+pip install cornsnipps
+```
+
+Cornsnipps supports Python 3.5+.
+
+## Features
+Here will be a list of the "magic" things implemented by this library
+
+
