@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: shp2postgis
+Version: 0.1.2
+Summary: shapefile to sql converter.
+Home-page: https://github.com/johnyjpsf/shp2posgis
+Author: Johny Patrick da Silva Ferreira
+Author-email: johnypatrick5@gmail.com
+License: MIT
+Keywords: gis geospatial geographic shapefile shapefiles postgis postgre sql database
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# shp2posgis
+
+> Módulo python para converter arquivos no padrão shapefile da esri para arquivos sql que podem ser importados em bancos de dados postgresql/postgis.
+
+> Python module to convert esri shapefile format to sql files that can be imported into postgresql/postgis database.
+
+## Uso / Usage
+> primeiro é necessário instalar as dependências
+
+> First install dependencies
+
+```bash
+pip3 install -r requirements.txt
+```
+### python3 na linha de comando / on command line
+> Uso detalhado pode ser visto usando:
+
+> Details about use are shown using:
+
+```bash
+python3 shp2postgis.py -h
+```
+ou / or
+```bash
+python3 shp2postgis.py --help
+```
+
+> Para usar como biblioteca
+
+> To use as a library
+
+```python
+from shps2postgis import Shps2Postgis
+
+process = Shps2Postgis(dictInput, outputPath, schema, encoding, srid, verbose)
+
+process.run()
+```
+
+
