@@ -1,0 +1,3 @@
+[console_scripts]
+py_case = newPackage.__main__:main
+
