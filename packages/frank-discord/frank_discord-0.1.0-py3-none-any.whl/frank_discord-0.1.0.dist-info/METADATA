@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: frank-discord
+Version: 0.1.0
+Summary: A modular tool for building Discord bots
+Home-page: https://gitlab.com/Chewing_Bever/frank
+Author: Jef Roosens
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Requires-Dist: discord.py (<2.0.0,>=1.4.1)
+Requires-Dist: PyYAML (<6.0.0,>=5.3.1)
+
+See https://gitlab.com/Chewing_Bever/frank for details.
+
+

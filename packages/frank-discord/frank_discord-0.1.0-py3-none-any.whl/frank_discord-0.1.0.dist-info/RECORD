@@ -1,0 +1,16 @@
+frank/__init__.py,sha256=jh5wNCISbBAD0dU4ckdh-4mmjUYxFbCg0n42_0yU8bU,317
+frank/frank.py,sha256=Apb08mGm4GWBS43UqgLgje4rJru0757o_jGC6QrPHKE,2529
+frank/module/__init__.py,sha256=O8O3kdqhPB4fVrX0VKjpsTlcUOc1gqD9L6stfH0Ztkg,303
+frank/module/exceptions.py,sha256=yibj4J9uhDw-H-FivtMh7LNELepX7Qbm2GpL3hmrNfU,176
+frank/module/meta.py,sha256=MkuZFG10Xwwfm9XGHdAavbtnwLRv7XiyXfxCYzCaQCo,1436
+frank/module/module.py,sha256=ur9RVyib4P-z-pEG10YkWc9NT248cFnh0XuIjm3bbMw,3410
+frank/module/decorators/__init__.py,sha256=dYzMdVrXVf1kIuvcZYWdoEewNhlEiP4L3pfWDfbbWR0,267
+frank/module/decorators/classes.py,sha256=fksU6JPmt37xC6hQommnbumvr2ATbZBEtsb8M-MmHig,2828
+frank/module/decorators/functions.py,sha256=pjWRRUzNasyzDUbYkJLY_SLZtxQBeL3NzqGXdEOwrMw,1287
+frank/modules/__init__.py,sha256=ArNc_t9SqxaZtVnBHlaybdnd7Cb1Mk95hmI8RRrVckg,57
+frank/modules/help.py,sha256=COck3hGQB4-n5ZI9pie5bWoxyV0You9KP0XQkPnFIfU,1699
+frank_discord-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+frank_discord-0.1.0.dist-info/METADATA,sha256=KWXQoM9Z92wgsbdDXQbtHOB2PNP29kUao7fRTtEoQEs,661
+frank_discord-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+frank_discord-0.1.0.dist-info/top_level.txt,sha256=-yGnMpCJMIDJF1uAJSXzWKUsseZhqguf35TNlWDyxmU,6
+frank_discord-0.1.0.dist-info/RECORD,,
