@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: simple-geocoding
+Version: 0.0.1
+Summary: Simple geocoding
+Home-page: https://github.com/SaitoTsutomu/simple-geocoding
+Author: Saito Tsutomu
+Author-email: tsutomu7@hotmail.co.jp
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Dist: fire (>=0.3.1,<0.4.0)
+Requires-Dist: pandas (>=1.1.1,<2.0.0)
+Requires-Dist: scipy (>=1.5.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Simple geocoding
+
+## Install & Setting
+
+- Download latest.csv from https://geolonia.github.io/japanese-addresses/ .
+
+```
+pip install simple-geocoding
+python -c '__import__("simple_geocoding").Geocoding("/path/to/latest.csv")'
+```
+
+## Usage
+
+```
+$ simple-geocoding 東京都千代田区丸の内一丁目
+(35.68156, 139.767201)
+
+$ simple-geocoding 35.68156 139.7672
+東京都千代田区丸の内一丁目
+```
+

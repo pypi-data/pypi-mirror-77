@@ -1,0 +1,3 @@
+[console_scripts]
+simple-geocoding=simple_geocoding:main
+
