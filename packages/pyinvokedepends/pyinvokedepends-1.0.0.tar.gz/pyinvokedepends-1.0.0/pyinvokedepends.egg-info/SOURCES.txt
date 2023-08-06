@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+.github/README.md
+pyinvokedepends/__init__.py
+pyinvokedepends.egg-info/PKG-INFO
+pyinvokedepends.egg-info/SOURCES.txt
+pyinvokedepends.egg-info/dependency_links.txt
+pyinvokedepends.egg-info/requires.txt
+pyinvokedepends.egg-info/top_level.txt
