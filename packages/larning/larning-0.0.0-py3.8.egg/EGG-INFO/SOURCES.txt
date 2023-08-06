@@ -1,0 +1,7 @@
+README.md
+setup.py
+larning.egg-info/PKG-INFO
+larning.egg-info/SOURCES.txt
+larning.egg-info/dependency_links.txt
+larning.egg-info/requires.txt
+larning.egg-info/top_level.txt
