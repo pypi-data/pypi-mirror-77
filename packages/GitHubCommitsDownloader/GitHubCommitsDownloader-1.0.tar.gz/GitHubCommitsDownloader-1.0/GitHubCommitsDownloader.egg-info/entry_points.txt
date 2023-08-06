@@ -1,0 +1,4 @@
+[console_scripts]
+GitHubCommitDownloader = GitHubCommitsDownloader.exec:run
+ghcd = GitHubCommitsDownloader.exec:run
+
