@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "timebandit"
+version = "0.1.0"
+description = "The most fabulous time measuring object in the world."
+authors = ["skeptycal <26148512+skeptycal@users.noreply.github.com>"]
+license = "Python-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.5"
+loguru = "^0.5.1"
+wheel = "^0.35.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0.1"
+tox = "^3.19.0"
+coverage = "^5.2.1"
+flake8 = {version = "^3.8.3", optional = true}
+tox-travis = {version = "^0.12", optional = true}
+Sphinx = {version = "^3.2.1", optional = true}
+sphinx-autobuild = {version = "^0.7.1", optional = true}
+sphinx-rtd-theme = {version = "^0.5.0", optional = true}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
