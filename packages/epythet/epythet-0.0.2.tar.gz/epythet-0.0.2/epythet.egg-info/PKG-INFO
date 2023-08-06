@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: epythet
+Version: 0.0.2
+Summary: Tools for audio generation and transformation.
+Home-page: https://github.com/i2mint/epythet
+Author: Thor Whalen
+License: Apache Software License
+Description: # loopying
+        Utils to generate audio
+        
+        Depending on what you use, you might need some libraries such as:
+        ```
+        librosa
+        soundfile
+        pyttsx3 (for voiced_time.py)
+        ```
+        
+        If you get an import error on X, just try to do:
+        ```
+        pip install X
+        ```
+        in your terminal.
+        
+        If that doesn't work, google the library and see how to install it 
+        For e.g. soundfile is actually obtained by doing
+        ```
+        pip install pysoundfile
+        ``` 
+        Buggers!
+        
+        
+        
+        
+        
+        
+Keywords: data,signal processing,audio
+Platform: any
+Description-Content-Type: text/markdown

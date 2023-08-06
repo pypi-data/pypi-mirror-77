@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+epythet.egg-info/PKG-INFO
+epythet.egg-info/SOURCES.txt
+epythet.egg-info/dependency_links.txt
+epythet.egg-info/requires.txt
+epythet.egg-info/top_level.txt
