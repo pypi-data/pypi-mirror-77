@@ -1,0 +1,5 @@
+httpx
+django>=2.2
+
+[rest]
+djangorestframework
