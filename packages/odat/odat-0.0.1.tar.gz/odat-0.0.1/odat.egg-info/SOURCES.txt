@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+odat/__init__.py
+odat.egg-info/PKG-INFO
+odat.egg-info/SOURCES.txt
+odat.egg-info/dependency_links.txt
+odat.egg-info/requires.txt
+odat.egg-info/top_level.txt
+odat/mdat/__init__.py
+odat/mdat/xe.py
