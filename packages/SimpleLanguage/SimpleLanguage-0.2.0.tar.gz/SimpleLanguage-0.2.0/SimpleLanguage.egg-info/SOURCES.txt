@@ -1,0 +1,10 @@
+README.md
+setup.py
+SimpleLanguage/__init__.py
+SimpleLanguage/code_exceptions.py
+SimpleLanguage/code_helper.py
+SimpleLanguage/code_main.py
+SimpleLanguage.egg-info/PKG-INFO
+SimpleLanguage.egg-info/SOURCES.txt
+SimpleLanguage.egg-info/dependency_links.txt
+SimpleLanguage.egg-info/top_level.txt
