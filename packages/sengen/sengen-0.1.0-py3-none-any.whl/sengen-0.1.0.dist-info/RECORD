@@ -1,0 +1,12 @@
+sengen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sengen/abstract_generator.py,sha256=xw9liem31xDcMUmBunfYaRv-v04_DlHLqBNtI4AU8T4,6241
+sengen/attractor.py,sha256=-e8ZjpavUPMlpoaJEBSN6zpRp1VUs9YRLuACdJEWzM0,4155
+sengen/custom_attractor.py,sha256=CnU87SjnhDCOu-UzP8r1M4KxkOYgxF8wJ5nwmPhhMM0,3137
+sengen/custom_equation.py,sha256=jBgP6WFOVNAobWl92PMuS5TwfZSpEMrJbtQVyAod70c,3694
+sengen/data_generator.py,sha256=A38c7AI_W0kr3i2no8GcYWiRHiFKWp8zsTvhcUZjVpI,43029
+sengen/stationary.py,sha256=hCC1RFWdGTQJzXg_nHNpezUGI8P--YryTE7g5yOzSK4,5638
+sengen/utils.py,sha256=nt0lMyrc08CDKaHlH018Cuwb2-dBM1D_4dUP6pRlKws,21875
+sengen-0.1.0.dist-info/LICENSE.md,sha256=_F-KbLYLiSkfybVbzAlKxBEbycjy3iYBmGJ5D5YuiHo,1511
+sengen-0.1.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+sengen-0.1.0.dist-info/METADATA,sha256=wl7d9Mvy2835zbTC0pebvb68SFpsWIMJd18Qg4u2Emg,530
+sengen-0.1.0.dist-info/RECORD,,
