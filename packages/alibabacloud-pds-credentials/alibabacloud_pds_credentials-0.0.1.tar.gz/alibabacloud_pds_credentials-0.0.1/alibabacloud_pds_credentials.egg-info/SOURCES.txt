@@ -1,0 +1,9 @@
+README.md
+setup.py
+alibabacloud_pds_credentials/__init__.py
+alibabacloud_pds_credentials/client.py
+alibabacloud_pds_credentials/models.py
+alibabacloud_pds_credentials.egg-info/PKG-INFO
+alibabacloud_pds_credentials.egg-info/SOURCES.txt
+alibabacloud_pds_credentials.egg-info/dependency_links.txt
+alibabacloud_pds_credentials.egg-info/top_level.txt
