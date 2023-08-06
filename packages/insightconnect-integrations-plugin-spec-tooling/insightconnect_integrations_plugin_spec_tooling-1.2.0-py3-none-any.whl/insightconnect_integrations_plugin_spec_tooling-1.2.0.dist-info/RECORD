@@ -1,0 +1,9 @@
+icon_plugin_spec/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+icon_plugin_spec/plugin_spec.py,sha256=b4wCVZAel-J3CQInZIFfJBopRCe06bt0Vg-Q9Sgfc-k,14833
+icon_plugin_spec/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+icon_plugin_spec/tests/test_komandPluginSpec.py,sha256=yNdwrfohdOEUhrKn5ta6c7i3CwfTvH27iJ3CLhxgiAY,1268
+insightconnect_integrations_plugin_spec_tooling-1.2.0.dist-info/LICENSE,sha256=vQRaJaE5ZdLitjbGvH-TTaAzKJmTejIytUOW0Ks0MyQ,1062
+insightconnect_integrations_plugin_spec_tooling-1.2.0.dist-info/METADATA,sha256=rX71uQl7nTfZPi2TDePkWsO3VjGX_tqtWVCx3ufq0L0,1557
+insightconnect_integrations_plugin_spec_tooling-1.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+insightconnect_integrations_plugin_spec_tooling-1.2.0.dist-info/top_level.txt,sha256=QL4fiEmxx7Nv59t__sol6JUJAji-CV-zLn6ucO-Lk6w,17
+insightconnect_integrations_plugin_spec_tooling-1.2.0.dist-info/RECORD,,
