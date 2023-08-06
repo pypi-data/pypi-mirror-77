@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: tinycardl
+Version: 1.0.0
+Summary: Download your cards
+Home-page: https://github.com/batisteo/tinycardl
+License: MIT
+Author: Baptiste Darthenay
+Author-email: baptiste.darthenay@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: aiocsv (>=1.1.0,<2.0.0)
+Requires-Dist: aiofiles (>=0.5.0,<0.6.0)
+Requires-Dist: aioify (>=0.3.2,<0.4.0)
+Requires-Dist: httpx (>=0.14.1,<0.15.0)
+Requires-Dist: httpx-auth (>=0.5.0,<0.6.0)
+Requires-Dist: python-jose (>=3.2.0,<4.0.0)
+Project-URL: Repository, https://github.com/batisteo/tinycardl
+Description-Content-Type: text/markdown
+
+# Tinycardl
+
+**_Tinycards downloader_**
+
+Tinycardl downloads decks, deck groups and your pinned in CSV, along with the pictures.
+
+🚧 This is a work in progress which will never be finished, but I hope it will be useful for some of you.
+
+### Usage
+
+Installation:
+
+`python3.8 -m pip install --user tinycardl`
+
+Basic usage, downloading decks or deck groups:
+
+`tinycardl 3AbdmJDP NZHWAf`
+
+To download you pinned decks, you need you JWT token.
+Once logged in Tinycard with your Duolingo account, look for the cookie `jwt_token` in the Development Tools of your browser (press F12).  
+- For Chrome it’s under **Application > Cookies > https://tinycards.duolingo.com > jwt_token > Value**  
+- For Firefox it’s under **Storage > Cookies > https://tinycards.duolingo.com > jwt_token > Value**  
+
+`JWT_TOKEN=myVery.l0ng.t0k3n tinycardl`
+
+
