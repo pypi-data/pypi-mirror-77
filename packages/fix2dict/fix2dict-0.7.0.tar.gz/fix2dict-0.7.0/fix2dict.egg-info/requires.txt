@@ -1,0 +1,8 @@
+checksumdir==1.1.7
+click
+dict-recursive-update==1.0.1
+jsonpatch==1.25
+jsonschema==3.2.0
+natsort==7.0.1
+nltk==3.4.5
+setuptools>=41

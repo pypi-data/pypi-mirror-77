@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    fix2dict=fix2dict.cli:cli
+    
