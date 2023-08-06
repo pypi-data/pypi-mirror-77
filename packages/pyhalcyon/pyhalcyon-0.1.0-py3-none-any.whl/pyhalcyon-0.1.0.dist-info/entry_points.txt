@@ -1,0 +1,3 @@
+[console_scripts]
+halcyon=halcyon.console:main
+
