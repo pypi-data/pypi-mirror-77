@@ -1,0 +1,5 @@
+setup.py
+alsolib.egg-info/PKG-INFO
+alsolib.egg-info/SOURCES.txt
+alsolib.egg-info/dependency_links.txt
+alsolib.egg-info/top_level.txt
