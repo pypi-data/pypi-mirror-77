@@ -1,0 +1,1 @@
+texture2ddecoder.cp36-win32.pyd
