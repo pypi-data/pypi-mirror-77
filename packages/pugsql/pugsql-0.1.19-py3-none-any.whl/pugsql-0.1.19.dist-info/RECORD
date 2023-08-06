@@ -1,0 +1,11 @@
+pugsql/__init__.py,sha256=992YF7viNDyLoZu9_WaKnH-HiZZtVpdF-x3fVGkL1PE,1564
+pugsql/compiler.py,sha256=rVIFmjefyAsPubGsSwF8zKpV4LKKE6u_kXXX1IJO7F8,5559
+pugsql/context.py,sha256=xQJ3PtlM54wdiTY5g3LucyiBZCouMhWVeHDL0mBjqVM,1156
+pugsql/exceptions.py,sha256=ESI8qlJu35wz9pzZ7iZdflYqg4DN8CbYuSBI9ZhuFt8,1470
+pugsql/lexer.py,sha256=hVwLOd-JLvdwmHLLeAeRf-yyevmG2Kv-cmpmdaBuE2Q,2898
+pugsql/parser.py,sha256=afezZQCAe-JSnpDygiBmcWEajTNPr8laGTylUkxNcts,3825
+pugsql/statement.py,sha256=A2sdEhef5lUN0FqhTSJclQO27-LnEuHH-1aU88Lo92A,4712
+pugsql-0.1.19.dist-info/LICENSE,sha256=m6zM4C5FToBUj5cVwyhXCmjEy_mVbWL2JU6Z_fsbs4g,11345
+pugsql-0.1.19.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+pugsql-0.1.19.dist-info/METADATA,sha256=FGPDiIAZ3t0Ni7hswT6mwRXQ1pTg7GV8-O-evOo6a34,1778
+pugsql-0.1.19.dist-info/RECORD,,
