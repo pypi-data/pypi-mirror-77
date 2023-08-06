@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: Django-Discord
+Version: 0.0.1
+Summary: Discord OAuth2 extension for Django.
+Home-page: https://github.com/thec0sm0s/Django-Discord
+Author: □ | The Cosmos
+Author-email: deepakrajko14@gmail.com
+License: MIT
+Description: 
+        Django-Discord
+        --------------
+        An Discord OAuth2 Django extension.
+        
+Platform: any
+Classifier: Framework :: Django
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

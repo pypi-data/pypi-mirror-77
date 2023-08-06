@@ -1,0 +1,7 @@
+setup.py
+Django_Discord.egg-info/PKG-INFO
+Django_Discord.egg-info/SOURCES.txt
+Django_Discord.egg-info/dependency_links.txt
+Django_Discord.egg-info/not-zip-safe
+Django_Discord.egg-info/top_level.txt
+django_discord/__init__.py
