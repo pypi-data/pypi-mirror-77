@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: ubot
+Version: 8.0.0
+Summary: A CLI tool that generates code by parsing the Telegram Bot API page
+Home-page: https://gitlab.com/strychnide/ubot
+Author: Alessandro Cerruti
+Author-email: strychnide@protonmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://strychnide.gitlab.io/ubot
+Project-URL: Issues, https://gitlab.com/strychnide/ubot/-/issues
+Project-URL: Source, https://gitlab.com/strychnide/ubot
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: telegen-definitions ; extra == 'test'
+
+Ubot
+####
+
+Ubot is an implementation of a trigger-response loop for Telegram bots. Can (should) be extended depending on needs.
+
+Docs
+==========
+https://strychnide.gitlab.io/ubot
+
