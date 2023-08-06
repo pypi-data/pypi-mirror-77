@@ -1,0 +1,3 @@
+requests
+yara-python
+treelib
