@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gradient-compression
+Version: 0.0.1
+Summary: gradient compression algorithms with PyTorch
+Home-page: https://github.com/ElvinKim/gradient_compression
+Author: SangMook Kim
+Author-email: sangmook.kim@kaist.ac.kr
+License: UNKNOWN
+Keywords: gradient,compression,random,projection
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3
+Requires-Dist: torch
+Requires-Dist: numpy
+
+UNKNOWN
+
+
