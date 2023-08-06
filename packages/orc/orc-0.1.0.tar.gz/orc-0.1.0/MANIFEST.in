@@ -1,0 +1,14 @@
+
+include LICENSE
+include README.rst
+include MANIFEST.in
+
+recursive-include * Makefile
+recursive-include orc *.py
+recursive-include orc/base *.py
+recursive-include orc/cloud *.py
+recursive-include orc/framework *.py
+recursive-include orc/framework/lib *.py
+recursive-include orc/framework/database *.py
+recursive-include orc/framework/file *.py
+

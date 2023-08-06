@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: orc
+Version: 0.1.0
+Summary: Simple web framework.
+Home-page: https://github.com/orange21cn/orc.git
+Author: Jingping Zhao
+Author-email: <orange21cn@126.com>
+Maintainer: Jingping Zhao
+Maintainer-email: <orange21cn@126.com>
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.0
+Description-Content-Type: text/markdown
