@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+jupyterpivot.json
+setup.cfg
+setup.py
+jupyterpivot/__init__.py
+jupyterpivot/_version.py
+jupyterpivot/example.py
+jupyterpivot.egg-info/PKG-INFO
+jupyterpivot.egg-info/SOURCES.txt
+jupyterpivot.egg-info/dependency_links.txt
+jupyterpivot.egg-info/not-zip-safe
+jupyterpivot.egg-info/requires.txt
+jupyterpivot.egg-info/top_level.txt
+jupyterpivot/static/extension.js
+jupyterpivot/static/index.js
+jupyterpivot/static/index.js.map
