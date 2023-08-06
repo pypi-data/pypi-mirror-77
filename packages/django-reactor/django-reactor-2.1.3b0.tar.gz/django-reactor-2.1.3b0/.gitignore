@@ -1,0 +1,9 @@
+*.egg-info/
+*.eggs/
+*.log
+dist/
+__pycache__/
+reactor/static/reactor.js*
+node_modules/*
+*.sqlite3
+.coverage
