@@ -1,0 +1,10 @@
+LICENSE.md,sha256=BXcjBFYzsNFyYzwRZWDmm3vOpMiEFuWB-QDoTp3OlXs,1604
+sqlalchemy_paradox/__init__.py,sha256=zEY9IpftHIiOcOfP4PEId9T1epN3_S5Z7Qp40LvGwoQ,683
+sqlalchemy_paradox/base.py,sha256=RJx7-IGqrur1oK770IuYBA_1imwuEyn1t8nA-k6rR58,31839
+sqlalchemy_paradox/pyodbc.py,sha256=ZAOvbd2lhapVGec7T9fsqutzmfeXWExZapQVkK7bz_M,1942
+sqlalchemy_paradox/requirements.py,sha256=YzQnrq_RtC1kUvbN8fnYDaVckEV3ud-iNFf8OUlcQ5M,662
+sqlalchemy_paradox-0.1.0.dist-info/entry_points.txt,sha256=PkCOpHH-wD3ZFAvXxvNYmnAbos0o6_jZPCNNKl9pC48,142
+sqlalchemy_paradox-0.1.0.dist-info/LICENSE.md,sha256=BXcjBFYzsNFyYzwRZWDmm3vOpMiEFuWB-QDoTp3OlXs,1604
+sqlalchemy_paradox-0.1.0.dist-info/WHEEL,sha256=jM75OLmO0bF2QZxXmlw3A-IE58epFjnoGYhyw7ywvsc,85
+sqlalchemy_paradox-0.1.0.dist-info/METADATA,sha256=2BAkbqm25Zc0zrcbjI6BKeNsIhq8Tjx_NU2RzMGs4X4,4071
+sqlalchemy_paradox-0.1.0.dist-info/RECORD,,
