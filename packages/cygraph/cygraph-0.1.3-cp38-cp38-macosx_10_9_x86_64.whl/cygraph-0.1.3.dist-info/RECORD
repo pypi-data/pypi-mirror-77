@@ -1,0 +1,13 @@
+cygraph/__init__.cpython-38-darwin.so,sha256=-RxvQMn0F59Nx7l_gx5eA0f7HuccTcS5CyV7_DBiv4I,162652
+cygraph/algorithms/articulation_points.cpython-38-darwin.so,sha256=6Z4OJ0Gyl-3MNFMFXoaY9iVgRAT7ztrCvfVoKCXvKes,176956
+cygraph/algorithms/components.cpython-38-darwin.so,sha256=hVvHJf-PCGDHC4QAEs5jRbQ12Do_0HDnWUyvtOeJI90,195588
+cygraph/algorithms/partitioning.cpython-38-darwin.so,sha256=oKx34Ue90xfLbCB1lQ9VjVM-OoyBgwrRkKLejCPyASE,182144
+cygraph/algorithms/shortest_path.cpython-38-darwin.so,sha256=_zePCfE0ymAQV_MI5kLSr2A1qBsOLC5xPXZeJ5txeBo,177240
+cygraph/graph_/dynamic_graph.cpython-38-darwin.so,sha256=QKX_FZHvcYEYIfRe-LIA4cy6_ONdtM-s5dQKV3gS9wo,105368
+cygraph/graph_/graph.cpython-38-darwin.so,sha256=uK3Ev6QABoJMMifOHLcq71-CdYBO0Xp5B5r4sxjKBSc,116496
+cygraph/graph_/static_graph.cpython-38-darwin.so,sha256=Q7FWsO5S9ygDyxeiaXQXwrTGOa5T-84X5LKrnMtkguw,263888
+cygraph-0.1.3.dist-info/LICENSE,sha256=pYewq84wabfEF68WgozPllP8L4MeVt068pmJ7EQ7t8s,1050
+cygraph-0.1.3.dist-info/METADATA,sha256=R10b4sVjnxHZaJIvDSpBc93cC8FmLw-Q41T_MprxtYI,1064
+cygraph-0.1.3.dist-info/WHEEL,sha256=Q2jwauV7SdXlb20cz-bh9vn-BQ4tlA1IGNkj_GWnse8,109
+cygraph-0.1.3.dist-info/top_level.txt,sha256=Z5A8G3GD134UnJ9PpGWV_jCeI4EZBqGr9a9FBC92r7w,8
+cygraph-0.1.3.dist-info/RECORD,,
