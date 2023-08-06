@@ -1,0 +1,11 @@
+tanos/VERSION,sha256=H5A8rOLEznpS1K5La5rga8TC_KnxumZi5U4O5b4i-GU,12
+tanos/__init__.py,sha256=IgdF1Wwxl2xwVttiArnbfWuazzwYp0etDJrq7sbQjE4,25
+tanos/calcScore.py,sha256=XRETgR49bk34nR7qYcmDAK6Y_v_d2RouJ0jkxR8g-sU,17766
+tanos/node.py,sha256=ABnzttRKMINxNrKOCJC4A9CuUmca-M1espuNopiJWdg,13988
+tanos/tree.py,sha256=_YulczRE3w44Of3PLXbSGStgVP1ry_v3MCUxVWW8JDc,5705
+tanos-0.0.1b7.dist-info/LICENSE,sha256=ZuXn0kJAXyk65pmq17ef38Rvm075a9PFvgH6TpKn6tE,1191
+tanos-0.0.1b7.dist-info/METADATA,sha256=aU_9tBv1oRTRYgFtS7xiotyomfnU8nixsGnh2g4ymZY,6993
+tanos-0.0.1b7.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+tanos-0.0.1b7.dist-info/entry_points.txt,sha256=ds0tNXFb1mDsgV9Ffujrt590e_xYYujGstgenJDvLTQ,48
+tanos-0.0.1b7.dist-info/top_level.txt,sha256=MBBPmtwNFLeswGs4PjkSOpCmaJXGkIxOISocVhQtHMg,6
+tanos-0.0.1b7.dist-info/RECORD,,
