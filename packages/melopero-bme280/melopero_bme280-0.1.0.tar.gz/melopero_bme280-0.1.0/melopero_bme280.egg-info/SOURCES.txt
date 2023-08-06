@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+api/LICENSE
+api/bme280.c
+api/bme280.h
+api/bme280_defs.h
+api/bme280_pyhelper.c
+melopero_bme280/BME280.py
+melopero_bme280/__init__.py
+melopero_bme280.egg-info/PKG-INFO
+melopero_bme280.egg-info/SOURCES.txt
+melopero_bme280.egg-info/dependency_links.txt
+melopero_bme280.egg-info/top_level.txt
