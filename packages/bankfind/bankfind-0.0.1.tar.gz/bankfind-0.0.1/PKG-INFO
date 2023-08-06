@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: bankfind
+Version: 0.0.1
+Summary: Python interface to the FDIC's API for publically available bank data
+Home-page: https://github.com/dpguthrie/bankfind
+Author: Doug Guthrie
+Author-email: douglas.p.guthrie@gmail.com
