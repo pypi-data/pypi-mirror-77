@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: band-etl
+Version: 0.0.1
+Summary: Tools for exporting Band Protocol blockchain data to JSON
+Home-page: https://github.com/blockchain-etl/band-etl
+Author: Evgeny Medvedev
+Author-email: evge.medvedev@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/blockchain-etl/band-etl/issues
+Project-URL: Source, https://github.com/blockchain-etl/band-etl
+Description: # Band Protocol ETL CLI
+        
+        [![Build Status](https://travis-ci.org/blockchain-etl/band-protocol-etl.svg?branch=master)](https://travis-ci.org/blockchain-etl/band-protocol-etl)
+        [![Telegram](https://img.shields.io/badge/telegram-join%20chat-blue.svg)](https://t.me/joinchat/GsMpbA3mv1OJ6YMp3T5ORQ)
+        
+        Band Protocol ETL CLI lets you convert Band Protocol data into JSON newline-delimited format.
+        
+        [Full documentation available here](http://band-protocol-etl.readthedocs.io/).
+        
+        ## Quickstart
+        
+        curl -X GET https://poa-api.bandchain.org/blocks/569102
+        
+        curl -X GET https://poa-api.bandchain.org/txs?tx.height=568661
+        
+        ## Questions
+        
+        - Project name choice: Band ETL (band-etl) or Band Protocol ETL (band-protocol-etl)?  
+        - Cosmos SDK uses "cosmos-sdk/StdTx" as a standard transaction type, but it allows to implement custom tx types.
+        Does Band define any custom transaction types. 
+Keywords: Band Protocol
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6.0,<3.8.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
