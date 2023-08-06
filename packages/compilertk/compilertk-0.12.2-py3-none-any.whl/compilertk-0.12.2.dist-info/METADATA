@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: compilertk
+Version: 0.12.2
+Summary: Collections of tools useful for syntax analysis part of compiler design
+Home-page: https://github.com/candh/compiler-toolkit
+Author: candh
+License: MIT
+Keywords: compiler toolkit syntax analysis first follow null unit production grammar LL1
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: colorful
+Requires-Dist: PyInquirer
+Requires-Dist: docopt
+Requires-Dist: tabulate
+
+## compiler-toolkit
+Collection of programs useful for syntax analysis.
+![screenshot of the tool](screenshot.png)
+
+---
+
+  ```bash
+  $ pip install compilertk
+  $ compilertk FILE
+  ```
+---
+
+Features:
+
+  - Elimination of Null Productions
+  - Elimination of Unit Productions
+  - Elimination of Left Recursion
+  - Calculates First Sets
+  - Calculates Follow Sets
+  - Prints Parsing Table
+  - Generates a log file
+
+## Notation
+
+Using this example of a grammar:
+
+```
+S -> S a A | B
+A -> a A | eps
+B -> d E'
+E' -> int a | eps
+```
+
+  - Every symbol on the left side is a non-terminal
+  - Non-terminals and its productions are separated by "->"
+  - Individual symbols are separated with a **space**.
+  - Null productions are specified with **eps**
+  - **|** is used to specify alternative productions
+
+## Tests
+
+Make sure everything runs fine by running the test cases
+
+  1. `./run_tests.sh`
+
+## TODOs
+
+  - Add docstrings to functions
+  - Add test cases for parsing table
+  - Add more tests cases
+
+## Useful Links
+
+  - https://mikedevice.github.io/first-follow/
+  - http://hackingoff.com/compilers
+  - http://hackingoff.com/compilers/predict-first-follow-set (unreliable)
+
+
