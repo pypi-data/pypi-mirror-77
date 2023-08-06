@@ -1,0 +1,11 @@
+CHANGELOG.md,sha256=myCtK0jWjTbup2KkdsxO3jk74lJLR6SJaR_4oJW4b-4,834
+LICENSE.txt,sha256=vxxUV9El8SfE40DHpPb5DXVaSpAZnbMIm9qh1pfFAQs,571
+README.md,sha256=oVF0UDQeOHSI3IAJcdMqBmkJoJ57oAj_pxUX-CyNW70,1709
+valarpy/__init__.py,sha256=AC5X3QJgRZFf4X-5cAsahfWjf8MNhIaLADMzL4U02b0,3288
+valarpy/connection.py,sha256=SzRwq4wJnJ-Of2oqimklMM4vR-q9i36XP0dh__6gb14,4846
+valarpy/metamodel.py,sha256=ijdAoM5Sh7VOE-X7vNMYqa6I-DxgctqJfq91ar5oN5M,19353
+valarpy/model.py,sha256=9PvkZefq2t4WvPjdZREOzk4cQT6UXDWnEwUKTs6zRk4,31235
+valarpy-2.2.0.dist-info/LICENSE.txt,sha256=vxxUV9El8SfE40DHpPb5DXVaSpAZnbMIm9qh1pfFAQs,571
+valarpy-2.2.0.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+valarpy-2.2.0.dist-info/METADATA,sha256=pTGqDxz3W5ery0ouHti-RsHluegzTwAnjH7RHvy_LO4,3105
+valarpy-2.2.0.dist-info/RECORD,,
