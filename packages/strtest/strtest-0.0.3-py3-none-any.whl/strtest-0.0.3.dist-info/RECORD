@@ -1,0 +1,9 @@
+strtest/__init__.py,sha256=0NgGTk2RXvAE3YobtWfzhQecxTZPYFvYMTEAE0VTeno,39
+strtest/mock_import.py,sha256=vXTaAZwGyI4pL0vuMPWz3AhxnRT0UG8LNuPXUXPumlk,3209
+strtest/str_test.py,sha256=cg1MNnl3k87nfDZRZahWrSteSKf0AmsuQAF8H4-VvgY,14608
+strtest-0.0.3.data/scripts/run_str_test.py,sha256=b3pGGk2Ei--HSLKZ6KLrqGzp3MB5O7BducY7r5BwkcA,1336
+strtest-0.0.3.dist-info/LICENSE,sha256=6pwm_3iI5GHf5kiyiPJtxR7JEUc-ip4MuXFeDs5jog8,1063
+strtest-0.0.3.dist-info/METADATA,sha256=-h9_GZFgKnXPLkwD4A7MCz3ZyNzSVzZ1VS-aE4oZmvk,528
+strtest-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+strtest-0.0.3.dist-info/top_level.txt,sha256=GF4lVt3-wV-XbvYyTa5ZRNJHE0u52fQoHeKU-zQbXqA,8
+strtest-0.0.3.dist-info/RECORD,,
