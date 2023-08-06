@@ -1,0 +1,9 @@
+README.md
+setup.py
+simple_pypi_template/__init__.py
+simple_pypi_template/simple_pypi_template.py
+simple_pypi_template/submodule.py
+simple_pypi_template.egg-info/PKG-INFO
+simple_pypi_template.egg-info/SOURCES.txt
+simple_pypi_template.egg-info/dependency_links.txt
+simple_pypi_template.egg-info/top_level.txt
