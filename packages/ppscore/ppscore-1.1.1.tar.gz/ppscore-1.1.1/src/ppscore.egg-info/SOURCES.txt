@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+src/ppscore/__init__.py
+src/ppscore/calculation.py
+src/ppscore.egg-info/PKG-INFO
+src/ppscore.egg-info/SOURCES.txt
+src/ppscore.egg-info/dependency_links.txt
+src/ppscore.egg-info/not-zip-safe
+src/ppscore.egg-info/requires.txt
+src/ppscore.egg-info/top_level.txt
