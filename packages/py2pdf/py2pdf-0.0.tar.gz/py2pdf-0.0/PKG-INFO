@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: py2pdf
+Version: 0.0
+Summary: Python source to pdf conversion library.
+Home-page: https://pypi.python.org/pypi/py2pdf
+Author: C. Ecker
+Author-email: textmodelview@gmail.com
+License: BSD
+Description: UNKNOWN
+Platform: any
