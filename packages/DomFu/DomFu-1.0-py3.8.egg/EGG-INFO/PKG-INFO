@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: DomFu
+Version: 1.0
+Summary: A CLI app to find domains and subdomains of a given domain
+Home-page: http://pypi.python.org/pypi/domfu/
+Author: Suman Basuli
+Author-email: thinisadhu@gmail.com
+License: LICENSE.txt
+Description: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
