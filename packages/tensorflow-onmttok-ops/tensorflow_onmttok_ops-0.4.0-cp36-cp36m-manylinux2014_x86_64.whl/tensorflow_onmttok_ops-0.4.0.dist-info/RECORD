@@ -1,0 +1,13 @@
+_foo.cpython-36m-x86_64-linux-gnu.so,sha256=a30nLZTrjMYObQidectVF0ueW-oNCSRO1yOlpdRFs-I,7728
+tensorflow_onmttok_ops-0.4.0.dist-info/top_level.txt,sha256=HOivJV9KlorbdoIkdeUI6p9FboA8ox7INv4g-gCkp3w,24
+tensorflow_onmttok_ops-0.4.0.dist-info/RECORD,,
+tensorflow_onmttok_ops-0.4.0.dist-info/METADATA,sha256=6mq-ITlExmurYFvxBPSKic2PYsFg63c0zlnGiZj1d8o,5457
+tensorflow_onmttok_ops-0.4.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tensorflow_onmttok_ops-0.4.0.dist-info/WHEEL,sha256=PkgmUciUS_7GjgAEIlC_GqRpRuEQmnJPlf4pmAEpdrY,112
+tensorflow_onmttok/__init__.py,sha256=uJVVkIhAts4mlaBXgTDMGn_-TuUt6D1tarHDODRf1Lw,184
+tensorflow_onmttok/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow_onmttok/python/ops/onmttok_ops.py,sha256=p3DHvNLqS_bTM-y4K1tBOxVblmPKHnFaxmY3RGbctGs,289
+tensorflow_onmttok/python/ops/_tensorflow_onmttok_ops.so,sha256=N_P-guBIjjJ_-_n1slOFmE_sxrelvDAfQb-_8ci-zbo,378256
+tensorflow_onmttok/python/ops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow_onmttok/python/opennmt/opennmt_in_graph_tokenizer.py,sha256=ng80WFTjAHaG1gF8aDMryOBP-SrXR-xe7TVuidnB2k0,959
+tensorflow_onmttok/python/opennmt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
