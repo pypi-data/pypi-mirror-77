@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: stepwise
+Version: 0.3.0
+Summary: Wetlab protocols that follow the Unix philosophy.
+Home-page: https://github.com/kalekundert/stepwise
+License: UNKNOWN
+Author: Kale Kundert
+Author-email: kale@thekunderts.net
+Requires-Python: ~=3.8
+Description-Content-Type: text/x-rst
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Dist: appdirs
+Requires-Dist: arrow
+Requires-Dist: autoprop
+Requires-Dist: configurator
+Requires-Dist: docopt
+Requires-Dist: entrypoints
+Requires-Dist: inform
+Requires-Dist: more_itertools
+Requires-Dist: nonstdlib
+Requires-Dist: sqlalchemy
+Requires-Dist: voluptuous
+Requires-Dist: sphinx ; extra == "docs"
+Requires-Dist: sphinx_rtd_theme ; extra == "docs"
+Requires-Dist: autoclasstoc ; extra == "docs"
+Requires-Dist: pytest ; extra == "tests"
+Requires-Dist: pytest-cov ; extra == "tests"
+Requires-Dist: coveralls ; extra == "tests"
+Requires-Dist: toml ; extra == "tests"
+Project-URL: Bug Tracker, https://github.com/kalekundert/stepwise/issues
+Project-URL: Continuous Integration, https://github.com/kalekundert/stepwise/actions
+Project-URL: Documentation, https://stepwise.readthedocs.io/en/latest/
+Project-URL: Test Coverage, https://coveralls.io/github/kalekundert/stepwise
+Project-URL: Version Control, https://github.com/kalekundert/stepwise
+Provides-Extra: docs
+Provides-Extra: tests
+
+********
+Stepwise
+********
+
+.. image:: https://img.shields.io/pypi/v/stepwise.svg
+   :target: https://pypi.python.org/pypi/stepwise
+
+.. image:: https://img.shields.io/pypi/pyversions/stepwise.svg
+   :target: https://pypi.python.org/pypi/stepwise
+
+.. image:: https://img.shields.io/readthedocs/stepwise.svg
+   :target: https://stepwise.readthedocs.io/en/latest/?badge=latest
+
+.. image:: https://img.shields.io/github/workflow/status/kalekundert/stepwise/Test%20and%20release/master
+   :target: https://github.com/kalekundert/stepwise/actions
+
+.. image:: https://img.shields.io/coveralls/kalekundert/stepwise.svg
+   :target: https://coveralls.io/github/kalekundert/stepwise?branch=master
+
+Installation
+============
+Install stepwise using ``pip``::
+
+    $ pip install stepwise
+
+Usage
+=====
+Coming soon...
+
