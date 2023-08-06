@@ -1,0 +1,11 @@
+README.md
+setup.py
+mytrans/__init__.py
+mytrans/deepl.py
+mytrans/google.py
+mytrans/run.py
+mytrans.egg-info/PKG-INFO
+mytrans.egg-info/SOURCES.txt
+mytrans.egg-info/dependency_links.txt
+mytrans.egg-info/requires.txt
+mytrans.egg-info/top_level.txt
