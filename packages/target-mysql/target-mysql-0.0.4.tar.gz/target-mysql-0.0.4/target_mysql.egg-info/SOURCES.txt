@@ -1,0 +1,9 @@
+README.md
+setup.py
+target_mysql/__init__.py
+target_mysql.egg-info/PKG-INFO
+target_mysql.egg-info/SOURCES.txt
+target_mysql.egg-info/dependency_links.txt
+target_mysql.egg-info/not-zip-safe
+target_mysql.egg-info/requires.txt
+target_mysql.egg-info/top_level.txt
