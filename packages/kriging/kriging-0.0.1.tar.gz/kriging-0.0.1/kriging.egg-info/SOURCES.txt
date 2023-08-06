@@ -1,0 +1,12 @@
+README.md
+setup.py
+kriging/__init__.py
+kriging/_kriging.py
+kriging/_plotting.py
+kriging/base.py
+kriging.egg-info/PKG-INFO
+kriging.egg-info/SOURCES.txt
+kriging.egg-info/dependency_links.txt
+kriging.egg-info/requires.txt
+kriging.egg-info/top_level.txt
+kriging/data/mapdata.json
