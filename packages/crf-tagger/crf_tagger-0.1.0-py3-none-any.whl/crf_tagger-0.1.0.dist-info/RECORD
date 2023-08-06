@@ -1,0 +1,11 @@
+crf_tagger/__init__.py,sha256=pS76Q1YyiVT40TCQvFBzEbGKUqeztYvVO8r6EJqRBR8,37
+crf_tagger/_fileresource.py,sha256=ZZd1ANnQS6Mt0eG0z5rMLh8G0Wj0BOXfWSQmm5k_JPg,2147
+crf_tagger/compat.py,sha256=Zx1R5GymlTHq5e34BX3A8L9Ez2oERtrBDjMtYd3qqUM,138
+crf_tagger/estimator.py,sha256=2l54MFvWkI5cDvYUepjJr-MRJoSEbsu2kd2tGQUCxSg,16434
+crf_tagger/metrics.py,sha256=nZC7aFbukqbgBxEedC7jjuGWt5Km2psMrWaRKiSf9hw,2076
+crf_tagger/scorers.py,sha256=m5uJzowcmnjrPxIl351p42VmNrhROX6XrnrCeg14VVA,365
+crf_tagger/trainer.py,sha256=LrPlih7kqdA4dax2KeX03sz41APEP1eLa1VG-S2uJOE,1637
+crf_tagger/utils.py,sha256=0vbnm0wMtT2e4vxEgDxGOin-_5vqP7jJNXkZTII28wk,205
+crf_tagger-0.1.0.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+crf_tagger-0.1.0.dist-info/METADATA,sha256=yEzKiUpPPWnMyB62h0EcLa-exSEsC13scawrc1B7WTc,441
+crf_tagger-0.1.0.dist-info/RECORD,,
