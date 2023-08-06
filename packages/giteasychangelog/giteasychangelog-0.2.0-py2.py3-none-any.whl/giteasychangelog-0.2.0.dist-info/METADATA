@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: giteasychangelog
+Version: 0.2.0
+Summary: A python tool which helps whit changelog/release file conflicts with git
+Home-page: https://github.com/EricHorvat/giteasychangelog
+Author: Eric Horvat
+Author-email: eric.nahuel.horvat@gmail.com
+License: GNU General Public License v3
+Keywords: giteasychangelog
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: Click
+Requires-Dist: packaging
+Provides-Extra: dev
+Requires-Dist: giteasychangelog ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mkdocs ; extra == 'docs'
+Requires-Dist: mkdocs-material ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+New features in the latest update
+=====================================
+
+0.2.0 [Aug 26th, 2020]:
+-----------------------
+* Internal improves of testing/release
+* Ignore last \n from each changelog file
+
+0.1.0 [Feb 18th, 2019]:
+-----------------------
+
+* First release of the tool!
+* Usable as a cli command!
+* Function as describe in README!
+
+
