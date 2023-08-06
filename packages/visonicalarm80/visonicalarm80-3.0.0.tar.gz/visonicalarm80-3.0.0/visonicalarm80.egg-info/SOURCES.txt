@@ -1,0 +1,8 @@
+README.md
+setup.py
+visonic/__init__.py
+visonic/alarm.py
+visonicalarm80.egg-info/PKG-INFO
+visonicalarm80.egg-info/SOURCES.txt
+visonicalarm80.egg-info/dependency_links.txt
+visonicalarm80.egg-info/top_level.txt
