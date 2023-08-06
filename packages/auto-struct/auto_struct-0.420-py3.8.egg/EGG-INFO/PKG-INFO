@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: auto-struct
+Version: 0.420
+Summary: Easily parse binary file in python3.8
+Home-page: https://github.com/Valmarelox/auto_struct/tree/master
+Author: efi
+Author-email: valmarelox@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
