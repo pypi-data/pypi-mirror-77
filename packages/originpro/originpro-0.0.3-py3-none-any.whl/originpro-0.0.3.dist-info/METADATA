@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: originpro
+Version: 0.0.3
+Summary: OriginPro Utilities
+Home-page: https://www.originlab.com
+Author: OriginLab
+Author-email: folger@originlab.com.cn
+License: BSD
+Keywords: Origin,Originlab
+Platform: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: OriginExt (==1.1.0)
+
+# Origin Extension
+originpro is a Python package that provide useful utilities to cooperate with Origin software.
+## Example
+----
+
+
