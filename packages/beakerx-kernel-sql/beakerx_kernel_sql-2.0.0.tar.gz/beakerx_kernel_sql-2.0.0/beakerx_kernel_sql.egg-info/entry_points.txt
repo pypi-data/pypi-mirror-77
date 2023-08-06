@@ -1,0 +1,3 @@
+[console_scripts]
+beakerx_kernel_sql = beakerx_sql:run
+
