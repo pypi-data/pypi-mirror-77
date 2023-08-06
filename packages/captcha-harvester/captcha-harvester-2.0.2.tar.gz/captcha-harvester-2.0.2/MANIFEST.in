@@ -1,0 +1,6 @@
+include harvester/server/templates/*
+include harvester/server/icon.png
+include logo.png
+include style.css
+include README.md
+include LICENSE
