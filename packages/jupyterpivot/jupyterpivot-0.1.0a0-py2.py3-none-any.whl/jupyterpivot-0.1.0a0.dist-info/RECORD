@@ -1,0 +1,14 @@
+jupyterpivot/__init__.py,sha256=XEzw31pg3J9TmbPXBx8Owr_QjCz7wBWfOsIx4AeLDzg,1061
+jupyterpivot/_version.py,sha256=uKPTXZ9xhQfGgEGnXq7bPmtr1qBbXIBC4Ww7y-WTNfs,400
+jupyterpivot/example.py,sha256=9xR4mCHszB8lz-EwzU03ReKU6u8f5D9-D6bW58LL5Kg,1537
+jupyterpivot/static/extension.js,sha256=NgjwRQGlarQtWvK09SCuBYzfGBSzCuuHiT2zjRh_xKc,3367
+jupyterpivot/static/index.js,sha256=z-Ow-NTvDRLKmRYeTrX5ee8Bvkm5ZDRFV8mNphlu9hE,859922
+jupyterpivot/static/index.js.map,sha256=cxOTUtpY4FLWocuaU8FMu4BwLe3kokyssoVJcvB3RKo,1081187
+jupyterpivot-0.1.0a0.data/data/etc/jupyter/nbconfig/notebook.d/jupyterpivot.json,sha256=0nkb-O_bYer9FDcL3f0bHw2yzNSkNkRhGp2IByEdQ0c,71
+jupyterpivot-0.1.0a0.data/data/share/jupyter/nbextensions/jupyterpivot/extension.js,sha256=NgjwRQGlarQtWvK09SCuBYzfGBSzCuuHiT2zjRh_xKc,3367
+jupyterpivot-0.1.0a0.data/data/share/jupyter/nbextensions/jupyterpivot/index.js,sha256=z-Ow-NTvDRLKmRYeTrX5ee8Bvkm5ZDRFV8mNphlu9hE,859922
+jupyterpivot-0.1.0a0.data/data/share/jupyter/nbextensions/jupyterpivot/index.js.map,sha256=cxOTUtpY4FLWocuaU8FMu4BwLe3kokyssoVJcvB3RKo,1081187
+jupyterpivot-0.1.0a0.dist-info/METADATA,sha256=TlrQPFvfbzn_Nq9qZ-XvP6J9NA7TDxAi0Lzew7QFB34,947
+jupyterpivot-0.1.0a0.dist-info/WHEEL,sha256=6T3TYZE4YFi2HTS1BeZHNXAi8N52OZT4O-dJ6-ome_4,116
+jupyterpivot-0.1.0a0.dist-info/top_level.txt,sha256=-KxfdFiJKuStHqiE2fdHd8EIxqGabVFDSRrVhdQkyTI,13
+jupyterpivot-0.1.0a0.dist-info/RECORD,,
