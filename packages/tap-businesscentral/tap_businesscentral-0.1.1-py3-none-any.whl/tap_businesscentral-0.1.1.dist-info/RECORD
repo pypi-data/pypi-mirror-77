@@ -1,0 +1,11 @@
+tap_businesscentral/__init__.py,sha256=Bp1U1H_WB5t3yfLT6xYq-0w2pQRV3v5tuVhPqzdYz7Y,1292
+tap_businesscentral/discover.py,sha256=q0xasjHZd-AD0p-k5ScBztXFYpKv2LbTdl0TD18fOfE,2257
+tap_businesscentral/sync.py,sha256=a47sbMJpd1MRfu5lTPxtCH-BywtKTaIBVgst5qJwXB0,3647
+tap_businesscentral/schemas/sample_stream.json,sha256=k7tri-9CY4GKUrZ5VcWhZo2uc5XUAbvQxLMb1dVj1fY,390
+tap_businesscentral-0.1.1.dist-info/LICENSE,sha256=IL06W_w1sWpfzE993Taq0ZJtQeovauBYukLIXj2OaBo,32387
+tap_businesscentral-0.1.1.dist-info/METADATA,sha256=p67Y34fGMFdR1zj-ShRFM7VLKOr1RQM3-wAQoCm1lNY,358
+tap_businesscentral-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tap_businesscentral-0.1.1.dist-info/dependency_links.txt,sha256=lo1xHrGQqnG0PCrQzhwUAWoEt7raPPyJGPlKaJjrEBk,80
+tap_businesscentral-0.1.1.dist-info/entry_points.txt,sha256=RXjCCko59JDH5V4jYE8KffQKFoDz6Az96I6NdzFbt-M,76
+tap_businesscentral-0.1.1.dist-info/top_level.txt,sha256=fO7M7E6Ri01DkUzCghcrSDcz--trsa-jzgKgHJn-PqQ,20
+tap_businesscentral-0.1.1.dist-info/RECORD,,
