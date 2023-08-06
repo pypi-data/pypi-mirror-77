@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: is_palindrome_PS
+Version: 0.0.6
+Summary: This is a palindrome checking function.
+Home-page: https://balajibetadur.github.io
+Author: Prakash Shelar
+Author-email: UNKNOWN
+License: MIT
+Description: 'This package makes you easy to find palindrome'
+Keywords: palindrome,python palindrome,palindrome evaluator
+Platform: UNKNOWN

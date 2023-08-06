@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+is_palindrome_PS/__init__.py
+is_palindrome_PS.egg-info/PKG-INFO
+is_palindrome_PS.egg-info/SOURCES.txt
+is_palindrome_PS.egg-info/dependency_links.txt
+is_palindrome_PS.egg-info/top_level.txt
