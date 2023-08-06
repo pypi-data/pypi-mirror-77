@@ -1,0 +1,13 @@
+Pyro5
+deprecation
+numpy
+scipy
+
+[oscope]
+pyvisa
+
+[test]
+pytest
+
+[tsl550]
+pyserial
