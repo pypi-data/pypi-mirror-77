@@ -1,0 +1,7 @@
+bitcoin_requests/__init__.py,sha256=Ft1sNUHybvy5zOMfpBa-52cPgBwqSJBZoctlBkPCWRU,78
+bitcoin_requests/bitcoin.py,sha256=1W9K7vmCKxqKcPVepNsxD1Vog2chM-1OO5dQpsFwtic,1142
+bitcoin_requests-2.0.0.dist-info/LICENSE,sha256=s-Jg8wwSuU_TzZV7keqftK1tvJHPT5SIR4Cj-2eixqQ,15
+bitcoin_requests-2.0.0.dist-info/METADATA,sha256=I4iJQsmLLPM-79u9X_p8zsYPvFP3Q9pAr_2a_aUrZz4,946
+bitcoin_requests-2.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bitcoin_requests-2.0.0.dist-info/top_level.txt,sha256=H3SsTnogkIVSS1V8H9stjFiUzH5k4ug3Q7n8J76DM9M,17
+bitcoin_requests-2.0.0.dist-info/RECORD,,
