@@ -1,0 +1,8 @@
+aws_cdk/aws_managedblockchain/__init__.py,sha256=ch7HHt1e5YosOp-X46jbBKu5m9egaHceA_Ux9_j0tB0,42521
+aws_cdk/aws_managedblockchain/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_managedblockchain/_jsii/__init__.py,sha256=KjmQXZehIEcrPOfF-jJ7VmfF7PNhCIjpFhymK4CluM8,398
+aws_cdk/aws_managedblockchain/_jsii/aws-managedblockchain@1.61.0.jsii.tgz,sha256=F1yf1EcBANONvI66iwYr4_CH7ReO1_s_QhBdM8VDlF0,28651
+aws_cdk.aws_managedblockchain-1.61.0.dist-info/METADATA,sha256=z4EexnzbDj3tBwNyRzyCbN7WgMIGuhP0mxvI2lb_Y4o,1626
+aws_cdk.aws_managedblockchain-1.61.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_cdk.aws_managedblockchain-1.61.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_managedblockchain-1.61.0.dist-info/RECORD,,
