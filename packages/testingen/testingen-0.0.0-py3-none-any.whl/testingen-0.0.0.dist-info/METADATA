@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: testingen
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Django (<3.2,>=3.1)
+Requires-Dist: wagtail (<2.13,>=2.12)
+
+UNKNOWN
+
+
