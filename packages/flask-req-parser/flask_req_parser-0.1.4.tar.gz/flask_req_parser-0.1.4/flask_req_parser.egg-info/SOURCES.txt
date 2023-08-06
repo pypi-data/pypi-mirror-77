@@ -1,0 +1,9 @@
+README
+setup.py
+flask_req_parser/__init__.py
+flask_req_parser.egg-info/PKG-INFO
+flask_req_parser.egg-info/SOURCES.txt
+flask_req_parser.egg-info/dependency_links.txt
+flask_req_parser.egg-info/not-zip-safe
+flask_req_parser.egg-info/requires.txt
+flask_req_parser.egg-info/top_level.txt
