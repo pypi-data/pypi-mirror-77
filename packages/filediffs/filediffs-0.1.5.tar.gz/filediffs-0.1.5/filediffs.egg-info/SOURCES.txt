@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+build_cython_setup.py
+pyproject.toml
+setup.py
+bin/filediffs
+filediffs/__init__.py
+filediffs.egg-info/PKG-INFO
+filediffs.egg-info/SOURCES.txt
+filediffs.egg-info/dependency_links.txt
+filediffs.egg-info/top_level.txt
+filediffs/filediffs_cython/filediffs_cy.cpp
