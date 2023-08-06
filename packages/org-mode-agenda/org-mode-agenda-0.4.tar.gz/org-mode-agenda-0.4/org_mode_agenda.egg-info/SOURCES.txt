@@ -1,0 +1,12 @@
+README.rst
+setup.py
+org_agenda/__init__.py
+org_agenda/cards2org.py
+org_agenda/ical2org.py
+org_agenda/org.py
+org_mode_agenda.egg-info/PKG-INFO
+org_mode_agenda.egg-info/SOURCES.txt
+org_mode_agenda.egg-info/dependency_links.txt
+org_mode_agenda.egg-info/entry_points.txt
+org_mode_agenda.egg-info/requires.txt
+org_mode_agenda.egg-info/top_level.txt
