@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: yrag
+Version: 0.1.4
+Summary: Yrag aim to deploy machine-learing model quickly and easily
+Home-page: https://github.com/Yougigun/yrag
+Author: Gary
+Author-email: s14031403@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# YRAG is aimed to build up Machine Learning Application quickly!
+This is a simple example package. You can use
+[yrag](https://github.com/Yougigun/yrag)
+to write your content.
+
