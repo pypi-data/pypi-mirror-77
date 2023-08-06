@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: bella
+Version: 2.1.3
+Summary: BellaPy - A useful helper for any python program
+License: MIT
+Author: Dong Nguyen
+Author-email: ndaidong@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
