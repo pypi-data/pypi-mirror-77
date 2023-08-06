@@ -1,0 +1,13 @@
+dataloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataloader/ptb.py,sha256=90ICVU9ftKkAw1A5I7DnMmOLm3rzWXzIgUxeHazlWv8,2629
+dataloader/sequence.py,sha256=wn4BaejfywDo2hQaBdb2WgcxDcJLI0XLXVLqNSSonck,1742
+dataloader/spiral.py,sha256=KZd61PtGQLq4dNZMBR0VXX8Uuw8G5H1FDfQG7lTEktI,658
+layers/__init__.py,sha256=Al3s9kkLWo3aLAJBo0TYB2__Ucninp66fudNp-uXSLs,139
+layers/basic.py,sha256=POmx5Us-9ReQDE0VJnmCi_41WNRLrbfVjkZjxunQxdQ,1931
+layers/recurrent.py,sha256=jv7hoiLLRBoqzuyIzQNpuMBeoPoWzTOHvdzJmEw5FH0,15514
+layers/seq2seq.py,sha256=swK-IsBrnIT00zBG7vaSFrBaAa9v_p4kiuu5qMZbK68,4082
+deepnp-0.1.0.dist-info/LICENSE,sha256=12B0_kyKQuHTPbeLvn2QfvHlNMxjxsTS-jDwdQ76JgA,1070
+deepnp-0.1.0.dist-info/METADATA,sha256=bfpegMWnkqZoHErwTOCIu7gSVMEK9YGDSJSbanpXLKw,560
+deepnp-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+deepnp-0.1.0.dist-info/top_level.txt,sha256=QaACAjrQDCkAZ8VDx_EOSDPvzbQ2_NPwoS4K7yJ9D_k,18
+deepnp-0.1.0.dist-info/RECORD,,
