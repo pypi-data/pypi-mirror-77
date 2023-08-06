@@ -1,0 +1,7 @@
+README.rst
+readline0.py
+setup.py
+readline0.egg-info/PKG-INFO
+readline0.egg-info/SOURCES.txt
+readline0.egg-info/dependency_links.txt
+readline0.egg-info/top_level.txt
