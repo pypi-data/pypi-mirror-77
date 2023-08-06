@@ -1,0 +1,16 @@
+README.md
+setup.py
+chromie/__init__.py
+chromie/__version__.py
+chromie/auth.py
+chromie/config.py
+chromie/enum.py
+chromie/parser.py
+chromie/utils.py
+chromie/webstore.py
+chromie.egg-info/PKG-INFO
+chromie.egg-info/SOURCES.txt
+chromie.egg-info/dependency_links.txt
+chromie.egg-info/entry_points.txt
+chromie.egg-info/requires.txt
+chromie.egg-info/top_level.txt
