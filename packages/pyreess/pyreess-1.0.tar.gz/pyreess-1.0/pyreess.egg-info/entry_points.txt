@@ -1,0 +1,3 @@
+[console_scripts]
+pyreess = pyreess.main:main
+

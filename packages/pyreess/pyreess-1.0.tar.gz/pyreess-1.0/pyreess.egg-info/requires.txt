@@ -1,0 +1,2 @@
+seedrandom==2.2
+pyperclip
