@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+wagtailversesblock/__init__.py
+wagtailversesblock/blocks.py
+wagtailversesblock.egg-info/PKG-INFO
+wagtailversesblock.egg-info/SOURCES.txt
+wagtailversesblock.egg-info/dependency_links.txt
+wagtailversesblock.egg-info/requires.txt
+wagtailversesblock.egg-info/top_level.txt
