@@ -1,0 +1,12 @@
+License.txt
+MANIFEST.in
+ReadMe.txt
+setup.py
+check_palindrome_aast.egg-info/PKG-INFO
+check_palindrome_aast.egg-info/SOURCES.txt
+check_palindrome_aast.egg-info/dependency_links.txt
+check_palindrome_aast.egg-info/top_level.txt
+check_palindrome_bala.egg-info/SOURCES.txt
+check_palindrome_bala.egg-info/dependency_links.txt
+check_palindrome_bala.egg-info/top_level.txt
+is_plaindrome_aast/_init__.py
