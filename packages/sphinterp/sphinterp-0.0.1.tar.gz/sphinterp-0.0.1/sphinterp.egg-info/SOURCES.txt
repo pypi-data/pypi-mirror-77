@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+sphinterp/__init__.py
+sphinterp/_coordinates.py
+sphinterp/_cross_section.py
+sphinterp/_kernels.py
+sphinterp/_projection.py
+sphinterp.egg-info/PKG-INFO
+sphinterp.egg-info/SOURCES.txt
+sphinterp.egg-info/dependency_links.txt
+sphinterp.egg-info/requires.txt
+sphinterp.egg-info/top_level.txt
