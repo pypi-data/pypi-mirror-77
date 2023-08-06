@@ -1,0 +1,15 @@
+to_ascii-3.4.20.data/data/LICENSE,sha256=Doy04yAPj8t9FDevgd2QhzRmbW4-nJ2fDsF43pwF1xM,1091
+toascii/ABC.py,sha256=0HoYd5ikJ_06-fivd9DaxP0dPrpNcr3iw2vHFco1p54,910
+toascii/CLI.py,sha256=5egqrhx7ytpZGNj18IXWYG4WhRKTl8yM4iLyDuAZUBg,2236
+toascii/Constants.py,sha256=HXwa5BS-4Kdpmg_loWQ8I4oQAsObETtkmg0_WGlMhFg,146
+toascii/Exceptions.py,sha256=xOmex80ndvJxC4sa6SSE0m63lU_qlh0aiAc-BWW0BdE,276
+toascii/Image.py,sha256=S6L8qVWnW6sVjbDsiNlo-sgMbjjOcxfJkI6klPjoaRY,2428
+toascii/Live.py,sha256=85kTqmeLQ_X1YOLeqkB_W4Cq6VmSNzQLZjIPLJGk09U,2857
+toascii/Video.py,sha256=UfPAyWbUi43jwa6GxITEszs1KEoeec9PpMLIH5v0-rs,4417
+toascii/__init__.py,sha256=FFg62BGYYhTRDocRq_8heQ2ekZMUobzAPnwo--Sr9Mc,78
+to_ascii-3.4.20.dist-info/LICENSE,sha256=Doy04yAPj8t9FDevgd2QhzRmbW4-nJ2fDsF43pwF1xM,1091
+to_ascii-3.4.20.dist-info/METADATA,sha256=zb0l-tKdpTK-8aErIY5tX2NSM1RhllFND1ZXdDbZTaw,7182
+to_ascii-3.4.20.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+to_ascii-3.4.20.dist-info/entry_points.txt,sha256=AWgvBET74_FDpXuuIGYpHWO0QCqBywFAglMksUVMxtY,47
+to_ascii-3.4.20.dist-info/top_level.txt,sha256=QgjqkjECM-VpV1VrclvZrO3H_kgftKBSIrIxCcoR2i8,8
+to_ascii-3.4.20.dist-info/RECORD,,
