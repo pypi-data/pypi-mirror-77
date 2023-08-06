@@ -1,0 +1,8 @@
+README.md
+setup.py
+PyInsta/__init__.py
+PyInsta_Scrape.egg-info/PKG-INFO
+PyInsta_Scrape.egg-info/SOURCES.txt
+PyInsta_Scrape.egg-info/dependency_links.txt
+PyInsta_Scrape.egg-info/requires.txt
+PyInsta_Scrape.egg-info/top_level.txt
