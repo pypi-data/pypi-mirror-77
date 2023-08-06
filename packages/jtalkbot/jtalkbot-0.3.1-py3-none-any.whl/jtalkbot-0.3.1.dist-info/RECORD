@@ -1,0 +1,11 @@
+jtalkbot/__init__.py,sha256=uoci1pE6_puUtLKAJ_dkVu22q-exoX1Otkqy8cKXrac,80
+jtalkbot/__main__.py,sha256=IudluWjd6IxLcg8NGexmte8eRaYd-Z7615J444TmlcU,4895
+jtalkbot/jtalkbot-config.sample.json,sha256=_68vylKKHJgCkkyb74oTgKSJA3oNxkFGu2xDKxhUDlc,435
+jtalkbot/openjtalk.py,sha256=AbDJuvBj4jW6jC3GkzprG6Ugxe4stNkQve3ZtpInb4E,13278
+jtalkbot/version.py,sha256=4txR_JT3IOR950yTjylDH1INsaup2o8FTbkpytXjXz8,102
+jtalkbot-0.3.1.dist-info/LICENSE,sha256=NLeRHMSv6scCIM16p0-ErYkFOQU5jrgIBJBcRt70OUY,1066
+jtalkbot-0.3.1.dist-info/METADATA,sha256=XdrDv_N5DTG9Mb1GIGGqjfr0AeQTVvF9Lck-3iXtCic,5710
+jtalkbot-0.3.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+jtalkbot-0.3.1.dist-info/entry_points.txt,sha256=ryqINm0egAsNp0-RfI7H1g_EB_cpVQ1OnEnVN6JdXVo,53
+jtalkbot-0.3.1.dist-info/top_level.txt,sha256=h6xnxPJ_wHkhtp8t71XjQ6b05N5f9ilFPwg89Wnsxv0,9
+jtalkbot-0.3.1.dist-info/RECORD,,
