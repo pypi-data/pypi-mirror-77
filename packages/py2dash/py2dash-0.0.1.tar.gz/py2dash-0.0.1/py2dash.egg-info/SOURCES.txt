@@ -1,0 +1,6 @@
+README.md
+setup.py
+py2dash.egg-info/PKG-INFO
+py2dash.egg-info/SOURCES.txt
+py2dash.egg-info/dependency_links.txt
+py2dash.egg-info/top_level.txt
