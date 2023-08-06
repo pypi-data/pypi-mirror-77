@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: python-seed
+Version: 1.0.0
+Summary: Create skeleton of python project
+Home-page: https://github.com/developementseed/python-seed
+Author: Vincent Sarago
+Author-email: vincent@developmentseed.com
+License: MIT
+Description: UNKNOWN
+Keywords: Python Generator tox pre-commit
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: test
+Provides-Extra: dev
