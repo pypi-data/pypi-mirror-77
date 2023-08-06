@@ -1,0 +1,7 @@
+tpDcc-libs-qt==0.0.17
+
+[dev]
+wheel
+
+[test]
+pytest
