@@ -1,0 +1,3 @@
+[console_scripts]
+airflowdaggenerator = airflowdaggenerator.airflowdaggenerator:main
+
