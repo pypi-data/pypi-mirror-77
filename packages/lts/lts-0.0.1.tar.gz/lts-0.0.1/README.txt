@@ -1,0 +1,1 @@
+This is a very simple library that converts a list into a string with an optional separator, which defaults to a space, (" ").
