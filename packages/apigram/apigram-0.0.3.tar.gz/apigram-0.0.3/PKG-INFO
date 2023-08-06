@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: apigram
+Version: 0.0.3
+Summary: Python library to make bot with Telegram Bot API
+Home-page: https://github.com/andprokofieff/apigram
+Author: andprokofieff
+Author-email: prokofieff.help@gmail.com
+License: UNKNOWN
+Description: 
+        **Apigram** â€“ Python Telegram Bot API wrapper
+        
+        * [Examples](./examples) (python3)
+        * [Telegram Bot API Manual](https://core.telegram.org/bots/api)
+        
+        ```python
+        import apigram
+        
+        bot = apigram.session('123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11')
+        api = apigram.get_api(bot)
+        
+        print(api.getMe())
+        ```
+        
+        Install
+        ------------
+            $ pip install apigram
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
