@@ -1,0 +1,10 @@
+tpDcc-libs-nameit
+tpDcc-tools-nameit
+tpDcc-tools-renamer
+artellapipe
+
+[dev]
+wheel
+
+[test]
+pytest
