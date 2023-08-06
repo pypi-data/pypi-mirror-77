@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: luckyseven
+Version: 0.0.3
+Summary: Lightweitght CSPRNG
+Home-page: https://github.com/matiasbn/luckyseven
+Author: Matías Barrios Núñez
+Author-email: matias.barriosn@gmail.com
+License: UNKNOWN
+Description: # Luckyseven
+        
+        Luckyseven is a lightweight and easy to implement CSPRNG (cryptographically-secure pseudo random number generator).
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

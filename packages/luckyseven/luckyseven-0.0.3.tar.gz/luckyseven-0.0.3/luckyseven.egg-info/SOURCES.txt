@@ -1,0 +1,8 @@
+README.md
+setup.py
+luckyseven/__init__.py
+luckyseven/luckyseven.py
+luckyseven.egg-info/PKG-INFO
+luckyseven.egg-info/SOURCES.txt
+luckyseven.egg-info/dependency_links.txt
+luckyseven.egg-info/top_level.txt
