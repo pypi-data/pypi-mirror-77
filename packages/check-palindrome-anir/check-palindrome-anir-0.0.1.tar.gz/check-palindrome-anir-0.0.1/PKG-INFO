@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: check-palindrome-anir
+Version: 0.0.1
+Summary: This is a palindrome checking function.
+Home-page: https://balajibetadur.github.io
+Author: Balaji Betadur
+Author-email: UNKNOWN
+License: MIT
+Description: long_description
+Keywords: palindrome,python palindrome,palindrome evaluator
+Platform: UNKNOWN

@@ -1,0 +1,9 @@
+License.txt
+MANIFEST.in
+Readme.txt
+setup.py
+check_palindrome_anir.egg-info/PKG-INFO
+check_palindrome_anir.egg-info/SOURCES.txt
+check_palindrome_anir.egg-info/dependency_links.txt
+check_palindrome_anir.egg-info/top_level.txt
+is_palindrome_anir/_init__.py
