@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: Redmine-CLI-Tool
+Version: 1.0.5
+Summary: A command-line utility to interact with Redmine
+Home-page: https://github.com/migelbd/redmine-cli
+Author: migelbd
+Author-email: migel.bd@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
