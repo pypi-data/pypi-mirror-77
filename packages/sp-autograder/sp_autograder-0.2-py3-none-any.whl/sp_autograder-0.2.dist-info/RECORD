@@ -1,0 +1,16 @@
+autograder/__init__.py,sha256=WIj8oA3pazZiZK9EmfzcaM96KuGaMOvFTf9DTNHNWcQ,4194
+autograder/io_utils.py,sha256=P3yOKqWFA7Fh6OTqistov6keM__t5egiQxetWuk4sJc,1753
+autograder/printing.py,sha256=5H4bDp31Y-T289GoDXsTTc8d6gfZURuh0jGhSPS8_ko,4946
+autograder/testsuite.py,sha256=RgNthceSpsOuVG61QR0nlVofi4unAjNZEcUZcU2c7s8,4678
+autograder/tests/ArgTest.py,sha256=atlgx1A43Tkz5VNEZkq5I62H8ToDgp_FXPnR4F1q5N8,4036
+autograder/tests/BaseTest.py,sha256=bOuC_bGlx5YhFjxvLx1qzuqxYyNf-4f3-VjMIQF0qCs,4140
+autograder/tests/FileIOTest.py,sha256=5l9JDaHQoEJEbjoJC31YSNgcrmrE_70QuR8z0EPa1ik,1814
+autograder/tests/IOTest.py,sha256=TqbOoyX4qUXWfwUAL30v0sDv-6lNuUz-wjDZLOfi45c,1260
+autograder/tests/TestResponse.py,sha256=9SGspEwqh2x0bbv4RV3GmAljIsZ9GhGoioYO7CjlY1s,4113
+autograder/tests/__init__.py,sha256=YvIkt3_Er1kyTC2v-1LC7kgP0VWLN_0gWQxznhfJM18,161
+autograder/tests/errors.py,sha256=kmia1nn7_xqTNhXTEsF15tacQpL_CXL7yjo3ywBfhW8,150
+sp_autograder-0.2.dist-info/LICENSE.txt,sha256=K5KlZtGHKfgO6YswMLOwAC_aBqQtjufDf5UsvhSxtlw,1067
+sp_autograder-0.2.dist-info/METADATA,sha256=cgDzx1o4_1NF1S6kkQTbY6mg_X3QbdnsjOQdzPNYxFs,4897
+sp_autograder-0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sp_autograder-0.2.dist-info/top_level.txt,sha256=a_C8rwNmW8RkxQlq2ksDJgme1U0S5P6aKNkXnQhw_MI,11
+sp_autograder-0.2.dist-info/RECORD,,
