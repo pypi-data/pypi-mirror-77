@@ -1,0 +1,3 @@
+[console_scripts]
+writhub=writhub.console.cli:main
+
