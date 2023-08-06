@@ -1,0 +1,12 @@
+README.md
+setup.py
+dataframe_processor/__init__.py
+dataframe_processor/processor.py
+dataframe_processor/table_schema/__init__.py
+dataframe_processor/table_schema/schema.py
+dataframe_processor/table_schema/validators.py
+django_dataframe_processor.egg-info/PKG-INFO
+django_dataframe_processor.egg-info/SOURCES.txt
+django_dataframe_processor.egg-info/dependency_links.txt
+django_dataframe_processor.egg-info/requires.txt
+django_dataframe_processor.egg-info/top_level.txt
