@@ -1,0 +1,6 @@
+README.md
+setup.py
+port_scan.egg-info/PKG-INFO
+port_scan.egg-info/SOURCES.txt
+port_scan.egg-info/dependency_links.txt
+port_scan.egg-info/top_level.txt
