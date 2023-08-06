@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: vizdxp
+Version: 0.0.4
+Summary: Simple data visualization web app
+Home-page: https://github.com/Vinothsuku/vizdxp
+Author: vinoth sukumaran
+Author-email: vizdxp@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit (>=0.65.2)
+Requires-Dist: pandas (>=1.1.0)
+Requires-Dist: numpy (>=1.19.1)
+Requires-Dist: plotly (>=4.9.0)
+
+# vizdxp
+
+## Simple Data Visualization webapp
+
