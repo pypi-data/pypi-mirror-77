@@ -1,0 +1,12 @@
+README.md
+setup.py
+app/__init__.py
+app/api.py
+app/cli.py
+app/table.py
+fred_cli.egg-info/PKG-INFO
+fred_cli.egg-info/SOURCES.txt
+fred_cli.egg-info/dependency_links.txt
+fred_cli.egg-info/entry_points.txt
+fred_cli.egg-info/requires.txt
+fred_cli.egg-info/top_level.txt

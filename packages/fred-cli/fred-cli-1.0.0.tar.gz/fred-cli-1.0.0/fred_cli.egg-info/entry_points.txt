@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        fred=app.cli:fred
+    
