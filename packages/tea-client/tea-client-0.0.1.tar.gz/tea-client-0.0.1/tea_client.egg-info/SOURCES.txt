@@ -1,0 +1,13 @@
+AUTHORS
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+tea_client.egg-info/PKG-INFO
+tea_client.egg-info/SOURCES.txt
+tea_client.egg-info/dependency_links.txt
+tea_client.egg-info/requires.txt
+tea_client.egg-info/top_level.txt
