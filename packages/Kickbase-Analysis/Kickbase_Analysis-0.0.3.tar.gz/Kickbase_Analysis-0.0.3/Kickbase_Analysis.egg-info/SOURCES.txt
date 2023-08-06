@@ -1,0 +1,11 @@
+README.md
+setup.py
+Kickbase_Analysis.egg-info/PKG-INFO
+Kickbase_Analysis.egg-info/SOURCES.txt
+Kickbase_Analysis.egg-info/dependency_links.txt
+Kickbase_Analysis.egg-info/requires.txt
+Kickbase_Analysis.egg-info/top_level.txt
+kickbase_analysis/__init__.py
+kickbase_analysis/kickbase_analysis.py
+kickbase_analysis/models/__init__.py
+kickbase_analysis/models/trade.py
