@@ -1,0 +1,11 @@
+yacman/__init__.py,sha256=aSiL7795fzWztMAeajSscImZSPW5-MowC0sczOWwBMY,77
+yacman/_version.py,sha256=RaANGbRu5e-vehwXI1-Qe2ggPPfs1TQaZj072JdbLk4,22
+yacman/alias.py,sha256=sWqQ7N8c3CDcuPK6EzfLgYPobagMp7sJKPnIVrKLhPo,11373
+yacman/const.py,sha256=oyocWytBtYIV2Ii5iYtZZwad6UNkbpQknmaH4n-7OrE,407
+yacman/exceptions.py,sha256=58hj5ICtnFxr2td669VC1sFSi31l3m-yPelh9L35G4c,354
+yacman/yacman.py,sha256=ELsWZcX9xiVZHbjL_nm7abNZQjyPVCQyQ4jClEiIRfw,15298
+yacman-0.7.0.dist-info/LICENSE.txt,sha256=oB6ZGDa4kcznznJKJsLLFFcOZyi8Y6e2Jv0rJozgp-I,1269
+yacman-0.7.0.dist-info/METADATA,sha256=KC_WQDnIeu_CIVRnmSZszzRT70jhpf0ErkpzegUYA2E,1483
+yacman-0.7.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+yacman-0.7.0.dist-info/top_level.txt,sha256=w2c_Rs_FYfjxBTiRUKyA1TAxsyH-hDKo0QkL_NYSieA,7
+yacman-0.7.0.dist-info/RECORD,,
