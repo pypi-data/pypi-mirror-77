@@ -1,0 +1,4 @@
+[console_scripts]
+blwp_to_yml = blwp.blwp_to_yml:main
+yml_to_blwp = blwp.yml_to_blwp:main
+
