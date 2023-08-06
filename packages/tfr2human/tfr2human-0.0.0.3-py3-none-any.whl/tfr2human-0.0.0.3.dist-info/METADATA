@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tfr2human
+Version: 0.0.0.3
+Summary: Convert TFRecords to images and JSON
+Home-page: https://github.com/brookisme/tfr2human
+Author: Brookie Guzder-Williams
+Author-email: brook.williams@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/brookisme/tfr2human/tarball/0.1
+Keywords: TensorFlow,Tensor Flow Records,TFRecords,machine learning
+Platform: UNKNOWN
+
+UNKNOWN
+
+
