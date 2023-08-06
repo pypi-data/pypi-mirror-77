@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+__init__.py
+setup.py
+img2sketch.egg-info/PKG-INFO
+img2sketch.egg-info/SOURCES.txt
+img2sketch.egg-info/dependency_links.txt
+img2sketch.egg-info/requires.txt
+img2sketch.egg-info/top_level.txt
