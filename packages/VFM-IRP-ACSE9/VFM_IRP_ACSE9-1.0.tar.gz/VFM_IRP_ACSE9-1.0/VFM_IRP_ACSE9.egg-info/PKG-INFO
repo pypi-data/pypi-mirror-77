@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: VFM-IRP-ACSE9
+Version: 1.0
+Summary: Individual MSc Project
+Home-page: https://github.com/acse-2019/irp-acse-nt719/tree/master/Code/
+Author: Nicolas Trinephi
+Author-email: nicolas.trinephi@imperial.ac.uk
+License: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Description: Welcome to the VFM IRP
+        
+        
+        This package contains the code for the Imperial College ACSE-9 Individual Research Project of Nicolas Trinephi. It contains tools to create data frames from well data and machine learning to predict oil, gas and water rates from that data.
+        
+        Contents:
+        ```
+        VFM_IRP_ACSE9-1.0/  
+        â”œâ”€â”€ LICENSE.txt  
+        â”œâ”€â”€ README.txt  
+        â”œâ”€â”€ setup.py  
+        â””â”€â”€ VFM_Code/  
+            â”œâ”€â”€	__init__.py  
+            â”œâ”€â”€	model.py  
+            â”œâ”€â”€	pandas_data.py  
+            â”œâ”€â”€	q_control.py  
+            â”œâ”€â”€	spark_data.py  
+            â”œâ”€â”€	utils.py  
+            â”œâ”€â”€	VFM_Main.ipynb  
+            â””â”€â”€	visualization.py  
+        ``` 
+        
+        
+        If you are concerned about Unicode characters you can use ASCII to build the structures, so your example structure becomes
+        
+        .
+        +-- _config.yml
+        +-- _drafts
+        |   +-- begin-with-the-crazy-ideas.textile
+        |   +-- on-simplicity-in-technology.markdown
+        +-- _includes
+        |   +-- footer.html
+        |   +-- header.html
+        +-- _layouts
+        |   +-- default.html
+        |   +-- post.html
+        +-- _posts
+        |   +-- 2007-10-29-why-every-programmer-should-play-nethack.textile
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
