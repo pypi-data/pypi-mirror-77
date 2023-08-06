@@ -1,0 +1,10 @@
+logging_nice_handlers/__init__.py,sha256=2UfKG_OFxbob4rrwVhKP-L3dyv7mDmAEfFTuBtN53pU,294
+logging_nice_handlers/all_level_file_handler.py,sha256=0uOAjVgPQobaCznsuvq2Ha6DavpISnl-h1TvlpZp10M,2278
+logging_nice_handlers/filters.py,sha256=rKnqc6fWLyOFc1KtLWF09gMBNEw-Ciwr738UnRvbW3c,313
+logging_nice_handlers/jupyter_stream_handler.py,sha256=HNdxoHviYAHblfWpXLuBI6JbrqqtZjrnp3rOIgKnge8,1850
+logging_nice_handlers-0.0.1.dist-info/AUTHORS.rst,sha256=pU2HiW9s3JktE6fcauz1lCDoAlpy_SIIHokfKkpdT60,280
+logging_nice_handlers-0.0.1.dist-info/LICENSE.txt,sha256=a8MTW3v1xhtFrLD0_37pb2j89NzH1NRidGc6U-IFdx0,1097
+logging_nice_handlers-0.0.1.dist-info/METADATA,sha256=cMF-6R2IkCToef5RZeeDZyQ1JqlzwGHGWOWIc960ItU,1434
+logging_nice_handlers-0.0.1.dist-info/WHEEL,sha256=JZXtYepZFsf4IoivNpnSgKIc4qTHan08DRd56koo_DM,116
+logging_nice_handlers-0.0.1.dist-info/top_level.txt,sha256=5Euhqplj5VZV7JlFScSHE-XjoF4Wk7tDU-Sg0ainPhI,22
+logging_nice_handlers-0.0.1.dist-info/RECORD,,
