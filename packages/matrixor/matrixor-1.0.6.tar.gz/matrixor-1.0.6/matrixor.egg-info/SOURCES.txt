@@ -1,0 +1,11 @@
+README.md
+setup.py
+matrixor/__init__.py
+matrixor/main.py
+matrixor.egg-info/PKG-INFO
+matrixor.egg-info/SOURCES.txt
+matrixor.egg-info/dependency_links.txt
+matrixor.egg-info/entry_points.txt
+matrixor.egg-info/not-zip-safe
+matrixor.egg-info/requires.txt
+matrixor.egg-info/top_level.txt
