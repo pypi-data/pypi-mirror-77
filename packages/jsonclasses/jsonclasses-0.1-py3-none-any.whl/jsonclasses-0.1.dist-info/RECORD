@@ -1,0 +1,11 @@
+jsonclasses/__init__.py,sha256=IaLdfiWmnnODcqQynvHV8zhLRoDlZ-P4H_v8Y3jStMY,191
+jsonclasses/json_encoder.py,sha256=i3jnRVEjf_dEAuXmKp3EvN2Z9pXv3jHVJ4DtrbtqNoE,266
+jsonclasses/json_object.py,sha256=No_j2-4FDf9e0rtZXcyw1fVemkuHmBTzbFA3nkGiBqw,1330
+jsonclasses/jsonclass.py,sha256=67-sZ48k-NUqJZwwoy59eSQpIL41AlrwW2AnUJgPezs,1360
+jsonclasses/persistable_json_object.py,sha256=OnBm3wA_M0pMpQ-CUxSir_4GvkPC25PBqqWl7DjHdew,416
+jsonclasses/types.py,sha256=MJD9aL-LzW3U9Cgn9ComMfJGF5D2lRuJ7MnY8EjCo54,1829
+jsonclasses-0.1.dist-info/LICENSE,sha256=LKdmwOguMQFkaTCc-lzbVYubCDvMZplEequjOaWFdLw,1077
+jsonclasses-0.1.dist-info/METADATA,sha256=KPNBlH1YTDRcTKpUpNzIMdhzVSVeoxht3-E_zS1-v6Q,417
+jsonclasses-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+jsonclasses-0.1.dist-info/top_level.txt,sha256=nUzoQD5FSesgMgggJKOMXSkcTMe4nQ2as-jr-HOWJk8,12
+jsonclasses-0.1.dist-info/RECORD,,

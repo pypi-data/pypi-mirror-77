@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jsonclasses
+Version: 0.1
+Summary: Python dataclass & json interchangeable.
+Home-page: https://github.com/Wiosoft-Crafts/jsonclasses
+Author: Wiosoft Crafts
+Author-email: wiosoftvictor@163.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: inflection (<1.0.0,>=0.5.1)
+
+# jsonclasses
+Python dataclass &amp; json interchangeable
+
+
