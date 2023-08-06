@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: py-semver
+Version: 0.0.1
+Summary: A basic semver generator using conventional commit messages.
+Home-page: https://github.com/abnvanand/py-semver
+Author: Abhinav Anand
+Author-email: abnvanand@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Environment :: Console
+Description-Content-Type: text/markdown
+
+# A little script to automatically generate next sem ver.
+Relies on [conventional commits](https://www.conventionalcommits.org/en/) 
+to generate [semantic versions](https://semver.org/).
+
