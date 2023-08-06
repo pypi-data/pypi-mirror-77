@@ -1,0 +1,10 @@
+README.md
+setup.py
+gls_api_client/__init__.py
+gls_api_client/client.py
+gls_api_client/resources.py
+gls_api_client/utils.py
+gls_api_client.egg-info/PKG-INFO
+gls_api_client.egg-info/SOURCES.txt
+gls_api_client.egg-info/dependency_links.txt
+gls_api_client.egg-info/top_level.txt
