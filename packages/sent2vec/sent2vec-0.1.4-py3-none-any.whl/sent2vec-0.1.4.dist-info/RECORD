@@ -1,0 +1,8 @@
+sent2vec/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sent2vec/test_vectorizer.py,sha256=gFTux6otEW7r1sOTJtVrATgOBxEgutky1z25_AHIXMs,2349
+sent2vec/vectorizer.py,sha256=m8dSHZyt-rvCZ_FM-iOEJekD-SqC-SIKbWG6cWD9LCE,2619
+sent2vec-0.1.4.dist-info/METADATA,sha256=cI2FA_joGGyP5XgDHkHvLNF1tLKNfB_L9UpyuZbEp2k,3628
+sent2vec-0.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sent2vec-0.1.4.dist-info/entry_points.txt,sha256=uWbwQK_MzY--DTOrb_g0fEJU7eailt2BNlOjVmV_RCg,51
+sent2vec-0.1.4.dist-info/top_level.txt,sha256=Mr4dCVLUn5AOszhuT1e81YKe8645_QM0aM1VPe2iZWg,9
+sent2vec-0.1.4.dist-info/RECORD,,
