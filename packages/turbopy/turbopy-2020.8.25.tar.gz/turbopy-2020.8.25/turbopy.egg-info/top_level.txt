@@ -1,0 +1,7 @@
+build
+default_output
+dist
+docs
+tests
+tmp
+turbopy
