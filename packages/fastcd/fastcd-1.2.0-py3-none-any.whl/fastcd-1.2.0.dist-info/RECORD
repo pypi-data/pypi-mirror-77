@@ -1,0 +1,16 @@
+fastcd/__init__.py,sha256=U3f_Jgr3zpgiYG2kLcvcT05TQsVzN9Kktg_f3Q9OZFA,22
+fastcd/__main__.py,sha256=5Ckj8l2POM6BpFaUpknRKx2hL_TL-TG6oI8VJ99PbMU,119
+fastcd/config.json,sha256=a8fC1EI5Vocv6ctv2QN-PhulLYnek4G6B2rilkKcuEM,2500
+fastcd/fastcd_hook,sha256=vsmlTKT3klFWOajtkcLes4LDqVSmFQ92Chqqvrb-4as,837
+fastcd/fastcd_hook.sh,sha256=AjxDZXQXqfPLIHYaUgZan95GP3MZ-NyCvGl1hp4vu2g,883
+fastcd/jumper.py,sha256=4SMpqzM-MPPq56uW_eEr-5ELWse-Zb71izMGcbxuVqU,28492
+fastcd/key_picker.py,sha256=UhvXFr0pFGwi5vn6YTWLOtPEQe0NG3CE3KvGPxc03gw,320
+fastcd/search.py,sha256=pxvJ4CbBgzSotzlGMefaD50uSxOH8VJT-C8GRWgCR4g,16425
+fastcd/util.py,sha256=U55dsF_J21bJINBUjMtVtzLK9JmUeNpj8GzeLAefNI8,5129
+fastcd-1.2.0.data/scripts/fastcd,sha256=ifRN9Sb-aDxQFbuvncdGRsbgswE9W0S2x2NN_JXziBk,47
+fastcd-1.2.0.data/scripts/shell_hook.sh,sha256=PrmqdnGObpovlAWDyJ1hIBfUFjpcZ8ea7xQ9hCUgrj0,1073
+fastcd-1.2.0.dist-info/LICENSE,sha256=pF0LtXLteS7TRienJiGDSzupKqtuLMTgQwHe56co11M,18027
+fastcd-1.2.0.dist-info/METADATA,sha256=V1sT8lMZz0njToYUpQusiOlXyTPHSu_Fsgaa15DdU4I,4534
+fastcd-1.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+fastcd-1.2.0.dist-info/top_level.txt,sha256=Hnh7t2OxuBz1uzLKdllxVQIpvTmnL8igEZkilZA6Fic,7
+fastcd-1.2.0.dist-info/RECORD,,
