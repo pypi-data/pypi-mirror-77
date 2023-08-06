@@ -1,0 +1,9 @@
+eurostat_deaths/__init__.py,sha256=TR51zEicrux2QQvT-EOkSZ5VCcliFX2crTsV0yaeAic,341
+eurostat_deaths/cache.py,sha256=zkY74d94ihbyuBOthdwkzI0cO5aUcL4pYR0brvYKSiE,190
+eurostat_deaths/deaths.py,sha256=0mdgONdVoSo_TQLcv8IkqtqKrD6OzjISDqLUsB2sCpk,4896
+eurostat_deaths/populations.py,sha256=D1cq5gYFMgISSHxDNfc39xQg8tALSm2C3d16cyP5es4,2389
+eurostat_deaths-0.1.0.dist-info/LICENSE,sha256=bGLaVeGYv0kbEdzrbRRFS0Wsw9EngDp3Y7_h-leZiYw,1090
+eurostat_deaths-0.1.0.dist-info/METADATA,sha256=HEW-T9YIyAdL5hxy73YBoNXeErDmKcwrr7Qrku_YRow,3793
+eurostat_deaths-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+eurostat_deaths-0.1.0.dist-info/top_level.txt,sha256=8GXGw70LmpGptR0krrsBTQD_K0zkZ_OgKfeYk_t46GY,16
+eurostat_deaths-0.1.0.dist-info/RECORD,,
