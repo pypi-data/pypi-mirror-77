@@ -1,0 +1,7 @@
+argon2_cffi
+epsilon>=0.7.0
+twisted[tls]>=13.2.0
+txpasslib
+
+[test]
+hypothesis[datetime]<3.0.0,>=2.0.0
