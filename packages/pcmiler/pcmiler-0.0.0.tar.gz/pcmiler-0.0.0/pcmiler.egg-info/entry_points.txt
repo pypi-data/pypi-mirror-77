@@ -1,0 +1,3 @@
+[console_scripts]
+pcmiler = pcmiler.main:main
+
