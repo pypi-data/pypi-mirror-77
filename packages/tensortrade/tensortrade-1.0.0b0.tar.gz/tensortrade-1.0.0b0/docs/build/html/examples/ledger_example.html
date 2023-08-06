@@ -1,0 +1,405 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Ledger Example &mdash; TensorTrade 1.0.0-beta documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "ignoreClass": "document", "processClass": "math|output_area"}})</script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Using Ray with TensorTrade" href="../tutorials/ray.html" />
+    <link rel="prev" title="Stochastic Data" href="use_stochastic_data.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo.jpg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Home</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../overview/getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/getting_started.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/getting_started.html#docker">Docker</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Examples</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Code Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="setup_environment_tutorial.html">Setup Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="train_and_evaluate.html">Train and Evaluate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="renderers_and_plotly_chart.html">Renderers and Plotly Chart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="use_stochastic_data.html">Stochastic Data</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Ledger Example</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/ray.html">Using Ray with TensorTrade</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Components</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../components/components.html">Components</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/action_scheme.html">Action Scheme</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/reward_scheme.html">Reward Scheme</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/observer.html">Observer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/observer.html#default">Default</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/stopper.html">Stopper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/informer.html">Informer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/renderer.html">Renderer</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Environments</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../envs/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../envs/overview.html#what-if-i-can-t-make-a-particular-environment">What if I can’t make a particular environment?</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Feed</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html#what-is-a-stream">What is a <code class="docutils literal notranslate"><span class="pre">Stream</span></code>?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html#using-data-types">Using Data Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html#advanced-usages">Advanced Usages</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Order Management System</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../oms/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oms/overview.html#portfolio">Portfolio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oms/overview.html#orders">Orders</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Agents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html#ray">Ray</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html#stable-baselines">Stable Baselines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html#tensorforce">Tensorforce</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../api/modules.html">API reference</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">TensorTrade</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Ledger Example</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/examples/ledger_example.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="section" id="ledger-example">
+<h1>Ledger Example<a class="headerlink" href="#ledger-example" title="Permalink to this headline">¶</a></h1>
+<p><br><strong>Install master branch of TensorTrade</strong><br></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>!pip install git+https://github.com/tensortrade-org/tensortrade.git -U
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">tensortrade.env.default</span> <span class="k">as</span> <span class="nn">default</span>
+
+<span class="kn">from</span> <span class="nn">tensortrade.feed.core</span> <span class="kn">import</span> <span class="n">Stream</span><span class="p">,</span> <span class="n">DataFeed</span>
+<span class="kn">from</span> <span class="nn">tensortrade.data.cdd</span> <span class="kn">import</span> <span class="n">CryptoDataDownload</span>
+<span class="kn">from</span> <span class="nn">tensortrade.oms.wallets</span> <span class="kn">import</span> <span class="n">Portfolio</span><span class="p">,</span> <span class="n">Wallet</span>
+<span class="kn">from</span> <span class="nn">tensortrade.oms.exchanges</span> <span class="kn">import</span> <span class="n">Exchange</span>
+<span class="kn">from</span> <span class="nn">tensortrade.oms.services.execution.simulated</span> <span class="kn">import</span> <span class="n">execute_order</span>
+<span class="kn">from</span> <span class="nn">tensortrade.oms.instruments</span> <span class="kn">import</span> <span class="n">USD</span><span class="p">,</span> <span class="n">BTC</span><span class="p">,</span> <span class="n">ETH</span><span class="p">,</span> <span class="n">LTC</span>
+</pre></div>
+</div>
+<p><br><strong>Load Data for Exchanges</strong><br></p>
+<p>Using the <code class="docutils literal notranslate"><span class="pre">tensortrade.data.cdd</span></code> module you can load data from any <code class="docutils literal notranslate"><span class="pre">csv</span></code> file provided at:</p>
+<ul class="simple">
+<li><p>https://www.cryptodatadownload.com/data/northamerican/</p></li>
+</ul>
+<p>using the <code class="docutils literal notranslate"><span class="pre">CryptoDataDownload</span></code> class.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdd</span> <span class="o">=</span> <span class="n">CryptoDataDownload</span><span class="p">()</span>
+<span class="n">coinbase_btc</span> <span class="o">=</span> <span class="n">cdd</span><span class="o">.</span><span class="n">fetch</span><span class="p">(</span><span class="s2">&quot;Coinbase&quot;</span><span class="p">,</span> <span class="s2">&quot;USD&quot;</span><span class="p">,</span> <span class="s2">&quot;BTC&quot;</span><span class="p">,</span> <span class="s2">&quot;1h&quot;</span><span class="p">)</span>
+<span class="n">coinbase_eth</span> <span class="o">=</span> <span class="n">cdd</span><span class="o">.</span><span class="n">fetch</span><span class="p">(</span><span class="s2">&quot;Coinbase&quot;</span><span class="p">,</span> <span class="s2">&quot;USD&quot;</span><span class="p">,</span> <span class="s2">&quot;ETH&quot;</span><span class="p">,</span> <span class="s2">&quot;1h&quot;</span><span class="p">)</span>
+
+<span class="n">bitstamp_btc</span> <span class="o">=</span> <span class="n">cdd</span><span class="o">.</span><span class="n">fetch</span><span class="p">(</span><span class="s2">&quot;Bitstamp&quot;</span><span class="p">,</span> <span class="s2">&quot;USD&quot;</span><span class="p">,</span> <span class="s2">&quot;BTC&quot;</span><span class="p">,</span> <span class="s2">&quot;1h&quot;</span><span class="p">)</span>
+<span class="n">bitstamp_eth</span> <span class="o">=</span> <span class="n">cdd</span><span class="o">.</span><span class="n">fetch</span><span class="p">(</span><span class="s2">&quot;Bitstamp&quot;</span><span class="p">,</span> <span class="s2">&quot;USD&quot;</span><span class="p">,</span> <span class="s2">&quot;ETH&quot;</span><span class="p">,</span> <span class="s2">&quot;1h&quot;</span><span class="p">)</span>
+<span class="n">bitstamp_ltc</span> <span class="o">=</span> <span class="n">cdd</span><span class="o">.</span><span class="n">fetch</span><span class="p">(</span><span class="s2">&quot;Bitstamp&quot;</span><span class="p">,</span> <span class="s2">&quot;USD&quot;</span><span class="p">,</span> <span class="s2">&quot;LTC&quot;</span><span class="p">,</span> <span class="s2">&quot;1h&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><br><strong>Inspect Transactions</strong><br></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">coinbase</span> <span class="o">=</span> <span class="n">Exchange</span><span class="p">(</span><span class="s2">&quot;coinbase&quot;</span><span class="p">,</span> <span class="n">service</span><span class="o">=</span><span class="n">execute_order</span><span class="p">)(</span>
+    <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">coinbase_btc</span><span class="p">[</span><span class="s1">&#39;close&#39;</span><span class="p">][</span><span class="o">-</span><span class="mi">100</span><span class="p">:]),</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;USD-BTC&quot;</span><span class="p">),</span>
+    <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">coinbase_eth</span><span class="p">[</span><span class="s1">&#39;close&#39;</span><span class="p">][</span><span class="o">-</span><span class="mi">100</span><span class="p">:]),</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;USD-ETH&quot;</span><span class="p">)</span>
+<span class="p">)</span>
+
+<span class="n">bitstamp</span> <span class="o">=</span> <span class="n">Exchange</span><span class="p">(</span><span class="s2">&quot;bitstamp&quot;</span><span class="p">,</span> <span class="n">service</span><span class="o">=</span><span class="n">execute_order</span><span class="p">)(</span>
+    <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">bitstamp_btc</span><span class="p">[</span><span class="s1">&#39;close&#39;</span><span class="p">][</span><span class="o">-</span><span class="mi">100</span><span class="p">:]),</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;USD-BTC&quot;</span><span class="p">),</span>
+    <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">bitstamp_eth</span><span class="p">[</span><span class="s1">&#39;close&#39;</span><span class="p">][</span><span class="o">-</span><span class="mi">100</span><span class="p">:]),</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;USD-ETH&quot;</span><span class="p">),</span>
+    <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">bitstamp_ltc</span><span class="p">[</span><span class="s1">&#39;close&#39;</span><span class="p">][</span><span class="o">-</span><span class="mi">100</span><span class="p">:]),</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;USD-LTC&quot;</span><span class="p">)</span>
+<span class="p">)</span>
+
+<span class="n">portfolio</span> <span class="o">=</span> <span class="n">Portfolio</span><span class="p">(</span><span class="n">USD</span><span class="p">,</span> <span class="p">[</span>
+    <span class="n">Wallet</span><span class="p">(</span><span class="n">coinbase</span><span class="p">,</span> <span class="mi">10000</span> <span class="o">*</span> <span class="n">USD</span><span class="p">),</span>
+    <span class="n">Wallet</span><span class="p">(</span><span class="n">coinbase</span><span class="p">,</span> <span class="mi">10</span> <span class="o">*</span> <span class="n">BTC</span><span class="p">),</span>
+    <span class="n">Wallet</span><span class="p">(</span><span class="n">coinbase</span><span class="p">,</span> <span class="mi">5</span> <span class="o">*</span> <span class="n">ETH</span><span class="p">),</span>
+    <span class="n">Wallet</span><span class="p">(</span><span class="n">bitstamp</span><span class="p">,</span> <span class="mi">1000</span> <span class="o">*</span> <span class="n">USD</span><span class="p">),</span>
+    <span class="n">Wallet</span><span class="p">(</span><span class="n">bitstamp</span><span class="p">,</span> <span class="mi">5</span> <span class="o">*</span> <span class="n">BTC</span><span class="p">),</span>
+    <span class="n">Wallet</span><span class="p">(</span><span class="n">bitstamp</span><span class="p">,</span> <span class="mi">20</span> <span class="o">*</span> <span class="n">ETH</span><span class="p">),</span>
+    <span class="n">Wallet</span><span class="p">(</span><span class="n">bitstamp</span><span class="p">,</span> <span class="mi">3</span> <span class="o">*</span> <span class="n">LTC</span><span class="p">)</span>
+<span class="p">])</span>
+
+<span class="n">feed</span> <span class="o">=</span> <span class="n">DataFeed</span><span class="p">([</span>
+    <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">bitstamp_eth</span><span class="p">[</span><span class="s1">&#39;volume&#39;</span><span class="p">][</span><span class="o">-</span><span class="mi">100</span><span class="p">:]),</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;volume:/USD-ETH&quot;</span><span class="p">),</span>
+    <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">bitstamp_ltc</span><span class="p">[</span><span class="s1">&#39;volume&#39;</span><span class="p">][</span><span class="o">-</span><span class="mi">100</span><span class="p">:]),</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;volume:/USD-LTC&quot;</span><span class="p">)</span>
+<span class="p">])</span>
+
+<span class="n">env</span> <span class="o">=</span> <span class="n">default</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="n">portfolio</span><span class="o">=</span><span class="n">portfolio</span><span class="p">,</span>
+    <span class="n">action_scheme</span><span class="o">=</span><span class="n">default</span><span class="o">.</span><span class="n">actions</span><span class="o">.</span><span class="n">SimpleOrders</span><span class="p">(),</span>
+    <span class="n">reward_scheme</span><span class="o">=</span><span class="n">default</span><span class="o">.</span><span class="n">rewards</span><span class="o">.</span><span class="n">SimpleProfit</span><span class="p">(),</span>
+    <span class="n">feed</span><span class="o">=</span><span class="n">feed</span>
+<span class="p">)</span>
+
+<span class="n">done</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="n">obs</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+<span class="k">while</span> <span class="ow">not</span> <span class="n">done</span><span class="p">:</span>
+    <span class="n">action</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">action_space</span><span class="o">.</span><span class="n">sample</span><span class="p">()</span>
+    <span class="n">obs</span><span class="p">,</span> <span class="n">reward</span><span class="p">,</span> <span class="n">done</span><span class="p">,</span> <span class="n">info</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">step</span><span class="p">(</span><span class="n">action</span><span class="p">)</span>
+
+<span class="n">portfolio</span><span class="o">.</span><span class="n">ledger</span><span class="o">.</span><span class="n">as_frame</span><span class="p">()</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><br><strong>Inspect Transactions of ManagedRiskOrders</strong><br></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">portfolio</span> <span class="o">=</span> <span class="n">Portfolio</span><span class="p">(</span><span class="n">USD</span><span class="p">,</span> <span class="p">[</span>
+    <span class="n">Wallet</span><span class="p">(</span><span class="n">coinbase</span><span class="p">,</span> <span class="mi">10000</span> <span class="o">*</span> <span class="n">USD</span><span class="p">),</span>
+    <span class="n">Wallet</span><span class="p">(</span><span class="n">coinbase</span><span class="p">,</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">BTC</span><span class="p">),</span>
+    <span class="n">Wallet</span><span class="p">(</span><span class="n">coinbase</span><span class="p">,</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">ETH</span><span class="p">),</span>
+<span class="p">])</span>
+
+<span class="n">env</span> <span class="o">=</span> <span class="n">default</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="n">portfolio</span><span class="o">=</span><span class="n">portfolio</span><span class="p">,</span>
+    <span class="n">action_scheme</span><span class="o">=</span><span class="n">default</span><span class="o">.</span><span class="n">actions</span><span class="o">.</span><span class="n">ManagedRiskOrders</span><span class="p">(),</span>
+    <span class="n">reward_scheme</span><span class="o">=</span><span class="n">default</span><span class="o">.</span><span class="n">rewards</span><span class="o">.</span><span class="n">SimpleProfit</span><span class="p">(),</span>
+    <span class="n">feed</span><span class="o">=</span><span class="n">feed</span>
+<span class="p">)</span>
+
+<span class="n">done</span> <span class="o">=</span> <span class="kc">False</span>
+
+<span class="k">while</span> <span class="ow">not</span> <span class="n">done</span><span class="p">:</span>
+    <span class="n">action</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">action_space</span><span class="o">.</span><span class="n">sample</span><span class="p">()</span>
+    <span class="n">obs</span><span class="p">,</span> <span class="n">reward</span><span class="p">,</span> <span class="n">done</span><span class="p">,</span> <span class="n">info</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">step</span><span class="p">(</span><span class="n">action</span><span class="p">)</span>
+
+<span class="n">portfolio</span><span class="o">.</span><span class="n">ledger</span><span class="o">.</span><span class="n">as_frame</span><span class="p">()</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><br><strong>Transactions in Spreadsheets</strong><br></p>
+<p>To take a closer look at the transactions that are happening within the system, copy the transactions to a csv file and load it into any spreadsheet software. If where you are running this allows access to the system clipboard, you can directly copy the frame to your system clipboard by doing the following:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">portfolio.ledger.as_frame().to_clipboard(index=False)</span></code></p></li>
+</ul>
+<p>Then just paste into any spreadsheet software (e.g. Execel, Google Sheets).</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../tutorials/ray.html" class="btn btn-neutral float-right" title="Using Ray with TensorTrade" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="use_stochastic_data.html" class="btn btn-neutral float-left" title="Stochastic Data" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

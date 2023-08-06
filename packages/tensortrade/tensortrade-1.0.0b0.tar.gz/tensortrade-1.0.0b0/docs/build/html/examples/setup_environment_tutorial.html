@@ -1,0 +1,734 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Setup Environment &mdash; TensorTrade 1.0.0-beta documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "ignoreClass": "document", "processClass": "math|output_area"}})</script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Train and Evaluate" href="train_and_evaluate.html" />
+    <link rel="prev" title="Code Structure" href="overview.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo.jpg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Home</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../overview/getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/getting_started.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/getting_started.html#docker">Docker</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Examples</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Code Structure</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Setup Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="train_and_evaluate.html">Train and Evaluate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="renderers_and_plotly_chart.html">Renderers and Plotly Chart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="use_stochastic_data.html">Stochastic Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ledger_example.html">Ledger Example</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/ray.html">Using Ray with TensorTrade</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Components</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../components/components.html">Components</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/action_scheme.html">Action Scheme</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/reward_scheme.html">Reward Scheme</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/observer.html">Observer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/observer.html#default">Default</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/stopper.html">Stopper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/informer.html">Informer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/renderer.html">Renderer</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Environments</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../envs/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../envs/overview.html#what-if-i-can-t-make-a-particular-environment">What if I can’t make a particular environment?</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Feed</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html#what-is-a-stream">What is a <code class="docutils literal notranslate"><span class="pre">Stream</span></code>?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html#using-data-types">Using Data Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html#advanced-usages">Advanced Usages</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Order Management System</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../oms/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oms/overview.html#portfolio">Portfolio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oms/overview.html#orders">Orders</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Agents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html#ray">Ray</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html#stable-baselines">Stable Baselines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html#tensorforce">Tensorforce</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../api/modules.html">API reference</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">TensorTrade</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Setup Environment</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/examples/setup_environment_tutorial.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="section" id="setup-environment">
+<h1>Setup Environment<a class="headerlink" href="#setup-environment" title="Permalink to this headline">¶</a></h1>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ta</span>
+
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">tensortrade.env.default</span> <span class="k">as</span> <span class="nn">default</span>
+
+<span class="kn">from</span> <span class="nn">tensortrade.data.cdd</span> <span class="kn">import</span> <span class="n">CryptoDataDownload</span>
+<span class="kn">from</span> <span class="nn">tensortrade.feed.core</span> <span class="kn">import</span> <span class="n">Stream</span><span class="p">,</span> <span class="n">DataFeed</span><span class="p">,</span> <span class="n">NameSpace</span>
+<span class="kn">from</span> <span class="nn">tensortrade.oms.instruments</span> <span class="kn">import</span> <span class="n">USD</span><span class="p">,</span> <span class="n">BTC</span><span class="p">,</span> <span class="n">ETH</span><span class="p">,</span> <span class="n">LTC</span>
+<span class="kn">from</span> <span class="nn">tensortrade.oms.wallets</span> <span class="kn">import</span> <span class="n">Wallet</span><span class="p">,</span> <span class="n">Portfolio</span>
+<span class="kn">from</span> <span class="nn">tensortrade.oms.exchanges</span> <span class="kn">import</span> <span class="n">Exchange</span>
+<span class="kn">from</span> <span class="nn">tensortrade.oms.services.execution.simulated</span> <span class="kn">import</span> <span class="n">execute_order</span>
+</pre></div>
+</div>
+<p><br><strong>Fetch Historical Data</strong><br></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdd</span> <span class="o">=</span> <span class="n">CryptoDataDownload</span><span class="p">()</span>
+
+<span class="n">coinbase_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span>
+    <span class="n">cdd</span><span class="o">.</span><span class="n">fetch</span><span class="p">(</span><span class="s2">&quot;Coinbase&quot;</span><span class="p">,</span> <span class="s2">&quot;USD&quot;</span><span class="p">,</span> <span class="s2">&quot;BTC&quot;</span><span class="p">,</span> <span class="s2">&quot;1h&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">add_prefix</span><span class="p">(</span><span class="s2">&quot;BTC:&quot;</span><span class="p">),</span>
+    <span class="n">cdd</span><span class="o">.</span><span class="n">fetch</span><span class="p">(</span><span class="s2">&quot;Coinbase&quot;</span><span class="p">,</span> <span class="s2">&quot;USD&quot;</span><span class="p">,</span> <span class="s2">&quot;ETH&quot;</span><span class="p">,</span> <span class="s2">&quot;1h&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">add_prefix</span><span class="p">(</span><span class="s2">&quot;ETH:&quot;</span><span class="p">)</span>
+<span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="n">bitstamp_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span>
+    <span class="n">cdd</span><span class="o">.</span><span class="n">fetch</span><span class="p">(</span><span class="s2">&quot;Bitstamp&quot;</span><span class="p">,</span> <span class="s2">&quot;USD&quot;</span><span class="p">,</span> <span class="s2">&quot;BTC&quot;</span><span class="p">,</span> <span class="s2">&quot;1h&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">add_prefix</span><span class="p">(</span><span class="s2">&quot;BTC:&quot;</span><span class="p">),</span>
+    <span class="n">cdd</span><span class="o">.</span><span class="n">fetch</span><span class="p">(</span><span class="s2">&quot;Bitstamp&quot;</span><span class="p">,</span> <span class="s2">&quot;USD&quot;</span><span class="p">,</span> <span class="s2">&quot;LTC&quot;</span><span class="p">,</span> <span class="s2">&quot;1h&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">add_prefix</span><span class="p">(</span><span class="s2">&quot;LTC:&quot;</span><span class="p">)</span>
+<span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><br><strong>Define Exchanges</strong><br></p>
+<p>An exchange needs a name, an execution service, and streams of price data in order to function properly.</p>
+<p>The setups supported right now are the simulated execution service using simulated or stochastic data. More execution services will be made available in the future, as well as price streams so that live data and execution can be supported.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">coinbase</span> <span class="o">=</span> <span class="n">Exchange</span><span class="p">(</span><span class="s2">&quot;coinbase&quot;</span><span class="p">,</span> <span class="n">service</span><span class="o">=</span><span class="n">execute_order</span><span class="p">)(</span>
+    <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">coinbase_data</span><span class="p">[</span><span class="s1">&#39;BTC:close&#39;</span><span class="p">]),</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;USD-BTC&quot;</span><span class="p">),</span>
+    <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">coinbase_data</span><span class="p">[</span><span class="s1">&#39;ETH:close&#39;</span><span class="p">]),</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;USD-ETH&quot;</span><span class="p">)</span>
+<span class="p">)</span>
+
+<span class="n">bitstamp</span> <span class="o">=</span> <span class="n">Exchange</span><span class="p">(</span><span class="s2">&quot;bitstamp&quot;</span><span class="p">,</span> <span class="n">service</span><span class="o">=</span><span class="n">execute_order</span><span class="p">)(</span>
+    <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">bitstamp_data</span><span class="p">[</span><span class="s1">&#39;BTC:close&#39;</span><span class="p">]),</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;USD-BTC&quot;</span><span class="p">),</span>
+    <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">bitstamp_data</span><span class="p">[</span><span class="s1">&#39;LTC:close&#39;</span><span class="p">]),</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;USD-LTC&quot;</span><span class="p">)</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>Now that the exchanges have been defined we can define our features that we would like to include, excluding the prices we have provided for the exchanges.</p>
+<p><br><strong>Define External Data Feed</strong><br></p>
+<p>Here we will define the feed to use whatever data you would like. From financial indicators to alternative datasets, they will all have to be defined and incorporated into the <code class="docutils literal notranslate"><span class="pre">DataFeed</span></code> provided to the environment.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Add all features for bitstamp BTC &amp; ETH</span>
+<span class="n">coinbase_btc</span> <span class="o">=</span> <span class="n">coinbase_data</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="n">name</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;BTC&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">coinbase_data</span><span class="o">.</span><span class="n">columns</span><span class="p">]]</span>
+<span class="n">coinbase_eth</span> <span class="o">=</span> <span class="n">coinbase_data</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="n">name</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;ETH&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">coinbase_data</span><span class="o">.</span><span class="n">columns</span><span class="p">]]</span>
+
+<span class="n">ta</span><span class="o">.</span><span class="n">add_all_ta_features</span><span class="p">(</span>
+    <span class="n">coinbase_btc</span><span class="p">,</span>
+    <span class="n">colprefix</span><span class="o">=</span><span class="s2">&quot;BTC:&quot;</span><span class="p">,</span>
+    <span class="o">**</span><span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="s2">&quot;BTC:&quot;</span> <span class="o">+</span> <span class="n">k</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;open&#39;</span><span class="p">,</span> <span class="s1">&#39;high&#39;</span><span class="p">,</span> <span class="s1">&#39;low&#39;</span><span class="p">,</span> <span class="s1">&#39;close&#39;</span><span class="p">,</span> <span class="s1">&#39;volume&#39;</span><span class="p">]}</span>
+<span class="p">)</span>
+
+
+<span class="k">with</span> <span class="n">NameSpace</span><span class="p">(</span><span class="s2">&quot;coinbase&quot;</span><span class="p">):</span>
+    <span class="n">coinbase_streams</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">coinbase_btc</span><span class="p">[</span><span class="n">c</span><span class="p">]),</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">coinbase_btc</span><span class="o">.</span><span class="n">columns</span>
+    <span class="p">]</span>
+    <span class="n">coinbase_streams</span> <span class="o">+=</span> <span class="p">[</span>
+        <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">coinbase_eth</span><span class="p">[</span><span class="n">c</span><span class="p">]),</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">coinbase_eth</span><span class="o">.</span><span class="n">columns</span>
+    <span class="p">]</span>
+
+
+<span class="c1"># Add all features for bitstamp BTC &amp; LTC</span>
+<span class="n">bitstamp_btc</span> <span class="o">=</span> <span class="n">bitstamp_data</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="n">name</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;BTC&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">bitstamp_data</span><span class="o">.</span><span class="n">columns</span><span class="p">]]</span>  
+<span class="n">bitstamp_ltc</span> <span class="o">=</span> <span class="n">bitstamp_data</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="n">name</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;LTC&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">bitstamp_data</span><span class="o">.</span><span class="n">columns</span><span class="p">]]</span>
+
+<span class="n">ta</span><span class="o">.</span><span class="n">add_all_ta_features</span><span class="p">(</span>
+    <span class="n">bitstamp_ltc</span><span class="p">,</span>
+    <span class="n">colprefix</span><span class="o">=</span><span class="s2">&quot;LTC:&quot;</span><span class="p">,</span>
+    <span class="o">**</span><span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="s2">&quot;LTC:&quot;</span> <span class="o">+</span> <span class="n">k</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;open&#39;</span><span class="p">,</span> <span class="s1">&#39;high&#39;</span><span class="p">,</span> <span class="s1">&#39;low&#39;</span><span class="p">,</span> <span class="s1">&#39;close&#39;</span><span class="p">,</span> <span class="s1">&#39;volume&#39;</span><span class="p">]}</span>
+<span class="p">)</span>
+
+<span class="k">with</span> <span class="n">NameSpace</span><span class="p">(</span><span class="s2">&quot;bitstamp&quot;</span><span class="p">):</span>
+    <span class="n">bitstamp_streams</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">bitstamp_btc</span><span class="p">[</span><span class="n">c</span><span class="p">]),</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">bitstamp_btc</span><span class="o">.</span><span class="n">columns</span>
+    <span class="p">]</span>
+    <span class="n">bitstamp_streams</span> <span class="o">+=</span> <span class="p">[</span>
+        <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">bitstamp_ltc</span><span class="p">[</span><span class="n">c</span><span class="p">]),</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">bitstamp_ltc</span><span class="o">.</span><span class="n">columns</span>
+    <span class="p">]</span>
+
+
+<span class="n">feed</span> <span class="o">=</span> <span class="n">DataFeed</span><span class="p">(</span><span class="n">coinbase_streams</span> <span class="o">+</span> <span class="n">bitstamp_streams</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">feed</span><span class="o">.</span><span class="n">next</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="s1">&#39;coinbase:/BTC:date&#39;</span><span class="p">:</span> <span class="n">Timestamp</span><span class="p">(</span><span class="s1">&#39;2017-07-01 11:00:00&#39;</span><span class="p">),</span>
+ <span class="s1">&#39;coinbase:/BTC:open&#39;</span><span class="p">:</span> <span class="mf">2505.56</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:high&#39;</span><span class="p">:</span> <span class="mf">2513.38</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:low&#39;</span><span class="p">:</span> <span class="mf">2495.12</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:close&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volume&#39;</span><span class="p">:</span> <span class="mf">287000.32</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volume_adi&#39;</span><span class="p">:</span> <span class="mf">462887.3781183644</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volume_obv&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volume_cmf&#39;</span><span class="p">:</span> <span class="mf">0.5388828039430464</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volume_fi&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volume_em&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volume_vpt&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">190920.02711825827</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volume_nvi&#39;</span><span class="p">:</span> <span class="mf">1000.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volatility_atr&#39;</span><span class="p">:</span> <span class="mf">85.51648155760596</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volatility_bbh&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volatility_bbl&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volatility_bbm&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volatility_bbhi&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volatility_bbli&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volatility_kcc&#39;</span><span class="p">:</span> <span class="mf">2505.89</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volatility_kch&#39;</span><span class="p">:</span> <span class="mf">2524.15</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volatility_kcl&#39;</span><span class="p">:</span> <span class="mf">2487.6299999999997</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volatility_kchi&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volatility_kcli&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volatility_dch&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volatility_dcl&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volatility_dchi&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:volatility_dcli&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_macd&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_macd_signal&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_macd_diff&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_ema_fast&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_ema_slow&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_adx&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_adx_pos&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_adx_neg&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_vortex_ind_pos&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_vortex_ind_neg&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_vortex_diff&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_trix&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_mass_index&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_cci&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_dpo&#39;</span><span class="p">:</span> <span class="mf">4963.073762705523</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_kst&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">664.2012654186367</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_kst_sig&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">664.2012654186367</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_kst_diff&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_ichimoku_a&#39;</span><span class="p">:</span> <span class="mf">2504.25</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_ichimoku_b&#39;</span><span class="p">:</span> <span class="mf">2504.25</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_visual_ichimoku_a&#39;</span><span class="p">:</span> <span class="mf">7460.129960014917</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_visual_ichimoku_b&#39;</span><span class="p">:</span> <span class="mf">7449.72498449202</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_aroon_up&#39;</span><span class="p">:</span> <span class="mf">4.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_aroon_down&#39;</span><span class="p">:</span> <span class="mf">4.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:trend_aroon_ind&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:momentum_rsi&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:momentum_mfi&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:momentum_tsi&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">100.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:momentum_uo&#39;</span><span class="p">:</span> <span class="mf">0.2822915537138003</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:momentum_stoch&#39;</span><span class="p">:</span> <span class="mf">76.94414019715232</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:momentum_stoch_signal&#39;</span><span class="p">:</span> <span class="mf">76.94414019715232</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:momentum_wr&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">23.055859802847678</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:momentum_ao&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:momentum_kama&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:others_dr&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">66.42012654186367</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:others_dlr&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/BTC:others_cr&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/ETH:date&#39;</span><span class="p">:</span> <span class="n">Timestamp</span><span class="p">(</span><span class="s1">&#39;2017-07-01 11:00:00&#39;</span><span class="p">),</span>
+ <span class="s1">&#39;coinbase:/ETH:open&#39;</span><span class="p">:</span> <span class="mf">279.98</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/ETH:high&#39;</span><span class="p">:</span> <span class="mf">279.99</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/ETH:low&#39;</span><span class="p">:</span> <span class="mf">272.1</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/ETH:close&#39;</span><span class="p">:</span> <span class="mf">275.01</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/ETH:volume&#39;</span><span class="p">:</span> <span class="mf">679358.87</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/BTC:date&#39;</span><span class="p">:</span> <span class="n">Timestamp</span><span class="p">(</span><span class="s1">&#39;2017-07-01 11:00:00&#39;</span><span class="p">),</span>
+ <span class="s1">&#39;bitstamp:/BTC:open&#39;</span><span class="p">:</span> <span class="mf">2506.5</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/BTC:high&#39;</span><span class="p">:</span> <span class="mf">2510.62</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/BTC:low&#39;</span><span class="p">:</span> <span class="mf">2495.5</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/BTC:close&#39;</span><span class="p">:</span> <span class="mf">2500.0</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/BTC:volume&#39;</span><span class="p">:</span> <span class="mf">521903.7</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:date&#39;</span><span class="p">:</span> <span class="n">Timestamp</span><span class="p">(</span><span class="s1">&#39;2017-07-01 11:00:00&#39;</span><span class="p">),</span>
+ <span class="s1">&#39;bitstamp:/LTC:open&#39;</span><span class="p">:</span> <span class="mf">39.67</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:high&#39;</span><span class="p">:</span> <span class="mf">39.67</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:low&#39;</span><span class="p">:</span> <span class="mf">39.32</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:close&#39;</span><span class="p">:</span> <span class="mf">39.45</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volume&#39;</span><span class="p">:</span> <span class="mf">1957.48</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volume_adi&#39;</span><span class="p">:</span> <span class="mf">5133.608444728016</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volume_obv&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volume_cmf&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">0.2571428571428455</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volume_fi&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volume_em&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volume_vpt&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">895.4321955984681</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volume_nvi&#39;</span><span class="p">:</span> <span class="mf">1000.0</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volatility_atr&#39;</span><span class="p">:</span> <span class="mf">1.4838450097847482</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volatility_bbh&#39;</span><span class="p">:</span> <span class="mf">39.45</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volatility_bbl&#39;</span><span class="p">:</span> <span class="mf">39.45</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volatility_bbm&#39;</span><span class="p">:</span> <span class="mf">39.45</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volatility_bbhi&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volatility_bbli&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volatility_kcc&#39;</span><span class="p">:</span> <span class="mf">39.480000000000004</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volatility_kch&#39;</span><span class="p">:</span> <span class="mf">39.830000000000005</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volatility_kcl&#39;</span><span class="p">:</span> <span class="mf">39.13</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volatility_kchi&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volatility_kcli&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volatility_dch&#39;</span><span class="p">:</span> <span class="mf">39.45</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volatility_dcl&#39;</span><span class="p">:</span> <span class="mf">39.45</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volatility_dchi&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:volatility_dcli&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_macd&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_macd_signal&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_macd_diff&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_ema_fast&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_ema_slow&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_adx&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_adx_pos&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_adx_neg&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_vortex_ind_pos&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_vortex_ind_neg&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_vortex_diff&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_trix&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_mass_index&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_cci&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_dpo&#39;</span><span class="p">:</span> <span class="mf">41.511479785526944</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_kst&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">512.7312383060929</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_kst_sig&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">512.7312383060929</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_kst_diff&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_ichimoku_a&#39;</span><span class="p">:</span> <span class="mf">39.495000000000005</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_ichimoku_b&#39;</span><span class="p">:</span> <span class="mf">39.495000000000005</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_visual_ichimoku_a&#39;</span><span class="p">:</span> <span class="mf">80.84515204884308</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_visual_ichimoku_b&#39;</span><span class="p">:</span> <span class="mf">80.77039939728148</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_aroon_up&#39;</span><span class="p">:</span> <span class="mf">4.0</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_aroon_down&#39;</span><span class="p">:</span> <span class="mf">4.0</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:trend_aroon_ind&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:momentum_rsi&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:momentum_mfi&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:momentum_tsi&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">100.0</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:momentum_uo&#39;</span><span class="p">:</span> <span class="mf">0.31218871344045224</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:momentum_stoch&#39;</span><span class="p">:</span> <span class="mf">37.14285714285772</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:momentum_stoch_signal&#39;</span><span class="p">:</span> <span class="mf">37.14285714285772</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:momentum_wr&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">62.85714285714228</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:momentum_ao&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:momentum_kama&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:others_dr&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">51.27312383060929</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:others_dlr&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+ <span class="s1">&#39;bitstamp:/LTC:others_cr&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">}</span>
+</pre></div>
+</div>
+<p><br><strong>Portfolio</strong><br></p>
+<p>Make the portfolio using the any combinations of exchanges and intruments that the exchange supports</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">portfolio</span> <span class="o">=</span> <span class="n">Portfolio</span><span class="p">(</span><span class="n">USD</span><span class="p">,</span> <span class="p">[</span>
+    <span class="n">Wallet</span><span class="p">(</span><span class="n">coinbase</span><span class="p">,</span> <span class="mi">10000</span> <span class="o">*</span> <span class="n">USD</span><span class="p">),</span>
+    <span class="n">Wallet</span><span class="p">(</span><span class="n">coinbase</span><span class="p">,</span> <span class="mi">10</span> <span class="o">*</span> <span class="n">BTC</span><span class="p">),</span>
+    <span class="n">Wallet</span><span class="p">(</span><span class="n">coinbase</span><span class="p">,</span> <span class="mi">5</span> <span class="o">*</span> <span class="n">ETH</span><span class="p">),</span>
+    <span class="n">Wallet</span><span class="p">(</span><span class="n">bitstamp</span><span class="p">,</span> <span class="mi">1000</span> <span class="o">*</span> <span class="n">USD</span><span class="p">),</span>
+    <span class="n">Wallet</span><span class="p">(</span><span class="n">bitstamp</span><span class="p">,</span> <span class="mi">5</span> <span class="o">*</span> <span class="n">BTC</span><span class="p">),</span>
+    <span class="n">Wallet</span><span class="p">(</span><span class="n">bitstamp</span><span class="p">,</span> <span class="mi">3</span> <span class="o">*</span> <span class="n">LTC</span><span class="p">),</span>
+<span class="p">])</span>
+</pre></div>
+</div>
+<p><br><strong>Environment</strong><br></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">env</span> <span class="o">=</span> <span class="n">default</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="n">portfolio</span><span class="o">=</span><span class="n">portfolio</span><span class="p">,</span>
+    <span class="n">action_scheme</span><span class="o">=</span><span class="s2">&quot;managed-risk&quot;</span><span class="p">,</span>
+    <span class="n">reward_scheme</span><span class="o">=</span><span class="s2">&quot;simple&quot;</span><span class="p">,</span>
+    <span class="n">feed</span><span class="o">=</span><span class="n">feed</span><span class="p">,</span>
+    <span class="n">window_size</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span>
+    <span class="n">enable_logger</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">env</span><span class="o">.</span><span class="n">observer</span><span class="o">.</span><span class="n">feed</span><span class="o">.</span><span class="n">next</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="s1">&#39;internal&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;coinbase:/USD-BTC&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/USD-ETH&#39;</span><span class="p">:</span> <span class="mf">275.01</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/USD:/free&#39;</span><span class="p">:</span> <span class="mf">10000.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/USD:/locked&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/USD:/total&#39;</span><span class="p">:</span> <span class="mf">10000.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:/free&#39;</span><span class="p">:</span> <span class="mf">10.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:/locked&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:/total&#39;</span><span class="p">:</span> <span class="mf">10.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:/worth&#39;</span><span class="p">:</span> <span class="mf">25091.7</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/ETH:/free&#39;</span><span class="p">:</span> <span class="mf">5.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/ETH:/locked&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/ETH:/total&#39;</span><span class="p">:</span> <span class="mf">5.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/ETH:/worth&#39;</span><span class="p">:</span> <span class="mf">1375.05</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/USD-BTC&#39;</span><span class="p">:</span> <span class="mf">2500.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/USD-LTC&#39;</span><span class="p">:</span> <span class="mf">39.45</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/USD:/free&#39;</span><span class="p">:</span> <span class="mf">1000.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/USD:/locked&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/USD:/total&#39;</span><span class="p">:</span> <span class="mf">1000.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/BTC:/free&#39;</span><span class="p">:</span> <span class="mf">5.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/BTC:/locked&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/BTC:/total&#39;</span><span class="p">:</span> <span class="mf">5.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/BTC:/worth&#39;</span><span class="p">:</span> <span class="mf">12500.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:/free&#39;</span><span class="p">:</span> <span class="mf">3.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:/locked&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:/total&#39;</span><span class="p">:</span> <span class="mf">3.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:/worth&#39;</span><span class="p">:</span> <span class="mf">118.35000000000001</span><span class="p">,</span>
+  <span class="s1">&#39;net_worth&#39;</span><span class="p">:</span> <span class="mf">50085.1</span><span class="p">},</span>
+ <span class="s1">&#39;external&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;coinbase:/BTC:date&#39;</span><span class="p">:</span> <span class="n">Timestamp</span><span class="p">(</span><span class="s1">&#39;2017-07-01 11:00:00&#39;</span><span class="p">),</span>
+  <span class="s1">&#39;coinbase:/BTC:open&#39;</span><span class="p">:</span> <span class="mf">2505.56</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:high&#39;</span><span class="p">:</span> <span class="mf">2513.38</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:low&#39;</span><span class="p">:</span> <span class="mf">2495.12</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:close&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volume&#39;</span><span class="p">:</span> <span class="mf">287000.32</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volume_adi&#39;</span><span class="p">:</span> <span class="mf">462887.3781183644</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volume_obv&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volume_cmf&#39;</span><span class="p">:</span> <span class="mf">0.5388828039430464</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volume_fi&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volume_em&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volume_vpt&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">190920.02711825827</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volume_nvi&#39;</span><span class="p">:</span> <span class="mf">1000.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volatility_atr&#39;</span><span class="p">:</span> <span class="mf">85.51648155760596</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volatility_bbh&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volatility_bbl&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volatility_bbm&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volatility_bbhi&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volatility_bbli&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volatility_kcc&#39;</span><span class="p">:</span> <span class="mf">2505.89</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volatility_kch&#39;</span><span class="p">:</span> <span class="mf">2524.15</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volatility_kcl&#39;</span><span class="p">:</span> <span class="mf">2487.6299999999997</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volatility_kchi&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volatility_kcli&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volatility_dch&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volatility_dcl&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volatility_dchi&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:volatility_dcli&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_macd&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_macd_signal&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_macd_diff&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_ema_fast&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_ema_slow&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_adx&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_adx_pos&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_adx_neg&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_vortex_ind_pos&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_vortex_ind_neg&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_vortex_diff&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_trix&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_mass_index&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_cci&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_dpo&#39;</span><span class="p">:</span> <span class="mf">4963.073762705523</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_kst&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">664.2012654186367</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_kst_sig&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">664.2012654186367</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_kst_diff&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_ichimoku_a&#39;</span><span class="p">:</span> <span class="mf">2504.25</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_ichimoku_b&#39;</span><span class="p">:</span> <span class="mf">2504.25</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_visual_ichimoku_a&#39;</span><span class="p">:</span> <span class="mf">7460.129960014917</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_visual_ichimoku_b&#39;</span><span class="p">:</span> <span class="mf">7449.72498449202</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_aroon_up&#39;</span><span class="p">:</span> <span class="mf">4.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_aroon_down&#39;</span><span class="p">:</span> <span class="mf">4.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:trend_aroon_ind&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:momentum_rsi&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:momentum_mfi&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:momentum_tsi&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">100.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:momentum_uo&#39;</span><span class="p">:</span> <span class="mf">0.2822915537138003</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:momentum_stoch&#39;</span><span class="p">:</span> <span class="mf">76.94414019715232</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:momentum_stoch_signal&#39;</span><span class="p">:</span> <span class="mf">76.94414019715232</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:momentum_wr&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">23.055859802847678</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:momentum_ao&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:momentum_kama&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:others_dr&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">66.42012654186367</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:others_dlr&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/BTC:others_cr&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/ETH:date&#39;</span><span class="p">:</span> <span class="n">Timestamp</span><span class="p">(</span><span class="s1">&#39;2017-07-01 11:00:00&#39;</span><span class="p">),</span>
+  <span class="s1">&#39;coinbase:/ETH:open&#39;</span><span class="p">:</span> <span class="mf">279.98</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/ETH:high&#39;</span><span class="p">:</span> <span class="mf">279.99</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/ETH:low&#39;</span><span class="p">:</span> <span class="mf">272.1</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/ETH:close&#39;</span><span class="p">:</span> <span class="mf">275.01</span><span class="p">,</span>
+  <span class="s1">&#39;coinbase:/ETH:volume&#39;</span><span class="p">:</span> <span class="mf">679358.87</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/BTC:date&#39;</span><span class="p">:</span> <span class="n">Timestamp</span><span class="p">(</span><span class="s1">&#39;2017-07-01 11:00:00&#39;</span><span class="p">),</span>
+  <span class="s1">&#39;bitstamp:/BTC:open&#39;</span><span class="p">:</span> <span class="mf">2506.5</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/BTC:high&#39;</span><span class="p">:</span> <span class="mf">2510.62</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/BTC:low&#39;</span><span class="p">:</span> <span class="mf">2495.5</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/BTC:close&#39;</span><span class="p">:</span> <span class="mf">2500.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/BTC:volume&#39;</span><span class="p">:</span> <span class="mf">521903.7</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:date&#39;</span><span class="p">:</span> <span class="n">Timestamp</span><span class="p">(</span><span class="s1">&#39;2017-07-01 11:00:00&#39;</span><span class="p">),</span>
+  <span class="s1">&#39;bitstamp:/LTC:open&#39;</span><span class="p">:</span> <span class="mf">39.67</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:high&#39;</span><span class="p">:</span> <span class="mf">39.67</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:low&#39;</span><span class="p">:</span> <span class="mf">39.32</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:close&#39;</span><span class="p">:</span> <span class="mf">39.45</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volume&#39;</span><span class="p">:</span> <span class="mf">1957.48</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volume_adi&#39;</span><span class="p">:</span> <span class="mf">5133.608444728016</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volume_obv&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volume_cmf&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">0.2571428571428455</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volume_fi&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volume_em&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volume_vpt&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">895.4321955984681</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volume_nvi&#39;</span><span class="p">:</span> <span class="mf">1000.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volatility_atr&#39;</span><span class="p">:</span> <span class="mf">1.4838450097847482</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volatility_bbh&#39;</span><span class="p">:</span> <span class="mf">39.45</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volatility_bbl&#39;</span><span class="p">:</span> <span class="mf">39.45</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volatility_bbm&#39;</span><span class="p">:</span> <span class="mf">39.45</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volatility_bbhi&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volatility_bbli&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volatility_kcc&#39;</span><span class="p">:</span> <span class="mf">39.480000000000004</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volatility_kch&#39;</span><span class="p">:</span> <span class="mf">39.830000000000005</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volatility_kcl&#39;</span><span class="p">:</span> <span class="mf">39.13</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volatility_kchi&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volatility_kcli&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volatility_dch&#39;</span><span class="p">:</span> <span class="mf">39.45</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volatility_dcl&#39;</span><span class="p">:</span> <span class="mf">39.45</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volatility_dchi&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:volatility_dcli&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_macd&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_macd_signal&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_macd_diff&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_ema_fast&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_ema_slow&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_adx&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_adx_pos&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_adx_neg&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_vortex_ind_pos&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_vortex_ind_neg&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_vortex_diff&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_trix&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_mass_index&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_cci&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_dpo&#39;</span><span class="p">:</span> <span class="mf">41.511479785526944</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_kst&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">512.7312383060929</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_kst_sig&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">512.7312383060929</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_kst_diff&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_ichimoku_a&#39;</span><span class="p">:</span> <span class="mf">39.495000000000005</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_ichimoku_b&#39;</span><span class="p">:</span> <span class="mf">39.495000000000005</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_visual_ichimoku_a&#39;</span><span class="p">:</span> <span class="mf">80.84515204884308</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_visual_ichimoku_b&#39;</span><span class="p">:</span> <span class="mf">80.77039939728148</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_aroon_up&#39;</span><span class="p">:</span> <span class="mf">4.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_aroon_down&#39;</span><span class="p">:</span> <span class="mf">4.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:trend_aroon_ind&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:momentum_rsi&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:momentum_mfi&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:momentum_tsi&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">100.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:momentum_uo&#39;</span><span class="p">:</span> <span class="mf">0.31218871344045224</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:momentum_stoch&#39;</span><span class="p">:</span> <span class="mf">37.14285714285772</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:momentum_stoch_signal&#39;</span><span class="p">:</span> <span class="mf">37.14285714285772</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:momentum_wr&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">62.85714285714228</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:momentum_ao&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:momentum_kama&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:others_dr&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">51.27312383060929</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:others_dlr&#39;</span><span class="p">:</span> <span class="n">nan</span><span class="p">,</span>
+  <span class="s1">&#39;bitstamp:/LTC:others_cr&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">}}</span>
+</pre></div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="train_and_evaluate.html" class="btn btn-neutral float-right" title="Train and Evaluate" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="overview.html" class="btn btn-neutral float-left" title="Code Structure" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

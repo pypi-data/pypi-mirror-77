@@ -1,0 +1,580 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Renderers and Plotly Chart &mdash; TensorTrade 1.0.0-beta documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "ignoreClass": "document", "processClass": "math|output_area"}})</script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Stochastic Data" href="use_stochastic_data.html" />
+    <link rel="prev" title="Train and Evaluate" href="train_and_evaluate.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo.jpg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Home</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../overview/getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/getting_started.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/getting_started.html#docker">Docker</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Examples</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Code Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="setup_environment_tutorial.html">Setup Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="train_and_evaluate.html">Train and Evaluate</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Renderers and Plotly Chart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="use_stochastic_data.html">Stochastic Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ledger_example.html">Ledger Example</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/ray.html">Using Ray with TensorTrade</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Components</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../components/components.html">Components</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/action_scheme.html">Action Scheme</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/reward_scheme.html">Reward Scheme</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/observer.html">Observer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/observer.html#default">Default</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/stopper.html">Stopper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/informer.html">Informer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/renderer.html">Renderer</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Environments</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../envs/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../envs/overview.html#what-if-i-can-t-make-a-particular-environment">What if I can’t make a particular environment?</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Feed</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html#what-is-a-stream">What is a <code class="docutils literal notranslate"><span class="pre">Stream</span></code>?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html#using-data-types">Using Data Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html#advanced-usages">Advanced Usages</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Order Management System</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../oms/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oms/overview.html#portfolio">Portfolio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oms/overview.html#orders">Orders</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Agents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html#ray">Ray</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html#stable-baselines">Stable Baselines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html#tensorforce">Tensorforce</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../api/modules.html">API reference</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">TensorTrade</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Renderers and Plotly Chart</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/examples/renderers_and_plotly_chart.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="section" id="renderers-and-plotly-chart">
+<h1>Renderers and Plotly Chart<a class="headerlink" href="#renderers-and-plotly-chart" title="Permalink to this headline">¶</a></h1>
+<p><br><strong>Data Loading Function</strong><br></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># ipywidgets is required to run Plotly in Jupyter Notebook.</span>
+<span class="c1"># Uncomment and run the following line to install it if required.</span>
+
+!pip install ipywidgets
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ta</span>
+
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="kn">from</span> <span class="nn">tensortrade.feed.core</span> <span class="kn">import</span> <span class="n">Stream</span><span class="p">,</span> <span class="n">DataFeed</span><span class="p">,</span> <span class="n">NameSpace</span>
+<span class="kn">from</span> <span class="nn">tensortrade.oms.exchanges</span> <span class="kn">import</span> <span class="n">Exchange</span>
+<span class="kn">from</span> <span class="nn">tensortrade.oms.services.execution.simulated</span> <span class="kn">import</span> <span class="n">execute_order</span>
+<span class="kn">from</span> <span class="nn">tensortrade.oms.instruments</span> <span class="kn">import</span> <span class="n">USD</span><span class="p">,</span> <span class="n">BTC</span>
+<span class="kn">from</span> <span class="nn">tensortrade.oms.wallets</span> <span class="kn">import</span> <span class="n">Wallet</span><span class="p">,</span> <span class="n">Portfolio</span>
+
+<span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">load_csv</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;data/&#39;</span> <span class="o">+</span> <span class="n">filename</span><span class="p">,</span> <span class="n">skiprows</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;symbol&#39;</span><span class="p">,</span> <span class="s1">&#39;volume_btc&#39;</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+    <span class="c1"># Fix timestamp form &quot;2019-10-17 09-AM&quot; to &quot;2019-10-17 09-00-00 AM&quot;</span>
+    <span class="n">df</span><span class="p">[</span><span class="s1">&#39;date&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="p">[:</span><span class="mi">14</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;00-00 &#39;</span> <span class="o">+</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">:]</span>
+
+    <span class="c1"># Convert the date column type from string to datetime for proper sorting.</span>
+    <span class="n">df</span><span class="p">[</span><span class="s1">&#39;date&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;date&#39;</span><span class="p">])</span>
+
+    <span class="c1"># Make sure historical prices are sorted chronologically, oldest first.</span>
+    <span class="n">df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">&#39;date&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+    <span class="n">df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+    <span class="c1"># Format timestamps as you want them to appear on the chart buy/sell marks.</span>
+    <span class="n">df</span><span class="p">[</span><span class="s1">&#39;date&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %I:%M %p&#39;</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">df</span>
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">load_csv</span><span class="p">(</span><span class="s1">&#39;Coinbase_BTCUSD_1h.csv&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+<p><br><strong>Data Preparation</strong><br></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">dataset</span> <span class="o">=</span> <span class="n">ta</span><span class="o">.</span><span class="n">add_all_ta_features</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="s1">&#39;open&#39;</span><span class="p">,</span> <span class="s1">&#39;high&#39;</span><span class="p">,</span> <span class="s1">&#39;low&#39;</span><span class="p">,</span> <span class="s1">&#39;close&#39;</span><span class="p">,</span> <span class="s1">&#39;volume&#39;</span><span class="p">,</span> <span class="n">fillna</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">dataset</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Note: It is recommended to create the chart data <em>after</em> creating and cleaning the dataset to ensure one-to-one mapping between the historical prices data and the dataset.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">price_history</span> <span class="o">=</span> <span class="n">dataset</span><span class="p">[[</span><span class="s1">&#39;date&#39;</span><span class="p">,</span> <span class="s1">&#39;open&#39;</span><span class="p">,</span> <span class="s1">&#39;high&#39;</span><span class="p">,</span> <span class="s1">&#39;low&#39;</span><span class="p">,</span> <span class="s1">&#39;close&#39;</span><span class="p">,</span> <span class="s1">&#39;volume&#39;</span><span class="p">]]</span>  <span class="c1"># chart data</span>
+<span class="n">display</span><span class="p">(</span><span class="n">price_history</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
+
+<span class="n">dataset</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;date&#39;</span><span class="p">,</span> <span class="s1">&#39;open&#39;</span><span class="p">,</span> <span class="s1">&#39;high&#39;</span><span class="p">,</span> <span class="s1">&#39;low&#39;</span><span class="p">,</span> <span class="s1">&#39;close&#39;</span><span class="p">,</span> <span class="s1">&#39;volume&#39;</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><br><strong>Setup Trading Environment</strong><br></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">coinbase</span> <span class="o">=</span> <span class="n">Exchange</span><span class="p">(</span><span class="s2">&quot;coinbase&quot;</span><span class="p">,</span> <span class="n">service</span><span class="o">=</span><span class="n">execute_order</span><span class="p">)(</span>
+    <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="n">price_history</span><span class="p">[</span><span class="s1">&#39;close&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">(),</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;USD-BTC&quot;</span><span class="p">)</span>
+<span class="p">)</span>
+
+<span class="n">portfolio</span> <span class="o">=</span> <span class="n">Portfolio</span><span class="p">(</span><span class="n">USD</span><span class="p">,</span> <span class="p">[</span>
+    <span class="n">Wallet</span><span class="p">(</span><span class="n">coinbase</span><span class="p">,</span> <span class="mi">10000</span> <span class="o">*</span> <span class="n">USD</span><span class="p">),</span>
+    <span class="n">Wallet</span><span class="p">(</span><span class="n">coinbase</span><span class="p">,</span> <span class="mi">10</span> <span class="o">*</span> <span class="n">BTC</span><span class="p">),</span>
+<span class="p">])</span>
+
+<span class="k">with</span> <span class="n">NameSpace</span><span class="p">(</span><span class="s2">&quot;coinbase&quot;</span><span class="p">):</span>
+    <span class="n">streams</span> <span class="o">=</span> <span class="p">[</span><span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="n">dataset</span><span class="p">[</span><span class="n">c</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">(),</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">dataset</span><span class="o">.</span><span class="n">columns</span><span class="p">]</span>
+
+<span class="n">feed</span> <span class="o">=</span> <span class="n">DataFeed</span><span class="p">(</span><span class="n">streams</span><span class="p">)</span>
+<span class="n">feed</span><span class="o">.</span><span class="n">next</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="s1">&#39;coinbase:/volume_adi&#39;</span><span class="p">:</span> <span class="mf">503274.35945218964</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volume_obv&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volume_cmf&#39;</span><span class="p">:</span> <span class="mf">0.5388828039430464</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volume_fi&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volume_em&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volume_vpt&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">187039.68188942864</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volume_nvi&#39;</span><span class="p">:</span> <span class="mf">1000.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volatility_atr&#39;</span><span class="p">:</span> <span class="mf">88.87448632521046</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volatility_bbh&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volatility_bbl&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volatility_bbm&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volatility_bbhi&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volatility_bbli&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volatility_kcc&#39;</span><span class="p">:</span> <span class="mf">2505.89</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volatility_kch&#39;</span><span class="p">:</span> <span class="mf">2524.15</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volatility_kcl&#39;</span><span class="p">:</span> <span class="mf">2487.6299999999997</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volatility_kchi&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volatility_kcli&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volatility_dch&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volatility_dcl&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volatility_dchi&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/volatility_dcli&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_macd&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_macd_signal&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_macd_diff&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_ema_fast&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_ema_slow&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_adx&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_adx_pos&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_adx_neg&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_vortex_ind_pos&#39;</span><span class="p">:</span> <span class="mf">1.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_vortex_ind_neg&#39;</span><span class="p">:</span> <span class="mf">1.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_vortex_diff&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_trix&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">65.01942947444225</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_mass_index&#39;</span><span class="p">:</span> <span class="mf">1.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_cci&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_dpo&#39;</span><span class="p">:</span> <span class="mf">4669.658895132072</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_kst&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">650.476416605854</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_kst_sig&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">650.476416605854</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_kst_diff&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_ichimoku_a&#39;</span><span class="p">:</span> <span class="mf">2504.25</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_ichimoku_b&#39;</span><span class="p">:</span> <span class="mf">2504.25</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_visual_ichimoku_a&#39;</span><span class="p">:</span> <span class="mf">7164.427851548871</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_visual_ichimoku_b&#39;</span><span class="p">:</span> <span class="mf">7151.343258415852</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_aroon_up&#39;</span><span class="p">:</span> <span class="mf">4.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_aroon_down&#39;</span><span class="p">:</span> <span class="mf">4.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/trend_aroon_ind&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/momentum_rsi&#39;</span><span class="p">:</span> <span class="mf">50.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/momentum_mfi&#39;</span><span class="p">:</span> <span class="mf">50.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/momentum_tsi&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">100.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/momentum_uo&#39;</span><span class="p">:</span> <span class="mf">0.29997594458961346</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/momentum_stoch&#39;</span><span class="p">:</span> <span class="mf">76.94414019715232</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/momentum_stoch_signal&#39;</span><span class="p">:</span> <span class="mf">76.94414019715232</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/momentum_wr&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">23.055859802847678</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/momentum_ao&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/momentum_kama&#39;</span><span class="p">:</span> <span class="mf">2509.17</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/others_dr&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">65.0476416605854</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/others_dlr&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+ <span class="s1">&#39;coinbase:/others_cr&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">}</span>
+</pre></div>
+</div>
+<p><br><strong>Trading Environment Renderers</strong><br>
+A renderer is a channel for the trading environment to output its current state. One or more renderers can be attached to the environment at the same time. For example, you can let the environment draw a chart and log to a file at the same time.</p>
+<p>Notice that while all renderers can technically be used together, you need to select the best combination to avoid undesired results. For example, PlotlyTradingChart can work well with FileLogger but may not display well with ScreenLogger.</p>
+<p>Renderer can be set by name (string) or class, single or list. Available renderers are:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">'screenlog'</span></code> or <code class="docutils literal notranslate"><span class="pre">ScreenLogger</span></code>: Shows results on the screen.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">'filelog'</span></code> or <code class="docutils literal notranslate"><span class="pre">FileLogger</span></code>: Logs results to a file.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">'plotly'</span></code> or <code class="docutils literal notranslate"><span class="pre">PlotlyTradingChart</span></code>: A trading chart based on Plotly.</p></li>
+</ul>
+<p><br><strong>Examples</strong>:<br></p>
+<ul class="simple">
+<li><p>renderers = ‘screenlog’ (default)</p></li>
+<li><p>renderers = [‘screenlog’, ‘filelog’]</p></li>
+<li><p>renderers = ScreenLogger()</p></li>
+<li><p>renderers = [‘screenlog’, <code class="docutils literal notranslate"><span class="pre">FileLogger()</span></code>]</p></li>
+<li><p>renderers = [<code class="docutils literal notranslate"><span class="pre">FileLogger(filename='example.log')</span></code>]</p></li>
+</ul>
+<p>Renderers can also be created and configured first then attached to the environment as seen in a following example.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">tensortrade.env.default</span> <span class="k">as</span> <span class="nn">default</span>
+
+<span class="n">env</span> <span class="o">=</span> <span class="n">default</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="n">portfolio</span><span class="o">=</span><span class="n">portfolio</span><span class="p">,</span>
+    <span class="n">action_scheme</span><span class="o">=</span><span class="s2">&quot;managed-risk&quot;</span><span class="p">,</span>
+    <span class="n">reward_scheme</span><span class="o">=</span><span class="s2">&quot;risk-adjusted&quot;</span><span class="p">,</span>
+    <span class="n">feed</span><span class="o">=</span><span class="n">feed</span><span class="p">,</span>
+    <span class="n">renderer</span><span class="o">=</span><span class="s2">&quot;screen-log&quot;</span><span class="p">,</span>  <span class="c1"># ScreenLogger used with default settings</span>
+    <span class="n">window_size</span><span class="o">=</span><span class="mi">20</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">tensortrade.agents</span> <span class="kn">import</span> <span class="n">DQNAgent</span>
+
+<span class="n">agent</span> <span class="o">=</span> <span class="n">DQNAgent</span><span class="p">(</span><span class="n">env</span><span class="p">)</span>
+<span class="n">agent</span><span class="o">.</span><span class="n">train</span><span class="p">(</span><span class="n">n_episodes</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">n_steps</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">render_interval</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">====</span>      <span class="n">AGENT</span> <span class="n">ID</span><span class="p">:</span> <span class="n">b8b6ad1a</span><span class="o">-</span><span class="n">c158</span><span class="o">-</span><span class="mi">4743</span><span class="o">-</span><span class="mi">8</span><span class="n">a2d</span><span class="o">-</span><span class="n">aab3a26ce82c</span>      <span class="o">====</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">06</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">1</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">131</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">07</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">1</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">141</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">08</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">1</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">151</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">09</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">1</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">161</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">11</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">1</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">171</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">12</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">1</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">181</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">13</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">1</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">191</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">14</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">1</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">201</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">15</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">11</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">16</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">21</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">17</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">31</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">19</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">41</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">20</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">51</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">21</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">61</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">22</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">71</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">23</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">81</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">24</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">91</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">25</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">101</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">26</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">111</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">27</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">121</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">29</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">131</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">30</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">141</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">31</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">151</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">32</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">161</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">33</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">171</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">34</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">181</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">35</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">191</span><span class="o">/</span><span class="mi">200</span>
+<span class="p">[</span><span class="mi">2020</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">29</span> <span class="mi">3</span><span class="p">:</span><span class="mi">43</span><span class="p">:</span><span class="mi">36</span> <span class="n">PM</span><span class="p">]</span> <span class="n">Episode</span><span class="p">:</span> <span class="mi">2</span><span class="o">/</span><span class="mi">2</span> <span class="n">Step</span><span class="p">:</span> <span class="mi">201</span><span class="o">/</span><span class="mi">200</span>
+
+
+
+
+
+<span class="o">-</span><span class="mf">125697.1219732128</span>
+</pre></div>
+</div>
+<p><br><strong>Environment with Multiple Renderers</strong><br>
+Create PlotlyTradingChart and FileLogger renderers. Configuring renderers is optional as they can be used with their default settings.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">tensortrade.env.default.renderers</span> <span class="kn">import</span> <span class="n">PlotlyTradingChart</span><span class="p">,</span> <span class="n">FileLogger</span>
+
+<span class="n">chart_renderer</span> <span class="o">=</span> <span class="n">PlotlyTradingChart</span><span class="p">(</span>
+    <span class="n">display</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>  <span class="c1"># show the chart on screen (default)</span>
+    <span class="n">height</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span>  <span class="c1"># affects both displayed and saved file height. None for 100% height.</span>
+    <span class="n">save_format</span><span class="o">=</span><span class="s2">&quot;html&quot;</span><span class="p">,</span>  <span class="c1"># save the chart to an HTML file</span>
+    <span class="n">auto_open_html</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>  <span class="c1"># open the saved HTML chart in a new browser tab</span>
+<span class="p">)</span>
+
+<span class="n">file_logger</span> <span class="o">=</span> <span class="n">FileLogger</span><span class="p">(</span>
+    <span class="n">filename</span><span class="o">=</span><span class="s2">&quot;example.log&quot;</span><span class="p">,</span>  <span class="c1"># omit or None for automatic file name</span>
+    <span class="n">path</span><span class="o">=</span><span class="s2">&quot;training_logs&quot;</span>  <span class="c1"># create a new directory if doesn&#39;t exist, None for no directory</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p><br><strong>Environement with Multiple Renderers</strong><br></p>
+<p>With the plotly renderer you must provide an parameter called <code class="docutils literal notranslate"><span class="pre">renderer_feed</span></code>. This is a <code class="docutils literal notranslate"><span class="pre">DataFeed</span></code> instance that provides all the information that is required by a renderer to function.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">renderer_feed</span> <span class="o">=</span> <span class="n">DataFeed</span><span class="p">([</span>
+    <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="n">price_history</span><span class="p">[</span><span class="n">c</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">(),</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">price_history</span><span class="p">]</span>
+<span class="p">)</span>
+
+<span class="n">env</span> <span class="o">=</span> <span class="n">default</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="n">portfolio</span><span class="o">=</span><span class="n">portfolio</span><span class="p">,</span>
+    <span class="n">action_scheme</span><span class="o">=</span><span class="s2">&quot;managed-risk&quot;</span><span class="p">,</span>
+    <span class="n">reward_scheme</span><span class="o">=</span><span class="s2">&quot;risk-adjusted&quot;</span><span class="p">,</span>
+    <span class="n">feed</span><span class="o">=</span><span class="n">feed</span><span class="p">,</span>
+    <span class="n">window_size</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span>
+    <span class="n">renderer_feed</span><span class="o">=</span><span class="n">renderer_feed</span><span class="p">,</span>
+    <span class="n">renderers</span><span class="o">=</span><span class="p">[</span>
+        <span class="n">chart_renderer</span><span class="p">,</span>
+        <span class="n">file_logger</span>
+    <span class="p">]</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p><br><strong>Setup and Train DQN Agent</strong><br>
+The green and red arrows shown on the chart represent buy and sell trades respectively. The head of each arrow falls at the trade execution price.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">tensortrade.agents</span> <span class="kn">import</span> <span class="n">DQNAgent</span>
+
+<span class="n">agent</span> <span class="o">=</span> <span class="n">DQNAgent</span><span class="p">(</span><span class="n">env</span><span class="p">)</span>
+
+<span class="c1"># Set render_interval to None to render at episode ends only</span>
+<span class="n">agent</span><span class="o">.</span><span class="n">train</span><span class="p">(</span><span class="n">n_episodes</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">n_steps</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">render_interval</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">====</span>      <span class="n">AGENT</span> <span class="n">ID</span><span class="p">:</span> <span class="n">fec5e2c5</span><span class="o">-</span><span class="n">eb35</span><span class="o">-</span><span class="mi">4</span><span class="n">ff6</span><span class="o">-</span><span class="mi">8416</span><span class="o">-</span><span class="n">b876f0e8be66</span>      <span class="o">====</span>
+
+
+
+
+
+<span class="o">-</span><span class="mf">122271.41943956864</span>
+</pre></div>
+</div>
+<p><br><strong>Direct Performance and Net Worth Plotting</strong><br>
+Alternatively, the final performance and net worth can be displayed using pandas via Matplotlib.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
+
+<span class="n">portfolio</span><span class="o">.</span><span class="n">performance</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+</pre></div>
+</div>
+<p><img alt="png" src="../_images/renderers_and_plotly_chart_21_1.png" /></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">portfolio</span><span class="o">.</span><span class="n">performance</span><span class="o">.</span><span class="n">net_worth</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+</pre></div>
+</div>
+<p><img alt="png" src="../_images/renderers_and_plotly_chart_22_1.png" /></p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="use_stochastic_data.html" class="btn btn-neutral float-right" title="Stochastic Data" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="train_and_evaluate.html" class="btn btn-neutral float-left" title="Train and Evaluate" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

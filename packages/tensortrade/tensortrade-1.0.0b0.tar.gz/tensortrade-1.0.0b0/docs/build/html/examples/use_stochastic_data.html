@@ -1,0 +1,405 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Stochastic Data &mdash; TensorTrade 1.0.0-beta documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "ignoreClass": "document", "processClass": "math|output_area"}})</script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Ledger Example" href="ledger_example.html" />
+    <link rel="prev" title="Renderers and Plotly Chart" href="renderers_and_plotly_chart.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo.jpg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Home</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../overview/getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/getting_started.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/getting_started.html#docker">Docker</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Examples</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Code Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="setup_environment_tutorial.html">Setup Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="train_and_evaluate.html">Train and Evaluate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="renderers_and_plotly_chart.html">Renderers and Plotly Chart</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Stochastic Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ledger_example.html">Ledger Example</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/ray.html">Using Ray with TensorTrade</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Components</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../components/components.html">Components</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/action_scheme.html">Action Scheme</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/reward_scheme.html">Reward Scheme</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/observer.html">Observer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/observer.html#default">Default</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/stopper.html">Stopper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/informer.html">Informer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/renderer.html">Renderer</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Environments</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../envs/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../envs/overview.html#what-if-i-can-t-make-a-particular-environment">What if I can’t make a particular environment?</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Feed</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html#what-is-a-stream">What is a <code class="docutils literal notranslate"><span class="pre">Stream</span></code>?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html#using-data-types">Using Data Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html#advanced-usages">Advanced Usages</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Order Management System</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../oms/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oms/overview.html#portfolio">Portfolio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oms/overview.html#orders">Orders</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Agents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html#ray">Ray</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html#stable-baselines">Stable Baselines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html#tensorforce">Tensorforce</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../api/modules.html">API reference</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">TensorTrade</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Stochastic Data</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/examples/use_stochastic_data.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="section" id="stochastic-data">
+<h1>Stochastic Data<a class="headerlink" href="#stochastic-data" title="Permalink to this headline">¶</a></h1>
+<p><br><strong>Generating Price Data using Stocastic Processes</strong><br></p>
+<ul class="simple">
+<li><p>Geometric Brownian Motion (GBM)</p></li>
+<li><p>Fractional Brownian Motion (FBM)</p></li>
+<li><p>Heston Stochastic Volatility Model</p></li>
+<li><p>Cox Ingersoll Ross (CIR)</p></li>
+<li><p>Ornstein Uhlebneck stochastic process</p></li>
+</ul>
+<p><br><strong>Model Parameters</strong><br></p>
+<p>The model parameters class contains all of the parameters used by the following stochastic processes. The parameters have been prefixed with the name of the stochastic process they are used in. Calibration of the stochastic processes would involve looking for the parameter values which best fit some historical data.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">all_s0</span></code> This is the starting asset value</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">all_time</span></code> This is the amount of time to simulate for</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">all_delta</span></code> This is the delta, the rate of time e.g. 1/252 = daily, 1/12 = monthly</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">all_sigma</span></code> This is the volatility of the stochastic processes</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">gbm_mu</span></code> This is the annual drift factor for geometric brownian motion</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">jumps_lamda</span></code> This is the probability of a jump happening at each point in time</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">jumps_sigma</span></code> This is the volatility of the jump size</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">jumps_mu</span></code> This is the average jump size</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cir_a</span></code> This is the rate of mean reversion for Cox Ingersoll Ross</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cir_mu</span></code> This is the long run average interest rate for Cox Ingersoll Ross</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">all_r0</span></code> This is the starting interest rate value</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cir_rho</span></code> This is the correlation between the wiener processes of the Heston model</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ou_a</span></code> This is the rate of mean reversion for Ornstein Uhlenbeck</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ou_mu</span></code> This is the long run average interest rate for Ornstein Uhlenbeck</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sheston_a</span></code> This is the rate of mean reversion for volatility in the Heston model</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">heston_mu</span></code> This is the long run average volatility for the Heston model</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">heston_vol0</span></code> This is the starting volatility value for the Heston model</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
+
+<span class="kn">import</span> <span class="nn">tensortrade.stochastic</span> <span class="k">as</span> <span class="nn">sp</span>
+
+<span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
+</pre></div>
+</div>
+<p><br><strong>Geometric Brownian Motion</strong><br></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">gbm</span><span class="p">(</span>
+    <span class="n">base_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span>
+    <span class="n">base_volume</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+    <span class="n">start_date</span><span class="o">=</span><span class="s2">&quot;2010-01-01&quot;</span><span class="p">,</span>
+    <span class="n">times_to_generate</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span>
+    <span class="n">time_frame</span><span class="o">=</span><span class="s1">&#39;1H&#39;</span>
+<span class="p">)</span>
+
+<span class="n">data</span><span class="o">.</span><span class="n">close</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+</pre></div>
+</div>
+<p><img alt="png" src="../_images/use_stochastic_data_3_1.png" /></p>
+<p><br><strong>Heston Stochastic Volatility Model</strong><br></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">heston</span><span class="p">(</span>
+    <span class="n">base_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span>
+    <span class="n">base_volume</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+    <span class="n">start_date</span><span class="o">=</span><span class="s2">&quot;2010-01-01&quot;</span><span class="p">,</span>
+    <span class="n">times_to_generate</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span>
+    <span class="n">time_frame</span><span class="o">=</span><span class="s1">&#39;1H&#39;</span>
+<span class="p">)</span>
+
+<span class="n">data</span><span class="o">.</span><span class="n">close</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+</pre></div>
+</div>
+<p><img alt="png" src="../_images/use_stochastic_data_5_1.png" /></p>
+<p><br><strong>Fractional Brownian Motion</strong><br></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">fbm</span><span class="p">(</span>
+    <span class="n">base_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span>
+    <span class="n">base_volume</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+    <span class="n">start_date</span><span class="o">=</span><span class="s2">&quot;2010-01-01&quot;</span><span class="p">,</span>
+    <span class="n">times_to_generate</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span>
+    <span class="n">time_frame</span><span class="o">=</span><span class="s1">&#39;1H&#39;</span>
+<span class="p">)</span>
+
+<span class="n">data</span><span class="o">.</span><span class="n">close</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+</pre></div>
+</div>
+<p><img alt="png" src="../_images/use_stochastic_data_7_1.png" /></p>
+<p><br><strong>Cox Ingersoll Ross (CIR)</strong><br></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">cox</span><span class="p">(</span>
+    <span class="n">base_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span>
+    <span class="n">base_volume</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+    <span class="n">start_date</span><span class="o">=</span><span class="s2">&quot;2010-01-01&quot;</span><span class="p">,</span>
+    <span class="n">times_to_generate</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span>
+    <span class="n">time_frame</span><span class="o">=</span><span class="s1">&#39;1H&#39;</span>
+<span class="p">)</span>
+
+<span class="n">data</span><span class="o">.</span><span class="n">close</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+</pre></div>
+</div>
+<p><img alt="png" src="../_images/use_stochastic_data_9_1.png" /></p>
+<p><br><strong>Ornstein Uhlenbeck Process</strong><br></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">ornstein</span><span class="p">(</span>
+    <span class="n">base_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span>
+    <span class="n">base_volume</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+    <span class="n">start_date</span><span class="o">=</span><span class="s2">&quot;2010-01-01&quot;</span><span class="p">,</span>
+    <span class="n">times_to_generate</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span>
+    <span class="n">time_frame</span><span class="o">=</span><span class="s1">&#39;1H&#39;</span>
+<span class="p">)</span>
+
+<span class="n">data</span><span class="o">.</span><span class="n">close</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+</pre></div>
+</div>
+<p><img alt="png" src="../_images/use_stochastic_data_11_1.png" /></p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="ledger_example.html" class="btn btn-neutral float-right" title="Ledger Example" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="renderers_and_plotly_chart.html" class="btn btn-neutral float-left" title="Renderers and Plotly Chart" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

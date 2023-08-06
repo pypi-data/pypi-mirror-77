@@ -1,0 +1,812 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Using Ray with TensorTrade &mdash; TensorTrade 1.0.0-beta documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "ignoreClass": "document", "processClass": "math|output_area"}})</script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Components" href="../components/components.html" />
+    <link rel="prev" title="Ledger Example" href="../examples/ledger_example.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo.jpg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Home</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../overview/getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/getting_started.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/getting_started.html#docker">Docker</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../examples/overview.html">Code Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/setup_environment_tutorial.html">Setup Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/train_and_evaluate.html">Train and Evaluate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/renderers_and_plotly_chart.html">Renderers and Plotly Chart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/use_stochastic_data.html">Stochastic Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/ledger_example.html">Ledger Example</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tutorials</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Using Ray with TensorTrade</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Components</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../components/components.html">Components</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/action_scheme.html">Action Scheme</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/reward_scheme.html">Reward Scheme</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/observer.html">Observer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/observer.html#default">Default</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/stopper.html">Stopper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/informer.html">Informer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../components/renderer.html">Renderer</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Environments</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../envs/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../envs/overview.html#what-if-i-can-t-make-a-particular-environment">What if I can’t make a particular environment?</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Feed</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html#what-is-a-stream">What is a <code class="docutils literal notranslate"><span class="pre">Stream</span></code>?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html#using-data-types">Using Data Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feed/overview.html#advanced-usages">Advanced Usages</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Order Management System</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../oms/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oms/overview.html#portfolio">Portfolio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oms/overview.html#orders">Orders</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Agents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html#ray">Ray</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html#stable-baselines">Stable Baselines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../agents/overview.html#tensorforce">Tensorforce</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../api/modules.html">API reference</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">TensorTrade</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Using Ray with TensorTrade</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/tutorials/ray.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="section" id="using-ray-with-tensortrade">
+<h1>Using Ray with TensorTrade<a class="headerlink" href="#using-ray-with-tensortrade" title="Permalink to this headline">¶</a></h1>
+<p>In this tutorial, we are going to learn how to use <code class="docutils literal notranslate"><span class="pre">ray</span></code> with TensorTrade in order to create a profitable algorithm on a predictable sine curve. You may be asking yourself, why use something so simple when the real world data is much more difficult to predict? Now this is a very good question and there is a simple answer.</p>
+<blockquote>
+<div><p>“The man who moves a mountain begins by carrying away small stones.”</p>
+<blockquote>
+<div><p>- Confucius</p>
+</div></blockquote>
+</div></blockquote>
+<p>Before trying to jump into the world of complex trading environments, a simple sine curve can be used to perform a sanity check on your trading algorithm. The reward and action scheme you use should be able to make money on the predictable pattern of a sine curve. If it does not, then you know there is no possibility success will be found on a more complex environment. There are some answers we would like to know fast before we waste time and resources in developing an algorithm which are and one of them is, does our <code class="docutils literal notranslate"><span class="pre">RewardScheme</span></code> correctly specify the goal we are after?</p>
+<p>In this tutorial we will propose a new reward scheme and action scheme and show that you can actually have the reward scheme be dependent on the action scheme. This will be done through the use of a <code class="docutils literal notranslate"><span class="pre">DataFeed</span></code>. We first, however, need to install <code class="docutils literal notranslate"><span class="pre">ray</span></code>.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>!pip install <span class="nv">ray</span><span class="o">==</span><span class="m">0</span>.8.7
+!pip install symfit
+</pre></div>
+</div>
+<p>We will begin by defining the two instruments we want to define our portfolio with. We will be using the U.S. dollar and fake coin called TensorTrade Coin.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">tensortrade.oms.instruments</span> <span class="kn">import</span> <span class="n">Instrument</span>
+
+<span class="n">USD</span> <span class="o">=</span> <span class="n">Instrument</span><span class="p">(</span><span class="s2">&quot;USD&quot;</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="s2">&quot;U.S. Dollar&quot;</span><span class="p">)</span>
+<span class="n">TTC</span> <span class="o">=</span> <span class="n">Instrument</span><span class="p">(</span><span class="s2">&quot;TTC&quot;</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="s2">&quot;TensorTrade Coin&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Now let us look at the curve we will be using to define our price.</p>
+<p><img alt="png" src="../_images/sine_curve.png" /></p>
+<p>Ideally, what we will be expecting from our agent is that it will be able to sell at the peaks and buy at the troughs. We will move on to defining our action scheme. The <code class="docutils literal notranslate"><span class="pre">ActionScheme</span></code> we are going to build is going to be extremely simple. There are only 3 states that our agent can be in which are <code class="docutils literal notranslate"><span class="pre">buy</span></code>, <code class="docutils literal notranslate"><span class="pre">sell</span></code>, and <code class="docutils literal notranslate"><span class="pre">hold</span></code>. We will make use of a new function in the library, <code class="docutils literal notranslate"><span class="pre">proportion_order</span></code>. This function enables the user to make an order that can take a percentage of funds at a particular wallet and send it to another. Therefore, we want to structure a way to only have two actions in our scheme and use them as indicators to move our funds to the opposite wallet.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">gym.spaces</span> <span class="kn">import</span> <span class="n">Discrete</span>
+
+<span class="kn">from</span> <span class="nn">tensortrade.env.default.actions</span> <span class="kn">import</span> <span class="n">TensorTradeActionScheme</span>
+
+<span class="kn">from</span> <span class="nn">tensortrade.env.generic</span> <span class="kn">import</span> <span class="n">ActionScheme</span><span class="p">,</span> <span class="n">TradingEnv</span>
+<span class="kn">from</span> <span class="nn">tensortrade.core</span> <span class="kn">import</span> <span class="n">Clock</span>
+<span class="kn">from</span> <span class="nn">tensortrade.oms.instruments</span> <span class="kn">import</span> <span class="n">ExchangePair</span>
+<span class="kn">from</span> <span class="nn">tensortrade.oms.wallets</span> <span class="kn">import</span> <span class="n">Portfolio</span>
+<span class="kn">from</span> <span class="nn">tensortrade.oms.orders</span> <span class="kn">import</span> <span class="p">(</span>
+    <span class="n">Order</span><span class="p">,</span>
+    <span class="n">proportion_order</span><span class="p">,</span>
+    <span class="n">TradeSide</span><span class="p">,</span>
+    <span class="n">TradeType</span>
+<span class="p">)</span>
+
+
+<span class="k">class</span> <span class="nc">BSH</span><span class="p">(</span><span class="n">TensorTradeActionScheme</span><span class="p">):</span>
+
+    <span class="n">registered_name</span> <span class="o">=</span> <span class="s2">&quot;bsh&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cash</span><span class="p">:</span> <span class="s1">&#39;Wallet&#39;</span><span class="p">,</span> <span class="n">asset</span><span class="p">:</span> <span class="s1">&#39;Wallet&#39;</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cash</span> <span class="o">=</span> <span class="n">cash</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">asset</span> <span class="o">=</span> <span class="n">asset</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">listeners</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">action</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">action_space</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">Discrete</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">attach</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">listener</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">listeners</span> <span class="o">+=</span> <span class="p">[</span><span class="n">listener</span><span class="p">]</span>
+        <span class="k">return</span> <span class="bp">self</span>
+
+    <span class="k">def</span> <span class="nf">get_orders</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">action</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">portfolio</span><span class="p">:</span> <span class="s1">&#39;Portfolio&#39;</span><span class="p">):</span>
+        <span class="n">order</span> <span class="o">=</span> <span class="kc">None</span>
+
+        <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="n">action</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">action</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">src</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">cash</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">action</span> <span class="o">==</span> <span class="mi">0</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">asset</span>
+            <span class="n">tgt</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">asset</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">action</span> <span class="o">==</span> <span class="mi">0</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">cash</span>
+            <span class="n">order</span> <span class="o">=</span> <span class="n">proportion_order</span><span class="p">(</span><span class="n">portfolio</span><span class="p">,</span> <span class="n">src</span><span class="p">,</span> <span class="n">tgt</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">action</span> <span class="o">=</span> <span class="n">action</span>
+
+        <span class="k">for</span> <span class="n">listener</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">listeners</span><span class="p">:</span>
+            <span class="n">listener</span><span class="o">.</span><span class="n">on_action</span><span class="p">(</span><span class="n">action</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="p">[</span><span class="n">order</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">reset</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">action</span> <span class="o">=</span> <span class="mi">0</span>
+</pre></div>
+</div>
+<p>Next, we want to create our reward scheme to reflect how well we are positioned in the environment. Essentially, we want to make a mapping that shows how we would like our rewards to be reflected for each state we are in. The following shows such a mapping:</p>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>State</th>
+<th>Price Up</th>
+<th>Price Down</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>All funds in <code>cash</code> wallet (0)</td>
+<td>-</td>
+<td>+</td>
+</tr>
+<tr>
+<td>All funds in <code>asset</code> wallet (1)</td>
+<td>+</td>
+<td>-</td>
+</tr>
+</tbody>
+</table><p>The signs in the table show what we would like the sign of the rewards to be. The position-based reward scheme (PBR) achieves this mapping.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">tensortrade.env.default.rewards</span> <span class="kn">import</span> <span class="n">TensorTradeRewardScheme</span>
+<span class="kn">from</span> <span class="nn">tensortrade.feed.core</span> <span class="kn">import</span> <span class="n">Stream</span><span class="p">,</span> <span class="n">DataFeed</span>
+
+
+<span class="k">class</span> <span class="nc">PBR</span><span class="p">(</span><span class="n">TensorTradeRewardScheme</span><span class="p">):</span>
+
+    <span class="n">registered_name</span> <span class="o">=</span> <span class="s2">&quot;pbr&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">price</span><span class="p">:</span> <span class="s1">&#39;Stream&#39;</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">position</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
+
+        <span class="n">r</span> <span class="o">=</span> <span class="n">Stream</span><span class="o">.</span><span class="n">sensor</span><span class="p">(</span><span class="n">price</span><span class="p">,</span> <span class="k">lambda</span> <span class="n">p</span><span class="p">:</span> <span class="n">p</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">diff</span><span class="p">()</span>
+        <span class="n">position</span> <span class="o">=</span> <span class="n">Stream</span><span class="o">.</span><span class="n">sensor</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="k">lambda</span> <span class="n">rs</span><span class="p">:</span> <span class="n">rs</span><span class="o">.</span><span class="n">position</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span>
+
+        <span class="n">reward</span> <span class="o">=</span> <span class="p">(</span><span class="n">r</span> <span class="o">*</span> <span class="n">position</span><span class="p">)</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;reward&quot;</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">feed</span> <span class="o">=</span> <span class="n">DataFeed</span><span class="p">([</span><span class="n">reward</span><span class="p">])</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">feed</span><span class="o">.</span><span class="n">compile</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">on_action</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">action</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">position</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span> <span class="k">if</span> <span class="n">action</span> <span class="o">==</span> <span class="mi">0</span> <span class="k">else</span> <span class="mi">1</span>
+
+    <span class="k">def</span> <span class="nf">get_reward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">portfolio</span><span class="p">:</span> <span class="s1">&#39;Portfolio&#39;</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">feed</span><span class="o">.</span><span class="n">next</span><span class="p">()[</span><span class="s2">&quot;reward&quot;</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">reset</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">position</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">feed</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Finally, we would like to make sure we can see if the agent is selling at the peaks and buying at the troughs. We will make a quick <code class="docutils literal notranslate"><span class="pre">Renderer</span></code> that can show this information using <code class="docutils literal notranslate"><span class="pre">Matplotlib</span></code>.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="kn">from</span> <span class="nn">tensortrade.env.generic</span> <span class="kn">import</span> <span class="n">Renderer</span>
+
+
+<span class="k">class</span> <span class="nc">PositionChangeChart</span><span class="p">(</span><span class="n">Renderer</span><span class="p">):</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">color</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;orange&quot;</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">color</span> <span class="o">=</span> <span class="s2">&quot;orange&quot;</span>
+
+    <span class="k">def</span> <span class="nf">render</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">history</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">env</span><span class="o">.</span><span class="n">observer</span><span class="o">.</span><span class="n">renderer_history</span><span class="p">)</span>
+
+        <span class="n">actions</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">history</span><span class="o">.</span><span class="n">action</span><span class="p">)</span>
+        <span class="n">p</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">history</span><span class="o">.</span><span class="n">price</span><span class="p">)</span>
+
+        <span class="n">buy</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="n">sell</span> <span class="o">=</span> <span class="p">{}</span>
+
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">actions</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">):</span>
+            <span class="n">a1</span> <span class="o">=</span> <span class="n">actions</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+            <span class="n">a2</span> <span class="o">=</span> <span class="n">actions</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
+
+            <span class="k">if</span> <span class="n">a1</span> <span class="o">!=</span> <span class="n">a2</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">a1</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">a2</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+                    <span class="n">buy</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">sell</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+
+        <span class="n">buy</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">buy</span><span class="p">)</span>
+        <span class="n">sell</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">sell</span><span class="p">)</span>
+
+        <span class="n">fig</span><span class="p">,</span> <span class="n">axs</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+
+        <span class="n">fig</span><span class="o">.</span><span class="n">suptitle</span><span class="p">(</span><span class="s2">&quot;Performance&quot;</span><span class="p">)</span>
+
+        <span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">p</span><span class="p">)),</span> <span class="n">p</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;price&quot;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">color</span><span class="p">)</span>
+        <span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">buy</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">buy</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s2">&quot;^&quot;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;green&quot;</span><span class="p">)</span>
+        <span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">sell</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">sell</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s2">&quot;^&quot;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;red&quot;</span><span class="p">)</span>
+        <span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s2">&quot;Trading Chart&quot;</span><span class="p">)</span>
+
+        <span class="n">env</span><span class="o">.</span><span class="n">action_scheme</span><span class="o">.</span><span class="n">portfolio</span><span class="o">.</span><span class="n">performance</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">ax</span><span class="o">=</span><span class="n">axs</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">axs</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s2">&quot;Net Worth&quot;</span><span class="p">)</span>
+
+        <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+<p><br><strong>Train</strong><br>
+Now in order to use our custom environment in <code class="docutils literal notranslate"><span class="pre">ray</span></code> we must first write a function that creates an instance of the <code class="docutils literal notranslate"><span class="pre">TradingEnv</span></code> from a configuration dictionary.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ray</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="kn">from</span> <span class="nn">ray</span> <span class="kn">import</span> <span class="n">tune</span>
+<span class="kn">from</span> <span class="nn">ray.tune.registry</span> <span class="kn">import</span> <span class="n">register_env</span>
+
+<span class="kn">import</span> <span class="nn">tensortrade.env.default</span> <span class="k">as</span> <span class="nn">default</span>
+
+<span class="kn">from</span> <span class="nn">tensortrade.feed.core</span> <span class="kn">import</span> <span class="n">DataFeed</span><span class="p">,</span> <span class="n">Stream</span>
+<span class="kn">from</span> <span class="nn">tensortrade.oms.exchanges</span> <span class="kn">import</span> <span class="n">Exchange</span>
+<span class="kn">from</span> <span class="nn">tensortrade.oms.services.execution.simulated</span> <span class="kn">import</span> <span class="n">execute_order</span>
+<span class="kn">from</span> <span class="nn">tensortrade.oms.wallets</span> <span class="kn">import</span> <span class="n">Wallet</span><span class="p">,</span> <span class="n">Portfolio</span>
+
+
+
+<span class="k">def</span> <span class="nf">create_env</span><span class="p">(</span><span class="n">config</span><span class="p">):</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span> <span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mi">1001</span><span class="p">)</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="mi">50</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="mi">3</span><span class="o">*</span><span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="mi">100</span>
+
+    <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span> <span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mi">1000</span><span class="p">)</span>
+    <span class="n">p</span> <span class="o">=</span> <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;USD-TTC&quot;</span><span class="p">)</span>
+
+    <span class="n">coinbase</span> <span class="o">=</span> <span class="n">Exchange</span><span class="p">(</span><span class="s2">&quot;coinbase&quot;</span><span class="p">,</span> <span class="n">service</span><span class="o">=</span><span class="n">execute_order</span><span class="p">)(</span>
+        <span class="n">p</span>
+    <span class="p">)</span>
+
+    <span class="n">cash</span> <span class="o">=</span> <span class="n">Wallet</span><span class="p">(</span><span class="n">coinbase</span><span class="p">,</span> <span class="mi">100000</span> <span class="o">*</span> <span class="n">USD</span><span class="p">)</span>
+    <span class="n">asset</span> <span class="o">=</span> <span class="n">Wallet</span><span class="p">(</span><span class="n">coinbase</span><span class="p">,</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">TTC</span><span class="p">)</span>
+
+    <span class="n">portfolio</span> <span class="o">=</span> <span class="n">Portfolio</span><span class="p">(</span><span class="n">USD</span><span class="p">,</span> <span class="p">[</span>
+        <span class="n">cash</span><span class="p">,</span>
+        <span class="n">asset</span>
+    <span class="p">])</span>
+
+    <span class="n">feed</span> <span class="o">=</span> <span class="n">DataFeed</span><span class="p">([</span>
+        <span class="n">p</span><span class="p">,</span>
+        <span class="n">p</span><span class="o">.</span><span class="n">rolling</span><span class="p">(</span><span class="n">window</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;fast&quot;</span><span class="p">),</span>
+        <span class="n">p</span><span class="o">.</span><span class="n">rolling</span><span class="p">(</span><span class="n">window</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;medium&quot;</span><span class="p">),</span>
+        <span class="n">p</span><span class="o">.</span><span class="n">rolling</span><span class="p">(</span><span class="n">window</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;slow&quot;</span><span class="p">),</span>
+        <span class="n">p</span><span class="o">.</span><span class="n">log</span><span class="p">()</span><span class="o">.</span><span class="n">diff</span><span class="p">()</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;lr&quot;</span><span class="p">)</span>
+    <span class="p">])</span>
+
+    <span class="n">reward_scheme</span> <span class="o">=</span> <span class="n">PBR</span><span class="p">(</span><span class="n">price</span><span class="o">=</span><span class="n">p</span><span class="p">)</span>
+
+    <span class="n">action_scheme</span> <span class="o">=</span> <span class="n">BSH</span><span class="p">(</span>
+        <span class="n">cash</span><span class="o">=</span><span class="n">cash</span><span class="p">,</span>
+        <span class="n">asset</span><span class="o">=</span><span class="n">asset</span>
+    <span class="p">)</span><span class="o">.</span><span class="n">attach</span><span class="p">(</span><span class="n">reward_scheme</span><span class="p">)</span>
+
+    <span class="n">renderer_feed</span> <span class="o">=</span> <span class="n">DataFeed</span><span class="p">([</span>
+        <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;price&quot;</span><span class="p">),</span>
+        <span class="n">Stream</span><span class="o">.</span><span class="n">sensor</span><span class="p">(</span><span class="n">action_scheme</span><span class="p">,</span> <span class="k">lambda</span> <span class="n">s</span><span class="p">:</span> <span class="n">s</span><span class="o">.</span><span class="n">action</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;action&quot;</span><span class="p">)</span>
+    <span class="p">])</span>
+
+    <span class="n">environment</span> <span class="o">=</span> <span class="n">default</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+        <span class="n">feed</span><span class="o">=</span><span class="n">feed</span><span class="p">,</span>
+        <span class="n">portfolio</span><span class="o">=</span><span class="n">portfolio</span><span class="p">,</span>
+        <span class="n">action_scheme</span><span class="o">=</span><span class="n">action_scheme</span><span class="p">,</span>
+        <span class="n">reward_scheme</span><span class="o">=</span><span class="n">reward_scheme</span><span class="p">,</span>
+        <span class="n">renderer_feed</span><span class="o">=</span><span class="n">renderer_feed</span><span class="p">,</span>
+        <span class="n">renderer</span><span class="o">=</span><span class="n">PositionChangeChart</span><span class="p">(),</span>
+        <span class="n">window_size</span><span class="o">=</span><span class="n">config</span><span class="p">[</span><span class="s2">&quot;window_size&quot;</span><span class="p">],</span>
+        <span class="n">max_allowed_loss</span><span class="o">=</span><span class="mf">0.6</span>
+    <span class="p">)</span>
+    <span class="k">return</span> <span class="n">environment</span>
+
+<span class="n">register_env</span><span class="p">(</span><span class="s2">&quot;TradingEnv&quot;</span><span class="p">,</span> <span class="n">create_env</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Now that the environment is registered we can run the training algorithm using the Proximal Policy Optimization (PPO) algorithm implemented in <code class="docutils literal notranslate"><span class="pre">rllib</span></code>.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">analysis</span> <span class="o">=</span> <span class="n">tune</span><span class="o">.</span><span class="n">run</span><span class="p">(</span>
+    <span class="s2">&quot;PPO&quot;</span><span class="p">,</span>
+    <span class="n">stop</span><span class="o">=</span><span class="p">{</span>
+      <span class="s2">&quot;episode_reward_mean&quot;</span><span class="p">:</span> <span class="mi">500</span>
+    <span class="p">},</span>
+    <span class="n">config</span><span class="o">=</span><span class="p">{</span>
+        <span class="s2">&quot;env&quot;</span><span class="p">:</span> <span class="s2">&quot;TradingEnv&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;env_config&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;window_size&quot;</span><span class="p">:</span> <span class="mi">25</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;log_level&quot;</span><span class="p">:</span> <span class="s2">&quot;DEBUG&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;framework&quot;</span><span class="p">:</span> <span class="s2">&quot;torch&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ignore_worker_failures&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="s2">&quot;num_workers&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="s2">&quot;num_gpus&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+        <span class="s2">&quot;clip_rewards&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="s2">&quot;lr&quot;</span><span class="p">:</span> <span class="mf">8e-6</span><span class="p">,</span>
+        <span class="s2">&quot;lr_schedule&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mf">1e-1</span><span class="p">],</span>
+            <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="mf">1e2</span><span class="p">),</span> <span class="mf">1e-2</span><span class="p">],</span>
+            <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="mf">1e3</span><span class="p">),</span> <span class="mf">1e-3</span><span class="p">],</span>
+            <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="mf">1e4</span><span class="p">),</span> <span class="mf">1e-4</span><span class="p">],</span>
+            <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="mf">1e5</span><span class="p">),</span> <span class="mf">1e-5</span><span class="p">],</span>
+            <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="mf">1e6</span><span class="p">),</span> <span class="mf">1e-6</span><span class="p">],</span>
+            <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="mf">1e7</span><span class="p">),</span> <span class="mf">1e-7</span><span class="p">]</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;gamma&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+        <span class="s2">&quot;observation_filter&quot;</span><span class="p">:</span> <span class="s2">&quot;MeanStdFilter&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;lambda&quot;</span><span class="p">:</span> <span class="mf">0.72</span><span class="p">,</span>
+        <span class="s2">&quot;vf_loss_coeff&quot;</span><span class="p">:</span> <span class="mf">0.5</span><span class="p">,</span>
+        <span class="s2">&quot;entropy_coeff&quot;</span><span class="p">:</span> <span class="mf">0.01</span>
+    <span class="p">},</span>
+    <span class="n">checkpoint_at_end</span><span class="o">=</span><span class="kc">True</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>After training is complete, we would now like to get access to the agents policy. We can do that by restoring the agent using the following code.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ray.rllib.agents.ppo</span> <span class="k">as</span> <span class="nn">ppo</span>
+
+<span class="c1"># Get checkpoint</span>
+<span class="n">checkpoints</span> <span class="o">=</span> <span class="n">analysis</span><span class="o">.</span><span class="n">get_trial_checkpoints_paths</span><span class="p">(</span>
+    <span class="n">trial</span><span class="o">=</span><span class="n">analysis</span><span class="o">.</span><span class="n">get_best_trial</span><span class="p">(</span><span class="s2">&quot;episode_reward_mean&quot;</span><span class="p">),</span>
+    <span class="n">metric</span><span class="o">=</span><span class="s2">&quot;episode_reward_mean&quot;</span>
+<span class="p">)</span>
+<span class="n">checkpoint_path</span> <span class="o">=</span> <span class="n">checkpoints</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+
+<span class="c1"># Restore agent</span>
+<span class="n">agent</span> <span class="o">=</span> <span class="n">ppo</span><span class="o">.</span><span class="n">PPOTrainer</span><span class="p">(</span>
+    <span class="n">env</span><span class="o">=</span><span class="s2">&quot;TradingEnv&quot;</span><span class="p">,</span>
+    <span class="n">config</span><span class="o">=</span><span class="p">{</span>
+        <span class="s2">&quot;env_config&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;window_size&quot;</span><span class="p">:</span> <span class="mi">25</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;framework&quot;</span><span class="p">:</span> <span class="s2">&quot;torch&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;log_level&quot;</span><span class="p">:</span> <span class="s2">&quot;DEBUG&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ignore_worker_failures&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="s2">&quot;num_workers&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="s2">&quot;num_gpus&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+        <span class="s2">&quot;clip_rewards&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="s2">&quot;lr&quot;</span><span class="p">:</span> <span class="mf">8e-6</span><span class="p">,</span>
+        <span class="s2">&quot;lr_schedule&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mf">1e-1</span><span class="p">],</span>
+            <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="mf">1e2</span><span class="p">),</span> <span class="mf">1e-2</span><span class="p">],</span>
+            <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="mf">1e3</span><span class="p">),</span> <span class="mf">1e-3</span><span class="p">],</span>
+            <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="mf">1e4</span><span class="p">),</span> <span class="mf">1e-4</span><span class="p">],</span>
+            <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="mf">1e5</span><span class="p">),</span> <span class="mf">1e-5</span><span class="p">],</span>
+            <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="mf">1e6</span><span class="p">),</span> <span class="mf">1e-6</span><span class="p">],</span>
+            <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="mf">1e7</span><span class="p">),</span> <span class="mf">1e-7</span><span class="p">]</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;gamma&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+        <span class="s2">&quot;observation_filter&quot;</span><span class="p">:</span> <span class="s2">&quot;MeanStdFilter&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;lambda&quot;</span><span class="p">:</span> <span class="mf">0.72</span><span class="p">,</span>
+        <span class="s2">&quot;vf_loss_coeff&quot;</span><span class="p">:</span> <span class="mf">0.5</span><span class="p">,</span>
+        <span class="s2">&quot;entropy_coeff&quot;</span><span class="p">:</span> <span class="mf">0.01</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">agent</span><span class="o">.</span><span class="n">restore</span><span class="p">(</span><span class="n">checkpoint_path</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Now let us get a visualization of the agent’s decision making on our sine curve example by rendering the environment.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Instantiate the environment</span>
+<span class="n">env</span> <span class="o">=</span> <span class="n">create_env</span><span class="p">({</span>
+    <span class="s2">&quot;window_size&quot;</span><span class="p">:</span> <span class="mi">25</span>
+<span class="p">})</span>
+
+<span class="c1"># Run until episode ends</span>
+<span class="n">episode_reward</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">done</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="n">obs</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+
+<span class="k">while</span> <span class="ow">not</span> <span class="n">done</span><span class="p">:</span>
+    <span class="n">action</span> <span class="o">=</span> <span class="n">agent</span><span class="o">.</span><span class="n">compute_action</span><span class="p">(</span><span class="n">obs</span><span class="p">)</span>
+    <span class="n">obs</span><span class="p">,</span> <span class="n">reward</span><span class="p">,</span> <span class="n">done</span><span class="p">,</span> <span class="n">info</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">step</span><span class="p">(</span><span class="n">action</span><span class="p">)</span>
+    <span class="n">episode_reward</span> <span class="o">+=</span> <span class="n">reward</span>
+
+<span class="n">env</span><span class="o">.</span><span class="n">render</span><span class="p">()</span>
+</pre></div>
+</div>
+<p><img alt="png" src="../_images/train_performance.png" /></p>
+<p>From the rendering, you can see that the agent is making near optimal decisions on the environment. Now we want to put the agent in an environment it is not used to and see what kind of decisions it makes. We will use for our price, an <code class="docutils literal notranslate"><span class="pre">order</span></code> 5 Fourier series fitted to a randomly generated Geometric Brownian Motion (GBM). We will use the <code class="docutils literal notranslate"><span class="pre">symfit</span></code> library to do this.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">symfit</span> <span class="kn">import</span> <span class="n">parameters</span><span class="p">,</span> <span class="n">variables</span><span class="p">,</span> <span class="n">sin</span><span class="p">,</span> <span class="n">cos</span><span class="p">,</span> <span class="n">Fit</span>
+
+
+<span class="k">def</span> <span class="nf">fourier_series</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">n</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Creates a symbolic fourier series of order `n`.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    x : `symfit.Variable`</span>
+<span class="sd">        The input variable for the function.</span>
+<span class="sd">    f : `symfit.Parameter`</span>
+<span class="sd">        Frequency of the fourier series</span>
+<span class="sd">    n : int</span>
+<span class="sd">        Order of the fourier series.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Make the parameter objects for all the terms</span>
+    <span class="n">a0</span><span class="p">,</span> <span class="o">*</span><span class="n">cos_a</span> <span class="o">=</span> <span class="n">parameters</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="s1">&#39;a</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)]))</span>
+    <span class="n">sin_b</span> <span class="o">=</span> <span class="n">parameters</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="s1">&#39;b</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)]))</span>
+
+    <span class="c1"># Construct the series</span>
+    <span class="n">series</span> <span class="o">=</span> <span class="n">a0</span> <span class="o">+</span> <span class="nb">sum</span><span class="p">(</span><span class="n">ai</span> <span class="o">*</span> <span class="n">cos</span><span class="p">(</span><span class="n">i</span> <span class="o">*</span> <span class="n">f</span> <span class="o">*</span> <span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="n">bi</span> <span class="o">*</span> <span class="n">sin</span><span class="p">(</span><span class="n">i</span> <span class="o">*</span> <span class="n">f</span> <span class="o">*</span> <span class="n">x</span><span class="p">)</span>
+                     <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="p">(</span><span class="n">ai</span><span class="p">,</span> <span class="n">bi</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">cos_a</span><span class="p">,</span> <span class="n">sin_b</span><span class="p">),</span> <span class="n">start</span><span class="o">=</span><span class="mi">1</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">series</span>
+
+
+<span class="k">def</span> <span class="nf">gbm</span><span class="p">(</span><span class="n">price</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span>
+        <span class="n">mu</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span>
+        <span class="n">sigma</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span>
+        <span class="n">dt</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span>
+        <span class="n">n</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Generates a geometric brownian motion path.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    price : float</span>
+<span class="sd">        The initial price of the series.</span>
+<span class="sd">    mu : float</span>
+<span class="sd">        The percentage drift.</span>
+<span class="sd">    sigma : float</span>
+<span class="sd">        The percentage volatility.</span>
+<span class="sd">    dt : float</span>
+<span class="sd">        The time step size.</span>
+<span class="sd">    n : int</span>
+<span class="sd">        The number of steps to be generated in the path.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    `np.array`</span>
+<span class="sd">        The generated path.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">((</span><span class="n">mu</span> <span class="o">-</span> <span class="n">sigma</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span> <span class="o">*</span> <span class="n">dt</span> <span class="o">+</span> <span class="n">sigma</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">dt</span><span class="p">),</span> <span class="n">size</span><span class="o">=</span><span class="n">n</span><span class="p">)</span><span class="o">.</span><span class="n">T</span><span class="p">)</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">price</span> <span class="o">*</span> <span class="n">y</span><span class="o">.</span><span class="n">cumprod</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">y</span>
+
+
+<span class="k">def</span> <span class="nf">fourier_gbm</span><span class="p">(</span><span class="n">price</span><span class="p">,</span> <span class="n">mu</span><span class="p">,</span> <span class="n">sigma</span><span class="p">,</span> <span class="n">dt</span><span class="p">,</span> <span class="n">n</span><span class="p">,</span> <span class="n">order</span><span class="p">):</span>
+
+    <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">variables</span><span class="p">(</span><span class="s1">&#39;x, y&#39;</span><span class="p">)</span>
+    <span class="n">w</span><span class="p">,</span> <span class="o">=</span> <span class="n">parameters</span><span class="p">(</span><span class="s1">&#39;w&#39;</span><span class="p">)</span>
+    <span class="n">model_dict</span> <span class="o">=</span> <span class="p">{</span><span class="n">y</span><span class="p">:</span> <span class="n">fourier_series</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">f</span><span class="o">=</span><span class="n">w</span><span class="p">,</span> <span class="n">n</span><span class="o">=</span><span class="n">order</span><span class="p">)}</span>
+
+    <span class="c1"># Make step function data</span>
+    <span class="n">xdata</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span> <span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">/</span> <span class="n">n</span><span class="p">)</span>
+    <span class="n">ydata</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">gbm</span><span class="p">(</span><span class="n">price</span><span class="p">,</span> <span class="n">mu</span><span class="p">,</span> <span class="n">sigma</span><span class="p">,</span> <span class="n">dt</span><span class="p">,</span> <span class="n">n</span><span class="p">))</span>
+
+    <span class="c1"># Define a Fit object for this model and data</span>
+    <span class="n">fit</span> <span class="o">=</span> <span class="n">Fit</span><span class="p">(</span><span class="n">model_dict</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="n">xdata</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">ydata</span><span class="p">)</span>
+    <span class="n">fit_result</span> <span class="o">=</span> <span class="n">fit</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">fit</span><span class="o">.</span><span class="n">model</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">xdata</span><span class="p">,</span> <span class="o">**</span><span class="n">fit_result</span><span class="o">.</span><span class="n">params</span><span class="p">)</span><span class="o">.</span><span class="n">y</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Now we can make the evaluation environment and see how the agent performs.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">create_eval_env</span><span class="p">(</span><span class="n">config</span><span class="p">):</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">config</span><span class="p">[</span><span class="s2">&quot;y&quot;</span><span class="p">]</span>
+
+    <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span> <span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mi">1000</span><span class="p">)</span>
+    <span class="n">p</span> <span class="o">=</span> <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;USD-TTC&quot;</span><span class="p">)</span>
+
+    <span class="n">coinbase</span> <span class="o">=</span> <span class="n">Exchange</span><span class="p">(</span><span class="s2">&quot;coinbase&quot;</span><span class="p">,</span> <span class="n">service</span><span class="o">=</span><span class="n">execute_order</span><span class="p">)(</span>
+        <span class="n">p</span>
+    <span class="p">)</span>
+
+    <span class="n">cash</span> <span class="o">=</span> <span class="n">Wallet</span><span class="p">(</span><span class="n">coinbase</span><span class="p">,</span> <span class="mi">100000</span> <span class="o">*</span> <span class="n">USD</span><span class="p">)</span>
+    <span class="n">asset</span> <span class="o">=</span> <span class="n">Wallet</span><span class="p">(</span><span class="n">coinbase</span><span class="p">,</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">TTC</span><span class="p">)</span>
+
+    <span class="n">portfolio</span> <span class="o">=</span> <span class="n">Portfolio</span><span class="p">(</span><span class="n">USD</span><span class="p">,</span> <span class="p">[</span>
+        <span class="n">cash</span><span class="p">,</span>
+        <span class="n">asset</span>
+    <span class="p">])</span>
+
+    <span class="n">feed</span> <span class="o">=</span> <span class="n">DataFeed</span><span class="p">([</span>
+        <span class="n">p</span><span class="p">,</span>
+        <span class="n">p</span><span class="o">.</span><span class="n">rolling</span><span class="p">(</span><span class="n">window</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;fast&quot;</span><span class="p">),</span>
+        <span class="n">p</span><span class="o">.</span><span class="n">rolling</span><span class="p">(</span><span class="n">window</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;medium&quot;</span><span class="p">),</span>
+        <span class="n">p</span><span class="o">.</span><span class="n">rolling</span><span class="p">(</span><span class="n">window</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;slow&quot;</span><span class="p">),</span>
+        <span class="n">p</span><span class="o">.</span><span class="n">log</span><span class="p">()</span><span class="o">.</span><span class="n">diff</span><span class="p">()</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;lr&quot;</span><span class="p">)</span>
+    <span class="p">])</span>
+
+    <span class="n">reward_scheme</span> <span class="o">=</span> <span class="n">PBR</span><span class="p">(</span><span class="n">price</span><span class="o">=</span><span class="n">p</span><span class="p">)</span>
+
+    <span class="n">action_scheme</span> <span class="o">=</span> <span class="n">BSH</span><span class="p">(</span>
+        <span class="n">cash</span><span class="o">=</span><span class="n">cash</span><span class="p">,</span>
+        <span class="n">asset</span><span class="o">=</span><span class="n">asset</span>
+    <span class="p">)</span><span class="o">.</span><span class="n">attach</span><span class="p">(</span><span class="n">reward_scheme</span><span class="p">)</span>
+
+    <span class="n">renderer_feed</span> <span class="o">=</span> <span class="n">DataFeed</span><span class="p">([</span>
+        <span class="n">Stream</span><span class="o">.</span><span class="n">source</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;price&quot;</span><span class="p">),</span>
+        <span class="n">Stream</span><span class="o">.</span><span class="n">sensor</span><span class="p">(</span><span class="n">action_scheme</span><span class="p">,</span> <span class="k">lambda</span> <span class="n">s</span><span class="p">:</span> <span class="n">s</span><span class="o">.</span><span class="n">action</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;action&quot;</span><span class="p">)</span>
+    <span class="p">])</span>
+
+    <span class="n">environment</span> <span class="o">=</span> <span class="n">default</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+        <span class="n">feed</span><span class="o">=</span><span class="n">feed</span><span class="p">,</span>
+        <span class="n">portfolio</span><span class="o">=</span><span class="n">portfolio</span><span class="p">,</span>
+        <span class="n">action_scheme</span><span class="o">=</span><span class="n">action_scheme</span><span class="p">,</span>
+        <span class="n">reward_scheme</span><span class="o">=</span><span class="n">reward_scheme</span><span class="p">,</span>
+        <span class="n">renderer_feed</span><span class="o">=</span><span class="n">renderer_feed</span><span class="p">,</span>
+        <span class="n">renderer</span><span class="o">=</span><span class="n">PositionChangeChart</span><span class="p">(),</span>
+        <span class="n">window_size</span><span class="o">=</span><span class="n">config</span><span class="p">[</span><span class="s2">&quot;window_size&quot;</span><span class="p">],</span>
+        <span class="n">max_allowed_loss</span><span class="o">=</span><span class="mf">0.6</span>
+    <span class="p">)</span>
+    <span class="k">return</span> <span class="n">environment</span>
+
+<span class="c1"># Instantiate the environment</span>
+<span class="n">env</span> <span class="o">=</span> <span class="n">create_eval_env</span><span class="p">({</span>
+    <span class="s2">&quot;window_size&quot;</span><span class="p">:</span> <span class="mi">25</span><span class="p">,</span>
+    <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="n">fourier_gbm</span><span class="p">(</span><span class="n">price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">mu</span><span class="o">=</span><span class="mf">0.01</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">dt</span><span class="o">=</span><span class="mf">0.01</span><span class="p">,</span> <span class="n">n</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span> <span class="n">order</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+<span class="p">})</span>
+
+
+<span class="c1"># Run until episode ends</span>
+<span class="n">episode_reward</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">done</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="n">obs</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+
+<span class="k">while</span> <span class="ow">not</span> <span class="n">done</span><span class="p">:</span>
+    <span class="n">action</span> <span class="o">=</span> <span class="n">agent</span><span class="o">.</span><span class="n">compute_action</span><span class="p">(</span><span class="n">obs</span><span class="p">)</span>
+    <span class="n">obs</span><span class="p">,</span> <span class="n">reward</span><span class="p">,</span> <span class="n">done</span><span class="p">,</span> <span class="n">info</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">step</span><span class="p">(</span><span class="n">action</span><span class="p">)</span>
+    <span class="n">episode_reward</span> <span class="o">+=</span> <span class="n">reward</span>
+</pre></div>
+</div>
+<p>The following are a few examples of the rendering that came from the evaluation environment.</p>
+<p><img alt="png" src="../_images/eval_01.png" />
+<img alt="png" src="../_images/eval_02.png" />
+<img alt="png" src="../_images/eval_03.png" />
+<img alt="png" src="../_images/eval_04.png" /></p>
+<p>As you can see, the agent has been able to make correct decisions on some of the price curves, but not all of them. The last curve shows some of the shortcomings of the agent. The agent seemed to have stop making decisions to move its wealth to capitalize on the changes in price. In the first three, however, it was able to make those decisions. The reason for this is most likely the change in the frequency of the curve. The last chart has a price curve that is volatile, containing many local maxima and minima as opposed to the first three charts.</p>
+<p><br><strong>What have we learned?</strong><br></p>
+<ul class="simple">
+<li><p>Make an environment in TT.</p></li>
+<li><p>Create a custom <code class="docutils literal notranslate"><span class="pre">ActionScheme</span></code>, <code class="docutils literal notranslate"><span class="pre">RewardScheme</span></code>, and <code class="docutils literal notranslate"><span class="pre">Renderer</span></code> in TT.</p></li>
+<li><p>Using a simple price curve to understand more about actions and rewards in our use case.</p></li>
+<li><p>Using <code class="docutils literal notranslate"><span class="pre">ray</span></code> to train and restore an agent.</p></li>
+<li><p>Making evaluation environments for providing insight into the decisions of an agent.</p></li>
+</ul>
+<p>See you in the next tutorial!</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../components/components.html" class="btn btn-neutral float-right" title="Components" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../examples/ledger_example.html" class="btn btn-neutral float-left" title="Ledger Example" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
