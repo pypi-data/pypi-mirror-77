@@ -1,0 +1,6 @@
+README.md
+setup.py
+cygnusdb.egg-info/PKG-INFO
+cygnusdb.egg-info/SOURCES.txt
+cygnusdb.egg-info/dependency_links.txt
+cygnusdb.egg-info/top_level.txt
