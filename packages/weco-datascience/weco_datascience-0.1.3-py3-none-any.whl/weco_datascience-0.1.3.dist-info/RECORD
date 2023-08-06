@@ -1,0 +1,14 @@
+weco_datascience/README.md,sha256=t1VQrm5NTCx5UwwtQo98UrrtkRxeMHvuLGsG_lF-2eY,107
+weco_datascience/__init__.py,sha256=fCww7mXDIoVKSPSJw5BtvdIBOIAA6-t2u_fbFzsWb2M,118
+weco_datascience/aws.py,sha256=X1O-no3UAsyGYgPj9oqc6X0qaEeF39QWcXBaqusDbKo,573
+weco_datascience/batching.py,sha256=xbh5biA3V8pwObRpSowahgtudVL40L121hRs2ZD5KBQ,5191
+weco_datascience/credentials.py,sha256=cxmgER7dhaPKisNzYo-jmO4DvDRPu1GeqqUXU7pzEgs,1201
+weco_datascience/http.py,sha256=E96WbWRKXUOADcNVG2R413zNWReFxrFwXMkJvCi_8BQ,1674
+weco_datascience/image.py,sha256=Kms13qDpDo6XDiDCavyCdDCvtLi-Z-gU6afb0qbPEK4,2283
+weco_datascience/logging.py,sha256=hn_56-tEz7ON9sHelXKgonZvxCFLETo5yR6ApVzYPdM,399
+weco_datascience/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+weco_datascience/test/test_image.py,sha256=CUa-ZfYp47lld2lf4g1Y-PdenZ-VopZ6KV-xpkAOxoA,1176
+weco_datascience-0.1.3.dist-info/LICENSE.md,sha256=d4qnNlXhYjKPhROM1UAIzk_dLgUklgCMk54ZmXHJUyY,1070
+weco_datascience-0.1.3.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+weco_datascience-0.1.3.dist-info/METADATA,sha256=3oAtMXsl1O1Y2PW-lZiaFJ5vI0_21zvxet4IppNT0VY,858
+weco_datascience-0.1.3.dist-info/RECORD,,
