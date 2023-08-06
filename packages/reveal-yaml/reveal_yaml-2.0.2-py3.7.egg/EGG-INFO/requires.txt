@@ -1,0 +1,8 @@
+pyyaml
+flask
+werkzeug
+frozen-flask
+jsonschema
+
+[:sys_platform != "win32"]
+gunicorn
