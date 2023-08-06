@@ -1,0 +1,16 @@
+setup.py
+Cuckoo_web.egg-info/PKG-INFO
+Cuckoo_web.egg-info/SOURCES.txt
+Cuckoo_web.egg-info/dependency_links.txt
+Cuckoo_web.egg-info/not-zip-safe
+Cuckoo_web.egg-info/requires.txt
+Cuckoo_web.egg-info/top_level.txt
+cuckoo/web/__init__.py
+cuckoo/web/dashboard/__init__.py
+cuckoo/web/reports/__init__.py
+cuckoo/web/submit/__init__.py
+cuckoo/web/uiapi/__init__.py
+cuckoo/web/uiapi/analyses/__init__.py
+cuckoo/web/uiapi/search/__init__.py
+cuckoo/web/web/__init__.py
+cuckoo/web/web/jinja/__init__.py
