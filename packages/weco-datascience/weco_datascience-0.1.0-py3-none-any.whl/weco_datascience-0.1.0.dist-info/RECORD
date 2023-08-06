@@ -1,0 +1,10 @@
+weco_datascience/__init__.py,sha256=Er175dIYB4ECGrlIW66HEwcaqeNoYUw5aL_cKLD65E0,118
+weco_datascience/aws.py,sha256=X1O-no3UAsyGYgPj9oqc6X0qaEeF39QWcXBaqusDbKo,573
+weco_datascience/batching.py,sha256=xbh5biA3V8pwObRpSowahgtudVL40L121hRs2ZD5KBQ,5191
+weco_datascience/credentials.py,sha256=cxmgER7dhaPKisNzYo-jmO4DvDRPu1GeqqUXU7pzEgs,1201
+weco_datascience/http.py,sha256=E96WbWRKXUOADcNVG2R413zNWReFxrFwXMkJvCi_8BQ,1674
+weco_datascience/image.py,sha256=WIK_OTEdifd2wMVOIrZ4B-FvJii9BNTgKlOYljiuvZk,2053
+weco_datascience/logging.py,sha256=hn_56-tEz7ON9sHelXKgonZvxCFLETo5yR6ApVzYPdM,399
+weco_datascience-0.1.0.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+weco_datascience-0.1.0.dist-info/METADATA,sha256=67NefosL-rnzNuWKjBv2meSt6-hIlKEkyl2RDEBLdH4,842
+weco_datascience-0.1.0.dist-info/RECORD,,
