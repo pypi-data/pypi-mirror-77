@@ -1,0 +1,12 @@
+xiyang_morph/__init__.py,sha256=T5Vyhwpi_Mht5VvyD6MlYZS5Y5sz6gtbFdaR87IClpM,22
+xiyang_morph/config.py,sha256=y4kSUnYh4aTNbUEXanmHfgcxKhRfSgEKO62zPOk3sxc,397
+xiyang_morph/face_detect_and_track.py,sha256=N5NDJ3myZ-xuVXwKiizMppXTTdGTJvbiRPALsqobBZk,6818
+xiyang_morph/face_detection.py,sha256=etKLLXeowaiRQ9j1TawmzFZ0gatYzwHOIN7N1vOp_qU,406
+xiyang_morph/face_points_detection.py,sha256=xJgwwkVilbt6C70Vl1vMl5O5K0qxJAv9030IW5KWpbg,578
+xiyang_morph/face_swap.py,sha256=43FQ3EFK2x9FkfnC0cJM3MlRyF5QKVH87zYoXw7mNSg,6220
+xiyang_morph/morph.py,sha256=S7hE-u3FI2asPXP6LCgs5yNy6IOQXkmx5ITiL7sXg5U,3556
+xiyang_morph/video_handler.py,sha256=E6aFgwT8gvIRaMCCPLUXTxqeu1OLvyzCkFXK38RhCGs,10598
+xiyang_porch_pkg-1.0.1.dist-info/METADATA,sha256=uTU47Z4oHbhtmZp1a72igUYhLEDafFXxkEcuTLORUYI,465
+xiyang_porch_pkg-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+xiyang_porch_pkg-1.0.1.dist-info/top_level.txt,sha256=56tzKWaKSfCRDgxckDImwf4PCxVcKGIMdzPM4yPs0Jc,13
+xiyang_porch_pkg-1.0.1.dist-info/RECORD,,
