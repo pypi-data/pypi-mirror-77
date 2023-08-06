@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: hellonlp
+Version: 0.2.7
+Summary: NLP tools
+Home-page: https://github.com/hellonlp/hellonlp
+Author: Chen Ming
+Author-email: chenming9109@163.com
+License: MIT
+Description: 
+        # HelloNLP 
+        做更好的NLP开源者，
+        
+        
+        # 开发者 
+        | Author | Email | 
+        | ----- | ------ | 
+        | ChenMing | chenming9109@163.com |
+        
+        
+        # 主要功能 
+        1. 分词-通过信息熵
+        2. 分词-通过深度学习（并引入结巴多个分词模式的方式）
+        
+        
+        
+        
+Keywords: NLP,Chinese word segementation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
