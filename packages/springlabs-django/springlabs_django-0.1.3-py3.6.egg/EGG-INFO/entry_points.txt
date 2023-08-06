@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        springlabs_django=springlabs_pypi.scripts.springlabs_django:cli
+    
