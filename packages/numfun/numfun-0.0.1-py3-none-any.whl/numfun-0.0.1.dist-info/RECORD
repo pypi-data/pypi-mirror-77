@@ -1,0 +1,11 @@
+numfun/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numfun/barycentric.py,sha256=e-zPTCHQ7ft2Pb89_fLqaAzwPwggoReP4btdCPrLGWQ,3825
+numfun/chebyshev.py,sha256=frh22_3O9dtdRp6uB1loQ1IbbFw5AdLqb49W-LpT9lo,19833
+numfun/function.py,sha256=Gfpsis9MY4SlTYNkEKQd2IFwESq4IyKdTVAVzfc0COA,67400
+numfun/funutils.py,sha256=UyWqy1mhAKbdUHE3wzrHocMgFD_UZlqP6rKvuRRwjHM,4881
+numfun/polyfit.py,sha256=ZfTauWZaWL13Q6fUSouyqctoVkRLLHxsEW7CDUNSTVQ,4130
+numfun-0.0.1.dist-info/LICENSE,sha256=i6sYdWuQqduNUCkqHQ5N36N3nYtLOA3wOIF7pb4NbiU,1056
+numfun-0.0.1.dist-info/METADATA,sha256=wkkjtN_1Fwb0sU9pOmEMLDKR2IgUwqs6Fc3ULJ-bnCA,446
+numfun-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+numfun-0.0.1.dist-info/top_level.txt,sha256=1I2z3teOneSfGE7wxahcAqcD-zmkDSsYJ3Cy-PGuuvU,7
+numfun-0.0.1.dist-info/RECORD,,
