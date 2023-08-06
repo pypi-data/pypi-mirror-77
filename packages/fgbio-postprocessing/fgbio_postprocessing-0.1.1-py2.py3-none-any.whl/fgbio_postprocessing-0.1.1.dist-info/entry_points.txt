@@ -1,0 +1,3 @@
+[console_scripts]
+fgbio_postprocessing = fgbio_postprocessing.cli:main
+
