@@ -1,0 +1,5 @@
+pfmisc
+pretty-py3
+py-dateutil
+pydicom
+terminaltables
