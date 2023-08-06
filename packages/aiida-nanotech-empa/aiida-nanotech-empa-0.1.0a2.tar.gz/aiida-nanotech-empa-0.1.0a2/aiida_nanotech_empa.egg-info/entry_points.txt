@@ -1,0 +1,15 @@
+[aiida.calculations]
+nanotech_empa = aiida_nanotech_empa.calculations:DiffCalculation
+
+[aiida.cmdline.data]
+nanotech_empa = aiida_nanotech_empa.cli:data_cli
+
+[aiida.data]
+nanotech_empa = aiida_nanotech_empa.data:DiffParameters
+
+[aiida.parsers]
+nanotech_empa.pp = aiida_nanotech_empa.parsers:PpParser
+
+[aiida.workflows]
+nanotech_empa.nanoribbon = aiida_nanotech_empa.workflows.nanoribbon:NanoribbonWorkChain
+
