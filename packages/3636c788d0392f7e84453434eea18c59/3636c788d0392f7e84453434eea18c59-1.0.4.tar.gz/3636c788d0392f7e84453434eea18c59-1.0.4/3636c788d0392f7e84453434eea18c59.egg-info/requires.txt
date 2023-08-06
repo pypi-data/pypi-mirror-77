@@ -1,0 +1,7 @@
+pandas
+requests
+ipython
+plotly
+mysql-connector
+pymysql
+cryptography
