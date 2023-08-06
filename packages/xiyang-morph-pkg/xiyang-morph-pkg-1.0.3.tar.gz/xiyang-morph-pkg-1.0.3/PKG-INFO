@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: xiyang-morph-pkg
+Version: 1.0.3
+Summary: morph package
+Home-page: https://github.com/pypa/sampleproject
+Author: Xiyang
+Author-email: 838568501@qq.com
+License: UNKNOWN
+Description: 
+        Fuzhou Xiyang network technology company, face morph project.
+        
+        # install:
+        
+        pip install xiyang-morph-pkg
+        
+        # install relation packages
+        dlib >= 19.9.0
+        numpy >= 1.13.1
+        scipy >= 0.18.0
+        opencv-contrib-python>=4.2.0.34
+        
+        
+        # import package
+        from xiyang_morph import morph
+        # param 1: str_img_path 
+        # param 2: dist_img_path
+        # param 3：result img save path
+        morph.morph("../../imgs/test6.jpg", "../../imgs/test7.jpg", "../img/result.jpg")
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
