@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: semantic-ink
+Version: 0.0.2
+Summary: INK: Instance Neighbouring by using Knowledge
+Home-page: https://github.com/IBCNServices/INK
+Author: Bram Steenwinckel
+Author-email: bram.steenwinckel@ugent.be
+License: UNKNOWN
+Project-URL: Source, https://github.com/IBCNServices/INK
+Project-URL: Tracker, https://github.com/IBCNServices/INK/issues
+Keywords: Knowledge graph representation,Semantic Rule Mining
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# INK: Instance Neighbouring using Knowledge
+
+INK is a binary data structure for representing a knowledge graph (KG), taking into account nodes and their neighbourhoods till a certain, specified depth.
+
+This repository contains:
+* The code to transform a KG into the binary INK matrix representation
+* The code INK Miner code: Semantic rule mining on the INK representation for both task-specific and task-agnostic use cases.
+
+## Installation
+* `pip install semantic-ink`
+* or clone this repository
+## Usage
+See the [example notebook](https://github.com/IBCNServices/INK/blob/master/example.ipynb) for more information on how to use INK and the INK miner.
+## Publications
+Coming soon.
+## Contributing
+Pull requests are welcome. <br>
+For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[IMEC](https://github.com/IBCNServices/INK/blob/master/LICENSE)
+
+
