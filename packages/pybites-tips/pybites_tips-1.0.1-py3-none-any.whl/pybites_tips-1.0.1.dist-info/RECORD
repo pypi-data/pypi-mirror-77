@@ -1,0 +1,14 @@
+pytip/__init__.py,sha256=ebrpuITboynziAtowuIvRvM7EvVefBg_66KiIo8-bkg,35
+pytip/__main__.py,sha256=Tc9wAn7MgIDBTzEgjiirSQDoMX06tW_X92bEgtUnUoE,625
+pytip/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytip/tips.py,sha256=v7GM6ru2QCFKAjBu1jVC0DIV0dMm3K1PfuodPZN__0g,2508
+src/__init__.py,sha256=_q1Ly_hZUG-Y9Xi42vngIeL3q_yqYIXUvAG85_Gghf8,33
+src/__main__.py,sha256=j7gDFDNUIx9WKC5PK93HV-KKoCwdgVTiSIFihdbiHGs,623
+src/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/tips.py,sha256=v7GM6ru2QCFKAjBu1jVC0DIV0dMm3K1PfuodPZN__0g,2508
+pybites_tips-1.0.1.dist-info/LICENSE,sha256=HCtk6DkbEJI8CuciGHHy8mztVncGA5WfTewGpSCTnDs,1064
+pybites_tips-1.0.1.dist-info/METADATA,sha256=WFS2GvfB7Obj3Wr_UfRV-mYunYZlb0P6uNggSGKa25Q,1640
+pybites_tips-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pybites_tips-1.0.1.dist-info/entry_points.txt,sha256=bnivxXsNXFTA1kKA-tVGUB1NMi5WplTcmntye0-fN5Y,47
+pybites_tips-1.0.1.dist-info/top_level.txt,sha256=jF2tKdrfqmRq7kr--QAKzT5DpQOqrfwdSBO9WrauNHE,6
+pybites_tips-1.0.1.dist-info/RECORD,,
