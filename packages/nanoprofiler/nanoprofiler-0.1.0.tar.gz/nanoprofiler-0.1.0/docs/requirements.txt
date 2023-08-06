@@ -1,0 +1,4 @@
+mkdocs-material
+pytkdocs>=0.7.0
+mkdocstrings>=0.12.2
+pymdown-extensions

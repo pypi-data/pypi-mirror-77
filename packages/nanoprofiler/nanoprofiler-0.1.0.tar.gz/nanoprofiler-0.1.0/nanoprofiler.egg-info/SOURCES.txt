@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+docs/requirements.txt
+nanoprofiler/__init__.py
+nanoprofiler/profiler.py
+nanoprofiler.egg-info/PKG-INFO
+nanoprofiler.egg-info/SOURCES.txt
+nanoprofiler.egg-info/dependency_links.txt
+nanoprofiler.egg-info/requires.txt
+nanoprofiler.egg-info/top_level.txt
