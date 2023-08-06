@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: makepymodule
+Version: 1.0.5
+Summary: CLI program to generate python module directory structure
+Home-page: https://github.com/arvind-iyer/makepymodule
+Author: Arvind Iyer
+Author-email: arvindi.me@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: POSIX
+Description-Content-Type: text/markdown
+
+# makepymodule
+Generates the project structure for a pip installable python module
+
+## Installation
+```bash
+$ pip install makepymodule
+```
+
+## Usage
+To create a new project, simply go to the location you would like to scaffold the project structure and run the following command
+```bash
+$ makepymodule project_name
+```
+
+A directory structure as follows will be generated
+```
+- project_name
+  |- src
+     |- project_name
+        |- __init__.py
+  |- setup.py
+```
+
+
