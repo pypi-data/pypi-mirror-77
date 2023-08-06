@@ -1,0 +1,11 @@
+include synacell/cmodule/lib/snn.dll
+include synacell/examples/SynaRCA-ode1.asc
+include synacell/examples/SynaRCA-ode1.raw
+include synacell/examples/SynaRCA-ode2.asc
+include synacell/examples/SynaRCA-ode2.raw
+include synacell/examples/SynaRCA-smallCp.asc
+include synacell/examples/SynaRCA-smallCp.raw
+include synacell/examples/SynaRCA-itAdjust.asc
+include synacell/examples/SynaRCA-itAdjust.raw
+include data/audio/happy/*
+include data/audio/down/*
