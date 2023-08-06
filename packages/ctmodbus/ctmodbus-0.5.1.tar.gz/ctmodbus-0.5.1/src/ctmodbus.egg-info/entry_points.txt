@@ -1,0 +1,3 @@
+[console_scripts]
+ctmodbus = ctmodbus.commands:main
+
