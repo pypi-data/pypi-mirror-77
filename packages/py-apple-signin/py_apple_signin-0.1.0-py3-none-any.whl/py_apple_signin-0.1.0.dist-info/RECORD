@@ -1,0 +1,8 @@
+py_apple_signin/__init__.py,sha256=a87LKrM9XteALAygqkKhDQowEgKCEL-Q-tk2RiIOovM,80
+py_apple_signin/async_api.py,sha256=5vyfVPY8sDfS7wvuYbim88qR1clfaGBPtZ7Yacv-nzM,1171
+py_apple_signin/dt.py,sha256=4Ea2yJ4Wgcg-1TabhBCHcCo26eLX217YiSp2_sz3tRg,5340
+py_apple_signin/shared.py,sha256=otAXINWvAhETc7R6ZMlWs5MFFaO-wlGkQKsksk2KcBI,1501
+py_apple_signin/sync_api.py,sha256=r5m2iA0wsqcTz-5N6oKtjJnoPuD32VZRJfxyaMh7wmE,1049
+py_apple_signin-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+py_apple_signin-0.1.0.dist-info/METADATA,sha256=5nCNPSp6Ny6-o4GEXNc9HF_5PjBH99_2-Ay_XbX7elQ,760
+py_apple_signin-0.1.0.dist-info/RECORD,,
