@@ -1,0 +1,5 @@
+numba
+opencv-python-inference-engine
+rospkg
+scipy
+urdfpy
