@@ -1,0 +1,17 @@
+CHANGELOG.markdown
+CONTRIBUTING.markdown
+LICENSE
+MANIFEST.in
+README.markdown
+pyproject.toml
+setup.py
+src/jqviz/__init__.py
+src/jqviz/jqviz.py
+src/jqviz.egg-info/PKG-INFO
+src/jqviz.egg-info/SOURCES.txt
+src/jqviz.egg-info/dependency_links.txt
+src/jqviz.egg-info/entry_points.txt
+src/jqviz.egg-info/not-zip-safe
+src/jqviz.egg-info/requires.txt
+src/jqviz.egg-info/top_level.txt
+src/jqviz/templates/index.html

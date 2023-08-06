@@ -1,0 +1,4 @@
+include LICENSE *.markdown *.toml
+
+# Template files
+recursive-include src/jqviz/templates *.html

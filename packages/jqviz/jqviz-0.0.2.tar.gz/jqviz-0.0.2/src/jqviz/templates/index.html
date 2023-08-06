@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <form action="/shutdown" method="post">
+            <button type="submit">Quit</button>
+        </form>
+        <p><a href="https://stedolan.github.io/jq/manual/#Basicfilters"><code>jq</code> documentation</a></p>
+        <form action="/update-filter" method="post">
+            <label for="filter">Filter <code>{{ filename }}</code>:</label>
+            <input type="text" id="filter" name="jq_filter" value="{{ filter }}">
+        </form>
+        <pre><code>{{ json }}</code></pre>
+    </body>
+</html>
