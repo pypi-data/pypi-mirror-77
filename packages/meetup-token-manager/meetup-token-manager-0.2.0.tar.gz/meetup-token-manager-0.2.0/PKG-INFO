@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: meetup-token-manager
+Version: 0.2.0
+Summary: Easily obtain and cache OAuth 2.0 token from the Meetup API.
+Home-page: https://github.com/janjagusch/meetup-token-manager
+License: MIT
+Author: Jan-Benedikt Jagusch
+Author-email: jan.jagusch@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: google-cloud-storage (>=1.31.0,<2.0.0)
+Requires-Dist: ipykernel (>=5.3.4,<6.0.0)
+Requires-Dist: object-storage (>=0.14.2,<0.15.0)
+Requires-Dist: pylint (>=2.6.0,<3.0.0)
+Requires-Dist: redis (>=3.3,<4.0)
+Requires-Dist: requests (>=2.22,<3.0)
+Project-URL: Repository, https://github.com/janjagusch/meetup-token-manager
