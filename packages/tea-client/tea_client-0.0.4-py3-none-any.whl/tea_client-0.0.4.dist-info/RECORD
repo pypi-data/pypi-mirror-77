@@ -1,0 +1,12 @@
+tea_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tea_client/errors.py,sha256=FcFywsxOi_SXXwylWXlNUm6Lt11wyLXFIrwRV1EoY_U,2226
+tea_client/handler.py,sha256=j5ufWiXhaWkeCPPDt0YwMDbCSfpSOxnHntltHbNTxCg,333
+tea_client/http.py,sha256=pyLt1-4Yhixl6b_fTnYs7I2gyCOt6WLu1NuKSnAtpMI,9765
+tea_client/models.py,sha256=K5pa7W0AXqu7vkM66QjOVOBCGqY7SYFFjJqHrShQvow,787
+tea_client/version.py,sha256=LSYXDHmsSiOGwBeb9cMU-YmGSw6ZK6jQ0jJBX0sgz4c,474
+tea_client-0.0.4.dist-info/AUTHORS,sha256=WKPtGSdpmKLMed-aR9w-fSGDCL8iXqA68126NERcTOk,93
+tea_client-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tea_client-0.0.4.dist-info/METADATA,sha256=av8Xz8t0VRV9k4YGLMrxXsHq_Y0sD3Ndp_9-gW_cFtk,750
+tea_client-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tea_client-0.0.4.dist-info/top_level.txt,sha256=z0LXb5jxd3Tp0CDwp6dCPMy96ROfRv965wMPuHyK7gA,11
+tea_client-0.0.4.dist-info/RECORD,,
