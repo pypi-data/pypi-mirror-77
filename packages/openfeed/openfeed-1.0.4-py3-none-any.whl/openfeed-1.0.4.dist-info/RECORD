@@ -1,0 +1,14 @@
+openfeed/__init__.py,sha256=3sv09FmjgrjMmxwPAv7qIv6qvdbxqAV9vuoWkCfoY2Q,247
+openfeed/openfeed_api_pb2.py,sha256=FnZT5l_OfbUIAuoWgptTxn0xnH1g4HuX_1NsCCj_Ktg,66203
+openfeed/openfeed_client.py,sha256=eTOP56ofng8gVstFiW8oShFGCP-r6d4kNYx1TkmynwM,9771
+openfeed/openfeed_instrument_pb2.py,sha256=WcchXh1Mbj7bnkJtcWbkDz_7Z2Mbrb3AikS5JzHzRic,58990
+openfeed/openfeed_pb2.py,sha256=htb6OkFdY1Rrm3AauoGUx1ciLe4Cte4ia-V89pWVCEo,290777
+openfeed/generated/__init__.py,sha256=MUoS6wvZsQqiCzUk2kv15RY9Jo8cYh-j-SHyrqDtNtU,83
+openfeed/generated/openfeed_api_pb2.py,sha256=ccbROkqZjRIcJtn4U1_B5LsOfyFyFdRPe-k2Id200y8,66217
+openfeed/generated/openfeed_instrument_pb2.py,sha256=WcchXh1Mbj7bnkJtcWbkDz_7Z2Mbrb3AikS5JzHzRic,58990
+openfeed/generated/openfeed_pb2.py,sha256=udTI4xfhqxAXgZqjbGp8UUEIZiZ-WM00js2lEkjt9qM,290784
+openfeed-1.0.4.dist-info/LICENSE,sha256=tRRi9eYCp6fiAVoBQGw1_X5xKHOA4iPRC5hK21ultGI,1090
+openfeed-1.0.4.dist-info/METADATA,sha256=GeqyIoZjAWZ3pykOg9KFg9iT2rOsCJO5Jhltg7dlLoE,1713
+openfeed-1.0.4.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+openfeed-1.0.4.dist-info/top_level.txt,sha256=FOj92-FJPd-juBOKyR_H9a-vPsnf-Ox4QPsP86VhzRE,9
+openfeed-1.0.4.dist-info/RECORD,,
