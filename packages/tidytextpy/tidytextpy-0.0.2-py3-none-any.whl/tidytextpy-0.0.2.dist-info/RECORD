@@ -1,0 +1,14 @@
+tidytextpy/__init__.py,sha256=z_cscxlgCYDUCWVylU2gkytIaRx2cccm3UzckkxWgDc,91
+tidytextpy/tidytextpy.py,sha256=RSqEKuX2cObRVv_0kKqWyTUAVzO1BkzLPMlLUI6Agrk,5560
+tidytextpy/dictionary/afinn.csv,sha256=uvh06_GED8eyeCea_g-ce_6p1p-3o7wMvd-JB-3r2Rc,33059
+tidytextpy/dictionary/bing.csv,sha256=reIfNqWaxmIEuGkd7LTFD6HW_Ed9SNxx42V2g6YLL8c,124923
+tidytextpy/dictionary/chinese.txt,sha256=R7opsA3crcmmLzEKJ3pn_BxDV-5ALU5AYGGWImjKK6Y,4890
+tidytextpy/dictionary/dutir.csv,sha256=GYpiFNvzbvOKAvGXrzymjjgCDwp1R0bm7qgFnpRBXXk,410319
+tidytextpy/dictionary/english.txt,sha256=bY5rmEQJOecT6F3DKbYHZF2wl6oH8stXJE5Ph8ZwCbM,743
+tidytextpy/dictionary/hownet.csv,sha256=PM8VJStlyYeBhyTNh9Zs33mY0DezWwpcYCbtS9fDxt8,361295
+tidytextpy/dictionary/nrc.csv,sha256=TjnfZ4ckJCIQ_NjDmb35RbSRgF4tStcJKbFY5KMvHnM,229633
+tidytextpy-0.0.2.dist-info/LICENSE,sha256=Vd1-O0E7e_NUvgbdvzYLeE_w5K2iL86RwdFWFs_-0xk,1067
+tidytextpy-0.0.2.dist-info/METADATA,sha256=-acPfZOs_k_2Kt7tM7X1DrFOt7qXIbqB_0DDb67Yj_c,20476
+tidytextpy-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tidytextpy-0.0.2.dist-info/top_level.txt,sha256=Eh5WzHIJGp4v2OtwYKqvaUr9wRgdxg9ycbH1zqdJmVY,11
+tidytextpy-0.0.2.dist-info/RECORD,,
