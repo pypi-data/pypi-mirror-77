@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+KmerGenerator.egg-info/PKG-INFO
+KmerGenerator.egg-info/SOURCES.txt
+KmerGenerator.egg-info/dependency_links.txt
+KmerGenerator.egg-info/top_level.txt
+kmerGenerator/__init__.py
+kmerGenerator/kmerGenerator.py
