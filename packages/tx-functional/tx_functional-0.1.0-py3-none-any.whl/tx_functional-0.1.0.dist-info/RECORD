@@ -1,0 +1,14 @@
+tx/functional/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tx/functional/applicative.py,sha256=VtG-n1t0GHQYMhq7m9YTtQ5GGr_n7_G4AnO0FUXxnbI,715
+tx/functional/either.py,sha256=yrYS6sQu9biFDGMZK9lIQuK5njybqSjNj9iNh7V3adY,1244
+tx/functional/functor.py,sha256=Q9CNEW0JKyBrMzZ5gASO4atZq4ssewVZ_a9TmXnz3Qw,335
+tx/functional/list.py,sha256=hdQxWMu8GbNegLCBmsNg2VGEkkuMa_-5_hMygXkVDKQ,624
+tx/functional/maybe.py,sha256=BBfY6dHqCuUGKomX4UyAAZZRfx_evjz7OgoSwfE1xO4,1283
+tx/functional/monad.py,sha256=Tubg_bouYOz-SHAGUoeq_jEkTa6J8OD32T3MO5l89i0,687
+tx/functional/traversable.py,sha256=8QaAceAfoSTIOwBDmWctboA4OSgq7AxamRLD8ar-XTo,702
+tx/functional/utils.py,sha256=Gilli6z4_ZB2j2UTXJb9RWEQ41dveNnm0xt2ktWYkOQ,1568
+tx_functional-0.1.0.dist-info/LICENSE,sha256=psPYBTq6xcdReFXTSloci7QYJp5CxUjoHQydxtONGtM,1088
+tx_functional-0.1.0.dist-info/METADATA,sha256=ykL4KDLdSoGi1bLchoicHqH1WQj44WnADdlo9zlIttk,747
+tx_functional-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tx_functional-0.1.0.dist-info/top_level.txt,sha256=_J9BGFp9T7r_vIRKD04jGGM1FM6T-aBzmFNzUoDLgLc,3
+tx_functional-0.1.0.dist-info/RECORD,,
