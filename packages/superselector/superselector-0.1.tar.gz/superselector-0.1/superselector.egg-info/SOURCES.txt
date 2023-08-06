@@ -1,0 +1,9 @@
+MANIFEST.in
+README.txt
+setup.py
+superselector.py
+superselector.egg-info/PKG-INFO
+superselector.egg-info/SOURCES.txt
+superselector.egg-info/dependency_links.txt
+superselector.egg-info/requires.txt
+superselector.egg-info/top_level.txt
