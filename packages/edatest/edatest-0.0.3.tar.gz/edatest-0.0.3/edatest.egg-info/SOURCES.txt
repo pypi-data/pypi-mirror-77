@@ -1,0 +1,7 @@
+README.md
+setup.py
+edatest/__init__.py
+edatest.egg-info/PKG-INFO
+edatest.egg-info/SOURCES.txt
+edatest.egg-info/dependency_links.txt
+edatest.egg-info/top_level.txt
