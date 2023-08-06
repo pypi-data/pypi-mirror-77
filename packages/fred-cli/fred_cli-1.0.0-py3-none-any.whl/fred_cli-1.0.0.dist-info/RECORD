@@ -1,0 +1,10 @@
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/api.py,sha256=GpYu6YS3GRXJGuFgLUh_G4TV6lSmwS-G6M9uGNUMs6U,3267
+app/cli.py,sha256=iFviMNiWZG5n87iK81B8yC_asaffeandENumSAfFs90,2248
+app/table.py,sha256=qs1rkz3soLkuIJ5uFXdiCBmOvf8NdnBQ3Acn7topaUw,265
+fred_cli-1.0.0.dist-info/LICENSE,sha256=VoP03lC8EPmznYWy3e4NrWukkOrbqokHN-UBCe0SeTc,1073
+fred_cli-1.0.0.dist-info/METADATA,sha256=qdZ8QLNlf3S5tAuDzjPByJnZrOQiijpr_-hp7lMgrX4,6822
+fred_cli-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+fred_cli-1.0.0.dist-info/entry_points.txt,sha256=XzH7QdxmRbKcljcEdHvOmkeMQgJGZXo0EyKJnMr6CeM,57
+fred_cli-1.0.0.dist-info/top_level.txt,sha256=io9g7LCbfmTG1SFKgEOGXmCFB9uMP2H5lerm0HiHWQE,4
+fred_cli-1.0.0.dist-info/RECORD,,
