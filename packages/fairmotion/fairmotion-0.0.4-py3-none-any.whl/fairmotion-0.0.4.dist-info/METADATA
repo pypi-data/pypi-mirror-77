@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: fairmotion
+Version: 0.0.4
+Summary: fairmotion is FAIR's library for human motion research
+Home-page: https://github.com/fairinternal/fairmotion
+Author: FAIR Pittsburgh
+Author-email: dgopinath@fb.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: black
+Requires-Dist: dataclasses
+Requires-Dist: human-body-prior
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: pyrender
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: torch (==1.4.0)
+Requires-Dist: tqdm
+Requires-Dist: PyOpenGL (==3.1.0)
+
+UNKNOWN
+
+
