@@ -1,0 +1,13 @@
+Variable name,Unit,Description (EN),Size,Type,Default value,Minimum value,Maximum value,,Package,Inherit,Methods,Constant Name,Constant Value,Class description
+Zs,-,slot number,0,int,36,0,1000,,Slot,,build_geometry_half_tooth,VERSION,1,Generic class for slot (abstract)
+,,,,,,,,,,,check,,,
+,,,,,,,,,,,comp_angle_opening,,,
+,,,,,,,,,,,comp_height,,,
+,,,,,,,,,,,comp_surface,,,
+,,,,,,,,,,,get_is_stator,,,
+,,,,,,,,,,,get_Rbo,,,
+,,,,,,,,,,,get_surface,,,
+,,,,,,,,,,,get_surface_tooth,,,
+,,,,,,,,,,,is_outwards,,,
+,,,,,,,,,,,plot,,,
+,,,,,,,,,,,comp_width_opening,,,
