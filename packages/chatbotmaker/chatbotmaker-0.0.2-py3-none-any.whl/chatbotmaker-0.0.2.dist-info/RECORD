@@ -1,0 +1,15 @@
+chatbotmaker/__init__.py,sha256=Sfiu_56Y0ezN4W4IjvyPqZOkWBmQSCuEsLok0t7zreg,389
+chatbotmaker/bot.py,sha256=spQHWN66htWdPVJO-Y5PmIeSRZkW0HvxwLql2wtJEFI,1152
+chatbotmaker/database.py,sha256=Bt-2mWIiPpgXhqSjHq2nn0s1y7GaHs9V1ta3jfhlYoY,315
+chatbotmaker/dispatcher.py,sha256=twKaQJ8tGwT7x9osv0dTNpwZp5yB5E9znbGq8fvG-iY,2049
+chatbotmaker/extended_user.py,sha256=bwh-2E5fJ9eTHgBvG1Fbu97xgl9lFEVtkVulqu7VOho,1889
+chatbotmaker/messenger.py,sha256=hTzlk7vEFNzk1_Imsc7UhFvuSXZTMb4jWj8cC7YCmSU,600
+chatbotmaker/defaults/__init__.py,sha256=L8a5Uo_0hzmDmrArJQ8sbH8Y8QKLzGzvWuTA_RkBSH8,244
+chatbotmaker/defaults/dev.py,sha256=EMe3VVXRplG-UYT1L_wGqbr5RlXRW1e4HVcdrvsaq7M,332
+chatbotmaker/defaults/facebook.py,sha256=VBRe-PE5iEcEAsPAvkuRYbL2AND-aGi3yTyIe_TSaa0,1762
+chatbotmaker/defaults/simple_database.py,sha256=GIqVpVxwErop-QTGcM7dYSbJbsU5kSvH0LgngAIKWP0,1851
+chatbotmaker-0.0.2.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+chatbotmaker-0.0.2.dist-info/METADATA,sha256=F-HjEEzjdc1ye-QTKfYP2sPA0sqKVSpoYlsyGudVZGA,4141
+chatbotmaker-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+chatbotmaker-0.0.2.dist-info/top_level.txt,sha256=y65NSgj1eJXdBriplp_6KqouB--Edrss7i4-BOO2EhU,13
+chatbotmaker-0.0.2.dist-info/RECORD,,
