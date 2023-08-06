@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: jourgen
+Version: 0.0.10.4
+Summary: Tiny but functional journaling engine
+Home-page: https://gitlab.com/papablo/journal-generator
+Author: Pablo Toledo Margalef
+Author-email: pabloatm980@gmail.com
+License: MIT
+Download-URL: https://gitlab.com/papablo/journal-generator/-/archive/0.0.10.4/journal-generator-0.0.10.4.tar.gz
+Keywords: blogging,blog,journaling,writing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Office/Business :: News/Diary
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: click
+Requires-Dist: Jinja2
+Requires-Dist: livereload
+Requires-Dist: Markdown (>=3.2)
+Requires-Dist: pymdown-extensions
+Requires-Dist: Pygments
+
+UNKNOWN
+
+
