@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyvcontrold
+Version: 0.0.8
+Summary: Library Viessmann heaters
+Home-page: https://github.com/bertouttier/pyvcontrold
+Author: Bert Outtier
+Author-email: outtierbert@gmail.com
+License: MIT
+Download-URL: https://github.com/bertouttier/pyvcontrold
+Description: # pyvcontrold
+        Python library for Viessmann heaters
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
