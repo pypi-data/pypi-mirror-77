@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: geocortex-reporting-client
+Version: 0.1.0
+Summary: A Python client for running Geocortex Reporting jobs.
+Home-page: https://github.com/geocortex/geocortex-reporting-client-py
+Author: VertiGIS
+Author-email: packages@geocortex.com
+License: UNKNOWN
+Description: 
+        # geocortex-reporting-client-python
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev

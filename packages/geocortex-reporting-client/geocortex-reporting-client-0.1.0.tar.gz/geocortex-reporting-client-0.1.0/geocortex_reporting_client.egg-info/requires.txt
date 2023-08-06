@@ -1,0 +1,7 @@
+requests<3,>=2.24.0
+websockets<9,>=8.1
+
+[dev]
+black>=19.10b
+pylint<3,>=2.5.3
+responses<0.11,>=0.10.16
