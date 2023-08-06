@@ -1,0 +1,3 @@
+dataclasses
+lark-parser<0.10,>=0.8
+pyyaml<6,>=5
