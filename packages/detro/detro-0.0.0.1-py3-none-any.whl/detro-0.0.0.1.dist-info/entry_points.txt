@@ -1,0 +1,3 @@
+[console_scripts]
+detro = detro.clitools.cli:main
+
