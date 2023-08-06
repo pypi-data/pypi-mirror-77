@@ -1,0 +1,13 @@
+oarepo_multilingual/__init__.py,sha256=Uwwbc8_Gptp1XFc-8vE5WbJYIJqVEex9ERZYWjzuhAA,102
+oarepo_multilingual/version.py,sha256=ly1jglbvJwoKmi2XPUTN3YB-4r-ZARiXiJRKnIs0-_8,1404
+oarepo_multilingual/jsonschemas/__init__.py,sha256=m7UQhnKgPA2WUOAuo-GU0LXW4g_b3SetqsEjfdDVgsY,468
+oarepo_multilingual/jsonschemas/multilingual-v2.0.0.json,sha256=j56q2Cuwc9hzEsKTZAEdCLmGiOiqlXMd5eR8e-BpR2A,290
+oarepo_multilingual/mapping/__init__.py,sha256=dKfabKNIq17JTZzSQ5Wap3TApbFZjRzIiK_xz_jdPCs,69
+oarepo_multilingual/mapping/mapping_handler.py,sha256=u_WFEz2wRhxh-htXdU8ZwSl_NdnIb4MCx2KxM5IvEe0,804
+oarepo_multilingual/marshmallow/__init__.py,sha256=S9p4CVYJyQcRTYXVPhmvpd5aU5m4abSn6Bie5O8qQ3g,1390
+oarepo_multilingual-2.0.0.dist-info/LICENSE,sha256=oxlvOW3GiojF5mcapEzPff39MfADzIw5Qt8iOonks8c,1062
+oarepo_multilingual-2.0.0.dist-info/METADATA,sha256=A6QhfQTfvOPSBHIXNzyYK1ACqoaUjwZtD3BJFpRfEkA,5153
+oarepo_multilingual-2.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+oarepo_multilingual-2.0.0.dist-info/entry_points.txt,sha256=mz_t79-coZNVlXboNF_-srqy74cxXkS-96uTvIC4NeE,179
+oarepo_multilingual-2.0.0.dist-info/top_level.txt,sha256=7WxZcrfub7xSdjpGGgyAhIRo_XKs529km-64w8BhsjI,20
+oarepo_multilingual-2.0.0.dist-info/RECORD,,
