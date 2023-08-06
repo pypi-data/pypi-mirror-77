@@ -1,0 +1,9 @@
+request_sign/__init__.py,sha256=RhX4j9Ov5E7S9KNo7BrrRbkf9aTADrtmFm-L-Hj4SVI,34
+request_sign/middleware.py,sha256=YhyeNn0RnUbjSBqmFrVzezzjFHg8p7DeWWESRf_Oaq4,723
+request_sign/settings.py,sha256=iD9zZU3GbrbjH8Ujb0pPaRFuZkKmtb44Lk2uiBuB9c0,1276
+request_sign/signature.py,sha256=9qjnQp0DA8ODRQqkX0-eQmRRfaVm8RI1340HyPpQJac,3212
+request_sign/utils.py,sha256=dupi_DEmERy9MdChnGVg2IKIloJLcYWq7IzJGsZvOl0,1477
+django_request_sign-1.0.8.dist-info/METADATA,sha256=ZXtJFQ93IJPWhn7DdX5V1zNV26RPu2WikgCax32hWr0,3469
+django_request_sign-1.0.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_request_sign-1.0.8.dist-info/top_level.txt,sha256=m2uHu7n3lzOip_3R9DdSTiwhJ82cco3kuyYebCBknEk,13
+django_request_sign-1.0.8.dist-info/RECORD,,
