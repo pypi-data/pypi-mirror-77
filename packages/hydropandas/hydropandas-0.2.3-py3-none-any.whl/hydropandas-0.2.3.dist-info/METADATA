@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: hydropandas
+Version: 0.2.3
+Summary: hydropandas module by Artesia
+Home-page: https://github.com/ArtesiaWater/hydropandas
+Author: Artesia
+License: MIT
+Platform: Windows
+Platform: Mac OS-X
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.15)
+Requires-Dist: matplotlib (>=3.0)
+Requires-Dist: pandas (>=0.24)
+Requires-Dist: scipy (>=1.2)
+Requires-Dist: geopandas (>=0.6.0)
+Requires-Dist: zeep (>=3.4.0)
+Requires-Dist: bokeh (>=2.0.2)
+Requires-Dist: branca (>=0.3.1)
+Requires-Dist: folium (>=0.8.2)
+Requires-Dist: pastas (>=0.13.0)
+
+UNKNOWN
+
+
