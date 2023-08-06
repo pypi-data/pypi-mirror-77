@@ -1,0 +1,8 @@
+duprequests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duprequests/middleware.py,sha256=FzV4BYcirJSH0lm88ANF2xs8tkvLtbvPj16hTSX4ELc,2162
+duprequests/tests.py,sha256=C9TbQXY25yYtnsSGrT9xBZ64CeIXop1LTM-ZLL29guE,5737
+django_duprequests-0.1.5.dist-info/LICENSE,sha256=D4e2cj8lLCI1hqSJ7RoGiAgLoVlR3bFb_Mqu8YLtjwU,1546
+django_duprequests-0.1.5.dist-info/METADATA,sha256=7kKxunyAQ301VExl9DhZ6lhgFoNDwzCWX3ObfnEOWZk,2831
+django_duprequests-0.1.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_duprequests-0.1.5.dist-info/top_level.txt,sha256=OdnsdZLim-54W3SA_omCkfMYctlxaXhnFDIFxIXgCqs,12
+django_duprequests-0.1.5.dist-info/RECORD,,
