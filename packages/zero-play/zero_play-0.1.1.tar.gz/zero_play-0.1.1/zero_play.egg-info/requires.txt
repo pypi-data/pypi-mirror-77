@@ -1,0 +1,14 @@
+numpy
+tensorflow
+PySide2
+
+[dev]
+seaborn
+matplotlib
+numpy
+pytest
+coverage
+mypy
+
+[gpu]
+tensorflow-gpu
