@@ -1,0 +1,15 @@
+riptide/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+riptide/cloud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+riptide/cloud/alarms.py,sha256=kqQFfYw4y39Nqbra5MS_93chEiebBU8sUkAkrKeZlxs,2066
+riptide/cloud/app.py,sha256=YKdTZ_IaaKwnDQIN4ow01guZeQgqh9mwXRmgot947II,1085
+riptide/cloud/client.py,sha256=-gnaNyIf1q1K9kFpauvyhy1Xh0QzY-yrR7NoUPYObnA,4246
+riptide/cloud/entity.py,sha256=ceFWZWC7MfFezerXEGfJOHVjYjJXoGHuq3oIB-_D6Ww,1167
+riptide/cloud/exception.py,sha256=7nQgFpj8NeLcjLIyzj-sPXxgs9lE6hoTDFZd_02oW0U,1187
+riptide/cloud/history.py,sha256=BBWiOOXTAluxhl3LEatz2crFgdstqCGks0wi8YTbl0Q,6636
+riptide/cloud/watch.py,sha256=FuWJAcaCSFgEcqKFtSJM32EA5H7Y_PCzNon6EV6tFPY,2112
+riptide_cloud-0.0.2.dist-info/METADATA,sha256=2B5uYfIRWAvZ0AteaP5He5HzjAWd8MU4Ypdx95yhXNQ,7531
+riptide_cloud-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+riptide_cloud-0.0.2.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+riptide_cloud-0.0.2.dist-info/top_level.txt,sha256=ZunbZWoW59c6fzldWsap9hLNkZSKDpDcpQTyq2B5kjE,8
+riptide_cloud-0.0.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+riptide_cloud-0.0.2.dist-info/RECORD,,
