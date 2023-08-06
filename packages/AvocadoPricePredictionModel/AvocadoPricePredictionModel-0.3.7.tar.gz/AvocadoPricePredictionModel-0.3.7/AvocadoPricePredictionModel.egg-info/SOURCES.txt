@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+AvocadoPricePredictionModel.egg-info/PKG-INFO
+AvocadoPricePredictionModel.egg-info/SOURCES.txt
+AvocadoPricePredictionModel.egg-info/dependency_links.txt
+AvocadoPricePredictionModel.egg-info/requires.txt
+AvocadoPricePredictionModel.egg-info/top_level.txt
+PricePredictionModel/__init__.py
+PricePredictionModel/model.py
