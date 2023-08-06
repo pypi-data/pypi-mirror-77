@@ -1,0 +1,16 @@
+catwoman/__init__.py,sha256=B4Wi54DCSIH8fcZcbpgWyCWzAWgv55KaL8O-KPTEBGs,82
+catwoman/_custom_ld.so,sha256=tH-8jUJCPoPImtWPV7ImPEzLjGfSYL7ZjvnSS5XAv6s,51820
+catwoman/_eclipse.so,sha256=iGQMGtCyLmulloMCezKbC1_PYV1RAg_0TXm4-DJbkVU,26556
+catwoman/_exponential_ld.so,sha256=7TqwwlhjWXYS0LciqR1QSuDTUKEsw0c9b2RsXYfgNZ4,51876
+catwoman/_logarithmic_ld.so,sha256=wjG9ooDXSmG_aUXvC5FjVZg8HgtcOpLh0BjbQc28a-Y,51876
+catwoman/_nonlinear_ld.so,sha256=T_L9os3FEsPmudknizN70d4bWoCjnariHHP7VdLuUmI,51860
+catwoman/_power2_ld.so,sha256=P-JkPwtIr_FvNMozDub5Ipym2JNKky6lbxPx2m6VVh0,47724
+catwoman/_quadratic_ld.so,sha256=zoe_1vvbkCQQXz4hyUm2geFAoPuSJzgplxdWi2UHEvc,47724
+catwoman/_rsky.so,sha256=5pGmWXABzzn3WPqFQX4ckjOmhVziruF2nBcxsXJJ1JE,35140
+catwoman/openmp.py,sha256=axfETUFV_u7D1gn20jXLkcycEgeqgJpMuqJybhIoSMo,1677
+catwoman/transitmodel.py,sha256=WbDAE0pYxcbARzFsLBMIe6S5SPYWW-7xdnD0YCVjpzw,24147
+catwoman-1.0.12.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+catwoman-1.0.12.dist-info/METADATA,sha256=d-FBpuLpYY5BEkH16wGabSaj02HhB7-LPRRiPktcRmQ,1294
+catwoman-1.0.12.dist-info/WHEEL,sha256=5C82NCtnU2eT2nq-0NkyTYarSYuD7AAfurVXExTFNTs,109
+catwoman-1.0.12.dist-info/top_level.txt,sha256=2UGHnMpYJ9_o2BY_iGmGKxFY9H1sZ3a9zo4M9YiPZlY,9
+catwoman-1.0.12.dist-info/RECORD,,
