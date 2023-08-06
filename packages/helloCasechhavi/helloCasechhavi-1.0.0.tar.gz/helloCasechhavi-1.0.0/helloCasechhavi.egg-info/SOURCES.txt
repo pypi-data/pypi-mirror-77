@@ -1,0 +1,9 @@
+README.md
+setup.py
+helloCasechhavi.egg-info/PKG-INFO
+helloCasechhavi.egg-info/SOURCES.txt
+helloCasechhavi.egg-info/dependency_links.txt
+helloCasechhavi.egg-info/entry_points.txt
+helloCasechhavi.egg-info/top_level.txt
+newPackage/__init__.py
+newPackage/__main__.py
