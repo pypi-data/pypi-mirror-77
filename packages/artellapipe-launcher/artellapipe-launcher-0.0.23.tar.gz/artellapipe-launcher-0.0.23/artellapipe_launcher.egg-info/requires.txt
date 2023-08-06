@@ -1,0 +1,25 @@
+Qt.py==1.2.6
+psutil==5.7.2
+backports.tempfile==1.0
+pathlib2==2.3.5
+requests==2.22.0
+packaging==20.4
+beautifulsoup4==4.9.1
+lxml==4.5.2
+python-json-logger==0.1.11
+sentry-sdk==0.16.5
+tpDcc-libs-python
+tpDcc-core
+tpDcc-libs-qt
+
+[:python_version <= "3.4"]
+pyinstaller==3.6
+
+[:python_version > "3.4"]
+pyinstaller==4.0
+
+[dev]
+wheel
+
+[test]
+pytest
