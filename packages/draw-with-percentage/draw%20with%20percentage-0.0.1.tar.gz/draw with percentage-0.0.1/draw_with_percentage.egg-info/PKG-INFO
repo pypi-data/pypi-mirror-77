@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: draw-with-percentage
+Version: 0.0.1
+Summary: Python Library to draw with percentage
+Home-page: UNKNOWN
+Author: Mateusz Kołodziejczyk
+Author-email: mateusz.j.kolodziejczyk@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
