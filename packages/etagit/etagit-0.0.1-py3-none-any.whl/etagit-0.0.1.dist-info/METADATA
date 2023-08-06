@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: etagit
+Version: 0.0.1
+Summary: CLI tagging system for experiment data
+Home-page: https://github.com/yunjae2/tagit
+Author: Yunjae Lee
+Author-email: lyj7694@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# tagit
+
+tagit is a command-line tagging system for experiment data focusing on getting rid of
+researchers' waste of time on arranging the experiment data.
+
+
