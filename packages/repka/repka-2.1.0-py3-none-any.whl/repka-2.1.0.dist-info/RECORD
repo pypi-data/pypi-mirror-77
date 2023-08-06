@@ -1,0 +1,13 @@
+repka/__init__.py,sha256=f_WYTMOVsQrNcjh16ZyopeE1XXBlKxK94Uzr3P2O8Hk,23
+repka/api.py,sha256=U8D28ihI367cntfn0qnocq-wJxpGKryqi0prnOkhaqA,341
+repka/json_.py,sha256=QCg_hOPp0lEwx8KNq7TaCxKXQQWRALizFPfI7x2jJWU,1292
+repka/repositories/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+repka/repositories/aiopg_.py,sha256=XLOuIXZUcWDanw1mDmIiZvhQjeS7jPLTiiISJPj0rIc,2375
+repka/repositories/base.py,sha256=moWC1ZI6vJwJao1Fj_-eWbopKq4W5bOWqJ1G-NgDSEc,13291
+repka/repositories/databases_.py,sha256=GgcBg-4BicbpYIjbybo-d4Tsrug6HpsxrKIKasYuak8,2541
+repka/repositories/fake.py,sha256=FxEuMj_lO6IkQxke3s-czV7DmjgkwZtxXYocdckhFsk,2980
+repka/repositories/queries.py,sha256=VmzeOgouUfoH4Fc1BKwyJVa-V6tkRumk22W2kWk45yM,4325
+repka/utils.py,sha256=vS_5PsRo8RrZ11EUMkUw-QBoMJwxfs2_RIwcV0zFDrE,1524
+repka-2.1.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+repka-2.1.0.dist-info/METADATA,sha256=Sgwvcod4QGL4kZ_5bEVCVi9wRIKcibn-RlyeM-7W7IE,9058
+repka-2.1.0.dist-info/RECORD,,
