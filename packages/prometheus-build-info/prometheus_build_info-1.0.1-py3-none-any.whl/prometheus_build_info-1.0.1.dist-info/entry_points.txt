@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        make-build-info=prometheus_build_info.builder:make_build_info
+    
