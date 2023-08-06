@@ -1,0 +1,9 @@
+README.md
+setup.py
+nats_pkg/__init__.py
+nats_pkg/_handler.py
+nats_pkg/nats_client.py
+nats_python_client.egg-info/PKG-INFO
+nats_python_client.egg-info/SOURCES.txt
+nats_python_client.egg-info/dependency_links.txt
+nats_python_client.egg-info/top_level.txt
