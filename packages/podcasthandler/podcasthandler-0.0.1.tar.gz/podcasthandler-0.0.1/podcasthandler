@@ -1,0 +1,150 @@
+#!/usr/bin/python3
+
+# PODCAST HANDLER by Claudio Barca (Copyright 2020 Claudio Barca)
+# This software is distributed under GPL v. 3 licence.
+# See LICENSE file for details.
+
+import os
+import datetime
+import sys
+import time
+from mpd import MPDClient
+import argparse
+import hashlib
+import threading
+from podcasthnd.media import Media
+from podcasthnd.item import Item
+import subprocess
+
+podcast_cache_dir = ("%s/.cache/podcasthander/" % os.environ['HOME'])
+
+def read_daemon_data():   # list: [pid, host]
+    global daemon_data_file
+    file = open(daemon_data_file,'r') 
+    data = (file.readlines()[0]).split(':')
+    return data
+
+def get_last_item():
+    global podcast_cache_dir 
+    current_file = podcast_cache_dir + "current"
+    file = open(current_file,'r') 
+    position = str(file.readlines()[0])
+    return position
+
+def start_daemon():
+    proc = subprocess.Popen(["podcasthandlerd", "-H", args.host])
+    print('Daemon started.')
+
+# COMMAND FUNCTIONS
+
+def command_play(url,host):
+    global args
+    media = Media(host)
+    
+    # if already playing, simply restart daemon and exit
+    if media.client.status()['state'] == 'play' and args.position == None:
+        print("Already playing!")
+        start_daemon()
+        media.client.close()
+        return
+    
+    item = Item(url)
+
+    # get the position
+    if args.position:
+        position = int(args.position.split(':')[1]) + ( int(args.position.split(':')[0]) * 60)
+    else:
+        position = item.db_get_position()
+
+    # play the file
+    print("---------------\nPodcast Handler\n---------------\n")
+    media.play_at_position(url,position)
+    total = (int(media.time()[1]))
+    print("Playing: %s\nHost: %s\nPosition: %s/%s\n" % (url, media.host,str(datetime.timedelta(seconds=position)),str(datetime.timedelta(seconds=total))))
+    media.client.close()
+
+    # start the daemon
+    start_daemon()
+
+def command_status():
+    global args, default_host
+    media = Media(args.host)
+    
+    # if not playing
+    if media.client.status()['state'] != 'play':
+        print("---------------\nPodcast Handler\n---------------\n")
+        print("Last played: %s\nDefault host: %s" % (get_last_item(), default_host))
+        media.client.close()
+        return
+
+    # if playing
+    url = media.client.currentsong()['file']
+    position = (int(media.time()[0]))
+    total = (int(media.time()[1]))
+    media.client.close()
+    print("---------------\nPodcast Handler\n---------------\n")
+    print("Playing: %s\nHost: %s\nPosition: %s/%s\n" % (url, media.host,str(datetime.timedelta(seconds=position)),str(datetime.timedelta(seconds=total))))
+
+def command_restart():
+    global args
+    media = Media(args.host)
+    if media.client.status()['state'] != 'play':  # restart only if already playing
+        print("No podcast playing.")
+        return
+    position = 0
+    media.client.seekcur(position)
+    start_daemon()
+    print("Restarting podcast...")
+
+def command_stop():
+    media = Media(args.host)
+    media.close()
+
+# PARSING THE COMMAND
+def parse_command(command):
+    global args
+
+    if   command == "play":
+        if args.url != None:
+            url = args.url
+        else:
+            url = get_last_item()
+        command_play(url, args.host)
+
+    elif command == "stop":
+        command_stop()
+
+    elif command == "status":
+        command_status()
+    
+    elif command == "restart":
+        command_restart()
+    else:
+        pass
+
+# set the last used host
+daemon_data_file = podcast_cache_dir + "daemon_data"
+try:
+    default_host = read_daemon_data()[1]
+except:
+    default_host = 'localhost'
+
+### ARGUMENTS ###
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-H", "--host", default=default_host, help=("set mpd host (default %s)" % default_host))
+parser.add_argument("-u", "--url", help="set podcast episode url")
+parser.add_argument("-p", "--position", help="set podcast position (mm:ss)")
+parser.add_argument("-g", "--gui", help="start with curses gui", action='store_true')
+parser.add_argument("command", type=str, help="play, stop, status, restart, gui")
+
+args = parser.parse_args()
+parse_command(args.command)
+
+# Starting GUI if requested
+if args.gui is True or args.command == 'gui':
+    import podcasthnd.gui as gui
+    gui.start_gui(args.host)
+
+
+
