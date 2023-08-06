@@ -1,0 +1,7 @@
+README.md
+gla11y
+setup.py
+gla11y.egg-info/PKG-INFO
+gla11y.egg-info/SOURCES.txt
+gla11y.egg-info/dependency_links.txt
+gla11y.egg-info/top_level.txt
