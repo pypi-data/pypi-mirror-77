@@ -1,0 +1,6 @@
+README.txt
+setup.py
+pandare.egg-info/PKG-INFO
+pandare.egg-info/SOURCES.txt
+pandare.egg-info/dependency_links.txt
+pandare.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: pandare
+Version: 0.0.0.1
+Summary: Dummy package for later use with python panda
+Home-page: http://github.com/panda-re/panda/
+Author: panda-re
+Author-email: luke@lukecraig.com
+License: GPLv2
+Description: 
+        This is a dummy package for future use. See website.
+        
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
