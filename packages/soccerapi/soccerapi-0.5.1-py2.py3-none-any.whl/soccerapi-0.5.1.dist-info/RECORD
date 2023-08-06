@@ -1,0 +1,12 @@
+soccerapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soccerapi/__version__.py,sha256=o-TD0NmaIwrNI-6UUK0Pm4tA6cd5eSoWLGI3sfgXz_w,63
+soccerapi/api/888sport.py,sha256=aHUaYocb1vEEQaBk22IERr_EfNgf9I_W0cHTbY5oBmk,464
+soccerapi/api/__init__.py,sha256=9P6iQt76AFlBhCo2xE4AoPXP6mMYBnzDzePPbrVTo2s,249
+soccerapi/api/base.py,sha256=Nk-D8nJCBtx9hF3kOi--kXLezUZFQm687ybl1xzMrP4,6951
+soccerapi/api/bet365.py,sha256=yZ_XXe5d1vJHAtrord8PRrTUNcLNx8ZHmHZw6PHbGkY,6968
+soccerapi/api/unibet.py,sha256=A0QI_9u0s-JXzDYEQT6nVTvAzuuxH31e8qmy_ZV8bpI,456
+soccerapi-0.5.1.dist-info/LICENSE,sha256=5-XwO89oTRan1JiU9RYpdHURAbjFEhzDvrZFYAFwFxY,1064
+soccerapi-0.5.1.dist-info/METADATA,sha256=V0sI8-2RItjT9YpNI-ApMqtSFl15ax9C62fzVAl6xB0,5138
+soccerapi-0.5.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+soccerapi-0.5.1.dist-info/top_level.txt,sha256=CRxzJ1W5hx7cXqsDOars_oZQAs1XQVK6Ac6z6J3Titc,10
+soccerapi-0.5.1.dist-info/RECORD,,
