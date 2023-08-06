@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+csinventory_py.egg-info/PKG-INFO
+csinventory_py.egg-info/SOURCES.txt
+csinventory_py.egg-info/dependency_links.txt
+csinventory_py.egg-info/top_level.txt
+csinventorypy/__init__.py
+csinventorypy/csinventory.py

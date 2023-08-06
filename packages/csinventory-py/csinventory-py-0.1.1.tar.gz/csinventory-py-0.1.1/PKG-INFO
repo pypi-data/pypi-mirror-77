@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: csinventory-py
+Version: 0.1.1
+Summary: Python package to get your Counter-Strike inventory
+Home-page: https://github.com/Bmbus/csinventory-py/blob/master/setup.py
+Author: Bmbus
+License: UNKNOWN
+Description: # CSInventory-py
+        Python package to get your Counter-Strike inventory
+        
+        ## Example
+        [CLICK!](https://github.com/Bmbus/csinventory-py/tree/master/examples)
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
