@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: ject
+Version: 0.0.3
+Summary: functional extensions
+Home-page: https://github.com/pydget/ject
+License: MIT
+Keywords: function,functional,fp,pipe,pipeline,lambda,noop,signature
+Author: Hoyeung Wong
+Author-email: hoyeungw@outlook.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/pydget/ject
+Description-Content-Type: text/markdown
+
+# ject
+#### functional extensions
+
+### Features
+- length: get length of function parameters
+- oneself: returns the parameter itself
+- pipe: pipe chain of functions
+
+### Usage
+#### get length of function parameters
+```python
+from ject import length
+
+def fun(a, b, *args, **kwargs): return a, b, args, kwargs
+
+print(length(fun)) # 4
+```
+
+#### pipe chain of functions
+```python
+from ject import pipe
+
+def add_one(n): return n + 1
+def times_two(n): return n * 2
+
+add_one_then_times_two = pipe(add_one, times_two)
+print(add_one_then_times_two(4))  # 10
+```
