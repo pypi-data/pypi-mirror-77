@@ -1,0 +1,16 @@
+datamart_materialize/__init__.py,sha256=t_Vo5ELSRJIEY6zM8MWrk7oRlPE-XWbW6JP0fSBVM6c,10913
+datamart_materialize/d3m.py,sha256=iB4bGQvsnXmQ0toCSU-V_O_1fWt98O8LFAHu3YP0eZ0,8862
+datamart_materialize/excel.py,sha256=t5_GkyyjlEHQMPqpLKliFmsQjFkjUJvE59YfgaK5B98,973
+datamart_materialize/noaa.py,sha256=3GhGw1fB3RcyL649ZH4UZzwHNNgl1pH1dquVFyxgB5k,2831
+datamart_materialize/pivot.py,sha256=a6RaSYFI0bdA3Y9oRPzTa3490aZiAE-Pni8RrJqZ1jc,1543
+datamart_materialize/spss.py,sha256=mcApSsCgAvYuHHXwFkvHVsystG3tZQvzZtVjrsSeV_g,376
+datamart_materialize/tsv.py,sha256=FSZ45lGt6OEbaLhSJfdyOV7UfMMqkAgwHBC9k34g3nA,440
+datamart_materialize/types.py,sha256=hPo1onZzNPf7kBIBe7JQQ5P42SUp9niBHDn6tbYVitY,1295
+datamart_materialize/utils.py,sha256=aTTHknQHBnGJHF9hYGHiEaHUex4EZqx9UaQ-Ab8NKAQ,2024
+datamart_materialize-0.7.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+datamart_materialize-0.7.dist-info/METADATA,sha256=HbO13UDcML6NA_zaLrUUi--JySXPsT35plZiO628dOc,1884
+datamart_materialize-0.7.dist-info/NOTICE.txt,sha256=6NucZSWH5nF7PYkOcZ1c8VCr9QrKY7sdNFsWPWbFybU,155
+datamart_materialize-0.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+datamart_materialize-0.7.dist-info/entry_points.txt,sha256=nOaVvmmSSNwNBxqlFetNh0IHa60SHZCYgTdrI94eCCQ,459
+datamart_materialize-0.7.dist-info/top_level.txt,sha256=3OEE-2fZcruJ01QDmV8yxP-9Z7eFKIYnBc_NOely0Rc,21
+datamart_materialize-0.7.dist-info/RECORD,,
