@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: htof
+Version: 0.1.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: ['G. Mirek Brandt, Daniel Michalik']
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: numpy (>=1.13)
+Requires-Dist: astropy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
