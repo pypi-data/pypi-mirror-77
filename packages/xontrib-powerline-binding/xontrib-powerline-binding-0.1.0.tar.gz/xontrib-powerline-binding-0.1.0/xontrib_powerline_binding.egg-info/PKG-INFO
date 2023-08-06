@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: xontrib-powerline-binding
+Version: 0.1.0
+Summary: Powerline binding for xonsh
+Home-page: https://github.com/dyuri/xontrib-powerline-binding
+Author: Gyuri Horák
+Author-email: dyuri@horak.hu
+License: MIT
+Description: # Xontrib-powerline-binding
+        
+        [Powerline](https://github.com/powerline/powerline) binding for [xonsh](https://xon.sh), so you can use your existing `powerline` prompt in `xonsh`.
+        
+        ## Install
+        
+        Install using pip
+        
+        ```
+        pip install xontrib-powerline-binding
+        ```
+        
+        Add to your `.xonshrc`:
+        
+        ```
+        xontrib load powerline_binding
+        ```
+        
+        ## Usage
+        
+        Uses `powerline` to setup you `$PROMPT` and `$RIGHT_PROMPT`.
+        
+Platform: any
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Desktop Environment
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: System :: System Shells
+Description-Content-Type: text/markdown

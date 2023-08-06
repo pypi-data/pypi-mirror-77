@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+xontrib/powerline_binding.xsh
+xontrib_powerline_binding.egg-info/PKG-INFO
+xontrib_powerline_binding.egg-info/SOURCES.txt
+xontrib_powerline_binding.egg-info/dependency_links.txt
+xontrib_powerline_binding.egg-info/requires.txt
+xontrib_powerline_binding.egg-info/top_level.txt
