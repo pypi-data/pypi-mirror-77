@@ -1,0 +1,9 @@
+fpack/__init__.py,sha256=G8LXFoG8KUJYMDKIRwi_8GJ0PPvajNqWnEmLziEWdhs,457
+fpack/fields.py,sha256=WEZAuZSMLN6pD0ohNqx7ZX_Y41xDnf4GVc6V28vpouc,6502
+fpack/msg.py,sha256=bVoNyouNK5fwUN3OgfqwpGpPztftvxhlPLJ-SzogcjE,1882
+fpack/utils.py,sha256=vZcp1kin2MA_WdC5t2EvY_lCVmbGdqjjNPVded8EgYQ,634
+fpack-1.0.1.dist-info/LICENSE,sha256=_3xaw4-9t9ZWrZxFONsF2n_OHA3NHMVBcNdshap-jm0,1456
+fpack-1.0.1.dist-info/METADATA,sha256=TcZ6JYMt4zyCWT2Nk4vGYm0bOEXt2UjrpUOMLxrkb7I,4778
+fpack-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+fpack-1.0.1.dist-info/top_level.txt,sha256=NsnJ6mNy_CJwi3sDMuW5ZY4l5a3cGf0_6IO3ax5usNk,6
+fpack-1.0.1.dist-info/RECORD,,
