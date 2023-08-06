@@ -1,0 +1,5 @@
+sentencepiece
+farasapy
+tqdm
+numpy
+black
