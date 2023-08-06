@@ -1,0 +1,16 @@
+appdirs
+atomicfile
+cached_property
+colorama
+docopt
+fastnumbers
+logzero
+pendulum
+requests
+setuptools
+simplejson
+urllib3
+whratio>=3.1.1
+
+[:python_version < "3.7"]
+dataclasses
