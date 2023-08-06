@@ -1,0 +1,15 @@
+setup.py
+tabelog_scraper/__init__.py
+tabelog_scraper/tabelog_scraper.py
+tabelog_scraper.egg-info/PKG-INFO
+tabelog_scraper.egg-info/SOURCES.txt
+tabelog_scraper.egg-info/dependency_links.txt
+tabelog_scraper.egg-info/requires.txt
+tabelog_scraper.egg-info/top_level.txt
+tabelog_scraper/adapter/__init__.py
+tabelog_scraper/adapter/tabelog_recommender.py
+tabelog_scraper/adapter/extractor/__init__.py
+tabelog_scraper/adapter/extractor/scraped_page.py
+tabelog_scraper/adapter/extractor/scrapeing_extractor.py
+tabelog_scraper/config/__init__.py
+tabelog_scraper/config/inject_config.py
