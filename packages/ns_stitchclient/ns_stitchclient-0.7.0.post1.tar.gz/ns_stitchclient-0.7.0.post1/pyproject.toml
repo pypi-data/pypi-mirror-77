@@ -1,0 +1,23 @@
+[build-system]
+requires = ["flit_core >=2,<3"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "ns_stitchclient"
+author = "Stitch"
+author-email = "support@stitchdata.com"
+home-page = "https://github.com/stitchdata/python-stitch-client"
+description-file = "README.md"
+requires = [
+    "python-dateutil>=2.7.3",
+    "msgpack-python",
+    "requests==2.20.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3 :: Only",
+]
+requires-python = ">=3.6,<4"
+
+[tool.flit.sdist]
+include = ["LICENSE"]
+exclude = ["tests/"]

@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: ns_stitchclient
+Version: 0.7.0.post1
+Summary: A Stitch Import API client library for python
+Home-page: https://github.com/stitchdata/python-stitch-client
+Author: Stitch
+Author-email: support@stitchdata.com
