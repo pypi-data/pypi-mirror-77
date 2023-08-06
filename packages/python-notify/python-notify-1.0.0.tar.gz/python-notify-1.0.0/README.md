@@ -1,0 +1,114 @@
+# python-notify
+
+python-notify is an object-oriented implementation of the observer design pattern in python3 
+supporting signature checking at connection stage, 
+checking of passed arguments at call stage, notifiable collections as __List__, __Dict__ and decorator __@notifiable_property__
+
+## Setup
+Library can be installed with pip:
+```
+pip3 install python-notify
+```
+## Simple examples
+### Signal
+```
+import typing
+
+from notify.signal import Signal
+
+
+class Obj:
+    event_happened = Signal(data=typing.Mapping)
+    
+    
+def event_handler(data: typing.Mapping):
+    print(f'{data=}')
+    
+obj = Obj()
+obj.event_happened.connect(event_handler)
+obj.event_happened.notify({'key': 'value'})  # Will print "data={'key': 'value'}"
+```
+### Collections
+This package implements specialized container data types providing
+alternatives to Python's general purpose built-in containers, dict,
+list, with signals for state changes.
+
+### List signals
+```
+    items_added = Signal(items=typing.Tuple[object], pos=Position)
+    items_changed = Signal(past_items=typing.Tuple[object], new_items=typing.Tuple[object], pos=Position)
+    items_removed = Signal(items=typing.Tuple[object], pos=Position)
+    items_cleared = Signal()
+
+    # Where Position = t.Union[int, slice]
+```
+### List example
+```
+import typing as t
+
+from notify.collections import List
+
+
+def on_items_added(items: t.Iterable[object], pos: int):
+    print(items, pos)
+
+obj = List((1, 2, 3))
+obj.items_added.connect(on_items_added)
+
+obj.extend((4, 5))
+# will print: (4, 5), 3
+```
+
+Dict signals:
+```
+    key_added = Signal(key=object, item=object)
+    key_changed = Signal(key=object, past_item=object, new_item=object)
+    key_removed = Signal(key=object)
+```
+
+### @notifiable_property
+notifiable_property decorator is alternative to Python's @property decorator 
+with signals for state changes.
+```
+from notify.property import notifiable_property
+
+
+class Obj:
+    def __init__(self, value):
+        self._value = None
+        self.value = value
+
+    @notifiable_property
+    def value(self):
+        return self._value
+
+    @value.setter
+    def value(self, value):
+        self._value = value * 2
+
+    @value.deleter
+    def value(self):
+        del self._value
+
+
+obj = Obj(value=1)
+assert obj.value == 2
+
+
+def on_value_changed(past_value, new_value):
+    print(f'{past_value=}, {new_value=}')
+
+obj.value_changed.connect(on_value_changed)
+
+obj.value = 2
+# Will print 'past_value=2, new_value=4'
+assert obj.value == 4
+
+
+def on_value_removed(past_value):
+    print(f'{past_value=}')
+obj.value_removed.connect(on_value_removed)
+
+del obj.value
+# Will print 'past_value=4'
+```
