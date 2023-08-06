@@ -1,0 +1,17 @@
+mpi4py
+lyncs-cppyy
+dask
+distributed
+dask[array]
+dask[distributed]
+dask-mpi
+sh
+lyncs-setuptools
+
+[all]
+pytest
+pytest-cov
+
+[test]
+pytest
+pytest-cov
