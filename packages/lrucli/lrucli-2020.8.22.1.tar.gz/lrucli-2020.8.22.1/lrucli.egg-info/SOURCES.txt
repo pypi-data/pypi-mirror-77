@@ -1,0 +1,10 @@
+README.md
+setup.py
+lrucli/__init__.py
+lrucli/__main__.py
+lrucli.egg-info/PKG-INFO
+lrucli.egg-info/SOURCES.txt
+lrucli.egg-info/dependency_links.txt
+lrucli.egg-info/entry_points.txt
+lrucli.egg-info/top_level.txt
+lrucli.egg-info/zip-safe
