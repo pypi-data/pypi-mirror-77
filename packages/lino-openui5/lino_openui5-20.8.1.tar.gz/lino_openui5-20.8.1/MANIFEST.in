@@ -1,0 +1,7 @@
+global-include *.txt *.js *.css *.html *.htm \
+  *.diff \
+  *.ico *.jpg *.png *.gif \
+  *.xml \
+  *.mo
+prune docs
+prune **/media
