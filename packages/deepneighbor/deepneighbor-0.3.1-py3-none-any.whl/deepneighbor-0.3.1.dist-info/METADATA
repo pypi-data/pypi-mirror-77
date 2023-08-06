@@ -1,0 +1,145 @@
+Metadata-Version: 2.1
+Name: deepneighbor
+Version: 0.3.1
+Summary: embedding-based item nearest neighborhoods extraction
+Home-page: https://github.com/LouisBIGDATA/deepneighbor
+Author: Yufeng Wang
+Author-email: louiswang524@gmail.com
+License: UNKNOWN
+Keywords: embedding,information retrieval,deep learning,torch,tensor,pytorch,nearest neighbor
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+Requires-Dist: h5py
+Requires-Dist: requests
+Requires-Dist: gensim (==3.7.0)
+Requires-Dist: tqdm
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: annoy
+Requires-Dist: dgl
+Requires-Dist: torch (>=1.1.0)
+
+# DeepNeighbor
+
+<br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="deepneighbor_logo.png" alt="Logo" width="120" height="120">
+  </a>
+  <p align="center">
+    Embedding-based Retrieval for ANN Search and Recommendations!
+    <br />
+    <a href="https://colab.research.google.com/drive/1j6uWt_YYyHBQDK7EN3f5GTTZTmNn2Xc5?usp=sharing">View Demo</a>
+    ·
+    <a href="https://github.com/Lou1sWang/deepneighbor/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Lou1sWang/deepneighbor/issues">Request Feature</a>
+  </p>
+</p>
+
+[![Python Versions](https://img.shields.io/pypi/pyversions/deepneighbor.svg)](https://pypi.org/project/deepneighbor)
+[![PyPI Version](https://img.shields.io/pypi/v/deepneighbor.svg)](https://pypi.org/project/deepneighbor)
+[![license](https://img.shields.io/github/license/LouisBIGDATA/deepneighbor.svg?maxAge=2592000)](https://github.com/LouisBIGDATA/deepneighbor)
+![GitHub repo size](https://img.shields.io/github/repo-size/Lou1sWang/deepneighbor)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Lou1sWang/deepneighbor/)
+
+
+[![Downloads](https://pepy.tech/badge/deepneighbor)](https://pepy.tech/project/deepneighbor)
+[![GitHub Issues](https://img.shields.io/github/issues/Lou1sWang/deepneighbor.svg)](https://github.com/Lou1sWang/deepneighbor/issues)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Lou1sWang/deepneighbor/graphs/commit-activity)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](louiswang524@gmail.com)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+
+---
+
+DeepNeighbor is a **High-level**,**Flexible** and **Extendible** package for embedding-based information retrieval from user-item interaction logs. Just as the name suggested, **'deep'** means deep learning models to get user/item embeddings, while **'neighbor'** means approximate nearest neighbor search in the embedding space.<br>
+It mainly has two parts : Embed step and Search step by the following codes:<br>
+<br>`model = Embed(data_path); model.train()`，which generates embeddings for users and items (Deep),
+<br> `model.search()`, which looks for Approximate nearest neighbor for seed user/item (Neighbor) .
+<br>
+
+### Install
+```python
+pip install deepneighbor
+```
+### How To Use
+
+```python
+from deepneighbor import Embed
+
+model = Embed(data,model='gat')
+model.train()
+model.search(seed = 'Louis', k=10)
+```
+### Input format
+The input data for the **Embed()** should be a (*.csv or *.txt ) file path (e.g. '\data\data.csv')with two columns in order: 'user' and 'item'. For each user, the item are recommended to be ordered by time.
+### Models & parameters in Embed()
+- [x] Word2Vec `w2v`
+- [ ] Factorization Machines `fm`
+- [ ] Deep Semantic Similarity Model
+- [ ] Siamese Network with triple loss
+- [ ] Deepwalk
+- [ ] Graph convolutional network
+- [x] Neural Graph Collaborative Filtering algorithm `ngcf`
+- [ ] Matrix factorization `mf`
+- [x] Graph attention network                        `gat`
+
+### Model Parameters
+#### deepwalk
+```python
+model = Embed(data, model = 'deepwalk')
+model.train(window_size=5,
+            workers=1,
+            iter=1
+            dimensions=128)
+```
+- ```window_size``` Skip-gram window size.
+- ```workers```Use these many worker threads to train the model (=faster training with multicore machines).
+- ```iter``` Number of iterations (epochs) over the corpus.
+- ```dimensions``` Dimensions for the node embeddings
+
+
+#### graph attention network 
+```python
+model = Embed(data, model = 'gat')
+model.train(window_size=5,
+            learning_rate=0.01,
+            epochs = 10,
+            dimensions = 128,
+            num_of_walks=80,
+            beta=0.5,
+            gamma=0.5,)
+```
+- ```window_size``` Skip-gram window size.
+- ```learning_rate``` learning rate for optimizing graph attention network
+- ```epochs``` Number of gradient descent iterations.
+- ```dimensions``` Dimensions for the embeddings for each node (user/item)
+- ```num_of_walks```Number of random walks.
+- ```beta``` and ```gamma```Regularization parameter.
+
+### How To Search
+#### ```model.search(seed, k)```
+- ```seed``` The Driver for the algorithms
+- ```k``` Number of Nearest Neighbors.
+
+### Examples
+Open [Colab](https://colab.research.google.com/drive/1j6uWt_YYyHBQDK7EN3f5GTTZTmNn2Xc5?usp=sharing) to run the example with facebook data.
+### Contact
+Please contact louiswang524@gmail.com for collaboration or providing feedbacks.
+### License
+This project is under MIT License, please see [here](LICENSE) for details.
+
+
