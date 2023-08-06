@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: set_ch
+Version: 10
+Summary: a package can save the problem of matolplib
+Home-page: https://github.com/gmj021/set_ch
+Author: gmj021
+Author-email: 13002152679@163.com
+License: UNKNOWN
+Description: # set_ch
+        a package can save the problem of matolplib
+        5555555555555555555555555555555555555555555555555555555555555555555
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.3
+Description-Content-Type: text/markdown
