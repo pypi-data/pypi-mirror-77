@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: cheerful_quotes
+Version: 0.1
+Summary: Devolve um toque de tranquilidade via mensagens
+Home-page: https://github.com/Gaobaofogo
+Author: Gabriel Augusto
+Author-email: gabrieldiniz54@gmail.com
+License: MIT
+Download-URL: https://github.com/Gaobaofogo/cheerful_quotes/archive/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: quotes,cheerful
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
