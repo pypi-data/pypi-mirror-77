@@ -1,0 +1,4 @@
+cd "$(dirname "$0")"
+echo LOADING, PLEASE WAIT...
+
+while true; do echo -n "RESTARTING TEST:  "; rm -r "/opt/git/coa/2Test"; mkdir "/opt/git/coa/2Test"; cp "/opt/git/coa/!secrets.yaml" "/opt/git/coa/2Test/secrets.yaml"; python3 -c "from tdcsm.tdgui import coa;c=coa(approot='/opt/git/coa/2Test')"; done
