@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: yahoo_finance_async
+Version: 0.1.0
+Summary: A Python async API wrapper for the deprecated (but currently still working) Yahoo Finance API
+Home-page: https://github.com/ttamg/yahoo_finance_async
+Author: Matt Gosden
+Author-email: mdgosden@gmail.com
