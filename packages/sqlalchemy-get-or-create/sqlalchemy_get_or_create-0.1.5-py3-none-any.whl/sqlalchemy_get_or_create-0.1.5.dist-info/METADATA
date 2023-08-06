@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: sqlalchemy-get-or-create
+Version: 0.1.5
+Summary: SQLAlchemy versions of Django's get_or_create() and update_or_create()
+Home-page: https://github.com/enricobarzetti/sqlalchemy_get_or_create
+Author: Enrico Barzetti
+Author-email: enricobarzetti@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: sqlalchemy (>=1.3.0,<2.0.0)
+Description-Content-Type: text/x-rst
+
+SQLAlchemy get_or_create()
+==========================
+
+SQLAlchemy versions of Django's get_or_create() and update_or_create()
+
+Installation
+------------
+
+To get the latest stable release from PyPi
+
+.. code-block:: bash
+
+    pip install sqlalchemy_get_or_create
+
+Usage
+-----
+
+get_or_create(session, model, defaults=None, \*\*kwargs)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Same as Django's `get_or_create()` but also takes the SQLAlchemy session and model
+
+update_or_create(session, model, defaults=None, \*\*kwargs)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Same as Django's `update_or_create()` but also takes the SQLAlchemy session and model
+
+Acknowledgments
+===============
+
+#. Django
+#. Some code cribbed from https://skien.cc/blog/2014/01/15/sqlalchemy-and-race-conditions-implementing-get_one_or_create/
+
