@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+stage_testing/__init__.py
+stage_testing/bootstrap.py
+stage_testing.egg-info/PKG-INFO
+stage_testing.egg-info/SOURCES.txt
+stage_testing.egg-info/dependency_links.txt
+stage_testing.egg-info/top_level.txt
