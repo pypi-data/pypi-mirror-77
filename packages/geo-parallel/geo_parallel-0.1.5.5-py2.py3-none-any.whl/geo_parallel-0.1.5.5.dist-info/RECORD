@@ -1,0 +1,8 @@
+.gitignore,sha256=LxcOWNmrHPPA1pmty_FOrCju5pJzj72CIuIkFGnsUZE,73
+PKG-INFO,sha256=rxyvH4EgJ9GXKAoi5GwIxsrn2KRyCgYmBX8BBb_bXPE,208
+pyproject.toml,sha256=2o3XXrWS1bh5XzkTF_Z1H-O-wSpT97IX-zA3oIsI4A8,288
+requirements.txt,sha256=PGQUvstcr3CKNy0cUG66fTUOy9UVjhjKCekSmwb4Ym8,61
+setup.py,sha256=bOl0G77AF_eXyCNQIgx-xFD2xtU7uhCMrtg8IaCc4Hw,548
+geo_parallel-0.1.5.5.dist-info/WHEEL,sha256=OL-EN-39HbzBiGlqqMt_l4r9-zX-74hoU51DNxxDqP4,88
+geo_parallel-0.1.5.5.dist-info/METADATA,sha256=rxyvH4EgJ9GXKAoi5GwIxsrn2KRyCgYmBX8BBb_bXPE,208
+geo_parallel-0.1.5.5.dist-info/RECORD,,
