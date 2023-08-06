@@ -1,0 +1,12 @@
+README.md
+setup.py
+pytorch_deploy.egg-info/PKG-INFO
+pytorch_deploy.egg-info/SOURCES.txt
+pytorch_deploy.egg-info/dependency_links.txt
+pytorch_deploy.egg-info/requires.txt
+pytorch_deploy.egg-info/top_level.txt
+torch_deploy/__init__.py
+torch_deploy/app.py
+torch_deploy/deploy.py
+torch_deploy/logger.py
+torch_deploy/processing.py
