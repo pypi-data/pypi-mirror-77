@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: ctui
+Version: 0.7.3
+Summary: The ctui is a library similar to Python's cmd, but with a curses-like user interface
+Home-page: https://github.com/ControlThingsTools/ctui
+Author: Justin Searle
+Author-email: justin@meeas.com
+License: GPLv3
+Description: # Control Things Serial
+        
+        The `ctui` is a library for creating terminal-based user interfaces, and is used in all the ControlThings tools at controlthings.io.  It is similar to using Click or Python's standard Cmd library, but with a curses-like interface written in pure Python.
+        
+        # Installation:
+        
+        As long as you have git and Python 3.6 or later installed, all you should need to do is:
+        
+        ```
+        pip3 install ctui
+        ```
+        
+        # Usage:
+        
+        Import the library, instantiate a Ctui object, and start the ctui application, like:
+        
+        ```
+        from ctui import Ctui
+        
+        myapp = Ctui()
+        myapp.run()
+        ```
+        
+        Of course you can configure you app in a number of different ways by modifying your app's attributes or by adding your own custom commands.   Check out the `examples` folder to walk you through some of these.  For more complex examples how to use ctui, check out the various ControlThings Tools, most of which use ctui.  You can find these at https://github.com/ControlThingsTools.
+        
+        # Platform Independence
+        
+        Python 3.5+ and all dependencies are available for all major operating systems.  It is primarily developed on MacOS and Linux, but should work in Windows as well.
+        
+        # Author
+        
+        * Justin Searle <justin@controlthings.io>
+        
+Keywords: terminal,interface,ui,curses,ControlThingsTools,ControlThingsPlatform
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
