@@ -1,0 +1,5 @@
+django
+django_rq
+django-crispy-forms
+whistle
+django-pragmatic
