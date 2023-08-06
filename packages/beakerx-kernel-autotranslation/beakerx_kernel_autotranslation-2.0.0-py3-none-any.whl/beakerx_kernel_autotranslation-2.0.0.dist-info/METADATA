@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: beakerx-kernel-autotranslation
+Version: 2.0.0
+Summary: BeakerX: Beaker Extensions for Jupyter Notebook
+Home-page: http://beakerx.com
+Author: Two Sigma Open Source, LLC
+Author-email: beakerx-feedback@twosigma.com
+License: UNKNOWN
+Keywords: ipython,jupyter,widgets,java,clojure,groovy,scala,kotlin,sql
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3
+Requires-Dist: notebook (>=5.7.6)
+Requires-Dist: ipywidgets (>=7.5.1)
+Requires-Dist: tornado (>6)
+Requires-Dist: py4j
+
+BeakerX: Beaker Extensions for Jupyter Notebook
+
+
