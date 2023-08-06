@@ -1,0 +1,7 @@
+README.md
+setup.py
+scrapy_umeng.egg-info/PKG-INFO
+scrapy_umeng.egg-info/SOURCES.txt
+scrapy_umeng.egg-info/dependency_links.txt
+scrapy_umeng.egg-info/requires.txt
+scrapy_umeng.egg-info/top_level.txt
