@@ -1,0 +1,11 @@
+omero_3Dscript/__init__.py,sha256=whjDP2709eo7Hy5KkIIgkbZLSSViRA9mZiGPGAOg2B0,61
+omero_3Dscript/apps.py,sha256=DuqpztK9pHST9V1i_R4zO16qx6htdlNKaEEkXnQ8YWo,116
+omero_3Dscript/fiji.py,sha256=kEcAan97ndLeIs2dQPOuy4Eg1Ni3AfrJPGlCAIUWgRM,3628
+omero_3Dscript/omero_3Dscript_settings.py,sha256=UYjmTZNqPA_KYTFvdI0d7-vbMAhAX3snXKiWSXTBZMQ,910
+omero_3Dscript/urls.py,sha256=DiCeQKro1iGIgyMJfdF5wKXIe8TQP_9wH3kJc3yG9bk,448
+omero_3Dscript/views.py,sha256=c7Vq50o_4-U4spBQYuRJmyWVtBrfb-2VmjvnWUYtXEc,4546
+OMERO_3Dscript-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+OMERO_3Dscript-0.0.1.dist-info/METADATA,sha256=znw6aS5rMcHTrCbFhg1cf5QzCmPU6woDx9mu_LnRjSc,3099
+OMERO_3Dscript-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+OMERO_3Dscript-0.0.1.dist-info/top_level.txt,sha256=OmzUBx9b24DpJSDpeTn_2egR3OEDfp50YhaaDnOgpg4,15
+OMERO_3Dscript-0.0.1.dist-info/RECORD,,
