@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/socket_control.py
+src/socket_control_ivie.egg-info/PKG-INFO
+src/socket_control_ivie.egg-info/SOURCES.txt
+src/socket_control_ivie.egg-info/dependency_links.txt
+src/socket_control_ivie.egg-info/requires.txt
+src/socket_control_ivie.egg-info/top_level.txt
