@@ -1,0 +1,16 @@
+spanishconjugator.py,sha256=GwABhLXcX6D4s5uYReDdNll6IKlN67LfvwRdqz_tDo0,3375
+irregulars/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+irregulars/irregular_dict.py,sha256=X_GlhrxnPLHXifaQ12Ozic35vBAnLxM1AWEPB6fXEjs,1877
+spanishconjugator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spanishconjugator/spanishconjugator.py,sha256=duypfopH4XCOQk_2aWxFLSwsEd4czXuQXrz7NjD62xo,3382
+src/irregulars/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/irregulars/irregular_dict.py,sha256=X_GlhrxnPLHXifaQ12Ozic35vBAnLxM1AWEPB6fXEjs,1877
+src/spanishconjugator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/spanishconjugator/spanishconjugator.py,sha256=GwABhLXcX6D4s5uYReDdNll6IKlN67LfvwRdqz_tDo0,3375
+src/tenses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tenses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spanishconjugator-2.1.8.dist-info/LICENSE.txt,sha256=BOEzKbxSPs_HMsrisGzrcYoKdczSDv2JhIikd06ASic,1067
+spanishconjugator-2.1.8.dist-info/METADATA,sha256=_ADz0C1oUmycmGVeWnSwj4GFMQpD5g6Dk7gS4mgUN7U,3059
+spanishconjugator-2.1.8.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+spanishconjugator-2.1.8.dist-info/top_level.txt,sha256=8nntDo3D5f3x0f0k_1jJ3tlbCJ2hwBUP24zWQW2_cqc,18
+spanishconjugator-2.1.8.dist-info/RECORD,,
