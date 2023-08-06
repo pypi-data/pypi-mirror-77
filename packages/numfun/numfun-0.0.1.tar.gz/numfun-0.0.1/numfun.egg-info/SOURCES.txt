@@ -1,0 +1,12 @@
+README.md
+setup.py
+numfun/__init__.py
+numfun/barycentric.py
+numfun/chebyshev.py
+numfun/function.py
+numfun/funutils.py
+numfun/polyfit.py
+numfun.egg-info/PKG-INFO
+numfun.egg-info/SOURCES.txt
+numfun.egg-info/dependency_links.txt
+numfun.egg-info/top_level.txt
