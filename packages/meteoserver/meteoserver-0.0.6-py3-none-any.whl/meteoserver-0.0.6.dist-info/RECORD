@@ -1,0 +1,9 @@
+meteoserver/__init__.py,sha256=V49yh5oB3yEqebLGHs7p5tVEADabOKYjfpptbXzOLt8,1383
+meteoserver/help.py,sha256=3UJxCf5hIqMhDhN6sYf31gW_F5fSW7pzKtFoYV6jHMQ,9564
+meteoserver/uurverwachting.py,sha256=GgRY09SjUZAIVUg8EFOK404HlD9Coli2lYtJ0t0tObU,9492
+meteoserver/zonactueel.py,sha256=WqJgcll1t-pb8O2UYg_UfZrEQs0j2nfqc0nhD5endaQ,6729
+meteoserver-0.0.6.dist-info/LICENCE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+meteoserver-0.0.6.dist-info/METADATA,sha256=s4GANA0xhAOXCC1CmMWWi8d4rMBDlzmwP8ZhHpSi2sM,4511
+meteoserver-0.0.6.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+meteoserver-0.0.6.dist-info/top_level.txt,sha256=HLkDNxTWE9327HPqDrK9D231blUALhWnAozquFyyL_8,12
+meteoserver-0.0.6.dist-info/RECORD,,
