@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: blwpprod
+Version: 1.1.1
+Summary: A program for decoding and re-encoding Nintendo's PrOD file format.
+Home-page: https://github.com/SDarkMagic/PrOD-Interpereter
+Author: SDarkMagic
+Author-email: TheSDarkMagic@gmail.com
+License: UNKNOWN
+Description: # PrOD Interpereter
+         Python module for decoding and re-encoding Nintendo's PrOD file format.
+         Can convert in current form. Needs CLI functionality.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
