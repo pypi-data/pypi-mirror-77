@@ -1,0 +1,11 @@
+bigxml/__init__.py,sha256=bnYvGQwkl_VbmVXDpopruxC7n7Zxr2xgZtrc4Tc7iQY,202
+bigxml/elements.py,sha256=aZuohFdk2f03T5nA5e-PQEeOqUKK9cRfBrMlBoT5FC8,650
+bigxml/handle_mgr.py,sha256=aOvaQebi7Q8wQ6MG0clUj9pUI4tr1Gy3muL4Qcn-sGI,426
+bigxml/handler.py,sha256=WAkL8xjIAnZ_-0MhzyjhQ8ozEPEIRdDgUH_by_1my04,1735
+bigxml/parser.py,sha256=xhyIynPt1fr-8t4vwxZLSHAOwlLuaogDdypd87D5IBA,1527
+bigxml/utils.py,sha256=gaBqoUILEOMYqUrLh6M8YdvzYAly_qiISiglcTPG1Zo,1896
+bigxml-0.1.0.dist-info/LICENSE.txt,sha256=c4bgarJmqrbV_Q3jYaW2_7wji8kUjs0BepyP8r-DMpY,1074
+bigxml-0.1.0.dist-info/METADATA,sha256=OysUgdo1j-mZ34QoZuHypLAprDGpzN8yA07-zmhJviA,1020
+bigxml-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+bigxml-0.1.0.dist-info/top_level.txt,sha256=S4dgqOMMNXzIuViiQYJZpeO6REyORIZN66Ovj-RhPuE,7
+bigxml-0.1.0.dist-info/RECORD,,
