@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: gtab
+Version: 0.1
+Summary: gtab allows users to obtain precise results from Google Trends queries.
+Home-page: https://github.com/epfl-dlab/GoogleTrendsAnchorBank
+Author: EPFL DLAB
+Author-email: epfl.dlab@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
