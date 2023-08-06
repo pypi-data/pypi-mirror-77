@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+coralinede/__init__.py
+coralinede.egg-info/PKG-INFO
+coralinede.egg-info/SOURCES.txt
+coralinede.egg-info/dependency_links.txt
+coralinede.egg-info/requires.txt
+coralinede.egg-info/top_level.txt
+coralinede/auto_detect_df/__init__.py
+coralinede/auto_detect_df/detect_datatype.py
+coralinede/auto_detect_df/pyingest_util.py
