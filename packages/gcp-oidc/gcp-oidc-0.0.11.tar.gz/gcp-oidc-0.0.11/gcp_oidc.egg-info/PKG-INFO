@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: gcp-oidc
+Version: 0.0.11
+Summary: Generate OIDC tokens for GCP Service accounts.
+Home-page: UNKNOWN
+Author: Total Wine
+Author-email: crsintegrations@totalwine.com
+License: UNKNOWN
+Description: # gcp-oidc
+        
+        Generate OpenID Connect tokens for GCP service accounts
+        
+        ## **About**
+        
+        This library is a wrapper around the google-cloud-iam client library. It's primary function is to support automatically refreshing an expired id token.
+        
+        ## **How it Works**
+        
+        Two identities are involved in generating an id token:
+        the caller, and the client service account for whom the credential is created. The caller is responsible for requesting a token from Google for the client service account.
+        
+        The caller is a Google service account that's derived from the `GOOGLE_APPLICATION_CREDENTIALS` environment variable. Alternatively, the caller can be explicitly set through the client constructor by specifying a path to a service account file.
+        
+        The client service account (for whom the credential is created) is automatically set to the caller service account if not explicitly provided.
+        
+        **The caller must have the `serviceAccountTokenCreator` role on the client service account in order to generate an id token for that account.**
+        
+        
+        ## **Examples**
+        
+        Install the package
+        
+            pip install gcp-oidc
+        
+        
+        
+        Generate an id token for the default service account.
+        
+            
+            from oidcutils import GCPOIDCClient
+            
+            # Instantiate a OIDC client object and generate a token.
+            # Hang on to the client instance for future invocations.
+            # Any subsequent calls to get_id_token() will automatically 
+            # refresh the token if the token has expired.
+            client = GCPOIDCClient()
+            token = client.get_id_token()
+         
+        
+        Generate an id token for a specific client service account when you know the client service account email address.
+        
+            
+            from oidcutils import GCPOIDCClient
+            
+            options = {
+                'debug': True,
+        	    'client_service_account_email': 'my-service-123@mygcproject.iam.gserviceaccount.com'
+            }
+            client = GCPOIDCClient(options)
+            token = client.get_id_token()
+        
+        
+        Generate an id token for a specific client service account when you have a client service account JSON key file.
+        
+             
+            from oidcutils import GCPOIDCClient
+            
+            options = {
+                'debug': True,
+        	    'client_service_account_file': '/path_to_service_account_file.json'
+            }
+            client = GCPOIDCClient(options)
+            token = client.get_id_token()
+        
+        Generate an id token for a specific client service account using a specific caller.
+        
+           
+            from oidcutils import GCPOIDCClient
+        
+            options = {
+                'debug': True,
+                'caller_service_account_file': '/path_to_caller_service_account_file.json'
+        	    'client_service_account_email': 'my-service-123@mygcproject.iam.gserviceaccount.com'
+            }
+            client = GCPOIDCClient(options)
+            token = client.get_id_token()
+        
+        
+        ## Client Methods and Properties
+           
+           
+        |  Property| Description  |
+        |--|--|
+        | expiry | Date time when the token expires |
+        | audience | The configured JWT audience claim |
+        | client_email | The client email address |
+        
+        --
+        
+        | Method | Description  |
+        |--|--|
+        | refresh_id_token(options)| Forces a token refresh. Takes an optional dict positional parameter. '**service_account_id**' and '**audience**' keys can be provided values. Return nothing.  |
+        | get_id_token()| Returns a valid id token |
+        
+            
+            
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
