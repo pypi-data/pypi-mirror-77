@@ -1,0 +1,6 @@
+requests>=2
+beautifulsoup4>=4
+lxml>=4
+python-dateutil>=2
+jdatetime>=3
+schedule>=0
