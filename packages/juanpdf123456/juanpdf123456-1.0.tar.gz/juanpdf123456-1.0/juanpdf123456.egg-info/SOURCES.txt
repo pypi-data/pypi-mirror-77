@@ -1,0 +1,8 @@
+README.md
+setup.py
+juanpdf/__init__.py
+juanpdf/pdf2text.py
+juanpdf123456.egg-info/PKG-INFO
+juanpdf123456.egg-info/SOURCES.txt
+juanpdf123456.egg-info/dependency_links.txt
+juanpdf123456.egg-info/top_level.txt
