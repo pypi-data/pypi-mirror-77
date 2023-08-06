@@ -1,0 +1,14 @@
+gs2d/DefaultCommandHandler.py,sha256=7CXFhijEMPAC5W77eO7G1h5AFIIDf7LidOJkDPFfoU0,5932
+gs2d/Driver.py,sha256=dGemZLHEGC1ZWbImVTPuNGKqxnG6hTVwoR7NXrdNjU4,8242
+gs2d/Futaba.py,sha256=5oAr13t4iWQS74Pg871UXWDtAtXxfHxNsLpkF9HhLGM,40453
+gs2d/ICommandHandler.py,sha256=uXLEkoCw5OiO8DG9ugOKdhEs6FGJLga_pltWmxMWuJg,900
+gs2d/ISerialInterface.py,sha256=fV-cjAE1tBvel1sYLobvOMqw8HpeX5Ls8sud4EylBvI,447
+gs2d/RobotisP20.py,sha256=x_i06IOpXGo0ZyKaP4THfKwQCgsE6BiFoOdDSGmEv0w,47316
+gs2d/SerialInterface.py,sha256=cjioLOErdvuAvdDjGBAnL-V9FgjzQTbSHq7T3H_TEaw,2191
+gs2d/Util.py,sha256=Z4FiLSN9WF-5aKuuTXpEJ9P8tkgsyYq6SOxgXncNSSQ,1588
+gs2d/__init__.py,sha256=yZfVaRAE-wmkHC1UQBUSNbxeu2cV3BEuyKY2XuBOgKc,166
+gs2d-0.0.3.dist-info/LICENSE,sha256=2BypAovb8X3IgN7RaOIYEtO1pu-yKqkN7IdVZXwOHFM,11354
+gs2d-0.0.3.dist-info/METADATA,sha256=uScumoa_ot2aqoi8HwS9t-5rLWmXM9JQPiohZlZlpjs,3546
+gs2d-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gs2d-0.0.3.dist-info/top_level.txt,sha256=_oDSgZc3d9n4DpD5yBNJnH2nQt98dx32BfSuDiC7uOM,5
+gs2d-0.0.3.dist-info/RECORD,,
