@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: doc-datatypes
+Version: 0.0.4
+Summary: Dict with documentation _-_
+Home-page: https://github.com/Kel0/doc_dict
+Author: Example Author
+Author-email: rickeyfsimple@example.com
+License: UNKNOWN
+Description: # doc_datatypes
+        ## Installation
+        ```
+        git clone git@github.com:Kel0/doc_dict.git
+        ```
+        ```
+        pip install doc-dict
+        ```
+        ## Usage
+        ### Documentable list
+        ```
+        from doc_datatypes.mutable_datatypes import DocumentedList
+        from doc_datatypes.datatypes import DocumentedIndex
+        
+        
+        my_list: List[DocumentedIndex] = DocumentedList(
+            [1, 2, 3], ["First", "Second", "Third"]
+        )
+        my_list_2: List[DocumentedIndex] = DocumentedList(
+            [[1, "First"], [2, "Second"], [3, "Third"]]
+        )
+        ```
+        ### Documentable dict
+        ```
+        from doc_datatypes.mutable_datatypes import DocumentedDict
+        from doc_datatypes.datatypes import DocumentedValue
+        
+        
+        my_dict: Dict[str, DocumentedValue] = DocumentedDict(
+            {"name": "Alex"}, {"name": "Name field"}
+        )
+        
+        my_dict_2: Dict[str, DocumentedValue] = DocumentedDict(
+            {"name": "Alex", "name_doc": "Name field"}
+        )
+        ```
+        
+        To get more info see [tests](https://github.com/Kel0/doc_datatypes/tree/master/tests)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
