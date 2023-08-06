@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+DataDocking/__init__.py
+DataDocking/data_restframework.py
+DataDocking.egg-info/PKG-INFO
+DataDocking.egg-info/SOURCES.txt
+DataDocking.egg-info/dependency_links.txt
+DataDocking.egg-info/requires.txt
+DataDocking.egg-info/top_level.txt
