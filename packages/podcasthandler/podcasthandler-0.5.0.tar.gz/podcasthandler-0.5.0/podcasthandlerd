@@ -1,0 +1,59 @@
+#!/usr/bin/python3
+
+# PODCAST HANDLER by Claudio Barca (Copyright 2020 Claudio Barca)
+# This software is distributed under GPL v. 3 licence.
+# See LICENSE file for details.
+
+import os
+import time
+import argparse
+
+from podcasthnd.media import Media
+from podcasthnd.item import Item
+import podcasthnd.constants as constants
+
+# VARIABLES
+# update_time = 3
+# podcast_cache_dir = ("%s/.cache/podcasthander/" % os.environ['HOME'])
+# daemon_data_file = podcast_cache_dir + "daemon_data"
+
+def save_daemon_data(pid,host):
+    file = open(constants.daemon_data_file,'w') 
+    file.write("%s:%s" % (pid, host))
+    file.close() 
+
+def read_daemon_data():   # list: [pid, host]
+    file = open(constants.daemon_data_file,'r') 
+    data = (file.readlines()[0]).split(':')
+    return data
+
+def kill_old_daemon():
+        os.kill(read_daemon_data()[0], signal.SIGKILL)
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-H", "--host", default="localhost", help="set mpd host (default localhost)")
+args = parser.parse_args()
+
+
+media = Media(args.host)
+
+try:
+    kill_old_daemon()
+except:
+    pass
+
+if media.client.status()['state'] == 'play':
+    filename = media.client.currentsong()['file']
+    item = Item(filename)
+    item.db_set_current()
+    save_daemon_data(os.getpid(), args.host)
+else:
+    exit()
+
+
+while media.client.status()['state'] != 'stop' and filename == media.client.currentsong()['file']:
+    item.db_set_position(str(media.time()[0]))
+    # print(str(media.time()[0]))
+    time.sleep(constants.update_time)
+
+media.client.close()
