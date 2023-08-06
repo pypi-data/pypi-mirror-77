@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+BODtoJSON/BODtoJSON.py
+BODtoJSON/__init_.py
+BODtoJSON.egg-info/PKG-INFO
+BODtoJSON.egg-info/SOURCES.txt
+BODtoJSON.egg-info/dependency_links.txt
+BODtoJSON.egg-info/requires.txt
+BODtoJSON.egg-info/top_level.txt
