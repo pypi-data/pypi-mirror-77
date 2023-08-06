@@ -1,0 +1,8 @@
+pyyaml
+jinja2
+requests
+python-dateutil
+sflock
+sqlalchemy<1.4,>=1.3.13
+elasticsearch<8.0,>=7.8.1
+elasticsearch-dsl<7.3,>=7.2.1
