@@ -1,0 +1,6 @@
+pyyaml
+slackclient==2.8.0
+slacker==0.14.0
+slacksocket==1.0.1
+websocket-client==0.56
+wheel
