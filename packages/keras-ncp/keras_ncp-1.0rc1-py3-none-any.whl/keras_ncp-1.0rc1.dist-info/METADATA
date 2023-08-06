@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: keras-ncp
+Version: 1.0rc1
+Summary: Neural Circuit Policies implementation for Keras
+Home-page: https://github.com/mlech26l/natmachintell_ncp
+Author: Mathias Lechner
+Author-email: mathias.lechner@ist.ac.at
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Dist: packaging
+Requires-Dist: future
+Requires-Dist: numpy (<1.19.0)
+
+UNKNOWN
+
+
