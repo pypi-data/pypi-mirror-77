@@ -1,0 +1,11 @@
+starlette_resource/__init__.py,sha256=00-yg9-7rcrqqvsA9fFSYMROYEQ3YAMw5OdtaxFF4RI,136
+starlette_resource/resource.py,sha256=-K4NhBMmEUxygv3XVZn_Vy1MN_SieQ-rI_rnLUwWFTw,277
+starlette_resource/websocket_resource.py,sha256=uiJvM1Lz6EvpOKAxmay01FfdPMBMezRdvHxTtCmc6Hc,305
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/sample_app.py,sha256=x_m1q86SV_asCwinsgiKUzL5NpOO-09wBLS2q8xTN2I,1476
+tests/test_resource.py,sha256=6htkAjl5nPUOvCw4n7uA3fx6RbjcOf_4VO9TK8T4yj8,260
+tests/test_websocket_resource.py,sha256=r_qIRMur0dJCQnSMjhMSmi7AKz1cHmc0CcF2MRIyXPY,372
+starlette_resource-0.1.0.dist-info/METADATA,sha256=a5L0dRd61IX_HPvAEn3eCALP32cTz9jnz0sdz4VIVoM,2906
+starlette_resource-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+starlette_resource-0.1.0.dist-info/top_level.txt,sha256=h7hhoVtqAqah66P6sp8rxC7lalrigNya-OcHaM53Srw,25
+starlette_resource-0.1.0.dist-info/RECORD,,
