@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: byb2lsl
+Version: 0.0.4
+Summary: A driver to connect the Heart&Brain kit from Backyard Brain to the LabStreamingLayer.
+Home-page: https://github.com/yop0/BackyardBrainHeartBrain-LSL
+Author: Johan Medrano
+Author-email: johan.medrano@umontpellier.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: pylsl
+Requires-Dist: pyserial
+Requires-Dist: numpy
+
+# Driver to stream data from BackyardBrain's Heart & Brain kit to the Lab Streaming Layer
+Example below shows how to use the driver with [OpenVibe](http://openvibe.inria.fr/) 
+## 1- Installing the package
+Using [Pip](https://pypi.org/project/pip/) 
+```Bash
+> pip install byb2lsl
+```
+
+## 2- Launch the driver
+``` 
+> python -m byb2lsl.driver
+```
+
+## 3- Connect to OpenVibe
+Launch the program OpenVibe Acquisition Server. 
+
+In Driver, select "LabStreamingLayer". 
+
+In Driver Properties > Signal Stream, select "ByB Heart&Brain".
+
+In Preferences > Drift Correction, select "Let the driver decide". 
+
+## 4- Use in OpenVibe Designer
+Start OpenVibe Designer. 
+Add a new "Acquisition Server" node, which will stream the data from the Backyard Brain. 
+Connect to your pipeline... 
+
+
