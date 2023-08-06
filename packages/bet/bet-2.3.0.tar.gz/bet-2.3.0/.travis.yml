@@ -1,0 +1,45 @@
+dist: xenial
+language: python
+
+python:
+    - "3.5"
+    - "3.6"
+    - "3.7"
+    - "3.8"
+
+services:
+  - xvfb
+
+before_install:
+  - "export DISPLAY=:99.0"
+  - sudo apt-get install gfortran libblas-dev liblapack-dev mpich libmpich-dev
+
+install:
+  - pip install matplotlib mpi4py nose codecov
+  - python setup.py install
+
+script:
+  - nosetests --with-coverage --cover-package=bet --cover-erase --cover-html
+  - mpirun -n 2 nosetests
+  - pip uninstall -y mpi4py
+  - rm proc* && rm test/test_sampling/testfile*
+  - nosetests
+
+# notification settings
+notifications:
+    email:
+        recipients:
+            - michael.pilosov@ucdenver.edu
+        on_success: change
+        on_failure: always
+
+# whitelist
+branches:
+    only:
+        - master
+        - sample
+        - develop
+
+# Push the results back to codecov
+after_success:
+  - codecov
