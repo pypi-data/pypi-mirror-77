@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: djangotalkto
+Version: 0.1.1
+Summary: A Django app to talk to APIs.
+Home-page: https://github.com/sirrobot01/djangotalkto
+Author: Akere Mukhtar
+Author-email: akeremukhtar10@gmail.com
+License: BSD-3-Clause
+Project-URL: Source, https://github.com/sirrobot01/djangotalkto
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
+Requires-Dist: httpx
+Requires-Dist: django (>=2.2)
+Provides-Extra: rest
+Requires-Dist: djangorestframework ; extra == 'rest'
+
+<h2>Django TalkTo</h2>
+<div align="justify">
+    <a href="https://pyup.io/repos/github/sirrobot01/django-talkto/"><img src="https://pyup.io/repos/github/sirrobot01/django-talkto/shield.svg" alt="Updates" /></a>
+    <a href="https://pyup.io/repos/github/sirrobot01/django-talkto/"><img src="https://pyup.io/repos/github/sirrobot01/django-talkto/python-3-shield.svg" alt="Python 3" /></a>
+</div>
+
+
