@@ -1,0 +1,3 @@
+[console_scripts]
+wsmocky = wsmocky.wsmocky:main
+
