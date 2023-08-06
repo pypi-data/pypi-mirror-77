@@ -1,0 +1,2 @@
+include oui/data/*
+include oui/splatter/*.json
