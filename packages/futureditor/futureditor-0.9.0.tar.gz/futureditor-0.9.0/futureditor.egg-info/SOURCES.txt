@@ -1,0 +1,11 @@
+README.md
+setup.py
+bin/future-editor.py
+futureditor/command_line.py
+futureditor/futureditor.py
+futureditor/futureeditor.py
+futureditor.egg-info/PKG-INFO
+futureditor.egg-info/SOURCES.txt
+futureditor.egg-info/dependency_links.txt
+futureditor.egg-info/entry_points.txt
+futureditor.egg-info/top_level.txt

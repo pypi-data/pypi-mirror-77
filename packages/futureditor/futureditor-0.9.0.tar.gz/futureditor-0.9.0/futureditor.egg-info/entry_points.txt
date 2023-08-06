@@ -1,0 +1,3 @@
+[console_scripts]
+future-editor = futureditor:future_editor
+
