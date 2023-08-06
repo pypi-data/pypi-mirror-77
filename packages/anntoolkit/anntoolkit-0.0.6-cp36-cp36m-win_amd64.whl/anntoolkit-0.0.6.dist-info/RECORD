@@ -1,0 +1,9 @@
+_anntoolkit.cp36-win_amd64.pyd,sha256=ZDc5Ft1l_yNx_CBCS_FB13KqgxKd8ig3DZq8xBd6TGA,1350144
+anntoolkit/__init__.py,sha256=s6p2lLLnvUeGB69FoG5AG3sWm-KoXgxZq6BewPajKMo,1799
+anntoolkit/app.py,sha256=pAY6lTnavMycM_9avPMJl3-WOmVswf66gzCZsYVL3C8,12597
+anntoolkit/downsample2x.py,sha256=HOmmYFYqGzmnr0r3u1FmlMH1P83b_7hvnqtBAhvO1C8,3324
+anntoolkit/generate_mipmaps.py,sha256=J17ut7IYxeNCkgpeTdJ0ijEAyjZBKJG-I3UhlXoC9kw,1941
+anntoolkit-0.0.6.dist-info/METADATA,sha256=AO3SWTjc4bM6BwykmQ7Ebd7IJNrbwLxJaiFUmiJ7PXo,250
+anntoolkit-0.0.6.dist-info/WHEEL,sha256=SktxJNdVgf2GQ0Rnj47KhGrFXFhp4j6ROtWy0UXB1eM,106
+anntoolkit-0.0.6.dist-info/top_level.txt,sha256=bULM9T8i0ecRvru9HfdVXuSHBpfD75CCKdFO32Pgckc,23
+anntoolkit-0.0.6.dist-info/RECORD,,
