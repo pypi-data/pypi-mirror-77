@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: event-connectors-wrapper-test2
+Version: 0.2
+Summary: A package to handle event driven engines
+Home-page: https://github.com/tykiblood/kafka-wrapper
+Author: OMR
+Author-email: ingesql1992@hotmail.com
+License: MIT
+Description: Readme
+Platform: UNKNOWN

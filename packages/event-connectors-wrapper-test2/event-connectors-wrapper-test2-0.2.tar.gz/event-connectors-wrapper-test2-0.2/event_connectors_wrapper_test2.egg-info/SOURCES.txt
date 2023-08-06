@@ -1,0 +1,9 @@
+README.txt
+setup.py
+event_connectors_wrapper_test2.egg-info/PKG-INFO
+event_connectors_wrapper_test2.egg-info/SOURCES.txt
+event_connectors_wrapper_test2.egg-info/dependency_links.txt
+event_connectors_wrapper_test2.egg-info/requires.txt
+event_connectors_wrapper_test2.egg-info/top_level.txt
+kafka_utils/__init__.py
+kafka_utils/kafka_utils.py
