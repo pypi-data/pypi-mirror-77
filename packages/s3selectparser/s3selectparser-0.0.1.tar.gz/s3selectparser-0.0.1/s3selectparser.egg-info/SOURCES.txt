@@ -1,0 +1,8 @@
+README.md
+s3selectparser.py
+setup.py
+s3selectparser.egg-info/PKG-INFO
+s3selectparser.egg-info/SOURCES.txt
+s3selectparser.egg-info/dependency_links.txt
+s3selectparser.egg-info/requires.txt
+s3selectparser.egg-info/top_level.txt
