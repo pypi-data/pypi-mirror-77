@@ -1,0 +1,13 @@
+Flask
+htmldoom>=1<2
+
+[dev]
+pytest>=4.4.1
+pytest-cov>=2.7.1
+black>=19.3b0
+tox>=3.12.1
+
+[testing]
+pytest>=4.4.1
+pytest-cov>=2.7.1
+black>=19.3b0
