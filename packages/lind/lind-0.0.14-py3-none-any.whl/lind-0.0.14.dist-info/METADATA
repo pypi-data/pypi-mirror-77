@@ -1,0 +1,154 @@
+Metadata-Version: 2.1
+Name: lind
+Version: 0.0.14
+Summary: Package for implementing bayesian deep conjugate models in python.
+Home-page: UNKNOWN
+Author: James Montgomery
+Author-email: jamesoneillmontgomery@gmail.com
+License: # License
+Requires-Dist: numpy (==1.17.4)
+Requires-Dist: scipy (==1.4.1)
+Requires-Dist: pandas (==0.23.4)
+Requires-Dist: scikit-learn (==0.21.3)
+Requires-Dist: matplotlib (==3.0.3)
+Provides-Extra: tests
+Requires-Dist: pytest (==5.3.5) ; extra == 'tests'
+Requires-Dist: pytest-cov (==2.8.1) ; extra == 'tests'
+Requires-Dist: pytest-mock (==3.0.0) ; extra == 'tests'
+Requires-Dist: pytest-lazy-fixture (==0.6.3) ; extra == 'tests'
+Requires-Dist: pytest-xdist (==1.31.0) ; extra == 'tests'
+Requires-Dist: pyyaml (==3.12) ; extra == 'tests'
+Requires-Dist: pylint (==2.4.4) ; extra == 'tests'
+
+MIT License
+
+Copyright (c) 2020 James Montgomery
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Description: # Lind
+        
+        A short description.
+        
+        ### Authors
+        
+        **James Montgomery** - *Initial Work* - [jamesmontgomery.us](http://jamesmontgomery.us)
+        
+        ### License
+        
+        This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+        
+        ## Getting Started
+        
+        These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+        
+        ### Installing
+        
+        For a local installation, first git clone this repository. Then follow these instructions:
+        
+        ```
+        pip install .
+        ```
+        
+        To install from [pypi](https://pypi.org/):
+        
+        ```
+        pip install -U lind
+        ```
+        
+        To install the package with test dependencies add `["tests"]` to the install command:
+        
+        ```
+        pip install .["tests"]
+        # or
+        pip install -U lind["tests"]
+        ```
+        
+        ## Testing
+        
+        Testing is an important part of creating maintainable, production grade code. Below are instructions for running unit and style tests as well as installing the necessary testing packages. Tests have intentionally been separated from the installable pypi package for a variety of reasons.
+        
+        Make sure you have the required testing packages:
+        
+        ```
+        pip install -r requirements_test.txt
+        ```
+        
+        To install the project  with test dependencies see the install section.
+        
+        ### Running the unit tests
+        
+        We use the pytest framework for unit testing.
+        
+        ```
+        pytest -vvl -s --cov lind --disable-pytest-warnings
+        ```
+        
+        ### Running the style tests
+        
+        Having neat and legible code is important. Having documentation is also important. We use pylint as our style guide framework. Many of our naming conventions follow directly from the literary sources they come from. This makes it easier to read the mathematical equations and see how they translate into the code. This sometimes forces us to break pep8 conventions for naming.
+        
+        ```
+        pylint lind --disable=invalid-name
+        ```
+        
+        ## Contributor's Guide
+        
+        Here are some basic guidelines for contributing.
+        
+        ### Branch Strategy
+        
+        This repository doesn't use a complicated branching strategy. Simply create a feature branch off of master. When the feature is ready to be integrated with master, submit a pull request. A pull request will re quire at least one peer review and approval from the repository owner.
+        
+        ### Style Guide
+        
+        Please stick to pep8 standards when for your code. Use numpy style docstrings.
+        
+        ### Test Requirements
+        
+        Please use pytest as your testing suite. You code should have >= 80% coverage.
+        
+        ### Updating the Docs
+        
+        Updating the documentation is simple. First, let auto-docs check for updates to the package structure.
+        
+        ```
+        cd docs
+        make html
+        ```
+        
+        ## Acknowledgments
+        
+        People to acknowledge.
+        
+        ## TODO
+        
+        Features to be added / change / fixed.
+        
+        ## Useful Resources
+        
+        Useful resources for understanding the package.
+        
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: tests
