@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+caseSelector2/__init__.py
+caseSelector2/__main__.py
+helloCaseUL.egg-info/PKG-INFO
+helloCaseUL.egg-info/SOURCES.txt
+helloCaseUL.egg-info/dependency_links.txt
+helloCaseUL.egg-info/top_level.txt
