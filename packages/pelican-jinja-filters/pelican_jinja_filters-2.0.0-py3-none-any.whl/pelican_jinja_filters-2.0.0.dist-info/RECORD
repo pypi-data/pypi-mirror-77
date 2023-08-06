@@ -1,0 +1,9 @@
+CHANGELOG.rst,sha256=Lv4PWW9ej4La2c-uz2Slh1XRF2URVCwZNf-mt17spxs,673
+CONTRIBUTING.md,sha256=aWpaaTmdToZsvs9OjxunpxJ3HNhrYt09TfBDFkTAcWI,566
+LICENSE.txt,sha256=zfcemSJnVLUxiQzIXm7CthABnW7wkNkfhnmpBWVbMiQ,1075
+pelican/plugins/jinja_filters/__init__.py,sha256=OqYg126gxrpk7CADczK7Z0fM0fXOh1JekjfZnugUV3I,1885
+pelican/plugins/jinja_filters/jinja_filters.py,sha256=6wdu33MOFAFCL5wun6mSTCng1TgEQrPuxinmF9-YLDo,1389
+pelican_jinja_filters-2.0.0.dist-info/LICENSE.txt,sha256=zfcemSJnVLUxiQzIXm7CthABnW7wkNkfhnmpBWVbMiQ,1075
+pelican_jinja_filters-2.0.0.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+pelican_jinja_filters-2.0.0.dist-info/METADATA,sha256=TazZmKIXS2MohoSbTLcjj_30tozqvqpk-sk2DyUfAsM,4311
+pelican_jinja_filters-2.0.0.dist-info/RECORD,,
