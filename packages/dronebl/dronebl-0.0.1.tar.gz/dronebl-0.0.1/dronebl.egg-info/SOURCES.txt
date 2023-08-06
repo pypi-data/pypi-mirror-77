@@ -1,0 +1,8 @@
+README.md
+setup.py
+dronebl/__init__.py
+dronebl/py.typed
+dronebl.egg-info/PKG-INFO
+dronebl.egg-info/SOURCES.txt
+dronebl.egg-info/dependency_links.txt
+dronebl.egg-info/top_level.txt
