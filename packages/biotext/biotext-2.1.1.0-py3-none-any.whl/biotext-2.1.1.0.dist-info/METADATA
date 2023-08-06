@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: biotext
+Version: 2.1.1.0
+Summary: The biotext library offers resources to support text mining strategy using bioinformatics tool
+Home-page: UNKNOWN
+Author: Diogo de J. S. Machado
+Author-email: diogomachado.bioinfo@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: unidecode
+Requires-Dist: biopython
+Requires-Dist: sweep
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+
+PyInstaller Overview
+====================
+The biotext library offers resources to support text mining strategy using bioinformatics tool.
+
+Stand alone tools based on library are available at link <https://sourceforge.net/projects/biotext-tools/>.
+
+Installation
+------------
+To install aminocode through `pip`::
+
+      pip install biotext
+
+
+Tested Platforms
+----------------
+- Python:
+
+ - 3.7.4
+
+- Windows (64bits):
+
+ - 10
+
+- Ubuntu (64bits)
+
+ - 18.04.1 LTS
+
+Required external libraries
+---------------------------
+- numpy
+- pandas
+- scipy
+- scikit-learn
+- matplotlib
+- unidecode
+- biopython
+- sweep
+
+Functions
+---------------
+
+**AMINOcode** (coding with AMINOcode method)
+
+- :code:`aminocode.encodetext(text,detailing='')`
+
+ - **text:** natural language text string to be encoded;
+ - **detailing:** details in coding. 'd' for details in digits. 'p' for details on the punctuation. 'dp' or 'pd' for both;
+ - **output:** encode string.
+
+- :code:`aminocode.decodetext(text,detailing='')`
+
+ - **text:** text string encoded using the encodefile function to be decode;
+ - **detailing:** details used in the text to be decoded. 'd' for details in digits. 'p' for details on the punctuation. 'dp' or 'pd' for both;
+ - **output:** decode string.
+
+- :code:`aminocode.encodefile(input_file_name,output_file_name=None,detailing='',header_format='number+originaltext',verbose=False)`
+
+ - **input_file_name:** text file name or _io.TextIOWrapper variable. It can also be used the format that is imported by the Bio.SeqIO library of Biopython, in which case the function will automatically extract the headers to do the encoding;
+ - **output_file_name:** the name for the output file. If not defined, the result will only be returned as a variable;
+ - **detailing:** same as in the encodetext function;
+ - **header_format:** format for the headers of the generated FASTA. It can be 'number+originaltext', 'number' or 'originaltext'. 'number' is a count of the lines in the input file. Blank lines are considered in the count, but are not added to the FASTA file. 'originaltext' is the input text itself;
+ - **verbose:** if True displays progress;
+ - **output:** FASTA variable in Biopython format. If defined output_file_name a file will be saved.
+
+
+- :code:`aminocode.decodefile(input_file_name,output_file_name=None,detailing='',verbose=False)`
+
+ - **input_file_name:** file name or variable in the format used by Biopython's Bio.SeqIO library
+ - **output_file_name:** the name for the output file. If not defined, the result will only be returned as a variable;
+ - **detailing:** same as in the decodetext function;
+ - **verbose:** if True displays progress;
+ - **output:** string list. If defined output_file_name a file will be saved.
+
+**DNAbits** (coding with DNAbits method)
+
+- :code:`dnabits.encodetext(text,detailing='')`
+
+ - **text:** natural language text string to be encoded;
+ - **detailing:** details in coding. 'd' for details in digits. 'p' for details on the punctuation. 'dp' or 'pd' for both;
+ - **output:** encode string.
+
+- :code:`dnabits.decodetext(text,detailing='')`
+
+ - **text:** text string encoded using the encodefile function to be decode;
+ - **detailing:** details used in the text to be decoded. 'd' for details in digits. 'p' for details on the punctuation. 'dp' or 'pd' for both;
+ - **output:** decode string.
+
+- :code:`dnabits.encodefile(input_file_name,output_file_name=None,detailing='',header_format='number+originaltext',verbose=False)`
+
+ - **input_file_name:** text file name or _io.TextIOWrapper variable. It can also be used the format that is imported by the Bio.SeqIO library of Biopython, in which case the function will automatically extract the headers to do the encoding;
+ - **output_file_name:** the name for the output file. If not defined, the result will only be returned as a variable;
+ - **header_format:** format for the headers of the generated FASTA. It can be 'number+originaltext', 'number' or 'originaltext'. 'number' is a count of the lines in the input file. Blank lines are considered in the count, but are not added to the FASTA file. 'originaltext' is the input text itself;
+ - **verbose:** if True displays progress;
+ - **output:** FASTA variable in Biopython format. If defined output_file_name a file will be saved.
+
+
+- :code:`dnabits.decodefile(input_file_name,output_file_name=None,detailing='',verbose=False)`
+
+ - **input_file_name:** file name or variable in the format used by Biopython's Bio.SeqIO library
+ - **output_file_name:** the name for the output file. If not defined, the result will only be returned as a variable;
+ - **verbose:** if True displays progress;
+ - **output:** string list. If defined output_file_name a file will be saved.
+
