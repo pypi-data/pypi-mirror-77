@@ -1,0 +1,12 @@
+README.md
+setup.py
+Kickbase_Bot.egg-info/PKG-INFO
+Kickbase_Bot.egg-info/SOURCES.txt
+Kickbase_Bot.egg-info/dependency_links.txt
+Kickbase_Bot.egg-info/requires.txt
+Kickbase_Bot.egg-info/top_level.txt
+kickbase_bot/__init__.py
+kickbase_bot/kickbase_bot.py
+kickbase_bot/persistence.py
+kickbase_bot/serialization.py
+kickbase_bot/threading.py
