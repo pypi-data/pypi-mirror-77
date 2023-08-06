@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: fpga_ethernet_control
+Version: 0.0.2
+Summary: Ethernet to FPGA API
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: dev
