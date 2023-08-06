@@ -1,0 +1,11 @@
+setux/distros/debian.py,sha256=O4VUx2-kbMc_TsDWYcwHoGHWmtKYfJaTvXOSLTZHXzM,627
+setux/distros/fedora.py,sha256=eWqR7ISFTg8g8yTV9Kec-09pQ7T5cZHAur1ZoxIC46I,432
+setux/distros/init.py,sha256=SLlDkA1kgscQ0jVZT4Ku7h2uS_XSQUXEmJa4BW6ybOg,78
+setux/distros/manjaro.py,sha256=O6zsTKyCBJgGixNFZcYZimv7KzZWpeMCu3rD_h_LSIs,483
+setux/distros/mint.py,sha256=KQk5q16awwdSr-HoSOXjB9DeUwFBUr5fmAasMh8lOXA,375
+setux/distros/mx.py,sha256=f9vnUrY5xb0qb7S1uHveYn0KFYLkJHcHYQm1c9tvIKs,393
+setux_distros-0.3.1.dist-info/LICENSE,sha256=0tNHXfCacj_eX-GwlIVtBc7i881BDBotZvM9QeCIUPY,1090
+setux_distros-0.3.1.dist-info/METADATA,sha256=6uSaX1CHSYsDMa2OcCo9qCKh75SYYYpFYIWMnATCYPQ,1019
+setux_distros-0.3.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+setux_distros-0.3.1.dist-info/top_level.txt,sha256=kmCnG8Rj9-DTuv9TjsPUPItgUhXEAxy9VU24QddH_X4,6
+setux_distros-0.3.1.dist-info/RECORD,,
