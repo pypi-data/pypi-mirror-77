@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyscfg/__init__.py
+pyscfg/core.py
+pyscfg/stores.py
+pyscfg.egg-info/PKG-INFO
+pyscfg.egg-info/SOURCES.txt
+pyscfg.egg-info/dependency_links.txt
+pyscfg.egg-info/requires.txt
+pyscfg.egg-info/top_level.txt
