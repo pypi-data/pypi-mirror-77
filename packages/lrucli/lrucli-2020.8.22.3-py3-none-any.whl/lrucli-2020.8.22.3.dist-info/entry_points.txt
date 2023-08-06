@@ -1,0 +1,3 @@
+[console_scripts]
+lru = lrucli.__main__:main
+
