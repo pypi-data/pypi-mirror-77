@@ -1,0 +1,8 @@
+README.md
+setup.py
+fenda.egg-info/PKG-INFO
+fenda.egg-info/SOURCES.txt
+fenda.egg-info/dependency_links.txt
+fenda.egg-info/requires.txt
+fenda.egg-info/top_level.txt
+legato/__init__.py

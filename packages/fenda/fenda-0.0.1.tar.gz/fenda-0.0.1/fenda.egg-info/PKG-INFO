@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fenda
+Version: 0.0.1
+Summary: A WSGI Server Implementation of OpenAPI 3.0 in Python3.
+Home-page: https://fenda.io/ff/legato
+Author: rejown
+Author-email: rejown@gmail.com
+License: UNKNOWN
+Description: # Cadenza
+        
+        A WSGI Server Implementation of OpenAPI 3.0 in Python3.
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
