@@ -1,0 +1,6 @@
+opencv-python
+baidu-aip
+requests
+sounddevice
+soundfile
+DobotRPC
