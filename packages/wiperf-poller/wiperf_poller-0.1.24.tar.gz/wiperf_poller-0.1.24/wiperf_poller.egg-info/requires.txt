@@ -1,0 +1,4 @@
+speedtest-cli
+influxdb
+influxdb_client
+iperf3
