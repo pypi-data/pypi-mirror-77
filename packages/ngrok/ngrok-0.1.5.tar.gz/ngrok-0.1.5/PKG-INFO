@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ngrok
+Version: 0.1.5
+Summary: ngrok NAT.
+Home-page: https://github.com/OpenIoTHub/ngrok
+Author: Farry
+Author-email: yu@iotserv.com
+License: MIT
+Description: 
+        ==========
+        Ngrok NAT Downloader for Pyhton
+        ==========
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
