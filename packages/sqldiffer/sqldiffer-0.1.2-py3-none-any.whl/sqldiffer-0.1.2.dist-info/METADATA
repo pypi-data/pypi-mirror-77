@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: sqldiffer
+Version: 0.1.2
+Summary: Check the difference of MySQL schema (CREATE TABLE)
+Home-page: https://github.com/homoluctus/sqldiffer
+License: MIT
+Keywords: MySQL,Database,Schema
+Author: homoluctus
+Author-email: w.slife18sy@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pymysql (>=0.10.0,<0.11.0)
+Project-URL: Repository, https://github.com/homoluctus/sqldiffer
+Description-Content-Type: text/markdown
+
+# sqldiffer
+
+![PyPI](https://img.shields.io/pypi/v/sqldiffer)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/sqldiffer)
+![GitHub](https://img.shields.io/github/license/homoluctus/sqldiffer)
+
+Check the difference of MySQL schema (CREATE TABLE)
+
+<!-- TOC depthFrom:2 -->
+
+- [Feature](#feature)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Examples](#examples)
+  - [Check the differences](#check-the-differences)
+  - [Ignore charset](#ignore-charset)
+  - [Ignore auto_increment and charset](#ignore-auto_increment-and-charset)
+
+<!-- /TOC -->
+
+## Feature
+
+- Check the difference of MySQL schema
+  - Compare CREATE TABLE
+  - Choose whether to ignore AUTO_INCREMENT and CHARSET
+- Output HTML
+  - Save the difference for each table in HTML (Click [here](./tests/result.html) for sample)
+
+## Installation
+
+```bash
+pip install sqldiffer
+```
+
+## Usage
+
+```
+sqldiffer -h
+usage: sqldiffer [-h] --server1 SERVER1 --server2 SERVER2 [-o OUTPUT_DIR] [--skip-auto-increment] [--skip-charset] [-V]
+
+Check the difference of MySQL schema (CREATE TABLE)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --server1 SERVER1     Comparison source. [Format] user:password@host:port/database
+  --server2 SERVER2     Comparison target. [Format] user:password@host:port/database
+  -o OUTPUT_DIR, --output-dir OUTPUT_DIR
+                        Directory to save files. Default is current directory.
+  --skip-auto-increment
+                        Whether to ignore the difference of "AUTO_INCREMENT=[0-9]+"
+  --skip-charset        Whether to ignore the difference of "CHARSET=[a-z0-9]+"
+  -V, --version         Show command version
+```
+
+## Examples
+
+### Check the differences
+
+```bash
+sqldiffer --server1 homoluctus:test@aroundtheworld:3306/aaa \
+          --server2 homoluctus:test@anothersky:3306/aaa
+```
+
+### Ignore charset
+
+```bash
+sqldiffer --server1 homoluctus:test@aroundtheworld:3306/aaa \
+          --server2 homoluctus:test@anothersky:3306/aaa \
+          --skip-charset
+```
+
+### Ignore auto_increment and charset
+
+```bash
+sqldiffer --server1 homoluctus:test@aroundtheworld:3306/aaa \
+          --server2 homoluctus:test@anothersky:3306/aaa \
+          --skip-auto-increment \
+          --skip-charset
+```
+

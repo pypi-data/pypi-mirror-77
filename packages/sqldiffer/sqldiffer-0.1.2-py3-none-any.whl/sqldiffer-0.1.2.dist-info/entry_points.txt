@@ -1,0 +1,3 @@
+[console_scripts]
+sqldiffer=sqldiffer.main:main
+
