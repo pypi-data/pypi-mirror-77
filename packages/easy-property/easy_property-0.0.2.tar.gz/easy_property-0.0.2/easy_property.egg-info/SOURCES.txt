@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+easy_property/MySimpleGUI.py
+easy_property/__init__.py
+easy_property/easy_property.py
+easy_property.egg-info/PKG-INFO
+easy_property.egg-info/SOURCES.txt
+easy_property.egg-info/dependency_links.txt
+easy_property.egg-info/top_level.txt
