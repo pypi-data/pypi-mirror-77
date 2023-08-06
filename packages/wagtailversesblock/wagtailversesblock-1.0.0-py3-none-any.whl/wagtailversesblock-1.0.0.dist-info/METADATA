@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: wagtailversesblock
+Version: 1.0.0
+Summary: Bible verse highlighter/formatter streamfield block for Wagtail CMS.
+Home-page: https://github.com/Correct-Syntax/wagtail-versesblock
+Author: Noah Rahm, Correct Syntax
+Author-email: correctsyntax@yahoo.com
+License: BSD 3-Clause
+Keywords: wagtail,Bible,verses,highlighter,streamfield,django
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Wagtail
+Classifier: Framework :: Wagtail :: 2
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
+Requires-Dist: wagtail (>=2.9)
+
+Wagtail Verses Block
+====================
+
+Bible verse highlighter/formatter streamfield block for Wagtail CMS.
+
+
+# Usage
+
+Import and add ``VersesBlock`` to *models.py*:
+
+```python
+
+...
+
+from wagtail.core.models import Page
+from wagtail.core.fields import StreamField
+
+from wagtailversesblock.blocks import VersesBlock
+
+...
+
+class ExamplePage(Page):
+
+    ...
+
+    body = StreamField([
+        ('verses', VersesBlock()),
+    ], null=True)
+
+```
+
+
+# Development 
+
+Pull requests and/or feature suggestions are welcome!
+
+
+# License
+
+Licensed under the BSD 3-Clause license
+
