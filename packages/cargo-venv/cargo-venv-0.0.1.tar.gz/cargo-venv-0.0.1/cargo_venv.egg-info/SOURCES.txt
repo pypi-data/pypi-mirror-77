@@ -1,0 +1,11 @@
+README.md
+setup.py
+cargo_venv/__init__.py
+cargo_venv.egg-info/PKG-INFO
+cargo_venv.egg-info/SOURCES.txt
+cargo_venv.egg-info/dependency_links.txt
+cargo_venv.egg-info/entry_points.txt
+cargo_venv.egg-info/requires.txt
+cargo_venv.egg-info/top_level.txt
+cargo_venv/main/__init__.py
+cargo_venv/main/main.py
