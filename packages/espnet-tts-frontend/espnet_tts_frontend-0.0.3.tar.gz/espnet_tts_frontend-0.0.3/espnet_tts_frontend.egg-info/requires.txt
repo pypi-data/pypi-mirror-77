@@ -1,0 +1,9 @@
+unidecode>=1.0.22
+inflect>=1.0.0
+jaconv
+g2p_en
+pypinyin
+
+[doc]
+
+[test]
