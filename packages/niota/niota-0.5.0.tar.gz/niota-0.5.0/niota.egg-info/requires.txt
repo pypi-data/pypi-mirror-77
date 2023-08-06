@@ -1,0 +1,4 @@
+PyOTA==2.1.0
+ipfshttpclient==0.6.0
+pycrypto==2.6.1
+python-magic==0.4.18
