@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: byb2lsl
+Version: 0.0.1
+Summary: A driver to connect the Heart&Brain kit from Backyard Brain to the LabStreamingLayer.
+Home-page: https://github.com/yop0/BackyardBrainHeartBrain-LSL
+Author: Johan Medrano
+Author-email: johan.medrano@umontpellier.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: pylsl
+Requires-Dist: pyserial
+
+UNKNOWN
+
+
