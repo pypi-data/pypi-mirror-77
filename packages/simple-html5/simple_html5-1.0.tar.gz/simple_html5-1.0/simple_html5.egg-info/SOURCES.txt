@@ -1,0 +1,6 @@
+html_setup.py
+simple_html5/__init__.py
+simple_html5.egg-info/PKG-INFO
+simple_html5.egg-info/SOURCES.txt
+simple_html5.egg-info/dependency_links.txt
+simple_html5.egg-info/top_level.txt
