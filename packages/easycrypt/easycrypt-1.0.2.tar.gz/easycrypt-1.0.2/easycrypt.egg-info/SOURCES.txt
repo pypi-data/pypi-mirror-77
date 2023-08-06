@@ -1,0 +1,7 @@
+README.md
+setup.py
+easycrypt/__init__.py
+easycrypt.egg-info/PKG-INFO
+easycrypt.egg-info/SOURCES.txt
+easycrypt.egg-info/dependency_links.txt
+easycrypt.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+to encrypt encoded strings use encrypt(data_to_encrypt, key)
+to decrypt use decrypt(data_to_decrypt, key)
+to encrypt decoded strings use encryptdecoded(data_to_encrypt, key)
+to generate keys use keygen()
+to generate keys with a password use keygenpassword(password, salt)
+to generate a salt first import os and then use os.urandom(32)
