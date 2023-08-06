@@ -1,0 +1,15 @@
+crudlib/__init__.py,sha256=LruQLerdwxvi6mCiep60md698YlutWW04wDsxukCJQc,81
+crudlib/base.py,sha256=WgJl1X-A8RzNHGTPOfNykxOzFR6cY-LODw8N3Pib0kc,425
+crudlib/config.py,sha256=OYjZ98Y7QdyrxfawmLb4pp__gqnNmVFu5t2gXHElUA4,197
+crudlib/mariadb.py,sha256=3tW_cLmF4EY97IGyfKGHBIJW0rIRlxEIz42q9OD8I4Y,389
+crudlib/mysql.py,sha256=49BLHRlGn-ViZGejWsmdLgqAAJRTImpVCo1kbsjZIgM,6850
+crudlib/sqlite.py,sha256=YWTwi-36pRfNHxgnma8ydQMeYulKhDxPnbKb0UeV9v4,858
+crudlib/uri.py,sha256=2VOGQouKQqrajjbM_JOEco8uHl-zkpqM6KfkjdSoADg,1388
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_mysql.py,sha256=vandXnISewTUV_c-rolFSaxQOQ0H_1gXXrEkEuF0Tvs,1229
+tests/test_uri.py,sha256=A4nN9wnqHLo1uCJeSZlXqBSAWSE_rWkDhoxAKtWbR9Q,535
+crudlib-1.2.1.dist-info/LICENSE,sha256=R80dj817T9rG1C1nQC6pfln-fuZi_5WHpJzm7-fzgzE,1062
+crudlib-1.2.1.dist-info/METADATA,sha256=2mu8bCXMDxeatOReM90V3AO_7KMEsEd3lgztJpE-8Is,2140
+crudlib-1.2.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+crudlib-1.2.1.dist-info/top_level.txt,sha256=9eXR8rOqVMmhTgp347AjEuIUXDytHgX8mVYq_qhQ1zM,14
+crudlib-1.2.1.dist-info/RECORD,,
