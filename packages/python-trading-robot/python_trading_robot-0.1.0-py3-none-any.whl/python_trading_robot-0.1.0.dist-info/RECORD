@@ -1,0 +1,17 @@
+pyrobot/indicators.py,sha256=OowBpL8KTkqncwnTnlLn0-NhcC9KAk7AVvMKbw0HEEs,37572
+pyrobot/portfolio.py,sha256=HRG1RIJm6KD47OBTdQgZkptdW7BUBN2_1u2QWV9S9U0,23577
+pyrobot/robot.py,sha256=z2PsRgLLIVzHc1xfj1emkqfNsTojF_65V_I71s92CiY,43821
+pyrobot/stock_frame.py,sha256=XYZEBQmE-z1xSq3ivLss99BImdHaJdiKoodAbXNLxGw,8670
+pyrobot/trades.py,sha256=BJfjwY9GdOvgqIREb-Zoa2e1SRPCE_17A4OLuc1Fec0,25536
+samples/trading_robot.py,sha256=X5Vxueqe97kHK8Xjjxm2gHQF5ngwg8QPqcUDwjhkwDM,5843
+samples/trading_robot_indicators.py,sha256=4vHwo4qr-nISSERB3AQ86bPC4Dob0CxvmEhCIo1ihCY,3228
+tests/test_indicators.py,sha256=0j0nmp8i4ijLeqI_mXWBO3CrvJ32rWOFBtNKtn2K9vQ,5874
+tests/test_portfolio.py,sha256=PH4IXUp5r-skkLRuNU8cEJbQYvA90Hx8qyF0_1wAKV4,8501
+tests/test_robot.py,sha256=m8-zdQTOyTNczZIxS6tvfXMlRQdhTpaGnrJi73Qb5po,5720
+tests/test_stock_frame.py,sha256=1ytO-1dK4tEhwnaKveNwTzDHD_atK-1LFWeQicTi3XI,3891
+tests/test_trades.py,sha256=SctJudBdPqwN6Twt8S5rX3OB8mF4XU0scgf4NrkwOjY,6248
+python_trading_robot-0.1.0.dist-info/LICENSE,sha256=9lITtutg01JkQWhjw6wZRYid-ZjvCFxqJYW_nb-vS0E,1087
+python_trading_robot-0.1.0.dist-info/METADATA,sha256=M7GY8vdgDEvrjYbUBBKj0KVBO2NTycik_bMK3PI-6hc,6185
+python_trading_robot-0.1.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+python_trading_robot-0.1.0.dist-info/top_level.txt,sha256=xaFrGuJI9brzRAZP8HvSGRuEoXkiC5UerA1xmibbdC4,22
+python_trading_robot-0.1.0.dist-info/RECORD,,
