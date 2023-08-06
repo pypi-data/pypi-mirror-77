@@ -1,0 +1,10 @@
+artella-plugins-core==1.0.9
+tpDcc-libs-python
+tpDcc-core
+tpDcc-libs-qt
+
+[dev]
+wheel
+
+[test]
+pytest
