@@ -1,0 +1,11 @@
+generalcartesianproduct/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+generalcartesianproduct/general_cartesian_product.py,sha256=BTs4PO9GZikpRyuTIzLJOTazTybSZX6v8HW7H8oU770,13009
+generalcartesianproduct/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+generalcartesianproduct/tests/test1.py,sha256=tmlU1P5Zl5o_ntPsYmmFI0tKjnRa9eSgc3nj31JQwTo,160
+generalcartesianproduct/tests/test_sage.py,sha256=tmlU1P5Zl5o_ntPsYmmFI0tKjnRa9eSgc3nj31JQwTo,160
+generalcartesianproduct/tests/test_sympy.py,sha256=tmlU1P5Zl5o_ntPsYmmFI0tKjnRa9eSgc3nj31JQwTo,160
+GeneralCartesianProduct-0.1.0.dist-info/LICENSE.txt,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+GeneralCartesianProduct-0.1.0.dist-info/METADATA,sha256=o7ovumW1GvFk0Iyh3a_642rs52zlAZ0W2J22p4OMiOk,3106
+GeneralCartesianProduct-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+GeneralCartesianProduct-0.1.0.dist-info/top_level.txt,sha256=Eoq7-IaXdJNnCMWH__rzUGR9yqqrg17Mxxczdy9XQJM,24
+GeneralCartesianProduct-0.1.0.dist-info/RECORD,,
