@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+split_fasta.egg-info/PKG-INFO
+split_fasta.egg-info/SOURCES.txt
+split_fasta.egg-info/dependency_links.txt
+split_fasta.egg-info/entry_points.txt
+split_fasta.egg-info/top_level.txt
+splitfasta/__init__.py
+splitfasta/__main__.py
