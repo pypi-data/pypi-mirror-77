@@ -1,0 +1,15 @@
+to_ascii-3.4.9.data/data/LICENSE,sha256=Doy04yAPj8t9FDevgd2QhzRmbW4-nJ2fDsF43pwF1xM,1091
+toascii/ABC.py,sha256=LRDPiGSK_llEUlQDexc4-TxbStwwswHiCnMV-kCcaRY,734
+toascii/CLI.py,sha256=5egqrhx7ytpZGNj18IXWYG4WhRKTl8yM4iLyDuAZUBg,2236
+toascii/Constants.py,sha256=R33yllscP7M-VM3d_HVV4HyaH7T2Rzcn8wy87Ad4poI,150
+toascii/Exceptions.py,sha256=xOmex80ndvJxC4sa6SSE0m63lU_qlh0aiAc-BWW0BdE,276
+toascii/Image.py,sha256=a5hynX63su56jC488cHcP4IlRtM-xzx65lkpPPlYQMw,2419
+toascii/Live.py,sha256=gkNEglj2c7pCusMgyvXPkft1-H1shzNLPxYj1zCrad0,2848
+toascii/Video.py,sha256=5tc3qaXRncR3AcZQ2HbYrP7-wfx4wFtQw5XjzIEN6VA,4408
+toascii/__init__.py,sha256=FFg62BGYYhTRDocRq_8heQ2ekZMUobzAPnwo--Sr9Mc,78
+to_ascii-3.4.9.dist-info/LICENSE,sha256=Doy04yAPj8t9FDevgd2QhzRmbW4-nJ2fDsF43pwF1xM,1091
+to_ascii-3.4.9.dist-info/METADATA,sha256=OsJJ-24pcPMdExZBADpildUXKdOHY7aPZBpu34kk8nw,7181
+to_ascii-3.4.9.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+to_ascii-3.4.9.dist-info/entry_points.txt,sha256=AWgvBET74_FDpXuuIGYpHWO0QCqBywFAglMksUVMxtY,47
+to_ascii-3.4.9.dist-info/top_level.txt,sha256=QgjqkjECM-VpV1VrclvZrO3H_kgftKBSIrIxCcoR2i8,8
+to_ascii-3.4.9.dist-info/RECORD,,
