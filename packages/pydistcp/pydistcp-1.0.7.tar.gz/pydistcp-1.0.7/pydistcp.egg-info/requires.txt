@@ -1,0 +1,3 @@
+docopt
+pywhdfs>=1.0.0
+progressbar>=2.0
