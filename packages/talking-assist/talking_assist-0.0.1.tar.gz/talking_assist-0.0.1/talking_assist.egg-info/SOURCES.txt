@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+talking_assist/__init__.py
+talking_assist/shubham_assist.py
+talking_assist.egg-info/PKG-INFO
+talking_assist.egg-info/SOURCES.txt
+talking_assist.egg-info/dependency_links.txt
+talking_assist.egg-info/top_level.txt
