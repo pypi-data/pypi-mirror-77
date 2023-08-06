@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+tax2graph/__init__.py
+tax2graph/abstract_connection.py
+tax2graph/graph_builder.py
+tax2graph/manager.py
+tax2graph.egg-info/PKG-INFO
+tax2graph.egg-info/SOURCES.txt
+tax2graph.egg-info/dependency_links.txt
+tax2graph.egg-info/requires.txt
+tax2graph.egg-info/top_level.txt
