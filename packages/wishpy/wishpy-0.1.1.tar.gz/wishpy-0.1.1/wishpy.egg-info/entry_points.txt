@@ -1,0 +1,6 @@
+
+        [console_scripts]
+        tshark=wishpy.scripts.tshark:dissect
+        tcpdump=wishpy.scripts.tcpdump:dump
+        pcap_pickler=wishpy.scripts.pcap_to_pickle:pickler
+        
