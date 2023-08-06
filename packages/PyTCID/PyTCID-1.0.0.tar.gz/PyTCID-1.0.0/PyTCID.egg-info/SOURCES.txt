@@ -1,0 +1,8 @@
+README.md
+setup.py
+PyTCID.egg-info/PKG-INFO
+PyTCID.egg-info/SOURCES.txt
+PyTCID.egg-info/dependency_links.txt
+PyTCID.egg-info/top_level.txt
+tcid/__init__.py
+tcid/_verification_functions.py
