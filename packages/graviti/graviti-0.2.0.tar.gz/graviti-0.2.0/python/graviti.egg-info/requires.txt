@@ -1,0 +1,8 @@
+click
+filetype
+numpy
+pyquaternion
+requests
+requests_toolbelt
+sortedcontainers
+typing_extensions
