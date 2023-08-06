@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: apywrapper
+Version: 0.1.0
+Summary: make wrapper for RESTful API
+License: GPL-3.0-or-later
+Author: sh1ma
+Author-email: in9lude@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: cleo (>=0.8.1,<0.9.0)
+Requires-Dist: dacite (>=1.5.1,<2.0.0)
+Requires-Dist: httpx (>=0.14.1,<0.15.0)
