@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: wkskel
+Version: 0.0.2
+Summary: A library for scientific analysis and manipulation of webKnossos skeleton tracings
+Home-page: https://gitlab.mpcdf.mpg.de/connectomics/wkskel
+Author: Florian Drawitsch
+Author-email: florian.drawitsch@brain.mpg.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.1)
+Requires-Dist: pandas (>=0.25)
+Requires-Dist: matplotlib (>=3.1)
+Requires-Dist: networkx (>=2.3)
+Requires-Dist: wknml (>=0.0.9)
+
+UNKNOWN
+
+
