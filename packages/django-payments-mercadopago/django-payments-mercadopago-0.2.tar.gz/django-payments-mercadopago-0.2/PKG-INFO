@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: django-payments-mercadopago
+Version: 0.2
+Summary: A django-payments backend for the mercadopago payment gateway
+Home-page: https://github.com/EduardoZepeda/django-payments-mercadopago
+Author: Eduardo Zepeda
+Author-email: eduardozepeda@coffeebytes.dev
+License: UNKNOWN
+Download-URL: https://github.com/EduardoZepeda/django-payments-mercadopago/archive/v0.2.tar.gz
+Description: UNKNOWN
+Keywords: django-payments,mercadopago
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Framework :: Django
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
