@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: DUI
+Version: 1.0.1
+Summary: A console UI kit.
+Home-page: https://github.com/Python-Lettle/DUI
+Author: Lettle
+Author-email: 1071445082@qq.com
+License: MIT Licence
+Keywords: pip,uitool,console
+Platform: any
+
+A console UI kit. Just for novice.
+
+
