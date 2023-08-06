@@ -1,0 +1,3 @@
+[console_scripts]
+tanos = tanos.calcScore:main
+
