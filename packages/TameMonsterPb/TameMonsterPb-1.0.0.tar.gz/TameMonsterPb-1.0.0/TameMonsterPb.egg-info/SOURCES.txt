@@ -1,0 +1,6 @@
+README.md
+setup.py
+TameMonsterPb.egg-info/PKG-INFO
+TameMonsterPb.egg-info/SOURCES.txt
+TameMonsterPb.egg-info/dependency_links.txt
+TameMonsterPb.egg-info/top_level.txt
