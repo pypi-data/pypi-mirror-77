@@ -1,0 +1,10 @@
+featuretools_sklearn_transformer/__init__.py,sha256=_34e8hWzZ2aXlFBqTu9gRO2xFZnQRIlPHBBi9G3Jaos,77
+featuretools_sklearn_transformer/transformer.py,sha256=wCkU8onsROLwszWD4wahur68Nk0Ut6Lw0cElIJmVnXU,11267
+featuretools_sklearn_transformer/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+featuretools_sklearn_transformer/tests/test_transformer.py,sha256=vbEeFhISey7J9eEsGQq0AZoSkdfdPqZhGbY0kWtbLcY,3576
+featuretools_sklearn_transformer-0.1.1.dist-info/LICENSE,sha256=4-75TiY5KvFYB8qRkwyXVT1uZQEXn27I9-Uz49aEdRo,1517
+featuretools_sklearn_transformer-0.1.1.dist-info/METADATA,sha256=lICDd6I54GmLWiPyNYWkzSU6o6lXvZyMvVJIPS_BsnE,2818
+featuretools_sklearn_transformer-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+featuretools_sklearn_transformer-0.1.1.dist-info/entry_points.txt,sha256=VtNl08-R_X5GX2MsTBiwPbs-VGI_jDmAlbbfipf7iSg,67
+featuretools_sklearn_transformer-0.1.1.dist-info/top_level.txt,sha256=j_julXh_bM_TyFp1fae2S897_i0en7tZIAduZkcqZyA,33
+featuretools_sklearn_transformer-0.1.1.dist-info/RECORD,,
