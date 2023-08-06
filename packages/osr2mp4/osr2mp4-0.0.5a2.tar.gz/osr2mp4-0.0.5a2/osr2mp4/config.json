@@ -1,0 +1,19 @@
+{
+    "osu! path": "/Users/yuitora./Documents/osu!.app/Contents/Resources/drive_c/osu!",
+    "Skin path": "/Users/yuitora./Downloads/pogshige",
+    "Beatmap path": "/Users/yuitora./Downloads/kikoku/kikoku.osu",
+    ".osr path": "auto",
+    "Default skin path": "",
+    "Output path": "/Users/yuitora./PycharmProjects/osr2mp4-app/TAG4 IOSYS Marisa wa Taihen na Mono wo Nusunde Ikimashita played by 2popte4.mp4",
+    "Output name": "{Map} played by {Player}4.mp4",
+    "Width": 1280,
+    "Height": 720,
+    "FPS": 60,
+    "Start time": 200,
+    "End time": -1,
+    "Video codec": "X264",
+    "Process": 3,
+    "ffmpeg path": "ffmpeg",
+    "Audio codec": "aac",
+    "Language": "English"
+}
