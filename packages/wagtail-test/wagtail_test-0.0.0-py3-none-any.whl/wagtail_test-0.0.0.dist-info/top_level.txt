@@ -1,0 +1,4 @@
+home
+manage
+mysite
+search
