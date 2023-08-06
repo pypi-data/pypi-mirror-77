@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: BODtoJSON
+Version: 0.0.7
+Summary: Converts Infor QAGIS BODs to  flattened JSON
+Home-page: https://github.com/thekakodkar/Mapper
+Author: Niraj Kakodkar
+Author-email: niraj.kakodkar@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: xmltodict
+
+# Mapper
+
+Mapper is a python library to convert the Infor OAGIS BODs to Flattened JSON.
+The library simplifies the converted JSON by keeping only the content within DataArea.
+The library will remove the Verb node from DataArea and keeps only the Noun node.
+
+#### Usage
+
+##### Getting it
+To download BODtoJSON, either fork this github repo or simply use Pypi via pip.
+```python
+$ pip install BODtoJSON==0.0.7
+```
+##### Using it:
+```python
+from BODtoJSON.BODtoJSON import convert
+output_var = convert(bodxml, verb)
+```
+
+#### MIT License
+Read License.txt
+
+#### GITHUB
+Fork me on github https://github.com/thekakodkar/Mapper
+
