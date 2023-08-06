@@ -1,0 +1,7 @@
+README.md
+setup.py
+srbpy.egg-info/PKG-INFO
+srbpy.egg-info/SOURCES.txt
+srbpy.egg-info/dependency_links.txt
+srbpy.egg-info/requires.txt
+srbpy.egg-info/top_level.txt
