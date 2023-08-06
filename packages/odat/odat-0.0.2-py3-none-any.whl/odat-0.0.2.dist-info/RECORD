@@ -1,0 +1,13 @@
+odat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odat/defaults.py,sha256=d08KTbZI2TnbJnbm4JWHROFZwDFd0tFd803gRP2He2k,216
+odat/install.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odat/mdat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odat/mdat/sa.py,sha256=J0TRQchnkwlTMmOobDX7DIYki8KhGe0Apg0iIxIDRhQ,6649
+odat/mdat/xe.py,sha256=4un7HfNfOBHG6LY6pbbP0HCnni7-pCCTJWdAm2VMn9c,789
+odat/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odat/utils/chunkers.py,sha256=gW_ySb_cLuctHqXCeymwXY8kvaayZOafAkzd-RQL6mM,11187
+odat-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+odat-0.0.2.dist-info/METADATA,sha256=qExPJHS9CJG7iS7H2z8h4KZWe5FJzMPLlhsIRFWs9Yo,720
+odat-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+odat-0.0.2.dist-info/top_level.txt,sha256=0Itrm0iqiqL_P-df2lTKK9fibm9gAB5Uw0HXWvwJ7K8,5
+odat-0.0.2.dist-info/RECORD,,
