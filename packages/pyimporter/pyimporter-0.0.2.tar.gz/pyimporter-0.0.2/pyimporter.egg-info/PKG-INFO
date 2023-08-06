@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: pyimporter
+Version: 0.0.2
+Summary: Python import library extensions with implementation to import from url.
+Home-page: https://github.com/ivangeorgiev/gems/tree/master/src/python-import-from-url/
+Author: Example Author
+Author-email: author@example.com
+License: UNKNOWN
+Description: # pyimporter
+        
+        Python import lib extensions with implementation to import from url.
+        
+        ## Installation
+        
+        The easiest way to install the package is to use `pip` and install directly from `pypi`:
+        
+        ```bash
+        $ pip install pyimporter
+        ```
+        
+        ## Building
+        
+        Install dependencies:
+        
+        ```bash
+        $ pip install --upgrade setuptools wheel
+        $ pip install --upgrade twine
+        ```
+        
+        Build the distribution package:
+        
+        ```bash
+        $ python setup.py sdist bdist_wheel
+        ```
+        
+        Upload the package to pypi:
+        
+        ```bash
+        $ python -m twine upload dist/*
+        ```
+        
+        ## Testing
+        
+        The tests are implemented using pytest. You need to install pytest first:
+        
+        ```bash
+        $ pip install pytest
+        ```
+        
+        For functional tests, internally a live server is used. By default the functional tests are deselected. To run the functional tests, add the `--functional` option flag to pytest command line:
+        
+        ```bash
+        $ pytest --functional
+        ```
+        
+        If you prefer verbose output, add `-v` or `-vv` option to the pytest command line:
+        
+        ```bash
+        $ pytest --functional -vv
+        ```
+        
+        
+        ## Reference
+        
+        The import system: https://docs.python.org/3/reference/import.html
+        
+        Sample implementations:
+        - https://blog.quiltdata.com/import-almost-anything-in-python-an-intro-to-module-loaders-and-finders-f5e7b15cda47
+        - https://github.com/polinom/knockout
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
