@@ -1,0 +1,7 @@
+boto3
+botocore
+dateutil
+epsagon
+python-json-logger
+requests
+validators
