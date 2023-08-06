@@ -1,0 +1,10 @@
+tpDcc-libs-python
+tpDcc-core
+artellapipe
+artellapipe-libs-pyblish
+
+[dev]
+wheel
+
+[test]
+pytest
