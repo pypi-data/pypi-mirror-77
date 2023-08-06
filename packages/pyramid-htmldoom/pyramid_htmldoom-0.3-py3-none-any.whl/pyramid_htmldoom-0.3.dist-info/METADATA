@@ -1,0 +1,153 @@
+Metadata-Version: 2.1
+Name: pyramid-htmldoom
+Version: 0.3
+Summary: htmldoom rendering library plugin for Pyramid
+Home-page: https://github.com/sayanarijit/pyramid_htmldoom
+Author: Arijit Basu
+Author-email: sayanarijit@gmail.com
+License: MIT
+Keywords: html rendering for pyramid
+Platform: Any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft
+Description-Content-Type: text/markdown
+Requires-Dist: htmldoom (>=1<2)
+Provides-Extra: dev
+Requires-Dist: pytest (>=4.4.1) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.7.1) ; extra == 'dev'
+Requires-Dist: black (>=19.3b0) ; extra == 'dev'
+Requires-Dist: mypy (>=0.710) ; extra == 'dev'
+Requires-Dist: lxml (>=4.3.4) ; extra == 'dev'
+Requires-Dist: typecov (>=0.2.1) ; extra == 'dev'
+Requires-Dist: tox (>=3.12.1) ; extra == 'dev'
+Provides-Extra: testing
+Requires-Dist: pytest (>=4.4.1) ; extra == 'testing'
+Requires-Dist: pytest-cov (>=2.7.1) ; extra == 'testing'
+Requires-Dist: black (>=19.3b0) ; extra == 'testing'
+Requires-Dist: mypy (>=0.710) ; extra == 'testing'
+Requires-Dist: lxml (>=4.3.4) ; extra == 'testing'
+Requires-Dist: typecov (>=0.2.1) ; extra == 'testing'
+
+pyramid_htmldoom
+================
+[htmldoom](https://github.com/sayanarijit/htmldoom) rendering library plugin for Pyramid
+
+Usage
+----
+### Install
+
+```bash
+pip install pyramid_htmldoom
+```
+
+### Plug into Pyramid
+
+#### app.py
+
+```python
+from wsgiref.simple_server import make_server
+from pyramid.config import Configurator
+from pyramid.response import Response
+from pyramid.view import view_config
+
+@view_config(route_name="hello_htmldoom", renderer="templates.hello.py")
+def hello_htmldoom_view(request):
+    """htmldoom rendered view"""
+    return {"data": "Hello htmldoom"}
+
+
+if __name__ == "__main__":
+    with Configurator() as config:
+        config.scan()
+
+        config.include("pyramid_htmldoom")
+        config.add_route("hello_htmldoom", "/")
+
+        app = config.make_wsgi_app()
+    server = make_server("localhost", 8080, app)
+    server.serve_forever()
+```
+
+#### templates/hello.py
+
+```python
+from htmldoom import elements as e
+from htmldoom import renders
+
+from .layout import render_document
+
+
+@renders(
+    e.body()(
+        e.h3()("{contents}"),
+        e.a(href="/")("Home"),
+    )
+)
+def render_body(data):
+    return {"contents": data["data"]}
+
+
+def render(data):
+    return render_document(data, body_renderer=render_body)
+```
+
+#### templates/layout.py
+
+```python
+from htmldoom import base as b
+from htmldoom import elements as e
+from htmldoom import renders
+
+doctype = b.doctype("html")
+
+
+@renders(e.title()("{doctitle}"))
+def render_title(doctitle):
+    return {"doctitle": doctitle}
+
+
+@renders(e.body()("{content}"))
+def render_body(data):
+    raise NotImplementedError("You are trying to render a layout.")
+
+
+@renders(doctype, e.html()(e.head()("{title}"), "{body}"))
+def render_document(
+    data,
+    title_renderer=render_title,
+    body_renderer=render_body,
+):
+    return {
+        "doctype": doctype,
+        "title": title_renderer(doctitle=data["data"]),
+        "body": body_renderer(data=data),
+    }
+
+
+def render(data):
+    return render_document(data=data)
+```
+
+Examples
+--------
+[Find demo and examples here](https://github.com/sayanarijit/pyramid_htmldoom/blob/master/examples)
+
+### Deploy examples on heroku:
+
+```bash
+git push heroku $(git subtree split --prefix examples/2_hackernews master):master
+```
+
+
