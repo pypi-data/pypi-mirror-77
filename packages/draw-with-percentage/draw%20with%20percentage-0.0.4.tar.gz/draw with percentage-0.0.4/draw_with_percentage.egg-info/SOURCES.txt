@@ -1,0 +1,7 @@
+MANIFEST.in
+README
+setup.py
+draw_with_percentage.egg-info/PKG-INFO
+draw_with_percentage.egg-info/SOURCES.txt
+draw_with_percentage.egg-info/dependency_links.txt
+draw_with_percentage.egg-info/top_level.txt
