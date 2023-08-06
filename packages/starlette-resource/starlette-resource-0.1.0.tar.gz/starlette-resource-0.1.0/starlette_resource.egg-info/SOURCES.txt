@@ -1,0 +1,14 @@
+README.md
+setup.py
+starlette_resource/__init__.py
+starlette_resource/resource.py
+starlette_resource/websocket_resource.py
+starlette_resource.egg-info/PKG-INFO
+starlette_resource.egg-info/SOURCES.txt
+starlette_resource.egg-info/dependency_links.txt
+starlette_resource.egg-info/requires.txt
+starlette_resource.egg-info/top_level.txt
+tests/__init__.py
+tests/sample_app.py
+tests/test_resource.py
+tests/test_websocket_resource.py
