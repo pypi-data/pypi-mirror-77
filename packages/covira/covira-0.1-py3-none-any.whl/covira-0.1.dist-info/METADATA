@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: covira
+Version: 0.1
+Summary: CoVIRA (Consensus by Voting with Iterative Re-weighting based on Agreement)
+Home-page: UNKNOWN
+Author: Frederico Schmitt Kremer
+Author-email: fred.s.kremer@gmail.com
+License: UNKNOWN
+Project-URL: Source Code, https://code.example.com/HelloWorld/
+Keywords: bioinformatics machine-learning data science
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+UNKNOWN
+
+
