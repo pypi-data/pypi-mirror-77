@@ -1,0 +1,15 @@
+artella/__init__.py,sha256=b4ew1taJzo-7bGrcdWLDwxbxq1uuH8J5I3dDk5c-oaY,233
+artella/dccs/__init__.py,sha256=6tXMMBnDscbgEy-uEdudsktJCAsF5Uc1ODxALnwdF9E,237
+artella/dccs/standalone/__init__.py,sha256=qWKzTBtu1W2_2w4CcTPvDhDmAvxAGHyFguDpiU3-kzk,296
+artella/dccs/standalone/__version__.py,sha256=-DW1OB_jwF5CZSVQDNgEFit_J73D1yPqlUIrLqjZk3c,405
+artella/dccs/standalone/_version.py,sha256=gVDwDMfMIo33XaxQBj3xfWKQqB3VAW36HvEp0odnjzE,497
+artella/dccs/standalone/app.py,sha256=MIWtbCoHrGETqv3tgnw3XRozl4WV8lm7QUqGPBjdcYs,3325
+artella/dccs/standalone/menu.py,sha256=ucReCN5Thx_pEGjrnaOM1e4IjQspw7ahOT2UzHeI4U8,2306
+artella/dccs/standalone/plugin.py,sha256=IXAFy6qvBO_K6JCN68yF3atKe6rg29xDy9zoTwNJsNI,1356
+artella/dccs/standalone/ui.py,sha256=D0OYOCal-sKNHyZzYtHn_c4HlCzJJuamnKwCmzl6B-E,3452
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=rAK7m1fsdgmlNgL02OgQaibEWEcAukMSinFPlD95698,174
+artella_dccs_standalone-1.0.1.dist-info/METADATA,sha256=IUogy8ZqlVyk6tOrM0-XfcOeafy6tHkN27T1vanJX-4,1326
+artella_dccs_standalone-1.0.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+artella_dccs_standalone-1.0.1.dist-info/top_level.txt,sha256=AbqY0GnW-7zeK-j_jK_IkNrYTU41RoI77xGK-1ucYw0,14
+artella_dccs_standalone-1.0.1.dist-info/RECORD,,
