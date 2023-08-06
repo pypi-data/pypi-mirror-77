@@ -1,0 +1,10 @@
+lostruct/__init__.py,sha256=J8MFlrjAnye22jeFDGB-z_EHDrULWnO7wUSgatNqpec,160
+lostruct/lostruct.py,sha256=6zNfL4RQ2o0xYcplJ49fDw2OUImey7rfiYJrg4poXA0,7937
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_bench.py,sha256=dMFLGwTylE-M2DLdsqSyscKCg8pPvQM7vy1r-ZbQPFw,2728
+tests/test_fns.py,sha256=PDAj1hevxeis0v_r1SVlGMNQ8ao0d1p--EmLoO4qJqo,6461
+lostruct-0.0.4.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+lostruct-0.0.4.dist-info/METADATA,sha256=OvOuuiobeKVkQncDnbVkTWOry0rl8GYnM9iuRmUmXGA,9054
+lostruct-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+lostruct-0.0.4.dist-info/top_level.txt,sha256=gn_LCxe_TLJpwyMBYqG9jVmQZPb2tzv54wI03MNmrL8,15
+lostruct-0.0.4.dist-info/RECORD,,
