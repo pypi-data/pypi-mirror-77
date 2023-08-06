@@ -1,0 +1,12 @@
+api_endpoint/__init__.py,sha256=i2i2YMmhcgy6glnz2kjZ41T55cQYAY8ehd4CyY5MK48,212
+api_endpoint/api_endpoint.py,sha256=s-5LId45ca5kJX32uxm-gMJwybZMji5qW7KIgWF79DI,184
+api_endpoint/delete.py,sha256=dSNlrVI0tszJKPvjQBnsV7_W6Uu9NMY66hmLZoOItsE,1137
+api_endpoint/get.py,sha256=tI2uSZkWbhsaw5d_ZTlsxsRbyl70amAX2AfiidrJR7g,1122
+api_endpoint/get_put_delete.py,sha256=s73G7yM0sxI-jcxOqj3TjggDDfysWZUT_vJpzF3tFYY,2700
+api_endpoint/post.py,sha256=7cEgSx15QN5EPsDXmJLkDuBlXiO3u3OAS3KPmKE5vgI,695
+api_endpoint/put.py,sha256=QBQ1TKGJ8bwPwB6JSRi240H9fzaPWLAfkpSJ1YuTlEw,1122
+api_endpoint_manager-0.0.1.dist-info/LICENSE,sha256=MHsF4DGmbatsQaZ8oru0o1696pK7VBy8G0xk2uGdIRw,1092
+api_endpoint_manager-0.0.1.dist-info/METADATA,sha256=QO7nZch2693sYhmB17vXaEl-JV5cgU8bf2HG4zl_HQM,1422
+api_endpoint_manager-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+api_endpoint_manager-0.0.1.dist-info/top_level.txt,sha256=MKsmY7d25I9JyJjcC9n5RXrk236vfQVUKSTILhMWj20,13
+api_endpoint_manager-0.0.1.dist-info/RECORD,,
