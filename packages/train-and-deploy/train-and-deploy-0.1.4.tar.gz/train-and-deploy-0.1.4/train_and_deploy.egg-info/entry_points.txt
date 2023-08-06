@@ -1,0 +1,4 @@
+[console_scripts]
+tand-create-project = tand.create_project:main
+tand-prepare-aws-eb-deployment = tand.deployment.aws_elastic_beanstalk:main
+
