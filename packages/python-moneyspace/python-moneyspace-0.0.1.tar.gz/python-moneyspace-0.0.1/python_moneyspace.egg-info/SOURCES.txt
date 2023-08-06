@@ -1,0 +1,12 @@
+AUTHORS
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+python_moneyspace.egg-info/PKG-INFO
+python_moneyspace.egg-info/SOURCES.txt
+python_moneyspace.egg-info/dependency_links.txt
+python_moneyspace.egg-info/not-zip-safe
+python_moneyspace.egg-info/top_level.txt
+pythonmoneyspace/__init__.py
+pythonmoneyspace/moneyspace.py
