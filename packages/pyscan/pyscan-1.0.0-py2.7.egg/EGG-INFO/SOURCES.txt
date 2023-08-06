@@ -1,0 +1,8 @@
+setup.py
+pyscan/__init__.py
+pyscan/pyscan.py
+pyscan.egg-info/PKG-INFO
+pyscan.egg-info/SOURCES.txt
+pyscan.egg-info/dependency_links.txt
+pyscan.egg-info/entry_points.txt
+pyscan.egg-info/top_level.txt
