@@ -1,0 +1,14 @@
+icoscp/__init__.py,sha256=0a942ebS2JLPn8C69liM3cN0RPCzTruiwjlYVznHzBw,1034
+icoscp/cpb/__init__.py,sha256=OGTDTip2JfTrWguB-5SzC5O4_bg1RimGNws90H8nCD4,416
+icoscp/cpb/dobj.py,sha256=U-rE1X53-4eXOP-Xu3Jz4Ua_5cjrneD0EuMqzAufjyY,14332
+icoscp/cpb/dtype_dict.py,sha256=e5JfIh9bG7Nc02k5PsC6YHpzTCimmU8iNeZui-X0mCc,3547
+icoscp/cpb/logfile.py,sha256=prMMhQeZWQVbHwFJKRPZLMcfjL3S1pyCltPiy4dTtWM,1403
+icoscp/sparql/__init__.py,sha256=zGKCLVwtvmD9L_p5a7TodRJKzo928FjM0W1urMohZws,461
+icoscp/sparql/runsparql.py,sha256=jL69YcqdsVXh8Wvq483cQD9jownw7Q24sZWah7OtjQw,5384
+icoscp/sparql/sparqls.py,sha256=hlX4vYa4IWZtyTRE5Kavq4x5becZjL4zsICUCWuJ3aQ,36051
+icoscp/station/__init__.py,sha256=6QZ1iSPAvfXAN6rAJkmmUvybOQBsvhfS3fZc3mCEyus,149
+icoscp/station/station.py,sha256=KZobSZl-HgswjxpWL9fFIB1LAhGWYkssSz2sicnCQt8,23386
+icoscp-0.1.1.dist-info/METADATA,sha256=FrODyXKruJffSne9J-oh0Vj1nmvfQDOYZLtxqhcmbfY,2998
+icoscp-0.1.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+icoscp-0.1.1.dist-info/top_level.txt,sha256=nqFOfi6ailecqSs1zvbYZMnjUFq7af8A7YhSwksUOB8,7
+icoscp-0.1.1.dist-info/RECORD,,
