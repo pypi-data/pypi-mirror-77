@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/meeting_timer/__init__.py
+src/meeting_timer/meetingtime.py
+src/meeting_timer.egg-info/PKG-INFO
+src/meeting_timer.egg-info/SOURCES.txt
+src/meeting_timer.egg-info/dependency_links.txt
+src/meeting_timer.egg-info/entry_points.txt
+src/meeting_timer.egg-info/top_level.txt
