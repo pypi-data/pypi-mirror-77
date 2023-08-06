@@ -1,0 +1,10 @@
+icontract<3,>=2.0.1
+jinja2<3,>=2.10
+pyyaml>=3.12
+
+[dev]
+mypy==0.782
+pydocstyle<4,>=3.0.0
+pylint==2.5.3
+requests_mock>=1.8.0
+yapf==0.20.2
