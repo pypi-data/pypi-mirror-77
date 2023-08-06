@@ -1,0 +1,5 @@
+# Base Configuration for Artella Playblasts in Plot Twist
+
+# Defines path where Playblast presets are located
+presets_paths:
+  - "Assets/Departments/Pipeline/PlayblastPresets"
