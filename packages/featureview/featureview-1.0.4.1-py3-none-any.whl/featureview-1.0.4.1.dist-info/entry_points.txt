@@ -1,0 +1,3 @@
+[console_scripts]
+featureview = featureview.featureviewgui:main
+
