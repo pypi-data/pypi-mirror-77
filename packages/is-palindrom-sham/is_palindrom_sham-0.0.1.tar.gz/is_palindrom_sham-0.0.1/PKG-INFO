@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: is_palindrom_sham
+Version: 0.0.1
+Summary: This is a palindrome checking function.
+Home-page: https://balajibetadur.github.io
+Author: Shashwat Mishra
+Author-email: UNKNOWN
+License: MIT
+Description: 'This package makes it easy to find the plaindrome and other string functions for you.
+Keywords: palindrome,python palindrome,palindrome evaluator
+Platform: UNKNOWN

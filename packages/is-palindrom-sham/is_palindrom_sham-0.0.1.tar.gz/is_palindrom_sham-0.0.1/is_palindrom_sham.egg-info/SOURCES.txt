@@ -1,0 +1,9 @@
+License.txt
+MANIFEST.in
+Readme.txt
+setup.py
+is_palindrom_sham.egg-info/PKG-INFO
+is_palindrom_sham.egg-info/SOURCES.txt
+is_palindrom_sham.egg-info/dependency_links.txt
+is_palindrom_sham.egg-info/top_level.txt
+is_palindrome_sham/__init__.py

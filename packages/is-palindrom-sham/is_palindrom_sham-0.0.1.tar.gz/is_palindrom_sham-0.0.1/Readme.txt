@@ -1,0 +1,1 @@
+'This package makes it easy to find the plaindrome and other string functions for you.
