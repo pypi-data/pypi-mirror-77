@@ -1,0 +1,11 @@
+flask_ipfs/__init__.py,sha256=sLKQNfnDFOyzVfQUpPHtopOQlJGPRRJDXSK0EU_axPs,1630
+flask_ipfs/base.py,sha256=wZWHFLcGeGejRbBXWXAPLmSQGYp7HASOLZ7fE3SpXj8,1040
+flask_ipfs/fission.py,sha256=t_Q8LQIah6ZCmHt1BamVUCeYiSr7DGBFWDWO4b7qecc,1994
+flask_ipfs/http.py,sha256=wiK8iNJvhEvhn1usy49klh68363KpKuAJbGeO00auPs,1658
+flask_ipfs/infura.py,sha256=zgPsP8SJAuYtC77KJTr3aWAIeNydVscxuOHib_KI_GA,1857
+flask_ipfs/test.py,sha256=KKKdQndVicSXHI34eMscs9HUqokrouT0HAYV-0NptNk,1414
+Flask_IPFS-0.1.0b5.dist-info/LICENSE,sha256=EqprrtoUeDr97AZTLegRoyo5nNpnk8t-j86TbnIcjvY,1070
+Flask_IPFS-0.1.0b5.dist-info/METADATA,sha256=ocYak93h1mIHhZUseVBkdL1suvpvwPJAQWapNf26Gl8,956
+Flask_IPFS-0.1.0b5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+Flask_IPFS-0.1.0b5.dist-info/top_level.txt,sha256=abjiNlsA9XylVxASs2Bm-YHfF8m_vKh2XkJjF8EngZQ,11
+Flask_IPFS-0.1.0b5.dist-info/RECORD,,
