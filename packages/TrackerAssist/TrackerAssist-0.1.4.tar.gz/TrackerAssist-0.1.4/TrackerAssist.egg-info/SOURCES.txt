@@ -1,0 +1,8 @@
+README.md
+setup.py
+TrackerAssist/__init__.py
+TrackerAssist/tracker_assist.py
+TrackerAssist.egg-info/PKG-INFO
+TrackerAssist.egg-info/SOURCES.txt
+TrackerAssist.egg-info/dependency_links.txt
+TrackerAssist.egg-info/top_level.txt
