@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: invisible-hand
+Version: 0.1.0
+Summary: 
+Author: Ian Chen
+Author-email: ianre657@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: beautifulsoup4 (>=4.9.1,<5.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: colorama (>=0.4.3,<0.5.0)
+Requires-Dist: gitpython (>=3.1.7,<4.0.0)
+Requires-Dist: google-api-python-client (>=1.10.0,<2.0.0)
+Requires-Dist: google-auth-httplib2 (>=0.0.4,<0.0.5)
+Requires-Dist: google-auth-oauthlib (>=0.4.1,<0.5.0)
+Requires-Dist: halo (>=0.0.30,<0.0.31)
+Requires-Dist: httpx (>=0.14.1,<0.15.0)
+Requires-Dist: ipython (>=7.17.0,<8.0.0)
+Requires-Dist: iso8601 (>=0.1.12,<0.2.0)
+Requires-Dist: lxml (>=4.5.2,<5.0.0)
+Requires-Dist: pandas (>=1.1.1,<2.0.0)
+Requires-Dist: prompt-toolkit (>=3.0.6,<4.0.0)
+Requires-Dist: pygsheets (>=2.0.3,<3.0.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Requires-Dist: selenium (>=3.141.0,<4.0.0)
+Requires-Dist: tabulate (>=0.8.7,<0.9.0)
+Requires-Dist: tqdm (>=4.48.2,<5.0.0)
+Requires-Dist: trio (>=0.16.0,<0.17.0)
+Requires-Dist: xlsxwriter (>=1.3.3,<2.0.0)

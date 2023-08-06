@@ -1,0 +1,3 @@
+[console_scripts]
+invisible-hand=invisible_hand.__main__:main
+
