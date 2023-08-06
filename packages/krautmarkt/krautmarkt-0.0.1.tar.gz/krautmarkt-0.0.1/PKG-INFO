@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: krautmarkt
+Version: 0.0.1
+Summary: Your Kraut management system
+Home-page: https://github.com/DataHerb/krautmarkt
+Author: Lei Ma
+Author-email: hi@leima.is
+License: MIT
+Description: # krautmarkt-core
+        
+        Krautmarkt is a simple marketplace for Dataherbs. Krautmarkt generates the files necessary for text-based database to serve as a [dataherb](https://dataherb.io) index.
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: docs
