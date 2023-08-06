@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: easy nlp
+Version: 0.1.5
+Summary: NLP made easy.
+Home-page: https://github.com/RajeshNathani/easy-nlp/tree/master
+Author: Rajesh Nathani
+Author-email: rajeshnathani055@gmail.com
+License: MIT
+Description: NLP made easy. Built on the top of spacy.
+Platform: UNKNOWN
