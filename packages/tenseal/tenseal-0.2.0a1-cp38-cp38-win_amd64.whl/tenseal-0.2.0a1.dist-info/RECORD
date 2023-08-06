@@ -1,0 +1,12 @@
+_sealapi_cpp.cp38-win_amd64.pyd,sha256=qBoT3rpj3_fim8gbpB8y2cm1J9vYNUhdMPqlsdBZ0eA,1662976
+_tenseal_cpp.cp38-win_amd64.pyd,sha256=gfB6H2kqthT2KPwqjfP6Zuw5-J4o-TBPNcO77rYAIEU,1990656
+tenseal/__init__.py,sha256=HNmtfWEIXNZgN3MIRAIhan_FJF8IXNxPX81FCYPTO7Q,2928
+tenseal/version.py,sha256=qk9f8DZPbMcyYNalSwIf_j0PzHrCbpZz97FYYIcYCWA,25
+tenseal/sealapi/__init__.py,sha256=egqGafTUQ83RGE8nuXgEZvZfl2EeYhftpOr6VgylSDc,2134
+tenseal/sealapi/util/__init__.py,sha256=B24TBWtRRRnNB3m462z96o0TUrn-ssvC2dSw4duq1JA,3355
+tenseal/tensors/__init__.py,sha256=4O40Ub4XeJvvoexC2ElH62P0vvMUkucBCe13q1jUJwg,3692
+tenseal-0.2.0a1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+tenseal-0.2.0a1.dist-info/METADATA,sha256=TiVmk0utgevta3hAOhEONtdn-WpLqAx5wjUyNjfXOh4,6188
+tenseal-0.2.0a1.dist-info/WHEEL,sha256=9MdUI0OzwjYaHl3jWlKFDIJ5MFBPjwppNgWNtexntqg,105
+tenseal-0.2.0a1.dist-info/top_level.txt,sha256=Jbj3AKbNhl0eOF_bPFGIcgem2ZD3FaFU8mq0QjtFzcU,21
+tenseal-0.2.0a1.dist-info/RECORD,,
