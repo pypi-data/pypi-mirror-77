@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: allianceauth-imicusfat
+Version: 0.3.2
+Summary: Alliance Auth FAT/PAP System for Evictus
+Home-page: https://gitlab.com/evictus.iou/allianceauth-imicusfat
+Author: Exiom, Aproia, ppfeufer
+Author-email: evictus.iou@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: ~=3.6
+Provides-Extra: testing

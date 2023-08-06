@@ -1,0 +1,7 @@
+django-bootstrap-form
+allianceauth>=2.7.2
+
+[:python_version=="3.6"]
+typing
+
+[testing]
