@@ -1,0 +1,10 @@
+goose.py,sha256=X6DM-Nv9Sh365ggA05WS9EHaR67a9noVnDACTnzbTdo,11676
+goose_utils.py,sha256=1MngC8wFZrkkJz4jGHUGy03J-t2aO4wKvDJYMVjSwoQ,787
+goose_version.py,sha256=AQdJJdxGGTG0i_nGdajkQNHuHNSal50C1S21y0Rbk0k,24
+version.py,sha256=9_jSwg7P5SlFv0Ci2ZSYBcAbygp9XV2C8sryRO8tvko,19
+postgoose-0.0.10.dist-info/LICENSE,sha256=mq09m1d-Zw2iXTqiX4JF9EyQTjKd7mk8uS6g1_SROwY,555
+postgoose-0.0.10.dist-info/METADATA,sha256=Z8EQdlBcYDFMR1Vn8wQIeGxi-U9e8w8qFd9bF8nPafM,3358
+postgoose-0.0.10.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+postgoose-0.0.10.dist-info/entry_points.txt,sha256=bK839P-N58TbRQPSA_KoOU6HGTe08o_q5CtEVVwUbbo,38
+postgoose-0.0.10.dist-info/top_level.txt,sha256=JlfOWxTabciWfgibRX5HmcuQa_JF5AFlG7T8HgQNXvk,32
+postgoose-0.0.10.dist-info/RECORD,,
