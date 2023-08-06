@@ -1,0 +1,10 @@
+terratalk/__init__.py,sha256=6DliMsyvTfu8i9ClVqTMO--vha3wfWR17X4lAMPoCeY,19
+terratalk/__main__.py,sha256=BB_HXQmVpUxVAzTsCUV8UlfNy-5EshJPUKLS5Lcw5SE,2788
+terratalk/bitbucket_server.py,sha256=TAdvfSNLXInIocxj8XsM_cWo6Fh_FIbGgxcJYlheav8,2074
+terratalk/terraform.py,sha256=Y0UlQstbCz0pSdAHB74aKxfNBv0swmxdDYvChlVC9sU,924
+terratalk-0.0.6.dist-info/LICENSE,sha256=038q3UXCjNur9Ej7FpDjuHchDB-St0Yudvw00qRGT9I,1073
+terratalk-0.0.6.dist-info/METADATA,sha256=x3YlFYwyM7DJ37exZuTjuGkS4GPBr-cZJWpn4gRIZNI,882
+terratalk-0.0.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+terratalk-0.0.6.dist-info/entry_points.txt,sha256=eAyRE4413P1smzDTyarF58UFPAIegnbKNzMaz3x6R80,54
+terratalk-0.0.6.dist-info/top_level.txt,sha256=3mIeaShdV3kJXPpsykyZg0b0Uy09pqUpVoYTO04jVfE,10
+terratalk-0.0.6.dist-info/RECORD,,
