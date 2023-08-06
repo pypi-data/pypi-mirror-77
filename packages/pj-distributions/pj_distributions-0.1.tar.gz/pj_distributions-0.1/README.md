@@ -1,0 +1,1 @@
+THIS PACKAGE CONTAINS Gaussian and Binomial probability distribution classes.
