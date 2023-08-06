@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: quick_ml
+Version: 0.1.6.8
+Summary: quick_ml : ML For Everyone. Making Deep Learning through TPUs accessible to everyone. Lesser Code, faster computationm, better modelling.
+Home-page: https://gitlab.com/antoreep_jana/quick_ml
+Author: Antoreep Jana
+Author-email: antoreepjana@gmail.com
+License: MIT
+Download-URL: https://gitlab.com/antoreep_jana/quick_ml/-/archive/v0.1.6.8/quick_ml-v0.1.6.8.tar.gz
+Description: UNKNOWN
+Keywords: quick_ml,TPU,Deep Learning TPU,tensorflow,deep learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
