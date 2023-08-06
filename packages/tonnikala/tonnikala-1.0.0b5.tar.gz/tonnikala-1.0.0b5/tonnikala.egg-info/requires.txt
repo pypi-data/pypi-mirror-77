@@ -1,0 +1,3 @@
+markupsafe>=0.18
+ply<3.6.0
+slimit>=0.8.1
