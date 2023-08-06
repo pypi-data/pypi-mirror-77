@@ -1,0 +1,2 @@
+clipper_py
+cmake_example
