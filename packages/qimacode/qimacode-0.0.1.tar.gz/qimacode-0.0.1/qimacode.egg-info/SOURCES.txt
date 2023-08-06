@@ -1,0 +1,8 @@
+README.md
+setup.py
+qimacode/__init__.py
+qimacode/your_func.py
+qimacode.egg-info/PKG-INFO
+qimacode.egg-info/SOURCES.txt
+qimacode.egg-info/dependency_links.txt
+qimacode.egg-info/top_level.txt
