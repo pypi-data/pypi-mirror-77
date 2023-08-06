@@ -1,0 +1,5 @@
+pydantic==1.6.1
+rich==5.2.1
+tea-client==0.0.3
+tea-console==0.0.3
+typer==0.3.2
