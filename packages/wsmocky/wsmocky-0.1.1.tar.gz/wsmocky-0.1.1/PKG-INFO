@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: wsmocky
+Version: 0.1.1
+Summary: Create dynamic mock server with wsdl file.
+Home-page: https://github.com/ipconfiger/wsmocky
+Author: Alexander.Li
+Author-email: superpowerlee@gmail.com
+License: MIT
+Description: Create dynamic mock server with wsdl file.
+Keywords: webservice mock
+Platform: UNKNOWN
