@@ -1,0 +1,5 @@
+char
+
+[testing]
+pytest
+pytest-cov
