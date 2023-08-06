@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: torchsenti
+Version: 0.0.1
+Summary: A Sentiment Analysis Library for Research on top of PyTorch
+Home-page: https://github.com/jakartaresearch/pytorch-sentiment
+Author: Ruben Stefanus, Andreas Chandra, and Andhika Setia Pratama
+Author-email: researchjair@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: sentiment-analysis,pytorch,deep-learning,machine-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
