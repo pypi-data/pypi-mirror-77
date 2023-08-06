@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: srbpy
+Version: 0.0.2
+Summary: A road design Python project
+Home-page: https://github.com/billhu0228/SmartRoadBridgePy
+Author: bill hu
+Author-email: billhu0228@icloud.com
+License: UNKNOWN
+Keywords: civil,road,alignment
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scikit-spatial (>=4)
+
+![logo](docs/cccc.png)
+
+---
+
+# 路桥设计脚本 + XML标准数据格式定义
+
+## XML标准数据模式定义
+>定义一套完备的XML模式（*.xsd）,描述项目结构。
+- 项目
+  - info.xml 
+    > 项目信息
+  - align.xml
+    > 路线名称、编号、设计参数
+  - bridge.xml
+    > 桥梁名称、编号
+  - shape.xml
+    > 已注册构件名称、编号
+  - span.xml
+    > 桥跨布置表
+  - sub.xml
+  - sup.xml
+  - found.xml
+  - ...
+
+
+## 路桥设计 Python 脚本
+> 将原来的 SmartRoadBridge.Alignment 库的核心算法迁移到 Python 库。并给用户提供一套命令流，用于生成XML标准数据格式文件。
+
+## C# GUI 用户交互程序
+> 脚本的GUI壳，支持脚本生成和解析。
+
+## 数据库和 XML
+> XML和数据库可双向同步。
+
+
+
+
