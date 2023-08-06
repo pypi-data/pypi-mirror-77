@@ -1,0 +1,7 @@
+README.txt
+setup.py
+vsearch_evgeny_1957.py
+vsearch_evgeny_1957.egg-info/PKG-INFO
+vsearch_evgeny_1957.egg-info/SOURCES.txt
+vsearch_evgeny_1957.egg-info/dependency_links.txt
+vsearch_evgeny_1957.egg-info/top_level.txt
