@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: hypermorph
+Version: 0.1.2
+Summary: HyperMorph - operational API for information management and data transformations-analytics
+Home-page: http://localhost:1313/en/__hypermorph/
+Author: Athanassios I. Hatzis
+Author-email: hatzis@healis.eu
+License: Default license AGPL
+Description: HyperMorph - operational API for information management and data transformations-analytics
+Keywords: api,database,database management system,application programming interface,associative engine,analytics,framework,graph database,information analysis,information management,transformation
+Platform: Linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Framework :: IPython
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.8
