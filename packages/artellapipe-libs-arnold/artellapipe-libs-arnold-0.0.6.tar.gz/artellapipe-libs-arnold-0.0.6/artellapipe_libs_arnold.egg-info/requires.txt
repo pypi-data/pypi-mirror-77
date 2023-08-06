@@ -1,0 +1,8 @@
+tpDcc-libs-python
+artellapipe
+
+[dev]
+wheel
+
+[test]
+pytest
