@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+./pydoclite/pydoclitedarwin/docliteshared.so
+./pydoclite/pydoclitelinux/docliteshared.so
+pydoclite/__init__.py
+pydoclite/doclite.py
+pydoclite.egg-info/PKG-INFO
+pydoclite.egg-info/SOURCES.txt
+pydoclite.egg-info/dependency_links.txt
+pydoclite.egg-info/top_level.txt
+pydoclite/pydoclitedarwin/__init__.py
+pydoclite/pydoclitelinux/__init__.py
