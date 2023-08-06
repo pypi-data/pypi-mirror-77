@@ -1,0 +1,13 @@
+bankfind/__init__.py,sha256=iNvc7GfiLi1d7kWdRvJu3vjyWKTSfqxxj5-S8FRmVuQ,260
+bankfind/base.py,sha256=WFf-iQCG9SvJfiDKDdQzckj1g1X4ck6c3qjHfpcm6QI,3788
+bankfind/main.py,sha256=rgPiw_TSaqvBxdwAB7sS8P3YgdfdfZBIKO7u3Vbz1-E,5187
+bankfind/metadata/__init__.py,sha256=9N9hN8sFyENE3Gh2r4rie_NKNhUIjqH_3Vu3IT3a0LQ,355
+bankfind/metadata/failure.py,sha256=7bKnlxlb3VC0EiAJXb2nF7vh4b5kIIzaWnP4OHKi7d0,12919
+bankfind/metadata/history.py,sha256=_vzOhKdk1nVLS8pEKliy9PPTMkK6vb5Pum1B4GMmU3o,75304
+bankfind/metadata/institution.py,sha256=Xt1hbp8I9rZxDLKSkwrMfSx98d9v5z7hwTmcTC_GpFM,82114
+bankfind/metadata/location.py,sha256=tgQAZ6I0oyMAo62t3FDGSh8v4kqk-HE-9DGgw8fLhyk,15171
+bankfind/metadata/summary.py,sha256=5ZR2ThVT48EDGhIXsz7wEwtGf0XjEhrAPrwzFVJKPlw,79033
+bankfind-0.0.1.dist-info/LICENSE,sha256=ZiK4uXwPkWyS445nX2baoOetndbcxydq3D25lMIKots,1100
+bankfind-0.0.1.dist-info/WHEEL,sha256=4vGQWMHJO3SOyvYcLHqr380W2n90FCfzkrP_YY3xjq8,99
+bankfind-0.0.1.dist-info/METADATA,sha256=a0UQGjcsYfgVaAGIK1GQpiW88XjUtIrpi5m2AYzLZLI,3975
+bankfind-0.0.1.dist-info/RECORD,,
