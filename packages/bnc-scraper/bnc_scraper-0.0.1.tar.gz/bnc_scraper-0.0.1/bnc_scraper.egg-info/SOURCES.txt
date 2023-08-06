@@ -1,0 +1,13 @@
+README.md
+setup.py
+bnc_scraper/__init__.py
+bnc_scraper/downloader.py
+bnc_scraper/scraper.py
+bnc_scraper/types.py
+bnc_scraper/utils.py
+bnc_scraper.egg-info/PKG-INFO
+bnc_scraper.egg-info/SOURCES.txt
+bnc_scraper.egg-info/dependency_links.txt
+bnc_scraper.egg-info/top_level.txt
+test/__init__.py
+test/test_downloader.py
