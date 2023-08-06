@@ -1,0 +1,9 @@
+pyproject.toml
+setup.py
+alwaysdata_dyn_dns/__init__.py
+alwaysdata_dyn_dns/__main__.py
+alwaysdata_dyn_dns.egg-info/PKG-INFO
+alwaysdata_dyn_dns.egg-info/SOURCES.txt
+alwaysdata_dyn_dns.egg-info/dependency_links.txt
+alwaysdata_dyn_dns.egg-info/requires.txt
+alwaysdata_dyn_dns.egg-info/top_level.txt
