@@ -1,0 +1,5 @@
+opentelemetry-api>=0.12b0
+opentelemetry-sdk>=0.12b0
+msgpack>=1.0
+lz4>=3.0
+requests>=2.23
