@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: a3m
+Version: 0.3.0
+Summary: Lightweight Archivematica
+Home-page: https://github.com/artefactual-labs/a3m
+Maintainer: Artefactual Systems Inc.
+Maintainer-email: info@artefactual.com
+License: AGPL-3.0-only
+Project-URL: Source, https://github.com/artefactual-labs/a3m
+Project-URL: Tracker, https://github.com/artefactual-labs/a3m/issues
+Description: UNKNOWN
+Keywords: archivematica,preservation
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: System :: Archiving
+Classifier: Topic :: System :: Archiving :: Backup
+Classifier: Topic :: System :: Archiving :: Compression
+Classifier: Topic :: System :: Archiving :: Mirroring
+Classifier: Topic :: System :: Archiving :: Packaging
+Requires-Python: ~=3.8
+Description-Content-Type: text/markdown
