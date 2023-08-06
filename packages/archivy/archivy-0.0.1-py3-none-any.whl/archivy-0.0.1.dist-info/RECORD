@@ -1,0 +1,13 @@
+archivy/__init__.py,sha256=Wk5GhSGbCov5E2hYKXg6WnVSZ83ixaS0Q17CMJcvX8U,1567
+archivy/data.py,sha256=_04c2dEoWIMnRyAYGq__kSIeOfHQvIHueQpO1lidW_s,2815
+archivy/extensions.py,sha256=Z11ctAe79NyHDR3JbJrjMTcUviB37KQuP0BseoL_1fA,538
+archivy/forms.py,sha256=L5EogJoQkexB4CAh7rsFN_-YeAws5ebOKC1gFUDeUFk,975
+archivy/models.py,sha256=wYU-_uUHIMBladqkALg4y4D_Gndn5e8NKI4_E5csSpM,4045
+archivy/routes.py,sha256=nQj86LnQfM_BgXFveQNMzcXjjiYYPYTP1FEAOkvrOSA,6381
+archivy/search.py,sha256=jFSsb8wg9bNBsWGrGdBOykeu4LIwO5qUnqPTLO-uVrA,756
+archivy-0.0.1.dist-info/LICENSE,sha256=SNKBmZ-P70R42Vlio-LvMK3SseB73YGLEds-Du6ApIw,1063
+archivy-0.0.1.dist-info/METADATA,sha256=sobGMQeO06FQoTiZwNYFkUo0ToGwVaa2vt7w-aGNaMM,3935
+archivy-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+archivy-0.0.1.dist-info/entry_points.txt,sha256=CWExvc6bZ_WP_luTAfpzeYS6OEzcys_yKkrZJPZwzbE,38
+archivy-0.0.1.dist-info/top_level.txt,sha256=N9PSdtgmJVO2k8Oy7UND0d1G81WV4RAoqveOf1Z1Ntk,8
+archivy-0.0.1.dist-info/RECORD,,
