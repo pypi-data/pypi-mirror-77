@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: django-streamfield-w
+Version: 0.2.1
+Summary: A extendable model field stored as JSON and built from blocks
+Home-page: https://github.com/rcrowther/django-streamfield-w
+Author: robert crowther
+Author-email: rw.crowther@gmail.com
