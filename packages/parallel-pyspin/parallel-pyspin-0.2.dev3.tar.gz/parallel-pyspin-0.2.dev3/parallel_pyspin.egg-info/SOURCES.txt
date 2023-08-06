@@ -1,0 +1,15 @@
+README.md
+setup.py
+llpyspin/__init__.py
+llpyspin/_processes.py
+llpyspin/_properties.py
+llpyspin/_spinnaker.py
+llpyspin/primary.py
+llpyspin/recording.py
+llpyspin/secondary.py
+llpyspin/streaming.py
+parallel_pyspin.egg-info/PKG-INFO
+parallel_pyspin.egg-info/SOURCES.txt
+parallel_pyspin.egg-info/dependency_links.txt
+parallel_pyspin.egg-info/requires.txt
+parallel_pyspin.egg-info/top_level.txt
