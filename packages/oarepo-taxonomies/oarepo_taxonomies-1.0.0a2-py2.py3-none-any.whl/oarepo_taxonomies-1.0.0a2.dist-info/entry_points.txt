@@ -1,0 +1,3 @@
+[flask.commands]
+taxonomies = oarepo_taxonomies.cli:taxonomies
+
