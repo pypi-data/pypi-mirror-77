@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: Mrinal_Basic_Calculator
+Version: 0.0.1
+Summary: A very elementary calculator
+Home-page: UNKNOWN
+Author: Mrinal M
+Author-email: mrinal.m.iiitb@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

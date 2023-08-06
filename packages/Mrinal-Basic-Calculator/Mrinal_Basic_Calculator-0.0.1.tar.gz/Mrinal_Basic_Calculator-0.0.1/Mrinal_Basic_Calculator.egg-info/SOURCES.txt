@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+Mrinal_Basic_Calculator/__init__.py
+Mrinal_Basic_Calculator.egg-info/PKG-INFO
+Mrinal_Basic_Calculator.egg-info/SOURCES.txt
+Mrinal_Basic_Calculator.egg-info/dependency_links.txt
+Mrinal_Basic_Calculator.egg-info/top_level.txt
