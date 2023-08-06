@@ -1,0 +1,12 @@
+RL_for_reco/CrossEntropy_Learn.py,sha256=3gaZGxhKeAGqkzRsmwDfi0Za2wY5DvIfUw8IvT3Tupo,4855
+RL_for_reco/DQN_Learn.py,sha256=SS9dT_81NR6EjzRWq-Q-D7SsGq0PWpIH3A7UMqoPoHs,4076
+RL_for_reco/Item_Reco.py,sha256=ol2I6YuqQ_bjUhoW-E2Flnw6HHuDhc-CCe7vuZnCNhk,5010
+RL_for_reco/Network_for_Reco.py,sha256=hSD69iLBOhiEn_hEKj3FKMbegO3r0j4eUOlFPAhM4DQ,8563
+RL_for_reco/TorchModel.py,sha256=8LanOcUmVnE82zfMQofbyw_hVdwFdBTRFX8cn0Dc9n0,11377
+RL_for_reco/__init__.py,sha256=TPhYC3bQkopyeWAONLVQkEqNZ-Ag-ULmA7TFrbAywRI,22
+RL_for_reco/class_balanced_loss.py,sha256=4gopwrYg2kunc_TSlBkxaqG_tBbzlS1beOnAYu9PAD4,3653
+RL_for_reco-1.0.18.dist-info/LICENSE,sha256=5xSBWiHEaDKE8Rp2IbEUysTV7I-xHdA9GPYgV-FzI1s,1077
+RL_for_reco-1.0.18.dist-info/METADATA,sha256=l-mcY0TqcYjk3EvXPJtg-Q_0giVbGuLiqvyUyu6Engo,1799
+RL_for_reco-1.0.18.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+RL_for_reco-1.0.18.dist-info/top_level.txt,sha256=ctiE90jVv9vkBwVuOliR2w9cbpK3TJeEVGaEj7ePxMk,12
+RL_for_reco-1.0.18.dist-info/RECORD,,
