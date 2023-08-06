@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: hexson
+Version: 0.0.5
+Summary: Json library which enable user to parse and dump data with hex escape
+Home-page: https://github.com/wonderqs/hexson
+Author: ManchurianClassmate
+Author-email: i@listenwhat.com
+Maintainer: ManchurianClassmate
+Maintainer-email: i@listenwhat.com
+License: Apache-2.0
+Description: # Hexson
+        
+        [![Python version](https://img.shields.io/pypi/pyversions/hexson.svg)](https://pypi.org/project/hexson)
+        [![Build Status](https://travis-ci.org/wonderqs/hexson.svg?branch=master)](https://travis-ci.org/wonderqs/hexson)
+        [![PyPI version](https://badge.fury.io/py/hexson.svg)](https://badge.fury.io/py/hexson)
+        
+        Json library designed for binary data processing.
+        
+        Different from built-in json library, Hexson can encode invisible characters 
+        with hex escape instead of unicode escape.
+        
+        ## Install
+        
+        ````
+        pip3 install hexson
+        ````
+        
+        ## Usage
+        
+        ### loader & dumpper
+        
+        Serialize from / Deserialize to file:
+        
+        ````python
+        json_dict = hexson.load(fd)
+        hexson.dump(json_dict, fd)
+        ````
+        
+        Serialize from / Deserialize to string:
+        
+        ````python
+        json_dict = hexson.loads(json_string)
+        json_string = hexson.dumps(json_dict)
+        ````
+        
+        Function `load` and `loads` will parse string in Json to *bytes* in Python by default.
+        And you can convert it into string in Python by set parameter `utf_8_string` to `True`, just like:
+        
+        ````python
+        json_dict = hexson.load(fd, utf_8_string=True)
+        json_dict = hexson.loads(json_string, utf_8_string=True)
+        ````
+        
+        ### Elasticsearch serializer
+        
+        Hexson can work along with official `elasticsearch` Python client library.
+        
+        ````python
+        import elasticsearch
+        
+        hexson_serializer = hexson.JSONSerializer()
+        es_conn = elasticsearch.Elasticsearch(serializer=hexson_serializer)
+        ````
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4
+Description-Content-Type: text/markdown
