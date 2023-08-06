@@ -1,0 +1,22 @@
+{
+  "Cursor size": 1,
+  "In-game interface": true,
+  "Show scoreboard": true,
+  "Background dim": 100,
+  "Always show key overlay": true,
+  "Automatic cursor size": false,
+  "Rotate sliderball": false,
+  "Enable PP counter": false,
+  "Score meter size": 1.25,
+  "Show score meter": true,
+  "Song volume": 50,
+  "Effect volume": 100,
+  "Ignore beatmap hitsounds": false,
+  "Use skin's sound samples": false,
+  "Song delay": 0,
+  "Global leaderboard": true,
+  "Mods leaderboard": "HD",
+  "Custom mods": "",
+  "api key": "34c433e79fb2ec82c9671fd3e10afcc099dcadee",
+  "Slider quality": 2
+}
