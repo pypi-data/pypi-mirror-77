@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sslcommerz-sdk
+Version: 1.0.1
+Summary: Sslcommerz SDK for python
+Home-page: https://github.com/monim67/sslcommerz-sdk
+Author: Munim Munna
+Author-email: monim67@yahoo.com
+License: MIT
+Description: # sslcommerz-sdk
+        
+        Sslcommerz SDK for python
+        
+Keywords: sslcommerz
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Web Environment
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Utilities
+Requires-Python: >=3
+Description-Content-Type: text/markdown
