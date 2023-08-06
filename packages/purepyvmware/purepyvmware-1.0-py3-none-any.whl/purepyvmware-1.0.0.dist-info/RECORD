@@ -1,0 +1,12 @@
+purepyvmware/__init__.py,sha256=valzcaXXhelsQ0-2wiMK09MnMxn0folHW9n38q7f7_Y,144
+purepyvmware/base_connector.py,sha256=YaQo17RBbzLpAgMeK_wMr7_dd6vvRvLqk0J98MGZLNk,5689
+purepyvmware/datastores.py,sha256=urIdtVZutT0OyjYSDFwYGLTP18IAm0RS1PTRwtOBGXA,14206
+purepyvmware/lib/__init__.py,sha256=weYTIZR-PwdFfHzX3TH1OrqAJVphYITxIS4--Ty78dU,75
+purepyvmware/lib/datastore_utils.py,sha256=nooIq8z8TH8Nckh4sB7o1oH_L1uvhD1muN6oxsHxEIw,6633
+purepyvmware/lib/logging_utils.py,sha256=gbOumA2q4F2s04SbixyDm08ud0myeS0dTbEk0MmE8x4,531
+purepyvmware-1.0.0.dist-info/DESCRIPTION.rst,sha256=lHH9z1KPG_xM-Y2OzdZd-zXnewvhAPRY2xWlzSPMX_s,1004
+purepyvmware-1.0.0.dist-info/METADATA,sha256=0M8zgg4_cYBwfkclOYqtKUl2w9MdA18CcvDsptzEOpA,1618
+purepyvmware-1.0.0.dist-info/RECORD,,
+purepyvmware-1.0.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+purepyvmware-1.0.0.dist-info/metadata.json,sha256=MBgbSY6qIe4KIlul3iHnGlQidIvAFNpuQIA46yn3OuM,867
+purepyvmware-1.0.0.dist-info/top_level.txt,sha256=-33UZ-8itqFiwgVFUAme7FCk9IzJxKLg2q072TY04kM,13
