@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pulr
+Version: 0.0.2
+Summary: Industrial protocols data puller
+Home-page: https://github.com/alttch/pulr
+Author: Altertech
+Author-email: div@altertech.com
+License: Apache License 2.0
+Description: # pulr
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Communications
+Classifier: Topic :: System :: Networking :: Monitoring :: Hardware Watchdog
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Description-Content-Type: text/markdown
