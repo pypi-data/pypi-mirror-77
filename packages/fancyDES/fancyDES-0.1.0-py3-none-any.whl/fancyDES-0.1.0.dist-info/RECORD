@@ -1,0 +1,8 @@
+fancyDES/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fancyDES/fancyDES.py,sha256=x0qnnYAO-UToJwrlq1I2vvybNhZIUhf3XZdhpa3oHtw,10754
+fancyDES/sbox.py,sha256=IgmIxtAqDCg8JnMtqXwxm2Tf_2IAyZ5Hsn1svYgeBTA,3872
+fancyDES-0.1.0.dist-info/LICENSE,sha256=kCli5dSiEXJ7LTLSbmIMspx62k65-_DrJePjTHjSsE8,1078
+fancyDES-0.1.0.dist-info/METADATA,sha256=x6CEzS7KewJmPpsfk05CiTKa2hrTMX6dJdJ76TEwWHE,1084
+fancyDES-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+fancyDES-0.1.0.dist-info/top_level.txt,sha256=6JLLLKug3ZCYiIHmCvwkPUGF2SbzmaTO--ZTODRUQwk,9
+fancyDES-0.1.0.dist-info/RECORD,,
