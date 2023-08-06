@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: oas
+Version: 0.2.0
+Summary: Yet another OpenAPI 3 library
+Home-page: https://github.com/grktsh/python-oas
+License: UNKNOWN
+Description: python-oas
+        ==========
+        
+        .. image:: https://img.shields.io/pypi/v/oas.svg
+           :alt: PyPI
+           :target: https://pypi.org/project/oas
+        
+        .. image:: https://github.com/grktsh/python-oas/workflows/CI/badge.svg
+           :alt: CI
+           :target: https://github.com/grktsh/python-oas/actions
+        
+        .. image:: https://codecov.io/gh/grktsh/python-oas/branch/master/graph/badge.svg
+           :alt: Coverage
+           :target: https://codecov.io/gh/grktsh/python-oas
+        
+        Prerequisites
+        -------------
+        
+        - Validated OpenAPI 3 document
+        
+          - python-oas does not validate OpenAPI 3 document itself at runtime.  It should be validated in advance.
+        
+        Related projects
+        ----------------
+        
+        - `falcon-oas <https://github.com/grktsh/falcon-oas>`_ promotes the design first approach with OpenAPI 3 for Falcon
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: format
+Provides-Extra: test
