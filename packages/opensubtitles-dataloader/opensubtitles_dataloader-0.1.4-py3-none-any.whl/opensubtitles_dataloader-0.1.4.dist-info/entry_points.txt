@@ -1,0 +1,3 @@
+[console_scripts]
+opensubtitles-download=opensubtitles_dataloader.__main__:download
+
