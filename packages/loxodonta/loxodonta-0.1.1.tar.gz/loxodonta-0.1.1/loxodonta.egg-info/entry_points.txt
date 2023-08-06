@@ -1,0 +1,4 @@
+[console_scripts]
+loxo = loxodonta.cli:loxo_run
+loxo_config = loxodonta.cli:loxodonta_config
+
