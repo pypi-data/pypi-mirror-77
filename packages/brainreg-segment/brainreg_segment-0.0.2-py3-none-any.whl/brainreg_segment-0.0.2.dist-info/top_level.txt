@@ -1,0 +1,5 @@
+brainreg_segment
+build
+dist
+htmlcov
+travis
