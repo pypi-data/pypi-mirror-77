@@ -1,0 +1,12 @@
+README.md
+setup.py
+ThymioDirect_EPFL_Mobots.egg-info/PKG-INFO
+ThymioDirect_EPFL_Mobots.egg-info/SOURCES.txt
+ThymioDirect_EPFL_Mobots.egg-info/dependency_links.txt
+ThymioDirect_EPFL_Mobots.egg-info/requires.txt
+ThymioDirect_EPFL_Mobots.egg-info/top_level.txt
+thymiodirect/__init__.py
+thymiodirect/assembler.py
+thymiodirect/connection.py
+thymiodirect/message.py
+thymiodirect/thymio.py
