@@ -1,0 +1,8 @@
+README.md
+funneljoin.py
+setup.py
+funneljoin.egg-info/PKG-INFO
+funneljoin.egg-info/SOURCES.txt
+funneljoin.egg-info/dependency_links.txt
+funneljoin.egg-info/requires.txt
+funneljoin.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: funneljoin
+Version: 0.0.1
+Summary: Easy behavioral funnels with pandas or SQL
+Home-page: https://github.com/machow/funneljoin-py
+Author: Michael Chow
+Author-email: mc_al_github@fastmail.com
+License: UNKNOWN
+Description: # funneljoin-py
+        A python port of funneljoin, by Emily Robinson
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
