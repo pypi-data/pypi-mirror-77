@@ -1,0 +1,9 @@
+doc_dict/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doc_dict/datastructures.py,sha256=DEK3Tudfnk0ylVSstcNBEATdoZaIS2VE6OFLf4CjygA,1242
+doc_dict/factory.py,sha256=DQh6iwjI-FCSSK30sBOKq7Dc6JVVbZMbmwfyF7_3sFc,500
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_factory.py,sha256=avcm3kXdKtDXViO5GYCLL-Dw71RYSjyJlRjCSd6ZQVo,1918
+doc_dict-0.0.3.dist-info/METADATA,sha256=EsW0LJD6Nop0KUbiAt4SnnuQ8Ep77rEadTULMbksaQs,1310
+doc_dict-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+doc_dict-0.0.3.dist-info/top_level.txt,sha256=3FhqyRavKK_m52kapW3mi2L4_JSSr-WXcZs9hjVTXjY,15
+doc_dict-0.0.3.dist-info/RECORD,,
