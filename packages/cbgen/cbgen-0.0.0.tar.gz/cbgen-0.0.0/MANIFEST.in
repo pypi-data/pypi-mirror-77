@@ -1,0 +1,14 @@
+include LICENSE
+include README.md
+include bgen/athr.dll
+include bgen/bgen.dll
+include bgen/genotype.c
+include bgen/genotype.h
+include bgen/interface.h
+include bgen/libzstd.dll
+include bgen/partition.c
+include bgen/partition.h
+include bgen/samples.c
+include bgen/samples.h
+include bgen/zlib.dll
+include build_ext.py

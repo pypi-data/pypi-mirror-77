@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: cbgen
+Version: 0.0.0
+Summary: Python wrapper around bgen library
+Home-page: https://github.com/limix/cbgen
+Author: Danilo Horta
+Author-email: horta@ebi.ac.uk
+Maintainer: Danilo Horta
+Maintainer-email: horta@ebi.ac.uk
+License: MIT
+Download-URL: https://github.com/limix/cbgen
+Description: # cbgen
+        
+        Python wrapper around [bgen](https://github.com/limix/bgen) C library.
+        
+Keywords: bgen,reader,genetics
+Platform: Windows
+Platform: MacOS
+Platform: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
