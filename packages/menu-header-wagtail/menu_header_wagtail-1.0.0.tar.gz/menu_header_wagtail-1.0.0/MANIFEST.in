@@ -1,0 +1,24 @@
+include menu_header_wagtail/blocks/__init__.py
+include menu_header_wagtail/blocks/navbar_block.py
+
+include menu_header_wagtail/migrations/__init__.py
+include menu_header_wagtail/migrations/0001_initial.py
+
+include menu_header_wagtail/static/css/wagtail_admin_header_ui.css
+include menu_header_wagtail/static/css/menu_header_wagtail.scss
+include menu_header_wagtail/static/css/menu_header_wagtail.css
+include menu_header_wagtail/static/js/wagtail_admin_header_ui.js
+include menu_header_wagtail/static/js/menu_header_wagtail.js
+
+include menu_header_wagtail/templates/menu_header_wagtail/header_block.html
+include menu_header_wagtail/templates/menu_header_wagtail/menu/base_link_block.html
+include menu_header_wagtail/templates/menu_header_wagtail/menu/document_link_block.html
+include menu_header_wagtail/templates/menu_header_wagtail/menu/external_link_block.html
+include menu_header_wagtail/templates/menu_header_wagtail/menu/page_link_block.html
+
+include menu_header_wagtail/templatetags/__init__.py
+include menu_header_wagtail/templatetags/menu_header_wagtail_tag.py
+
+include menu_header_wagtail/__init__.py
+include menu_header_wagtail/models.py
+include menu_header_wagtail/wagtail_hooks.py

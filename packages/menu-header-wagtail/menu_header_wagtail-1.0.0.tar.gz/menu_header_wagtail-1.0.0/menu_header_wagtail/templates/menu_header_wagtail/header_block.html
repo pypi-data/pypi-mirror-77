@@ -1,0 +1,31 @@
+{% load static wagtailimages_tags %}
+
+<link rel="stylesheet" href="{% static 'css/menu_header_wagtail.css' %}">
+
+<div class="opacity" id="opacityDisplay"></div>
+<header id="headerUI" class="">
+    <div class="container">
+        <div class="brand">
+            {% if page.header.logo_type == "text" %}
+                <a class="logo" href="/">{{ page.header.text_logo }}</a>
+            {% else %}
+                {% image page.header.image_logo original as logo %}
+                <img src="{{ logo.url }}" alt="{{ logo.alt }}" class="img-logo" height="50">
+            {% endif %}
+            <div class="toggle" id="toggleAction">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <nav id="navMenu">
+            <ul>
+                {% for item in page.header.navigation %}
+                    {{ item }}
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</header>
+<script>
+    let header_fixed = {% if page.header.header_fixed %}true{% else %}false{% endif %};
+</script>
+<script src="{% static 'js/menu_header_wagtail.js' %}"></script>

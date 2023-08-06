@@ -1,0 +1,28 @@
+{% load wagtailcore_tags menu_header_wagtail_tag %}
+
+{% block menu_item %}
+    {% if value.page.live or value.link or value.document %}
+
+        {% is_menu_item_dropdown value as has_dropdown %}
+
+        <li {% if has_dropdown %}class="dropdown"{% endif %}>
+            <a class="{{ classname }}" href="{% block url %}#{% endblock %}" {% if value.open_page_new_window %}target="_blank" {% endif %}>
+                {% if value.display_text %}
+                    {{ value.display_text|safe }}
+                {% elif value.page %}
+                    {{ value.page.title }}
+                {% elif value.document %}
+                    {{ value.document.title }}
+                {% endif %}
+            </a>
+            {% if has_dropdown %}
+                <ul>
+                    {% for sub_link in value.sub_links %}
+                        {% include_block sub_link with classname="sub_" %}
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </li>
+    {% endif %}
+
+{% endblock %}
